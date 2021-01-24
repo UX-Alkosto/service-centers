@@ -1,0 +1,141 @@
+@themeName : 'kalley';
+@import './@{themeName}/variables.less';
+@import './common.less';
+
+#service-centers-map{
+    display: none;
+    @media screen and (min-width: @mobile-breakpoint) {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.service-centers {
+    padding: 0 16px;
+    overflow: hidden;
+
+    @media screen and (min-width: @mobile-breakpoint) {
+        padding: 0 50px;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-areas: 'sidebar';
+        grid-template-columns: 1fr;
+        width: 100%;
+
+        @media screen and (min-width: @mobile-breakpoint) {
+            grid-template-areas: 'sidebar _ map';
+            grid-template-columns: minmax(auto, 465px) 28px minmax(50%, auto);
+        }
+    }
+
+    &__filters {
+        display: grid;
+    }
+
+    &__map {
+        display: none;
+
+        @media screen and (min-width: @mobile-breakpoint) {
+            border: 5px solid var(--service-centers-gray-2);
+            display: block;
+            grid-area: map;
+            height: 390px;
+        }
+    }
+
+    &__menu {
+        grid-area: sidebar;
+
+        @media screen and (min-width: @mobile-breakpoint) {
+            max-height: 390px;
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: rgba(@black, .5);
+                border-radius: 10px;
+            }
+        }
+
+        &__item {
+            overflow: hidden;
+            width: 100%;
+
+            &__body {
+                background: var(--service-centers-gray-1);
+                color: var(--service-centers-gray-5);
+                max-height: 0;
+                padding: 0;
+                transition: all .25s ease-in-out;
+
+                .address,
+                .email,
+                .phone,
+                .schedules {
+                    display: flex;
+
+                    a {
+                        color: var(--service-centers-second-color);
+                    }
+
+                    p {
+                        font-size: 14px;
+                        margin: 0 0 32px;
+                        padding: 0 1em;
+
+                        &:first-child {
+                            padding-left: 0;
+                        }
+
+                        &:not(:last-child) {
+                            border-right: solid thin var(--service-centers-gray-2);
+                        }
+
+                        >strong {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            input {
+                opacity: 0;
+                position: absolute;
+                z-index: -1;
+
+                &:checked {
+                    ~.service-centers__menu__item__body {
+                        margin: .5em 0 0;
+                        max-height: 100vh;
+                        padding: .5em;
+                    }
+                }
+            }
+
+            label {
+                border-bottom: 1px solid var(--service-centers-gray-3);
+                color: var(--service-centers-first-color);
+                cursor: pointer;
+                display: flex;
+                font-size: 14px;
+                font-weight: bold;
+                justify-content: space-between;
+                padding: .5em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &__title {
+        color: var(--service-centers-gray-5);
+        font-size: 32px;
+        font-weight: bold;
+    }
+}

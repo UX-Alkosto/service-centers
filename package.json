@@ -1,0 +1,35 @@
+{
+  "name": "service-centers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "less-plugin-autoprefix": "^2.0.0",
+    "pixrem": "^5.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0"
+  },
+  "scripts": {
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UX-Alkosto/service-centers/stores.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Miguel Colmenares <me@miguelcolmenares.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UX-Alkosto/service-centers/issues"
+  },
+  "homepage": "https://github.com/UX-Alkosto/service-centers#readme"
+}
