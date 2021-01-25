@@ -31,6 +31,7 @@ export const app = {
             zoomControl: true,
         })
         infoWindow = new google.maps.InfoWindow()
+        return map
     }
 }
 let infoWindow, map;
