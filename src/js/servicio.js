@@ -72,7 +72,7 @@ import ServiceCenter from "./service-center.js"
     menuContainer = document.querySelector('.service-centers__menu'),
     updatedOptionsEvent = new Event('updated')
 
-    let mapElement, servicePointsCodes = [], enableFirst = true;
+    let mapElement, markers = [], servicePointsCodes = [], enableFirst = true;
 
     departmentSelect.append(departmentDefaultOption)
     citySelect.append(cityDefaultOption)
@@ -188,15 +188,18 @@ import ServiceCenter from "./service-center.js"
 
     async function getMarkersInfo(serviceCenterPoints) {
         const bounds = new google.maps.LatLngBounds()
+        markers.map(marker => marker.setMap(null))
         serviceCenterPoints.map(serviceCenter => {
             const marker = new google.maps.Marker({
                 position: new google.maps.LatLng(serviceCenter.coordinates.lat, serviceCenter.coordinates.lng),
                 map: mapElement,
             })
             bounds.extend(marker.getPosition())
+            markers.push(marker)
         })
         mapElement.setCenter(bounds.getCenter())
-        mapElement.fitBounds(bounds, 50)
+        mapElement.fitBounds(bounds)
+        if(mapElement.getZoom() > 18) mapElement.setZoom(18)
     }
 
     function renderServiceCenters(serviceCenterPoints) {
