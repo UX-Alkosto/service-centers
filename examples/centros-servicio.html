@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centros de Servicio</title>
+    <link rel="stylesheet" href="http://127.0.0.1:5500/dist/kalley/css/servicio.css">
+</head>
+<body>
+    <div class="service-centers">
+        <h2 class="service-centers__title">Centros de servicio</h2>
+        <div class="service-centers__filters">
+            <div class="service-centers__filters__departamento">
+                <label for="departamento">Departamento</label>
+                <select name="departamento" id="departamento" data-custom-select="true"></select>
+            </div>
+            <div class="service-centers__filters__ciudad">
+                <label for="ciudad">Ciudad</label>
+                <select name="ciudad" id="ciudad" data-custom-select="true"></select>
+            </div>
+            <div class="service-centers__filters__categoria">
+                <label for="categoria">Categoría</label>
+                <select name="categoria" id="categoria" data-custom-select="true"></select>
+            </div>
+        </div>
+        <p>Localiza los centros de servicio técnico:</p>
+        <div class="service-centers__container">
+            <div class="service-centers__menu">
+                <div class="service-centers__menu__item">
+                    <input type="radio" name="centro-servicio" id="venecia" checked>
+                    <label for="venecia">Centro servicio exclusivo venecia</label>
+                    <div class="service-centers__menu__item__body">
+                        <div class="schedules">
+                            <p><strong>Lunes a Viernes:</strong>
+                                11:00 a.m  - 3:00 p.m.</p>
+                            <p><strong>Sábados:</strong>
+                                11:00 a.m - 3:00 p.m.</p>
+                        </div>
+                        <div class="address">
+                            <p><strong>Dirección:</strong>
+                                Calle 44 sur # 68G 20</p>
+                        </div>
+                        <div class="email">
+                            <p><strong>Correo electrónico:</strong>
+                                <a href="mailto:csekalley@hotmail.com">csekalley@hotmail.com</a></p>
+                        </div>
+                        <div class="phone">
+                            <p><strong>Contacto telefónico:</strong>
+                                8146262 / 305 3097088</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-centers__menu__item">
+                    <input type="radio" name="centro-servicio" id="68">
+                    <label for="68">Centro servicio exclusivo 68</label>
+                    <div class="service-centers__menu__item__body">
+                        <div class="schedules">
+                            <p><strong>Lunes a Viernes:</strong>
+                                11:00 a.m - 3:00 p.m.</p>
+                            <p><strong>Sábados:</strong>
+                                11:00 a.m - 3:00 p.m.</p>
+                        </div>
+                        <div class="address">
+                            <p><strong>Dirección:</strong>
+                                Calle 44 sur # 68G 20</p>
+                        </div>
+                        <div class="email">
+                            <p><strong>Correo electrónico:</strong>
+                                <a href="mailto:csekalley@hotmail.com">csekalley@hotmail.com</a>
+                            </p>
+                        </div>
+                        <div class="phone">
+                            <p><strong>Contacto telefónico:</strong>
+                                8146262 / 305 3097088</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-centers__menu__item">
+                    <input type="radio" name="centro-servicio" id="servitec-jrs">
+                    <label for="servitec-jrs">Servitec JRS</label>
+                    <div class="service-centers__menu__item__body">
+                        <div class="schedules">
+                            <p><strong>Lunes a Viernes:</strong>
+                                11:00 a.m - 3:00 p.m.</p>
+                            <p><strong>Sábados:</strong>
+                                11:00 a.m - 3:00 p.m.</p>
+                        </div>
+                        <div class="address">
+                            <p><strong>Dirección:</strong>
+                                Calle 44 sur # 68G 20</p>
+                        </div>
+                        <div class="email">
+                            <p><strong>Correo electrónico:</strong>
+                                <a href="mailto:csekalley@hotmail.com">csekalley@hotmail.com</a>
+                            </p>
+                        </div>
+                        <div class="phone">
+                            <p><strong>Contacto telefónico:</strong>
+                                8146262 / 305 3097088</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-centers__map">
+                <div id="service-centers-map"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const serviceCentersJsonFile = 'http://127.0.0.1:5500/dist/kalley/json/service-centers.json';
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACAMxxFSoeTgM3KPi0y851lA4nYKihlmI&libraries=&v=beta"
+        defer></script>
+    <script type="module" crossorigin="anonymous" src="http://127.0.0.1:5500/dist/common/js/servicio.js"></script>
+</body>
+</html>

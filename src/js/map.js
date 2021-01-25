@@ -1,13 +1,4 @@
-let infoWindow, map;
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-    infoWindow.setPosition(pos)
-    infoWindow.setContent(
-        browserHasGeolocation
-            ? "Error: The Geolocation service failed."
-            : "Error: Your browser doesn't support geolocation."
-    )
-    infoWindow.open(map)
-}
+
 export const app = {
     getGeo: async () => {
         if (navigator.geolocation) {
@@ -41,4 +32,14 @@ export const app = {
         })
         infoWindow = new google.maps.InfoWindow()
     }
+}
+let infoWindow, map;
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos)
+    infoWindow.setContent(
+        browserHasGeolocation
+            ? "Error: The Geolocation service failed."
+            : "Error: Your browser doesn't support geolocation."
+    )
+    infoWindow.open(map)
 }

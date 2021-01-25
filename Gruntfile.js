@@ -50,6 +50,7 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     'dist/common/js/map.js': ['src/js/map.js'],
+                    'dist/common/js/select.js': ['src/js/select.js'],
                     'dist/common/js/servicio.js': ['src/js/servicio.js']
                 },
             }

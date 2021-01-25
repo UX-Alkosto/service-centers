@@ -23,6 +23,20 @@ body {
 	padding: 0;
 }
 
+.scroll() {
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: rgba(@black, .5);
+		border-radius: 10px;
+	}
+}
+
 @font-face {
 	font-family: 'service-centers';
 	src: url('../../common/fonts/service-centers.eot?dgyklf');

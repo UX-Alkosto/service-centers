@@ -1,6 +1,7 @@
 @themeName : 'kalley';
 @import './@{themeName}/variables.less';
 @import './common.less';
+@import './select.less';
 
 #service-centers-map{
     display: none;
@@ -32,7 +33,26 @@
     }
 
     &__filters {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media screen and (min-width: @mobile-breakpoint) {
+            flex-direction: row;
+        }
+        [class*="service-centers__filters"] {
+            flex: 1;
+            margin-bottom: 1.25em;
+            @media screen and (min-width: @mobile-breakpoint) {
+                flex-basis: 33%;
+                padding: 0 1em;
+                &:first-child{
+                    padding-left: 0;
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
     }
 
     &__map {
@@ -51,17 +71,7 @@
 
         @media screen and (min-width: @mobile-breakpoint) {
             max-height: 390px;
-            overflow-x: hidden;
-            overflow-y: auto;
-
-            &::-webkit-scrollbar {
-                width: 8px;
-            }
-
-            &::-webkit-scrollbar-thumb {
-                background-color: rgba(@black, .5);
-                border-radius: 10px;
-            }
+            .scroll();
         }
 
         &__item {
