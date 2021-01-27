@@ -1,4 +1,4 @@
-import { geocoder, infoWindow, app as map } from "./map.js"
+import { geocoder, infoWindow, map, markers } from "./map.js"
 import Select from "./select.js"
 import ServiceCenter from "./service-center.js"
 (() => {
@@ -30,7 +30,7 @@ import ServiceCenter from "./service-center.js"
                 return `<div class="service-centers__menu__item">
                     <input type="radio" name="centro-servicio" id="${id}" ${active ? 'checked' : ''}>
                     <label for="${id}">${name}</label>
-                    <div class="service-centers__menu__item__body">
+                    <div class="service-centers__menu__item__body" data-service-center="${id}">
                         <div class="schedules">
                             <p><strong>Lunes a Viernes:</strong>
                                 11:00 a.m  - 3:00 p.m.</p>
@@ -56,6 +56,16 @@ import ServiceCenter from "./service-center.js"
                         </div>` : ''}
                     </div>
                 </div>`;
+            },
+            animateMarker: () => {
+                document.querySelectorAll('.service-centers__menu__item__body').forEach(menuItem => {
+                    menuItem.addEventListener('mouseenter', () => {
+                        map.bounceMarker(menuItem.dataset.serviceCenter, 'start' )
+                    })
+                    menuItem.addEventListener('mouseleave', () => {
+                        map.bounceMarker(menuItem.dataset.serviceCenter, 'stop')
+                    })
+                })
             }
         },
         select: {
@@ -73,7 +83,6 @@ import ServiceCenter from "./service-center.js"
 
     let enableFirst = true,
         mapElement,
-        markers = [],
         servicePointsCodes = []
 
     departmentSelect.append(departmentDefaultOption)
@@ -128,7 +137,8 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    renderMarkers(servicePoints)
+                    map.renderMarkers(servicePoints)
+                    serviceCenters.menu.animateMarker()
                 })
                 // Get Cities and render options in dropdown
                 Object.entries(cities[departmentSelect.value].cities).map(cityData => {
@@ -162,7 +172,8 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    renderMarkers(servicePoints)
+                    map.renderMarkers(servicePoints)
+                    serviceCenters.menu.animateMarker()
                 })
                 Object.entries(cities[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
                     const category = categories[categoryData[0]].name,
@@ -184,7 +195,8 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    renderMarkers(servicePoints)
+                    map.renderMarkers(servicePoints)
+                    serviceCenters.menu.animateMarker()
                 })
                 servicePointsCodes = [] // Reset service array
             })
@@ -205,23 +217,6 @@ import ServiceCenter from "./service-center.js"
             servicePoint = { ...servicePoint, ...stores[code] }
             return new ServiceCenter(servicePoint)
         })
-    }
-
-    async function renderMarkers(serviceCenterPoints) {
-        const bounds = new google.maps.LatLngBounds()
-        markers.map(marker => marker.setMap(null))
-        serviceCenterPoints.map(serviceCenter => {
-            const marker = new google.maps.Marker({
-                position: new google.maps.LatLng(serviceCenter.coordinates.lat, serviceCenter.coordinates.lng),
-                map: mapElement,
-                icon: `/dist/${serviceCentersConfig.site}/img/pin.svg`
-            })
-            bounds.extend(marker.getPosition())
-            markers.push(marker)
-        })
-        mapElement.setCenter(bounds.getCenter())
-        mapElement.fitBounds(bounds)
-        if(mapElement.getZoom() > 18) mapElement.setZoom(18)
     }
 
     function renderServiceCenters(serviceCenterPoints) {
