@@ -54,6 +54,7 @@ function initSelect(select) {
     select.element.addEventListener('updated', () => {
         select.options = getOptions(select.element.querySelectorAll('option'))
         select.valueElement.innerText = select.selectedOption.label
+        select.valueElement.dataset.status = ''
         renderOptions(select)
     })
 
