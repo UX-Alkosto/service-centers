@@ -1,4 +1,4 @@
-import { app as map } from "./map.js"
+import { geocoder, infoWindow, app as map } from "./map.js"
 import Select from "./select.js"
 import ServiceCenter from "./service-center.js"
 (() => {
@@ -14,16 +14,13 @@ import ServiceCenter from "./service-center.js"
             }
         },
         map: {
-            init: async () => {
-                mapElement = await map.init('#service-centers-map')
-                // TODO: Get location and center map with near service centers
-            }
+            init: async () => mapElement = await map.init('#service-centers-map')
         },
         menu: {
             render: ({
                 active,
                 address,
-                cell,
+                cellphone,
                 email,
                 hours,
                 id,
@@ -46,21 +43,23 @@ import ServiceCenter from "./service-center.js"
                         </div>
                         <div class="email">
                             <p><strong>Correo electrónico:</strong>
-                                <a href="mailto:${email}" target="_blank" rel="nooppener">${email}</a></p>
+                                <a href="mailto:${email}" target="_blank" rel="nooppener">${email}</a>
+                            </p>
                         </div>
                         ${phone !== null ? `<div class="phone">
                             <p><strong>Contacto telefónico:</strong>
                                 ${phone}</p>
+                        </div>` : ''}
+                        ${cellphone !== null ? `<div class="cell">
+                            <p><strong>Celular:</strong>
+                                ${cellphone}</p>
                         </div>` : ''}
                     </div>
                 </div>`;
             }
         },
         select: {
-            init : () => {
-                const customSelects = document.querySelectorAll('[data-custom-select')
-                customSelects.forEach(selectElement => new Select(selectElement))
-            }
+            init: () => document.querySelectorAll('[data-custom-select').forEach(selectElement => new Select(selectElement))
         }
     },
     departmentSelect = document.getElementById('departamento'),
@@ -72,14 +71,22 @@ import ServiceCenter from "./service-center.js"
     menuContainer = document.querySelector('.service-centers__menu'),
     updatedOptionsEvent = new Event('updated')
 
-    let mapElement, markers = [], servicePointsCodes = [], enableFirst = true;
+    let enableFirst = true,
+        mapElement,
+        markers = [],
+        servicePointsCodes = []
 
     departmentSelect.append(departmentDefaultOption)
     citySelect.append(cityDefaultOption)
     categorySelect.append(categoryDefaultOption)
 
-    if (serviceCentersJsonFile !== undefined) {
-        serviceCenters.get(serviceCentersJsonFile).then(({categories, cities, stores}) => {
+    if (serviceCentersConfig.jsonFile !== undefined) {
+        serviceCenters.get(serviceCentersConfig.jsonFile).then(async({categories, cities, stores}) => {
+            await serviceCenters.map.init().then(() => {
+                infoWindow.setPosition(mapElement.getCenter())
+                infoWindow.setContent('Selecciona un departamento') // Set default message
+                infoWindow.open(mapElement)
+            })
             // get departments and render options in dropdown
             Object.entries(cities).map(departmentData => {
                 const department = departmentData[1],
@@ -87,14 +94,28 @@ import ServiceCenter from "./service-center.js"
                     option = new Option(department.name, label)
                 departmentSelect.append(option)
             })
+            // map.getGeo().then(position => {
+            //     if (position.message) return
+            //     mapElement.setCenter(position)
+            //     geocoder.geocode({ location: position }, (results, status) => {
+            //         if (status === "OK") {
+            //             if (results[0]) {
+            //                 const locationData = results[0]
+            //                 locationData.address_components.map(components => {
+            //                     console.log(components)
+            //                 })
+            //             }
+            //         }
+            //     })
+            // })
 
-            // Auto initialize init functions
-            Object.values(serviceCenters).map(method => method.init !== undefined ? method.init.call() : '')
+            serviceCenters.select.init() // init custom dropdowns
 
-            departmentSelect.addEventListener('change', () => {
+            departmentSelect.addEventListener('change', async () => {
                 enableFirst = true
                 citySelect.innerHTML = "" // reset cities select element
                 citySelect.append(cityDefaultOption)
+                infoWindow.close()
                 Object.values(cities[departmentSelect.value].cities).map(({ categories }) => {
                     return Object.values(categories).map(({ stores }) => {
                         return stores.map(store => {
@@ -107,7 +128,7 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    getMarkersInfo(servicePoints)
+                    renderMarkers(servicePoints)
                 })
                 // Get Cities and render options in dropdown
                 Object.entries(cities[departmentSelect.value].cities).map(cityData => {
@@ -122,7 +143,7 @@ import ServiceCenter from "./service-center.js"
                 categorySelect.innerHTML = ""
                 categorySelect.append(categoryDefaultOption)
                 categorySelect.dispatchEvent(updatedOptionsEvent)
-                servicePointsCodes = []
+                servicePointsCodes = [] // Reset service array
             })
 
             citySelect.addEventListener('change', () => {
@@ -141,7 +162,7 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    getMarkersInfo(servicePoints)
+                    renderMarkers(servicePoints)
                 })
                 Object.entries(cities[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
                     const category = categories[categoryData[0]].name,
@@ -150,7 +171,7 @@ import ServiceCenter from "./service-center.js"
                     categorySelect.append(option)
                 })
                 categorySelect.dispatchEvent(updatedOptionsEvent)
-                servicePointsCodes = []
+                servicePointsCodes = [] // Reset service array
             })
 
             categorySelect.addEventListener('change', () => {
@@ -163,9 +184,9 @@ import ServiceCenter from "./service-center.js"
                     stores: stores
                 }).then(servicePoints => {
                     renderServiceCenters(servicePoints)
-                    getMarkersInfo(servicePoints)
+                    renderMarkers(servicePoints)
                 })
-                servicePointsCodes = []
+                servicePointsCodes = [] // Reset service array
             })
         })
     }
@@ -186,13 +207,14 @@ import ServiceCenter from "./service-center.js"
         })
     }
 
-    async function getMarkersInfo(serviceCenterPoints) {
+    async function renderMarkers(serviceCenterPoints) {
         const bounds = new google.maps.LatLngBounds()
         markers.map(marker => marker.setMap(null))
         serviceCenterPoints.map(serviceCenter => {
             const marker = new google.maps.Marker({
                 position: new google.maps.LatLng(serviceCenter.coordinates.lat, serviceCenter.coordinates.lng),
                 map: mapElement,
+                icon: `/dist/${serviceCentersConfig.site}/img/pin.svg`
             })
             bounds.extend(marker.getPosition())
             markers.push(marker)

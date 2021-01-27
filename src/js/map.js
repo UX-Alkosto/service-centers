@@ -1,46 +1,40 @@
 
-export const app = {
+const app = {
     getGeo: async () => {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                position => {
-                    const pos = {
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude,
-                    }
-                    map.setCenter(pos) //center map based on geolocation
-                },
-                () => {
-                    handleLocationError(true, infoWindow, map.getCenter())
-                }
-            )
-        } else {
-            // Browser doesn't support Geolocation
-            handleLocationError(false, infoWindow, map.getCenter())
+        try {
+            return await getCoordinates().then(response => response)
+        } catch (error) {
+            return error
         }
     },
     init: async $element => {
         map = await new google.maps.Map(document.querySelector($element), {
-            center: {
-                lat: 4.6482837,
-                lng: -74.2478938
-            },
+            center: new google.maps.LatLng(4.6482837, -74.2478938),
             disableDefaultUI: true,
             draggable: false,
-            zoom: 9,
+            zoom: 10,
             zoomControl: true,
         })
         infoWindow = new google.maps.InfoWindow()
+        geocoder = new google.maps.Geocoder()
         return map
     }
 }
-let infoWindow, map;
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-    infoWindow.setPosition(pos)
-    infoWindow.setContent(
-        browserHasGeolocation
-            ? "Error: The Geolocation service failed."
-            : "Error: Your browser doesn't support geolocation."
-    )
-    infoWindow.open(map)
+let geocoder, infoWindow, map;
+
+async function getCoordinates() {
+    return new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+                resolve({
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                })
+            },
+            error => {
+                reject(error)
+            }
+        )
+    })
 }
+export {geocoder, infoWindow, app}

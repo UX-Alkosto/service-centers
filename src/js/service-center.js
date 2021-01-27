@@ -1,7 +1,7 @@
 export default class ServiceCenter {
     constructor({
         address= '',
-        cellphone = '',
+        cell = '',
         coordinates = {},
         email = '',
         hours = '',
@@ -11,7 +11,7 @@ export default class ServiceCenter {
     }){
         this.active = false
         this.address = address
-        this.cellphone = cellphone
+        this.cellphone = cell
         this.coordinates = coordinates
         this.email = email
         this.hours = hours
