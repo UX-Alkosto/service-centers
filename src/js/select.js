@@ -31,6 +31,7 @@ export default class Select {
         this.element.dispatchEvent((new Event('change')))
 
         this.valueElement.innerText = newSelectedOption.label
+        this.valueElement.dataset.status = 'filled'
     }
 }
 

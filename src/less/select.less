@@ -9,13 +9,25 @@
     }
 
     &__container {
+        border-radius: 4px;
         display: inline-block;
+        outline: none;
         position: relative;
         width: 100%;
+
+        &:focus {
+            outline: none;
+
+            &>.custom-select__value {
+                border: 1px solid var(--service-centers-third-color);
+                box-shadow: 0px 0px 4px rgba(@brand-third-color, .4);
+            }
+        }
     }
 
     &__label {
         background-color: var(--service-centers-white);
+        color: var(--service-centers-gray-5);
         font-size: 11px;
         left: .5em;
         padding: 0 .5em;
@@ -24,15 +36,16 @@
     }
 
     &__option {
+        color: var(--service-centers-gray-4);
         cursor: pointer;
+        font-size: 14px;
         padding: .25em .5em;
-        &:nth-child(even){
+
+        &:hover {
             background-color: var(--service-centers-gray-1);
         }
-        &:hover{
-            background-color: var(--service-centers-gray-2);
-        }
-        &[data-value="0"]{
+
+        &[data-value="0"] {
             cursor: not-allowed;
         }
     }
@@ -52,6 +65,7 @@
         width: calc(~"100% - .5em");
         z-index: 1;
         .scroll();
+
         &.show {
             display: block;
         }
@@ -59,14 +73,27 @@
 
     &__value {
         align-items: center;
-        border: 1px solid var(--service-centers-gray-3);
-        border-radius : 4px;
+        border: 1px solid var(--service-centers-gray-2);
+        border-radius: 4px;
+        color: var(--service-centers-gray-4);
         cursor: pointer;
         display: flex;
         font-size: 16px;
-        line-height: 1.75em;
+        height: 40px;
+        line-height: 19px;
         justify-content: space-between;
-        padding: .25em .5em;
+        outline: none;
+        padding: 8px 16px;
+        transition: .25s all ease-in-out;
         user-select: none;
+
+        &[data-status="filled"] {
+            border: 1px solid var(--service-centers-third-color);
+            color: var(--service-centers-gray-5);
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 4px rgba(@gray-6, .4)
+        }
     }
 }
