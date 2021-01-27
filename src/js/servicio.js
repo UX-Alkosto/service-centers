@@ -136,8 +136,8 @@ import ServiceCenter from "./service-center.js"
                     servicePointsCodes: servicePointsCodes,
                     stores: stores
                 }).then(servicePoints => {
-                    renderServiceCenters(servicePoints)
-                    map.renderMarkers(servicePoints)
+                    setServiceCenters(servicePoints)
+                    map.setMarkers(servicePoints)
                     serviceCenters.menu.animateMarker()
                 })
                 // Get Cities and render options in dropdown
@@ -171,8 +171,8 @@ import ServiceCenter from "./service-center.js"
                     servicePointsCodes: servicePointsCodes,
                     stores: stores
                 }).then(servicePoints => {
-                    renderServiceCenters(servicePoints)
-                    map.renderMarkers(servicePoints)
+                    setServiceCenters(servicePoints)
+                    map.setMarkers(servicePoints)
                     serviceCenters.menu.animateMarker()
                 })
                 Object.entries(cities[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
@@ -194,8 +194,8 @@ import ServiceCenter from "./service-center.js"
                     servicePointsCodes: servicePointsCodes,
                     stores: stores
                 }).then(servicePoints => {
-                    renderServiceCenters(servicePoints)
-                    map.renderMarkers(servicePoints)
+                    setServiceCenters(servicePoints)
+                    map.setMarkers(servicePoints)
                     serviceCenters.menu.animateMarker()
                 })
                 servicePointsCodes = [] // Reset service array
@@ -219,7 +219,7 @@ import ServiceCenter from "./service-center.js"
         })
     }
 
-    function renderServiceCenters(serviceCenterPoints) {
+    function setServiceCenters(serviceCenterPoints) {
         //reset menu items
         menuContainer.innerHTML = ""
         // render service points menu items

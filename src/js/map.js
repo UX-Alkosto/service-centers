@@ -1,4 +1,3 @@
-
 const map = {
     bounceMarker: (serviceCenterId, status) => {
         // Find the correct marker to bounce based on the serviceCenterId.
@@ -16,7 +15,27 @@ const map = {
             return error
         }
     },
-    renderMarkers: async serviceCenterPoints => {
+    init: async $element => {
+        mapElement = await new google.maps.Map(document.querySelector($element), {
+            center: new google.maps.LatLng(4.6482837, -74.2478938),
+            disableDefaultUI: true,
+            draggable: true,
+            zoom: 10,
+            zoomControl: true,
+        })
+        geocoder = new google.maps.Geocoder()
+        infoWindow = new google.maps.InfoWindow()
+        return mapElement
+    },
+    setInfoWindow: serviceCenter => {
+        return `<div class="service-centers__map__info-window">
+            <h4>${serviceCenter.name}</h4>
+            <p><strong>Dirección:</strong><br />
+            ${serviceCenter.address}
+            </p>
+        </div>`;
+    },
+    setMarkers: async serviceCenterPoints => {
         bounds = new google.maps.LatLngBounds()
         markers.map(marker => marker.setMap(null))
         serviceCenterPoints.map(serviceCenter => {
@@ -26,8 +45,10 @@ const map = {
                 icon: `/dist/${serviceCentersConfig.site}/img/pin.svg`,
                 title: serviceCenter.name
             })
-            marker.addListener('click', (event) => {
-                console.log(event)
+            marker.addListener('click', () => {
+                infoWindow.setContent(map.setInfoWindow(serviceCenter))
+                infoWindow.open(mapElement, marker)
+                mapElement.panTo(marker.getPosition())
             })
             bounds.extend(marker.getPosition())
             markers[serviceCenter.id] = marker
@@ -35,18 +56,6 @@ const map = {
         mapElement.setCenter(bounds.getCenter())
         mapElement.fitBounds(bounds)
         if (mapElement.getZoom() > 18) mapElement.setZoom(18)
-    },
-    init: async $element => {
-        mapElement = await new google.maps.Map(document.querySelector($element), {
-            center: new google.maps.LatLng(4.6482837, -74.2478938),
-            disableDefaultUI: true,
-            draggable: false,
-            zoom: 10,
-            zoomControl: true,
-        })
-        geocoder = new google.maps.Geocoder()
-        infoWindow = new google.maps.InfoWindow()
-        return mapElement
     }
 }
 let bounds, geocoder, infoWindow, mapElement, markers = [];
