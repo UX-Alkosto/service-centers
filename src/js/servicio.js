@@ -29,7 +29,7 @@ import ServiceCenter from "./service-center.js"
             }) => {
                 return `<div class="service-centers__menu__item">
                     <input type="radio" name="centro-servicio" id="${id}" ${active ? 'checked' : ''}>
-                    <label for="${id}">${name}</label>
+                    <label for="${id}">${name}<span class="${active ? 'alk-icon-arrow-up' : 'alk-icon-arrow-down'}"></span></label>
                     <div class="service-centers__menu__item__body" data-service-center="${id}">
                         <div class="schedules">
                             <p><strong>Lunes a Viernes:</strong>
@@ -56,6 +56,20 @@ import ServiceCenter from "./service-center.js"
                         </div>` : ''}
                     </div>
                 </div>`;
+            },
+            toogleArrow: () => {
+                const menuItems = document.querySelectorAll('.service-centers__menu__item > input')
+                menuItems.forEach(menuItem => {
+                    menuItem.addEventListener('change', (e) => {
+                        menuItems.forEach(otherMenuItem => {
+                            const icon = otherMenuItem.nextElementSibling.querySelector('span')
+                            if (e.target === otherMenuItem)
+                                icon.classList.replace('alk-icon-arrow-down', 'alk-icon-arrow-up')
+                            else
+                                icon.classList.replace('alk-icon-arrow-up', 'alk-icon-arrow-down')
+                        })
+                    })
+                })
             },
             animateMarker: () => {
                 document.querySelectorAll('.service-centers__menu__item__body').forEach(menuItem => {
@@ -138,6 +152,7 @@ import ServiceCenter from "./service-center.js"
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
                     map.setMarkers(servicePoints)
+                    serviceCenters.menu.toogleArrow()
                     serviceCenters.menu.animateMarker()
                 })
                 // Get Cities and render options in dropdown
@@ -173,6 +188,7 @@ import ServiceCenter from "./service-center.js"
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
                     map.setMarkers(servicePoints)
+                    serviceCenters.menu.toogleArrow()
                     serviceCenters.menu.animateMarker()
                 })
                 Object.entries(cities[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
@@ -196,6 +212,7 @@ import ServiceCenter from "./service-center.js"
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
                     map.setMarkers(servicePoints)
+                    serviceCenters.menu.toogleArrow()
                     serviceCenters.menu.animateMarker()
                 })
                 servicePointsCodes = [] // Reset service array

@@ -4,6 +4,7 @@ export default class Select {
         this.label = $element.labels[0]
         this.options = getOptions($element.querySelectorAll('option'))
         this.customElement = document.createElement('div')
+        this.arrowElement = document.createElement('span')
         this.labelElement = document.createElement('span')
         this.valueElement = document.createElement('span')
         this.optionsCustomElement = document.createElement('ul')
@@ -43,6 +44,12 @@ function initSelect(select) {
     select.labelElement.innerText = select.label.textContent
     select.customElement.append(select.labelElement)
 
+    const arrowIcon = document.createElement('span')
+    arrowIcon.classList.add('alk-icon-arrow-down')
+    select.arrowElement.append(arrowIcon)
+    select.arrowElement.classList.add('custom-select__arrow')
+    select.customElement.append(select.arrowElement)
+
     select.valueElement.classList.add('custom-select__value')
     select.valueElement.innerText = select.selectedOption.label
     select.customElement.append(select.valueElement)
@@ -58,13 +65,24 @@ function initSelect(select) {
         renderOptions(select)
     })
 
-    select.valueElement.addEventListener('click', () => {
-        select.optionsCustomElement.classList.toggle('show')
-    })
+    select.arrowElement.addEventListener('click', () => showOptions(select))
+
+    select.valueElement.addEventListener('click', () => showOptions(select))
 
     select.customElement.addEventListener('blur', () => {
+        select.arrowElement.querySelector('span').classList.replace('alk-icon-arrow-up', 'alk-icon-arrow-down')
         select.optionsCustomElement.classList.remove('show')
     })
+}
+
+function showOptions(select) {
+    const icon = select.arrowElement.querySelector('span')
+    if (icon.classList.contains('alk-icon-arrow-down'))
+        icon.classList.replace('alk-icon-arrow-down', 'alk-icon-arrow-up')
+    else
+        icon.classList.replace('alk-icon-arrow-up', 'alk-icon-arrow-down')
+
+    select.optionsCustomElement.classList.toggle('show')
 }
 
 function renderOptions(select) {
@@ -84,6 +102,7 @@ function renderOptions(select) {
             select.selectValue(option.value)
             optionElement.classList.add('selected')
             select.optionsCustomElement.classList.remove('show')
+            select.customElement.blur()
         })
         select.optionsCustomElement.append(optionElement)
     })

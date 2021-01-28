@@ -1,4 +1,5 @@
 @themeName : 'kalley';
+@import url('https://cdn.jsdelivr.net/gh/UX-Alkosto/UX-Alkosto.github.io/style.min.css');
 @import './@{themeName}/variables.less';
 @import './common.less';
 @import './select.less';
@@ -13,11 +14,16 @@
 }
 
 .service-centers {
+    font-family: var(--service-centers-font-family);
     padding: 0 16px;
     overflow: hidden;
 
     @media screen and (min-width: @mobile-breakpoint) {
         padding: 0 50px;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 
     &__container {
@@ -36,22 +42,14 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2em;
         @media screen and (min-width: @mobile-breakpoint) {
             flex-direction: row;
         }
         [class*="service-centers__filters"] {
             flex: 1;
             margin-bottom: 1.25em;
-            @media screen and (min-width: @mobile-breakpoint) {
-                flex-basis: 33%;
-                padding: 0 1em;
-                &:first-child{
-                    padding-left: 0;
-                }
-                &:last-child {
-                    padding-right: 0;
-                }
-            }
         }
     }
 
@@ -149,7 +147,17 @@
                 font-weight: bold;
                 justify-content: space-between;
                 padding: .5em;
+                position: relative;
                 text-transform: uppercase;
+                > span {
+                    bottom: 0;
+                    font-size: 22px;
+                    line-height: 32px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 24px;
+                }
             }
         }
     }
