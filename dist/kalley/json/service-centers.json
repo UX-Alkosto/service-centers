@@ -1401,7 +1401,8 @@
                 ""
             ],
             "view-map":"https://www.google.com/maps/dir//Cl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca/@4.0822701,-76.2032486,17z/data=!4m17!1m7!3m6!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2sCl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca!3b1!8m2!3d4.0822701!4d-76.2010599!4m8!1m0!1m5!1m1!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2m2!1d-76.2010599!2d4.0822701!3e3"
-        },
+        }
+    },
     "deparments": {
         "amazonas": {
             "name": "Amazonas",
