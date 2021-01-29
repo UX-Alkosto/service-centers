@@ -5,10 +5,10 @@ export default class Map {
     }) {
         this.$element = $element,
         this.baseSite = baseSite,
-        this.bounds = new google.maps.LatLngBounds(),
+        this.bounds,
         this.geocoder = new google.maps.Geocoder(),
         this.infoWindow = new google.maps.InfoWindow(),
-        this.markers = [],
+        this.markers = {},
         this.map
 
         this.init()
@@ -16,11 +16,9 @@ export default class Map {
 
     bounceMarker(locationId, status) {
         // Find the correct marker to bounce based on the locationId.
-        if(this.markers.length) {
-            if (this.markers[locationId] !== undefined) {
-                if (status == "start") this.markers[locationId].setAnimation(google.maps.Animation.BOUNCE)
-                else this.markers[locationId].setAnimation(null)
-            }
+        if (this.markers[locationId] !== undefined) {
+            if (status === "start") this.markers[locationId].setAnimation(google.maps.Animation.BOUNCE)
+            else this.markers[locationId].setAnimation(null)
         }
     }
 
@@ -49,12 +47,16 @@ export default class Map {
             <p><strong>Dirección:</strong><br />
             ${location.address}
             </p>
+            <p>
+            <a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}">¿Cómo llegar?</a>
+            </p>
         </div>`;
     }
 
     async setMarkers(locationPoints) {
         this.bounds = new google.maps.LatLngBounds()
-        this.markers.map(marker => marker.setMap(null))
+        Object.values(this.markers).map(marker => marker.setMap(null))
+        this.markers = {}
         locationPoints.map(location => {
             const marker = new google.maps.Marker({
                 position: new google.maps.LatLng(location.coordinates.lat, location.coordinates.lng),
@@ -73,6 +75,7 @@ export default class Map {
         this.map.setCenter(this.bounds.getCenter())
         this.map.fitBounds(this.bounds)
         if (this.map.getZoom() > 18) this.map.setZoom(18)
+        return this.markers
     }
 }
 

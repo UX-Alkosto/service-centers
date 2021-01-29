@@ -4,8 +4,9 @@
 @import './common.less';
 @import './select.less';
 
-#service-centers-map{
+#service-centers-map {
     display: none;
+
     @media screen and (min-width: @mobile-breakpoint) {
         display: block;
         height: 100%;
@@ -44,9 +45,11 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 2em;
+
         @media screen and (min-width: @mobile-breakpoint) {
             flex-direction: row;
         }
+
         [class*="service-centers__filters"] {
             flex: 1;
         }
@@ -61,14 +64,20 @@
             grid-area: map;
             height: 390px;
         }
+
         &__info-window {
             font-family: var(--service-centers-font-family);
+
             h4 {
                 color: var(--service-centers-first-color);
                 margin: 0 0 8px;
             }
+
             p {
-                margin: 0;
+                margin: 0 0 8px;
+                a {
+                    color: var(--service-centers-second-color);
+                }
             }
         }
     }
@@ -94,18 +103,37 @@
 
                 .address,
                 .cell,
-                .email,
+                .how-to-get,
                 .phone,
+                .contact-phones,
                 .schedules {
                     display: flex;
+                }
+
+                .contact-phones {
+                    gap: 1em;
+
+                    >* {
+                        flex-basis: 50%;
+                    }
+                }
+
+                .address,
+                .cell,
+                .how-to-get,
+                .phone,
+                .schedules {
 
                     a {
                         color: var(--service-centers-second-color);
+                        + a {
+                            margin-left: 8px;
+                        }
                     }
 
                     p {
                         font-size: 14px;
-                        margin: 0 0 32px;
+                        margin: 0 0 16px;
                         padding: 0 1em;
 
                         &:first-child {
@@ -148,7 +176,8 @@
                 padding: .5em;
                 position: relative;
                 text-transform: uppercase;
-                > span {
+
+                >span {
                     bottom: 0;
                     font-size: 22px;
                     line-height: 32px;

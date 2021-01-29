@@ -3,21 +3,21 @@ export default class ServiceCenter {
         address= '',
         cell = [],
         coordinates = {},
-        email = [],
         hours = [],
         id = '',
+        name = '',
         phone = [],
-        title = ''
+        viewMap = ""
     }){
         this.isActive = false
         this.address = address
         this.cellphone = cell
         this.coordinates = coordinates
-        this.email = email
         this.hours = hours
         this.id = id
-        this.name = title
+        this.name = name
         this.phone = phone
+        this.map = viewMap
     }
 
     get active(){

@@ -15,8 +15,8 @@ import ServiceCenter from "./service-center.js"
         },
         map: {
             init: async () => {
-                mapElement = await new Map({
-                    $element : '#service-centers-map',
+                mapElement = new Map({
+                    $element: '#service-centers-map',
                     baseSite: appConfig.site
                 })
             }
@@ -26,9 +26,8 @@ import ServiceCenter from "./service-center.js"
                 active,
                 address,
                 cellphone,
-                email,
-                hours,
                 id,
+                map,
                 name,
                 phone
             }) => {
@@ -36,29 +35,27 @@ import ServiceCenter from "./service-center.js"
                     <input type="radio" name="centro-servicio" id="${id}" ${active ? 'checked' : ''}>
                     <label for="${id}">${name}<span class="${active ? 'alk-icon-arrow-up' : 'alk-icon-arrow-down'}"></span></label>
                     <div class="service-centers__menu__item__body" data-service-center="${id}">
-                        <div class="schedules">
-                            <p><strong>Lunes a Viernes:</strong>
-                                11:00 a.m  - 3:00 p.m.</p>
-                            <p><strong>Sábados:</strong>
-                                11:00 a.m - 3:00 p.m.</p>
-                        </div>
                         <div class="address">
                             <p><strong>Dirección:</strong>
                                 ${address}</p>
                         </div>
-                        <div class="email">
-                            <p><strong>Correo electrónico:</strong>
-                                <a href="mailto:${email}" target="_blank" rel="nooppener">${email}</a>
+                        <div class="contact-phones">
+                            ${phone.length ? `<div class="phone">
+                                <p><strong>Contacto telefónico:</strong>
+                                    ${phone.map(p => `<a href="tel:+57${p.replace(/\s/g, '')}" title="Llamar a ${name}">${p}</a>`)}
+                                </p>
+                            </div>` : ''}
+                            ${cellphone.length ? `<div class="cell">
+                                <p><strong>Celular:</strong>
+                                    ${cellphone.map(c => `<a href="tel:+57${c.replace(/\s/g, '')}" title="Llamar a ${name}">${c}</a>`)}
+                                </p>
+                            </div>` : ''}
+                        </div>
+                        <div class="how-to-get">
+                            <p>
+                                <a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}">¿Cómo llegar?</a>
                             </p>
                         </div>
-                        ${phone !== null ? `<div class="phone">
-                            <p><strong>Contacto telefónico:</strong>
-                                ${phone}</p>
-                        </div>` : ''}
-                        ${cellphone !== null ? `<div class="cell">
-                            <p><strong>Celular:</strong>
-                                ${cellphone}</p>
-                        </div>` : ''}
                     </div>
                 </div>`;
             },
@@ -79,7 +76,7 @@ import ServiceCenter from "./service-center.js"
             animateMarker: () => {
                 document.querySelectorAll('.service-centers__menu__item__body').forEach(menuItem => {
                     menuItem.addEventListener('mouseenter', () => {
-                        mapElement.bounceMarker(menuItem.dataset.serviceCenter, 'start' )
+                        mapElement.bounceMarker(menuItem.dataset.serviceCenter, 'start')
                     })
                     menuItem.addEventListener('mouseleave', () => {
                         mapElement.bounceMarker(menuItem.dataset.serviceCenter, 'stop')
@@ -91,14 +88,14 @@ import ServiceCenter from "./service-center.js"
             init: () => document.querySelectorAll('[data-custom-select').forEach(selectElement => new Select(selectElement))
         }
     },
-    departmentSelect = document.getElementById('departamento'),
-    citySelect = document.getElementById('ciudad'),
-    categorySelect = document.getElementById('categoria'),
-    departmentDefaultOption = new Option(`Selecciona un ${departmentSelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
-    cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
-    categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
-    menuContainer = document.querySelector('.service-centers__menu'),
-    updatedOptionsEvent = new Event('updated')
+        departmentSelect = document.getElementById('departamento'),
+        citySelect = document.getElementById('ciudad'),
+        categorySelect = document.getElementById('categoria'),
+        departmentDefaultOption = new Option(`Selecciona un ${departmentSelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
+        cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
+        categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
+        menuContainer = document.querySelector('.service-centers__menu'),
+        updatedOptionsEvent = new Event('updated')
 
     let enableFirst = true,
         mapElement,
@@ -109,7 +106,7 @@ import ServiceCenter from "./service-center.js"
     categorySelect.append(categoryDefaultOption)
 
     if (appConfig.jsonFile !== undefined) {
-        app.get(appConfig.jsonFile).then(async({categories, departments, serviceCenters}) => {
+        app.get(appConfig.jsonFile).then(async ({ categories, departments, serviceCenters }) => {
             await app.map.init().then(() => {
                 mapElement.infoWindow.setPosition(mapElement.map.getCenter())
                 mapElement.infoWindow.setContent('Selecciona un departamento') // Set default message
@@ -182,7 +179,7 @@ import ServiceCenter from "./service-center.js"
                 categorySelect.innerHTML = ""
                 categorySelect.append(categoryDefaultOption)
 
-                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores}) => {
+                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores }) => {
                     return stores.map(serviceCenter => {
                         servicePointsCodes.push(serviceCenter)
                     })
@@ -231,7 +228,7 @@ import ServiceCenter from "./service-center.js"
         return await servicePointsCodes.map(code => {
             let servicePoint = {
                 id: code,
-                coordinates : {
+                coordinates: {
                     lat: serviceCenters[code].lat,
                     lng: serviceCenters[code].lng
                 }
@@ -251,4 +248,4 @@ import ServiceCenter from "./service-center.js"
             return menuContainer.insertAdjacentHTML('beforeend', app.menu.render(serviceCenterPoint))
         })
     }
-}) ();
+})();
