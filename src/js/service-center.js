@@ -1,15 +1,15 @@
 export default class ServiceCenter {
     constructor({
         address= '',
-        cell = '',
+        cell = [],
         coordinates = {},
-        email = '',
-        hours = '',
+        email = [],
+        hours = [],
         id = '',
-        phone = '',
+        phone = [],
         title = ''
     }){
-        this.active = false
+        this.isActive = false
         this.address = address
         this.cellphone = cell
         this.coordinates = coordinates
@@ -20,11 +20,11 @@ export default class ServiceCenter {
         this.phone = phone
     }
 
-    get activeCenter(){
-        return this.active
+    get active(){
+        return this.isActive
     }
 
-    set activeCenter(active){
-        return this.active = active
+    set active(active){
+        return this.isActive = active
     }
 }

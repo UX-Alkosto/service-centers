@@ -1,64 +1,80 @@
-const map = {
-    bounceMarker: (serviceCenterId, status) => {
-        // Find the correct marker to bounce based on the serviceCenterId.
-        if (markers.length) {
-            if (markers[serviceCenterId] !== undefined) {
-                if (status == "start") markers[serviceCenterId].setAnimation(google.maps.Animation.BOUNCE)
-                else markers[serviceCenterId].setAnimation(null)
+export default class Map {
+    constructor({
+        $element,
+        baseSite
+    }) {
+        this.$element = $element,
+        this.baseSite = baseSite,
+        this.bounds = new google.maps.LatLngBounds(),
+        this.geocoder = new google.maps.Geocoder(),
+        this.infoWindow = new google.maps.InfoWindow(),
+        this.markers = [],
+        this.map
+
+        this.init()
+    }
+
+    bounceMarker(locationId, status) {
+        // Find the correct marker to bounce based on the locationId.
+        if(this.markers.length) {
+            if (this.markers[locationId] !== undefined) {
+                if (status == "start") this.markers[locationId].setAnimation(google.maps.Animation.BOUNCE)
+                else this.markers[locationId].setAnimation(null)
             }
         }
-    },
-    getGeo: async () => {
+    }
+
+    async getGeo(){
         try {
             return await getCoordinates().then(response => response)
         } catch (error) {
             return error
         }
-    },
-    init: async $element => {
-        mapElement = await new google.maps.Map(document.querySelector($element), {
+    }
+
+    async init(){
+        this.map = await new google.maps.Map(document.querySelector(this.$element), {
             center: new google.maps.LatLng(4.6482837, -74.2478938),
             disableDefaultUI: true,
             draggable: true,
             zoom: 10,
             zoomControl: true,
         })
-        geocoder = new google.maps.Geocoder()
-        infoWindow = new google.maps.InfoWindow()
-        return mapElement
-    },
-    setInfoWindow: serviceCenter => {
+        return this.map
+    }
+
+    setInfoWindow(location) {
         return `<div class="service-centers__map__info-window">
-            <h4>${serviceCenter.name}</h4>
+            <h4>${location.name}</h4>
             <p><strong>Dirección:</strong><br />
-            ${serviceCenter.address}
+            ${location.address}
             </p>
         </div>`;
-    },
-    setMarkers: async serviceCenterPoints => {
-        bounds = new google.maps.LatLngBounds()
-        markers.map(marker => marker.setMap(null))
-        serviceCenterPoints.map(serviceCenter => {
+    }
+
+    async setMarkers(locationPoints) {
+        this.bounds = new google.maps.LatLngBounds()
+        this.markers.map(marker => marker.setMap(null))
+        locationPoints.map(location => {
             const marker = new google.maps.Marker({
-                position: new google.maps.LatLng(serviceCenter.coordinates.lat, serviceCenter.coordinates.lng),
-                map: mapElement,
-                icon: `/dist/${serviceCentersConfig.site}/img/pin.svg`,
-                title: serviceCenter.name
+                position: new google.maps.LatLng(location.coordinates.lat, location.coordinates.lng),
+                map: this.map,
+                icon: `/dist/${this.baseSite}/img/pin.svg`,
+                title: location.name
             })
             marker.addListener('click', () => {
-                infoWindow.setContent(map.setInfoWindow(serviceCenter))
-                infoWindow.open(mapElement, marker)
-                mapElement.panTo(marker.getPosition())
+                this.infoWindow.setContent(this.setInfoWindow(location))
+                this.infoWindow.open(this.map, marker)
+                this.map.panTo(marker.getPosition())
             })
-            bounds.extend(marker.getPosition())
-            markers[serviceCenter.id] = marker
+            this.bounds.extend(marker.getPosition())
+            this.markers[location.id] = marker
         })
-        mapElement.setCenter(bounds.getCenter())
-        mapElement.fitBounds(bounds)
-        if (mapElement.getZoom() > 18) mapElement.setZoom(18)
+        this.map.setCenter(this.bounds.getCenter())
+        this.map.fitBounds(this.bounds)
+        if (this.map.getZoom() > 18) this.map.setZoom(18)
     }
 }
-let bounds, geocoder, infoWindow, mapElement, markers = [];
 
 async function getCoordinates() {
     return new Promise((resolve, reject) => {
@@ -75,4 +91,3 @@ async function getCoordinates() {
         )
     })
 }
-export { geocoder, infoWindow, markers, map }

@@ -1,8 +1,8 @@
-import { geocoder, infoWindow, map, markers } from "./map.js"
+import Map from "./map.js"
 import Select from "./select.js"
 import ServiceCenter from "./service-center.js"
 (() => {
-    const serviceCenters = {
+    const app = {
         get: async (jsonUrl = '') => {
             if (jsonUrl.length) {
                 return await fetch(jsonUrl, {
@@ -14,7 +14,12 @@ import ServiceCenter from "./service-center.js"
             }
         },
         map: {
-            init: async () => mapElement = await map.init('#service-centers-map')
+            init: async () => {
+                mapElement = await new Map({
+                    $element : '#service-centers-map',
+                    baseSite: appConfig.site
+                })
+            }
         },
         menu: {
             render: ({
@@ -74,10 +79,10 @@ import ServiceCenter from "./service-center.js"
             animateMarker: () => {
                 document.querySelectorAll('.service-centers__menu__item__body').forEach(menuItem => {
                     menuItem.addEventListener('mouseenter', () => {
-                        map.bounceMarker(menuItem.dataset.serviceCenter, 'start' )
+                        mapElement.bounceMarker(menuItem.dataset.serviceCenter, 'start' )
                     })
                     menuItem.addEventListener('mouseleave', () => {
-                        map.bounceMarker(menuItem.dataset.serviceCenter, 'stop')
+                        mapElement.bounceMarker(menuItem.dataset.serviceCenter, 'stop')
                     })
                 })
             }
@@ -103,23 +108,23 @@ import ServiceCenter from "./service-center.js"
     citySelect.append(cityDefaultOption)
     categorySelect.append(categoryDefaultOption)
 
-    if (serviceCentersConfig.jsonFile !== undefined) {
-        serviceCenters.get(serviceCentersConfig.jsonFile).then(async({categories, cities, stores}) => {
-            await serviceCenters.map.init().then(() => {
-                infoWindow.setPosition(mapElement.getCenter())
-                infoWindow.setContent('Selecciona un departamento') // Set default message
-                infoWindow.open(mapElement)
+    if (appConfig.jsonFile !== undefined) {
+        app.get(appConfig.jsonFile).then(async({categories, departments, serviceCenters}) => {
+            await app.map.init().then(() => {
+                mapElement.infoWindow.setPosition(mapElement.map.getCenter())
+                mapElement.infoWindow.setContent('Selecciona un departamento') // Set default message
+                mapElement.infoWindow.open(mapElement.map)
             })
             // get departments and render options in dropdown
-            Object.entries(cities).map(departmentData => {
+            Object.entries(departments).map(departmentData => {
                 const department = departmentData[1],
                     label = departmentData[0],
                     option = new Option(department.name, label)
                 departmentSelect.append(option)
             })
-            // map.getGeo().then(position => {
+            // mapElement.map.getGeo().then(position => {
             //     if (position.message) return
-            //     mapElement.setCenter(position)
+            //     mapElement.map.setCenter(position)
             //     geocoder.geocode({ location: position }, (results, status) => {
             //         if (status === "OK") {
             //             if (results[0]) {
@@ -132,31 +137,31 @@ import ServiceCenter from "./service-center.js"
             //     })
             // })
 
-            serviceCenters.select.init() // init custom dropdowns
+            app.select.init() // init custom dropdowns
 
             departmentSelect.addEventListener('change', async () => {
                 enableFirst = true
                 citySelect.innerHTML = "" // reset cities select element
                 citySelect.append(cityDefaultOption)
-                infoWindow.close()
-                Object.values(cities[departmentSelect.value].cities).map(({ categories }) => {
+                mapElement.infoWindow.close()
+                Object.values(departments[departmentSelect.value].cities).map(({ categories }) => {
                     return Object.values(categories).map(({ stores }) => {
-                        return stores.map(store => {
-                            servicePointsCodes.push(store)
+                        return stores.map(serviceCenter => {
+                            servicePointsCodes.push(serviceCenter)
                         })
                     })
                 })
                 getServicePoints({
                     servicePointsCodes: servicePointsCodes,
-                    stores: stores
+                    serviceCenters: serviceCenters
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
-                    map.setMarkers(servicePoints)
-                    serviceCenters.menu.toogleArrow()
-                    serviceCenters.menu.animateMarker()
+                    mapElement.setMarkers(servicePoints)
+                    app.menu.toogleArrow()
+                    app.menu.animateMarker()
                 })
                 // Get Cities and render options in dropdown
-                Object.entries(cities[departmentSelect.value].cities).map(cityData => {
+                Object.entries(departments[departmentSelect.value].cities).map(cityData => {
                     const city = cityData[1],
                         label = cityData[0],
                         option = new Option(city.name, label)
@@ -177,21 +182,21 @@ import ServiceCenter from "./service-center.js"
                 categorySelect.innerHTML = ""
                 categorySelect.append(categoryDefaultOption)
 
-                Object.values(cities[departmentSelect.value].cities[citySelect.value].categories).map(({stores}) => {
-                    return stores.map(store => {
-                        servicePointsCodes.push(store)
+                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores}) => {
+                    return stores.map(serviceCenter => {
+                        servicePointsCodes.push(serviceCenter)
                     })
                 })
                 getServicePoints({
                     servicePointsCodes: servicePointsCodes,
-                    stores: stores
+                    serviceCenters: serviceCenters
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
-                    map.setMarkers(servicePoints)
-                    serviceCenters.menu.toogleArrow()
-                    serviceCenters.menu.animateMarker()
+                    mapElement.setMarkers(servicePoints)
+                    app.menu.toogleArrow()
+                    app.menu.animateMarker()
                 })
-                Object.entries(cities[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
+                Object.entries(departments[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
                     const category = categories[categoryData[0]].name,
                         label = categoryData[0],
                         option = new Option(category, label)
@@ -203,35 +208,35 @@ import ServiceCenter from "./service-center.js"
 
             categorySelect.addEventListener('change', () => {
                 enableFirst = true
-                Object.values(cities[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(store => {
-                    servicePointsCodes.push(store)
+                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(serviceCenter => {
+                    servicePointsCodes.push(serviceCenter)
                 })
                 getServicePoints({
                     servicePointsCodes: servicePointsCodes,
-                    stores: stores
+                    serviceCenters: serviceCenters
                 }).then(servicePoints => {
                     setServiceCenters(servicePoints)
-                    map.setMarkers(servicePoints)
-                    serviceCenters.menu.toogleArrow()
-                    serviceCenters.menu.animateMarker()
+                    mapElement.setMarkers(servicePoints)
+                    app.menu.toogleArrow()
+                    app.menu.animateMarker()
                 })
                 servicePointsCodes = [] // Reset service array
             })
         })
     }
 
-    async function getServicePoints({ servicePointsCodes, stores }) {
+    async function getServicePoints({ servicePointsCodes, serviceCenters }) {
         // remove duplicates
         servicePointsCodes = [...new Set(servicePointsCodes)]
         return await servicePointsCodes.map(code => {
             let servicePoint = {
                 id: code,
                 coordinates : {
-                    lat: stores[code].lat,
-                    lng: stores[code].lng
+                    lat: serviceCenters[code].lat,
+                    lng: serviceCenters[code].lng
                 }
             }
-            servicePoint = { ...servicePoint, ...stores[code] }
+            servicePoint = { ...servicePoint, ...serviceCenters[code] }
             return new ServiceCenter(servicePoint)
         })
     }
@@ -241,9 +246,9 @@ import ServiceCenter from "./service-center.js"
         menuContainer.innerHTML = ""
         // render service points menu items
         serviceCenterPoints.map(serviceCenterPoint => {
-            serviceCenterPoint.activeCenter = enableFirst
+            serviceCenterPoint.active = enableFirst
             enableFirst = false
-            return menuContainer.insertAdjacentHTML('beforeend', serviceCenters.menu.render(serviceCenterPoint))
+            return menuContainer.insertAdjacentHTML('beforeend', app.menu.render(serviceCenterPoint))
         })
     }
 }) ();
