@@ -53,7 +53,7 @@ import ServiceCenter from "./service-center.js"
                         </div>
                         <div class="how-to-get">
                             <p>
-                                <a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}">¿Cómo llegar?</a>
+                                <a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}" target="_blank">¿Cómo llegar?</a>
                             </p>
                         </div>
                     </div>

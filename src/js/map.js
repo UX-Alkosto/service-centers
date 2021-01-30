@@ -48,7 +48,7 @@ export default class Map {
             ${location.address}
             </p>
             <p>
-            <a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}">¿Cómo llegar?</a>
+            <a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}" target="_blank">¿Cómo llegar?</a>
             </p>
         </div>`;
     }
