@@ -19,6 +19,11 @@ import ServiceCenter from "./service-center.js"
                     $element: '#service-centers-map',
                     baseSite: appConfig.site
                 })
+                document.addEventListener('click', e => {
+                    if(e.target.classList.contains('service-centers__map__info-window__close')) {
+                        mapElement.infoWindow.close()
+                    }
+                })
             }
         },
         menu: {
@@ -95,6 +100,7 @@ import ServiceCenter from "./service-center.js"
         cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
         categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
         menuContainer = document.querySelector('.service-centers__menu'),
+        mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue('--service-centers-breakpoint').replace('px', '')),
         updatedOptionsEvent = new Event('updated')
 
     let enableFirst = true,
@@ -107,11 +113,7 @@ import ServiceCenter from "./service-center.js"
 
     if (appConfig.jsonFile !== undefined) {
         app.get(appConfig.jsonFile).then(async ({ categories, departments, serviceCenters }) => {
-            await app.map.init().then(() => {
-                mapElement.infoWindow.setPosition(mapElement.map.getCenter())
-                mapElement.infoWindow.setContent('Selecciona un departamento') // Set default message
-                mapElement.infoWindow.open(mapElement.map)
-            })
+            await app.map.init()
             // get departments and render options in dropdown
             Object.entries(departments).map(departmentData => {
                 const department = departmentData[1],
@@ -141,6 +143,9 @@ import ServiceCenter from "./service-center.js"
                 citySelect.innerHTML = "" // reset cities select element
                 citySelect.append(cityDefaultOption)
                 mapElement.infoWindow.close()
+                if (window.innerWidth > mobileBreakpoint) {
+                    document.querySelector('.service-centers__map').style.display = 'block'
+                }
                 Object.values(departments[departmentSelect.value].cities).map(({ categories }) => {
                     return Object.values(categories).map(({ stores }) => {
                         return stores.map(serviceCenter => {

@@ -12,6 +12,9 @@
         height: 100%;
         width: 100%;
     }
+    button[aria-label="Close"] {
+        display: none !important;
+    }
 }
 
 .service-centers {
@@ -31,6 +34,7 @@
         display: grid;
         grid-template-areas: 'sidebar';
         grid-template-columns: 1fr;
+        min-height: 390px;
         width: 100%;
 
         @media screen and (min-width: @mobile-breakpoint) {
@@ -68,6 +72,7 @@
 
         &__info-window {
             font-family: var(--service-centers-font-family);
+            padding-right: 24px;
 
             h4 {
                 color: var(--service-centers-first-color);
@@ -86,6 +91,20 @@
                 a {
                     color: var(--service-centers-second-color);
                     text-decoration: underline;
+                }
+            }
+
+            &__close {
+                background-color: transparent;
+                border: 0;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: 8px;
+                span {
+                    color: var(--service-centers-first-color);
+                    font-size: 20px;
+                    pointer-events: none;
                 }
             }
         }

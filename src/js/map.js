@@ -3,7 +3,7 @@ export default class Map {
         $element,
         baseSite
     }) {
-        this.$element = $element,
+        this.$element = document.querySelector($element),
         this.baseSite = baseSite,
         this.bounds,
         this.geocoder = new google.maps.Geocoder(),
@@ -31,7 +31,7 @@ export default class Map {
     }
 
     async init(){
-        this.map = await new google.maps.Map(document.querySelector(this.$element), {
+        this.map = await new google.maps.Map(this.$element, {
             center: new google.maps.LatLng(4.6482837, -74.2478938),
             disableDefaultUI: true,
             draggable: true,
@@ -43,6 +43,7 @@ export default class Map {
 
     setInfoWindow(location) {
         return `<div class="service-centers__map__info-window">
+            <button class="service-centers__map__info-window__close"><span class="alk-icon-close"></span></button>
             <h4>${location.name}</h4>
             <p><strong>Dirección:</strong><br />
             ${location.address}
@@ -65,6 +66,7 @@ export default class Map {
                 title: location.name
             })
             marker.addListener('click', () => {
+                this.infoWindow = new google.maps.InfoWindow()
                 this.infoWindow.setContent(this.setInfoWindow(location))
                 this.infoWindow.open(this.map, marker)
                 this.map.panTo(marker.getPosition())
