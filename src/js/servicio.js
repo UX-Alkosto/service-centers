@@ -20,7 +20,7 @@ import ServiceCenter from "./service-center.js"
                     baseSite: appConfig.site
                 })
                 document.addEventListener('click', e => {
-                    if(e.target.classList.contains('service-centers__map__info-window__close')) {
+                    if (e.target.classList.contains('service-centers__map__info-window__close')) {
                         mapElement.infoWindow.close()
                     }
                 })
@@ -36,23 +36,30 @@ import ServiceCenter from "./service-center.js"
                 name,
                 phone
             }) => {
+                let phoneNumbers = '', cellPhoneNumbers = '';
+                for (const phoneNumber of phone) {
+                    phoneNumbers += `<a href="tel:+57${phoneNumber.replace(/\s/g, '')}" title="Llamar a ${name}">${phoneNumber}</a>`;
+                }
+                for (const cellPhoneNumber of cellphone) {
+                    cellPhoneNumbers += `<a href="tel:+57${cellPhoneNumber.replace(/\s/g, '')}" title="Llamar a ${name}">${cellPhoneNumber}</a>`;
+                }
                 return `<div class="service-centers__menu__item">
                     <input type="radio" name="centro-servicio" id="${id}" ${active ? 'checked' : ''}>
                     <label for="${id}">${name}<span class="${active ? 'alk-icon-arrow-up' : 'alk-icon-arrow-down'}"></span></label>
                     <div class="service-centers__menu__item__body" data-service-center="${id}">
                         <div class="address">
-                            <p><i class="alk-icon-rounded-position"></i><strong>Dirección:</strong>
+                            <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
                                 ${address}</p>
                         </div>
                         <div class="contact-phones">
                             ${phone.length ? `<div class="phone">
-                                <p><i class="alk-icon-customer-contact"></i><strong>Contacto telefónico:</strong>
-                                    ${phone.map(p => `<a href="tel:+57${p.replace(/\s/g, '')}" title="Llamar a ${name}">${p}</a>`)}
+                                <p><strong><i class="alk-icon-customer-contact"></i> Contacto telefónico:</strong>
+                                    ${phoneNumbers}
                                 </p>
                             </div>` : ''}
                             ${cellphone.length ? `<div class="cell">
-                                <p><i class="alk-icon-phone-contact"></i><strong>Celular:</strong>
-                                    ${cellphone.map(c => `<a href="tel:+57${c.replace(/\s/g, '')}" title="Llamar a ${name}">${c}</a>`)}
+                                <p><strong><i class="alk-icon-phone-contact"></i> Celular:</strong>
+                                    ${cellPhoneNumbers}
                                 </p>
                             </div>` : ''}
                         </div>
@@ -146,6 +153,7 @@ import ServiceCenter from "./service-center.js"
                 if (window.innerWidth > mobileBreakpoint) {
                     document.querySelector('.service-centers__map').style.display = 'block'
                 }
+                document.querySelector(".msje-localiza").innerText = "Localiza los centros de servicio técnico:"
                 Object.values(departments[departmentSelect.value].cities).map(({ categories }) => {
                     return Object.values(categories).map(({ stores }) => {
                         return stores.map(serviceCenter => {
