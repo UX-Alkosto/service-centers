@@ -36,24 +36,24 @@ import ServiceCenter from "./service-center.js"
                     <label for="${id}">${name}<span class="${active ? 'alk-icon-arrow-up' : 'alk-icon-arrow-down'}"></span></label>
                     <div class="service-centers__menu__item__body" data-service-center="${id}">
                         <div class="address">
-                            <p><strong>Dirección:</strong>
+                            <p><i class="alk-icon-rounded-position"></i><strong>Dirección:</strong>
                                 ${address}</p>
                         </div>
                         <div class="contact-phones">
                             ${phone.length ? `<div class="phone">
-                                <p><strong>Contacto telefónico:</strong>
+                                <p><i class="alk-icon-customer-contact"></i><strong>Contacto telefónico:</strong>
                                     ${phone.map(p => `<a href="tel:+57${p.replace(/\s/g, '')}" title="Llamar a ${name}">${p}</a>`)}
                                 </p>
                             </div>` : ''}
                             ${cellphone.length ? `<div class="cell">
-                                <p><strong>Celular:</strong>
+                                <p><i class="alk-icon-phone-contact"></i><strong>Celular:</strong>
                                     ${cellphone.map(c => `<a href="tel:+57${c.replace(/\s/g, '')}" title="Llamar a ${name}">${c}</a>`)}
                                 </p>
                             </div>` : ''}
                         </div>
                         <div class="how-to-get">
                             <p>
-                                <a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}" target="_blank">¿Cómo llegar?</a>
+                                <i class="alk-icon-arrive"></i><a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}" target="_blank">¿Cómo llegar?</a>
                             </p>
                         </div>
                     </div>
