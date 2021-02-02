@@ -34,6 +34,7 @@
     display: grid;
     grid-template-areas: "sidebar";
     grid-template-columns: 1fr;
+    margin-bottom: 60px;
     min-height: 390px;
     width: 100%;
 
@@ -48,15 +49,20 @@
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2em;
+    // gap: 2em;
     margin: 40px 0px;
-
-    @media screen and (min-width: @mobile-breakpoint) {
-      flex-direction: row;
-    }
 
     [class*="service-centers__filters"] {
       flex: 1;
+      margin: 10px 0;
+    }
+
+    @media screen and (min-width: @mobile-breakpoint) {
+      flex-direction: row;
+
+      [class*="service-centers__filters"] {
+        margin: 10px;
+      }
     }
   }
 
@@ -236,6 +242,7 @@
       }
 
       label {
+        align-items: center;
         border-bottom: 1px solid var(--service-centers-gray-3);
         color: var(--service-centers-first-color);
         cursor: pointer;
@@ -252,9 +259,9 @@
           bottom: 0;
           font-size: 22px;
           line-height: 32px;
-          position: absolute;
-          right: 0;
-          top: 0;
+          // position: absolute;
+          // right: 0;
+          // top: 0;
           width: 24px;
         }
       }

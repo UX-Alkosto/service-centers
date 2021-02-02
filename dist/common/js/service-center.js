@@ -1,2 +1,2 @@
-/*! service-centers - v1.0.0 */
+/*! service-centers - v1.0.1 */
 export default class ServiceCenter{constructor({address:e="",cell:t=[],coordinates:s={},hours:i=[],id:h="",name:r="",phone:c=[],viewMap:a=""}){this.isActive=!1,this.address=e,this.cellphone=t,this.coordinates=s,this.hours=i,this.id=h,this.name=r,this.phone=c,this.map=a}get active(){return this.isActive}set active(e){return this.isActive=e}};

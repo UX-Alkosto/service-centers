@@ -24,6 +24,13 @@ import ServiceCenter from "./service-center.js"
                         mapElement.infoWindow.close()
                     }
                 })
+                window.onresize = () => {
+                    if (window.innerWidth > mobileBreakpoint && document.getElementById('departamento').value != "0") {
+                        document.querySelector('.service-centers__map').style.display = 'block'
+                    } else {
+                        document.querySelector('.service-centers__map').style.display = 'none'
+                    }
+                }
             }
         },
         menu: {
