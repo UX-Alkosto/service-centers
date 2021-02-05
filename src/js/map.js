@@ -66,7 +66,6 @@ export default class Map {
                 title: location.name
             })
             marker.addListener('click', () => {
-                this.infoWindow = new google.maps.InfoWindow()
                 this.infoWindow.setContent(this.setInfoWindow(location))
                 this.infoWindow.open(this.map, marker)
                 this.map.panTo(marker.getPosition())

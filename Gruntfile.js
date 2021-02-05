@@ -21,10 +21,12 @@ module.exports = function (grunt) {
         },
         less: {
             options: {
+                banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
                 compress: true,
                 paths: ['dist/css'],
                 plugins: [
-                    new (require('less-plugin-autoprefix'))({ browsers: ["last 2 versions"] })
+                    new (require('less-plugin-autoprefix'))({ browsers: ["last 2 versions"] }),
+                    new (require('less-plugin-clean-css'))({ advanced: true })
                 ]
             },
             kalley: {
@@ -40,10 +42,10 @@ module.exports = function (grunt) {
         },
         uglify: {
             options: {
-                banner:
-                    "/*! <%= pkg.name %> - v<%= pkg.version %> */",
+                banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
                 report: "gzip",
                 compress: true,
+                reserveDOMProperties: true,
                 sourceMap: false,
                 exportAll: true,
             },
