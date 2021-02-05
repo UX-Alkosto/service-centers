@@ -26,7 +26,7 @@
 
     &__container {
         border-radius: 4px;
-        display: inline-block;
+        display: inline-flex;
         outline: none;
         position: relative;
         width: 100%;
@@ -89,16 +89,14 @@
     }
 
     &__value {
-        align-items: center;
+        background-color: var(--service-centers-white);
         border: 1px solid var(--service-centers-gray-2);
         border-radius: 4px;
         color: var(--service-centers-gray-4);
         cursor: pointer;
-        display: flex;
         font-size: 16px;
         height: 40px;
-        line-height: 19px;
-        justify-content: space-between;
+        line-height: 22px;
         outline: none;
         overflow: hidden;
         padding: 8px 52px 8px 16px;
@@ -106,6 +104,8 @@
         transition: .25s all ease-in-out;
         user-select: none;
         white-space: nowrap;
+        width: 100%;
+        width: -webkit-fill-available;
 
         &[data-status="filled"] {
             border: 1px solid var(--service-centers-third-color);

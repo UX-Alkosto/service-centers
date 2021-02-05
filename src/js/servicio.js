@@ -114,8 +114,7 @@ import ServiceCenter from "./service-center.js"
         cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
         categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true),
         menuContainer = document.querySelector('.service-centers__menu'),
-        mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue('--service-centers-breakpoint').replace('px', '')),
-        updatedOptionsEvent = new Event('updated')
+        mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue('--service-centers-breakpoint').replace('px', ''))
 
     let enableFirst = true,
         mapElement,
@@ -184,12 +183,12 @@ import ServiceCenter from "./service-center.js"
                         option = new Option(city.name, label)
                     citySelect.append(option)
                 })
-                citySelect.dispatchEvent(updatedOptionsEvent)
+                citySelect.refresh()
 
                 // Reset Categories dropdown
                 categorySelect.innerHTML = ""
                 categorySelect.append(categoryDefaultOption)
-                categorySelect.dispatchEvent(updatedOptionsEvent)
+                categorySelect.refresh()
                 servicePointsCodes = [] // Reset service array
             })
 
@@ -219,7 +218,7 @@ import ServiceCenter from "./service-center.js"
                         option = new Option(category, label)
                     categorySelect.append(option)
                 })
-                categorySelect.dispatchEvent(updatedOptionsEvent)
+                categorySelect.refresh()
                 servicePointsCodes = [] // Reset service array
             })
 

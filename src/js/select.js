@@ -37,6 +37,10 @@ export default class Select {
 }
 
 function initSelect(select) {
+    HTMLSelectElement.prototype.refresh = function(){
+        this.dispatchEvent(new Event('refresh'))
+    }
+
     select.customElement.classList.add('custom-select__container')
     select.customElement.tabIndex = 0
 
@@ -58,7 +62,7 @@ function initSelect(select) {
     renderOptions(select)
     select.customElement.append(select.optionsCustomElement)
 
-    select.element.addEventListener('updated', () => {
+    select.element.addEventListener('refresh', () => {
         select.options = getOptions(select.element.querySelectorAll('option'))
         select.valueElement.innerText = select.selectedOption.label
         select.valueElement.dataset.status = ''
