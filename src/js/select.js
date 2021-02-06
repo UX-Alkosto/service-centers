@@ -41,6 +41,10 @@ function initSelect(select) {
         this.dispatchEvent(new Event('refresh'))
     }
 
+    if (select.element.disabled) {
+        select.customElement.classList.add('disabled')
+    }
+
     select.customElement.classList.add('custom-select__container')
     select.customElement.tabIndex = 0
 
@@ -63,6 +67,7 @@ function initSelect(select) {
     select.customElement.append(select.optionsCustomElement)
 
     select.element.addEventListener('refresh', () => {
+        (select.element.disabled) ? select.customElement.classList.add('disabled') : select.customElement.classList.remove('disabled')
         select.options = getOptions(select.element.querySelectorAll('option'))
         select.valueElement.innerText = select.selectedOption.label
         select.valueElement.dataset.status = ''

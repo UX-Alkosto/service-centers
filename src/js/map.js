@@ -22,7 +22,7 @@ export default class Map {
         }
     }
 
-    async getGeo(){
+    async getGeo() {
         try {
             return await getCoordinates().then(response => response)
         } catch (error) {
@@ -30,7 +30,7 @@ export default class Map {
         }
     }
 
-    async init(){
+    async init() {
         this.map = await new google.maps.Map(this.$element, {
             center: new google.maps.LatLng(4.6482837, -74.2478938),
             disableDefaultUI: true,
@@ -69,6 +69,7 @@ export default class Map {
                 this.infoWindow.setContent(this.setInfoWindow(location))
                 this.infoWindow.open(this.map, marker)
                 this.map.panTo(marker.getPosition())
+                document.dispatchEvent(new CustomEvent('updateCenter', { detail: { center: location.id } }))
             })
             this.bounds.extend(marker.getPosition())
             this.markers[location.id] = marker

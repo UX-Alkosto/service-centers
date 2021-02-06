@@ -31,6 +31,15 @@
         position: relative;
         width: 100%;
 
+        &.disabled {
+            pointer-events: none;
+            opacity: .8;
+            cursor: not-allowed;
+            &>.custom-select__label {
+                display: none;
+            }
+        }
+
         &:focus {
             outline: none;
 

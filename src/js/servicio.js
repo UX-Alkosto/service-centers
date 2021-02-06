@@ -124,6 +124,9 @@ import ServiceCenter from "./service-center.js"
     citySelect.append(cityDefaultOption)
     categorySelect.append(categoryDefaultOption)
 
+    citySelect.disabled = true
+    categorySelect.disabled = true
+
     if (appConfig.jsonFile !== undefined) {
         app.get(appConfig.jsonFile).then(async ({ categories, departments, serviceCenters }) => {
             await app.map.init()
@@ -151,12 +154,23 @@ import ServiceCenter from "./service-center.js"
 
             app.select.init() // init custom dropdowns
 
+            document.addEventListener('updateCenter', e => {
+                const center = e.detail.center
+                if (center !== null) {
+                    const item = document.getElementById(center)
+                    item.click()
+                    setTimeout(() => {
+                        document.querySelector('.service-centers__menu').scrollTop = item.offsetTop
+                    }, 250)
+                }
+            })
+
             departmentSelect.addEventListener('change', async () => {
                 enableFirst = true
                 citySelect.innerHTML = "" // reset cities select element
                 citySelect.append(cityDefaultOption)
                 mapElement.infoWindow.close()
-                if (window.innerWidth > mobileBreakpoint) {
+                if (window.innerWidth > mobileBreakpoint) { //Show map on desktop devices
                     document.querySelector('.service-centers__map').style.display = 'block'
                 }
                 document.querySelector(".msje-localiza").innerText = "Localiza los centros de servicio técnico:"
@@ -167,15 +181,10 @@ import ServiceCenter from "./service-center.js"
                         })
                     })
                 })
-                getServicePoints({
+                await getServicePoints({
                     servicePointsCodes: servicePointsCodes,
                     serviceCenters: serviceCenters
-                }).then(servicePoints => {
-                    setServiceCenters(servicePoints)
-                    mapElement.setMarkers(servicePoints)
-                    app.menu.toogleArrow()
-                    app.menu.animateMarker()
-                })
+                }).then(servicePoints => setServiceCenters(servicePoints))
                 // Get Cities and render options in dropdown
                 Object.entries(departments[departmentSelect.value].cities).map(cityData => {
                     const city = cityData[1],
@@ -183,16 +192,18 @@ import ServiceCenter from "./service-center.js"
                         option = new Option(city.name, label)
                     citySelect.append(option)
                 })
+                citySelect.disabled = false
                 citySelect.refresh()
 
                 // Reset Categories dropdown
                 categorySelect.innerHTML = ""
+                categorySelect.disabled = true
                 categorySelect.append(categoryDefaultOption)
                 categorySelect.refresh()
                 servicePointsCodes = [] // Reset service array
             })
 
-            citySelect.addEventListener('change', () => {
+            citySelect.addEventListener('change', async () => {
                 enableFirst = true
                 // Reset Categories dropdown
                 categorySelect.innerHTML = ""
@@ -203,39 +214,30 @@ import ServiceCenter from "./service-center.js"
                         servicePointsCodes.push(serviceCenter)
                     })
                 })
-                getServicePoints({
+                await getServicePoints({
                     servicePointsCodes: servicePointsCodes,
                     serviceCenters: serviceCenters
-                }).then(servicePoints => {
-                    setServiceCenters(servicePoints)
-                    mapElement.setMarkers(servicePoints)
-                    app.menu.toogleArrow()
-                    app.menu.animateMarker()
-                })
+                }).then(servicePoints => setServiceCenters(servicePoints))
                 Object.entries(departments[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
                     const category = categories[categoryData[0]].name,
                         label = categoryData[0],
                         option = new Option(category, label)
                     categorySelect.append(option)
                 })
+                categorySelect.disabled = false
                 categorySelect.refresh()
                 servicePointsCodes = [] // Reset service array
             })
 
-            categorySelect.addEventListener('change', () => {
+            categorySelect.addEventListener('change', async () => {
                 enableFirst = true
                 Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(serviceCenter => {
                     servicePointsCodes.push(serviceCenter)
                 })
-                getServicePoints({
+                await getServicePoints({
                     servicePointsCodes: servicePointsCodes,
                     serviceCenters: serviceCenters
-                }).then(servicePoints => {
-                    setServiceCenters(servicePoints)
-                    mapElement.setMarkers(servicePoints)
-                    app.menu.toogleArrow()
-                    app.menu.animateMarker()
-                })
+                }).then(servicePoints => setServiceCenters(servicePoints))
                 servicePointsCodes = [] // Reset service array
             })
         })
@@ -260,11 +262,14 @@ import ServiceCenter from "./service-center.js"
     function setServiceCenters(serviceCenterPoints) {
         //reset menu items
         menuContainer.innerHTML = ""
+        mapElement.setMarkers(serviceCenterPoints)
         // render service points menu items
         serviceCenterPoints.map(serviceCenterPoint => {
             serviceCenterPoint.active = enableFirst
             enableFirst = false
             return menuContainer.insertAdjacentHTML('beforeend', app.menu.render(serviceCenterPoint))
         })
+        app.menu.toogleArrow()
+        app.menu.animateMarker()
     }
 })();
