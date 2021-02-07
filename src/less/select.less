@@ -32,18 +32,31 @@
         width: 100%;
 
         &.disabled {
-            pointer-events: none;
-            opacity: .8;
-            cursor: not-allowed;
-            &>.custom-select__label {
-                display: none;
+            &>.custom-select {
+                &__arrow {
+                    border-left: 1px solid var(--service-centers-gray-2);
+                    color: var(--service-centers-gray-2);
+                }
+
+                &__label {
+                    display: none;
+                }
+
+                &__value {
+                    color: var(--service-centers-gray-2);
+                    cursor: not-allowed;
+
+                    &:hover {
+                        box-shadow: none;
+                    }
+                }
             }
         }
 
         &:focus {
             outline: none;
 
-            &>.custom-select__value {
+            &:not(.disabled)>.custom-select__value {
                 border: 1px solid var(--service-centers-third-color);
                 box-shadow: 0px 0px 4px rgba(@brand-third-color, .4);
             }

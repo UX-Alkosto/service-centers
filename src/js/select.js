@@ -10,6 +10,7 @@ export default class Select {
         this.optionsCustomElement = document.createElement('ul')
         initSelect(this)
         this.element.style.display = 'none'
+        this.element.setAttribute('aria-hidden', true)
         this.label.style.display = 'none'
         $element.after(this.customElement)
     }
@@ -47,8 +48,10 @@ function initSelect(select) {
 
     select.customElement.classList.add('custom-select__container')
     select.customElement.tabIndex = 0
+    select.customElement.setAttribute('aria-labelledby', `${select.element.id}-label`)
 
     select.labelElement.classList.add('custom-select__label')
+    select.labelElement.id = `${select.element.id}-label`
     select.labelElement.innerText = select.label.textContent
     select.customElement.append(select.labelElement)
 
@@ -85,6 +88,7 @@ function initSelect(select) {
 }
 
 function showOptions(select) {
+    if (select.customElement.classList.contains('disabled')) return;
     const icon = select.arrowElement.querySelector('span')
     if (icon.classList.contains('alk-icon-arrow-down'))
         icon.classList.replace('alk-icon-arrow-down', 'alk-icon-arrow-up')
@@ -101,15 +105,20 @@ function renderOptions(select) {
         const optionElement = document.createElement('li')
         optionElement.classList.add('custom-select__option')
         optionElement.classList.toggle('selected', option.selected)
+        optionElement.setAttribute('role', 'option')
+        option.selected ? optionElement.setAttribute('aria-selected', true) : ''
         optionElement.innerText = option.label
         optionElement.dataset.value = option.value
+        option.value === "0" ? optionElement.style.display = 'none' : ''
         optionElement.addEventListener('click', () => {
             if (optionElement.dataset.value === "0") return
-            select.optionsCustomElement
+            let $option = select.optionsCustomElement
                 .querySelector(`[data-value="${select.selectedOption.value}"]`)
-                .classList.remove('selected')
+            $option.removeAttribute('aria-selected')
+            $option.classList.remove('selected')
             select.selectValue(option.value)
             optionElement.classList.add('selected')
+            optionElement.setAttribute('aria-selected', true)
             select.optionsCustomElement.classList.remove('show')
             select.customElement.blur()
         })
