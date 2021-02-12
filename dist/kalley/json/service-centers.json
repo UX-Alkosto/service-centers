@@ -1348,7 +1348,7 @@
             "name": "Amazonas",
             "cities": {
                 "leticia": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Leticia",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1369,7 +1369,7 @@
             "name": "Antioquia",
             "cities": {
                 "caucasia": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Caucasia",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1395,7 +1395,7 @@
                     }
                 },
                 "itagui": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Itaguí",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1421,7 +1421,7 @@
                     }
                 },
                 "medellin": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Medellín",
                     "categories": {
                         "iluminacion": {
@@ -1458,7 +1458,7 @@
                     }
                 },
                 "rionegro": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Rionegro",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1479,7 +1479,7 @@
                     }
                 },
                 "apartado": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Apartadó",
                     "categories": {
                         "soluciones-hogar": {
@@ -1507,7 +1507,7 @@
                     }
                 },
                 "bello": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Bello",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -1538,7 +1538,7 @@
             "name": "Arauca",
             "cities": {
                 "arauca": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Arauca",
                     "categories": {
                         "soluciones-hogar": {
@@ -1564,7 +1564,7 @@
             "name": "Atlántico",
             "cities": {
                 "barranquilla": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Barranquilla",
                     "categories": {
                         "soluciones-hogar": {
@@ -1603,7 +1603,7 @@
             "name": "Bolívar",
             "cities": {
                 "cartagena": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Cartagena",
                     "categories": {
                         "soluciones-hogar": {
@@ -1632,7 +1632,7 @@
                     }
                 },
                 "magangue": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Magangué",
                     "categories": {
                         "soluciones-hogar": {
@@ -1663,7 +1663,7 @@
             "name": "Boyacá",
             "cities": {
                 "duitama": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Duitama",
                     "categories": {
                         "iluminacion": {
@@ -1692,7 +1692,7 @@
                     }
                 },
                 "puerto-boyaca": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Puerto Boyacá",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1718,7 +1718,7 @@
                     }
                 },
                 "tunja": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Tunja",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -1734,7 +1734,7 @@
             "name": "Caldas",
             "cities": {
                 "la-dorada": {
-                    "area-code" : 6,
+                    "areaCode" : 6,
                     "name": "La Dorada",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -1755,7 +1755,7 @@
                     }
                 },
                 "manizales": {
-                    "area-code" : 6,
+                    "areaCode" : 6,
                     "name": "Manizales",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1781,7 +1781,7 @@
             "name": "Caquetá",
             "cities": {
                 "florencia": {
-                    "area-code" : 2,
+                    "areaCode" : 2,
                     "name": "Florencia",
                     "categories": {
                         "soluciones-hogar": {
@@ -1813,7 +1813,7 @@
                     }
                 },
                 "san-vicente-del-caguan": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "San Vicente del Caguan",
                     "categories": {
                         "soluciones-hogar": {
@@ -1844,7 +1844,7 @@
             "name": "Casanare",
             "cities": {
                 "yopal": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Yopal",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1884,7 +1884,7 @@
             "name": "Cauca",
             "cities": {
                 "popayan": {
-                    "area-code" : 2,
+                    "areaCode" : 2,
                     "name": "Popayán",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1918,7 +1918,7 @@
             "name": "Cesar",
             "cities": {
                 "aguachica": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Aguachica",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1944,7 +1944,7 @@
                     }
                 },
                 "bosconia": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Bosconia",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1965,7 +1965,7 @@
                     }
                 },
                 "valledupar": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Valledupar",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -1998,7 +1998,7 @@
             "name": "Chocó",
             "cities": {
                 "quibdo": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Quibdó",
                     "categories": {
                         "soluciones-hogar": {
@@ -2024,7 +2024,7 @@
             "name": "Córdoba",
             "cities": {
                 "lorica": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Lorica",
                     "categories": {
                         "soluciones-hogar": {
@@ -2035,7 +2035,7 @@
                     }
                 },
                 "monteria": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Montería",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2058,7 +2058,7 @@
                     }
                 },
                 "planeta-rica": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Planeta Rica",
                     "categories": {
                         "soluciones-hogar": {
@@ -2084,7 +2084,7 @@
             "name": "Cundinamarca",
             "cities": {
                 "chia": {
-                    "area-code" : 1,
+                    "areaCode" : 1,
                     "name": "Chía",
                     "categories": {
                         "soluciones-hogar": {
@@ -2095,7 +2095,7 @@
                     }
                 },
                 "bogota": {
-                    "area-code" : 1,
+                    "areaCode" : 1,
                     "name": "Bogotá D.C.",
                     "categories": {
                         "soluciones-hogar": {
@@ -2137,7 +2137,7 @@
             "name": "Huila",
             "cities": {
                 "garzon": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Garzón",
                     "categories": {
                         "soluciones-hogar": {
@@ -2163,7 +2163,7 @@
                     }
                 },
                 "la-plata": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "La Plata",
                     "categories": {
                         "soluciones-hogar": {
@@ -2184,7 +2184,7 @@
                     }
                 },
                 "neiva": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Neiva",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2212,7 +2212,7 @@
                     }
                 },
                 "pitalito": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Pitalito",
                     "categories": {
                         "soluciones-hogar": {
@@ -2238,7 +2238,7 @@
             "name": "Magdalena",
             "cities": {
                 "cienaga": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Ciénaga",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2259,7 +2259,7 @@
                     }
                 },
                 "fundacion": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Fundación",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -2280,7 +2280,7 @@
                     }
                 },
                 "santa-marta": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Santa Marta",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2301,7 +2301,7 @@
                     }
                 },
                 "el-banco": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "El Banco",
                     "categories": {
                         "soluciones-hogar": {
@@ -2327,7 +2327,7 @@
             "name": "Meta",
             "cities": {
                 "acacias": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Acacias",
                     "categories": {
                         "soluciones-hogar": {
@@ -2348,7 +2348,7 @@
                     }
                 },
                 "villavicencio": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Villavicencio",
                     "categories": {
                         "soluciones-hogar": {
@@ -2374,7 +2374,7 @@
             "name": "Nariño",
             "cities": {
                 "ipiales": {
-                    "area-code" : 2,
+                    "areaCode" : 2,
                     "name": "Ipiales",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2395,7 +2395,7 @@
                     }
                 },
                 "pasto": {
-                    "area-code" : 2,
+                    "areaCode" : 2,
                     "name": "Pasto",
                     "categories": {
                         "soluciones-hogar": {
@@ -2431,7 +2431,7 @@
                     }
                 },
                 "tumaco": {
-                    "area-code" : 2,
+                    "areaCode" : 2,
                     "name": "Tumaco",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -2462,7 +2462,7 @@
             "name": "Norte de Santander",
             "cities": {
                 "cucuta": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Cúcuta",
                     "categories": {
                         "soluciones-hogar": {
@@ -2490,7 +2490,7 @@
             "name": "Putumayo",
             "cities": {
                 "mocoa": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Mocoa",
                     "categories": {
                         "soluciones-hogar": {
@@ -2511,7 +2511,7 @@
                     }
                 },
                 "puerto-asis": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "Puerto Asís",
                     "categories": {
                         "soluciones-hogar": {
@@ -2542,7 +2542,7 @@
             "name": "Quindio",
             "cities": {
                 "armenia": {
-                    "area-code" : 4,
+                    "areaCode" : 4,
                     "name": "Armenia",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2578,7 +2578,7 @@
             "name": "Risaralda",
             "cities": {
                 "pereira": {
-                    "area-code" : 6,
+                    "areaCode" : 6,
                     "name": "Pereira",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2610,7 +2610,7 @@
                     }
                 },
                 "dosquebradas": {
-                    "area-code" : 6,
+                    "areaCode" : 6,
                     "name": "Dosquebradas",
                     "categories": {
                         "soluciones-hogar": {
@@ -2626,7 +2626,7 @@
             "name": "San Andrés",
             "cities": {
                 "san-andres-islas": {
-                    "area-code" : 8,
+                    "areaCode" : 8,
                     "name": "San Andrés Islas",
                     "categories": {
                         "soluciones-hogar": {
@@ -2667,7 +2667,7 @@
             "name": "Santander",
             "cities": {
                 "barbosa": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Barbosa",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2688,7 +2688,7 @@
                     }
                 },
                 "barrancabermeja": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Barrancabermeja",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2722,7 +2722,7 @@
                     }
                 },
                 "bucaramanga": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Bucaramanga",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2745,7 +2745,7 @@
                     }
                 },
                 "san-gil": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "San Gil",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2756,7 +2756,7 @@
                     }
                 },
                 "socorro": {
-                    "area-code" : 7,
+                    "areaCode" : 7,
                     "name": "Socorro",
                     "categories": {
                         "iluminacion": {
@@ -2787,7 +2787,7 @@
             "name": "Sucre",
             "cities": {
                 "sincelejo": {
-                    "area-code" : 5,
+                    "areaCode" : 5,
                     "name": "Sincelejo",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2819,7 +2819,7 @@
             "name": "Tolima",
             "cities": {
                 "ibague": {
-                    "area-code": 8,
+                    "areaCode": 8,
                     "name": "Ibagué",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2845,7 +2845,7 @@
             "name": "Valle del Cauca",
             "cities": {
                 "cali": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Cali",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2886,7 +2886,7 @@
                     }
                 },
                 "cartago": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Cartago",
                     "categories": {
                         "tecnologia-entretenimiento": {
@@ -2914,7 +2914,7 @@
                     }
                 },
                 "florida": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Florida",
                     "categories": {
                         "cuidado-personal-soluciones-hogar": {
@@ -2937,7 +2937,7 @@
                     }
                 },
                 "roldanillo": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Roldanillo",
                     "categories": {
                         "soluciones-hogar": {
@@ -2963,7 +2963,7 @@
                     }
                 },
                 "tulua": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Tuluá",
                     "categories": {
                         "soluciones-hogar": {
@@ -2989,7 +2989,7 @@
                     }
                 },
                 "buenaventura": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Buenaventura",
                     "categories": {
                         "iluminacion": {
@@ -3015,7 +3015,7 @@
                     }
                 },
                 "jamundi": {
-                    "area-code": 2,
+                    "areaCode": 2,
                     "name": "Jamundí",
                     "categories": {
                         "soluciones-hogar": {

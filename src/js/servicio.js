@@ -161,10 +161,14 @@ import ServiceCenter from "./service-center.js";
                     document.querySelector(".service-centers__map").style.display = "block";
                 }
                 document.querySelector(".msje-localiza").innerText = "Localiza los centros de servicio técnico:";
-                Object.values(departments[departmentSelect.value].cities).map(({ categories }) => {
+                Object.values(departments[departmentSelect.value].cities).map(({ areaCode, categories }) => {
                     return Object.values(categories).map(({ stores }) => {
-                        return stores.map(serviceCenter => {
-                            servicePointsCodes.push(serviceCenter);
+                        return stores.map(code => {
+                            const serviceCenter = {
+                                code: code,
+                                areaCode: areaCode
+                            };
+                            return servicePointsCodes.push(serviceCenter);
                         });
                     });
                 });
@@ -197,8 +201,12 @@ import ServiceCenter from "./service-center.js";
                 categorySelect.append(categoryDefaultOption);
 
                 Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores }) => {
-                    return stores.map(serviceCenter => {
-                        servicePointsCodes.push(serviceCenter);
+                    return stores.map(code => {
+                        const serviceCenter = {
+                            code: code,
+                            areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode
+                        };
+                        return servicePointsCodes.push(serviceCenter);
                     });
                 });
                 await getServicePoints({
@@ -218,8 +226,12 @@ import ServiceCenter from "./service-center.js";
 
             categorySelect.addEventListener("change", async () => {
                 enableFirst = true;
-                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(serviceCenter => {
-                    servicePointsCodes.push(serviceCenter);
+                Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(code => {
+                    const serviceCenter = {
+                        code: code,
+                        areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode
+                    };
+                    return servicePointsCodes.push(serviceCenter);
                 });
                 await getServicePoints({
                     servicePointsCodes: servicePointsCodes,
@@ -232,10 +244,17 @@ import ServiceCenter from "./service-center.js";
 
     async function getServicePoints({ servicePointsCodes, serviceCenters }) {
         // remove duplicates
-        servicePointsCodes = [...new Set(servicePointsCodes)];
+        let _areaCode = "", _servicePointsCodes = [];
+        servicePointsCodes.map(({code, areaCode}) => {
+            _servicePointsCodes.push(code);
+            _areaCode = areaCode;
+        });
+        servicePointsCodes = [...new Set(_servicePointsCodes)];
+
         return await servicePointsCodes.map(code => {
             let servicePoint = {
                 id: code,
+                areaCode: _areaCode,
                 coordinates: {
                     lat: serviceCenters[code].lat,
                     lng: serviceCenters[code].lng
