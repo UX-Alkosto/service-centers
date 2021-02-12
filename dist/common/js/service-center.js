@@ -1,2 +1,2 @@
-/*! service-centers - v1.0.2 */
-export default class ServiceCenter{constructor({address:e="",cell:t=[],coordinates:s={},hours:i=[],id:h="",name:r="",phone:c=[],viewMap:a=""}){this.isActive=!1,this.address=e,this.cellphone=t,this.coordinates=s,this.hours=i,this.id=h,this.name=r,this.phone=c,this.map=a}get active(){return this.isActive}set active(e){return this.isActive=e}};
+/*! service-centers - v1.0.4 */
+export default class ServiceCenter{constructor({address:e="",areaCode:s="",cell:t=[],coordinates:i={},hours:h=[],id:a="",name:r="",phone:o=[],viewMap:c=""}){this.address=e,this.areaCode=s,this.cellphone=t,this.coordinates=i,this.hours=h,this.id=a,this.isActive=!1,this.name=r,this.phone=o,this.map=c}get active(){return this.isActive}set active(e){this.isActive=e}};
