@@ -1,30 +1,32 @@
 export default class ServiceCenter {
     constructor({
-        address= '',
+        address= "",
+        areaCode="",
         cell = [],
         coordinates = {},
         hours = [],
-        id = '',
-        name = '',
+        id = "",
+        name = "",
         phone = [],
         viewMap = ""
     }){
-        this.isActive = false
-        this.address = address
-        this.cellphone = cell
-        this.coordinates = coordinates
-        this.hours = hours
-        this.id = id
-        this.name = name
-        this.phone = phone
-        this.map = viewMap
+        this.address = address;
+        this.areaCode = areaCode;
+        this.cellphone = cell;
+        this.coordinates = coordinates;
+        this.hours = hours;
+        this.id = id;
+        this.isActive = false;
+        this.name = name;
+        this.phone = phone;
+        this.map = viewMap;
     }
 
     get active(){
-        return this.isActive
+        return this.isActive;
     }
 
     set active(active){
-        return this.isActive = active
+        this.isActive = active;
     }
 }

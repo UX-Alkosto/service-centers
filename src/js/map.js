@@ -9,24 +9,24 @@ export default class Map {
         this.geocoder = new google.maps.Geocoder(),
         this.infoWindow = new google.maps.InfoWindow(),
         this.markers = {},
-        this.map
+        this.map;
 
-        this.init()
+        this.init();
     }
 
     bounceMarker(locationId, status) {
         // Find the correct marker to bounce based on the locationId.
         if (this.markers[locationId] !== undefined) {
-            if (status === "start") this.markers[locationId].setAnimation(google.maps.Animation.BOUNCE)
-            else this.markers[locationId].setAnimation(null)
+            if (status === "start") this.markers[locationId].setAnimation(google.maps.Animation.BOUNCE);
+            else this.markers[locationId].setAnimation(null);
         }
     }
 
     async getGeo() {
         try {
-            return await getCoordinates().then(response => response)
+            return await getCoordinates().then(response => response);
         } catch (error) {
-            return error
+            return error;
         }
     }
 
@@ -37,8 +37,8 @@ export default class Map {
             draggable: true,
             zoom: 10,
             zoomControl: true,
-        })
-        return this.map
+        });
+        return this.map;
     }
 
     setInfoWindow(location) {
@@ -55,29 +55,29 @@ export default class Map {
     }
 
     async setMarkers(locationPoints) {
-        this.bounds = new google.maps.LatLngBounds()
-        Object.values(this.markers).map(marker => marker.setMap(null))
-        this.markers = {}
+        this.bounds = new google.maps.LatLngBounds();
+        Object.values(this.markers).map(marker => marker.setMap(null));
+        this.markers = {};
         locationPoints.map(location => {
             const marker = new google.maps.Marker({
                 position: new google.maps.LatLng(location.coordinates.lat, location.coordinates.lng),
                 map: this.map,
                 icon: `https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@latest/dist/${this.baseSite}/img/pin.svg`,
                 title: location.name
-            })
-            marker.addListener('click', () => {
-                this.infoWindow.setContent(this.setInfoWindow(location))
-                this.infoWindow.open(this.map, marker)
-                this.map.panTo(marker.getPosition())
-                document.dispatchEvent(new CustomEvent('updateCenter', { detail: { center: location.id } }))
-            })
-            this.bounds.extend(marker.getPosition())
-            this.markers[location.id] = marker
-        })
-        this.map.setCenter(this.bounds.getCenter())
-        this.map.fitBounds(this.bounds)
-        if (this.map.getZoom() > 18) this.map.setZoom(18)
-        return this.markers
+            });
+            marker.addListener("click", () => {
+                this.infoWindow.setContent(this.setInfoWindow(location));
+                this.infoWindow.open(this.map, marker);
+                this.map.panTo(marker.getPosition());
+                document.dispatchEvent(new CustomEvent("updateCenter", { detail: { center: location.id } }));
+            });
+            this.bounds.extend(marker.getPosition());
+            this.markers[location.id] = marker;
+        });
+        this.map.setCenter(this.bounds.getCenter());
+        this.map.fitBounds(this.bounds);
+        if (this.map.getZoom() > 18) this.map.setZoom(18);
+        return this.markers;
     }
 }
 
@@ -88,11 +88,11 @@ async function getCoordinates() {
                 resolve({
                     lat: position.coords.latitude,
                     lng: position.coords.longitude,
-                })
+                });
             },
             error => {
-                reject(error)
+                reject(error);
             }
-        )
-    })
+        );
+    });
 }
