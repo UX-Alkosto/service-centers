@@ -1,3 +1,4 @@
+const google = window.google;
 export default class Map {
     constructor({
         $element,
