@@ -1,6 +1,5 @@
 {
   "name": "service-centers",
-  "version": "1.0.2",
   "version": "1.0.4",
   "description": "",
   "main": "Gruntfile.js",
@@ -25,6 +24,7 @@
   "scripts": {
     "build": "grunt",
     "lint": "eslint src/ --quiet",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
