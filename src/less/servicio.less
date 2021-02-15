@@ -7,7 +7,7 @@
 #service-centers-map {
 	display: none;
 
-	@media screen and (min-width: var(--service-centers-breakpoint)) {
+	@media screen and (min-width: @mobile-breakpoint) {
 		display: block;
 		height: 100%;
 		width: 100%;
@@ -22,7 +22,7 @@
 	padding: 0 16px;
 	overflow: hidden;
 
-	@media screen and (min-width: var(--service-centers-breakpoint)) {
+	@media screen and (min-width: @mobile-breakpoint) {
 		padding: 0 50px;
 	}
 
@@ -38,7 +38,7 @@
 		min-height: 390px;
 		width: 100%;
 
-		@media screen and (min-width: var(--service-centers-breakpoint)) {
+		@media screen and (min-width: @mobile-breakpoint) {
 			grid-template-areas: "sidebar _ map";
 			grid-template-columns: minmax(auto, 465px) 28px minmax(50%, auto);
 		}
@@ -56,7 +56,7 @@
 			margin: 10px 0;
 		}
 
-		@media screen and (min-width: var(--service-centers-breakpoint)) {
+		@media screen and (min-width: @mobile-breakpoint) {
 			flex-direction: row;
 
 			[class*="service-centers__filters"] {
@@ -68,7 +68,7 @@
 	&__map {
 		display: none;
 
-		@media screen and (min-width: var(--service-centers-breakpoint)) {
+		@media screen and (min-width: @mobile-breakpoint) {
 			border: 1px solid var(--service-centers-gray-2);
 			grid-area: map;
 			height: 390px;
@@ -124,7 +124,7 @@
 		grid-area: sidebar;
 		position: relative;
 
-		@media screen and (min-width: var(--service-centers-breakpoint)) {
+		@media screen and (min-width: @mobile-breakpoint) {
 			max-height: 390px;
 			.scroll();
 		}
@@ -137,8 +137,8 @@
 				background: var(--service-centers-gray-1);
 				background: linear-gradient(
 					0deg,
-					var(--service-centers-gray-1) 0%,
-					var(--service-centers-white) 100%
+					fade(@gray-1, 100%) 0%,
+					fade(@white, 100%) 100%
 				);
 				color: var(--service-centers-gray-5);
 				max-height: 0;
@@ -157,14 +157,14 @@
 				.contact-phones {
 					gap: 1em;
 					margin-bottom: 16px;
-					@media screen and (max-width: var(--service-centers-breakpoint)) {
+					@media screen and (max-width: @mobile-breakpoint) {
 						flex-wrap: wrap;
 					}
 
 					> * {
 						width: 100%;
 
-						@media screen and (min-width: var(--service-centers-breakpoint)) {
+						@media screen and (min-width: @mobile-breakpoint) {
 							width: 55%;
 							& ~ * {
 								width: 45%;
@@ -278,7 +278,7 @@
 	font-size: 14px;
 	font-weight: 500;
 	margin: 30px 0px;
-	@media screen and (min-width: var(--service-centers-breakpoint)) {
+	@media screen and (min-width: @mobile-breakpoint) {
 		display: block;
 	}
 }
