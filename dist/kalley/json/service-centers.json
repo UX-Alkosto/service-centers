@@ -261,6 +261,18 @@
             ],
             "viewMap":"https://www.google.com/maps/dir//Calle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1/@4.5810705,-74.1624395,17z/data=!4m17!1m7!3m6!1s0x8e3f9f0526bb755d:0xc647039746903fae!2sCalle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1!3b1!8m2!3d4.5810705!4d-74.1602508!4m8!1m0!1m5!1m1!1s0x8e3f9f0526bb755d:0xc647039746903fae!2m2!1d-74.1602508!2d4.5810705!3e3"
         },
+        "bogota-04": {
+            "name": "INDUSERVIX SOLUTION S.A.S",
+            "address": "Cr 20B No 74 - 22",
+            "lat": "4.6628143",
+            "lng": "-74.0648967",
+            "schedule": [],
+            "phone": [],
+            "cell": [
+                "3165297906"
+            ],
+            "viewMap":"https://www.google.com/maps/place/Cra.+20b+%23%2374-22,+Bogot%C3%A1/@4.6628143,-74.0648967,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a59a22cb76f:0xfdf8bbdf4810ca66!8m2!3d4.662809!4d-74.062708?hl=es"
+        },
         "bolivar-cartagena-01": {
             "name": "S.T.E. SERVICE S.A.S. CARTAGENA",
             "address": "Cr 69 No 31A - 35, Urbanización Contadora 1, Casa 5",
@@ -1021,7 +1033,7 @@
         },
         "santander-bucaramanga-01": {
             "name": "ÚNICOS",
-            "address": "Cr 27 No 41 - 28",
+            "address": "Cl 45 No 25 - 44B, Sotomayor",
             "lat": "7.1183524",
             "lng": "-73.1178882",
             "schedule": [],
@@ -2100,6 +2112,7 @@
                     "categories": {
                         "soluciones-hogar": {
                             "stores": [
+                                "bogota-04",
                                 "bogota-03",
                                 "bogota-02",
                                 "bogota-01"
@@ -2107,6 +2120,7 @@
                         },
                         "tecnologia-entretenimiento": {
                             "stores": [
+                                "bogota-04",
                                 "bogota-03",
                                 "bogota-02",
                                 "bogota-01"
@@ -2114,11 +2128,13 @@
                         },
                         "iluminacion": {
                             "stores": [
-                                "bogota-02"
+                                "bogota-02",
+                                "bogota-04"
                             ]
                         },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
+                                "bogota-04",
                                 "bogota-03",
                                 "bogota-02",
                                 "bogota-01"
@@ -2126,6 +2142,7 @@
                         },
                         "ferreteria": {
                             "stores": [
+                                "bogota-04",
                                 "bogota-02"
                             ]
                         }
