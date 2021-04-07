@@ -892,21 +892,6 @@
             ],
             "viewMap":"https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
         },
-        "putumayo-mocoa": {
-            "name": "REFRIELÉCTRICOS",
-            "address": "Cr 8 No 13 - 74, Barrio Jardín",
-            "lat": "1.1519887",
-            "lng": "-76.6493152",
-            "schedule": [],
-            "phone": [
-                "4200756"
-            ],
-            "cell": [
-                "3112682757",
-                "3124812686"
-            ],
-            "viewMap":"https://www.google.com/maps/dir//Cra.+8+%2313-74,+Mocoa,+Putumayo/@1.1519887,-76.6493152,17z/data=!4m17!1m7!3m6!1s0x8e28b29b5120173f:0xbc773d475152d623!2sCra.+8+%2313-74,+Mocoa,+Putumayo!3b1!8m2!3d1.1519887!4d-76.6471265!4m8!1m0!1m5!1m1!1s0x8e28b29b5120173f:0xbc773d475152d623!2m2!1d-76.6471265!2d1.1519887!3e3"
-        },
         "putumayo-puertoasis": {
             "name": "ELECTRONICA Y TECNOLOGIA EDINSON",
             "address": "Cr 23 No 10 - 77",
