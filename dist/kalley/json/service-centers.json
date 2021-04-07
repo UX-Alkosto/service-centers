@@ -2491,27 +2491,6 @@
         "putumayo": {
             "name": "Putumayo",
             "cities": {
-                "mocoa": {
-                    "areaCode" : 8,
-                    "name": "Mocoa",
-                    "categories": {
-                        "soluciones-hogar": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "tecnologia-entretenimiento": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "cuidado-personal-soluciones-hogar": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        }
-                    }
-                },
                 "puerto-asis": {
                     "areaCode" : 8,
                     "name": "Puerto Asís",
