@@ -5,13 +5,13 @@
   "main": "Gruntfile.js",
   "dependencies": {
     "autoprefixer": "^10.2.5",
-    "cssnano": "^5.0.1",
+    "cssnano": "^5.0.2",
     "less-plugin-autoprefix": "^2.0.0",
     "less-plugin-clean-css": "^1.5.1",
     "pixrem": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.24.0",
+    "eslint": "^7.25.0",
     "grunt": "^1.4.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
