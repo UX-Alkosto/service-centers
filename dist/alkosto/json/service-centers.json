@@ -21,19 +21,19 @@
         },
         "aktive-bikes": {
             "name": "Aktive Bikes",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "alcatel": {
             "name": "Alcatel",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "aoc": {
             "name": "AOC",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "cundinamarca",
                 "atlantico",
@@ -55,45 +55,45 @@
         },
         "asus": {
             "name": "Asus",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "athletic": {
             "name": "Athletic",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "avh": {
             "name": "AVH",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "belkin": {
             "name": "Belkin",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "benq": {
             "name": "Benq",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "better": {
             "name": "Better",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "bionaire": {
             "name": "Bionaire",
-            "departments":[
+            "departments": [
                 "atlantico",
                 "cundinamarca",
                 "antioquia",
@@ -103,7 +103,7 @@
         },
         "black-decker": {
             "name": "Black & Decker",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "santander",
                 "valle-del-cauca",
@@ -119,33 +119,33 @@
         },
         "blackberry": {
             "name": "Blackberry",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "boccherini": {
             "name": "Boccherini",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "bosch": {
             "name": "Bosch",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "bose": {
             "name": "Bose",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "brother": {
             "name": "Brother",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "caldas",
                 "antioquia",
@@ -157,7 +157,7 @@
         },
         "claro": {
             "name": "C.A.V CLARO",
-            "departments":[
+            "departments": [
                 "atlantico",
                 "cundinamarca",
                 "santander",
@@ -173,7 +173,7 @@
         },
         "movistar": {
             "name": "C.E Movistar",
-            "departments":[
+            "departments": [
                 "atlantico",
                 "cundinamarca",
                 "santander",
@@ -189,25 +189,25 @@
         },
         "canon": {
             "name": "Canon",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "centrales": {
             "name": "Centrales",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "centrales-mabe": {
             "name": "Centrales MABE",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "challenger": {
             "name": "Challenger",
-            "departments":[
+            "departments": [
                 "quindio",
                 "atlantico",
                 "cundinamarca",
@@ -223,31 +223,31 @@
         },
         "compaq": {
             "name": "Compaq",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "continental": {
             "name": "Continental",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "continente": {
             "name": "Continente",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "continente-sa": {
             "name": "Continente S.A.",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "dell": {
             "name": "Dell",
-            "departments":[
+            "departments": [
                 "quindio",
                 "atlantico",
                 "cundinamarca",
@@ -272,32 +272,32 @@
         },
         "directv": {
             "name": "Direct TV",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "dorado": {
             "name": "Dorado",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "dormiluna": {
             "name": "Dormiluna",
-            "departments":[
+            "departments": [
                 "bogota"
             ]
         },
         "dunlop": {
             "name": "Dunlop",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "electrolux": {
             "name": "Electrolux",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "antioquia",
                 "valle-del-cauca",
@@ -319,164 +319,164 @@
         },
         "elements": {
             "name": "Elements",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "emove": {
             "name": "Emove",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "epson": {
             "name": "Epson",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "espumados": {
             "name": "Espumados",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "essenses": {
             "name": "Essenses",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "evolution": {
             "name": "Evolution",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "forza": {
             "name": "Forza",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "frigidaire": {
             "name": "Frigidaire",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "fujifilm": {
             "name": "Fujifilm",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "gama": {
             "name": "Gama",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "general-electric": {
             "name": "General Electric",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "genius": {
             "name": "Genius",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "goodyear": {
             "name": "Goodyear",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "gopro": {
             "name": "GoPro",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "haceb": {
             "name": "Haceb",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "hamilton-beach": {
             "name": "Hamilton Beach",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "hewlett-packard": {
             "name": "Hewlett Packard",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "cundinamarca"
             ]
         },
         "hitachi": {
             "name": "Hitachi",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "honeywell": {
             "name": "Honeywell",
-            "departments":[
+            "departments": [
                 "bogota"
             ]
         },
         "honor": {
             "name": "Honor",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "horizon": {
             "name": "Horizon",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "htc": {
             "name": "HTC",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "huawei": {
             "name": "Huawei",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "hyundai": {
             "name": "Hyundai",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "icasa": {
             "name": "Icasa",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "imusa": {
             "name": "Imusa",
-            "departments":[
+            "departments": [
                 "quindio",
                 "atlantico",
                 "cundinamarca",
@@ -490,43 +490,43 @@
         },
         "inacsa": {
             "name": "Inacsa",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "induservix": {
             "name": "Induservix",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "inval": {
             "name": "INVAL",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "jabra": {
             "name": "JABRA",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "jbl": {
             "name": "JBL",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "jvc": {
             "name": "JVC",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "kalley": {
             "name": "Kalley",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "atlantico",
                 "cundinamarca",
@@ -538,56 +538,56 @@
         },
         "karcher": {
             "name": "Karcher",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "kenex": {
             "name": "Kenex",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "kingston": {
             "name": "Kingston",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "kitchenaid": {
             "name": "Kitchenaid",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "k-line": {
             "name": "K-Line",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "kyocera": {
             "name": "Kyocera",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "lenovo": {
             "name": "Lenovo",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "lexmark": {
             "name": "Lexmark",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "lg": {
             "name": "LG",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "cundinamarca",
                 "valle-del-cauca",
@@ -601,129 +601,129 @@
         },
         "logitech": {
             "name": "Logitech",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "mabe": {
             "name": "MABE",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "maderkit": {
             "name": "Maderkit",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "marshall": {
             "name": "Marshall",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "mattel": {
             "name": "Mattel Colombia S.A.S",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "mcafee": {
             "name": "MCAFEE",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "michelin": {
             "name": "Michelin",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "microsoft": {
             "name": "Microsoft",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "moduart": {
             "name": "Moduart",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "more-products": {
             "name": "More Products",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "cundinamarca"
             ]
         },
         "motorola": {
             "name": "Motorola",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "msi": {
             "name": "MSI",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "multitech": {
             "name": "Multitech",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "nexen": {
             "name": "Nexen",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "nigi": {
             "name": "NIGI",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "nikon": {
             "name": "Nikon",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "nintendo": {
             "name": "Nintendo",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "nokia": {
             "name": "Nokia",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "oster": {
             "name": "Oster",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "cundinamarca"
             ]
         },
         "pamacol": {
             "name": "Pamacol",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "panasonic": {
             "name": "Panasonic",
-            "departments":[
+            "departments": [
                 "antioquia",
                 "arauca",
                 "quindio",
@@ -752,14 +752,14 @@
         },
         "pc-smart": {
             "name": "PC Smart",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "phillips": {
             "name": "Phillips",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "atlantico",
                 "tolima",
@@ -775,87 +775,87 @@
         },
         "pioneer": {
             "name": "pioneer",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
-        "playstation": {
+        "play-station": {
             "name": "PlayStation",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "polar": {
             "name": "Polar",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "pratimac": {
             "name": "Pratimac",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "profit": {
             "name": "Profit",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "redicol": {
             "name": "Redicol S.A.S",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "remington": {
             "name": "Remington",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "rimax": {
             "name": "Rimax",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "roku": {
             "name": "Roku",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "romance-relax": {
             "name": "Romance Relax",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "ronda": {
             "name": "Ronda",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "samurai": {
             "name": "Samurai",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "sandisk": {
             "name": "Sandisk",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "sharp": {
             "name": "Sharp",
-            "departments":[
+            "departments": [
                 "atlantico",
                 "valle-del-cauca",
                 "antioquia",
@@ -866,31 +866,31 @@
         },
         "simmons": {
             "name": "Simmons",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "simoniz": {
             "name": "Simoniz",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "simply": {
             "name": "Simply",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "singer": {
             "name": "Singer",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "sony": {
             "name": "Sony",
-            "departments":[
+            "departments": [
                 "linea-nacional",
                 "santander",
                 "atlantico",
@@ -903,37 +903,37 @@
         },
         "spring": {
             "name": "Spring",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "startec": {
             "name": "Startec",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "superior": {
             "name": "Superior",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "tablemac": {
             "name": "Tablemac",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "thonet-vander": {
             "name": "Thoner & Vander",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "tienda-tigo": {
             "name": "Tienda TIGO",
-            "departments":[
+            "departments": [
                 "atlantico",
                 "cundinamarca",
                 "santander",
@@ -949,37 +949,37 @@
         },
         "tukasa": {
             "name": "Tukasa",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "universal": {
             "name": "Universal",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "urbanears": {
             "name": "Urbanears",
-            "departments":[
+            "departments": [
                 "cundinamarca"
             ]
         },
         "verbatim": {
             "name": "Verbatim",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "vtech": {
             "name": "V-Tech",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "whirlpool": {
             "name": "Whirlpool",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "santander",
                 "valle-del-cauca",
@@ -992,26 +992,26 @@
         },
         "xbox": {
             "name": "XBOX",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "xiaomi": {
             "name": "Xiaomi",
-            "departments":[
+            "departments": [
                 "cundinamarca",
                 "linea-nacional"
             ]
         },
         "yale": {
             "name": "Yale",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         },
         "yamaha": {
             "name": "Yamaha",
-            "departments":[
+            "departments": [
                 "linea-nacional"
             ]
         }
@@ -1073,6 +1073,9 @@
         },
         "grandes-electrodomesticos": {
             "name": "Grandes Electrodomésticos"
+        },
+        "hidrolavadoras": {
+            "name": "Hidrolavadoras"
         },
         "hogar": {
             "name": "Aires acondicionados"
@@ -1149,7 +1152,7 @@
             "name": "Abba Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)7245151",
                 "018000112057"
@@ -1166,7 +1169,7 @@
             "name": "Punto de Servicio La Castellana",
             "address": "Cr 49 No. 93-12, Barrio: La Castellana",
             "lat": "4.6809851",
-            "lng": "-74.0639395",    
+            "lng": "-74.0639395",
             "phone": [
                 "(1)7435027"
             ],
@@ -1183,7 +1186,7 @@
             "name": "Punto de Servicio Quinta Paredes",
             "address": "Cr 40 No. 24A–59, Barrio Quinta Paredes",
             "lat": "4.6315414",
-            "lng": "-74.0919107",    
+            "lng": "-74.0919107",
             "phone": [
                 "(1)7452493"
             ],
@@ -1200,7 +1203,7 @@
             "name": "ACER Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "01800 5189886"
             ],
@@ -1216,7 +1219,7 @@
             "name": "Adata Call Center, Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -1230,7 +1233,7 @@
             "name": "Evolution Fitness",
             "address": "Cr 30 No. 63F-53, Barrio El Rosario",
             "lat": "4.6572428",
-            "lng": "-74.0782482",    
+            "lng": "-74.0782482",
             "phone": [
                 "(1)7454646"
             ],
@@ -1247,7 +1250,7 @@
             "name": "Alcatel Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "01 8005183882"
             ],
@@ -1263,7 +1266,7 @@
             "name": "AOC Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "01800 9140004"
             ],
@@ -1279,7 +1282,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2634067"
@@ -1300,7 +1303,7 @@
             "name": "CESER",
             "address": "Cl 53 No. 67-57, Barrio Salitre El Greco",
             "lat": "4.6563919",
-            "lng": "-74.1000859",    
+            "lng": "-74.1000859",
             "phone": [
                 "(1)7442601"
             ],
@@ -1320,7 +1323,7 @@
             "name": "CESER",
             "address": "Manzana Lote 1, Barrio Alameda La Victoria",
             "lat": "10.3857087",
-            "lng": "-75.4715196",    
+            "lng": "-75.4715196",
             "phone": [
                 "(5)6787058"
             ],
@@ -1337,7 +1340,7 @@
             "name": "CESER",
             "address": "Cr 3 No. 46-40, Barrio Piedra Pintada Parte Baja",
             "lat": "4.4326182",
-            "lng": "-75.2077398",    
+            "lng": "-75.2077398",
             "phone": [
                 "(8)2762442"
             ],
@@ -1356,7 +1359,7 @@
             "name": "AS ELECTRON",
             "address": "Cr 80 No. 44B-101, Barrio La America",
             "lat": "6.2529255",
-            "lng": "-75.6033286",    
+            "lng": "-75.6033286",
             "phone": [
                 "(4)5808468"
             ],
@@ -1376,7 +1379,7 @@
             "name": "SONY VISION",
             "address": "Cr 7 No 39-08, Barrio El Centro",
             "lat": "8.760799",
-            "lng": "-75.878299",    
+            "lng": "-75.878299",
             "phone": [],
             "cel": [
                 "3126492626"
@@ -1393,7 +1396,7 @@
             "name": "CESER",
             "address": "Av Circunvalar No. 4-28, Lc 2, Edificio El Greco",
             "lat": "4.8064782",
-            "lng": "-75.6822179",    
+            "lng": "-75.6822179",
             "phone": [],
             "cel": [
                 "3013253020",
@@ -1411,7 +1414,7 @@
             "name": "Beatcolor Servicio",
             "address": "Cr 24 No. 20-60, Barrio Centro",
             "lat": "9.3038979",
-            "lng": "-75.3916654",    
+            "lng": "-75.3916654",
             "phone": [
                 "(5)2763326"
             ],
@@ -1430,7 +1433,7 @@
             "name": "Walle Technology S.A.S",
             "address": "Cl 7 No. 15-37, Barrio Macunaima",
             "lat": "4.1309186",
-            "lng": "-73.6183315",    
+            "lng": "-73.6183315",
             "phone": [],
             "cel": [
                 "3235731240",
@@ -1448,7 +1451,7 @@
             "name": "HITECH",
             "address": "Cl 22 Norte No. 5BN-54, Barrio Versalles",
             "lat": "3.4637798",
-            "lng": "-76.5297038",    
+            "lng": "-76.5297038",
             "phone": [
                 "(2)5246414",
                 "(2)3967271"
@@ -1468,7 +1471,7 @@
             "name": "SERTINEC",
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.3397388",
-            "lng": "-72.3891169",    
+            "lng": "-72.3891169",
             "phone": [],
             "cel": [
                 "3115747702",
@@ -1486,7 +1489,7 @@
             "name": "Apple",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [],
@@ -1498,7 +1501,7 @@
             "name": "Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -1512,7 +1515,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
-            "lng": "-74.0639395",    
+            "lng": "-74.0639395",
             "phone": [
                 "(1)7435027"
             ],
@@ -1529,7 +1532,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 40 No. 24a-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
-            "lng": "-74.0919107",    
+            "lng": "-74.0919107",
             "phone": [
                 "(1)7452493"
             ],
@@ -1546,7 +1549,7 @@
             "name": "Asus Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)2415528",
                 "018000910109"
@@ -1564,7 +1567,7 @@
             "name": "Evolution Fitness",
             "address": "Cr 30 No. 63F-53, Barrio El Rosario",
             "lat": "4.6572428",
-            "lng": "-74.0782482",    
+            "lng": "-74.0782482",
             "phone": [
                 "(1)7454646",
                 "(1)4224646"
@@ -1582,7 +1585,7 @@
             "name": "Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -1596,7 +1599,7 @@
             "name": "Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -1610,7 +1613,7 @@
             "name": "BENQ Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -1624,7 +1627,7 @@
             "name": "Better Ltda",
             "address": "Cr 28 No. 83-04, Barrio Polo",
             "lat": "4.6715331",
-            "lng": "-74.0649178",    
+            "lng": "-74.0649178",
             "phone": [
                 "(1)3214539"
             ],
@@ -1645,7 +1648,7 @@
             "name": "Better Ltda Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "311 5896142",
@@ -1664,7 +1667,7 @@
             "name": "C&M Respuestos y Servicios",
             "address": "Cl 70 No. 45-29",
             "lat": "10.9925867",
-            "lng": "-74.8039918",    
+            "lng": "-74.8039918",
             "phone": [
                 "(5)3869797"
             ],
@@ -1684,7 +1687,7 @@
             "name": "LICUAVENT",
             "address": "Cl 37 Sur No. 78H-36, Barrio Kenedy",
             "lat": "4.6234512",
-            "lng": "-74.1527435",    
+            "lng": "-74.1527435",
             "phone": [
                 "(1)7462626"
             ],
@@ -1703,7 +1706,7 @@
             "name": "ORBI Electrónica",
             "address": "Av 33 No. 75C-18",
             "lat": "6.2390321",
-            "lng": "-75.5951372",    
+            "lng": "-75.5951372",
             "phone": [
                 "(4)6069898"
             ],
@@ -1718,12 +1721,12 @@
             "service-link-type": "externo",
             "service-link": "https://www.ostercolombia.com/servicio-y-soporte/centros-de-servicios",
             "view-map": "https://www.google.com/maps/dir//Av.+33+%2375c-18,+Medell%C3%ADn,+Antioquia/@6.2390321,-75.5951372,21z/data=!4m17!1m7!3m6!1s0x8e4429a2cb69a551:0x694e452052838df1!2sAv.+33+%2375c-18,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2389919!4d-75.595165!4m8!1m0!1m5!1m1!1s0x8e4429a2cb69a551:0x694e452052838df1!2m2!1d-75.595165!2d6.2389919!3e2"
-        }, 
+        },
         "bionaire-call-center": {
             "name": "Bionaire Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180360"
             ],
@@ -1740,7 +1743,7 @@
             "name": "OSTER San Fernando",
             "address": "Cl 4D No. 34-50",
             "lat": "3.4326072",
-            "lng": "-76.5437451",    
+            "lng": "-76.5437451",
             "phone": [
                 "(2)8983831"
             ],
@@ -1760,7 +1763,7 @@
             "name": "Central de Licuadoras",
             "address": "Cr 10 19-69, Barrio Centro Edificio Camacol",
             "lat": "4.607715",
-            "lng": "-74.0735268",    
+            "lng": "-74.0735268",
             "phone": [
                 "(1)2846357"
             ],
@@ -1779,7 +1782,7 @@
             "name": "Centro VIMAQ",
             "address": "Cl 137 47-65, Barrio Spring",
             "lat": "4.7229552",
-            "lng": "-74.0545664",    
+            "lng": "-74.0545664",
             "phone": [
                 "(1)5206641"
             ],
@@ -1799,7 +1802,7 @@
             "name": "Products Oring",
             "address": "Cr 22 No. 28-32, Barrio Alarcón",
             "lat": "7.1252066",
-            "lng": "-73.1229655",    
+            "lng": "-73.1229655",
             "phone": [
                 "(7)6358891",
                 "(7)6350790",
@@ -1818,7 +1821,7 @@
             "name": "CTE Centro Técnico",
             "address": "Cr 10 No. 6-88, Barrio Santa Rosa",
             "lat": "3.4465627",
-            "lng": "-76.5350303",    
+            "lng": "-76.5350303",
             "phone": [
                 "(2)8803467"
             ],
@@ -1833,12 +1836,12 @@
             "service-link-type": "externo",
             "service-link": "http://www.blackanddeckerhome.co/centros-de-servicios.aspx",
             "view-map": "https://www.google.com/maps/dir//CTE+Centro+tecnico+especializado+sede+Santa+Rosa,+Cra.+10+%23%236-88,+Cali,+Valle+del+Cauca/@3.4465627,-76.5350303,21z/data=!4m16!1m6!3m5!1s0x8e30a764af463191:0x8638d62481f0ae5b!2sCTE+Centro+tecnico+especializado+sede+Santa+Rosa!8m2!3d3.4464424!4d-76.5350002!4m8!1m0!1m5!1m1!1s0x8e30a764af463191:0x8638d62481f0ae5b!2m2!1d-76.5350002!2d3.4464424!3e2"
-        }, 
+        },
         "black-decker-cali-02": {
             "name": "Eléctricos Mary Mora",
             "address": "Cr 9 No. 14-61, Barrio Centro Calvaria",
             "lat": "3.4488986",
-            "lng": "-76.5282256",    
+            "lng": "-76.5282256",
             "phone": [
                 "(2)8893796"
             ],
@@ -1850,12 +1853,12 @@
             "service-link-type": "externo",
             "service-link": "http://www.blackanddeckerhome.co/centros-de-servicios.aspx",
             "view-map": "https://www.google.com/maps/dir//Electricos+Mary+%22Mora%22,+Cra.+9+%2314+-61,+Cali,+Valle+del+Cauca/@3.4488986,-76.5282256,21z/data=!4m16!1m6!3m5!1s0x8e30a6672e7c5c6f:0xd0728252146e7951!2sElectricos+Mary+%22Mora%22!8m2!3d3.4488549!4d-76.5280335!4m8!1m0!1m5!1m1!1s0x8e30a6672e7c5c6f:0xd0728252146e7951!2m2!1d-76.5280335!2d3.4488549!3e2"
-        }, 
+        },
         "black-decker-cartagena": {
             "name": "Licuacentro",
             "address": "San Pedro Manzana 6 Lote 13 Diagonal a Santa Lucía",
             "lat": "10.3918544",
-            "lng": "-75.4811542",    
+            "lng": "-75.4811542",
             "phone": [
                 "(5)6612406"
             ],
@@ -1873,7 +1876,7 @@
             "name": "Electrollaves Limar Chia",
             "address": "Cl 9 No. 10-52, Barrio Centro Chía",
             "lat": "4.8588127",
-            "lng": "-74.0610089",    
+            "lng": "-74.0610089",
             "phone": [
                 "(1)8631062"
             ],
@@ -1892,7 +1895,7 @@
             "name": "Herramientas Tecnihogar",
             "address": "Av 8 No. 12-89, Barrio Centro ",
             "lat": "7.8834389",
-            "lng": "-72.5065296",    
+            "lng": "-72.5065296",
             "phone": [
                 "(7)5715023"
             ],
@@ -1911,7 +1914,7 @@
             "name": "SERVITES Electronic",
             "address": "C.C. Metro El Bosque, Lc 6, Primer piso",
             "lat": "7.0744828",
-            "lng": "-73.117809",    
+            "lng": "-73.117809",
             "phone": [
                 "(7)6803987",
                 "(7)6381515"
@@ -1931,7 +1934,7 @@
             "name": "Agencia de Servicio",
             "address": "Cl 26 No. 19-54, Barrio Centro",
             "lat": "5.0693773",
-            "lng": "-75.5151057",    
+            "lng": "-75.5151057",
             "phone": [
                 "(6)8810101",
                 "(6)8810046"
@@ -1952,7 +1955,7 @@
             "name": "Familiar de Repuestos",
             "address": "Cl 50 No. 55-92, Barrio Centro",
             "lat": "6.2519823",
-            "lng": "-75.5727145",    
+            "lng": "-75.5727145",
             "phone": [
                 "(4)4790889",
                 "(4)4795116"
@@ -1972,7 +1975,7 @@
             "name": "Orbielectrónica",
             "address": "Av 33 No. 75C-18",
             "lat": "6.2390321",
-            "lng": "-75.5951372",    
+            "lng": "-75.5951372",
             "phone": [
                 "(4)6069898"
             ],
@@ -1992,7 +1995,7 @@
             "name": "La Brilladora",
             "address": "Cr 9 No. 31-01, Barrio Centro",
             "lat": "4.8142069",
-            "lng": "-75.704773",    
+            "lng": "-75.704773",
             "phone": [
                 "(6)3351229"
             ],
@@ -2011,7 +2014,7 @@
             "name": "Taller La Licuadora",
             "address": "Cl 21 No. 9-73, Centro en una esquina",
             "lat": "4.812512",
-            "lng": "-75.6966394",    
+            "lng": "-75.6966394",
             "phone": [
                 "(6)3351229"
             ],
@@ -2030,7 +2033,7 @@
             "name": "SERVITER AF",
             "address": "Cr 26 No. 35-09, Lc 3 Edificio Adem, Barrio San Isidro",
             "lat": "4.1489514",
-            "lng": "-73.6343298",    
+            "lng": "-73.6343298",
             "phone": [
                 "(8)6624867"
             ],
@@ -2049,7 +2052,7 @@
             "name": "Centro de Servicios Reler",
             "address": "Cl 51 No. 73-76, Lc 239, C.C. Los Colores",
             "lat": "6.2507896",
-            "lng": "-75.571201",    
+            "lng": "-75.571201",
             "phone": [],
             "cel": [
                 "3147782719"
@@ -2066,7 +2069,7 @@
             "name": "Licuadoras y Planchas",
             "address": "Cr 56A No. 50-34, Barrio Colombia con Solamina",
             "lat": "6.2527028",
-            "lng": "-75.5756041",    
+            "lng": "-75.5756041",
             "phone": [],
             "cel": [
                 "3117126831"
@@ -2083,7 +2086,7 @@
             "name": "Electricos Praga",
             "address": "Cl 18 No. 17-55, Barrio San Juan Bosco",
             "lat": "1.2070563",
-            "lng": "-77.278009",    
+            "lng": "-77.278009",
             "phone": [
                 "(2)7212016",
                 "(2)7219448"
@@ -2103,7 +2106,7 @@
             "name": "Centro Técnico Philips",
             "address": "Cl 19 No. 17B-19, Barrio Navarrete",
             "lat": "1.2090908",
-            "lng": "-77.2751203",    
+            "lng": "-77.2751203",
             "phone": [],
             "cel": [
                 "3183846802"
@@ -2115,12 +2118,12 @@
             "service-link-type": "externo",
             "service-link": "http://www.blackanddeckerhome.co/centros-de-servicios.aspx",
             "view-map": "https://www.google.com/maps/search/Cl+19+%23no.+17b-19,+Pasto,+Nari%C3%B1o/@1.2090908,-77.2751203,18z/data=!3m1!4b1?hl=es"
-        },   
+        },
         "black-decker-pasto-03": {
             "name": "TV Electronics",
             "address": "Cl 22 No. 2-57, Barrio El Ejido",
             "lat": "1.207379",
-            "lng": "-77.2729623",    
+            "lng": "-77.2729623",
             "phone": [
                 "(2)7228811"
             ],
@@ -2134,12 +2137,12 @@
             "service-link-type": "externo",
             "service-link": "http://www.blackanddeckerhome.co/centros-de-servicios.aspx",
             "view-map": "https://www.google.com/maps/place/Cl.+22+%232e15,+Pasto,+Nari%C3%B1o/@1.207379,-77.2729623,18z/data=!3m1!4b1!4m5!3m4!1s0x8e2ed4911c5cd283:0x3e467d1ee7d14e3b!8m2!3d1.207379!4d-77.271868?hl=es"
-        },   
+        },
         "blackberry-call-center": {
             "name": "Blackberry Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005181887"
             ],
@@ -2150,12 +2153,12 @@
             "service-link-type": "interno",
             "service-link": "",
             "view-map": ""
-        },   
+        },
         "booccherini-bogota": {
             "name": "BOCCHERINI",
             "address": "Av Boyacá No. 22-68, Barrio Montevideo (Zona Industrial)",
             "lat": "4.6527015",
-            "lng": "-74.1251332",    
+            "lng": "-74.1251332",
             "phone": [
                 "(1)6008600"
             ],
@@ -2174,7 +2177,7 @@
             "name": "Bosch Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)6585000"
             ],
@@ -2190,7 +2193,7 @@
             "name": "Bosch Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000115600"
             ],
@@ -2206,7 +2209,7 @@
             "name": "Ceser",
             "address": "Cl 53 No. 67-57, Barrio Salitre Greco",
             "lat": "4.6563919",
-            "lng": "-74.1000859",    
+            "lng": "-74.1000859",
             "phone": [
                 "(1)7442601"
             ],
@@ -2225,7 +2228,7 @@
             "name": "Bose Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005183962"
             ],
@@ -2241,7 +2244,7 @@
             "name": "Compuware",
             "address": "Centro de Alta Tecnología, Cr 15 No. 77-05 Lc 337, Barrio Lago",
             "lat": "4.6638832",
-            "lng": "-74.0585361",    
+            "lng": "-74.0585361",
             "phone": [],
             "cel": [
                 "3104275252"
@@ -2258,7 +2261,7 @@
             "name": "IN Center Manizales",
             "address": "Cr 23C No.69-37, Barrio La Camelia",
             "lat": "5.0519417",
-            "lng": "-75.4855085",    
+            "lng": "-75.4855085",
             "phone": [
                 "(6)8874800"
             ],
@@ -2276,7 +2279,7 @@
             "name": "MES Antioquia Ltda",
             "address": "Cr 43A 27A Sur-86, Lc 115 C.C. La Casona",
             "lat": "6.1781058",
-            "lng": "-75.5848366",    
+            "lng": "-75.5848366",
             "phone": [
                 "(4)2309636"
             ],
@@ -2294,7 +2297,7 @@
             "name": "TECNOMICROS",
             "address": "Cl 34 No. 78-27, Barrio Laureles",
             "lat": "6.2410156",
-            "lng": "-75.6008468",    
+            "lng": "-75.6008468",
             "phone": [
                 "(4)4444293"
             ],
@@ -2313,7 +2316,7 @@
             "name": "TECNOMICROS",
             "address": "Cl 65 No. 25-19, Barrio La Victoria",
             "lat": "6.6718624",
-            "lng": "-74.9171617",    
+            "lng": "-74.9171617",
             "phone": [
                 "(7)6959888"
             ],
@@ -2332,7 +2335,7 @@
             "name": "BIGLASER Ltda",
             "address": "Av Estación 5N-51, Barrio San Vicente",
             "lat": "3.465598",
-            "lng": "-76.5291912",    
+            "lng": "-76.5291912",
             "phone": [
                 "(2)4865686"
             ],
@@ -2350,7 +2353,7 @@
             "name": "Mundo Copias El Caribe",
             "address": "Cr 20 No. 16A-26, Barrio FORD",
             "lat": "9.3013253",
-            "lng": "-75.3951907",    
+            "lng": "-75.3951907",
             "phone": [
                 "(5)2820404 "
             ],
@@ -2366,7 +2369,7 @@
             "name": "Brother Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005190139"
             ],
@@ -2382,7 +2385,7 @@
             "name": "C.A.V Claro Prado",
             "address": "Cr 59 No. 70-45",
             "lat": "11.0008127",
-            "lng": "-74.8043133",    
+            "lng": "-74.8043133",
             "phone": [
                 ""
             ],
@@ -2399,7 +2402,7 @@
             "name": "C.A.V Claro Centro",
             "address": "Cl 35 No. 43-69",
             "lat": "10.9820207",
-            "lng": "-74.7986136",    
+            "lng": "-74.7986136",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2414,7 +2417,7 @@
             "name": "C.A.V Claro Venecia",
             "address": "Av 68 No. 39I-37 Sur",
             "lat": "4.5971365",
-            "lng": "-74.1394359",    
+            "lng": "-74.1394359",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2429,7 +2432,7 @@
             "name": "C.A.V Claro Calima",
             "address": "Av Cr 30 con Cl 9, Lc B1-B19",
             "lat": "4.6182869",
-            "lng": "-74.0882225",    
+            "lng": "-74.0882225",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2445,7 +2448,7 @@
             "name": "C.A.V Claro SantaFe",
             "address": "Cl 185 No. 45-03, Lc N1-022",
             "lat": "4.7626019",
-            "lng": "-74.0484574",    
+            "lng": "-74.0484574",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2461,7 +2464,7 @@
             "name": "C.A.V Kenedy",
             "address": "Av 80 No. 44-19 Sur",
             "lat": "4.5815827",
-            "lng": "-74.1020752",    
+            "lng": "-74.1020752",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2476,7 +2479,7 @@
             "name": "C.A.V Restrepo",
             "address": "Av Cr 14 No. 10-09 Sur, Estación Nariño",
             "lat": "4.5866798",
-            "lng": "-74.0963798",    
+            "lng": "-74.0963798",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2491,7 +2494,7 @@
             "name": "C.A.V Claro Cr 8",
             "address": "Cr 8 No.19-41",
             "lat": "4.6063401",
-            "lng": "-74.071943",    
+            "lng": "-74.071943",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2506,7 +2509,7 @@
             "name": "C.A.V Claro Chapinero",
             "address": "Cr 13 59-52",
             "lat": "4.646393",
-            "lng": "-74.0661459",    
+            "lng": "-74.0661459",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2521,7 +2524,7 @@
             "name": "C.A.V Claro Fontibón",
             "address": "Cr 100 No. 19-57/65",
             "lat": "4.6751409",
-            "lng": "-74.145751",    
+            "lng": "-74.145751",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2536,7 +2539,7 @@
             "name": "C.A.V Claro Lago",
             "address": "Cl 72 No. 14-05",
             "lat": "4.6585704",
-            "lng": "-74.063436",    
+            "lng": "-74.063436",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2551,7 +2554,7 @@
             "name": "C.A.V Claro Alamos",
             "address": "Cl 71B No. 100-11, Lc 201A, C.C. Diver Plaza",
             "lat": "4.7003054",
-            "lng": "-74.1167631",    
+            "lng": "-74.1167631",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2567,7 +2570,7 @@
             "name": "C.A.V Claro Cl 94",
             "address": "Cr 15 No. 94-38",
             "lat": "4.680031",
-            "lng": "-74.0524177",    
+            "lng": "-74.0524177",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2582,7 +2585,7 @@
             "name": "C.A.V Claro Bucaramanga",
             "address": "Cr 33 No. 44-56",
             "lat": "7.1193891",
-            "lng": "-73.1139405",    
+            "lng": "-73.1139405",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2597,7 +2600,7 @@
             "name": "C.A.V Claro Bucaramnga",
             "address": "Cl 36 No. 17-52",
             "lat": "7.1183589",
-            "lng": "-73.126505",    
+            "lng": "-73.126505",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2612,7 +2615,7 @@
             "name": "C.A.C Cali Sur",
             "address": "Cr 98 No. 16-200",
             "lat": "3.3692197",
-            "lng": "-76.5284747",    
+            "lng": "-76.5284747",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2627,7 +2630,7 @@
             "name": "C.A.C Cali Oeste",
             "address": "Av Colombia No. 1-72 Oeste",
             "lat": "3.453245",
-            "lng": "-76.5488342",    
+            "lng": "-76.5488342",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2642,7 +2645,7 @@
             "name": "C.A.C Cali Norte",
             "address": "Cr 3 No. 49-120",
             "lat": "3.4567672",
-            "lng": "-76.537082",    
+            "lng": "-76.537082",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2657,7 +2660,7 @@
             "name": "C.A.C Cali Palmetto",
             "address": "Cl 9 No. 49-21",
             "lat": "3.409473",
-            "lng": "-76.5419953",    
+            "lng": "-76.5419953",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2672,7 +2675,7 @@
             "name": "C.A.V Claro Chia",
             "address": "Cl 10 No. 11-36",
             "lat": "4.8603521",
-            "lng": "-74.0642677",    
+            "lng": "-74.0642677",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2688,7 +2691,7 @@
             "name": "C.A.V Claro Manizales",
             "address": "Cr 23 No. 64B-33",
             "lat": "5.0575557",
-            "lng": "-75.5026396",    
+            "lng": "-75.5026396",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2703,7 +2706,7 @@
             "name": "C.A.V Claro Centro",
             "address": "Cr 55 No. 49-101",
             "lat": "6.2512582",
-            "lng": "-75.5747145",    
+            "lng": "-75.5747145",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2718,7 +2721,7 @@
             "name": "C.A.V Claro Molinos",
             "address": "Cl 30A No. 82A-26",
             "lat": "6.2325601",
-            "lng": "-75.6050729",    
+            "lng": "-75.6050729",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2734,7 +2737,7 @@
             "name": "C.A.V Claro Premium",
             "address": "Cr 43A No. 30-25",
             "lat": "6.2301682",
-            "lng": "-75.5723811",    
+            "lng": "-75.5723811",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2750,7 +2753,7 @@
             "name": "C.A.V Claro Sao Paulo",
             "address": "Cr 43A No. 18Sur- 135",
             "lat": "6.1848576",
-            "lng": "-75.5798594",    
+            "lng": "-75.5798594",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2765,7 +2768,7 @@
             "name": "C.A.V Claro Pereira I",
             "address": "Cr 13 No. 2B-04",
             "lat": "4.8072524",
-            "lng": "-75.681127",    
+            "lng": "-75.681127",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2780,7 +2783,7 @@
             "name": "C.A.V Claro Pereira II",
             "address": "Cl 20 No. 6-17",
             "lat": "4.8151726",
-            "lng": "-75.6969743",    
+            "lng": "-75.6969743",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2795,7 +2798,7 @@
             "name": "C.A.C Claro Sincelejo",
             "address": "Cr 25 No. 25-382 Av Okala",
             "lat": "9.2989044",
-            "lng": "-75.3921454",    
+            "lng": "-75.3921454",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2810,7 +2813,7 @@
             "name": "C.A.V Claro Soacha",
             "address": "C.C. Mercurio, Lc 155-154",
             "lat": "4.5910962",
-            "lng": "-74.2198136",    
+            "lng": "-74.2198136",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2826,7 +2829,7 @@
             "name": "C.A.V Claro Tunja",
             "address": "Cr 6 No. 36-25",
             "lat": "5.5473345",
-            "lng": "-73.3584164",    
+            "lng": "-73.3584164",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2841,7 +2844,7 @@
             "name": "C.A.V Claro Villavicencio",
             "address": "Av 40 No. 16B-159",
             "lat": "4.1334157",
-            "lng": "-73.6397984",    
+            "lng": "-73.6397984",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2857,7 +2860,7 @@
             "name": "C.A.V Claro Villavicencio",
             "address": "Cr 22 No. 5B-114",
             "lat": "4.1274991",
-            "lng": "-73.6233868",    
+            "lng": "-73.6233868",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2872,7 +2875,7 @@
             "name": "C.A.V Claro Yopal",
             "address": "Cr 22 No. 9-44",
             "lat": "5.3483124",
-            "lng": "-72.3994877",    
+            "lng": "-72.3994877",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2887,7 +2890,7 @@
             "name": "Barranquilla Estadio",
             "address": "Cl 74 No. 45-91",
             "lat": "10.9953405",
-            "lng": "-74.8101096",    
+            "lng": "-74.8101096",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2902,7 +2905,7 @@
             "name": "Barranquilla La Granja",
             "address": "Cl 30 No. 1-295",
             "lat": "10.9340291",
-            "lng": "-74.7953201",    
+            "lng": "-74.7953201",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2917,7 +2920,7 @@
             "name": "Barranquilla Prado",
             "address": "Cr 54 No. 72-14",
             "lat": "10.9992368",
-            "lng": "-74.8037543",    
+            "lng": "-74.8037543",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2932,7 +2935,7 @@
             "name": "Movistar Av Suba",
             "address": "Trv 60 No. 128-94/98",
             "lat": "4.7065966",
-            "lng": "-74.0800497",    
+            "lng": "-74.0800497",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2947,7 +2950,7 @@
             "name": "Movistar Cl 103",
             "address": "Cr 15 No. 103-25",
             "lat": "4.6882679",
-            "lng": "-74.0496947",    
+            "lng": "-74.0496947",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2962,7 +2965,7 @@
             "name": "Movistar Cl 26",
             "address": "Cl 26 No 32A-33, Edificio Tacay, Lc 102",
             "lat": "4.6292751",
-            "lng": "-74.0849535",    
+            "lng": "-74.0849535",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2977,7 +2980,7 @@
             "name": "Movistar Cedritos",
             "address": "Cl 140 No. 12-81",
             "lat": "4.7199827",
-            "lng": "-74.0407013",    
+            "lng": "-74.0407013",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -2992,7 +2995,7 @@
             "name": "Movistar Centro Mayor",
             "address": "Cr 27 Sur No. 38A-61, C.C Centro Mayor, Entrada 5 Lc 1-106",
             "lat": "4.5915049",
-            "lng": "-74.1264142",    
+            "lng": "-74.1264142",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3007,7 +3010,7 @@
             "name": "Movistar Chapinero",
             "address": "Cr 13 No. 58-71",
             "lat": "4.645478",
-            "lng": "-74.0664193",    
+            "lng": "-74.0664193",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3022,7 +3025,7 @@
             "name": "Movistar Fontibón",
             "address": "Cr 100 No. 20-29",
             "lat": "4.6753339",
-            "lng": "-74.1450887",    
+            "lng": "-74.1450887",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3037,7 +3040,7 @@
             "name": "Movistar La Floresta",
             "address": "Cl 101 No. 66-03, Edificio CODASMEAS",
             "lat": "4.6899652",
-            "lng": "-74.072913",    
+            "lng": "-74.072913",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3052,7 +3055,7 @@
             "name": "Movistar Morato",
             "address": "Av Suba No. 114A-55, Edificio Morato",
             "lat": "4.7028517",
-            "lng": "-74.0868194",    
+            "lng": "-74.0868194",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3066,7 +3069,7 @@
             "name": "Movistar Parque Central Bavaria",
             "address": "Cl 31 No. 13A-51, Edificio Torre Panorama 26",
             "lat": "4.6184837",
-            "lng": "-74.0726446",    
+            "lng": "-74.0726446",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3081,7 +3084,7 @@
             "name": "Movistar Plaza de las Américas",
             "address": "Cl 3 Sur No. 71C-19, Piso 2",
             "lat": "4.6201526",
-            "lng": "-74.138294",    
+            "lng": "-74.138294",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3096,7 +3099,7 @@
             "name": "Movistar Suba al Paso",
             "address": "Av Cl 145 No. 103B-65 C.C. AL PASO, Lc 105",
             "lat": "4.7458129",
-            "lng": "-74.0983351",    
+            "lng": "-74.0983351",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3111,7 +3114,7 @@
             "name": "Movistar Chia",
             "address": "Cl 10 No. 10-68",
             "lat": "4.8603654",
-            "lng": "-74.0629962",    
+            "lng": "-74.0629962",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3127,7 +3130,7 @@
             "name": "Movistar Facatativá",
             "address": "Cl 7 No. 3-60, Centro",
             "lat": "4.815834",
-            "lng": "-74.3581747",    
+            "lng": "-74.3581747",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3142,7 +3145,7 @@
             "name": "Movistar Fusagasugá",
             "address": "Cl 10 No. 7-77, Centro",
             "lat": "4.3411335",
-            "lng": "-74.3650929",    
+            "lng": "-74.3650929",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3157,7 +3160,7 @@
             "name": "Movistar Soacha",
             "address": "Cr 7 No. 32-35, C.C. Mercurio, Lc 240-245",
             "lat": "4.5881562",
-            "lng": "-74.2019624",    
+            "lng": "-74.2019624",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3172,7 +3175,7 @@
             "name": "Movistar Zipaquirá",
             "address": "Cr 7 No. 5-71",
             "lat": "5.0244369",
-            "lng": "-74.0060212",    
+            "lng": "-74.0060212",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3187,7 +3190,7 @@
             "name": "Movistar Cabecera",
             "address": "Cr 33 N0. 44-68",
             "lat": "7.1146332",
-            "lng": "-73.1157863",    
+            "lng": "-73.1157863",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3202,7 +3205,7 @@
             "name": "Movistar Centro",
             "address": "Cl 36 No. 17-75",
             "lat": "7.1180052",
-            "lng": "-73.1309267",    
+            "lng": "-73.1309267",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3217,7 +3220,7 @@
             "name": "Movistar Bucaramanga La Isla",
             "address": "Cl 56 No. 17A-117, Barrio La Isla",
             "lat": "7.1080873",
-            "lng": "-73.1204419",    
+            "lng": "-73.1204419",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3232,7 +3235,7 @@
             "name": "Movistar Aventura Plaza",
             "address": "Cr 100 No. 15A-61, C.C Aventura Plaza, Lc 220",
             "lat": "3.3680463",
-            "lng": "-76.5321223",    
+            "lng": "-76.5321223",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3247,7 +3250,7 @@
             "name": "Movistar Calima",
             "address": "Cr 5 Norte No. 55-39, Barrio Flora Industrial",
             "lat": "3.48023",
-            "lng": "-76.5223988",    
+            "lng": "-76.5223988",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3262,7 +3265,7 @@
             "name": "Movistar Cali",
             "address": "Cl 9A No. 46-69, Lc 105-106",
             "lat": "3.4145421",
-            "lng": "-76.5425351",    
+            "lng": "-76.5425351",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3277,7 +3280,7 @@
             "name": "Movistar Cali Canaveralejo",
             "address": "Cl 5 No. 54A-13",
             "lat": "3.4145421",
-            "lng": "-76.5491012",    
+            "lng": "-76.5491012",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3292,7 +3295,7 @@
             "name": "Movistar Centro",
             "address": "Cl 10 Cr 6, Esquina Diag a la Gobernación",
             "lat": "3.4500165",
-            "lng": "-76.5353559",    
+            "lng": "-76.5353559",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3307,7 +3310,7 @@
             "name": "Movistar Santa Mónica",
             "address": "Av 6A Norte No. 22N-46",
             "lat": "3.4161938",
-            "lng": "-76.5698161",    
+            "lng": "-76.5698161",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3322,7 +3325,7 @@
             "name": "Movistar Chia",
             "address": "Cl 10 No. 10-68",
             "lat": "4.8603654",
-            "lng": "-74.0629962",    
+            "lng": "-74.0629962",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3338,7 +3341,7 @@
             "name": "Movistar Manizales",
             "address": "Cr 23B No. 64-80",
             "lat": "5.0558374",
-            "lng": "-75.4891584",    
+            "lng": "-75.4891584",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3353,7 +3356,7 @@
             "name": "Movistar Centro",
             "address": "Cr 47 No. 52-86, C.C Camino Real, Lc 301",
             "lat": "6.2502046",
-            "lng": "-75.5669996",    
+            "lng": "-75.5669996",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3368,7 +3371,7 @@
             "name": "Movistar Mayorca",
             "address": "Cl 51 Sur No. 48-57, C.C Mayorca Mega Plaza, Lc 1072-1074",
             "lat": "6.1617927",
-            "lng": "-75.6071954",    
+            "lng": "-75.6071954",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3383,7 +3386,7 @@
             "name": "Movistar Poblado",
             "address": "Cr 43A No. 3-101",
             "lat": "6.1617915",
-            "lng": "-75.6400263",    
+            "lng": "-75.6400263",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3398,7 +3401,7 @@
             "name": "Movistar Premium",
             "address": "Cr 43A No. 30-25, C.C Premium Plaza, Lc 1260",
             "lat": "6.2296521",
-            "lng": "-75.6400627",    
+            "lng": "-75.6400627",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3413,7 +3416,7 @@
             "name": "Movistar Bello Puerta del Norte",
             "address": "Dg 55 No. 34-67, C.C Puerto del Norte, Torre 1 Piso 2",
             "lat": "6.3394457",
-            "lng": "-75.5457144",    
+            "lng": "-75.5457144",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3429,7 +3432,7 @@
             "name": "Movistar Pereira",
             "address": "Av Circunvalar No. 10-53",
             "lat": "4.8061551",
-            "lng": "-75.688698",    
+            "lng": "-75.688698",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3444,7 +3447,7 @@
             "name": "Movistar Sincelejo",
             "address": "Cl 25 N0. 19-29",
             "lat": "9.2998081",
-            "lng": "-75.3960327",    
+            "lng": "-75.3960327",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3459,7 +3462,7 @@
             "name": "Movistar Soacha",
             "address": "Cr 7 No. 32-35, C.C Mercurio Lc 240A-245",
             "lat": "4.587753",
-            "lng": "-74.2063227",    
+            "lng": "-74.2063227",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3474,7 +3477,7 @@
             "name": "Movistar Tunja",
             "address": "Plaza Bolívar Cl 19 No. 9-15",
             "lat": "5.5317253",
-            "lng": "-73.3701615",    
+            "lng": "-73.3701615",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3489,11 +3492,11 @@
             "name": "Movistar C.C Unicentro",
             "address": "Av Universitaria No. 39-77",
             "lat": "5.5395432",
-            "lng": "-73.3640772",    
+            "lng": "-73.3640772",
             "phone": [],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 10:00 a.m a 7:00 p.m", 
+                "Lun a Vie de 10:00 a.m a 7:00 p.m",
                 "Sab de 9:00 a.m a 7:00 p.m",
                 "Dom de 2:00 p.m a 6:00 p.m"
             ],
@@ -3505,11 +3508,11 @@
             "name": "Movistar Villavicencio",
             "address": "Av 40 No. 35A-30, Mainzaro",
             "lat": "4.1331435",
-            "lng": "-73.638616",    
+            "lng": "-73.638616",
             "phone": [],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m", 
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
                 "Sab de 8:30 a.m a 12:30 p.m"
             ],
             "service-link-type": "interno",
@@ -3520,11 +3523,11 @@
             "name": "Movistar Villavicencio",
             "address": "Cr 48 No. 13-220",
             "lat": "4.140109",
-            "lng": "-73.6608627",    
+            "lng": "-73.6608627",
             "phone": [],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m", 
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
                 "Sab de 8:30 a.m a 12:30 p.m"
             ],
             "service-link-type": "interno",
@@ -3535,11 +3538,11 @@
             "name": "Movistar Yopal",
             "address": "Cl 7 No. 19-54",
             "lat": "5.3493564",
-            "lng": "-72.4039405",    
+            "lng": "-72.4039405",
             "phone": [],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "interno",
@@ -3550,7 +3553,7 @@
             "name": "Canon Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3564,7 +3567,7 @@
             "name": "Centrales Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005183227"
             ],
@@ -3580,7 +3583,7 @@
             "name": "Centrales Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)4897900",
                 "(1)5087373"
@@ -3597,7 +3600,7 @@
             "name": "Quindio Digital",
             "address": "Cl 23 No. 13-15, Barrio Centro Balcones",
             "lat": "4.5311525",
-            "lng": "-75.6763976",    
+            "lng": "-75.6763976",
             "phone": [
                 "(6)7411722"
             ],
@@ -3605,7 +3608,7 @@
                 "3146880025"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a 12:00 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:30 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3616,13 +3619,13 @@
             "name": "Challenger Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000111966"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3633,13 +3636,13 @@
             "name": "Servimaster Challenger",
             "address": "Trv 95 Bis No. 25G-84, Barrio Modelia",
             "lat": "4.6794768",
-            "lng": "-74.1219288",    
+            "lng": "-74.1219288",
             "phone": [
                 "(1)4256240 "
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 7:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3650,14 +3653,14 @@
             "name": "Servimaster Challenger",
             "address": "Av La Rosita No. 24-102, Lc 1 Barrio La Concordia",
             "lat": "7.1187005",
-            "lng": "-73.119476",    
+            "lng": "-73.119476",
             "phone": [
                 "(7)6352015",
                 "(7)6451255"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Sab de 8:00 a.m a 5:00 p.m", 
+                "Lun a Sab de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3668,7 +3671,7 @@
             "name": "Servimaster Challenger",
             "address": "Av 6A Norte No. 27N-56",
             "lat": "3.470162",
-            "lng": "-76.5297528",    
+            "lng": "-76.5297528",
             "phone": [
                 "(2)6604021",
                 "(2)6610876",
@@ -3676,7 +3679,7 @@
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3687,14 +3690,14 @@
             "name": "Enlace Digital Manizales",
             "address": "Cl 60 No. 25-51, Barrio La Estrella",
             "lat": "5.0587196",
-            "lng": "-75.4919475",    
+            "lng": "-75.4919475",
             "phone": [
                 "(6)8857839",
                 "(6)8854731"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a 12:00 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 12:30 p.m"
             ],
             "service-link-type": "externo",
@@ -3705,7 +3708,7 @@
             "name": "Servimaster Challenger",
             "address": "Cl 10A No. 41-08, Barrio El Poblado",
             "lat": "6.2107978",
-            "lng": "-75.5708475",    
+            "lng": "-75.5708475",
             "phone": [
                 "(4)4448813",
                 "(4)2666307"
@@ -3714,7 +3717,7 @@
                 "3008269132"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:0 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3725,7 +3728,7 @@
             "name": "Servimaster Challenger",
             "address": "Av 30 de Agosto, No. 49-56",
             "lat": "4.8163034",
-            "lng": "-75.722012",    
+            "lng": "-75.722012",
             "phone": [
                 "(6)3294646",
                 "(6)3294647",
@@ -3735,7 +3738,7 @@
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3746,7 +3749,7 @@
             "name": "Electricas LAC",
             "address": "Cr 26 No. 6A-65, Barrio Cerranía",
             "lat": "4.1304195",
-            "lng": "-73.6441154",    
+            "lng": "-73.6441154",
             "phone": [
                 "(8)6633590"
             ],
@@ -3754,7 +3757,7 @@
                 "3043900599"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3765,14 +3768,14 @@
             "name": "Servimaster Challenger",
             "address": "Cr 19 No. 13-10, Esquina Barrio Bello Horizonte",
             "lat": "5.3438517",
-            "lng": "-72.4015393",    
+            "lng": "-72.4015393",
             "phone": [
                 "(8)6353181",
                 "(8)6359366"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3783,13 +3786,13 @@
             "name": "Challenger Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "01 8000111966"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 7:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3800,13 +3803,13 @@
             "name": "COMPAQ Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005184842"
             ],
             "cel": [],
             "schedule": [
-                "Dom a Dom de 8:00 a.m a 10:00 p.m", 
+                "Dom a Dom de 8:00 a.m a 10:00 p.m",
                 ""
             ],
             "service-link-type": "externo",
@@ -3817,7 +3820,7 @@
             "name": "Continental Alkosto/Ktronix",
             "address": "Servitecas",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -3831,7 +3834,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -3842,7 +3845,7 @@
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:0 a.m a 12:00 p.m"
             ],
             "service-link-type": "interno",
@@ -3853,7 +3856,7 @@
             "name": "Continente Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000415385",
                 "(5)3851332",
@@ -3871,7 +3874,7 @@
             "name": "Nuestros Computadores",
             "address": "Cr 14 No. 5-91, Frente a Unicentro C.C",
             "lat": "4.5395552",
-            "lng": "-75.6661384",    
+            "lng": "-75.6661384",
             "phone": [
                 "018009155704",
                 "(6)7466349",
@@ -3881,7 +3884,7 @@
                 "3153002610"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 7:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 7:00 p.m",
                 "Sab de 9:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3892,7 +3895,7 @@
             "name": "Hardware & Servicios",
             "address": "Cr 43 No. 50-12, Lc 168, Parque Central",
             "lat": "10.984015",
-            "lng": "-74.7916805",    
+            "lng": "-74.7916805",
             "phone": [
                 "018009155704",
                 "(5)3855179"
@@ -3912,7 +3915,7 @@
             "name": "Dell Bogotá",
             "address": "",
             "lat": "4.667796",
-            "lng": "-74.0580581",    
+            "lng": "-74.0580581",
             "phone": [
                 "018009155704",
                 "(1)4673400",
@@ -3930,7 +3933,7 @@
             "name": "Dell Bucaramanga",
             "address": "Cl 36 No. 21-50",
             "lat": "7.119755",
-            "lng": "-73.1210433",    
+            "lng": "-73.1210433",
             "phone": [
                 "018009155704",
                 "(7)6330795",
@@ -3951,7 +3954,7 @@
             "name": "Dell Cali Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(2)6682123",
@@ -3972,7 +3975,7 @@
             "name": "Dell Ibagué Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(8)2666024",
@@ -3984,7 +3987,7 @@
                 "3112749941"
             ],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 6:30 p.m", 
+                "Lun a Vie de 8:30 a.m a 6:30 p.m",
                 "Sab de 9:00 a.m a 5:00 p.m"
             ],
             "service-link-type": "externo",
@@ -3995,7 +3998,7 @@
             "name": "Dell Manizales Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(6)8806030",
@@ -4006,7 +4009,7 @@
                 "316417768"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a 12:30 y de 2:00 p.m a 6:30 p.m", 
+                "Lun a Vie de 8:00 a 12:30 y de 2:00 p.m a 6:30 p.m",
                 "Sab de 9:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4017,7 +4020,7 @@
             "name": "Dell Medellín Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(4)3113084",
                 "018009155704"
@@ -4036,7 +4039,7 @@
             "name": "Dell Montería Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(4)7821853"
@@ -4046,7 +4049,7 @@
                 "3002050766"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:0 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4057,7 +4060,7 @@
             "name": "Dell Neiva Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(8)8721466"
@@ -4076,7 +4079,7 @@
             "name": "",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(2)7334105"
@@ -4085,7 +4088,7 @@
                 "3137688408"
             ],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4096,7 +4099,7 @@
             "name": "Dell Pereira Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4114,7 +4117,7 @@
             "name": "Dell Popayán Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4132,7 +4135,7 @@
             "name": "Dell Rioacha Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(5)3855179"
@@ -4149,7 +4152,7 @@
             "name": "Dell San Andrés Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(8)5131217",
@@ -4167,7 +4170,7 @@
             "name": "Dell Santa Marta Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4176,7 +4179,7 @@
                 "3002066657"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4187,7 +4190,7 @@
             "name": "Dell Sincelejo Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704",
                 "(5)2815593"
@@ -4207,7 +4210,7 @@
             "name": "Dell Tunja Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4223,7 +4226,7 @@
             "name": "Dell Valledupar Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4239,7 +4242,7 @@
             "name": "Dell Villavicencio Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4255,7 +4258,7 @@
             "name": "Dell Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018009155704"
             ],
@@ -4271,7 +4274,7 @@
             "name": "Directv Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)5186587"
             ],
@@ -4287,7 +4290,7 @@
             "name": "Directv Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000911819"
             ],
@@ -4303,7 +4306,7 @@
             "name": "El Dorado",
             "address": "Cl 17 No. 80A-70",
             "lat": "4.6579705",
-            "lng": "-74.1365232",    
+            "lng": "-74.1365232",
             "phone": [
                 "(1)4114211"
             ],
@@ -4319,13 +4322,13 @@
             "name": "Dormiluna",
             "address": "Cr 67 No. 9-03",
             "lat": "4.6299223",
-            "lng": "-74.1218905",    
+            "lng": "-74.1218905",
             "phone": [
                 "(1)2610700"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 3:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4336,7 +4339,7 @@
             "name": "Dunlop Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -4350,13 +4353,13 @@
             "name": "Electrolux Bogotá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)7442968"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4367,13 +4370,13 @@
             "name": "Electrolux Medellín Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(4)6044715"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:0 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4384,13 +4387,13 @@
             "name": "Electrolux Cali Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)4859398"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4401,13 +4404,13 @@
             "name": "Electrolux Barranquilla Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(5)3851229"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4418,13 +4421,13 @@
             "name": "Electrolux Bucaramanga Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(7) 6972679"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4435,13 +4438,13 @@
             "name": "Electrolux Cartagena Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(5)6932321"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4452,31 +4455,30 @@
             "name": "Electrolux Pasto Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)7374560"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
             "service-link": "https://www.electrolux.com.co/visita-tecnica",
             "view-map": ""
         },
-
         "electrolux-santa-marta-call-center": {
             "name": "Electrolux Santa Marta Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(5)4368014"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4487,13 +4489,13 @@
             "name": "Electrolux Armenia Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(6)7358164"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4504,13 +4506,13 @@
             "name": "Electrolux Manizales Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(6)8918867"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4521,13 +4523,13 @@
             "name": "Electrolux Villavicencio Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(8)6833675"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4538,13 +4540,13 @@
             "name": "Electrolux Pereira Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(6)3400335"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4555,13 +4557,13 @@
             "name": "Electrolux Cúcuta Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(7)5956275"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4572,13 +4574,13 @@
             "name": "Electrolux Ibagué Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(8)2770804"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4589,13 +4591,13 @@
             "name": "Electrolux Facatativá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)8903806"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4606,13 +4608,13 @@
             "name": "Electrolux Girardot Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)8886896"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4623,13 +4625,13 @@
             "name": "Electrolux Buenaventura Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)2979113"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4640,13 +4642,13 @@
             "name": "Electrolux Popayán Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)8353769"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4657,13 +4659,13 @@
             "name": "Electrolux Montería Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(4)7890171"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4674,13 +4676,13 @@
             "name": "Electrolux Sincelejo Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(5)2764364"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4691,13 +4693,13 @@
             "name": "Electrolux Valledupar Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(5)5885825"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4708,13 +4710,13 @@
             "name": "Electrolux Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180382"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -4725,7 +4727,7 @@
             "name": "Elements",
             "address": "Cr 72L No. 37B-62 Sur, Barrio Carvajal",
             "lat": "4.614395",
-            "lng": "-74.1435364",    
+            "lng": "-74.1435364",
             "phone": [
                 "(1)6946763"
             ],
@@ -4743,13 +4745,13 @@
             "name": "Evolution Fitness",
             "address": "Cr 30 No. 63F-53, Barrio El Rosario",
             "lat": "4.6572428",
-            "lng": "-74.0782482",    
+            "lng": "-74.0782482",
             "phone": [
                 "(1)7454646"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4760,14 +4762,14 @@
             "name": "AMTECK",
             "address": "Cr 24 No. 83-41, Barrio Polo",
             "lat": "4.671726",
-            "lng": "-74.063404",    
+            "lng": "-74.063404",
             "phone": [
                 "(1)2368791",
                 "(1)2368718"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:30 p.m", 
+                "Lun a Vie de 8:00 a.m a 4:30 p.m",
                 ""
             ],
             "service-link-type": "externo",
@@ -4778,7 +4780,7 @@
             "name": "EPSON Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000915235"
             ],
@@ -4794,7 +4796,7 @@
             "name": "SMAYL",
             "address": "Cr 72 No. 6B-58 Lc 102",
             "lat": "4.6321101",
-            "lng": "-74.1374658",    
+            "lng": "-74.1374658",
             "phone": [
                 "(1)7442795",
                 "(1)7442797"
@@ -4811,14 +4813,14 @@
             "name": "Espumados Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180418",
                 "(1)7309130"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4829,11 +4831,11 @@
             "name": "Essenses Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m", 
+                "Dom a Dom de 8:00 a.m a 9:00 p.m",
                 ""
             ],
             "service-link-type": "interno",
@@ -4844,13 +4846,13 @@
             "name": "Evolution Fitness",
             "address": "Cr 30 No. 63F-53, Barrio El Rosario",
             "lat": "4.6572428",
-            "lng": "-74.0782482",    
+            "lng": "-74.0782482",
             "phone": [
                 "(1)7454646"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4861,13 +4863,13 @@
             "name": "Evolution Call Center",
             "address": "contactenospostventa@evolutionfitness.co ",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000188432"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 7:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4878,7 +4880,7 @@
             "name": "Forza Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -4892,7 +4894,7 @@
             "name": "Frigidaire Bogotá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)7442968"
             ],
@@ -4908,7 +4910,7 @@
             "name": "Frigidaire Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180382"
             ],
@@ -4924,7 +4926,7 @@
             "name": "Fujifilm Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000963768",
                 "(1)5190886",
@@ -4944,7 +4946,7 @@
             "name": "Gama Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)5804355"
             ],
@@ -4960,13 +4962,13 @@
             "name": "General Electrc Bogotá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)4897900"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:0 a.m a 12:00 p.m"
             ],
             "service-link-type": "interno",
@@ -4977,7 +4979,7 @@
             "name": "General Electric Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000516464"
             ],
@@ -4993,7 +4995,7 @@
             "name": "Genius Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5007,7 +5009,7 @@
             "name": "GoodYear Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)6088300"
             ],
@@ -5023,7 +5025,7 @@
             "name": "Go Pro Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5037,13 +5039,13 @@
             "name": "Haceb Bogotá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)8295758"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -5054,13 +5056,13 @@
             "name": "Haceb Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000511000"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "externo",
@@ -5071,7 +5073,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -5082,7 +5084,7 @@
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m", 
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "service-link-type": "interno",
@@ -5093,7 +5095,7 @@
             "name": "Hewlett Packard Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005184842"
             ],
@@ -5109,7 +5111,7 @@
             "name": "Hewlett Packard Bogotá Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)5085553"
             ],
@@ -5125,7 +5127,7 @@
             "name": "Datecsa S.A.",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5139,7 +5141,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -5161,7 +5163,7 @@
             "name": "Honor Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000949400"
             ],
@@ -5178,7 +5180,7 @@
             "name": "Horizon Alkosto/Ktronix",
             "address": "Almacén dónde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5192,7 +5194,7 @@
             "name": "HTC Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5206,7 +5208,7 @@
             "name": "Huawei Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000949400"
             ],
@@ -5223,7 +5225,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -5245,7 +5247,7 @@
             "name": "Hyundai Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3008217999"
@@ -5261,7 +5263,7 @@
             "name": "ICASA Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "4897979"
             ],
@@ -5278,7 +5280,7 @@
             "name": "La Licuadora",
             "address": "Cr 19 No. 19-30, Barrio Centro",
             "lat": "4.5353347",
-            "lng": "-75.6753131",    
+            "lng": "-75.6753131",
             "phone": [
                 "(6)7411866"
             ],
@@ -5296,7 +5298,7 @@
             "name": "C&M Repuestos y Servicios",
             "address": "Cl 70 No. 45-29",
             "lat": "10.9925867",
-            "lng": "-74.8039918",    
+            "lng": "-74.8039918",
             "phone": [
                 "(5)3869797"
             ],
@@ -5316,7 +5318,7 @@
             "name": "R&M Servicios Integrados",
             "address": "Cr 58 No. 132-18",
             "lat": "4.7227885",
-            "lng": "-74.0667871",    
+            "lng": "-74.0667871",
             "phone": [
                 "(1)7462626"
             ],
@@ -5334,7 +5336,7 @@
             "name": "Servites Electronic",
             "address": "Cr 18 No. 36-64, Lc 12 Barrio Centro",
             "lat": "7.1181347",
-            "lng": "-73.1262063",    
+            "lng": "-73.1262063",
             "phone": [
                 "(7)6803987"
             ],
@@ -5353,7 +5355,7 @@
             "name": "Central de Licuadoras",
             "address": "Av 6N N0. 47AN-06, Barrio La Flora",
             "lat": "3.4854665",
-            "lng": "-76.5277222",    
+            "lng": "-76.5277222",
             "phone": [
                 "(2)3087608"
             ],
@@ -5372,7 +5374,7 @@
             "name": "Repuestos y Servicios WP",
             "address": "Cl 44 No. 92-08, Barrio San Juan",
             "lat": "6.2535103",
-            "lng": "-75.6093295",    
+            "lng": "-75.6093295",
             "phone": [
                 "(4)4923961"
             ],
@@ -5391,7 +5393,7 @@
             "name": "La Brilladora",
             "address": "Cr 9 No. 31-01, Barrio Centro",
             "lat": "4.8140898",
-            "lng": "-75.706763",    
+            "lng": "-75.706763",
             "phone": [
                 "(6)3351229"
             ],
@@ -5410,7 +5412,7 @@
             "name": "Serviter AF",
             "address": "Cr 26 No. 35-09, Lc 3",
             "lat": "4.1489121",
-            "lng": "-73.6345593",    
+            "lng": "-73.6345593",
             "phone": [
                 "(8)6624867"
             ],
@@ -5429,7 +5431,7 @@
             "name": "IMUSA Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000520022"
             ],
@@ -5446,7 +5448,7 @@
             "name": "INACSA Call Center",
             "address": "servicioalcliente@sertacolombia.com.co",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)6684949"
             ],
@@ -5462,7 +5464,7 @@
             "name": "Induservix Solution S.A.S",
             "address": "Cr 20B No.74-22, Barrio San Felipe",
             "lat": "4.662799",
-            "lng": "-74.0627533",    
+            "lng": "-74.0627533",
             "phone": [
                 "(1)3457627"
             ],
@@ -5480,7 +5482,7 @@
             "name": "INVAL",
             "address": "servicliente@inval.com.co",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000933444"
             ],
@@ -5497,7 +5499,7 @@
             "name": "Jabra Call Center",
             "address": "info@techtexcolombia.co",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)2871646"
             ],
@@ -5513,7 +5515,7 @@
             "name": "JBL Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5527,7 +5529,7 @@
             "name": "CESER Sede Principal",
             "address": "Cl 53 No. 67-57, Barrio Salitre Greco",
             "lat": "4.6563919",
-            "lng": "-74.1000859",    
+            "lng": "-74.1000859",
             "phone": [
                 "(1)7442601"
             ],
@@ -5543,12 +5545,11 @@
             "service-link": "https://pajvccom/support/service_center/colombiahtml ",
             "view-map": "https://www.google.com/maps/dir//Cl.+53+%2367-57,+Bogot%C3%A1/@4.6563919,-74.1000859,20.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bbd43486639:0xcab574bc61bdb0b5!2m2!1d-74.0997213!2d4.6562381"
         },
-
         "kalley-call-center": {
             "name": "Kalley Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000524065"
             ],
@@ -5565,7 +5566,7 @@
             "name": "C&M Repuestos y Servicios",
             "address": "Cl 70 No. 45-29",
             "lat": "10.9925867",
-            "lng": "-74.8039918",    
+            "lng": "-74.8039918",
             "phone": [
                 "(5)3869797"
             ],
@@ -5585,7 +5586,7 @@
             "name": "Latin Electronics S.A.S",
             "address": "Cl 70B No. 41-160, Barrio Las Delicias, Olaya",
             "lat": "10.9813349",
-            "lng": "-74.8063706",    
+            "lng": "-74.8063706",
             "phone": [
                 "(5)3689384",
                 "(5)3689590"
@@ -5607,7 +5608,7 @@
             "name": "Centro Servicio Exclusivo",
             "address": "Av Cr 68 No. 67D-90, Barrio JJ Vargas",
             "lat": "4.6757953",
-            "lng": "-74.0868482",    
+            "lng": "-74.0868482",
             "phone": [
                 "(1)5249210"
             ],
@@ -5626,7 +5627,7 @@
             "name": "Centro de Servicio Exclusivo",
             "address": "Cl 44 Sur No. 68G-62, Barrio San Andrés",
             "lat": "4.5982041",
-            "lng": "-74.1436216",    
+            "lng": "-74.1436216",
             "phone": [
                 "(1) 8146262"
             ],
@@ -5646,7 +5647,7 @@
             "name": "Good Service Company",
             "address": "Cl 1 Sur No. 72-13, Barrio Américas Occidental",
             "lat": "4.622693",
-            "lng": "-74.1389677",    
+            "lng": "-74.1389677",
             "phone": [
                 "(1)7455128"
             ],
@@ -5666,7 +5667,7 @@
             "name": "Servi Lux",
             "address": "Cl 21 No. 10-22, Barrio Centro",
             "lat": "4.8121652",
-            "lng": "-75.6984221",    
+            "lng": "-75.6984221",
             "phone": [
                 "(6)3344640"
             ],
@@ -5685,7 +5686,7 @@
             "name": "AS Electrón",
             "address": "Cr 80 No. 44B-101, Barrio La América",
             "lat": "6.2529255",
-            "lng": "-75.6033286",    
+            "lng": "-75.6033286",
             "phone": [
                 "(4)5808468"
             ],
@@ -5705,7 +5706,7 @@
             "name": "Refriamigos",
             "address": "Cr 53 No. 62-39, Barrio Chagualo",
             "lat": "6.2616022",
-            "lng": "-75.5701836",    
+            "lng": "-75.5701836",
             "phone": [
                 "(4)4481585"
             ],
@@ -5724,7 +5725,7 @@
             "name": "Centro Técnico",
             "address": "Cr 10 No. 6-88, Barrio Santa Rosa",
             "lat": "3.4465227",
-            "lng": "-76.5371942",    
+            "lng": "-76.5371942",
             "phone": [
                 "(2)8803467"
             ],
@@ -5744,7 +5745,7 @@
             "name": "Centro Tecnológico",
             "address": "Cl 70 No. 1F-61, Barrio La Rivera",
             "lat": "3.4750122",
-            "lng": "-76.4869901",    
+            "lng": "-76.4869901",
             "phone": [
                 "(2)5241856",
                 "(2)5248570"
@@ -5764,7 +5765,7 @@
             "name": "Sertinec",
             "address": "Cl 24 N0. 28-17, Barrio Villa Sol",
             "lat": "5.33964",
-            "lng": "-72.3868297",    
+            "lng": "-72.3868297",
             "phone": [],
             "cel": [
                 "3115747702",
@@ -5782,7 +5783,7 @@
             "name": "Refritec Colombia Yopal",
             "address": "Cl 24 No. 26-32, Barrio Los Andes",
             "lat": "5.3388596",
-            "lng": "-72.3882506",    
+            "lng": "-72.3882506",
             "phone": [],
             "cel": [
                 "3177234329",
@@ -5800,7 +5801,7 @@
             "name": "Karcher Center",
             "address": "Cl 116 No. 15B-35",
             "lat": "4.696794",
-            "lng": "-74.0448674",    
+            "lng": "-74.0448674",
             "phone": [
                 "(1)4322850"
             ],
@@ -5817,7 +5818,7 @@
             "name": "Kenex Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5831,7 +5832,7 @@
             "name": "Kingston Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -5845,7 +5846,7 @@
             "name": "Kitchenaid Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)4049191"
             ],
@@ -5861,7 +5862,7 @@
             "name": "Kitchenaid Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000115243"
             ],
@@ -5877,7 +5878,7 @@
             "name": "Dormiluna",
             "address": "Cr 67 No. 9-03",
             "lat": "4.6299223",
-            "lng": "-74.1218905",    
+            "lng": "-74.1218905",
             "phone": [
                 "(1)2610700"
             ],
@@ -5894,7 +5895,7 @@
             "name": "DATECSA S.A.",
             "address": "Cr 22 No. 168-58, Barrio Toberín",
             "lat": "4.7499294",
-            "lng": "-74.0469687",    
+            "lng": "-74.0469687",
             "phone": [
                 "(1)7560202"
             ],
@@ -5911,7 +5912,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
-            "lng": ",-74.0639395",    
+            "lng": ",-74.0639395",
             "phone": [
                 "(1)7435027"
             ],
@@ -5928,7 +5929,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 20 No. 24A-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
-            "lng": "-74.0919107",    
+            "lng": "-74.0919107",
             "phone": [
                 "(1)7452493"
             ],
@@ -5945,7 +5946,7 @@
             "name": "Lexmark Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018007001910"
             ],
@@ -5961,7 +5962,7 @@
             "name": "LG Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000910683"
             ],
@@ -5978,7 +5979,7 @@
             "name": "Ceser",
             "address": "Cl 53 No. 67-57, Barrio Salitre Greco",
             "lat": "4.6563919",
-            "lng": "-74.1000859",    
+            "lng": "-74.1000859",
             "phone": [
                 "018000910683"
             ],
@@ -5995,7 +5996,7 @@
             "name": "Global Service",
             "address": "Av Boyacá No. 63F-29",
             "lat": "4.6762949",
-            "lng": "-74.105412",    
+            "lng": "-74.105412",
             "phone": [
                 "018000910683"
             ],
@@ -6012,7 +6013,7 @@
             "name": "All Service",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "018000910683"
             ],
@@ -6029,7 +6030,7 @@
             "name": "AS Electrón Ltda",
             "address": "Cl 138 No. 46-06",
             "lat": "4.583384",
-            "lng": "-74.1624168",    
+            "lng": "-74.1624168",
             "phone": [
                 "018000910683"
             ],
@@ -6046,7 +6047,7 @@
             "name": "Tecnichallenger",
             "address": "Cl 18 No. 6-79",
             "lat": "3.4524605",
-            "lng": "-76.5285891",    
+            "lng": "-76.5285891",
             "phone": [
                 "018000910683"
             ],
@@ -6063,7 +6064,7 @@
             "name": "Refriplus",
             "address": "Cr 12A No. 11A-78",
             "lat": "4.8094307",
-            "lng": "-75.6909561",    
+            "lng": "-75.6909561",
             "phone": [
                 "018000910683"
             ],
@@ -6080,7 +6081,7 @@
             "name": "Centro de Servicio LG",
             "address": "Cr 46 No. 80-287",
             "lat": "10.999964",
-            "lng": "-74.8161852",    
+            "lng": "-74.8161852",
             "phone": [
                 "018000910683"
             ],
@@ -6097,7 +6098,7 @@
             "name": "Ensol Colombia S.A.S",
             "address": "Cr 46 No. 79-96",
             "lat": "10.999964",
-            "lng": "-74.8161852",    
+            "lng": "-74.8161852",
             "phone": [
                 "018000910683"
             ],
@@ -6114,7 +6115,7 @@
             "name": "Centro de Servicio LG",
             "address": "Cl 33 No. 76-92",
             "lat": "6.2149612",
-            "lng": "-75.6117951",    
+            "lng": "-75.6117951",
             "phone": [
                 "018000910683"
             ],
@@ -6131,7 +6132,7 @@
             "name": "Mantenimiento LG",
             "address": "Cr 27 No. 41-28",
             "lat": "7.1183524",
-            "lng": "-73.1178882",    
+            "lng": "-73.1178882",
             "phone": [
                 "018000910683"
             ],
@@ -6148,7 +6149,7 @@
             "name": "PSG World Electronics",
             "address": "Cr 19 No. 18-55",
             "lat": "4.1339858",
-            "lng": "-73.6236749",    
+            "lng": "-73.6236749",
             "phone": [
                 "018000910683"
             ],
@@ -6165,7 +6166,7 @@
             "name": "Laboratorio Electron",
             "address": "Cl 26A No. 17BIS-42",
             "lat": "5.3325558",
-            "lng": "-72.3951592",    
+            "lng": "-72.3951592",
             "phone": [
                 "018000910683"
             ],
@@ -6182,7 +6183,7 @@
             "name": "LOGITECH Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 ""
             ],
@@ -6198,7 +6199,7 @@
             "name": "Mabe Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005183227"
             ],
@@ -6215,7 +6216,7 @@
             "name": "Maderkit Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180425"
             ],
@@ -6232,7 +6233,7 @@
             "name": "Marshall Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -6246,7 +6247,7 @@
             "name": "Mattel Colombia Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)6577700"
             ],
@@ -6263,7 +6264,7 @@
             "name": "MCafee Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018005181006"
             ],
@@ -6279,7 +6280,7 @@
             "name": "Michelin Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)7457272",
                 "018000423751"
@@ -6296,7 +6297,7 @@
             "name": "Microsoft Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000510595 "
             ],
@@ -6313,7 +6314,7 @@
             "name": "SMAYL Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000423612"
             ],
@@ -6329,7 +6330,7 @@
             "name": "More Products Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000112524",
                 "(1)6138444"
@@ -6346,7 +6347,7 @@
             "name": "More Products Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)6138444"
             ],
@@ -6364,7 +6365,7 @@
             "name": "Motorola Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018007001504"
             ],
@@ -6381,7 +6382,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
-            "lng": "-74.0639395",    
+            "lng": "-74.0639395",
             "phone": [
                 "(1)7435027"
             ],
@@ -6398,7 +6399,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 40 No. 24A-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
-            "lng": "-74.0919107",    
+            "lng": "-74.0919107",
             "phone": [
                 "(1)7452493"
             ],
@@ -6415,7 +6416,7 @@
             "name": "All Service Electronics",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -6437,7 +6438,7 @@
             "name": "Nexen Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -6451,7 +6452,7 @@
             "name": "Nigi Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -6465,7 +6466,7 @@
             "name": "MN Foto",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3186085419",
@@ -6483,7 +6484,7 @@
             "name": "Punto de Servicios",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
-            "lng": "-74.0639395",    
+            "lng": "-74.0639395",
             "phone": [
                 "(1)7435027"
             ],
@@ -6500,7 +6501,7 @@
             "name": "WODEN Colombia S.A.S",
             "address": "Av Cl 13 No. 56-35, Barrio Puente Aranda",
             "lat": "4.6304019",
-            "lng": "-74.1107958",    
+            "lng": "-74.1107958",
             "phone": [
                 "(1)3558200"
             ],
@@ -6517,7 +6518,7 @@
             "name": "Oster Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180360"
             ],
@@ -6533,7 +6534,7 @@
             "name": "R&M Servicios Integrados",
             "address": "Cr 58 No. 132-18",
             "lat": "4.7227683",
-            "lng": "-74.0690368",    
+            "lng": "-74.0690368",
             "phone": [
                 "(1)7462626"
             ],
@@ -6551,7 +6552,7 @@
             "name": "Pamacol Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)6140060"
             ],
@@ -6569,7 +6570,7 @@
             "name": "Unics Tecnologies",
             "address": "Cr 102 No. 92A-28, Barrio Los Industriales",
             "lat": "7.8830372",
-            "lng": "-76.6361719",    
+            "lng": "-76.6361719",
             "phone": [
                 "(4)8283557",
                 "(4)8150525"
@@ -6589,7 +6590,7 @@
             "name": "Refritec Colombia S.A.S",
             "address": "Cr 16 No. 12-12, Meridiano 70",
             "lat": "7.0798516",
-            "lng": "-70.7536965",    
+            "lng": "-70.7536965",
             "phone": [
                 "(7)8858447"
             ],
@@ -6608,7 +6609,7 @@
             "name": "Quindio Digital",
             "address": "Cl 23 No. 13-15",
             "lat": "4.5311525",
-            "lng": "-75.6763976",    
+            "lng": "-75.6763976",
             "phone": [
                 "(6)7411722"
             ],
@@ -6625,7 +6626,7 @@
             "name": "Mantenimiento",
             "address": "Cl 52 No. 27-105",
             "lat": "7.0619297",
-            "lng": "-73.8543637",    
+            "lng": "-73.8543637",
             "phone": [
                 "(7)6202392"
             ],
@@ -6644,7 +6645,7 @@
             "name": "INTERSYS",
             "address": "Cr 48 N0. 76-45, Porvenir",
             "lat": "10.9984036",
-            "lng": "-74.8117748",    
+            "lng": "-74.8117748",
             "phone": [
                 "(5)3600910",
                 "(5)3600628"
@@ -6665,7 +6666,7 @@
             "name": "AC Ingeniería",
             "address": "Cl 63 N0. 104-44, Barrio El Muelle",
             "lat": "4.6959598",
-            "lng": "-74.1259305",    
+            "lng": "-74.1259305",
             "phone": [],
             "cel": [
                 "3223664069",
@@ -6683,7 +6684,7 @@
             "name": "NEO Group",
             "address": "Av Cr 30 No. 67-21",
             "lat": "4.663221",
-            "lng": "-74.0790917",    
+            "lng": "-74.0790917",
             "phone": [
                 "(1)7030920"
             ],
@@ -6699,7 +6700,7 @@
             "name": "Mantenimiento",
             "address": "Cr 27 No. 41-28, Barrio Sotomayor",
             "lat": "7.1183524",
-            "lng": "-73.1178882",    
+            "lng": "-73.1178882",
             "phone": [
                 "(7)6344400"
             ],
@@ -6719,7 +6720,7 @@
             "name": "Mantenimiento",
             "address": "Cr 27 No. 41-28, Barrio Sotomayor",
             "lat": "7.1183524",
-            "lng": "-73.1178882",    
+            "lng": "-73.1178882",
             "phone": [
                 "(7)6344400"
             ],
@@ -6738,7 +6739,7 @@
             "name": "Hitech Service Center",
             "address": "Cl 22 Norte No. 5BN-54, Barrio Versalles",
             "lat": "3.463764",
-            "lng": "-76.5318177",    
+            "lng": "-76.5318177",
             "phone": [
                 "(2)6689604",
                 "(2)5246414"
@@ -6756,7 +6757,7 @@
             "name": "White Service, Beraca",
             "address": "Cr 45 No.6A-122, Tequendama",
             "lat": "3.416774",
-            "lng": "-76.5427332",    
+            "lng": "-76.5427332",
             "phone": [
                 "(2)5249904 "
             ],
@@ -6773,7 +6774,7 @@
             "name": "Frio Alpes",
             "address": "Cl 5 7-36, Barrio Prados del Este",
             "lat": "7.9106901",
-            "lng": "-72.4777438",    
+            "lng": "-72.4777438",
             "phone": [
                 "(7)5846627"
             ],
@@ -6792,7 +6793,7 @@
             "name": "V.V. Electrónica",
             "address": "Av Canal Bogotá No. 1N-63, Barrio Lleras",
             "lat": "7.8992333",
-            "lng": "-72.5023798",    
+            "lng": "-72.5023798",
             "phone": [
                 "(7)5752021"
             ],
@@ -6812,7 +6813,7 @@
             "name": "LC Electronics",
             "address": "Cl 12A No. 17-23",
             "lat": "5.8251216",
-            "lng": "-73.0351944",    
+            "lng": "-73.0351944",
             "phone": [
                 "(8)7600444"
             ],
@@ -6830,7 +6831,7 @@
             "name": "SERVIPLUS",
             "address": "Cl 18 No. 12-20, Centro",
             "lat": "1.6179001",
-            "lng": "-75.6169927",    
+            "lng": "-75.6169927",
             "phone": [
                 "(8)4356789",
                 "(8)4343831"
@@ -6849,7 +6850,7 @@
             "name": "A&R Multiservicios",
             "address": "Cr 4 Estadio No. 30-44",
             "lat": "4.4343163",
-            "lng": "-75.2269617",    
+            "lng": "-75.2269617",
             "phone": [
                 "(8)5162647"
             ],
@@ -6868,7 +6869,7 @@
             "name": "Servi Autorizado Leticia",
             "address": "Cr 9 No. 6-100, Lc 2 Barrio",
             "lat": "-4.2165591",
-            "lng": "-69.9424521",    
+            "lng": "-69.9424521",
             "phone": [],
             "cel": [
                 "3103892311"
@@ -6885,7 +6886,7 @@
             "name": "Enlace Digital Manizales",
             "address": "Cl 60 No. 25-51, Barrio La Estrella",
             "lat": "5.0587196",
-            "lng": "-75.4919475",    
+            "lng": "-75.4919475",
             "phone": [
                 "(6)8857839",
                 "(6)8854731"
@@ -6903,7 +6904,7 @@
             "name": "JHG Técnicos",
             "address": "Cl 48 No. 77B-20, Barrio El Velodromo",
             "lat": "6.2620634",
-            "lng": "-75.6349134",    
+            "lng": "-75.6349134",
             "phone": [
                 "(4)4482844"
             ],
@@ -6920,7 +6921,7 @@
             "name": "D&M Electrónica",
             "address": "Cl 24 No. 9-68, Barrio Centro",
             "lat": "8.7503922",
-            "lng": "-75.8860179",    
+            "lng": "-75.8860179",
             "phone": [
                 "(4)7810050"
             ],
@@ -6940,7 +6941,7 @@
             "name": "Electronica Digital del Huila S.A.S",
             "address": "Cl 22 No. 6-13",
             "lat": "2.9385744",
-            "lng": "-75.2924109",    
+            "lng": "-75.2924109",
             "phone": [
                 "(8)8759286",
                 "(8)8755511"
@@ -6958,7 +6959,7 @@
             "name": "Serviautorizados",
             "address": "Cr 36 No. 8-56, Las Acacias Av Panamericana",
             "lat": "1.215039",
-            "lng": "-77.2924577",    
+            "lng": "-77.2924577",
             "phone": [
                 "(2)7297005",
                 "(2)7235128"
@@ -6976,7 +6977,7 @@
             "name": "Enlace Digital Global",
             "address": "Cr 8 No. 33-33",
             "lat": "4.8151042",
-            "lng": "-75.7086267",    
+            "lng": "-75.7086267",
             "phone": [
                 "(6)3290208",
                 "(6)3290238",
@@ -6994,7 +6995,7 @@
             "name": "SILICON",
             "address": "Cl 6 No. 15-35, Valencia",
             "lat": "2.4430304",
-            "lng": "-76.6164135",    
+            "lng": "-76.6164135",
             "phone": [
                 "(2)8365111",
                 "(2)8213796",
@@ -7013,7 +7014,7 @@
             "name": "V&B Refrigeración",
             "address": "Cr 29 No. 15-24, Barrio Recreo",
             "lat": "0.4989246",
-            "lng": "-76.4965461",    
+            "lng": "-76.4965461",
             "phone": [
                 "(8)4227120"
             ],
@@ -7032,7 +7033,7 @@
             "name": "Refriser",
             "address": "Cl 15 No. 7-98, Centro",
             "lat": "11.2435993",
-            "lng": "-74.2099713",    
+            "lng": "-74.2099713",
             "phone": [
                 "(5)4310352",
                 "(5)4224596"
@@ -7052,7 +7053,7 @@
             "name": "Electronica Costa Norte",
             "address": "Cl 28 No. 20-47, Barrio Luis Carlos Gaitán",
             "lat": "9.2991865",
-            "lng": "-75.3927787",    
+            "lng": "-75.3927787",
             "phone": [
                 "(5)2816068"
             ],
@@ -7071,7 +7072,7 @@
             "name": "Sonitel",
             "address": "Cl 27 No. 35-26, Barrio Victoria",
             "lat": "4.0830644",
-            "lng": "-76.1922097",    
+            "lng": "-76.1922097",
             "phone": [
                 "(2)2242207"
             ],
@@ -7090,7 +7091,7 @@
             "name": "Tech Service Center",
             "address": "Av Colón Trv 10 No. 26-40, Barrio Las Nieves",
             "lat": "5.539293",
-            "lng": "-73.3623528",    
+            "lng": "-73.3623528",
             "phone": [],
             "cel": [
                 "3156164680"
@@ -7107,7 +7108,7 @@
             "name": "Servicio Técnico",
             "address": "Cr 10 No. 18-36, Barrio Gaitán",
             "lat": "10.47143",
-            "lng": "-73.2479997",    
+            "lng": "-73.2479997",
             "phone": [
                 "(5)5742323",
                 "(5)5749474"
@@ -7127,7 +7128,7 @@
             "name": "Video y Sonido",
             "address": "Cl 35 No. 23-42, Av Caldas",
             "lat": "4.1491234",
-            "lng": "-73.6289266",    
+            "lng": "-73.6289266",
             "phone": [],
             "cel": [
                 "3115062871"
@@ -7144,7 +7145,7 @@
             "name": "Electronic World S.A.S",
             "address": "Cl 26 No. 21-44, Barrio Providencia",
             "lat": "5.3345915",
-            "lng": "-72.3940274",    
+            "lng": "-72.3940274",
             "phone": [],
             "cel": [
                 "3114476498"
@@ -7161,7 +7162,7 @@
             "name": "Sertinec",
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.33964",
-            "lng": "-72.3868297",    
+            "lng": "-72.3868297",
             "phone": [],
             "cel": [
                 "3115747702",
@@ -7179,7 +7180,7 @@
             "name": "Servitec de Respuestos S.A.S",
             "address": "Cl 44 No. 76-160",
             "lat": "10.9961988",
-            "lng": "-74.8144153",    
+            "lng": "-74.8144153",
             "phone": [
                 "(5)3608064",
                 "(5)3601447",
@@ -7199,7 +7200,7 @@
             "name": "Electronica Jona",
             "address": "Cr 5 No. 20-48",
             "lat": "7.9880593",
-            "lng": "-75.1940095",    
+            "lng": "-75.1940095",
             "phone": [
                 "3127801190"
             ],
@@ -7216,7 +7217,7 @@
             "name": "Multiservicios Montoya",
             "address": "Cl 13 No. 21A-47, Lc 101",
             "lat": "4.6769877",
-            "lng": "-74.0887572",    
+            "lng": "-74.0887572",
             "phone": [
                 "(8)6326408"
             ],
@@ -7233,7 +7234,7 @@
             "name": "PC Smart Bogotá",
             "address": "Cr 62 No. 98A-71",
             "lat": "4.6866991",
-            "lng": "-74.0970439",    
+            "lng": "-74.0970439",
             "phone": [
                 "(1)5082239"
             ],
@@ -7250,7 +7251,7 @@
             "name": "PC Smart Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000910250"
             ],
@@ -7267,7 +7268,7 @@
             "name": "Ceser Sede Principal",
             "address": "Cl 53 No. 67-57, Barrio Salitre Greco",
             "lat": "4.6563919",
-            "lng": "-74.1000859",    
+            "lng": "-74.1000859",
             "phone": [
                 "(1)7442601"
             ],
@@ -7287,7 +7288,7 @@
             "name": "AS Electron Sede Norte",
             "address": "Cl 138 No. 46-06, Barrio Prado Pinzón",
             "lat": "4.6536633",
-            "lng": "-74.1424405",    
+            "lng": "-74.1424405",
             "phone": [
                 "(1)6278634"
             ],
@@ -7307,7 +7308,7 @@
             "name": "AS Electron Sede Sur",
             "address": "Cr 11B No. 11-21 Sur, Barrio Ciudad Berna",
             "lat": "4.583384",
-            "lng": "-74.1624168",    
+            "lng": "-74.1624168",
             "phone": [
                 "(1)2330602"
             ],
@@ -7327,7 +7328,7 @@
             "name": "Ceser Cartagena",
             "address": "Manzana a Lote 1 Barrio Alameda de La Victoria",
             "lat": "10.3857087",
-            "lng": "-75.4715196",    
+            "lng": "-75.4715196",
             "phone": [
                 "(5)6787058"
             ],
@@ -7344,7 +7345,7 @@
             "name": "Ceser Ibagué",
             "address": "Cr 3 No. 46-40, Barrio Piedra Pintada Parte Baja",
             "lat": "4.4326182",
-            "lng": "-75.2077398",    
+            "lng": "-75.2077398",
             "phone": [
                 "(8)2762442"
             ],
@@ -7363,7 +7364,7 @@
             "name": "AS Electrón",
             "address": "Cr 80 No. 44B-101, Barrio La America",
             "lat": "6.2529255",
-            "lng": "-75.6033286",    
+            "lng": "-75.6033286",
             "phone": [
                 "(4)5808468"
             ],
@@ -7383,7 +7384,7 @@
             "name": "Sony Vision",
             "address": "Cr 7 No. 39-08, Barrio El Centro",
             "lat": "8.760799",
-            "lng": "-75.878299",    
+            "lng": "-75.878299",
             "phone": [],
             "cel": [
                 "3126492626"
@@ -7400,7 +7401,7 @@
             "name": "Ceser Pereira",
             "address": "Av Circunvalar No. 4-28, Lc 2 Edificio El Greco",
             "lat": "4.8064782",
-            "lng": "-75.6822179",    
+            "lng": "-75.6822179",
             "phone": [],
             "cel": [
                 "3013253020",
@@ -7418,7 +7419,7 @@
             "name": "Hitech",
             "address": "Cl 22 Norte No. 5BN-54, Barrio Versalles",
             "lat": "3.4637798",
-            "lng": "-76.5297038",    
+            "lng": "-76.5297038",
             "phone": [
                 "(2)5246414",
                 "(2)3967271"
@@ -7438,7 +7439,7 @@
             "name": "Betacolor Servicio",
             "address": "Cr 24 No. 20-60, Barrio Centro",
             "lat": "9.3038979",
-            "lng": "-75.3916654",    
+            "lng": "-75.3916654",
             "phone": [
                 "(5)2763326"
             ],
@@ -7457,7 +7458,7 @@
             "name": "Walle Technology S.A.S",
             "address": "Cl 7 No. 15-37, Barrio Macunaima",
             "lat": "4.1309186",
-            "lng": "-73.6183315",    
+            "lng": "-73.6183315",
             "phone": [],
             "cel": [
                 "3235731240",
@@ -7475,7 +7476,7 @@
             "name": "Sertinec",
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.33964",
-            "lng": "-72.3868297",    
+            "lng": "-72.3868297",
             "phone": [],
             "cel": [
                 "3115747702",
@@ -7493,7 +7494,7 @@
             "name": "Phillips Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018007007445"
             ],
@@ -7510,7 +7511,7 @@
             "name": "AS Electrón Sede Norte",
             "address": "Cl 138 No. 46-06, Barrio Prado Pinzón",
             "lat": "4.6536633",
-            "lng": "-74.1424405",    
+            "lng": "-74.1424405",
             "phone": [
                 "(1)6278634"
             ],
@@ -7530,7 +7531,7 @@
             "name": "AS Electrón Sede Sur",
             "address": "Cr 11B N0. 11-21 Sur, Barrio Ciudad Berna",
             "lat": "4.583384",
-            "lng": "-74.1624168",    
+            "lng": "-74.1624168",
             "phone": [
                 "(1)2330602"
             ],
@@ -7550,7 +7551,7 @@
             "name": "AS Electrón Sede Norte",
             "address": "Cl 138 No. 46-06, Barrio Prado Pinzón",
             "lat": "4.6536633",
-            "lng": "-74.1424405",    
+            "lng": "-74.1424405",
             "phone": [
                 "(1)6278634"
             ],
@@ -7570,7 +7571,7 @@
             "name": "AS Electrón Sede Sur",
             "address": "Cr 11B No. 11-21 Sur, Barrio Ciudad Berna",
             "lat": "4.583384",
-            "lng": "-74.1624168",    
+            "lng": "-74.1624168",
             "phone": [
                 "(1)2330602"
             ],
@@ -7590,7 +7591,7 @@
             "name": "Play Station Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -7604,7 +7605,7 @@
             "name": "Polar Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -7619,7 +7620,7 @@
             "name": "Practimac Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3216991657"
@@ -7635,7 +7636,7 @@
             "name": "Evolution Fitness",
             "address": "Cr 30 No. 63F-53, Barrio el Rosario",
             "lat": "4.6575103",
-            "lng": "-74.0781382",    
+            "lng": "-74.0781382",
             "phone": [
                 "(1)7454646"
             ],
@@ -7652,7 +7653,7 @@
             "name": "Redicol Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3003488515"
@@ -7668,7 +7669,7 @@
             "name": "Remington Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000510012"
             ],
@@ -7685,7 +7686,7 @@
             "name": "Rimax Call Center",
             "address": "info@rimax.com.co",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(2)6959333",
                 "018000180087"
@@ -7703,7 +7704,7 @@
             "name": "Roku Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "01005185327"
             ],
@@ -7720,7 +7721,7 @@
             "name": "Romance Relax Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180418",
                 "(1)7309130"
@@ -7737,7 +7738,7 @@
             "name": "Ronda Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)5523636"
             ],
@@ -7753,7 +7754,7 @@
             "name": "R&M La Colina",
             "address": "Cr 58 No. 132-18, Barrio Colina Campestre",
             "lat": "4.7227683",
-            "lng": "-74.0690368",    
+            "lng": "-74.0690368",
             "phone": [
                 "(1)6136247"
             ],
@@ -7771,7 +7772,7 @@
             "name": "Samurai Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000520022"
             ],
@@ -7787,7 +7788,7 @@
             "name": "Sandisk Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -7801,7 +7802,7 @@
             "name": "Sharp Centro de Servicio",
             "address": "Cr 40 No. 38-32, Barrio Centro",
             "lat": "10.9801266",
-            "lng": "-74.7817481",    
+            "lng": "-74.7817481",
             "phone": [],
             "cel": [
                 "3012517394"
@@ -7817,7 +7818,7 @@
             "name": "Hitech",
             "address": "Cl 22 Norte No. 5BN-54, Barrio Versalles",
             "lat": "3.4637798",
-            "lng": "-76.5297038",    
+            "lng": "-76.5297038",
             "phone": [
                 "(2)5246414",
                 "(2)3967271"
@@ -7836,7 +7837,7 @@
             "name": "AS Electrón",
             "address": "Cr 80 No. 44B-101, Barrio La América",
             "lat": "6.2529255",
-            "lng": "-75.6033286",    
+            "lng": "-75.6033286",
             "phone": [
                 "(4)5808468"
             ],
@@ -7855,7 +7856,7 @@
             "name": "Electrónica Profesional",
             "address": "Cl 24 no. 4-31, Barrio San Jorge",
             "lat": "4.8174663",
-            "lng": "-75.7002398",    
+            "lng": "-75.7002398",
             "phone": [
                 "(6)3332717",
                 "(6)3251185"
@@ -7874,7 +7875,7 @@
             "name": "Audio y Video",
             "address": "Cr 37 No. 20-38, Barrio San Benito",
             "lat": "4.1347314",
-            "lng": "-73.6312165",    
+            "lng": "-73.6312165",
             "phone": [
                 "(8)6719238",
                 "(8)6679137"
@@ -7891,7 +7892,7 @@
             "name": "STE Service S.A.S",
             "address": "Cl 51 No. 31-83",
             "lat": "7.1146859",
-            "lng": "-73.1125454",    
+            "lng": "-73.1125454",
             "phone": [
                 "(5)6576755"
             ],
@@ -7908,7 +7909,7 @@
             "name": "Dormiluna",
             "address": "Cr 67 No. 9-03",
             "lat": "4.6299223",
-            "lng": "-74.1218905",    
+            "lng": "-74.1218905",
             "phone": [
                 "(1)2610700"
             ],
@@ -7925,7 +7926,7 @@
             "name": "Simoniz Call Center",
             "address": "sac@simoniz.com.co",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)2985311"
             ],
@@ -7942,7 +7943,7 @@
             "name": "All Service Norte",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
             "lat": "4.6697755",
-            "lng": "-74.1231182",    
+            "lng": "-74.1231182",
             "phone": [
                 "(1)8054217",
                 "(1)2635699",
@@ -7964,7 +7965,7 @@
             "name": "Singer",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3502363431"
@@ -7981,7 +7982,7 @@
             "name": "Sony Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000940011"
             ],
@@ -7997,7 +7998,7 @@
             "name": "Mantenimiento",
             "address": "Av Ferrocarril Cl 52 No. 27-105, Barrio Galán",
             "lat": "7.0618593",
-            "lng": "-73.8521638",    
+            "lng": "-73.8521638",
             "phone": [
                 "(7)6225861",
                 "(7)6202392"
@@ -8017,7 +8018,7 @@
             "name": "Electronic Caribe",
             "address": "Cl 72 No. 38-202, Barrio La Delicia Olaya",
             "lat": "10.9868271",
-            "lng": "-74.8118922",    
+            "lng": "-74.8118922",
             "phone": [
                 "(5)3687442",
                 "(5)3603095"
@@ -8037,7 +8038,7 @@
             "name": "AS Electron Sede Sur",
             "address": "Cr 11B No. 11-21 Sur, Barrio Ciudad Berna",
             "lat": "4.583384",
-            "lng": "-74.1624168",    
+            "lng": "-74.1624168",
             "phone": [
                 "(1)2330602"
             ],
@@ -8057,7 +8058,7 @@
             "name": "AS Electrón Sede Norte",
             "address": "Cl 138 No. 46-06, Barrio Prado Pinzón",
             "lat": "4.6536633",
-            "lng": "-74.1424405",    
+            "lng": "-74.1424405",
             "phone": [
                 "(1)6278634"
             ],
@@ -8077,7 +8078,7 @@
             "name": "CV Trónica",
             "address": "Cl 85 No. 22-59, Barrio El Polo",
             "lat": "4.6728774",
-            "lng": "-74.0641433",    
+            "lng": "-74.0641433",
             "phone": [
                 "(1)2185810",
                 "(1)2185811"
@@ -8095,7 +8096,7 @@
             "name": "Mantenimiento",
             "address": "Cr 27 No. 41-28, Barrio Soto Mayor",
             "lat": "7.1183524",
-            "lng": "-73.1178882",    
+            "lng": "-73.1178882",
             "phone": [
                 "(7)6344400"
             ],
@@ -8114,7 +8115,7 @@
             "name": "Denki",
             "address": "Cr 62A No. 9-72, Barrio Limonar",
             "lat": "3.4029717",
-            "lng": "-76.5438297",    
+            "lng": "-76.5438297",
             "phone": [
                 "(2)5518435"
             ],
@@ -8131,7 +8132,7 @@
             "name": "Enlace Digital",
             "address": "Cl 60 No. 25-51, Barrio La Estrella",
             "lat": "5.0587196",
-            "lng": "-75.4919475",    
+            "lng": "-75.4919475",
             "phone": [
                 "(6)8857839",
                 "(6)8854731"
@@ -8149,7 +8150,7 @@
             "name": "Orbielectrónicas",
             "address": "Av 33 No. 75C-18",
             "lat": "6.2390321",
-            "lng": "-75.5951372",    
+            "lng": "-75.5951372",
             "phone": [
                 "(4)6069898"
             ],
@@ -8169,7 +8170,7 @@
             "name": "AS Electrón",
             "address": "Cr 80 No. 44B-101 Barrio La América",
             "lat": "6.2529255",
-            "lng": "-75.6033286",    
+            "lng": "-75.6033286",
             "phone": [
                 "(4)5808468"
             ],
@@ -8189,7 +8190,7 @@
             "name": "Clínica Digital",
             "address": "Cl 46 No. 3-48, Barrio Laureles Zona Industrial",
             "lat": "8.7654999",
-            "lng": "-75.8780866",    
+            "lng": "-75.8780866",
             "phone": [
                 "(4)7820817"
             ],
@@ -8208,7 +8209,7 @@
             "name": "Spring Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)3077053",
                 "018000117077 "
@@ -8226,7 +8227,7 @@
             "name": "Polux",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)8766888"
             ],
@@ -8242,7 +8243,7 @@
             "name": "Superior Industrial S.A.",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3187792810"
@@ -8258,7 +8259,7 @@
             "name": "Tablemac Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000180425"
             ],
@@ -8276,7 +8277,7 @@
             "name": "Thonet & Vander Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8290,7 +8291,7 @@
             "name": "TigoUne Buenavista",
             "address": "Cl 99 No. 52-53, C.C Buenavista",
             "lat": "11.013774",
-            "lng": "-74.8306337",    
+            "lng": "-74.8306337",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8305,7 +8306,7 @@
             "name": "TigoUne Cordialidad",
             "address": "Cl 47 No. 20-38",
             "lat": "10.9622545",
-            "lng": "-74.795488",    
+            "lng": "-74.795488",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8320,7 +8321,7 @@
             "name": "TigoUne Cr 54",
             "address": "Cr 53 No. 74-157",
             "lat": "11.0016968",
-            "lng": "-74.8061023",    
+            "lng": "-74.8061023",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8335,7 +8336,7 @@
             "name": "TigoUne Metropolitano",
             "address": "Cr 28 No. 58-148, C.C Metropolitan",
             "lat": "10.924138",
-            "lng": "-74.7984852",    
+            "lng": "-74.7984852",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8350,7 +8351,7 @@
             "name": "TigoUne Murillo",
             "address": "Cr 42 No. 45-38",
             "lat": "10.9559704",
-            "lng": "-74.7982427",    
+            "lng": "-74.7982427",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8365,7 +8366,7 @@
             "name": "TigoUne Portal del Prado",
             "address": "Cl 53 No.46-192",
             "lat": "10.9904577",
-            "lng": "-74.7906665",    
+            "lng": "-74.7906665",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8380,7 +8381,7 @@
             "name": "TigoUne Unico",
             "address": "Cl 74 No. 38D-139 C.C Unico",
             "lat": "10.9897353",
-            "lng": "-74.8133822",    
+            "lng": "-74.8133822",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8395,7 +8396,7 @@
             "name": "TigoUne Andino Cl 85",
             "address": "Cr 11 No. 84-09, Lc 14",
             "lat": "4.667914",
-            "lng": "-74.0538802",    
+            "lng": "-74.0538802",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8410,7 +8411,7 @@
             "name": "TigoUne Centro Cr 7",
             "address": "Cr 7 No. 22-60",
             "lat": "4.6086167",
-            "lng": "-74.0705873",    
+            "lng": "-74.0705873",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8425,7 +8426,7 @@
             "name": "TigoUne Centro Mayor",
             "address": "Cl 38A Sur, No. 34D-51",
             "lat": "4.5932768",
-            "lng": "-74.1257909",    
+            "lng": "-74.1257909",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8440,7 +8441,7 @@
             "name": "TigoUne Chapinero",
             "address": "Cr 13 No. 53-19",
             "lat": "4.6404941",
-            "lng": "-74.0673674",    
+            "lng": "-74.0673674",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8455,7 +8456,7 @@
             "name": "TigoUne Gran Estación",
             "address": "Av Cl 26 No. 62-49",
             "lat": "4.6475",
-            "lng": "-74.1038987",    
+            "lng": "-74.1038987",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8471,7 +8472,7 @@
             "name": "TigoUne Hayuelos",
             "address": "Cl 20 No. 82-52",
             "lat": "4.6640931",
-            "lng": "-74.1325272",    
+            "lng": "-74.1325272",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8486,7 +8487,7 @@
             "name": "TigoUne Plaza de las Américas",
             "address": "Trv 71D No. 26-94",
             "lat": "4.6178348",
-            "lng": "-74.1399065",    
+            "lng": "-74.1399065",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8501,7 +8502,7 @@
             "name": "TigoUne Plaza Imperial",
             "address": "Av Cr 104 No. 148-07",
             "lat": "4.750501",
-            "lng": "-74.0979147",    
+            "lng": "-74.0979147",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8516,7 +8517,7 @@
             "name": "TigoUne Portal 80",
             "address": "Trv 100A No. 80A-20",
             "lat": "4.711036",
-            "lng": "-74.1143947",    
+            "lng": "-74.1143947",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8531,7 +8532,7 @@
             "name": "TigoUne Santafe",
             "address": "Cl 185 No. 45-03",
             "lat": "4.7628528",
-            "lng": "-74.0483658",    
+            "lng": "-74.0483658",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8547,7 +8548,7 @@
             "name": "TigoUne Unicentro",
             "address": "Cr 15 No. 124-30",
             "lat": "4.701265",
-            "lng": "-74.0439864",    
+            "lng": "-74.0439864",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8562,7 +8563,7 @@
             "name": "TigoUne Kenedy",
             "address": "Cl 41F Sur No. 79-05",
             "lat": "4.6203569",
-            "lng": "-74.1615334",    
+            "lng": "-74.1615334",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8577,7 +8578,7 @@
             "name": "TigoUne Cabecera",
             "address": "Cr 35A No. 48-15",
             "lat": "7.1128166",
-            "lng": "-73.110169",    
+            "lng": "-73.110169",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8592,7 +8593,7 @@
             "name": "TigoUne Canaveral",
             "address": "Cl 30 No. 25-71",
             "lat": "7.0710258",
-            "lng": "-73.1086301",    
+            "lng": "-73.1086301",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8607,7 +8608,7 @@
             "name": "TigoUne Centro",
             "address": "Cl 36 No. 16-74",
             "lat": "7.1182514",
-            "lng": "-73.127114",    
+            "lng": "-73.127114",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8622,7 +8623,7 @@
             "name": "TigoUne Palmetto",
             "address": "Cl 9 No. 48-81",
             "lat": "3.4125768",
-            "lng": "-76.5425221",    
+            "lng": "-76.5425221",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8637,7 +8638,7 @@
             "name": "TigoUne Unicentro Cali",
             "address": "Cr 100 No. 5-169, Lc 438 Pasillo Oasis",
             "lat": "3.3740505",
-            "lng": "-76.5406463",    
+            "lng": "-76.5406463",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8653,7 +8654,7 @@
             "name": "TigoUne Vasquez Cobo",
             "address": "Av Vasquez Cobo No. 26N-54",
             "lat": "3.4696169",
-            "lng": "-76.5272138",    
+            "lng": "-76.5272138",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8668,7 +8669,7 @@
             "name": "TigoUne Manizales Cable",
             "address": "Cr 23 No. 63-112, El Cable",
             "lat": "5.0575247",
-            "lng": "-75.4894875",    
+            "lng": "-75.4894875",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8683,7 +8684,7 @@
             "name": "TigoUne Forcarey",
             "address": "Cl 31 No. 20-22",
             "lat": "5.0681915",
-            "lng": "-75.5149964",    
+            "lng": "-75.5149964",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8698,7 +8699,7 @@
             "name": "TigoUne Centro Medellín",
             "address": "Cr 46 No. 52-50, Edificio Vicente Uribe Rendón",
             "lat": "6.2496638",
-            "lng": "-75.5664697",    
+            "lng": "-75.5664697",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8713,7 +8714,7 @@
             "name": "TigoUne Florida",
             "address": "Cl 71 No. 65-150, C.C. Florida",
             "lat": "6.2635969",
-            "lng": "-75.5836588",    
+            "lng": "-75.5836588",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8728,7 +8729,7 @@
             "name": "TigoUne Molinos",
             "address": "Cl 30A No. 82A-26, C.C Molinos",
             "lat": "6.2324246",
-            "lng": "-75.6067206",    
+            "lng": "-75.6067206",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8743,7 +8744,7 @@
             "name": "TigoUne Oviedo",
             "address": "Cl 6 Sur No. 43A-227, C.C Oviedo",
             "lat": "6.1992429",
-            "lng": "-75.5924875",    
+            "lng": "-75.5924875",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8758,7 +8759,7 @@
             "name": "TigoUne Premium Plaza",
             "address": "Cl 29 No. 49G-10, Lc 1107 y 1110, Torre Sur Piso 1",
             "lat": "6.2301024",
-            "lng": "-75.5725312",    
+            "lng": "-75.5725312",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8773,7 +8774,7 @@
             "name": "TigoUne Miguel de Aguinaga",
             "address": "Cr 52 No. 53-35",
             "lat": "6.252932",
-            "lng": "-75.5708444",    
+            "lng": "-75.5708444",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8788,7 +8789,7 @@
             "name": "TigoUne Pereira",
             "address": "Cr 7A No. 22-30",
             "lat": "4.8369256",
-            "lng": "-75.8290766",    
+            "lng": "-75.8290766",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8803,7 +8804,7 @@
             "name": "TigoUne Victoria",
             "address": "Cr 10 No. 15-30, Edificio UNE Sede Victoria",
             "lat": "4.7986023",
-            "lng": "-75.6932568",    
+            "lng": "-75.6932568",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8818,7 +8819,7 @@
             "name": "TigoUne Ford",
             "address": "Cl 25 No. 25A-126, Las Penitas",
             "lat": "9.3062478",
-            "lng": "-75.383958",    
+            "lng": "-75.383958",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8833,7 +8834,7 @@
             "name": "TigoUne Mercurio",
             "address": "Cr 7 No. 32-35 C.C Mercurio Plaza Lc 212N",
             "lat": "4.5874887",
-            "lng": "-74.2059648",    
+            "lng": "-74.2059648",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8849,7 +8850,7 @@
             "name": "TigoUne Tunja",
             "address": "Cr 12 No. 18-76",
             "lat": "5.5380963",
-            "lng": "-73.3645732",    
+            "lng": "-73.3645732",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8864,7 +8865,7 @@
             "name": "TigoUne Villavicencio",
             "address": "Cr 40 No. 36A-10",
             "lat": "4.1407413",
-            "lng": "-73.6373129",    
+            "lng": "-73.6373129",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8879,7 +8880,7 @@
             "name": "Tukasa Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8889,12 +8890,11 @@
             "service-link": "",
             "view-map": ""
         },
-
         "universal-call-center": {
             "name": "Universal Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(4)6040140"
             ],
@@ -8910,7 +8910,7 @@
             "name": "Urbanears Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)8766888",
                 "(1)7443939"
@@ -8929,7 +8929,7 @@
             "name": "Verbatim Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8943,7 +8943,7 @@
             "name": "V-TECH Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -8957,7 +8957,7 @@
             "name": "Soporte",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "(1)4048565"
             ],
@@ -8973,7 +8973,7 @@
             "name": "CSI Bogotá",
             "address": "Cl 2 Sur No. 72-22, Kenedy",
             "lat": "4.6217614",
-            "lng": "-74.1415188",    
+            "lng": "-74.1415188",
             "phone": [
                 "(1)4035404"
             ],
@@ -8992,7 +8992,7 @@
             "name": "FG Centro de Servicio",
             "address": "Cl 75 No. 29-41",
             "lat": "4.6687516",
-            "lng": "-74.0701406",    
+            "lng": "-74.0701406",
             "phone": [
                 "(1)4673232"
             ],
@@ -9008,12 +9008,12 @@
             "name": "TECNICENTER",
             "address": "Av Cl 80 No. 20-29",
             "lat": "4.665888",
-            "lng": "-74.0635747",    
+            "lng": "-74.0635747",
             "phone": [
                 "(1)2124641",
                 "2555227"
             ],
-            "cel": [ ],
+            "cel": [],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
@@ -9025,7 +9025,7 @@
             "name": "DYSTECNICOS",
             "address": "CL 105 No. 25-51",
             "lat": "7.0864599",
-            "lng": "-73.1125086",    
+            "lng": "-73.1125086",
             "phone": [],
             "cel": [
                 "3158650451"
@@ -9041,7 +9041,7 @@
             "name": "RC Servicio Técnico",
             "address": "Cr 22 No. 33E-75",
             "lat": "3.4377759",
-            "lng": "-76.5135604",    
+            "lng": "-76.5135604",
             "phone": [],
             "cel": [
                 "3108951755"
@@ -9057,7 +9057,7 @@
             "name": "Tecnifrio del Valle",
             "address": "Cl 24 Norte No. 3BIS-17, Barrio San Vicente",
             "lat": "3.4669792",
-            "lng": "-76.5273267",    
+            "lng": "-76.5273267",
             "phone": [
                 "(2)5240203",
                 "(2)6616191"
@@ -9075,7 +9075,7 @@
             "name": "Andina de Servicios",
             "address": "Cl 67 No. 23B-56, Barrio Palermo",
             "lat": "5.053853",
-            "lng": "-75.4881407",    
+            "lng": "-75.4881407",
             "phone": [
                 "(6)8871000"
             ],
@@ -9094,13 +9094,14 @@
             "name": "JHG Técnicos Especiales",
             "address": "Cl 48 No. 77B-20",
             "lat": "6.2581989",
-            "lng": "-75.5961501",    
+            "lng": "-75.5961501",
             "phone": [
                 "(4)4482844"
             ],
             "cel": [],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"],
+                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+            ],
             "service-link-type": "externo",
             "service-link": "https://www.whirlpool.com.co/servicio-y-soporte#talleres-certificados",
             "view-map": "https://www.google.com/maps/dir//Jhg+T%C3%A9cnicos+Especiales,+b,+Cl.+48+%2378a77,+Medell%C3%ADn,+Antioquia/@6.2581989,-75.5961501,17z/data=!4m16!1m6!3m5!1s0x8e44290d980a2185:0xa17e23411e9b32b4!2sJhg+T%C3%A9cnicos+Especiales!8m2!3d6.2581989!4d-75.5939614!4m8!1m0!1m5!1m1!1s0x8e44290d980a2185:0xa17e23411e9b32b4!2m2!1d-75.5939614!2d6.2581989!3e2"
@@ -9109,7 +9110,7 @@
             "name": "DMR CSA Villavicencio",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "Cr 41 No. 26C-45, Barrio 7 Agosto"
             ],
@@ -9128,7 +9129,7 @@
             "name": "Whirlpool Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [
                 "018000112365"
             ],
@@ -9145,7 +9146,7 @@
             "name": "Servitec Repuestos S.A.S",
             "address": "Cr 44 No. 76-160, Barrio Porvenir",
             "lat": "10.9961988",
-            "lng": "-74.8144153",    
+            "lng": "-74.8144153",
             "phone": [
                 "(5)3608064",
                 "(5)3601447",
@@ -9166,7 +9167,7 @@
             "name": "XBOX Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -9180,7 +9181,7 @@
             "name": "Xiaomi Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -9194,7 +9195,7 @@
             "name": "MN Foto",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3186085419",
@@ -9212,7 +9213,7 @@
             "name": "YALE Call Center",
             "address": "",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [
                 "3183588994"
@@ -9228,7 +9229,7 @@
             "name": "Yamaha",
             "address": "Almacén donde realizó la compra",
             "lat": "",
-            "lng": "",    
+            "lng": "",
             "phone": [],
             "cel": [],
             "schedule": [
@@ -9263,7 +9264,7 @@
                     "areacode": 4,
                     "name": "Apartadó",
                     "categories": {
-                        "audio-video-digital-productos":{
+                        "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-apartado"
                             ]
@@ -9384,10 +9385,10 @@
                 }
             }
         },
-        "atlantico":{
-            "name": "atlantico",
+        "atlantico": {
+            "name": "Atlantico",
             "cities": {
-                "barranquilla":{
+                "barranquilla": {
                     "areacode": 5,
                     "name": "Barranquilla",
                     "categories": {
@@ -9402,8 +9403,8 @@
                                 "lg-barranquilla-02"
                             ]
                         },
-                        "audio-video-digital-productos":{
-                            "stores":[
+                        "audio-video-digital-productos": {
+                            "stores": [
                                 "panasonic-barranquilla-01"
                             ]
                         },
@@ -9471,7 +9472,6 @@
                     "areacode": 5,
                     "name": "Cartagena",
                     "categories": {
-                        
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-cartagena-call-center"
@@ -9495,7 +9495,7 @@
         "boyaca": {
             "name": "Boyacá",
             "cities": {
-                "duitama":{
+                "duitama": {
                     "areacode": 8,
                     "name": "Duitama",
                     "categories": {
@@ -9506,7 +9506,7 @@
                         }
                     }
                 },
-                "tunja":{
+                "tunja": {
                     "areacode": 8,
                     "name": "Tunja",
                     "categories": {
@@ -9535,7 +9535,7 @@
         "caldas": {
             "name": "Caldas",
             "cities": {
-                "manizales":{
+                "manizales": {
                     "areacode": 6,
                     "name": "Manizales",
                     "categories": {
@@ -9590,7 +9590,7 @@
         "casanare": {
             "name": "Casanare",
             "cities": {
-                "yopal":{
+                "yopal": {
                     "areacode": 8,
                     "name": "Yopal",
                     "categories": {
@@ -9636,7 +9636,7 @@
         "caqueta": {
             "name": "Caquetá",
             "cities": {
-                "florencia":{
+                "florencia": {
                     "areacode": 8,
                     "name": "Florencia",
                     "categories": {
@@ -9652,7 +9652,7 @@
         "cesar": {
             "name": "Cesar",
             "cities": {
-                "valledupar":{
+                "valledupar": {
                     "areacode": 5,
                     "name": "Valledupar",
                     "categories": {
@@ -9678,7 +9678,7 @@
         "cordoba": {
             "name": "Cordoba",
             "cities": {
-                "monteria":{
+                "monteria": {
                     "areacode": 4,
                     "name": "Montería",
                     "categories": {
@@ -10008,7 +10008,7 @@
         "guajira": {
             "name": "Guajira",
             "cities": {
-                "rioacha":{
+                "rioacha": {
                     "areacode": 5,
                     "name": "Rioacha",
                     "categories": {
@@ -10024,7 +10024,7 @@
         "huila": {
             "name": "Huila",
             "cities": {
-                "neiva":{
+                "neiva": {
                     "areacode": 8,
                     "name": "Neiva",
                     "categories": {
@@ -10045,7 +10045,7 @@
         "magdalena": {
             "name": "Magdalena",
             "cities": {
-                "santa-marta":{
+                "santa-marta": {
                     "areacode": 5,
                     "name": "Santa Marta",
                     "categories": {
@@ -10071,7 +10071,7 @@
         "meta": {
             "name": "Meta",
             "cities": {
-                "villavicencio":{
+                "villavicencio": {
                     "areacode": 8,
                     "name": "Villavicencio",
                     "categories": {
@@ -10126,7 +10126,7 @@
         "narino": {
             "name": "Nariño",
             "cities": {
-                "pasto":{
+                "pasto": {
                     "areacode": 2,
                     "name": "Pasto",
                     "categories": {
@@ -10149,7 +10149,7 @@
                             "stores": [
                                 "black-decker-pasto-01",
                                 "black-decker-pasto-02",
-                                "black-decker-pasto-03"    
+                                "black-decker-pasto-03"
                             ]
                         }
                     }
@@ -10159,7 +10159,7 @@
         "norte-de-santander": {
             "name": "Norte de Santander",
             "cities": {
-                "cucuta":{
+                "cucuta": {
                     "areacode": 7,
                     "name": "Cúcuta",
                     "categories": {
@@ -10190,7 +10190,7 @@
         "putumayo": {
             "name": "Putumayo",
             "cities": {
-                "puerto-asis":{
+                "puerto-asis": {
                     "areacode": 8,
                     "name": "Puerto Asís",
                     "categories": {
@@ -10206,7 +10206,7 @@
         "quindio": {
             "name": "Quindio",
             "cities": {
-                "armenia":{
+                "armenia": {
                     "areacode": 6,
                     "name": "Armenia",
                     "categories": {
@@ -10242,7 +10242,7 @@
         "risaralda": {
             "name": "Risaralda",
             "cities": {
-                "pereira":{
+                "pereira": {
                     "areacode": 6,
                     "name": "Pereira",
                     "categories": {
@@ -10302,7 +10302,7 @@
         "san-andres": {
             "name": "San Andrés",
             "cities": {
-                "san-andres":{
+                "san-andres": {
                     "areacode": 8,
                     "name": "San Andrés",
                     "categories": {
@@ -10318,7 +10318,7 @@
         "santander": {
             "name": "Santander",
             "cities": {
-                "barrancabermeja":{
+                "barrancabermeja": {
                     "areacode": 7,
                     "name": "Barrancabermeja",
                     "categories": {
@@ -10339,7 +10339,7 @@
                         }
                     }
                 },
-                "bucaramanga":{
+                "bucaramanga": {
                     "areacode": 7,
                     "name": "Bucaramanga",
                     "categories": {
@@ -10414,7 +10414,7 @@
                         }
                     }
                 },
-                "floridablanca":{
+                "floridablanca": {
                     "areacode": 7,
                     "name": "Floridablanca",
                     "categories": {
@@ -10430,7 +10430,7 @@
         "sucre": {
             "name": "Sucre",
             "cities": {
-                "sincelejo":{
+                "sincelejo": {
                     "areacode": 5,
                     "name": "Sincelejo",
                     "categories": {
@@ -10479,7 +10479,7 @@
         "tolima": {
             "name": "Tolima",
             "cities": {
-                "ibague":{
+                "ibague": {
                     "areacode": 8,
                     "name": "Ibagué",
                     "categories": {
@@ -10516,7 +10516,7 @@
         "valle-del-cauca": {
             "name": "Valle del Cauca",
             "cities": {
-                "cali":{
+                "cali": {
                     "areacode": 2,
                     "name": "Cali",
                     "categories": {
@@ -10602,7 +10602,7 @@
                         }
                     }
                 },
-                "caucasia":{
+                "caucasia": {
                     "areacode": 2,
                     "name": "Caucasia",
                     "categories": {
@@ -10618,7 +10618,7 @@
                         }
                     }
                 },
-                "buenaventura":{
+                "buenaventura": {
                     "areacode": 2,
                     "name": "Buenaventura",
                     "categories": {
@@ -10629,7 +10629,7 @@
                         }
                     }
                 },
-                "popayan":{
+                "popayan": {
                     "areacode": 2,
                     "name": "Popayán",
                     "categories": {
@@ -10655,7 +10655,7 @@
                         }
                     }
                 },
-                "tulua":{
+                "tulua": {
                     "areacode": 2,
                     "name": "Tulua",
                     "categories": {
@@ -10671,9 +10671,9 @@
         "linea-nacional": {
             "name": "Linea Nacional",
             "cities": {
-                "linea-nacional":{
+                "linea-nacional": {
                     "areacode": 0,
-                    "name": "linea-nacional",
+                    "name": "Linea Nacional",
                     "categories": {
                         "accesorios": {
                             "stores": [
