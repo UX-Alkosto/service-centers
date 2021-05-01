@@ -1,7 +1,6 @@
 "use strict";
 import Map from "./map.js";
 import Select from "./select.js";
-import ServiceCenter from "./service-center.js";
 ((appConfig, window, document) => {
 	const app = {
 		get: async (jsonUrl = "") => {
@@ -361,15 +360,18 @@ import ServiceCenter from "./service-center.js";
 	}
 
 	async function getServicePoints({ servicePointsCodes, serviceCenters }) {
-		// remove duplicates
-		let _areaCode = ""; const _servicePointsCodes = [];
+		const ServiceCenter = await import("./service-center.js"),
+		_servicePointsCodes = [];
+		let _areaCode = "";
+
 		servicePointsCodes.map(({ code, areaCode }) => {
 			_servicePointsCodes.push(code);
 			_areaCode = areaCode;
 		});
+		// remove duplicates
 		servicePointsCodes = [...new Set(_servicePointsCodes)];
 
-		return await servicePointsCodes.map((code) => {
+		return await servicePointsCodes.map(code => {
 			let servicePoint = {
 				id: code,
 				areaCode: _areaCode,
@@ -379,7 +381,7 @@ import ServiceCenter from "./service-center.js";
 				},
 			};
 			servicePoint = { ...servicePoint, ...serviceCenters[code] };
-			return new ServiceCenter(servicePoint);
+			return new ServiceCenter.default(servicePoint);
 		});
 	}
 
