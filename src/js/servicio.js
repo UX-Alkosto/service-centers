@@ -10,7 +10,7 @@ import ServiceCenter from "./service-center.js";
 					cache: "force-cache",
 					mode: "cors",
 				}).then((response) => response.json())
-				.then((data) => data);
+					.then((data) => data);
 			}
 		},
 		map: {
@@ -112,142 +112,251 @@ import ServiceCenter from "./service-center.js";
 		select: {
 			init: () => document.querySelectorAll("[data-custom-select").forEach((selectElement) => new Select(selectElement)),
 		},
-	};
-	const departmentSelect = document.getElementById("departamento");
-	const citySelect = document.getElementById("ciudad");
-	const categorySelect = document.getElementById("categoria");
-	const departmentDefaultOption = new Option(`Selecciona un ${departmentSelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
-	const cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
-	const categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
-	const menuContainer = document.querySelector(".service-centers__menu");
-	const mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue("--service-centers-breakpoint").replace("px", ""));
+	},
+		brandSelect = document.getElementById("marca"),
+		departmentSelect = document.getElementById("departamento"),
+		citySelect = document.getElementById("ciudad"),
+		categorySelect = document.getElementById("categoria"),
+		defaultOption = new Option("Selecciona una opción", 0, true, true),
+		menuContainer = document.querySelector(".service-centers__menu"),
+		mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue("--service-centers-breakpoint").replace("px", ""));
 
-	let enableFirst = true;
-	let mapElement;
-	let servicePointsCodes = [];
+	let brandDefaultOption = defaultOption,
+		departmentDefaultOption = defaultOption,
+		cityDefaultOption = defaultOption,
+		categoryDefaultOption = defaultOption,
+		enableFirst = true,
+		mapElement = null,
+		validCities = new Array(),
+		validCategories = new Array(),
+		servicePointsCodes = new Array();
 
-	departmentSelect.append(departmentDefaultOption);
-	citySelect.append(cityDefaultOption);
-	categorySelect.append(categoryDefaultOption);
-	citySelect.disabled = true;
-	categorySelect.disabled = true;
+	document.addEventListener("updateCenter", (e) => {
+		const center = e.detail.center;
+		if (center !== null) {
+			const item = document.getElementById(center);
+			item.click();
+			setTimeout(() => document.querySelector(".service-centers__menu").scrollTop = item.offsetTop, 250);
+		}
+	});
+
+	if (brandSelect !== null) {
+		brandDefaultOption = new Option(`Selecciona una ${brandSelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
+		brandSelect.append(brandDefaultOption);
+	}
+
+	if (departmentSelect !== null) {
+		departmentDefaultOption = new Option(`Selecciona un ${departmentSelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
+		departmentSelect.append(departmentDefaultOption);
+		if (brandSelect !== null) {
+			departmentSelect.disabled = true;
+		}
+	}
+
+	if (citySelect !== null) {
+		cityDefaultOption = new Option(`Selecciona una ${citySelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
+		citySelect.append(cityDefaultOption);
+		citySelect.disabled = true;
+	}
+
+	if (categorySelect !== null) {
+		categoryDefaultOption = new Option(`Selecciona una ${categorySelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
+		categorySelect.append(categoryDefaultOption);
+		categorySelect.disabled = true;
+	}
+
 	app.select.init(); // init custom dropdowns
 
 	if (appConfig.jsonFile !== undefined) {
 		app.get(appConfig.jsonFile)
-			.then(async ({ categories, departments, serviceCenters }) => {
+			.then(async ({ brands, categories, departments, serviceCenters }) => {
 				await app.map.init();
-				// get departments and render options in dropdown
-				Object.entries(departments).map((departmentData) => {
-					const department = departmentData[1];
-					const label = departmentData[0];
-					const option = new Option(department.name, label);
-					departmentSelect.append(option);
-				});
+				if (brands !== undefined && brandSelect !== null) {
+					Object.entries(brands).map(async brandData => {
+						const brand = brandData[1];
+						const value = brandData[0];
+						const option = new Option(brand.name, value);
+						return brandSelect.append(option);
+					});
+					brandSelect.refresh();
 
-				departmentSelect.refresh();
+					brandSelect.addEventListener("change", async () => {
+						enableFirst = true;
+						departmentSelect.innerHTML = ""; // reset cities select element
+						departmentSelect.append(departmentDefaultOption);
+						mapElement.infoWindow.close();
 
-				document.addEventListener("updateCenter", (e) => {
-					const center = e.detail.center;
-					if (center !== null) {
-						const item = document.getElementById(center);
-						item.click();
-						setTimeout(() => document.querySelector(".service-centers__menu").scrollTop = item.offsetTop, 250);
-					}
-				});
+						brands[brandSelect.value].departments.map(departmentValue => {
+							const option = new Option(departments[departmentValue].name, departmentValue);
+							return departmentSelect.append(option);
+						});
+						departmentSelect.disabled = false;
+						departmentSelect.refresh();
 
-				departmentSelect.addEventListener("change", async () => {
-					enableFirst = true;
-					citySelect.innerHTML = ""; // reset cities select element
-					citySelect.append(cityDefaultOption);
-					mapElement.infoWindow.close();
-					if (window.innerWidth > mobileBreakpoint) {
-						// Show map on desktop devices
-						document.querySelector(".service-centers__map")
-							.style.display = "block";
-					}
-					document.querySelector(".msje-localiza")
-						.innerText = "Localiza los centros de servicio técnico:";
-					Object.values(departments[departmentSelect.value].cities)
-						.map(({ areaCode, categories }) => {
-							return Object.values(categories).map(({ stores }) => {
-								return stores.map((code) => {
-									const serviceCenter = {
-										code: code,
-										areaCode: areaCode,
-									};
-									return servicePointsCodes.push(serviceCenter);
+						// Reset Cities dropdown
+						citySelect.innerHTML = "";
+						citySelect.disabled = true;
+						citySelect.append(cityDefaultOption);
+						citySelect.refresh();
+						// Reset Categories dropdown
+						categorySelect.innerHTML = "";
+						categorySelect.disabled = true;
+						categorySelect.append(categoryDefaultOption);
+						categorySelect.refresh();
+						servicePointsCodes = []; // Reset service array
+					});
+				}
+
+				if (departments !== undefined && departmentSelect !== null) {
+					// get departments and render options in dropdown
+					Object.entries(departments).map(departmentData => {
+						const department = departmentData[1];
+						const value = departmentData[0];
+						const option = new Option(department.name, value);
+						return departmentSelect.append(option);
+					});
+					departmentSelect.refresh();
+
+					departmentSelect.addEventListener("change", async () => {
+						validCities = [];
+						validCategories = [];
+						enableFirst = true;
+						citySelect.innerHTML = ""; // reset cities select element
+						citySelect.append(cityDefaultOption);
+						mapElement.infoWindow.close();
+						if (window.innerWidth > mobileBreakpoint) {
+							// Show map on desktop devices
+							document.querySelector(".service-centers__map")
+								.style.display = "block";
+						}
+						document.querySelector(".msje-localiza")
+							.innerText = "Localiza los centros de servicio técnico:";
+						Object.entries(departments[departmentSelect.value].cities)
+							.map(cityData => {
+								const city = cityData[0];
+								return Object.entries(cityData[1].categories).map(categoriesData => {
+									return categoriesData[1].stores.map((code) => {
+										const serviceCenter = {
+											code: code,
+											areaCode: cityData[1].areaCode,
+										};
+										if (brandSelect !== null) {
+											if (code.match(brandSelect.value)) {
+												validCities.push(city);
+												validCategories.push(categoriesData[0]);
+												return servicePointsCodes.push(serviceCenter);
+											}
+										} else {
+											return servicePointsCodes.push(serviceCenter);
+										}
+									});
 								});
 							});
+						await getServicePoints({
+							servicePointsCodes: servicePointsCodes,
+							serviceCenters: serviceCenters,
+						}).then((servicePoints) => setServiceCenters(servicePoints));
+
+						validCities = [...new Set(validCities)]; //Remove duplicated cities
+						validCategories = [...new Set(validCategories)]; //Remove duplicated cities
+
+						// Get Cities and render options in dropdown
+						Object.entries(departments[departmentSelect.value].cities)
+							.map((cityData) => {
+								if (validCities.length) {
+									validCities.map(validCity => {
+										if (cityData[0] === validCity) {
+											const city = cityData[1];
+											const option = new Option(city.name, validCity);
+											return citySelect.append(option);
+										}
+									});
+								} else {
+									const city = cityData[1];
+									const value = cityData[0];
+									const option = new Option(city.name, value);
+									return citySelect.append(option);
+								}
+							});
+						citySelect.disabled = false;
+						citySelect.refresh();
+
+						// Reset Categories dropdown
+						categorySelect.innerHTML = "";
+						categorySelect.disabled = true;
+						categorySelect.append(categoryDefaultOption);
+						categorySelect.refresh();
+						servicePointsCodes = []; // Reset service array
+					});
+				}
+
+				if (citySelect !== null) {
+					citySelect.addEventListener("change", async () => {
+						enableFirst = true;
+						// Reset Categories dropdown
+						categorySelect.innerHTML = "";
+						categorySelect.append(categoryDefaultOption);
+
+						Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores }) => {
+							return stores.map((code) => {
+								const serviceCenter = {
+									code: code,
+									areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode,
+								};
+
+								if (brandSelect !== null) {
+									if (code.match(brandSelect.value)) {
+										return servicePointsCodes.push(serviceCenter);
+									}
+								} else {
+									return servicePointsCodes.push(serviceCenter);
+								}
+							});
 						});
-					await getServicePoints({
-						servicePointsCodes: servicePointsCodes,
-						serviceCenters: serviceCenters,
-					}).then((servicePoints) => setServiceCenters(servicePoints));
-					// Get Cities and render options in dropdown
-					Object.entries(departments[departmentSelect.value].cities)
-						.map((cityData) => {
-							const city = cityData[1];
-							const label = cityData[0];
-							const option = new Option(city.name, label);
-							citySelect.append(option);
+						await getServicePoints({
+							servicePointsCodes: servicePointsCodes,
+							serviceCenters: serviceCenters,
+						}).then((servicePoints) => setServiceCenters(servicePoints));
+
+						Object.entries(departments[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
+							if (validCategories.length) {
+								validCategories.map(validCategory => {
+									if (categoryData[0] === validCategory) {
+										const category = categories[validCategory].name;
+										const option = new Option(category, validCategory);
+										return categorySelect.append(option);
+									}
+								});
+							} else {
+								const category = categories[categoryData[0]].name;
+								const label = categoryData[0];
+								const option = new Option(category, label);
+								return categorySelect.append(option);
+							}
 						});
-					citySelect.disabled = false;
-					citySelect.refresh();
+						categorySelect.disabled = false;
+						categorySelect.refresh();
+						servicePointsCodes = []; // Reset service array
+					});
+				}
 
-					// Reset Categories dropdown
-					categorySelect.innerHTML = "";
-					categorySelect.disabled = true;
-					categorySelect.append(categoryDefaultOption);
-					categorySelect.refresh();
-					servicePointsCodes = []; // Reset service array
-				});
-
-				citySelect.addEventListener("change", async () => {
-					enableFirst = true;
-					// Reset Categories dropdown
-					categorySelect.innerHTML = "";
-					categorySelect.append(categoryDefaultOption);
-
-					Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores }) => {
-						return stores.map((code) => {
+				if (categories !== undefined && categorySelect !== null) {
+					categorySelect.addEventListener("change", async () => {
+						enableFirst = true;
+						Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map((code) => {
 							const serviceCenter = {
 								code: code,
 								areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode,
 							};
 							return servicePointsCodes.push(serviceCenter);
 						});
+						await getServicePoints({
+							servicePointsCodes: servicePointsCodes,
+							serviceCenters: serviceCenters,
+						}).then((servicePoints) => setServiceCenters(servicePoints));
+						servicePointsCodes = []; // Reset service array
 					});
-					await getServicePoints({
-						servicePointsCodes: servicePointsCodes,
-						serviceCenters: serviceCenters,
-					}).then((servicePoints) => setServiceCenters(servicePoints));
-					Object.entries(departments[departmentSelect.value].cities[citySelect.value].categories).map((categoryData) => {
-						const category = categories[categoryData[0]].name;
-						const label = categoryData[0];
-						const option = new Option(category, label);
-						categorySelect.append(option);
-					});
-					categorySelect.disabled = false;
-					categorySelect.refresh();
-					servicePointsCodes = []; // Reset service array
-				});
-
-				categorySelect.addEventListener("change", async () => {
-					enableFirst = true;
-					Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map((code) => {
-						const serviceCenter = {
-							code: code,
-							areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode,
-						};
-						return servicePointsCodes.push(serviceCenter);
-					});
-					await getServicePoints({
-						servicePointsCodes: servicePointsCodes,
-						serviceCenters: serviceCenters,
-					}).then((servicePoints) => setServiceCenters(servicePoints));
-					servicePointsCodes = []; // Reset service array
-				});
+				}
 			});
 	}
 
