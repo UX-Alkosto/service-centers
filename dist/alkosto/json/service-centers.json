@@ -9245,7 +9245,7 @@
             "name": "Amazonas",
             "cities": {
                 "leticia": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Leticia",
                     "categories": {
                         "audio-video": {
@@ -9261,7 +9261,7 @@
             "name": "Antioquia",
             "cities": {
                 "apartado": {
-                    "areacode": 4,
+                    "areaCode": 4,
                     "name": "Apartadó",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9272,7 +9272,7 @@
                     }
                 },
                 "envigado": {
-                    "areacode": 4,
+                    "areaCode": 4,
                     "name": "Envigado",
                     "categories": {
                         "impresoras": {
@@ -9373,7 +9373,7 @@
             "name": "Arauca",
             "cities": {
                 "arauca": {
-                    "areacode": 7,
+                    "areaCode": 7,
                     "name": "Arauca",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9389,7 +9389,7 @@
             "name": "Atlantico",
             "cities": {
                 "barranquilla": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Barranquilla",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -9469,7 +9469,7 @@
                     }
                 },
                 "cartagena": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Cartagena",
                     "categories": {
                         "grandes-electrodomesticos": {
@@ -9496,7 +9496,7 @@
             "name": "Boyacá",
             "cities": {
                 "duitama": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Duitama",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9507,7 +9507,7 @@
                     }
                 },
                 "tunja": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Tunja",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9536,7 +9536,7 @@
             "name": "Caldas",
             "cities": {
                 "manizales": {
-                    "areacode": 6,
+                    "areaCode": 6,
                     "name": "Manizales",
                     "categories": {
                         "audio-video": {
@@ -9591,7 +9591,7 @@
             "name": "Casanare",
             "cities": {
                 "yopal": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Yopal",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -9637,7 +9637,7 @@
             "name": "Caquetá",
             "cities": {
                 "florencia": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Florencia",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9653,7 +9653,7 @@
             "name": "Cesar",
             "cities": {
                 "valledupar": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Valledupar",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9679,7 +9679,7 @@
             "name": "Cordoba",
             "cities": {
                 "monteria": {
-                    "areacode": 4,
+                    "areaCode": 4,
                     "name": "Montería",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -9712,7 +9712,7 @@
             "name": "Cundinamarca",
             "cities": {
                 "bogota": {
-                    "areacode": 1,
+                    "areaCode": 1,
                     "name": "Bogotá D.C",
                     "categories": {
                         "accesorios": {
@@ -9974,7 +9974,7 @@
                     }
                 },
                 "chia": {
-                    "areacode": 1,
+                    "areaCode": 1,
                     "name": "Chía",
                     "categories": {
                         "pequenos-electrodomesticos": {
@@ -9991,7 +9991,7 @@
                     }
                 },
                 "soacha": {
-                    "areacode": 1,
+                    "areaCode": 1,
                     "name": "Soacha",
                     "categories": {
                         "telefonia-operador": {
@@ -10009,7 +10009,7 @@
             "name": "Guajira",
             "cities": {
                 "rioacha": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Rioacha",
                     "categories": {
                         "informatica": {
@@ -10025,7 +10025,7 @@
             "name": "Huila",
             "cities": {
                 "neiva": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Neiva",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10046,7 +10046,7 @@
             "name": "Magdalena",
             "cities": {
                 "santa-marta": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Santa Marta",
                     "categories": {
                         "audio-video-aires": {
@@ -10072,7 +10072,7 @@
             "name": "Meta",
             "cities": {
                 "villavicencio": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Villavicencio",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10127,7 +10127,7 @@
             "name": "Nariño",
             "cities": {
                 "pasto": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Pasto",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10160,7 +10160,7 @@
             "name": "Norte de Santander",
             "cities": {
                 "cucuta": {
-                    "areacode": 7,
+                    "areaCode": 7,
                     "name": "Cúcuta",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10191,7 +10191,7 @@
             "name": "Putumayo",
             "cities": {
                 "puerto-asis": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Puerto Asís",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10207,7 +10207,7 @@
             "name": "Quindio",
             "cities": {
                 "armenia": {
-                    "areacode": 6,
+                    "areaCode": 6,
                     "name": "Armenia",
                     "categories": {
                         "audio-video": {
@@ -10243,7 +10243,7 @@
             "name": "Risaralda",
             "cities": {
                 "pereira": {
-                    "areacode": 6,
+                    "areaCode": 6,
                     "name": "Pereira",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10303,7 +10303,7 @@
             "name": "San Andrés",
             "cities": {
                 "san-andres": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "San Andrés",
                     "categories": {
                         "informatica": {
@@ -10319,7 +10319,7 @@
             "name": "Santander",
             "cities": {
                 "barrancabermeja": {
-                    "areacode": 7,
+                    "areaCode": 7,
                     "name": "Barrancabermeja",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10340,7 +10340,7 @@
                     }
                 },
                 "bucaramanga": {
-                    "areacode": 7,
+                    "areaCode": 7,
                     "name": "Bucaramanga",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10415,7 +10415,7 @@
                     }
                 },
                 "floridablanca": {
-                    "areacode": 7,
+                    "areaCode": 7,
                     "name": "Floridablanca",
                     "categories": {
                         "pequenos-electrodomesticos": {
@@ -10431,7 +10431,7 @@
             "name": "Sucre",
             "cities": {
                 "sincelejo": {
-                    "areacode": 5,
+                    "areaCode": 5,
                     "name": "Sincelejo",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10480,7 +10480,7 @@
             "name": "Tolima",
             "cities": {
                 "ibague": {
-                    "areacode": 8,
+                    "areaCode": 8,
                     "name": "Ibagué",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10517,7 +10517,7 @@
             "name": "Valle del Cauca",
             "cities": {
                 "cali": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Cali",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10603,7 +10603,7 @@
                     }
                 },
                 "caucasia": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Caucasia",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10619,7 +10619,7 @@
                     }
                 },
                 "buenaventura": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Buenaventura",
                     "categories": {
                         "grandes-electrodomesticos": {
@@ -10630,7 +10630,7 @@
                     }
                 },
                 "popayan": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Popayán",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -10656,7 +10656,7 @@
                     }
                 },
                 "tulua": {
-                    "areacode": 2,
+                    "areaCode": 2,
                     "name": "Tulua",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -10672,7 +10672,7 @@
             "name": "Linea Nacional",
             "cities": {
                 "linea-nacional": {
-                    "areacode": 0,
+                    "areaCode": 0,
                     "name": "Linea Nacional",
                     "categories": {
                         "accesorios": {
