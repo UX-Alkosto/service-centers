@@ -1,6 +1,5 @@
-"use strict";
-import Map from "./map.js";
 import Select from "./select.js";
+
 ((appConfig, window, document) => {
 	const app = {
 		get: async (jsonUrl = "") => {
@@ -14,7 +13,8 @@ import Select from "./select.js";
 		},
 		map: {
 			init: async () => {
-				mapElement = new Map({
+				const Map = await import("./map.js");
+				mapElement = new Map.default({
 					$element: "#service-centers-map",
 					baseSite: appConfig.site,
 				});
