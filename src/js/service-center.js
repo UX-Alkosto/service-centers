@@ -1,32 +1,44 @@
 export default class ServiceCenter {
     constructor({
-        address= "",
-        areaCode="",
+        address = "",
+        areaCode = "",
         cell = [],
+        city = "",
         coordinates = {},
         hours = [],
         id = "",
+        link = "",
+        type = "",
         name = "",
         phone = [],
+        schedule = [],
         viewMap = ""
-    }){
+    }) {
         this.address = address;
         this.areaCode = areaCode;
         this.cellphone = cell;
+        this.city = city;
         this.coordinates = coordinates;
         this.hours = hours;
         this.id = id;
         this.isActive = false;
+        this.link = link;
+        this.linkType = type;
         this.name = name;
         this.phone = phone;
+        this.schedule = schedule;
         this.map = viewMap;
     }
 
-    get active(){
+    get active() {
         return this.isActive;
     }
 
-    set active(active){
+    set active(active) {
         this.isActive = active;
+    }
+
+    get isCallCenter() {
+        return (this.city.match("linea-nacional")) ? true : false;
     }
 }
