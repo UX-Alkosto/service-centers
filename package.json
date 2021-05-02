@@ -43,7 +43,7 @@
     "url": "git+https://github.com/UX-Alkosto/service-centers.git"
   },
   "keywords": [
-    "grunt"
+    "grunt", "rollupjs", "lit-html"
   ],
   "author": "Miguel Colmenares <me@miguelcolmenares.com>",
   "license": "MIT",
