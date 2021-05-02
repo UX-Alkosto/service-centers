@@ -1,4 +1,4 @@
-import { render } from "lit-html";
+import { render } from "lit/html.js";
 import Select from "./select.js";
 
 const app = {
@@ -7,8 +7,9 @@ const app = {
 			return await fetch(jsonUrl, {
 				cache: "force-cache",
 				mode: "cors",
-			}).then((response) => response.json())
-				.then((data) => data);
+			}).then(response => {
+				if(response.ok) return response.json();
+			}).then(data => data);
 		}
 	},
 	map: {
@@ -18,6 +19,10 @@ const app = {
 				$element: "#service-centers-map",
 				// eslint-disable-next-line no-undef
 				baseSite: appConfig.site,
+				center: {
+					lat: 4.6482837,
+					lng: -74.2478938
+				}
 			});
 			document.addEventListener("click", (e) => {
 				if (e.target.classList
@@ -52,6 +57,7 @@ let brandDefaultOption = defaultOption,
 	categoryDefaultOption = defaultOption,
 	enableFirst = true,
 	mapElement = null,
+	mapLoaded = false,
 	validCities = new Array(),
 	validCategories = new Array(),
 	servicePointsCodes = new Array();
@@ -97,7 +103,6 @@ if (appConfig.jsonFile !== undefined) {
 	// eslint-disable-next-line no-undef
 	app.get(appConfig.jsonFile)
 		.then(async ({ brands, categories, departments, serviceCenters }) => {
-			await app.map.init();
 			if (brands !== undefined && brandSelect !== null) {
 				Object.entries(brands).map(async brandData => {
 					const brand = brandData[1];
@@ -111,7 +116,8 @@ if (appConfig.jsonFile !== undefined) {
 					enableFirst = true;
 					departmentSelect.innerHTML = ""; // reset cities select element
 					departmentSelect.append(departmentDefaultOption);
-					mapElement.infoWindow.close();
+					if (mapLoaded)
+						mapElement.infoWindow.close();
 
 					brands[brandSelect.value].departments.map(departmentValue => {
 						const option = new Option(departments[departmentValue].name, departmentValue);
@@ -119,6 +125,11 @@ if (appConfig.jsonFile !== undefined) {
 					});
 					departmentSelect.disabled = false;
 					departmentSelect.refresh();
+
+					await getServicePoints({
+						servicePointsCodes: servicePointsCodes,
+						serviceCenters: serviceCenters,
+					}).then(servicePoints => setServiceCenters(servicePoints));
 
 					// Reset Cities dropdown
 					citySelect.innerHTML = "";
@@ -145,6 +156,9 @@ if (appConfig.jsonFile !== undefined) {
 				departmentSelect.refresh();
 
 				departmentSelect.addEventListener("change", async () => {
+					if(!mapLoaded)
+						await app.map.init();
+					mapLoaded = true;
 					validCities = [];
 					validCategories = [];
 					enableFirst = true;
@@ -162,8 +176,9 @@ if (appConfig.jsonFile !== undefined) {
 						.map(cityData => {
 							const city = cityData[0];
 							return Object.entries(cityData[1].categories).map(categoriesData => {
-								return categoriesData[1].stores.map((code) => {
+								return categoriesData[1].stores.map(code => {
 									const serviceCenter = {
+										city: city,
 										code: code,
 										areaCode: cityData[1].areaCode,
 									};
@@ -182,14 +197,14 @@ if (appConfig.jsonFile !== undefined) {
 					await getServicePoints({
 						servicePointsCodes: servicePointsCodes,
 						serviceCenters: serviceCenters,
-					}).then((servicePoints) => setServiceCenters(servicePoints));
+					}).then(servicePoints => setServiceCenters(servicePoints));
 
 					validCities = [...new Set(validCities)]; //Remove duplicated cities
 					validCategories = [...new Set(validCategories)]; //Remove duplicated cities
 
 					// Get Cities and render options in dropdown
 					Object.entries(departments[departmentSelect.value].cities)
-						.map((cityData) => {
+						.map(cityData => {
 							if (validCities.length) {
 								validCities.map(validCity => {
 									if (cityData[0] === validCity) {
@@ -225,8 +240,9 @@ if (appConfig.jsonFile !== undefined) {
 					categorySelect.append(categoryDefaultOption);
 
 					Object.values(departments[departmentSelect.value].cities[citySelect.value].categories).map(({ stores }) => {
-						return stores.map((code) => {
+						return stores.map(code => {
 							const serviceCenter = {
+								city: citySelect.value,
 								code: code,
 								areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode,
 							};
@@ -243,7 +259,7 @@ if (appConfig.jsonFile !== undefined) {
 					await getServicePoints({
 						servicePointsCodes: servicePointsCodes,
 						serviceCenters: serviceCenters,
-					}).then((servicePoints) => setServiceCenters(servicePoints));
+					}).then(servicePoints => setServiceCenters(servicePoints));
 
 					Object.entries(departments[departmentSelect.value].cities[citySelect.value].categories).map(categoryData => {
 						if (validCategories.length) {
@@ -270,12 +286,19 @@ if (appConfig.jsonFile !== undefined) {
 			if (categories !== undefined && categorySelect !== null) {
 				categorySelect.addEventListener("change", async () => {
 					enableFirst = true;
-					Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map((code) => {
+					Object.values(departments[departmentSelect.value].cities[citySelect.value].categories[categorySelect.value].stores).map(code => {
 						const serviceCenter = {
+							city: citySelect.value,
 							code: code,
 							areaCode: departments[departmentSelect.value].cities[citySelect.value].areaCode,
 						};
-						return servicePointsCodes.push(serviceCenter);
+						if (brandSelect !== null) {
+							if (code.match(brandSelect.value)) {
+								return servicePointsCodes.push(serviceCenter);
+							}
+						} else {
+							return servicePointsCodes.push(serviceCenter);
+						}
 					});
 					await getServicePoints({
 						servicePointsCodes: servicePointsCodes,
@@ -290,23 +313,26 @@ if (appConfig.jsonFile !== undefined) {
 async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 	const ServiceCenter = await import("./service-center.js"),
 	_servicePointsCodes = [];
-	let _areaCode = "";
+	let _areaCode = "",
+		_city = "";
 
-	servicePointsCodes.map(({ code, areaCode }) => {
-		_servicePointsCodes.push(code);
+	servicePointsCodes.map(({ city, code, areaCode }) => {
 		_areaCode = areaCode;
+		_city = city;
+		_servicePointsCodes.push(code);
 	});
 	// remove duplicates
 	servicePointsCodes = [...new Set(_servicePointsCodes)];
 
 	return await servicePointsCodes.map(code => {
 		let servicePoint = {
-			id: code,
 			areaCode: _areaCode,
+			city: _city,
 			coordinates: {
 				lat: serviceCenters[code].lat,
 				lng: serviceCenters[code].lng,
 			},
+			id: code
 		};
 		servicePoint = { ...servicePoint, ...serviceCenters[code] };
 		return new ServiceCenter.default(servicePoint);
@@ -316,14 +342,20 @@ async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 async function setServiceCenters(serviceCenterPoints) {
 	const Menu = await import("./menu.js");
 	const menuItems = [];
-	// reset menu items
-	menuContainer.innerHTML = "";
-	mapElement.setMarkers(serviceCenterPoints);
+
 	// render service points menu items
 	serviceCenterPoints.map(serviceCenterPoint => {
 		serviceCenterPoint.active = enableFirst;
 		enableFirst = false;
+		if(serviceCenterPoint.isCallCenter) {
+			serviceCenterPoint.coordinates = {
+				lat: 4.6482837,
+				lng: -74.2478938
+			};
+		}
 		return menuItems.push(new Menu.default(serviceCenterPoint, mapElement).item());
 	});
-	return render(menuItems, menuContainer);
+	if (mapLoaded)
+		mapElement.setMarkers(serviceCenterPoints); // render map markers
+	render(menuItems, menuContainer);
 }

@@ -1,0 +1,2 @@
+/*! service-centers - release: 1.0.9 */
+export default class{constructor({address:i="",areaCode:t="",cell:e=[],city:s="",coordinates:h={},hours:a=[],id:c="",link:n="",type:r="",name:l="",phone:o=[],schedule:d=[],viewMap:p=""}){this.address=i,this.areaCode=t,this.cellphone=e,this.city=s,this.coordinates=h,this.hours=a,this.id=c,this.isActive=!1,this.link=n,this.linkType=r,this.name=l,this.phone=o,this.schedule=d,this.map=p}get active(){return this.isActive}set active(i){this.isActive=i}get isCallCenter(){return!!this.city.match("linea-nacional")}}

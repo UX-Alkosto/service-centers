@@ -2,11 +2,13 @@ const google = window.google;
 export default class Map {
     constructor({
         $element,
-        baseSite
+        baseSite,
+        center
     }) {
         this.$element = document.querySelector($element),
         this.baseSite = baseSite,
         this.bounds,
+        this.center = center,
         this.geocoder = new google.maps.Geocoder(),
         this.infoWindow = new google.maps.InfoWindow(),
         this.markers = {},
@@ -33,7 +35,7 @@ export default class Map {
 
     async init() {
         this.map = await new google.maps.Map(this.$element, {
-            center: new google.maps.LatLng(4.6482837, -74.2478938),
+            center: new google.maps.LatLng(this.center),
             disableDefaultUI: true,
             draggable: true,
             zoom: 10,

@@ -8,7 +8,7 @@
     "cssnano": "^5.0.2",
     "less-plugin-autoprefix": "^2.0.0",
     "less-plugin-clean-css": "^1.5.1",
-    "lit-html": "^1.4.0",
+    "lit": "*",
     "pixrem": "^5.0.0"
   },
   "devDependencies": {
@@ -43,7 +43,9 @@
     "url": "git+https://github.com/UX-Alkosto/service-centers.git"
   },
   "keywords": [
-    "grunt", "rollupjs", "lit-html"
+    "grunt",
+    "rollupjs",
+    "lit-html"
   ],
   "author": "Miguel Colmenares <me@miguelcolmenares.com>",
   "license": "MIT",
