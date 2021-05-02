@@ -49,17 +49,17 @@ export default class Map {
             <button class="service-centers__map__info-window__close"><span class="alk-icon-close"></span></button>
             <h4>${location.name}</h4>
             <p><strong>Dirección:</strong><br />
-            ${location.address}
+                ${location.address}
             </p>
             <p>
-            <i class="alk-icon-exportar"></i><a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}" target="_blank">¿Cómo llegar?</a>
+                <i class="alk-icon-exportar"></i><a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}" target="_blank">¿Cómo llegar?</a>
             </p>
         </div>`;
     }
 
     async setMarkers(locationPoints) {
         this.bounds = new google.maps.LatLngBounds();
-        Object.values(this.markers).map(marker => marker.setMap(null));
+        this.clearMarkers();
         this.markers = {};
         locationPoints.map(location => {
             const marker = new google.maps.Marker({
@@ -79,8 +79,13 @@ export default class Map {
         });
         this.map.setCenter(this.bounds.getCenter());
         this.map.fitBounds(this.bounds);
-        if (this.map.getZoom() > 18) this.map.setZoom(18);
+        if (this.map.getZoom() > 18)
+            this.map.setZoom(18);
         return this.markers;
+    }
+
+    clearMarkers(){
+        return Object.values(this.markers).map(marker => marker.setMap(null));
     }
 }
 

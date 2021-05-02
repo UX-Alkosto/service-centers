@@ -48,6 +48,7 @@ const app = {
 	citySelect = document.getElementById("ciudad"),
 	categorySelect = document.getElementById("categoria"),
 	defaultOption = new Option("Selecciona una opción", 0, true, true),
+	google = window.google,
 	menuContainer = document.querySelector(".service-centers__menu"),
 	mobileBreakpoint = Number(getComputedStyle(document.documentElement).getPropertyValue("--service-centers-breakpoint").replace("px", ""));
 
@@ -58,9 +59,9 @@ let brandDefaultOption = defaultOption,
 	enableFirst = true,
 	mapElement = null,
 	mapLoaded = false,
-	validCities = new Array(),
-	validCategories = new Array(),
-	servicePointsCodes = new Array();
+	validCities = [],
+	validCategories = [],
+	servicePointsCodes = [];
 
 document.addEventListener("updateCenter", e => {
 	const center = e.detail.center;
@@ -116,8 +117,7 @@ if (appConfig.jsonFile !== undefined) {
 					enableFirst = true;
 					departmentSelect.innerHTML = ""; // reset cities select element
 					departmentSelect.append(departmentDefaultOption);
-					if (mapLoaded)
-						mapElement.infoWindow.close();
+					if (mapLoaded) resetMap(mapElement);
 
 					brands[brandSelect.value].departments.map(departmentValue => {
 						const option = new Option(departments[departmentValue].name, departmentValue);
@@ -311,6 +311,7 @@ if (appConfig.jsonFile !== undefined) {
 }
 
 async function getServicePoints({ servicePointsCodes, serviceCenters }) {
+	if (!servicePointsCodes.length) return [];
 	const ServiceCenter = await import("./service-center.js"),
 	_servicePointsCodes = [];
 	let _areaCode = "",
@@ -323,6 +324,7 @@ async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 	});
 	// remove duplicates
 	servicePointsCodes = [...new Set(_servicePointsCodes)];
+
 
 	return await servicePointsCodes.map(code => {
 		let servicePoint = {
@@ -340,6 +342,7 @@ async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 }
 
 async function setServiceCenters(serviceCenterPoints) {
+	if (!serviceCenterPoints.length) return render([], menuContainer);
 	const Menu = await import("./menu.js");
 	const menuItems = [];
 
@@ -357,5 +360,12 @@ async function setServiceCenters(serviceCenterPoints) {
 	});
 	if (mapLoaded)
 		mapElement.setMarkers(serviceCenterPoints); // render map markers
-	render(menuItems, menuContainer);
+	return render(menuItems, menuContainer);
+}
+
+function resetMap(mapElement) {
+	mapElement.infoWindow.close();
+	mapElement.clearMarkers();
+	mapElement.map.setCenter(new google.maps.LatLng(mapElement.center));
+	mapElement.map.setZoom(5);
 }
