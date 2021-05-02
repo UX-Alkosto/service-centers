@@ -1,20 +1,20 @@
 
-'use strict';
+"use strict";
 module.exports = function (grunt) {
 
-    var themes = ['kalley']
+    var themes = ["alkosto", "kalley"];
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         clean: {
-            dist: ["dist/**/css/*", "dist/**/js/*", "dist/**/fonts/*"]
+            dist: ["dist/**/css/*", "dist/**/fonts/*"]
         },
         cssmin: {
             options: {
                 banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
-                compatibility: 'ie8',
-                report: 'gzip',
-                inline: ['local'],
+                compatibility: "ie8",
+                report: "gzip",
+                inline: ["local"],
                 level: {
                     1: {
                         all: true
@@ -26,9 +26,9 @@ module.exports = function (grunt) {
             },
             dist: {
                 expand: true,
-                cwd: 'dist',
-                src: ['**/css/*.css'],
-                dest: 'dist'
+                cwd: "dist",
+                src: ["**/css/*.css"],
+                dest: "dist"
             }
         },
         copy: {
@@ -47,54 +47,35 @@ module.exports = function (grunt) {
             options: {
                 banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
                 compress: true,
-                paths: ['dist/css'],
+                paths: ["dist/css"],
                 modifyVars: {
-                    themeName: '<%= theme %>'
+                    themeName: "<%= theme %>"
                 },
                 plugins: [
-                    new (require('less-plugin-autoprefix'))({ browsers: ["last 2 versions"] }),
-                    new (require('less-plugin-clean-css'))({ advanced: true })
+                    new (require("less-plugin-autoprefix"))({ browsers: ["last 2 versions"] }),
+                    new (require("less-plugin-clean-css"))({ advanced: true })
                 ]
             },
             theme: {
                 files: {
-                    'dist/<%= theme %>/css/servicio.css': 'src/less/servicio.less'
+                    "dist/<%= theme %>/css/servicio.css": "src/less/servicio.less"
                 }
             }
         },
-        themes: themes,
-        uglify: {
-            options: {
-                banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
-                report: "gzip",
-                compress: true,
-                reserveDOMProperties: true,
-                sourceMap: false,
-                exportAll: true,
-            },
-            dist: {
-                files: {
-                    'dist/common/js/map.js': ['src/js/map.js'],
-                    'dist/common/js/select.js': ['src/js/select.js'],
-                    'dist/common/js/service-center.js': ['src/js/service-center.js'],
-                    'dist/common/js/servicio.js': ['src/js/servicio.js']
-                },
-            }
-        },
+        themes: themes
     });
 
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-contrib-uglify-es');
+    grunt.loadNpmTasks("grunt-contrib-clean");
+    grunt.loadNpmTasks("grunt-contrib-copy");
+    grunt.loadNpmTasks("grunt-contrib-cssmin");
+    grunt.loadNpmTasks("grunt-contrib-less");
 
-    grunt.registerMultiTask('themes', 'Generate styles for each site', function () {
+    grunt.registerMultiTask("themes", "Generate styles for each site", function () {
         const done = this.async();
-        grunt.log.writeln('Compile less for: ' + this.data);
-        grunt.config('theme', this.data);
-        grunt.task.run('less');
+        grunt.log.writeln("Compile less for: " + this.data);
+        grunt.config("theme", this.data);
+        grunt.task.run("less");
         done();
     });
-    grunt.registerTask('default', ['clean', 'copy', 'themes', 'cssmin', 'uglify']);
+    grunt.registerTask("default", ["clean", "copy", "themes", "cssmin"]);
 };
