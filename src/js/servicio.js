@@ -1,5 +1,5 @@
 import { render } from "lit/html.js";
-import Select from "./select.js";
+import Select from "./select";
 
 const app = {
 	get: async (jsonUrl = "") => {
