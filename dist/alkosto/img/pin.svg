@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 27.61"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#eb5b25;}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:#fff;}</style><clipPath id="clip-path"><path class="cls-1" d="M10,0A10,10,0,0,0,0,10c0,6.84,9,16.89,9.33,17.31a.9.9,0,0,0,1.27.08l.07-.08C11.05,26.89,20,16.84,20,10A10,10,0,0,0,10,0Z"/></clipPath><clipPath id="clip-path-2"><polygon class="cls-1" points="6.38 7.22 6.38 17.67 9.5 17.67 9.5 14.74 10.01 14.23 16.97 22.85 21.19 22.85 12.7 12.49 16.46 7.22 12.21 7.22 9.5 10.87 9.5 7.22 6.38 7.22"/></clipPath></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><g id="Grupo_4" data-name="Grupo 4"><g class="cls-2"><g id="Enmascarar_grupo_590" data-name="Enmascarar grupo 590"><path id="maps-and-flags-2" class="cls-3" d="M10,0A10,10,0,0,0,0,10c0,6.84,9,16.89,9.33,17.31a.9.9,0,0,0,1.27.08l.07-.08C11.05,26.89,20,16.84,20,10A10,10,0,0,0,10,0Z"/><g class="cls-4"><g id="Enmascarar_grupo_589" data-name="Enmascarar grupo 589"><path id="maps-and-flags-3" class="cls-5" d="M10,0A10,10,0,0,0,0,10c0,6.84,9,16.89,9.33,17.31a.9.9,0,0,0,1.27.08l.07-.08C11.05,26.89,20,16.84,20,10A10,10,0,0,0,10,0Z"/></g></g></g></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20pt" height="28pt" viewBox="0 0 16 22" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 8 0.152344 C 3.582031 0.152344 0 3.671875 0 8.011719 C 0 13.382812 7.199219 21.28125 7.464844 21.609375 C 7.726562 21.902344 8.183594 21.933594 8.480469 21.675781 L 8.535156 21.609375 C 8.839844 21.28125 16 13.382812 16 8.011719 C 16 3.671875 12.417969 0.152344 8 0.152344 Z M 8 0.152344 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 5 5 L 16 5 L 16 19 L 5 19 Z M 5 5 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 8 0.152344 C 3.582031 0.152344 0 3.671875 0 8.011719 C 0 13.382812 7.199219 21.28125 7.464844 21.609375 C 7.726562 21.902344 8.183594 21.933594 8.480469 21.675781 L 8.535156 21.609375 C 8.839844 21.28125 16 13.382812 16 8.011719 C 16 3.671875 12.417969 0.152344 8 0.152344 Z M 8 0.152344 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M 5.105469 5.824219 L 5.105469 14.035156 L 7.601562 14.035156 L 7.601562 11.734375 L 8.007812 11.332031 L 13.574219 18.105469 L 16.953125 18.105469 L 10.160156 9.964844 L 13.167969 5.824219 L 9.769531 5.824219 L 7.601562 8.695312 L 7.601562 5.824219 Z M 5.105469 5.824219 "/>
+</clipPath>
+</defs>
+<g id="surface1">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(92.156863%,35.686275%,14.509804%);fill-opacity:1;" d="M 8 0.152344 C 3.582031 0.152344 0 3.671875 0 8.011719 C 0 13.382812 7.199219 21.28125 7.464844 21.609375 C 7.726562 21.902344 8.183594 21.933594 8.480469 21.675781 L 8.535156 21.609375 C 8.839844 21.28125 16 13.382812 16 8.011719 C 16 3.671875 12.417969 0.152344 8 0.152344 Z M 8 0.152344 "/>
+</g>
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 8 0.152344 C 3.582031 0.152344 0 3.671875 0 8.011719 C 0 13.382812 7.199219 21.28125 7.464844 21.609375 C 7.726562 21.902344 8.183594 21.933594 8.480469 21.675781 L 8.535156 21.609375 C 8.839844 21.28125 16 13.382812 16 8.011719 C 16 3.671875 12.417969 0.152344 8 0.152344 Z M 8 0.152344 "/>
+</g>
+</g>
+</g>
+</g>
+</svg>

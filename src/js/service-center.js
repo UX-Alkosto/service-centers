@@ -5,6 +5,7 @@ export default class ServiceCenter {
         cell = [],
         city = "",
         coordinates = {},
+        email = [],
         hours = [],
         id = "",
         link = "",
@@ -19,6 +20,7 @@ export default class ServiceCenter {
         this.cellphone = cell;
         this.city = city;
         this.coordinates = coordinates;
+        this.email = email;
         this.hours = hours;
         this.id = id;
         this.isActive = false;
