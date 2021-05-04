@@ -29,10 +29,10 @@ const config = {
         cleanup({
             comments: "none"
         }),
-        filesize({
-            showMinifiedSize: true,
-            showGzippedSize: true
-        })
+        // filesize({
+        //     showMinifiedSize: true,
+        //     showGzippedSize: true
+        // })
     ],
     preserveEntrySignatures: false
 };

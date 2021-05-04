@@ -20,8 +20,8 @@ const app = {
 				// eslint-disable-next-line no-undef
 				baseSite: appConfig.site,
 				center: {
-					lat: 4.6482837,
-					lng: -74.2478938
+					lat: 4.67998417919688,
+					lng: -74.08550441957686
 				}
 			});
 			document.addEventListener("click", (e) => {
@@ -352,8 +352,8 @@ async function setServiceCenters(serviceCenterPoints) {
 		enableFirst = false;
 		if(serviceCenterPoint.isCallCenter) {
 			serviceCenterPoint.coordinates = {
-				lat: 4.6482837,
-				lng: -74.2478938
+				lat: 4.67998417919688,
+				lng: -74.08550441957686
 			};
 		}
 		return menuItems.push(new Menu.default(serviceCenterPoint, mapElement).item());
