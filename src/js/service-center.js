@@ -1,4 +1,4 @@
-export default class ServiceCenter {
+export class ServiceCenter {
     constructor({
         address = "",
         areaCode = "",
