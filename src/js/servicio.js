@@ -14,8 +14,8 @@ const app = {
 	},
 	map: {
 		init: async () => {
-			const Module = await import("./map.js");
-			mapElement = new Module.Map({
+			const Map = await import("./map.js").then(Module => Module.Map);
+			mapElement = new Map({
 				$element: "#service-centers-map",
 				// eslint-disable-next-line no-undef
 				baseSite: appConfig.site,
@@ -312,7 +312,7 @@ if (appConfig.jsonFile !== undefined) {
 
 async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 	if (!servicePointsCodes.length) return [];
-	const Module = await import("./service-center.js"),
+	const ServiceCenter = await import("./service-center.js").then(Module => Module.ServiceCenter),
 	_servicePointsCodes = [];
 	let _areaCode = "",
 		_city = "";
@@ -337,13 +337,13 @@ async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 			id: code
 		};
 		servicePoint = { ...servicePoint, ...serviceCenters[code] };
-		return new Module.ServiceCenter(servicePoint);
+		return new ServiceCenter(servicePoint);
 	});
 }
 
 async function setServiceCenters(serviceCenterPoints) {
 	if (!serviceCenterPoints.length) return render([], menuContainer);
-	const Module = await import("./menu.js");
+	const Menu = await import("./menu.js").then(Module => Module.Menu);
 	const menuItems = [];
 
 	// render service points menu items
@@ -356,7 +356,7 @@ async function setServiceCenters(serviceCenterPoints) {
 				lng: -74.08550441957686
 			};
 		}
-		return menuItems.push(new Module.Menu(serviceCenterPoint, mapElement).render());
+		return menuItems.push(new Menu(serviceCenterPoint, mapElement).render());
 	});
 	if (mapLoaded) mapElement.setMarkers(serviceCenterPoints); // render map markers
 	return render(menuItems, menuContainer);

@@ -1,6 +1,33 @@
 import { html } from "lit/html.js";
 export { Menu, getFormatedPhone };
 
+const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
+    _changeHandler = {
+        handleEvent(e) {
+            menuItems.forEach(otherMenuItem => {
+                const icon = otherMenuItem.nextElementSibling.querySelector("span");
+                if (e.target === otherMenuItem) {
+                    icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
+                } else {
+                    icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+                }
+            });
+        },
+        capture: true
+    },
+    _mouseEnterHandler = {
+        handleEvent(e) {
+            map.bounceMarker(e.target.dataset.serviceCenter, "start");
+        },
+        capture: true
+    },
+    _mouseLeaveHandler = {
+        handleEvent(e) {
+            map.bounceMarker(e.target.dataset.serviceCenter, "stop");
+        },
+        capture: true
+    };
+
 let map = null;
 
 class Menu {
@@ -83,30 +110,3 @@ function getFormatedSchedule(location) {
     }
     return scheduleItems;
 }
-
-const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
-    _changeHandler = {
-        handleEvent(e) {
-            menuItems.forEach(otherMenuItem => {
-                const icon = otherMenuItem.nextElementSibling.querySelector("span");
-                if (e.target === otherMenuItem) {
-                    icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
-                } else {
-                    icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
-                }
-            });
-        },
-        capture: true
-    },
-    _mouseEnterHandler = {
-        handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "start");
-        },
-        capture: true
-    },
-    _mouseLeaveHandler = {
-        handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "stop");
-        },
-        capture: true
-    };
