@@ -1,52 +1,46 @@
 import { html } from "lit/html.js";
-export { Menu as default, getFormatedPhone };
+export { Menu, getFormatedPhone };
+
+let map = null;
+
 class Menu {
-    constructor(itemMenu = {}, mapElement) {
-        this.active = itemMenu.active;
-        this.address = itemMenu.address;
-        this.areaCode = itemMenu.areaCode;
-        this.cellphone = itemMenu.cellphone;
-        this.email = itemMenu.email;
-        this.id = itemMenu.id;
-        this.map = itemMenu.map;
-        this.name = itemMenu.name;
-        this.phone = itemMenu.phone;
-        this.schedule = itemMenu.schedule;
+    constructor(serviceCenter, mapElement) {
+        this.serviceCenter = serviceCenter;
         map = mapElement;
     }
-    item() {
+    render() {
         return html`<div class="service-centers__menu__item">
-            <input type="radio" @change=${_changeHandler} name="centro-servicio" .id="${this.id}" ?checked="${this.active}">
-            <label for="${this.id}">${this.name}<span class="${this.active ? "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span></label>
-            <div class="service-centers__menu__item__body" data-service-center="${this.id}" @mouseenter=${_mouseEnterHandler} @mouseleave=${_mouseLeaveHandler}>
-                ${this.address.length ? html`<div class="address">
+            <input type="radio" @change=${_changeHandler} name="centro-servicio" .id="${this.serviceCenter.id}" ?checked="${this.serviceCenter.active}">
+            <label for="${this.serviceCenter.id}">${this.serviceCenter.name}<span class="${this.serviceCenter.active ? "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span></label>
+            <div class="service-centers__menu__item__body" data-service-center="${this.serviceCenter.id}" @mouseenter=${_mouseEnterHandler} @mouseleave=${_mouseLeaveHandler}>
+                ${this.serviceCenter.address.length ? html`<div class="address">
                     <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
-                        ${this.address}</p>
+                        ${this.serviceCenter.address}</p>
                 </div>` : ""}
-                ${this.email.length ? html`<div class="email">
+                ${this.serviceCenter.email.length ? html`<div class="email">
                     <p><strong><i class="alk-icon-email1"></i> Email:</strong>
-                        ${getFormatedEmail(this)}</p>
+                        ${getFormatedEmail(this.serviceCenter)}</p>
                 </div>` : ""}
                 <div class="contact-phones">
-                    ${this.phone.length ? html`<div class="phone">
+                    ${this.serviceCenter.phone.length ? html`<div class="phone">
                         <p><strong><i class="alk-icon-customer-contact"></i> Contacto telefónico:</strong>
-                            ${getFormatedPhone(this)}
+                            ${getFormatedPhone(this.serviceCenter)}
                         </p>
                     </div>` : ""}
-                    ${this.cellphone.length ? html`<div class="cell">
+                    ${this.serviceCenter.cellphone.length ? html`<div class="cell">
                         <p><strong><i class="alk-icon-phone-contact"></i> Celular:</strong>
-                            ${getFormatedCellphone(this)}
+                            ${getFormatedCellphone(this.serviceCenter)}
                         </p>
                     </div>` : ""}
                 </div>
-                ${this.schedule.length ? html`<div class="schedule">
+                ${this.serviceCenter.schedule.length ? html`<div class="schedule">
                     <p><strong><i class="alk-icon-clock"></i> Horario:</strong>
-                            ${getFormatedSchedule(this)}
+                            ${getFormatedSchedule(this.serviceCenter)}
                         </p>
                 </div>` : ""}
-                ${this.map.length ? html`<div class="how-to-get">
+                ${this.serviceCenter.map.length ? html`<div class="how-to-get">
                     <p>
-                        <i class="alk-icon-arrive"></i><a rel="noopener" .href="${this.map}" title="Indicaciones para llegar a ${this.name}" target="_blank">¿Cómo llegar?</a>
+                        <i class="alk-icon-arrive"></i><a rel="noopener" .href="${this.serviceCenter.map}" title="Indicaciones para llegar a ${this.name}" target="_blank">¿Cómo llegar?</a>
                     </p>
                 </div>`: ""}
             </div>
@@ -89,8 +83,6 @@ function getFormatedSchedule(location) {
     }
     return scheduleItems;
 }
-
-let map = null;
 
 const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
     _changeHandler = {

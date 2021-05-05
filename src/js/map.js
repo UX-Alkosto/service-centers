@@ -1,6 +1,6 @@
 import { getFormatedPhone } from "./menu";
 const google = window.google;
-export default class Map {
+export class Map {
     constructor({
         $element,
         baseSite,

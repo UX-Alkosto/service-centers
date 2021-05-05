@@ -1,4 +1,4 @@
-export default class ServiceCenter {
+export class ServiceCenter {
     constructor({
         address = "",
         areaCode = "",
@@ -41,6 +41,6 @@ export default class ServiceCenter {
     }
 
     get isCallCenter() {
-        return (this.city.match("linea-nacional")) ? true : false;
+        return (this.city.match("linea-nacional") || this.id.match("call-center")) ? true : false;
     }
 }
