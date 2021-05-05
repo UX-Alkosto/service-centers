@@ -5,7 +5,7 @@ export class ServiceCenter {
         cell = [],
         city = "",
         coordinates = {},
-        email = [],
+        email = "",
         hours = [],
         id = "",
         link = "",

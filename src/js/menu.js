@@ -46,7 +46,8 @@ class Menu {
                 </div>` : ""}
                 ${this.serviceCenter.email.length ? html`<div class="email">
                     <p><strong><i class="alk-icon-email1"></i> Email:</strong>
-                        ${getFormatedEmail(this.serviceCenter)}</p>
+                        <a href="mailto:${this.serviceCenter.email}">${this.serviceCenter.email}</a>
+                    </p>
                 </div>` : ""}
                 <div class="contact-phones">
                     ${this.serviceCenter.phone.length ? html`<div class="phone">
@@ -81,14 +82,6 @@ function getFormatedCellphone(location) {
         cellPhoneNumbers.push(html`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
     }
     return cellPhoneNumbers;
-}
-
-function getFormatedEmail(location) {
-    let emailItems = [];
-    for (const emailItem of location.email) {
-        emailItems.push(html`<a href="mailto:${emailItem}">${emailItem}</a>`);
-    }
-    return emailItems;
 }
 
 function getFormatedPhone(location, returnHtml = true) {
