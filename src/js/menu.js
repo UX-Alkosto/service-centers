@@ -1,6 +1,33 @@
 import { html } from "lit/html.js";
 export { Menu, getFormatedPhone };
 
+const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
+    _changeHandler = {
+        handleEvent(e) {
+            menuItems.forEach(otherMenuItem => {
+                const icon = otherMenuItem.nextElementSibling.querySelector("span");
+                if (e.target === otherMenuItem) {
+                    icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
+                } else {
+                    icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+                }
+            });
+        },
+        capture: true
+    },
+    _mouseEnterHandler = {
+        handleEvent(e) {
+            map.bounceMarker(e.target.dataset.serviceCenter, "start");
+        },
+        capture: true
+    },
+    _mouseLeaveHandler = {
+        handleEvent(e) {
+            map.bounceMarker(e.target.dataset.serviceCenter, "stop");
+        },
+        capture: true
+    };
+
 let map = null;
 
 class Menu {
@@ -19,7 +46,8 @@ class Menu {
                 </div>` : ""}
                 ${this.serviceCenter.email.length ? html`<div class="email">
                     <p><strong><i class="alk-icon-email1"></i> Email:</strong>
-                        ${getFormatedEmail(this.serviceCenter)}</p>
+                        <a href="mailto:${this.serviceCenter.email}">${this.serviceCenter.email}</a>
+                    </p>
                 </div>` : ""}
                 <div class="contact-phones">
                     ${this.serviceCenter.phone.length ? html`<div class="phone">
@@ -56,14 +84,6 @@ function getFormatedCellphone(location) {
     return cellPhoneNumbers;
 }
 
-function getFormatedEmail(location) {
-    let emailItems = [];
-    for (const emailItem of location.email) {
-        emailItems.push(html`<a href="mailto:${emailItem}">${emailItem}</a>`);
-    }
-    return emailItems;
-}
-
 function getFormatedPhone(location, returnHtml = true) {
     const phoneNumbers = [];
     for (const phoneNumber of location.phone) {
@@ -83,30 +103,3 @@ function getFormatedSchedule(location) {
     }
     return scheduleItems;
 }
-
-const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
-    _changeHandler = {
-        handleEvent(e) {
-            menuItems.forEach(otherMenuItem => {
-                const icon = otherMenuItem.nextElementSibling.querySelector("span");
-                if (e.target === otherMenuItem) {
-                    icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
-                } else {
-                    icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
-                }
-            });
-        },
-        capture: true
-    },
-    _mouseEnterHandler = {
-        handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "start");
-        },
-        capture: true
-    },
-    _mouseLeaveHandler = {
-        handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "stop");
-        },
-        capture: true
-    };

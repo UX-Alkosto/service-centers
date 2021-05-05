@@ -1,49 +1,7 @@
 import { render } from "lit/html.js";
 import Select from "./select";
 
-const app = {
-	get: async (jsonUrl = "") => {
-		if (jsonUrl.length) {
-			return await fetch(jsonUrl, {
-				cache: "force-cache",
-				mode: "cors",
-			}).then(response => {
-				if(response.ok) return response.json();
-			}).then(data => data);
-		}
-	},
-	map: {
-		init: async () => {
-			const Module = await import("./map.js");
-			mapElement = new Module.Map({
-				$element: "#service-centers-map",
-				// eslint-disable-next-line no-undef
-				baseSite: appConfig.site,
-				center: {
-					lat: 4.67998417919688,
-					lng: -74.08550441957686
-				}
-			});
-			document.addEventListener("click", (e) => {
-				if (e.target.classList
-					.contains("service-centers__map__info-window__close")) {
-					mapElement.infoWindow.close();
-				}
-			});
-			window.onresize = () => {
-				if (window.innerWidth > mobileBreakpoint &&
-					document.getElementById("departamento").value != "0") {
-					document.querySelector(".service-centers__map")
-						.style.display = "block";
-				} else {
-					document.querySelector(".service-centers__map")
-						.style.display = "none";
-				}
-			};
-		},
-	}
-},
-	brandSelect = document.getElementById("marca"),
+const brandSelect = document.getElementById("marca"),
 	departmentSelect = document.getElementById("departamento"),
 	citySelect = document.getElementById("ciudad"),
 	categorySelect = document.getElementById("categoria"),
@@ -63,6 +21,7 @@ let brandDefaultOption = defaultOption,
 	validCategories = [],
 	servicePointsCodes = [];
 
+// Attach events
 document.addEventListener("updateCenter", e => {
 	const center = e.detail.center;
 	if (center !== null) {
@@ -71,6 +30,21 @@ document.addEventListener("updateCenter", e => {
 		setTimeout(() => menuContainer.scrollTop = item.offsetTop, 250);
 	}
 });
+
+document.addEventListener("click", e => {
+	if (e.target.classList
+		.contains("service-centers__map__info-window__close")) {
+		mapElement.infoWindow.close();
+	}
+});
+
+window.onresize = () => {
+	document.querySelector(".service-centers__map").style.display = "none";
+	if (window.innerWidth > mobileBreakpoint &&
+		document.getElementById("departamento").value != "0") {
+		document.querySelector(".service-centers__map").style.display = "block";
+	}
+};
 
 if (brandSelect !== null) {
 	brandDefaultOption = new Option(`Selecciona una ${brandSelect.labels[0].textContent.toLowerCase()}`, 0, true, true);
@@ -102,7 +76,7 @@ document.querySelectorAll("[data-custom-select]").forEach(selectElement => new S
 // eslint-disable-next-line no-undef
 if (appConfig.jsonFile !== undefined) {
 	// eslint-disable-next-line no-undef
-	app.get(appConfig.jsonFile)
+	loadJson(appConfig.jsonFile)
 		.then(async ({ brands, categories, departments, serviceCenters }) => {
 			if (brands !== undefined && brandSelect !== null) {
 				Object.entries(brands).map(async brandData => {
@@ -157,7 +131,7 @@ if (appConfig.jsonFile !== undefined) {
 
 				departmentSelect.addEventListener("change", async () => {
 					if(!mapLoaded)
-						await app.map.init();
+						await initMap();
 					mapLoaded = true;
 					validCities = [];
 					validCategories = [];
@@ -312,24 +286,15 @@ if (appConfig.jsonFile !== undefined) {
 
 async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 	if (!servicePointsCodes.length) return [];
-	const Module = await import("./service-center.js"),
-	_servicePointsCodes = [];
-	let _areaCode = "",
-		_city = "";
+	const ServiceCenter = await import("./service-center.js").then(Module => Module.ServiceCenter),
+	_servicePointsCodes = {};
 
-	servicePointsCodes.map(({ city, code, areaCode }) => {
-		_areaCode = areaCode;
-		_city = city;
-		_servicePointsCodes.push(code);
-	});
-	// remove duplicates
-	servicePointsCodes = [...new Set(_servicePointsCodes)];
+	servicePointsCodes.map(({ areaCode, city, code }) => _servicePointsCodes[code] = { "areaCode": areaCode, "code": code, "city": city});
 
-
-	return await servicePointsCodes.map(code => {
+	return Object.values(_servicePointsCodes).map(({ areaCode, city, code }) => {
 		let servicePoint = {
-			areaCode: _areaCode,
-			city: _city,
+			areaCode: areaCode,
+			city: city,
 			coordinates: {
 				lat: serviceCenters[code].lat,
 				lng: serviceCenters[code].lng,
@@ -337,13 +302,37 @@ async function getServicePoints({ servicePointsCodes, serviceCenters }) {
 			id: code
 		};
 		servicePoint = { ...servicePoint, ...serviceCenters[code] };
-		return new Module.ServiceCenter(servicePoint);
+		return new ServiceCenter(servicePoint);
 	});
+}
+
+async function initMap(coordinates = {
+	lat : 4.67998417919688,
+	lng : -74.08550441957686
+}) {
+	const Map = await import("./map.js").then(Module => Module.Map);
+	return mapElement = new Map({
+		$element: "#service-centers-map",
+		// eslint-disable-next-line no-undef
+		baseSite: appConfig.site,
+		center: coordinates
+	});
+}
+
+async function loadJson(jsonUrl = "") {
+	if (jsonUrl.length) {
+		return await fetch(jsonUrl, {
+			cache: "force-cache",
+			mode: "cors",
+		}).then(response => {
+			if (response.ok) return response.json();
+		}).then(data => data);
+	}
 }
 
 async function setServiceCenters(serviceCenterPoints) {
 	if (!serviceCenterPoints.length) return render([], menuContainer);
-	const Module = await import("./menu.js");
+	const Menu = await import("./menu.js").then(Module => Module.Menu);
 	const menuItems = [];
 
 	// render service points menu items
@@ -356,10 +345,11 @@ async function setServiceCenters(serviceCenterPoints) {
 				lng: -74.08550441957686
 			};
 		}
-		return menuItems.push(new Module.Menu(serviceCenterPoint, mapElement).render());
+		menuItems.push(new Menu(serviceCenterPoint, mapElement).render());
 	});
 	if (mapLoaded) mapElement.setMarkers(serviceCenterPoints); // render map markers
-	return render(menuItems, menuContainer);
+	render(menuItems, menuContainer);
+	document.querySelector("input[name=centro-servicio]").checked = true; //force checked state on first menu item
 }
 
 function resetMap(mapElement) {
