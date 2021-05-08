@@ -349,7 +349,7 @@ async function setServiceCenters(serviceCenterPoints) {
 	});
 	if (mapLoaded) mapElement.setMarkers(serviceCenterPoints); // render map markers
 	render(menuItems, menuContainer);
-	document.querySelector("input[name=centro-servicio]").checked = true; //force checked state on first menu item
+	document.querySelector("input[name=centro-servicio]").click(); //force checked state on first menu item
 }
 
 function resetMap(mapElement) {

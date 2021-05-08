@@ -14,7 +14,7 @@ const _changeHandler = {
         },
         capture: true
     },
-    _clickHandler = {
+    _bodyClickHandler = {
         handleEvent(e) {
             let target = e.target;
             if (target.tagName == "A") return;
@@ -23,6 +23,16 @@ const _changeHandler = {
             }
             target = target.closest(".service-centers__menu__item__body");
             return map?.clickMarker(target.dataset?.serviceCenter);
+        },
+        capture: false
+    },
+    _clickHandler = {
+        handleEvent(e) {
+            const body = e.target.nextElementSibling.nextElementSibling;
+            if (body.dataset.callCenter == "true") {
+                body.click();
+                map?.map?.setZoom(5);
+            }
         },
         capture: false
     },
@@ -48,9 +58,18 @@ class Menu {
     }
     render() {
         return html`<div class="service-centers__menu__item">
-            <input type="radio" @change=${_changeHandler} name="centro-servicio" .id="${this.serviceCenter.id}">
-            <label for="${this.serviceCenter.id}">${this.serviceCenter.name}<span class="${this.serviceCenter.active ? "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span></label>
-            <div class="service-centers__menu__item__body" data-service-center="${this.serviceCenter.id}" @click=${_clickHandler} @mouseenter=${_mouseEnterHandler} @mouseleave=${_mouseLeaveHandler}>
+            <input type="radio" @change=${_changeHandler} @click=${_clickHandler}
+                name="centro-servicio" .id="${this.serviceCenter.id}">
+            <label for="${this.serviceCenter.id}">
+                ${this.serviceCenter.name}
+                <span class="${this.serviceCenter.active ?
+                    "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span>
+            </label>
+            <div class="service-centers__menu__item__body"
+                data-call-center="${this.serviceCenter.isCallCenter}"
+                data-service-center="${this.serviceCenter.id}"
+                @click=${_bodyClickHandler} @mouseenter=${_mouseEnterHandler}
+                @mouseleave=${_mouseLeaveHandler}>
                 ${this.serviceCenter.address.length ? html`<div class="address">
                     <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
                         ${this.serviceCenter.address}</p>

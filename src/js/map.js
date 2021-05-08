@@ -30,14 +30,6 @@ export class Map {
         if (this.markers[locationId] !== undefined) google.maps.event.trigger(this.markers[locationId], "click");
     }
 
-    async getGeo() {
-        try {
-            return await getCoordinates().then(response => response);
-        } catch (error) {
-            return error;
-        }
-    }
-
     async init() {
         this.map = await new google.maps.Map(this.$element, {
             center: new google.maps.LatLng(this.center),
@@ -96,20 +88,4 @@ export class Map {
     clearMarkers(){
         return Object.values(this.markers).map(marker => marker.setMap(null));
     }
-}
-
-async function getCoordinates() {
-    return new Promise((resolve, reject) => {
-        navigator.geolocation.getCurrentPosition(
-            position => {
-                resolve({
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
-                });
-            },
-            error => {
-                reject(error);
-            }
-        );
-    });
 }
