@@ -146,10 +146,11 @@
 
 				.address,
 				.cell,
+				.contact-phones,
 				.email,
 				.how-to-get,
+				.message,
 				.phone,
-				.contact-phones,
 				.schedule {
 					display: flex;
 				}
@@ -189,8 +190,7 @@
 
 					p {
 						font-size: 14px;
-						margin: 0 0 16px;
-						// padding: 0 1em;
+						margin: 0 0 1em;
 
 						&:first-child {
 							padding-left: 0;
@@ -221,9 +221,23 @@
 						}
 					}
 				}
-				.phone,
-				.cell {
+				.cell,
+				.phone {
 					p {
+						margin: 0;
+					}
+				}
+				.message {
+					background-color: var(--service-centers-bg-message);
+					border: 1px solid var(--service-centers-border-color-message);
+					margin-bottom: 1em;
+					padding: .5em;
+					a {
+						color: var(--service-centers-second-color);
+					}
+					p {
+						color: var(--service-centers-first-color);
+						font-size: 12px;
 						margin: 0;
 					}
 				}

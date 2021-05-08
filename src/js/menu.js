@@ -96,6 +96,7 @@ class Menu {
                             ${getFormatedSchedule(this.serviceCenter)}
                         </p>
                 </div>` : ""}
+                ${this.serviceCenter.linkType.length ? getInfoMessage(this.serviceCenter) : ""}
                 ${this.serviceCenter.map.length ? html`<div class="how-to-get">
                     <p>
                         <i class="alk-icon-arrive"></i><a rel="noopener" .href="${this.serviceCenter.map}" title="Indicaciones para llegar a ${this.name}" target="_blank">¿Cómo llegar?</a>
@@ -132,4 +133,11 @@ function getFormatedSchedule(location) {
         scheduleItems.push(html`<span>${scheduleItem}</span>`);
     }
     return scheduleItems;
+}
+
+function getInfoMessage(location) {
+    let message = (location.linkType !== "externo") ?
+        html`Para solicitar la garantía de su producto le agradecemos tener en cuenta las recomendaciones señaladas en el siguiente <a href="${location.link}" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>` :
+        html`Para más información del centro de servicio por favor remitase al siguiente <a href="${location.link}" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>`;
+    return html`<div class="message"><p>${message}</p></div>`;
 }
