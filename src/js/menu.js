@@ -1,31 +1,42 @@
 import { html } from "lit/html.js";
 export { Menu, getFormatedPhone };
 
-const menuItems = document.querySelectorAll(".service-centers__menu__item > input"),
-    _changeHandler = {
+const _changeHandler = {
         handleEvent(e) {
-            menuItems.forEach(otherMenuItem => {
+            document.querySelectorAll(".service-centers__menu__item > input").forEach(otherMenuItem => {
                 const icon = otherMenuItem.nextElementSibling.querySelector("span");
                 if (e.target === otherMenuItem) {
-                    icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
+                    icon?.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
                 } else {
-                    icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+                    icon?.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
                 }
             });
         },
         capture: true
     },
+    _clickHandler = {
+        handleEvent(e) {
+            let target = e.target;
+            if (target.tagName == "A") return;
+            if (target.classList.contains("service-centers__menu__item__body")) {
+                return map?.clickMarker(target.dataset?.serviceCenter);
+            }
+            target = target.closest(".service-centers__menu__item__body");
+            return map?.clickMarker(target.dataset?.serviceCenter);
+        },
+        capture: false
+    },
     _mouseEnterHandler = {
         handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "start");
+            map?.bounceMarker(e.target.dataset.serviceCenter, "start");
         },
-        capture: true
+        capture: false
     },
     _mouseLeaveHandler = {
         handleEvent(e) {
-            map.bounceMarker(e.target.dataset.serviceCenter, "stop");
+            map?.bounceMarker(e.target.dataset.serviceCenter, "stop");
         },
-        capture: true
+        capture: false
     };
 
 let map = null;
@@ -37,9 +48,9 @@ class Menu {
     }
     render() {
         return html`<div class="service-centers__menu__item">
-            <input type="radio" @change=${_changeHandler} name="centro-servicio" .id="${this.serviceCenter.id}" ?checked="${this.serviceCenter.active}">
+            <input type="radio" @change=${_changeHandler} name="centro-servicio" .id="${this.serviceCenter.id}">
             <label for="${this.serviceCenter.id}">${this.serviceCenter.name}<span class="${this.serviceCenter.active ? "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span></label>
-            <div class="service-centers__menu__item__body" data-service-center="${this.serviceCenter.id}" @mouseenter=${_mouseEnterHandler} @mouseleave=${_mouseLeaveHandler}>
+            <div class="service-centers__menu__item__body" data-service-center="${this.serviceCenter.id}" @click=${_clickHandler} @mouseenter=${_mouseEnterHandler} @mouseleave=${_mouseLeaveHandler}>
                 ${this.serviceCenter.address.length ? html`<div class="address">
                     <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
                         ${this.serviceCenter.address}</p>

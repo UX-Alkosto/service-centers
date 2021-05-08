@@ -26,6 +26,10 @@ export class Map {
         }
     }
 
+    clickMarker(locationId) {
+        if (this.markers[locationId] !== undefined) google.maps.event.trigger(this.markers[locationId], "click");
+    }
+
     async getGeo() {
         try {
             return await getCoordinates().then(response => response);
