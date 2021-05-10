@@ -1,4 +1,5 @@
 import { html } from "lit/html.js";
+import { unsafeHTML } from "lit/directives/unsafe-html.js";
 export { Menu, getFormatedPhone };
 
 const _changeHandler = {
@@ -61,7 +62,7 @@ class Menu {
             <input type="radio" @change=${_changeHandler} @click=${_clickHandler}
                 name="centro-servicio" .id="${this.serviceCenter.id}">
             <label for="${this.serviceCenter.id}">
-                ${this.serviceCenter.name}
+                ${unsafeHTML(this.serviceCenter.name)}
                 <span class="${this.serviceCenter.active ?
                     "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span>
             </label>
@@ -72,7 +73,7 @@ class Menu {
                 @mouseleave=${_mouseLeaveHandler}>
                 ${this.serviceCenter.address.length ? html`<div class="address">
                     <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
-                        ${this.serviceCenter.address}</p>
+                        ${unsafeHTML(this.serviceCenter.address)}</p>
                 </div>` : ""}
                 ${this.serviceCenter.email.length ? html`<div class="email">
                     <p><strong><i class="alk-icon-email1"></i> Email:</strong>
@@ -130,7 +131,7 @@ function getFormatedPhone(location, returnHtml = true) {
 function getFormatedSchedule(location) {
     let scheduleItems = [];
     for (const scheduleItem of location.schedule) {
-        scheduleItems.push(html`<span>${scheduleItem}</span>`);
+        scheduleItems.push(html`<span>${unsafeHTML(scheduleItem)}</span>`);
     }
     return scheduleItems;
 }

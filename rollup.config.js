@@ -15,7 +15,7 @@ const config = {
     output: [{
         banner: `/*! ${name} - release: ${version} */`,
         dir: "dist/common/js/",
-        chunkFileNames: "servicio-[hash].js",
+        chunkFileNames: "[name]-[hash].js",
         format: "es"
     }],
     plugins: [
@@ -29,10 +29,10 @@ const config = {
         cleanup({
             comments: "none"
         }),
-        // filesize({
-        //     showMinifiedSize: true,
-        //     showGzippedSize: true
-        // })
+        filesize({
+            showMinifiedSize: true,
+            showGzippedSize: true
+        })
     ],
     preserveEntrySignatures: false
 };

@@ -43,6 +43,19 @@ module.exports = function (grunt) {
                 ]
             }
         },
+        json_minification: {
+            target: {
+                files: [{
+                    expand: true,
+                    cwd: "src/json",
+                    src: ["<%= theme %>.json"],
+                    dest: "dist/<%= theme %>/json",
+                    rename: function (dest) {
+                        return dest + "/service-centers.json";
+                    }
+                }]
+            }
+        },
         less: {
             options: {
                 banner: "/*! <%= pkg.name %> - v<%= pkg.version %> */",
@@ -69,11 +82,13 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-copy");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
     grunt.loadNpmTasks("grunt-contrib-less");
+    grunt.loadNpmTasks("grunt-json-minification");
 
     grunt.registerMultiTask("themes", "Generate styles for each site", function () {
         const done = this.async();
         grunt.log.writeln("Compile less for: " + this.data);
         grunt.config("theme", this.data);
+        grunt.task.run("json_minification");
         grunt.task.run("less");
         done();
     });
