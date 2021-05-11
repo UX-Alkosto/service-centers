@@ -1,4 +1,4 @@
-import { getFormatedPhone } from "./menu";
+import { getFormatedPhone, getFormatedCellPhone } from "./menu";
 const google = window.google;
 export class Map {
     constructor({
@@ -43,6 +43,7 @@ export class Map {
 
     setInfoWindow(location) {
         const phones = getFormatedPhone(location, false);
+        const cellphone = getFormatedCellPhone(location, false);
         return `<div class="service-centers__map__info-window">
             <button class="service-centers__map__info-window__close"><span class="alk-icon-close"></span></button>
             <h4>${location.name}</h4>
@@ -51,6 +52,9 @@ export class Map {
             </p>` : ""}
             ${location.phone.length ? `<p><strong>Contacto telefónico:</strong><br />
                 ${phones.join(" ")}
+            </p>` : ""}
+            ${(!location.address.length && !location.phone.length) && location.cellphone.length ? `<p><strong>Contacto telefónico:</strong><br />
+                ${cellphone.join(" ")}
             </p>` : ""}
             ${location.map.length ? ` <p><i class="alk-icon-exportar"></i>
                 <a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}" target="_blank">¿Cómo llegar?</a>
