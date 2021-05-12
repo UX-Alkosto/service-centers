@@ -1,4 +1,4 @@
-import { getFormatedPhone, getFormatedCellPhone } from "./menu";
+import { getFormatedPhone, getFormatedCellphone } from "./menu";
 const google = window.google;
 export class Map {
     constructor({
@@ -43,7 +43,7 @@ export class Map {
 
     setInfoWindow(location) {
         const phones = getFormatedPhone(location, false);
-        const cellphone = getFormatedCellPhone(location, false);
+        const cellphone = getFormatedCellphone(location, false);
         return `<div class="service-centers__map__info-window">
             <button class="service-centers__map__info-window__close"><span class="alk-icon-close"></span></button>
             <h4>${location.name}</h4>
