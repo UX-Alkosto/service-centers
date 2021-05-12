@@ -34,17 +34,17 @@
         "aoc": {
             "name": "AOC",
             "departments": [
-                "linea-nacional",
-                "cundinamarca",
-                "atlantico",
-                "tolima",
                 "antioquia",
+                "atlantico",
+                "casanare",
                 "cordoba",
+                "cundinamarca",
+                "linea-nacional",
+                "meta",
                 "risaralda",
                 "sucre",
-                "meta",
-                "valle-del-cauca",
-                "casanare"
+                "tolima",
+                "valle-del-cauca"
             ]
         },
         "apple": {
@@ -94,9 +94,9 @@
         "bionaire": {
             "name": "Bionaire",
             "departments": [
+                "antioquia",
                 "atlantico",
                 "cundinamarca",
-                "antioquia",
                 "linea-nacional",
                 "valle-del-cauca"
             ]
@@ -104,17 +104,16 @@
         "black-decker": {
             "name": "Black & Decker",
             "departments": [
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "atlantico",
-                "norte-de-santander",
-                "santander",
-                "caldas",
                 "antioquia",
-                "risaralda",
+                "atlantico",
+                "caldas",
+                "cundinamarca",
                 "meta",
-                "narino"
+                "narino",
+                "norte-de-santander",
+                "risaralda",
+                "santander",
+                "valle-del-cauca"
             ]
         },
         "blackberry": {
@@ -146,45 +145,45 @@
         "brother": {
             "name": "Brother",
             "departments": [
-                "cundinamarca",
-                "caldas",
                 "antioquia",
+                "caldas",
+                "cundinamarca",
+                "linea-nacional",
                 "santander",
-                "valle-del-cauca",
                 "sucre",
-                "linea-nacional"
+                "valle-del-cauca"
             ]
         },
         "claro": {
             "name": "C.A.V CLARO",
             "departments": [
-                "atlantico",
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "caldas",
                 "antioquia",
-                "risaralda",
-                "sucre",
+                "atlantico",
                 "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
                 "meta",
-                "casanare"
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
             ]
         },
         "movistar": {
             "name": "C.E Movistar",
             "departments": [
-                "atlantico",
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "caldas",
                 "antioquia",
-                "risaralda",
-                "sucre",
+                "atlantico",
                 "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
                 "meta",
-                "casanare"
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"  
             ]
         },
         "canon": {
@@ -208,17 +207,17 @@
         "challenger": {
             "name": "Challenger",
             "departments": [
-                "quindio",
-                "atlantico",
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "caldas",
                 "antioquia",
-                "risaralda",
-                "meta",
+                "atlantico",
+                "caldas",
                 "casanare",
-                "linea-nacional"
+                "cundinamarca",
+                "linea-nacional",
+                "meta",
+                "quindio",
+                "risaralda",
+                "santander",
+                "valle-del-cauca"
             ]
         },
         "compaq": {
@@ -248,26 +247,26 @@
         "dell": {
             "name": "Dell",
             "departments": [
-                "quindio",
-                "atlantico",
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "tolima",
-                "caldas",
                 "antioquia",
-                "cordoba",
-                "huila",
-                "narino",
-                "risaralda",
-                "guajira",
-                "san-andres",
-                "magdalena",
-                "sucre",
+                "atlantico",
                 "boyaca",
                 "cesar",
+                "caldas",
+                "cordoba",
+                "cundinamarca",
+                "guajira",
+                "huila",
+                "linea-nacional",
+                "magdalena",
                 "meta",
-                "linea-nacional"
+                "narino",
+                "quindio",
+                "risaralda",
+                "san-andres",
+                "santander",
+                "sucre",
+                "tolima",
+                "valle-del-cauca"   
             ]
         },
         "directv": {
@@ -286,7 +285,7 @@
         "dormiluna": {
             "name": "Dormiluna",
             "departments": [
-                "bogota"
+                "cundinamarca"
             ]
         },
         "dunlop": {
@@ -298,23 +297,23 @@
         "electrolux": {
             "name": "Electrolux",
             "departments": [
-                "cundinamarca",
                 "antioquia",
-                "valle-del-cauca",
                 "atlantico",
-                "santander",
-                "narino",
-                "magdalena",
-                "quindio",
                 "caldas",
-                "meta",
-                "risaralda",
-                "norte-de-santander",
-                "tolima",
-                "cordoba",
-                "sucre",
                 "cesar",
-                "linea-nacional"
+                "cordoba",
+                "cundinamarca",
+                "linea-nacional",
+                "magdalena",
+                "meta",
+                "narino",
+                "norte-de-santander",
+                "quindio",
+                "risaralda",
+                "santander",
+                "sucre",
+                "tolima",
+                "valle-del-cauca"
             ]
         },
         "elements": {
@@ -377,7 +376,7 @@
         "gama": {
             "name": "Gama",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "general-electric": {
@@ -434,7 +433,7 @@
         "honeywell": {
             "name": "Honeywell",
             "departments": [
-                "bogota"
+                "cundinamarca"
             ]
         },
         "honor": {
@@ -477,15 +476,15 @@
         "imusa": {
             "name": "Imusa",
             "departments": [
-                "quindio",
+                "antioquia",
                 "atlantico",
                 "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "antioquia",
-                "risaralda",
+                "linea-nacional",
                 "meta",
-                "linea-nacional"
+                "quindio",
+                "risaralda",
+                "santander",
+                "valle-del-cauca"
             ]
         },
         "inacsa": {
@@ -527,13 +526,13 @@
         "kalley": {
             "name": "Kalley",
             "departments": [
-                "linea-nacional",
-                "atlantico",
-                "cundinamarca",
-                "risaralda",
                 "antioquia",
-                "valle-del-cauca",
-                "casanare"
+                "atlantico",
+                "casanare",
+                "cundinamarca",
+                "linea-nacional",
+                "risaralda",
+                "valle-del-cauca"
             ]
         },
         "karcher": {
@@ -588,15 +587,15 @@
         "lg": {
             "name": "LG",
             "departments": [
-                "linea-nacional",
-                "cundinamarca",
-                "valle-del-cauca",
-                "risaralda",
-                "atlantico",
                 "antioquia",
-                "santander",
+                "atlantico",
+                "casanare",
+                "cundinamarca",
+                "linea-nacional",
                 "meta",
-                "casanare"
+                "risaralda",
+                "santander",
+                "valle-del-cauca"  
             ]
         },
         "logitech": {
@@ -656,8 +655,8 @@
         "more-products": {
             "name": "More Products",
             "departments": [
-                "linea-nacional",
-                "cundinamarca"
+                "cundinamarca",
+                "linea-nacional"
             ]
         },
         "motorola": {
@@ -693,7 +692,7 @@
         "nikon": {
             "name": "Nikon",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "nintendo": {
@@ -724,29 +723,29 @@
         "panasonic": {
             "name": "Panasonic",
             "departments": [
+                "amazonas",
                 "antioquia",
                 "arauca",
-                "quindio",
-                "santander",
                 "atlantico",
-                "cundinamarca",
-                "valle-del-cauca",
-                "norte-de-santander",
                 "boyaca",
-                "caqueta",
-                "tolima",
-                "amazonas",
                 "caldas",
-                "cordoba",
-                "huila",
-                "narino",
-                "risaralda",
-                "putumayo",
-                "magdalena",
-                "sucre",
+                "caqueta",
+                "casanare",
                 "cesar",
+                "cordoba",
+                "cundinamarca",
+                "huila",
+                "magdalena",
                 "meta",
-                "casanare"
+                "narino",
+                "norte-de-santander",
+                "putumayo",
+                "quindio",
+                "risaralda",
+                "santander",
+                "sucre",
+                "tolima",
+                "valle-del-cauca"
             ]
         },
         "pc-smart": {
@@ -759,21 +758,21 @@
         "phillips": {
             "name": "Phillips",
             "departments": [
-                "cundinamarca",
-                "atlantico",
-                "tolima",
                 "antioquia",
-                "cordoba",
-                "risaralda",
-                "valle-del-cauca",
-                "sucre",
-                "meta",
+                "atlantico",
                 "casanare",
-                "linea-nacional"
+                "cordoba",
+                "cundinamarca",
+                "linea-nacional",
+                "meta",
+                "risaralda",
+                "sucre",
+                "tolima",
+                "valle-del-cauca" 
             ]
         },
         "pioneer": {
-            "name": "pioneer",
+            "name": "Pioneer",
             "departments": [
                 "cundinamarca"
             ]
@@ -791,8 +790,8 @@
                 "linea-nacional"
             ]
         },
-        "pratimac": {
-            "name": "Pratimac",
+        "practimac": {
+            "name": "Practimac",
             "departments": [
                 "linea-nacional"
             ]
@@ -806,7 +805,7 @@
         "redicol": {
             "name": "Redicol S.A.S",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "remington": {
@@ -855,12 +854,12 @@
         "sharp": {
             "name": "Sharp",
             "departments": [
-                "atlantico",
-                "valle-del-cauca",
                 "antioquia",
-                "risaralda",
+                "atlantico",
                 "meta",
-                "santander"
+                "risaralda",
+                "santander",
+                "valle-del-cauca"
             ]
         },
         "simmons": {
@@ -884,20 +883,20 @@
         "singer": {
             "name": "Singer",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "sony": {
             "name": "Sony",
             "departments": [
+                "antioquia",
+                "atlantico",
+                "caldas",
+                "cordoba",
+                "cundinamarca",
                 "linea-nacional",
                 "santander",
-                "atlantico",
-                "cundinamarca",
-                "valle-del-cauca",
-                "caldas",
-                "antioquia",
-                "cordoba"
+                "valle-del-cauca"
             ]
         },
         "spring": {
@@ -909,7 +908,7 @@
         "startec": {
             "name": "Startec",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "superior": {
@@ -933,17 +932,16 @@
         "tienda-tigo": {
             "name": "Tienda TIGO",
             "departments": [
-                "atlantico",
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "caldas",
                 "antioquia",
-                "risaralda",
-                "sucre",
-                "cundinamarca",
+                "atlantico",
                 "boyaca",
-                "meta"
+                "caldas",
+                "cundinamarca",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
             ]
         },
         "tukasa": {
@@ -970,7 +968,7 @@
                 "linea-nacional"
             ]
         },
-        "vtech": {
+        "v-tech": {
             "name": "V-Tech",
             "departments": [
                 "linea-nacional"
@@ -979,14 +977,14 @@
         "whirlpool": {
             "name": "Whirlpool",
             "departments": [
-                "cundinamarca",
-                "santander",
-                "valle-del-cauca",
-                "caldas",
                 "antioquia",
-                "meta",
+                "atlantico",
+                "caldas",
+                "cundinamarca",
                 "linea-nacional",
-                "atlantico"
+                "meta",
+                "santander",
+                "valle-del-cauca"     
             ]
         },
         "xbox": {
@@ -1256,7 +1254,7 @@
                 "8054217",
                 "2634067"
             ],
-            "cel": [
+            "cell": [
                 "3142386245",
                 "3133525212"
             ],
@@ -1276,7 +1274,7 @@
             "phone": [
                 "7442601"
             ],
-            "cel": [
+            "cell": [
                 "3133525212",
                 "3045470855"
             ],
@@ -1312,7 +1310,7 @@
             "phone": [
                 "2762442"
             ],
-            "cel": [
+            "cell": [
                 "3107506109"
             ],
             "schedule": [
@@ -1331,7 +1329,7 @@
             "phone": [
                 "5808468"
             ],
-            "cel": [
+            "cell": [
                 "3004191372",
                 "3012851485"
             ],
@@ -1348,7 +1346,7 @@
             "address": "Cr 7 No 39-08, Barrio El Centro",
             "lat": "8.760799",
             "lng": "-75.878299",
-            "cel": [
+            "cell": [
                 "3126492626"
             ],
             "schedule": [
@@ -1364,7 +1362,7 @@
             "address": "Av Circunvalar No. 4-28, Lc 2, Edificio El Greco",
             "lat": "4.8064782",
             "lng": "-75.6822179",
-            "cel": [
+            "cell": [
                 "3013253020",
                 "3058885924"
             ],
@@ -1384,7 +1382,7 @@
             "phone": [
                 "2763326"
             ],
-            "cel": [
+            "cell": [
                 "3126246654"
             ],
             "schedule": [
@@ -1400,7 +1398,7 @@
             "address": "Cl 7 No. 15-37, Barrio Macunaima",
             "lat": "4.1309186",
             "lng": "-73.6183315",
-            "cel": [
+            "cell": [
                 "3235731240",
                 "3112306762"
             ],
@@ -1421,7 +1419,7 @@
                 "5246414",
                 "3967271"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -1437,7 +1435,7 @@
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.3397388",
             "lng": "-72.3891169",
-            "cel": [
+            "cell": [
                 "3115747702",
                 "3222794545"
             ],
@@ -1451,11 +1449,15 @@
         },
         "apple-linea-nacional-01": {
             "name": "Apple",
+            "phone": [
+                "0018006927753",
+                "0018006927753"
+            ],
             "type": "externo",
             "link": "https://getsupport.apple.com/?caller=home&PRKEYS="
         },
         "apple-linea-nacional-02": {
-            "name": "Alkosto/Ktronix",
+            "name": "Apple Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
             "schedule": [
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
@@ -1463,7 +1465,7 @@
             "type": "interno"
         },
         "asus-bogota-01": {
-            "name": "Punto de Servicios",
+            "name": "Asus Punto de Servicios La Castellana",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
             "lng": "-74.0639395",
@@ -1479,7 +1481,7 @@
             "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
         },
         "asus-bogota-02": {
-            "name": "Punto de Servicios",
+            "name": "Asus Punto de Servicios Quinta Paredes",
             "address": "Cr 40 No. 24a-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
             "lng": "-74.0919107",
@@ -1555,7 +1557,7 @@
             "phone": [
                 "3214539"
             ],
-            "cel": [
+            "cell": [
                 "3115896142",
                 "3156203147",
                 "3133401516"
@@ -1570,7 +1572,7 @@
         },
         "better-call-center": {
             "name": "Better Ltda Call Center",
-            "cel": [
+            "cell": [
                 "311 5896142",
                 "315 6203147",
                 "313 3401516"
@@ -1590,7 +1592,7 @@
             "phone": [
                 "3869797"
             ],
-            "cel": [
+            "cell": [
                 "3002179310",
                 "3017863572"
             ],
@@ -1610,7 +1612,7 @@
             "phone": [
                 "7462626"
             ],
-            "cel": [
+            "cell": [
                 "3123180149",
                 "3214688609"
             ],
@@ -1629,7 +1631,7 @@
             "phone": [
                 "6069898"
             ],
-            "cel": [
+            "cell": [
                 "3104365099",
                 "3128905108"
             ],
@@ -1661,7 +1663,7 @@
             "phone": [
                 "8983831"
             ],
-            "cel": [
+            "cell": [
                 "3154359042",
                 "3147972981"
             ],
@@ -1681,7 +1683,7 @@
             "phone": [
                 "2846357"
             ],
-            "cel": [
+            "cell": [
                 "3124661810"
             ],
             "schedule": [
@@ -1700,7 +1702,7 @@
             "phone": [
                 "5206641"
             ],
-            "cel": [
+            "cell": [
                 "3134108850",
                 "3134108850"
             ],
@@ -1737,7 +1739,7 @@
             "phone": [
                 "8803467"
             ],
-            "cel": [
+            "cell": [
                 "3163895702",
                 "3172833633"
             ],
@@ -1773,7 +1775,7 @@
             "phone": [
                 "6612406"
             ],
-            "cel": [
+            "cell": [
                 "3154359038"
             ],
             "schedule": [
@@ -1791,7 +1793,7 @@
             "phone": [
                 "8631062"
             ],
-            "cel": [
+            "cell": [
                 "3014577183"
             ],
             "schedule": [
@@ -1810,7 +1812,7 @@
             "phone": [
                 "5715023"
             ],
-            "cel": [
+            "cell": [
                 "3134058476"
             ],
             "schedule": [
@@ -1830,7 +1832,7 @@
                 "6803987",
                 "6381515"
             ],
-            "cel": [
+            "cell": [
                 "3138071126"
             ],
             "schedule": [
@@ -1850,7 +1852,7 @@
                 "8810101",
                 "8810046"
             ],
-            "cel": [
+            "cell": [
                 "3195966202",
                 "3116671986"
             ],
@@ -1871,7 +1873,7 @@
                 "4790889",
                 "4795116"
             ],
-            "cel": [
+            "cell": [
                 "3042429822"
             ],
             "schedule": [
@@ -1889,7 +1891,7 @@
             "phone": [
                 "6069898"
             ],
-            "cel": [
+            "cell": [
                 "3104365099",
                 "3128905108"
             ],
@@ -1909,7 +1911,7 @@
             "phone": [
                 "3351229"
             ],
-            "cel": [
+            "cell": [
                 "3103823701"
             ],
             "schedule": [
@@ -1928,7 +1930,7 @@
             "phone": [
                 "3351229"
             ],
-            "cel": [
+            "cell": [
                 "3103823701"
             ],
             "schedule": [
@@ -1947,7 +1949,7 @@
             "phone": [
                 "6624867"
             ],
-            "cel": [
+            "cell": [
                 "3213703113"
             ],
             "schedule": [
@@ -1963,7 +1965,7 @@
             "address": "Cl 51 No. 73-76, Lc 239, C.C. Los Colores",
             "lat": "6.2507896",
             "lng": "-75.571201",
-            "cel": [
+            "cell": [
                 "3147782719"
             ],
             "schedule": [
@@ -1979,7 +1981,7 @@
             "address": "Cr 56A No. 50-34, Barrio Colombia con Solamina",
             "lat": "6.2527028",
             "lng": "-75.5756041",
-            "cel": [
+            "cell": [
                 "3117126831"
             ],
             "schedule": [
@@ -1999,7 +2001,7 @@
                 "7212016",
                 "7219448"
             ],
-            "cel": [
+            "cell": [
                 "3148300922"
             ],
             "schedule": [
@@ -2015,7 +2017,7 @@
             "address": "Cl 19 No. 17B-19, Barrio Navarrete",
             "lat": "1.2090908",
             "lng": "-77.2751203",
-            "cel": [
+            "cell": [
                 "3183846802"
             ],
             "schedule": [
@@ -2034,7 +2036,7 @@
             "phone": [
                 "7228811"
             ],
-            "cel": [
+            "cell": [
                 "3006920086"
             ],
             "schedule": [
@@ -2055,7 +2057,7 @@
             ],
             "type": "interno"
         },
-        "booccherini-bogota": {
+        "boccherini-bogota": {
             "name": "BOCCHERINI",
             "address": "Av Boyacá No. 22-68, Barrio Montevideo (Zona Industrial)",
             "lat": "4.6527015",
@@ -2063,7 +2065,7 @@
             "phone": [
                 "6008600"
             ],
-            "cel": [
+            "cell": [
                 "3209015712"
             ],
             "schedule": [
@@ -2101,7 +2103,7 @@
             "phone": [
                 "7442601"
             ],
-            "cel": [
+            "cell": [
                 "3133525212",
                 "3045470855"
             ],
@@ -2128,7 +2130,7 @@
             "address": "Centro de Alta Tecnología, Cr 15 No. 77-05 Lc 337, Barrio Lago",
             "lat": "4.6638832",
             "lng": "-74.0585361",
-            "cel": [
+            "cell": [
                 "3104275252"
             ],
             "schedule": [
@@ -2147,7 +2149,7 @@
             "phone": [
                 "8874800"
             ],
-            "cel": [
+            "cell": [
                 "3148636464"
             ],
             "schedule": [
@@ -2165,7 +2167,7 @@
             "phone": [
                 "2309636"
             ],
-            "cel": [
+            "cell": [
                 "3108457002"
             ],
             "schedule": [
@@ -2183,7 +2185,7 @@
             "phone": [
                 "4444293"
             ],
-            "cel": [
+            "cell": [
                 "3158397743"
             ],
             "schedule": [
@@ -2197,12 +2199,12 @@
         "brother-bucaramanga": {
             "name": "TECNOMICROS",
             "address": "Cl 65 No. 25-19, Barrio La Victoria",
-            "lat": "6.6718624",
-            "lng": "-74.9171617",
+            "lat": "7.10818",
+            "lng": "-73.11479",
             "phone": [
                 "6959888"
             ],
-            "cel": [
+            "cell": [
                 "3183239780"
             ],
             "schedule": [
@@ -2221,7 +2223,7 @@
             "phone": [
                 "4865686"
             ],
-            "cel": [
+            "cell": [
                 "3106343180"
             ],
             "schedule": [
@@ -3231,7 +3233,7 @@
             "phone": [
                 "7411722"
             ],
-            "cel": [
+            "cell": [
                 "3146880025"
             ],
             "schedule": [
@@ -3330,7 +3332,7 @@
                 "4448813",
                 "2666307"
             ],
-            "cel": [
+            "cell": [
                 "3008269132"
             ],
             "schedule": [
@@ -3369,7 +3371,7 @@
             "phone": [
                 "6633590"
             ],
-            "cel": [
+            "cell": [
                 "3043900599"
             ],
             "schedule": [
@@ -3439,7 +3441,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -3449,7 +3451,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
         },
-        "continente-call-center": {
+        "continente-sa-call-center": {
             "name": "Continente Call Center",
             "phone": [
                 "018000415385",
@@ -3471,7 +3473,7 @@
                 "7466349",
                 "7450346"
             ],
-            "cel": [
+            "cell": [
                 "3153002610"
             ],
             "schedule": [
@@ -3491,7 +3493,7 @@
                 "018009155704",
                 "3855179"
             ],
-            "cel": [
+            "cell": [
                 "3004616472",
                 "3165433711"
             ],
@@ -3529,7 +3531,7 @@
                 "6832531",
                 "6701682"
             ],
-            "cel": [
+            "cell": [
                 "3174418668"
             ],
             "schedule": [
@@ -3546,7 +3548,7 @@
                 "6682123",
                 "3731022"
             ],
-            "cel": [
+            "cell": [
                 "3174285445",
                 "3103842067"
             ],
@@ -3563,7 +3565,7 @@
                 "2666024",
                 "2655212"
             ],
-            "cel": [
+            "cell": [
                 "3163046443",
                 "3132625709",
                 "3112749941"
@@ -3582,7 +3584,7 @@
                 "8806030",
                 "8906030"
             ],
-            "cel": [
+            "cell": [
                 "3155409495",
                 "316417768"
             ],
@@ -3599,7 +3601,7 @@
                 "3113084",
                 "018009155704"
             ],
-            "cel": [
+            "cell": [
                 "3183625978"
             ],
             "schedule": [
@@ -3614,7 +3616,7 @@
                 "018009155704",
                 "7821853"
             ],
-            "cel": [
+            "cell": [
                 "3107062893",
                 "3002050766"
             ],
@@ -3631,7 +3633,7 @@
                 "018009155704",
                 "8721466"
             ],
-            "cel": [
+            "cell": [
                 "3165249558"
             ],
             "schedule": [
@@ -3646,7 +3648,7 @@
                 "018009155704",
                 "7334105"
             ],
-            "cel": [
+            "cell": [
                 "3137688408"
             ],
             "schedule": [
@@ -3661,7 +3663,7 @@
             "phone": [
                 "018009155704"
             ],
-            "cel": [
+            "cell": [
                 "3104556909"
             ],
             "schedule": [
@@ -3676,7 +3678,7 @@
             "phone": [
                 "018009155704"
             ],
-            "cel": [
+            "cell": [
                 "3137332842"
             ],
             "schedule": [
@@ -3715,7 +3717,7 @@
             "phone": [
                 "018009155704"
             ],
-            "cel": [
+            "cell": [
                 "3005295022",
                 "3002066657"
             ],
@@ -3732,7 +3734,7 @@
                 "018009155704",
                 "2815593"
             ],
-            "cel": [
+            "cell": [
                 "3008010089",
                 "3013992113"
             ],
@@ -4115,7 +4117,7 @@
             "phone": [
                 "6946763"
             ],
-            "cel": [
+            "cell": [
                 "3114514701"
             ],
             "schedule": [
@@ -4266,7 +4268,7 @@
                 "5190886",
                 "6363669"
             ],
-            "cel": [
+            "cell": [
                 "3164784015"
             ],
             "schedule": [
@@ -4275,7 +4277,7 @@
             "type": "externo",
             "link": "https://www.fujifilmamericas.com.co/support/contactenos/index.html"
         },
-        "gama-bogota": {
+        "gama-bogota-call-center": {
             "name": "Gama Call Center",
             "phone": [
                 "5804355"
@@ -4368,7 +4370,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -4419,7 +4421,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -4480,7 +4482,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -4493,7 +4495,7 @@
         },
         "hyundai-call-center": {
             "name": "Hyundai Call Center",
-            "cel": [
+            "cell": [
                 "3008217999"
             ],
             "schedule": [
@@ -4522,7 +4524,7 @@
             "phone": [
                 "7411866"
             ],
-            "cel": [
+            "cell": [
                 "3145626066"
             ],
             "schedule": [
@@ -4540,7 +4542,7 @@
             "phone": [
                 "3869797"
             ],
-            "cel": [
+            "cell": [
                 "3002179310",
                 "3017863572"
             ],
@@ -4560,7 +4562,7 @@
             "phone": [
                 "7462626"
             ],
-            "cel": [
+            "cell": [
                 "3223044792"
             ],
             "schedule": [
@@ -4578,7 +4580,7 @@
             "phone": [
                 "6803987"
             ],
-            "cel": [
+            "cell": [
                 "3165381154"
             ],
             "schedule": [
@@ -4597,7 +4599,7 @@
             "phone": [
                 "3087608"
             ],
-            "cel": [
+            "cell": [
                 "3182963920"
             ],
             "schedule": [
@@ -4616,7 +4618,7 @@
             "phone": [
                 "4923961"
             ],
-            "cel": [
+            "cell": [
                 "3162876564"
             ],
             "schedule": [
@@ -4635,7 +4637,7 @@
             "phone": [
                 "3351229"
             ],
-            "cel": [
+            "cell": [
                 "3103823701"
             ],
             "schedule": [
@@ -4654,7 +4656,7 @@
             "phone": [
                 "6624867"
             ],
-            "cel": [
+            "cell": [
                 "3213703113"
             ],
             "schedule": [
@@ -4696,13 +4698,14 @@
             "phone": [
                 "3457627"
             ],
-            "cel": [
+            "cell": [
                 "3165297906"
             ],
             "schedule": [
                 "Lun a Vie de 8:30 a.m a 4:30 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/place/Cra.+20b+%23%2374-22,+Bogot%C3%A1/@4.662809,-74.0648967,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a59a22cb76f:0xfdf8bbdf4810ca66!8m2!3d4.662809!4d-74.062708?hl=es"
         },
         "inval-call-center": {
             "name": "INVAL",
@@ -4743,7 +4746,7 @@
             "phone": [
                 "7442601"
             ],
-            "cel": [
+            "cell": [
                 "3045470855",
                 "3045470855"
             ],
@@ -4775,7 +4778,7 @@
             "phone": [
                 "3869797"
             ],
-            "cel": [
+            "cell": [
                 "3002179310",
                 "3017863572"
             ],
@@ -4796,7 +4799,7 @@
                 "3689384",
                 "3689590"
             ],
-            "cel": [
+            "cell": [
                 "3045553310",
                 "3137670905",
                 "3207027258"
@@ -4817,7 +4820,7 @@
             "phone": [
                 "5249210"
             ],
-            "cel": [
+            "cell": [
                 "3014995879"
             ],
             "schedule": [
@@ -4836,7 +4839,7 @@
             "phone": [
                 "8146262"
             ],
-            "cel": [
+            "cell": [
                 "3053097088",
                 "3012901623"
             ],
@@ -4856,7 +4859,7 @@
             "phone": [
                 "7455128"
             ],
-            "cel": [
+            "cell": [
                 "3146589119",
                 "3103497546"
             ],
@@ -4876,7 +4879,7 @@
             "phone": [
                 "3344640"
             ],
-            "cel": [
+            "cell": [
                 "3192741647"
             ],
             "schedule": [
@@ -4895,7 +4898,7 @@
             "phone": [
                 "5808468"
             ],
-            "cel": [
+            "cell": [
                 "3004191372",
                 "3012851485"
             ],
@@ -4915,7 +4918,7 @@
             "phone": [
                 "4481585"
             ],
-            "cel": [
+            "cell": [
                 "3148923227"
             ],
             "schedule": [
@@ -4934,7 +4937,7 @@
             "phone": [
                 "8803467"
             ],
-            "cel": [
+            "cell": [
                 "3167011265",
                 "3163895702",
                 "3173833633"
@@ -4955,7 +4958,7 @@
                 "5241856",
                 "5248570"
             ],
-            "cel": [
+            "cell": [
                 "3172205902"
             ],
             "schedule": [
@@ -4971,7 +4974,7 @@
             "address": "Cl 24 N0. 28-17, Barrio Villa Sol",
             "lat": "5.33964",
             "lng": "-72.3868297",
-            "cel": [
+            "cell": [
                 "3115747702",
                 "3222794545"
             ],
@@ -4988,7 +4991,7 @@
             "address": "Cl 24 No. 26-32, Barrio Los Andes",
             "lat": "5.3388596",
             "lng": "-72.3882506",
-            "cel": [
+            "cell": [
                 "3177234329",
                 "3222605953"
             ],
@@ -5085,10 +5088,10 @@
             "viewMap": "https://www.google.com/maps/dir//DATECSA+S.A.,+Cra.+22+%23168-58,+Bogot%C3%A1/@4.7499294,-74.0469687,17z/data=!4m16!1m6!3m5!1s0x8e3f859c62213b0b:0x3ed01970fbc0ea7e!2sDATECSA+S.A.!8m2!3d4.7499294!4d-74.04478!4m8!1m0!1m5!1m1!1s0x8e3f859c62213b0b:0x3ed01970fbc0ea7e!2m2!1d-74.04478!2d4.7499294!3e2"
         },
         "lenovo-bogota-01": {
-            "name": "Punto de Servicios",
+            "name": "Lenovo Punto de Servicios La Castellana",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
-            "lng": ",-74.0639395",
+            "lng": "-74.0639395",
             "phone": [
                 "7435027"
             ],
@@ -5100,7 +5103,7 @@
             "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
         },
         "lenovo-bogota-02": {
-            "name": "Punto de Servicios",
+            "name": "Lenovo Punto de Servicios Quinta Paredes",
             "address": "Cr 20 No. 24A-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
             "lng": "-74.0919107",
@@ -5440,7 +5443,7 @@
             "phone": [
                 "6138444"
             ],
-            "cel": [
+            "cell": [
                 "3134301004"
             ],
             "schedule": [
@@ -5501,7 +5504,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -5527,9 +5530,9 @@
             ],
             "type": "interno"
         },
-        "nikon-bogota": {
+        "nikon-bogota-call-center": {
             "name": "MN Foto",
-            "cel": [
+            "cell": [
                 "3186085419",
                 "3186553911",
                 "3167432951"
@@ -5588,7 +5591,7 @@
             "phone": [
                 "7462626"
             ],
-            "cel": [
+            "cell": [
                 "3223044792"
             ],
             "schedule": [
@@ -5619,7 +5622,7 @@
                 "8283557",
                 "8150525"
             ],
-            "cel": [
+            "cell": [
                 "313 5752572"
             ],
             "schedule": [
@@ -5638,7 +5641,7 @@
             "phone": [
                 "8858447"
             ],
-            "cel": [
+            "cell": [
                 "3222605953",
                 "3003232327"
             ],
@@ -5673,7 +5676,7 @@
             "phone": [
                 "6202392"
             ],
-            "cel": [
+            "cell": [
                 "3005704067"
             ],
             "schedule": [
@@ -5693,7 +5696,7 @@
                 "3600910",
                 "3600628"
             ],
-            "cel": [
+            "cell": [
                 "3006162828",
                 "3015014734"
             ],
@@ -5710,7 +5713,7 @@
             "address": "Cl 63 N0. 104-44, Barrio El Muelle",
             "lat": "4.6959598",
             "lng": "-74.1259305",
-            "cel": [
+            "cell": [
                 "3223664069",
                 "3505431101"
             ],
@@ -5745,7 +5748,7 @@
             "phone": [
                 "6344400"
             ],
-            "cel": [
+            "cell": [
                 "3005704185",
                 "3133862725"
             ],
@@ -5765,7 +5768,7 @@
             "phone": [
                 "6344400"
             ],
-            "cel": [
+            "cell": [
                 "3005703312"
             ],
             "schedule": [
@@ -5817,7 +5820,7 @@
             "phone": [
                 "5846627"
             ],
-            "cel": [
+            "cell": [
                 "3105058822"
             ],
             "schedule": [
@@ -5835,7 +5838,7 @@
             "phone": [
                 "5752021"
             ],
-            "cel": [
+            "cell": [
                 "3174372176",
                 "3124583389"
             ],
@@ -5855,7 +5858,7 @@
             "phone": [
                 "7600444"
             ],
-            "cel": [
+            "cell": [
                 "3114524574"
             ],
             "schedule": [
@@ -5874,7 +5877,7 @@
                 "4356789",
                 "4343831"
             ],
-            "cel": [
+            "cell": [
                 "3142387624"
             ],
             "schedule": [
@@ -5892,7 +5895,7 @@
             "phone": [
                 "5162647"
             ],
-            "cel": [
+            "cell": [
                 "3215036571"
             ],
             "schedule": [
@@ -5908,7 +5911,7 @@
             "address": "Cr 9 No. 6-100, Lc 2 Barrio",
             "lat": "-4.2165591",
             "lng": "-69.9424521",
-            "cel": [
+            "cell": [
                 "3103892311"
             ],
             "schedule": [
@@ -5960,7 +5963,7 @@
             "phone": [
                 "7810050"
             ],
-            "cel": [
+            "cell": [
                 "3205661394",
                 "3205661396"
             ],
@@ -6049,7 +6052,7 @@
             "phone": [
                 "4227120"
             ],
-            "cel": [
+            "cell": [
                 "3124836607"
             ],
             "schedule": [
@@ -6069,7 +6072,7 @@
                 "4310352",
                 "4224596"
             ],
-            "cel": [
+            "cell": [
                 "3136365427"
             ],
             "schedule": [
@@ -6088,7 +6091,7 @@
             "phone": [
                 "2816068"
             ],
-            "cel": [
+            "cell": [
                 "3002076967"
             ],
             "schedule": [
@@ -6107,7 +6110,7 @@
             "phone": [
                 "2242207"
             ],
-            "cel": [
+            "cell": [
                 "3155693143"
             ],
             "schedule": [
@@ -6123,7 +6126,7 @@
             "address": "Av Colón Trv 10 No. 26-40, Barrio Las Nieves",
             "lat": "5.539293",
             "lng": "-73.3623528",
-            "cel": [
+            "cell": [
                 "3156164680"
             ],
             "schedule": [
@@ -6143,7 +6146,7 @@
                 "5742323",
                 "5749474"
             ],
-            "cel": [
+            "cell": [
                 "3004882954"
             ],
             "schedule": [
@@ -6159,7 +6162,7 @@
             "address": "Cl 35 No. 23-42, Av Caldas",
             "lat": "4.1491234",
             "lng": "-73.6289266",
-            "cel": [
+            "cell": [
                 "3115062871"
             ],
             "schedule": [
@@ -6175,7 +6178,7 @@
             "address": "Cl 26 No. 21-44, Barrio Providencia",
             "lat": "5.3345915",
             "lng": "-72.3940274",
-            "cel": [
+            "cell": [
                 "3114476498"
             ],
             "schedule": [
@@ -6191,7 +6194,7 @@
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.33964",
             "lng": "-72.3868297",
-            "cel": [
+            "cell": [
                 "3115747702",
                 "3222794545"
             ],
@@ -6213,7 +6216,7 @@
                 "3601447",
                 "3689796"
             ],
-            "cel": [
+            "cell": [
                 "3016994021"
             ],
             "schedule": [
@@ -6289,7 +6292,7 @@
             "phone": [
                 "7442601"
             ],
-            "cel": [
+            "cell": [
                 "3133525212",
                 "3045470855"
             ],
@@ -6309,7 +6312,7 @@
             "phone": [
                 "6278634"
             ],
-            "cel": [
+            "cell": [
                 "3108865746",
                 "3206503097"
             ],
@@ -6329,7 +6332,7 @@
             "phone": [
                 "2330602"
             ],
-            "cel": [
+            "cell": [
                 "3206519865",
                 "3102170750"
             ],
@@ -6365,7 +6368,7 @@
             "phone": [
                 "2762442"
             ],
-            "cel": [
+            "cell": [
                 "3107506109"
             ],
             "schedule": [
@@ -6384,7 +6387,7 @@
             "phone": [
                 "5808468"
             ],
-            "cel": [
+            "cell": [
                 "3004191372",
                 "3012851485"
             ],
@@ -6401,7 +6404,7 @@
             "address": "Cr 7 No. 39-08, Barrio El Centro",
             "lat": "8.760799",
             "lng": "-75.878299",
-            "cel": [
+            "cell": [
                 "3126492626"
             ],
             "schedule": [
@@ -6417,7 +6420,7 @@
             "address": "Av Circunvalar No. 4-28, Lc 2 Edificio El Greco",
             "lat": "4.8064782",
             "lng": "-75.6822179",
-            "cel": [
+            "cell": [
                 "3013253020",
                 "3058885924"
             ],
@@ -6438,7 +6441,7 @@
                 "5246414",
                 "3967271"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -6457,7 +6460,7 @@
             "phone": [
                 "2763326"
             ],
-            "cel": [
+            "cell": [
                 "3126246654"
             ],
             "schedule": [
@@ -6473,7 +6476,7 @@
             "address": "Cl 7 No. 15-37, Barrio Macunaima",
             "lat": "4.1309186",
             "lng": "-73.6183315",
-            "cel": [
+            "cell": [
                 "3235731240",
                 "3112306762"
             ],
@@ -6489,7 +6492,7 @@
             "address": "Cl 24 No. 28-17, Barrio Villa del Sol",
             "lat": "5.33964",
             "lng": "-72.3868297",
-            "cel": [
+            "cell": [
                 "3115747702",
                 "3222794545"
             ],
@@ -6521,7 +6524,7 @@
             "phone": [
                 "6278634"
             ],
-            "cel": [
+            "cell": [
                 "3108865746",
                 "3206503097"
             ],
@@ -6541,7 +6544,7 @@
             "phone": [
                 "2330602"
             ],
-            "cel": [
+            "cell": [
                 "3206519865",
                 "3102170750"
             ],
@@ -6561,7 +6564,7 @@
             "phone": [
                 "6278634"
             ],
-            "cel": [
+            "cell": [
                 "3108865746",
                 "3206503097"
             ],
@@ -6579,7 +6582,7 @@
             "phone": [
                 "2330602"
             ],
-            "cel": [
+            "cell": [
                 "3206519865",
                 "3102170750"
             ],
@@ -6608,7 +6611,7 @@
         },
         "practimac-call-center": {
             "name": "Practimac Call Center",
-            "cel": [
+            "cell": [
                 "3216991657"
             ],
             "schedule": [
@@ -6633,7 +6636,7 @@
         },
         "redicol-bogota-call-center": {
             "name": "Redicol Call Center",
-            "cel": [
+            "cell": [
                 "3003488515"
             ],
             "schedule": [
@@ -6706,7 +6709,7 @@
             "phone": [
                 "6136247"
             ],
-            "cel": [
+            "cell": [
                 "3223044792"
             ],
             "schedule": [
@@ -6740,7 +6743,7 @@
             "address": "Cr 40 No. 38-32, Barrio Centro",
             "lat": "10.9801266",
             "lng": "-74.7817481",
-            "cel": [
+            "cell": [
                 "3012517394"
             ],
             "schedule": [
@@ -6758,7 +6761,7 @@
                 "5246414",
                 "3967271"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -6775,7 +6778,7 @@
             "phone": [
                 "5808468"
             ],
-            "cel": [
+            "cell": [
                 "3012851485",
                 "3004191372"
             ],
@@ -6794,7 +6797,7 @@
                 "3332717",
                 "3251185"
             ],
-            "cel": [
+            "cell": [
                 "3136144784"
             ],
             "schedule": [
@@ -6871,7 +6874,7 @@
                 "2634067",
                 "8054217"
             ],
-            "cel": [
+            "cell": [
                 "3142386245"
             ],
             "schedule": [
@@ -6881,9 +6884,9 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
         },
-        "singer-bogota": {
+        "singer-bogota-call-center": {
             "name": "Singer",
-            "cel": [
+            "cell": [
                 "3502363431"
             ],
             "schedule": [
@@ -6912,7 +6915,7 @@
                 "6225861",
                 "6202392"
             ],
-            "cel": [
+            "cell": [
                 "3005704067"
             ],
             "schedule": [
@@ -6932,7 +6935,7 @@
                 "3687442",
                 "3603095"
             ],
-            "cel": [
+            "cell": [
                 "3135046881"
             ],
             "schedule": [
@@ -6951,7 +6954,7 @@
             "phone": [
                 "2330602"
             ],
-            "cel": [
+            "cell": [
                 "3206519865",
                 "3102170750"
             ],
@@ -6971,7 +6974,7 @@
             "phone": [
                 "6278634"
             ],
-            "cel": [
+            "cell": [
                 "3108865746",
                 "3206503097"
             ],
@@ -7008,7 +7011,7 @@
             "phone": [
                 "6344400"
             ],
-            "cel": [
+            "cell": [
                 "3005704185"
             ],
             "schedule": [
@@ -7060,7 +7063,7 @@
             "phone": [
                 "6069898"
             ],
-            "cel": [
+            "cell": [
                 "3104365099",
                 "3128905108"
             ],
@@ -7080,7 +7083,7 @@
             "phone": [
                 "5808468"
             ],
-            "cel": [
+            "cell": [
                 "3004191372",
                 "3012851485"
             ],
@@ -7100,7 +7103,7 @@
             "phone": [
                 "7820817"
             ],
-            "cel": [
+            "cell": [
                 "3215412532"
             ],
             "schedule": [
@@ -7123,7 +7126,7 @@
             ],
             "type": "interno"
         },
-        "startec-bogota": {
+        "startec-bogota-call-center": {
             "name": "Polux",
             "phone": [
                 "8766888"
@@ -7135,7 +7138,7 @@
         },
         "superior-call-center": {
             "name": "Superior Industrial S.A.",
-            "cel": [
+            "cell": [
                 "3187792810"
             ],
             "schedule": [
@@ -7148,7 +7151,7 @@
             "phone": [
                 "018000180425"
             ],
-            "cel": [
+            "cell": [
                 "3216991657"
             ],
             "schedule": [
@@ -7164,7 +7167,7 @@
             ],
             "type": "interno"
         },
-        "tigo-barranquilla-01": {
+        "tienda-tigo-barranquilla-01": {
             "name": "TigoUne Buenavista",
             "address": "Cl 99 No. 52-53, C.C Buenavista",
             "lat": "11.013774",
@@ -7176,7 +7179,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Buenavista,+Barranquilla,+Atl%C3%A1ntico/@11.013774,-74.8306337,17z/data=!4m16!1m6!3m5!1s0x8ef42c4d40a9a367:0x6b2feef3d9ed7e54!2sTigo+Buenavista!8m2!3d11.013774!4d-74.828445!4m8!1m0!1m5!1m1!1s0x8ef42c4d40a9a367:0x6b2feef3d9ed7e54!2m2!1d-74.828445!2d11.013774!3e2"
         },
-        "tigo-barranquilla-02": {
+        "tienda-tigo-barranquilla-02": {
             "name": "TigoUne Cordialidad",
             "address": "Cl 47 No. 20-38",
             "lat": "10.9622545",
@@ -7188,7 +7191,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Calle+47,+Cr.+de+la+Cordialidad+%23%23+20+-+38,+Barranquilla,+Atl%C3%A1ntico/@10.9622545,-74.795488,29z/data=!4m16!1m6!3m5!1s0x8ef42d4e9147d70b:0xd33852f3c6bf9c1!2sTigo+Oficial!8m2!3d10.9622165!4d-74.7963426!4m8!1m0!1m5!1m1!1s0x8ef42d4e9147d70b:0xd33852f3c6bf9c1!2m2!1d-74.7963426!2d10.9622165!3e2"
         },
-        "tigo-barranquilla-03": {
+        "tienda-tigo-barranquilla-03": {
             "name": "TigoUne Cr 54",
             "address": "Cr 53 No. 74-157",
             "lat": "11.0016968",
@@ -7200,7 +7203,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//TigoUne+Cra+54,+Cra.+54+%2374+-+167,+Barranquilla,+Atl%C3%A1ntico/@11.0016968,-74.8061023,17z/data=!4m16!1m6!3m5!1s0x8ef42d9fc345c8f5:0xa0554f6798cbd266!2sTigoUne+Cra+54!8m2!3d11.0016968!4d-74.8039136!4m8!1m0!1m5!1m1!1s0x8ef42d9fc345c8f5:0xa0554f6798cbd266!2m2!1d-74.8039136!2d11.0016968!3e2"
         },
-        "tigo-barranquilla-04": {
+        "tienda-tigo-barranquilla-04": {
             "name": "TigoUne Metropolitano",
             "address": "Cr 28 No. 58-148, C.C Metropolitan",
             "lat": "10.924138",
@@ -7212,7 +7215,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Metropolitano,+Soledad,+Atl%C3%A1ntico/@10.924138,-74.7984852,17z/data=!4m16!1m6!3m5!1s0x8ef5d3797bb8753b:0xa0569f1f01b3dc84!2sTigo+Metropolitano!8m2!3d10.924138!4d-74.7962965!4m8!1m0!1m5!1m1!1s0x8ef5d3797bb8753b:0xa0569f1f01b3dc84!2m2!1d-74.7962965!2d10.924138!3e2"
         },
-        "tigo-barranquilla-05": {
+        "tienda-tigo-barranquilla-05": {
             "name": "TigoUne Murillo",
             "address": "Cr 42 No. 45-38",
             "lat": "10.9559704",
@@ -7224,7 +7227,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//TigoUne+Murillo,+Cra.+42+%234538,+Barranquilla,+Atl%C3%A1ntico/@10.9559704,-74.7982427,17z/data=!4m16!1m6!3m5!1s0x8ef42d4ccd1d98b1:0xe22cbf93ecbb36a9!2sTigoUne+Murillo!8m2!3d10.9559704!4d-74.796054!4m8!1m0!1m5!1m1!1s0x8ef42d4ccd1d98b1:0xe22cbf93ecbb36a9!2m2!1d-74.796054!2d10.9559704!3e2"
         },
-        "tigo-barranquilla-06": {
+        "tienda-tigo-barranquilla-06": {
             "name": "TigoUne Portal del Prado",
             "address": "Cl 53 No.46-192",
             "lat": "10.9904577",
@@ -7236,7 +7239,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Portal+Del+Prado,+Cl.+53+%2346-192,+Barranquilla,+Atl%C3%A1ntico/@10.9904577,-74.7906665,17z/data=!4m16!1m6!3m5!1s0x8ef42d7b2356f745:0x8f08dc39fefb5fff!2sTigo+Portal+Del+Prado!8m2!3d10.9904577!4d-74.7884778!4m8!1m0!1m5!1m1!1s0x8ef42d7b2356f745:0x8f08dc39fefb5fff!2m2!1d-74.7884778!2d10.9904577!3e2"
         },
-        "tigo-barranquilla-07": {
+        "tienda-tigo-barranquilla-07": {
             "name": "TigoUne Unico",
             "address": "Cl 74 No. 38D-139 C.C Unico",
             "lat": "10.9897353",
@@ -7248,7 +7251,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Unico+Barranquilla,+Cl.+74+%233939,+Barranquilla,+Atl%C3%A1ntico/@10.9897353,-74.8133822,17z/data=!4m16!1m6!3m5!1s0x8ef42d11e3b9cb45:0x7e09e7a5541eb64!2sTigo+Unico+Barranquilla!8m2!3d10.9897353!4d-74.8111935!4m8!1m0!1m5!1m1!1s0x8ef42d11e3b9cb45:0x7e09e7a5541eb64!2m2!1d-74.8111935!2d10.9897353!3e2"
         },
-        "tigo-bogota-01": {
+        "tienda-tigo-bogota-01": {
             "name": "TigoUne Andino Cl 85",
             "address": "Cr 11 No. 84-09, Lc 14",
             "lat": "4.667914",
@@ -7260,7 +7263,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Carrera+11+%23+84-09+Local+10-14+Centro+Comercial+Andino+-+Calle+85,+Bogot%C3%A1/@4.667914,-74.0538802,17z/data=!4m16!1m6!3m5!1s0x8e3f99a8b3fde703:0x479987392ab1dfbf!2sTigo+Oficial!8m2!3d4.667914!4d-74.0516915!4m8!1m0!1m5!1m1!1s0x8e3f99a8b3fde703:0x479987392ab1dfbf!2m2!1d-74.0516915!2d4.667914!3e2"
         },
-        "tigo-bogota-02": {
+        "tienda-tigo-bogota-02": {
             "name": "TigoUne Centro Cr 7",
             "address": "Cr 7 No. 22-60",
             "lat": "4.6086167",
@@ -7272,7 +7275,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Centro+Bogot%C3%A1,+Cra.+7+%2322-30,+Bogot%C3%A1/@4.6086167,-74.0705873,17z/data=!4m16!1m6!3m5!1s0x8e3f9998cec4d96d:0x477bea78fb716e33!2sTigo+Centro+Bogot%C3%A1!8m2!3d4.608356!4d-74.0705692!4m8!1m0!1m5!1m1!1s0x8e3f9998cec4d96d:0x477bea78fb716e33!2m2!1d-74.0705692!2d4.608356!3e2"
         },
-        "tigo-bogota-03": {
+        "tienda-tigo-bogota-03": {
             "name": "TigoUne Centro Mayor",
             "address": "Cl 38A Sur, No. 34D-51",
             "lat": "4.5932768",
@@ -7284,7 +7287,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Centro+Mayor,+Calle+%23100-38,+Bogot%C3%A1,+Cundinamarca/@4.5932768,-74.1257909,17z/data=!4m16!1m6!3m5!1s0x8e3f9ed4a98ea75b:0x356fdf5e04df677e!2sTigo+Centro+Mayor!8m2!3d4.5932768!4d-74.1236022!4m8!1m0!1m5!1m1!1s0x8e3f9ed4a98ea75b:0x356fdf5e04df677e!2m2!1d-74.1236022!2d4.5932768!3e2"
         },
-        "tigo-bogota-04": {
+        "tienda-tigo-bogota-04": {
             "name": "TigoUne Chapinero",
             "address": "Cr 13 No. 53-19",
             "lat": "4.6404941",
@@ -7296,7 +7299,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Chapinero,+Cra.+13+%2353-19,+Bogot%C3%A1,+Cundinamarca/@4.6404941,-74.0673674,17z/data=!4m16!1m6!3m5!1s0x8e3f9a3a0af3ec87:0xf4f757ca77a382e6!2sTigo+Chapinero!8m2!3d4.6404941!4d-74.0651787!4m8!1m0!1m5!1m1!1s0x8e3f9a3a0af3ec87:0xf4f757ca77a382e6!2m2!1d-74.0651787!2d4.6404941!3e2"
         },
-        "tigo-bogota-05": {
+        "tienda-tigo-bogota-05": {
             "name": "TigoUne Gran Estación",
             "address": "Av Cl 26 No. 62-49",
             "lat": "4.6475",
@@ -7309,7 +7312,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Gran+Estacion,+Avenida+Calle+26+%23+62-49+Isla+2-04+Isla+2-04+Centro+Comercial+Gran+Estaci%C3%B3n+1,+Bogot%C3%A1,+Cundinamarca/@4.6475,-74.1038987,17z/data=!4m16!1m6!3m5!1s0x8e3f9b954b0a5947:0xd50d45e2dc7cd048!2sTigo+Gran+Estacion!8m2!3d4.6475!4d-74.10171!4m8!1m0!1m5!1m1!1s0x8e3f9b954b0a5947:0xd50d45e2dc7cd048!2m2!1d-74.10171!2d4.6475!3e2"
         },
-        "tigo-bogota-06": {
+        "tienda-tigo-bogota-06": {
             "name": "TigoUne Hayuelos",
             "address": "Cl 20 No. 82-52",
             "lat": "4.6640931",
@@ -7321,7 +7324,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Calle+20+%23+82-52,+Centro+Comercial+Hayuelos+Local+1-30,+1-31,+1-32,+Bogot%C3%A1/@4.6640931,-74.1325272,17z/data=!4m16!1m6!3m5!1s0x8e3f9c7c0c0ae4f9:0xd3c10bcab3f4fe5b!2sTigo+Oficial!8m2!3d4.6640931!4d-74.1303385!4m8!1m0!1m5!1m1!1s0x8e3f9c7c0c0ae4f9:0xd3c10bcab3f4fe5b!2m2!1d-74.1303385!2d4.6640931!3e2"
         },
-        "tigo-bogota-07": {
+        "tienda-tigo-bogota-07": {
             "name": "TigoUne Plaza de las Américas",
             "address": "Trv 71D No. 26-94",
             "lat": "4.6178348",
@@ -7333,7 +7336,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Transversal+71D+%23+26-94,+Centro+Comercial+Plaza+De+Las+Americas+Local+1053+Y+1055,+Bogot%C3%A1/@4.6178348,-74.1399065,17z/data=!4m16!1m6!3m5!1s0x0:0x2e26943cf196ca1a!2sTigo+Oficial!8m2!3d4.6178761!4d-74.1355149!4m8!1m0!1m5!1m1!1s0x8e3f9eaffb03ed6d:0x2e26943cf196ca1a!2m2!1d-74.1355151!2d4.617876!3e2"
         },
-        "tigo-bogota-08": {
+        "tienda-tigo-bogota-08": {
             "name": "TigoUne Plaza Imperial",
             "address": "Av Cr 104 No. 148-07",
             "lat": "4.750501",
@@ -7345,7 +7348,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Plaza+Imperial,+Cinemark+Plaza+Imperial,+Bogot%C3%A1,+Cundinamarca/@4.750501,-74.0979147,17z/data=!4m16!1m6!3m5!1s0x8e3f845ec6aa9655:0xc62c0bcfbe52b03!2sTigo+Plaza+Imperial!8m2!3d4.750501!4d-74.095726!4m8!1m0!1m5!1m1!1s0x8e3f845ec6aa9655:0xc62c0bcfbe52b03!2m2!1d-74.095726!2d4.750501!3e2"
         },
-        "tigo-bogota-09": {
+        "tienda-tigo-bogota-09": {
             "name": "TigoUne Portal 80",
             "address": "Trv 100A No. 80A-20",
             "lat": "4.711036",
@@ -7357,7 +7360,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Portal+80,+Transversal+100+A+%23+80+A+20+Local+N2-063-064+Centro+Comercial+Portal+80,+Bogot%C3%A1,+Cundinamarca/@4.711036,-74.1143947,17z/data=!4m16!1m6!3m5!1s0x8e3f84b27585522f:0x4aaf90cbdd7b4272!2sTigo+Portal+80!8m2!3d4.711036!4d-74.112206!4m8!1m0!1m5!1m1!1s0x8e3f84b27585522f:0x4aaf90cbdd7b4272!2m2!1d-74.112206!2d4.711036!3e2"
         },
-        "tigo-bogota-10": {
+        "tienda-tigo-bogota-10": {
             "name": "TigoUne Santafe",
             "address": "Cl 185 No. 45-03",
             "lat": "4.7628528",
@@ -7370,7 +7373,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//TIGO+SANTAFE,+CENTRO+COMERCIAL+SANTAFE,+Bogot%C3%A1,+Cundinamarca/@4.7628528,-74.0483658,17z/data=!4m16!1m6!3m5!1s0x8e3f8558e32c55a1:0x48de0c3474a75748!2sTIGO+SANTAFE!8m2!3d4.7628528!4d-74.0461771!4m8!1m0!1m5!1m1!1s0x8e3f8558e32c55a1:0x48de0c3474a75748!2m2!1d-74.0461771!2d4.7628528!3e2"
         },
-        "tigo-bogota-11": {
+        "tienda-tigo-bogota-11": {
             "name": "TigoUne Unicentro",
             "address": "Cr 15 No. 124-30",
             "lat": "4.701265",
@@ -7382,7 +7385,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Unicentro+Bogota,+Ak.+15+%23124-30,+Bogot%C3%A1,+Cundinamarca/@4.701265,-74.0439864,17z/data=!4m16!1m6!3m5!1s0x8e3f9aad8b616977:0x47e0d535d7e5f932!2sTigo+Unicentro+Bogota!8m2!3d4.701265!4d-74.0417977!4m8!1m0!1m5!1m1!1s0x8e3f9aad8b616977:0x47e0d535d7e5f932!2m2!1d-74.0417977!2d4.701265!3e2"
         },
-        "tigo-bogota-12": {
+        "tienda-tigo-bogota-12": {
             "name": "TigoUne Kenedy",
             "address": "Cl 41F Sur No. 79-05",
             "lat": "4.6203569",
@@ -7394,7 +7397,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Sector+De+Keneddy,+Cl.+41f+Sur+%23%23+79-05,+Bogot%C3%A1/@4.6203569,-74.1615334,18z/data=!4m16!1m6!3m5!1s0x0:0x55c55a67429915dc!2sTigo+Oficial!8m2!3d4.6204343!4d-74.1608235!4m8!1m0!1m5!1m1!1s0x8e3f9e853d945365:0x55c55a67429915dc!2m2!1d-74.1608234!2d4.6204344!3e2"
         },
-        "tigo-bucaramanga-01": {
+        "tienda-tigo-bucaramanga-01": {
             "name": "TigoUne Cabecera",
             "address": "Cr 35A No. 48-15",
             "lat": "7.1128166",
@@ -7406,7 +7409,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Une,+Cra.+36+%2352-81,+Bucaramanga,+Santander/@7.1128166,-73.110169,17z/data=!4m16!1m6!3m5!1s0x8e683fe6f8a862d9:0x25c9b38b178aaaa!2sUne!8m2!3d7.1128166!4d-73.1079803!4m8!1m0!1m5!1m1!1s0x8e683fe6f8a862d9:0x25c9b38b178aaaa!2m2!1d-73.1079803!2d7.1128166!3e2"
         },
-        "tigo-bucaramanga-02": {
+        "tienda-tigo-bucaramanga-02": {
             "name": "TigoUne Canaveral",
             "address": "Cl 30 No. 25-71",
             "lat": "7.0710258",
@@ -7418,7 +7421,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Calle+30+%2325-71+Ca%C3%B1averal+Centro+Comercial+Ca%C3%B1averal+Segundo+Piso+Local+9A-B,+Floridablanca,+Santander/@7.0710258,-73.1086301,17z/data=!4m16!1m6!3m5!1s0x0:0xac99da390cd3d09a!2sTigo+Oficial!8m2!3d7.0708864!4d-73.1067342!4m8!1m0!1m5!1m1!1s0x8e683f723fc2c1b9:0xac99da390cd3d09a!2m2!1d-73.1067343!2d7.0708862!3e2"
         },
-        "tigo-bucaramanga-03": {
+        "tienda-tigo-bucaramanga-03": {
             "name": "TigoUne Centro",
             "address": "Cl 36 No. 16-74",
             "lat": "7.1182514",
@@ -7430,7 +7433,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Cl.+36+%23%23+16-74,+Bucaramanga,+Santander/@7.1182514,-73.127114,17z/data=!4m16!1m6!3m5!1s0x0:0xc89356d7cc37d93a!2sTigo+Oficial!8m2!3d7.1180586!4d-73.1249014!4m8!1m0!1m5!1m1!1s0x8e683fd70dbfafdf:0xc89356d7cc37d93a!2m2!1d-73.1249014!2d7.1180586!3e2"
         },
-        "tigo-cali-01": {
+        "tienda-tigo-cali-01": {
             "name": "TigoUne Palmetto",
             "address": "Cl 9 No. 48-81",
             "lat": "3.4125768",
@@ -7467,7 +7470,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Une+Vasquez+Cobo,+26+N+51,+Av.+2b+Nte.,+Cali,+Valle+del+Cauca/@3.4696169,-76.5272138,17z/data=!4m16!1m6!3m5!1s0x8e30a63d85fdfe8f:0x4220f87915cc7176!2sTigo+Une+Vasquez+Cobo!8m2!3d3.4696169!4d-76.5250251!4m8!1m0!1m5!1m1!1s0x8e30a63d85fdfe8f:0x4220f87915cc7176!2m2!1d-76.5250251!2d3.4696169!3e2"
         },
-        "tigo-manizales-01": {
+        "tienda-tigo-manizales-01": {
             "name": "TigoUne Manizales Cable",
             "address": "Cr 23 No. 63-112, El Cable",
             "lat": "5.0575247",
@@ -7479,7 +7482,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+El+Cable,+Cra.+23+%23%23+63-112,+Manizales,+Caldas/@5.0575247,-75.4894875,17.25z/data=!4m16!1m6!3m5!1s0x0:0x5940235ce9696918!2sTigo+Oficial!8m2!3d5.0568633!4d-75.4867132!4m8!1m0!1m5!1m1!1s0x8e47657c07e8b711:0x5940235ce9696918!2m2!1d-75.4867129!2d5.0568633!3e2"
         },
-        "tigo-manizales-02": {
+        "tienda-tigo-manizales-02": {
             "name": "TigoUne Forcarey",
             "address": "Cl 31 No. 20-22",
             "lat": "5.0681915",
@@ -7491,7 +7494,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Une,+Carrera+22+%2329-29+Local+B+3E,+Centro,+Manizales,+Caldas/@5.0681915,-75.5149964,17z/data=!4m16!1m6!3m5!1s0x8e476ff11c91d9ef:0x2bf3b3e1a359f97d!2sTigo+Une!8m2!3d5.0681915!4d-75.5128077!4m8!1m0!1m5!1m1!1s0x8e476ff11c91d9ef:0x2bf3b3e1a359f97d!2m2!1d-75.5128077!2d5.0681915!3e2"
         },
-        "tigo-medellin-01": {
+        "tienda-tigo-medellin-01": {
             "name": "TigoUne Centro Medellín",
             "address": "Cr 46 No. 52-50, Edificio Vicente Uribe Rendón",
             "lat": "6.2496638",
@@ -7503,7 +7506,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Centro+Medellin,+Cra.+46+%2352-50,+Medell%C3%ADn,+Antioquia/@6.2496638,-75.5664697,17z/data=!4m16!1m6!3m5!1s0x8e4428f842270f27:0xedaa36846260f281!2sTigo+Centro+Medellin!8m2!3d6.2496638!4d-75.564281!4m8!1m0!1m5!1m1!1s0x8e4428f842270f27:0xedaa36846260f281!2m2!1d-75.564281!2d6.2496638!3e2"
         },
-        "tigo-medellin-02": {
+        "tienda-tigo-medellin-02": {
             "name": "TigoUne Florida",
             "address": "Cl 71 No. 65-150, C.C. Florida",
             "lat": "6.2635969",
@@ -7515,7 +7518,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Isla+Tigo+hogar+florida,+piso+1+al+frente+de+el+euro,+Cl.+71+%23%23%23%2365-150,+Medell%C3%ADn,+Antioquia/@6.2635969,-75.5836588,17z/data=!4m16!1m6!3m5!1s0x8e4429d98b177551:0x3c0f2f58316e0fc7!2sIsla+Tigo+hogar+florida!8m2!3d6.2635969!4d-75.5814701!4m8!1m0!1m5!1m1!1s0x8e4429d98b177551:0x3c0f2f58316e0fc7!2m2!1d-75.5814701!2d6.2635969!3e2"
         },
-        "tigo-medellin-03": {
+        "tienda-tigo-medellin-03": {
             "name": "TigoUne Molinos",
             "address": "Cl 30A No. 82A-26, C.C Molinos",
             "lat": "6.2324246",
@@ -7527,7 +7530,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo,+Calle+30A+%23%2382a-26,+Medell%C3%ADn,+Antioquia/@6.2324246,-75.6067206,17z/data=!4m16!1m6!3m5!1s0x8e442993f266640f:0x2c2a2f256b481218!2sTigo!8m2!3d6.2324246!4d-75.6045319!4m8!1m0!1m5!1m1!1s0x8e442993f266640f:0x2c2a2f256b481218!2m2!1d-75.6045319!2d6.2324246!3e2"
         },
-        "tigo-medellin-04": {
+        "tienda-tigo-medellin-04": {
             "name": "TigoUne Oviedo",
             "address": "Cl 6 Sur No. 43A-227, C.C Oviedo",
             "lat": "6.1992429",
@@ -7539,7 +7542,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Carrera+43A+%23+6Sur-15+Centro+Comercial+Oviedo+Local+3408,+Medell%C3%ADn,+Antioquia/@6.1992429,-75.5924875,14z/data=!4m16!1m6!3m5!1s0x0:0x8c146d3b1ea8e30e!2sTigo+Oficial!8m2!3d6.1992429!4d-75.574978!4m8!1m0!1m5!1m1!1s0x8e46827d9f6ff519:0x8c146d3b1ea8e30e!2m2!1d-75.5749784!2d6.1992432!3e2"
         },
-        "tigo-medellin-05": {
+        "tienda-tigo-medellin-05": {
             "name": "TigoUne Premium Plaza",
             "address": "Cl 29 No. 49G-10, Lc 1107 y 1110, Torre Sur Piso 1",
             "lat": "6.2301024",
@@ -7551,7 +7554,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Premium+Plaza,+Cl.+29+%2345-10,+Medell%C3%ADn,+Antioquia/@6.2301024,-75.5725312,17z/data=!4m16!1m6!3m5!1s0x8e44284a45f38e87:0x7fdcdc9074ea3886!2sTigo+Premium+Plaza!8m2!3d6.2301024!4d-75.5703425!4m8!1m0!1m5!1m1!1s0x8e44284a45f38e87:0x7fdcdc9074ea3886!2m2!1d-75.5703425!2d6.2301024!3e2"
         },
-        "tigo-medellin-06": {
+        "tienda-tigo-medellin-06": {
             "name": "TigoUne Miguel de Aguinaga",
             "address": "Cr 52 No. 53-35",
             "lat": "6.252932",
@@ -7563,7 +7566,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Edificio+Miguel+de+Aguinaga,+Cl.+53+%2316,+Medell%C3%ADn,+Antioquia/@6.252932,-75.5708444,17z/data=!4m16!1m6!3m5!1s0x8e4428feb3b01d77:0x740d9fa2ff0c08da!2sEdificio+Miguel+de+Aguinaga!8m2!3d6.252932!4d-75.5686557!4m8!1m0!1m5!1m1!1s0x8e4428feb3b01d77:0x740d9fa2ff0c08da!2m2!1d-75.5686557!2d6.252932!3e2"
         },
-        "tigo-pereira-01": {
+        "tienda-tigo-pereira-01": {
             "name": "TigoUne Pereira",
             "address": "Cr 7A No. 22-30",
             "lat": "4.8369256",
@@ -7575,7 +7578,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Cra.+7a+%2330+%23+22,+Pereira,+Risaralda/@4.8369256,-75.8290766,11.5z/data=!4m16!1m6!3m5!1s0x8e38874f2e37cda3:0x588594e9e2579804!2sTigo+Oficial!8m2!3d4.8150602!4d-75.6970248!4m8!1m0!1m5!1m1!1s0x8e38874f2e37cda3:0x588594e9e2579804!2m2!1d-75.6970248!2d4.8150602!3e2"
         },
-        "tigo-pereira-02": {
+        "tienda-tigo-pereira-02": {
             "name": "TigoUne Victoria",
             "address": "Cr 10 No. 15-30, Edificio UNE Sede Victoria",
             "lat": "4.7986023",
@@ -7587,7 +7590,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Ed.+Une+Sede+Victoria,+Cra.+10+%23%23+15-30,+Pereira,+Risaralda/@4.7986023,-75.6932568,14z/data=!4m16!1m6!3m5!1s0x8e388747f26d9f89:0xd34f92a9937d0e82!2sTigo+Oficial!8m2!3d4.8120353!4d-75.6915258!4m8!1m0!1m5!1m1!1s0x8e388747f26d9f89:0xd34f92a9937d0e82!2m2!1d-75.6915258!2d4.8120353!3e2"
         },
-        "tigo-sincelejo": {
+        "tienda-tigo-sincelejo": {
             "name": "TigoUne Ford",
             "address": "Cl 25 No. 25A-126, Las Penitas",
             "lat": "9.3062478",
@@ -7599,7 +7602,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Calle+25+%23+25A-156+Ford,+Sincelejo,+Sucre/@9.3062478,-75.383958,17z/data=!4m16!1m6!3m5!1s0x0:0xa07d280a828af81!2sTigo+Oficial!8m2!3d9.3071859!4d-75.3806292!4m8!1m0!1m5!1m1!1s0x8e5915b449d3bbe5:0xa07d280a828af81!2m2!1d-75.380629!2d9.3071857!3e2"
         },
-        "tigo-soacha": {
+        "tienda-tigo-soacha": {
             "name": "TigoUne Mercurio",
             "address": "Cr 7 No. 32-35 C.C Mercurio Plaza Lc 212N",
             "lat": "4.5874887",
@@ -7612,7 +7615,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Carrera+7+%23+32-35+Centro+Comercial+Mercurio+Plaza+Local+212N,+Soacha,+Cundinamarca/@4.5874887,-74.2059648,17z/data=!4m16!1m6!3m5!1s0x8e3f9fcd0642e423:0xcab604bacd70b7a7!2sTigo+Oficial!8m2!3d4.5874896!4d-74.2037754!4m8!1m0!1m5!1m1!1s0x8e3f9fcd0642e423:0xcab604bacd70b7a7!2m2!1d-74.2037754!2d4.5874896!3e2"
         },
-        "tigo-tunja": {
+        "tienda-tigo-tunja": {
             "name": "TigoUne Tunja",
             "address": "Cr 12 No. 18-76",
             "lat": "5.5380963",
@@ -7624,7 +7627,7 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Oficial,+Cra.+12+%231876,+Tunja,+Boyac%C3%A1/@5.5380963,-73.3645732,12.5z/data=!4m16!1m6!3m5!1s0x8e6a7c3c70af2801:0xde733f6cdbb7e20e!2sTigo+Oficial!8m2!3d5.5322028!4d-73.3642923!4m8!1m0!1m5!1m1!1s0x8e6a7c3c70af2801:0xde733f6cdbb7e20e!2m2!1d-73.3642923!2d5.5322028!3e2"
         },
-        "tigo-villavicencio": {
+        "tienda-tigo-villavicencio": {
             "name": "TigoUne Villavicencio",
             "address": "Cr 40 No. 36A-10",
             "lat": "4.1407413",
@@ -7660,7 +7663,7 @@
                 "8766888",
                 "7443939"
             ],
-            "cel": [
+            "cell": [
                 "3114802790"
             ],
             "schedule": [
@@ -7703,7 +7706,7 @@
             "phone": [
                 "4035404"
             ],
-            "cel": [
+            "cell": [
                 "3004896326",
                 "3118760602"
             ],
@@ -7750,7 +7753,7 @@
             "address": "CL 105 No. 25-51",
             "lat": "7.0864599",
             "lng": "-73.1125086",
-            "cel": [
+            "cell": [
                 "3158650451"
             ],
             "schedule": [
@@ -7765,7 +7768,7 @@
             "address": "Cr 22 No. 33E-75",
             "lat": "3.4377759",
             "lng": "-76.5135604",
-            "cel": [
+            "cell": [
                 "3108951755"
             ],
             "schedule": [
@@ -7799,7 +7802,7 @@
             "phone": [
                 "8871000"
             ],
-            "cel": [
+            "cell": [
                 "3108302641"
             ],
             "schedule": [
@@ -7833,7 +7836,7 @@
             "phone": [
                 ""
             ],
-            "cel": [
+            "cell": [
                 "3103000200 "
             ],
             "schedule": [
@@ -7866,7 +7869,7 @@
                 "3601447",
                 "3689796"
             ],
-            "cel": [
+            "cell": [
                 "3016994021"
             ],
             "schedule": [
@@ -7895,7 +7898,7 @@
         },
         "xiaomi-bogota": {
             "name": "MN Foto",
-            "cel": [
+            "cell": [
                 "3186085419",
                 "3186553911",
                 "3167432951"
@@ -7907,7 +7910,7 @@
         },
         "yale-call-center": {
             "name": "YALE Call Center",
-            "cel": [
+            "cell": [
                 "3183588994"
             ],
             "schedule": [
@@ -8021,12 +8024,12 @@
                                 "movistar-medellin-03",
                                 "movistar-medellin-04",
                                 "movistar-medellin-05",
-                                "tigo-medellin-01",
-                                "tigo-medellin-02",
-                                "tigo-medellin-03",
-                                "tigo-medellin-04",
-                                "tigo-medellin-05",
-                                "tigo-medellin-06"
+                                "tienda-tigo-medellin-01",
+                                "tienda-tigo-medellin-02",
+                                "tienda-tigo-medellin-03",
+                                "tienda-tigo-medellin-04",
+                                "tienda-tigo-medellin-05",
+                                "tienda-tigo-medellin-06"
                             ]
                         },
                         "todas": {
@@ -8115,13 +8118,13 @@
                                 "movistar-barranquilla-01",
                                 "movistar-barranquilla-02",
                                 "movistar-barranquilla-03",
-                                "tigo-barranquilla-01",
-                                "tigo-barranquilla-02",
-                                "tigo-barranquilla-03",
-                                "tigo-barranquilla-04",
-                                "tigo-barranquilla-05",
-                                "tigo-barranquilla-06",
-                                "tigo-barranquilla-07"
+                                "tienda-tigo-barranquilla-01",
+                                "tienda-tigo-barranquilla-02",
+                                "tienda-tigo-barranquilla-03",
+                                "tienda-tigo-barranquilla-04",
+                                "tienda-tigo-barranquilla-05",
+                                "tienda-tigo-barranquilla-06",
+                                "tienda-tigo-barranquilla-07"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -8209,7 +8212,7 @@
                                 "claro-tunja",
                                 "movistar-tunja-01",
                                 "movistar-tunja-02",
-                                "tigo-tunja"
+                                "tienda-tigo-tunja"
                             ]
                         }
                     }
@@ -8258,8 +8261,8 @@
                             "stores": [
                                 "claro-manizales",
                                 "movistar-manizales",
-                                "tigo-manizales-01",
-                                "tigo-manizales-02"
+                                "tienda-tigo-manizales-01",
+                                "tienda-tigo-manizales-02"
                             ]
                         },
                         "video-telefonia": {
@@ -8436,11 +8439,6 @@
                                 "profit-bogota"
                             ]
                         },
-                        "camaras-video": {
-                            "stores": [
-                                "nikon-bogota"
-                            ]
-                        },
                         "car-audio": {
                             "stores": [
                                 "better-bogota",
@@ -8477,9 +8475,8 @@
                         "electro-menor": {
                             "stores": [
                                 "bionaire-bogota",
-                                "booccherini-bogota",
+                                "boccherini-bogota",
                                 "continente-bogota",
-                                "gama-bogota",
                                 "hamilton-beach-bogota",
                                 "honeywell-bogota"
                             ]
@@ -8533,14 +8530,12 @@
                             "stores": [
                                 "mattel-colombia-call-center",
                                 "more-products-call-center",
-                                "redicol-bogota-call-center",
                                 "ronda-bogota-call-center"
                             ]
                         },
                         "muebles": {
                             "stores": [
-                                "elements-bogota",
-                                "startec-bogota"
+                                "elements-bogota"
                             ]
                         },
                         "office": {
@@ -8557,8 +8552,7 @@
                                 "oster-bogota",
                                 "pc-smart-bogota",
                                 "phillips-bogota-01",
-                                "samurai-bogota",
-                                "singer-bogota"
+                                "samurai-bogota"
                             ]
                         },
                         "playstation-camaras": {
@@ -8607,18 +8601,18 @@
                                 "movistar-bogota-15",
                                 "movistar-bogota-16",
                                 "movistar-bogota-17",
-                                "tigo-bogota-01",
-                                "tigo-bogota-02",
-                                "tigo-bogota-03",
-                                "tigo-bogota-04",
-                                "tigo-bogota-05",
-                                "tigo-bogota-06",
-                                "tigo-bogota-07",
-                                "tigo-bogota-08",
-                                "tigo-bogota-09",
-                                "tigo-bogota-10",
-                                "tigo-bogota-11",
-                                "tigo-bogota-12"
+                                "tienda-tigo-bogota-01",
+                                "tienda-tigo-bogota-02",
+                                "tienda-tigo-bogota-03",
+                                "tienda-tigo-bogota-04",
+                                "tienda-tigo-bogota-05",
+                                "tienda-tigo-bogota-06",
+                                "tienda-tigo-bogota-07",
+                                "tienda-tigo-bogota-08",
+                                "tienda-tigo-bogota-09",
+                                "tienda-tigo-bogota-10",
+                                "tienda-tigo-bogota-11",
+                                "tienda-tigo-bogota-12"
                             ]
                         },
                         "televisores": {
@@ -8682,7 +8676,7 @@
                             "stores": [
                                 "claro-soacha",
                                 "movistar-soacha",
-                                "tigo-soacha"
+                                "tienda-tigo-soacha"
                             ]
                         }
                     }
@@ -8793,7 +8787,7 @@
                                 "claro-villavicencio-02",
                                 "movistar-villavicencio-01",
                                 "movistar-villavicencio-02",
-                                "tigo-villavicencio"
+                                "tienda-tigo-villavicencio"
                             ]
                         },
                         "video": {
@@ -8904,11 +8898,6 @@
                                 "panasonic-armenia"
                             ]
                         },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "electrolux-armenia-call-enter"
-                            ]
-                        },
                         "informatica": {
                             "stores": [
                                 "dell-armenia"
@@ -8962,8 +8951,8 @@
                                 "claro-pereira-01",
                                 "claro-pereira-02",
                                 "movistar-pereira",
-                                "tigo-pereira-01",
-                                "tigo-pereira-02"
+                                "tienda-tigo-pereira-01",
+                                "tienda-tigo-pereira-02"
                             ]
                         },
                         "todas": {
@@ -9076,9 +9065,9 @@
                                 "movistar-bucaramanga-01",
                                 "movistar-bucaramanga-02",
                                 "movistar-bucaramanga-03",
-                                "tigo-bucaramanga-01",
-                                "tigo-bucaramanga-02",
-                                "tigo-bucaramanga-03"
+                                "tienda-tigo-bucaramanga-01",
+                                "tienda-tigo-bucaramanga-02",
+                                "tienda-tigo-bucaramanga-03"
                             ]
                         },
                         "todas": {
@@ -9147,7 +9136,7 @@
                             "stores": [
                                 "claro-sincelejo",
                                 "movistar-sincelejo",
-                                "tigo-sincelejo"
+                                "tienda-tigo-sincelejo"
                             ]
                         },
                         "video": {
@@ -9260,9 +9249,9 @@
                                 "movistar-cali-04",
                                 "movistar-cali-05",
                                 "movistar-cali-06",
-                                "tigo-cali-01",
-                                "tigo-cali-02",
-                                "tigo-cali-03"
+                                "tienda-tigo-cali-01",
+                                "tienda-tigo-cali-02",
+                                "tienda-tigo-cali-03"
                             ]
                         },
                         "todas": {
@@ -9404,7 +9393,8 @@
                         "camaras-video": {
                             "stores": [
                                 "fujifilm-call-center",
-                                "gopro-linea-nacional"
+                                "gopro-linea-nacional",
+                                "nikon-bogota-call-center"
                             ]
                         },
                         "car-audio": {
@@ -9444,7 +9434,8 @@
                                 "avh-linea-nacional",
                                 "bionaire-call-center",
                                 "blackberry-call-center",
-                                "forza-linea-nacional"
+                                "forza-linea-nacional",
+                                "gama-bogota-call-center"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -9456,7 +9447,8 @@
                                 "haceb-call-center",
                                 "mabe-call-center",
                                 "superior-call-center",
-                                "whirlpool-call-center"
+                                "whirlpool-call-center",
+                                "electrolux-armenia-call-enter"
                             ]
                         },
                         "hogar": {
@@ -9494,8 +9486,9 @@
                         },
                         "jugueteria": {
                             "stores": [
-                                "continente-call-center",
-                                "more-products-call-center"
+                                "continente-sa-call-center",
+                                "more-products-call-center",
+                                "redicol-bogota-call-center"
                             ]
                         },
                         "llantas": {
@@ -9521,7 +9514,8 @@
                                 "moduart-call-center",
                                 "practimac-call-center",
                                 "tablemac-call-center",
-                                "tukasa-linea-nacional"
+                                "tukasa-linea-nacional",
+                                "startec-bogota-call-center"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -9534,7 +9528,8 @@
                                 "phillips-call-center",
                                 "remington-call-center",
                                 "samurai-call-center",
-                                "universal-call-center"
+                                "universal-call-center",
+                                "singer-bogota-call-center"
                             ]
                         },
                         "telefonia": {

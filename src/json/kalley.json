@@ -6,11 +6,17 @@
         "cuidado-personal-soluciones-hogar": {
             "name": "Cuidado personal y soluciones de hogar"
         },
+        "grandes-electrodomesticos": {
+            "name": "Grandes electrodomésticos"
+        },
         "ferreteria": {
             "name": "Ferretería"
         },
         "iluminacion": {
             "name": "Iluminación"
+        },
+        "linea-blanca": {
+            "name": "Linea blanca"
         },
         "soluciones-hogar": {
             "name": "Soluciones hogar"
@@ -119,7 +125,7 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+50+%2346-107,+Bello,+Antioquia/@6.3325761,-75.5606416,17z/data=!4m17!1m7!3m6!1s0x8e442fa7160d30d7:0x5bdf7fe3b9b90934!2sCra.+50+%2346-107,+Bello,+Antioquia!3b1!8m2!3d6.3325761!4d-75.5584529!4m8!1m0!1m5!1m1!1s0x8e442fa7160d30d7:0x5bdf7fe3b9b90934!2m2!1d-75.5584529!2d6.3325761!3e3"
         },
-        "antioquia-caucasia": {
+        "antioquia-caucasia-01": {
             "name": "ELECTRÓNICA JONA",
             "address": "Cr 5 No 20 - 48, Barrio Centro",
             "lat": "7.9880813",
@@ -129,6 +135,23 @@
             ],
             "cell": [
                 "3127801190"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+5+%2320-48,+Caucasia,+Antioquia/@7.9880813,-75.1961606,17z/data=!4m17!1m7!3m6!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2sCra.+5+%2320-48,+Caucasia,+Antioquia!3b1!8m2!3d7.9880813!4d-75.1939719!4m8!1m0!1m5!1m1!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2m2!1d-75.1939719!2d7.9880813!3e3"
+        },
+        "antioquia-caucasia-02": {
+            "name": "TECNILAIR",
+            "address": "Cr 14 No. 33 - 66, Barrio el Bosque",
+            "email": "mym.fg.06@gmail.com",
+            "lat": "7.9880813",
+            "lng": "-75.1961606",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
+            ],
+            "phone": [
+                ""
+            ],
+            "cell": [
+                " 3104893867"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+5+%2320-48,+Caucasia,+Antioquia/@7.9880813,-75.1961606,17z/data=!4m17!1m7!3m6!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2sCra.+5+%2320-48,+Caucasia,+Antioquia!3b1!8m2!3d7.9880813!4d-75.1939719!4m8!1m0!1m5!1m1!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2m2!1d-75.1939719!2d7.9880813!3e3"
         },
@@ -149,7 +172,7 @@
         },
         "antioquia-rionegro": {
             "name": "CENTRAL SERVICE LH",
-            "address": "Cr 48  No 40C - 08; El Pinar",
+            "address": "Cr 48  No. 40AC - 08; El Pinar",
             "email": "centralservicelh@hotmail.com",
             "lat": "6.148225",
             "lng": "-75.3699605",
@@ -232,7 +255,7 @@
                 "8146262"
             ],
             "cell": [
-                "3053097088"
+                "3012901623"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+44+Sur+%2368g-20,+Bogot%C3%A1/@4.5980061,-74.145385,17z/data=!4m17!1m7!3m6!1s0x8e3f9edcc8112a5f:0x92513305d00d8169!2sCl.+44+Sur+%2368g-20,+Bogot%C3%A1!3b1!8m2!3d4.5980061!4d-74.1431963!4m8!1m0!1m5!1m1!1s0x8e3f9edcc8112a5f:0x92513305d00d8169!2m2!1d-74.1431963!2d4.5980061!3e3"
         },
@@ -1260,22 +1283,32 @@
                     "categories": {
                         "tecnologia-entretenimiento": {
                             "stores": [
-                                "antioquia-caucasia"
+                                "antioquia-caucasia-01"
                             ]
                         },
                         "soluciones-hogar": {
                             "stores": [
-                                "antioquia-caucasia"
+                                "antioquia-caucasia-01"
                             ]
                         },
                         "iluminacion": {
                             "stores": [
-                                "antioquia-caucasia"
+                                "antioquia-caucasia-01"
                             ]
                         },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
-                                "antioquia-caucasia"
+                                "antioquia-caucasia-01"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "antioquia-caucasia-02"
+                            ]
+                        },
+                        "linea-blanca": {
+                            "stores": [
+                                "antioquia-caucasia-02"
                             ]
                         }
                     }

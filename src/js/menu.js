@@ -1,6 +1,6 @@
 import { html } from "lit/html.js";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
-export { Menu, getFormatedPhone };
+export { Menu, getFormatedPhone, getFormatedCellphone };
 
 const _changeHandler = {
         handleEvent(e) {
