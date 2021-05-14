@@ -142,7 +142,7 @@ function getFormatedSchedule(location) {
 
 function getInfoMessage(location) {
     let message = (location.linkType !== "externo") ?
-        html`Para solicitar la garantía de su producto le agradecemos tener en cuenta las recomendaciones señaladas en el siguiente <a href="${location.link}" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>` :
+        html`Para solicitar la garantía de su producto le agradecemos tener en cuenta las recomendaciones señaladas en el siguiente <a href="https://www.alkosto.com/politicas/politicas-garantia/c/politicas-garantia" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>` :
         html`Para más información del centro de servicio por favor remitase al siguiente <a href="${location.link}" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>`;
     return html`<div class="message"><p>${message}</p></div>`;
 }
