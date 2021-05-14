@@ -2,7 +2,7 @@
 "use strict";
 module.exports = function (grunt) {
 
-    var themes = ["alkosto", "kalley"];
+    var themes = ["alkosto", "kalley", "ktronix", "alkomprar"];
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
