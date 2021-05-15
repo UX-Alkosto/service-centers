@@ -1,13 +1,13 @@
 
 "use strict";
-module.exports = function (grunt) {
+module.exports = grunt => {
 
     var themes = ["alkosto", "kalley", "ktronix", "alkomprar"];
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         clean: {
-            dist: ["dist/**/css/*", "dist/**/fonts/*"]
+            dist: ["dist/**/css/*", "dist/**/json/*"]
         },
         cssmin: {
             options: {
@@ -31,18 +31,6 @@ module.exports = function (grunt) {
                 dest: "dist"
             }
         },
-        copy: {
-            fonts: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: "src/fonts/",
-                        src: "**",
-                        dest: "dist/common/fonts"
-                    }
-                ]
-            }
-        },
         json_minification: {
             target: {
                 files: [{
@@ -50,7 +38,7 @@ module.exports = function (grunt) {
                     cwd: "src/json",
                     src: ["<%= theme %>.json"],
                     dest: "dist/<%= theme %>/json",
-                    rename: function (dest) {
+                    rename: dest => {
                         return dest + "/service-centers.json";
                     }
                 }]
@@ -78,12 +66,11 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks("grunt-contrib-clean");
-    grunt.loadNpmTasks("grunt-contrib-copy");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
     grunt.loadNpmTasks("grunt-contrib-less");
     grunt.loadNpmTasks("grunt-json-minification");
 
-    grunt.registerMultiTask("themes", "Generate styles for each site", function () {
+    grunt.registerMultiTask("themes", "Generate styles for each site", function() {
         const done = this.async();
         grunt.log.writeln("Compile less for: " + this.data);
         grunt.config("theme", this.data);
@@ -91,5 +78,5 @@ module.exports = function (grunt) {
         grunt.task.run("less");
         done();
     });
-    grunt.registerTask("default", ["clean", "copy", "themes", "cssmin"]);
+    grunt.registerTask("default", ["clean", "themes", "cssmin"]);
 };
