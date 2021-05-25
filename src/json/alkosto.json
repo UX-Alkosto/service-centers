@@ -838,6 +838,12 @@
                 "cundinamarca"
             ]
         },
+        "samsung": {
+            "name": "Samsung",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
         "samurai": {
             "name": "Samurai",
             "departments": [
@@ -6730,6 +6736,16 @@
             "type": "externo",
             "link": "https://www.samurai.com.co/expertos-en-reparacion/"
         },
+        "samsung-call-center": {
+            "name": "Samsung Call Center",
+            "phone": [
+                "018000112112"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno"
+        },
         "sandisk-linea-nacional": {
             "name": "Sandisk Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -9544,7 +9560,8 @@
                             "stores": [
                                 "challenger-call-center-02",
                                 "kalley-call-center",
-                                "lg-call-center"
+                                "lg-call-center",
+                                "samsung-call-center"
                             ]
                         },
                         "videojuegos": {

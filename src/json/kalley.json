@@ -394,16 +394,21 @@
         },
         "cundinamarca-chia": {
             "name": "ELECTRO LLAVES LIMAR",
-            "address": "Cl 9 No 10 - 52",
-            "lat": "4.8594594",
-            "lng": "-74.0632837",
+            "address": "Cl 11 No 11 - 77",
+            "email": "electrollaveslimar@gmail.com",
+            "lat": "4.8598864",
+            "lng": "-74.0602611",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 8:00 p.m",
+                "Sab de 8:30 a.m a 12:00 p.m"
+            ],
             "phone": [
                 "8631062"
             ],
             "cell": [
                 "3102309680"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+9+%23%2310-52,+Ch%C3%ADa,+Cundinamarca/@4.8594594,-74.0632837,17z/data=!4m17!1m7!3m6!1s0x8e3f878eed90f8c1:0x59b500c54ca41601!2sCl.+9+%23%2310-52,+Ch%C3%ADa,+Cundinamarca!3b1!8m2!3d4.8594594!4d-74.061095!4m8!1m0!1m5!1m1!1s0x8e3f878eed90f8c1:0x59b500c54ca41601!2m2!1d-74.061095!2d4.8594594!3e3"
+            "viewMap": "https://www.google.com/maps/search/Calle+11+%2311-77,+Ch%C3%ADa,+Cundinamarca/@4.8598864,-74.0602611,17z/data=!3m1!4b1?hl=es"
         },
         "caqueta-florencia-01": {
             "name": "TALLER EL SEGURO",
@@ -787,6 +792,23 @@
                 "3115747702"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra+36+%238-56,+Pasto,+Nari%C3%B1o/@1.2150356,-77.2924518,17z/data=!4m17!1m7!3m6!1s0x8e2ed37c26d447a9:0x5e9f0766a32bbbea!2sCra+36+%238-56,+Pasto,+Nari%C3%B1o!3b1!8m2!3d1.2150356!4d-77.2902631!4m8!1m0!1m5!1m1!1s0x8e2ed37c26d447a9:0x5e9f0766a32bbbea!2m2!1d-77.2902631!2d1.2150356!3e3"
+        },
+        "narino-pasto-04": {
+            "name": "TV ELECTRONIC`S SEDE SAN ANDRESITO",
+            "address": "C.C. San Andresito Círculo 6, Lc 28",
+            "email": "tvelectronics126@hotmail.com",
+            "lat": "1.210083",
+            "lng": "-77.2815709",
+            "schedule": [
+                "Lun a Sab de 9:00 a.m a 12:30 p.m y de 2:00 p.m a 7:00 p.m"
+            ],
+            "phone": [
+                "7228811"
+            ],
+            "cell": [
+                "3006920086"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Centro+Comercial+San+Andresito/@1.210083,-77.2815709,17z/data=!3m1!4b1!4m5!3m4!1s0x8e2ed49b4da0a9fb:0xbe16d19f75b8e08d!8m2!3d1.210083!4d-77.2793822?hl=es"
         },
         "narino-tumaco": {
             "name": "MR. ELECTRONICS",
@@ -2326,14 +2348,16 @@
                             "stores": [
                                 "narino-pasto-01",
                                 "narino-pasto-03",
-                                "narino-pasto-02"
+                                "narino-pasto-02",
+                                "narino-pasto-04"
                             ]
                         },
                         "tecnologia-entretenimiento": {
                             "stores": [
                                 "narino-pasto-01",
                                 "narino-pasto-03",
-                                "narino-pasto-02"
+                                "narino-pasto-02",
+                                "narino-pasto-04"
                             ]
                         },
                         "ferreteria": {
@@ -2344,12 +2368,14 @@
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
                                 "narino-pasto-03",
-                                "narino-pasto-02"
+                                "narino-pasto-02",
+                                "narino-pasto-04"
                             ]
                         },
                         "iluminacion": {
                             "stores": [
-                                "narino-pasto-02"
+                                "narino-pasto-02",
+                                "narino-pasto-04"
                             ]
                         }
                     }
