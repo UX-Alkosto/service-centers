@@ -70,7 +70,7 @@ export class Map {
             const marker = new google.maps.Marker({
                 position: new google.maps.LatLng(location.coordinates.lat, location.coordinates.lng),
                 map: this.map,
-                icon: `https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@latest/dist/${this.baseSite}/img/pin.svg`,
+                icon: `https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/${this.baseSite}/img/pin.svg`,
                 title: location.name
             });
             marker.addListener("click", () => {
