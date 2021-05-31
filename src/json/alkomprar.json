@@ -407,8 +407,11 @@
         "haceb": {
             "name": "Haceb",
             "departments": [
+                "antioquia",
+                "atlantico",
                 "cundinamarca",
-                "linea-nacional"
+                "linea-nacional",
+                "valle-del-cauca"
             ]
         },
         "hamilton-beach": {
@@ -4344,7 +4347,43 @@
         "haceb-bogota-call-center": {
             "name": "Haceb Bogotá Call Center",
             "phone": [
-                "8295758"
+                "4897979"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
+        },
+        "haceb-barranquilla-call-center": {
+            "name": "Haceb Barranquilla Call Center",
+            "phone": [
+                "3110000"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
+        },
+        "haceb-cali-call-center": {
+            "name": "Haceb Cali Call Center",
+            "phone": [
+                "3860090"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
+        },
+        "haceb-medellin-call-center": {
+            "name": "Haceb Medellín Call Center",
+            "phone": [
+                "2552100"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
@@ -8007,6 +8046,7 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-medellin-call-center",
+                                "haceb-medellin-call-center",
                                 "whirlpool-medellin"
                             ]
                         },
@@ -8124,6 +8164,7 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-barranquilla-call-center",
+                                "haceb-barranquilla-call-center",
                                 "whirlpool-barranquilla"
                             ]
                         },
@@ -9232,6 +9273,7 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-cali-call-center",
+                                "haceb-cali-call-center",
                                 "whirlpool-cali-01",
                                 "whirlpool-cali-02"
                             ]
