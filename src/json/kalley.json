@@ -1,10 +1,19 @@
 {
     "categories": {
+        "accesorios": {
+            "name": "Accesorios"
+        },
         "accesorios-videojuegos": {
             "name": "Accesorios y videojuegos"
         },
+        "aires-acondicionados":{
+            "name": "Aires acondicionados"
+        },
         "cuidado-personal-soluciones-hogar": {
             "name": "Cuidado personal y soluciones de hogar"
+        },
+        "dispensadores":{
+            "name": "Dispensadores"
         },
         "grandes-electrodomesticos": {
             "name": "Grandes electrodomésticos"
@@ -12,11 +21,23 @@
         "ferreteria": {
             "name": "Ferretería"
         },
+        "home-kalley": {
+            "name": "Home Kalley"
+        },
         "iluminacion": {
             "name": "Iluminación"
         },
         "linea-blanca": {
             "name": "Linea blanca"
+        },
+        "pequenos-electrodomesticos": {
+            "name": "Pequeños electrodomésticos"
+        },
+        "refrigeracion": {
+            "name": "Refrigeración"
+        },
+        "smart-home-menores": {
+            "name": "Smart home menores"
         },
         "soluciones-hogar": {
             "name": "Soluciones hogar"
@@ -269,15 +290,41 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Calle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1/@4.5810705,-74.1624395,17z/data=!4m17!1m7!3m6!1s0x8e3f9f0526bb755d:0xc647039746903fae!2sCalle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1!3b1!8m2!3d4.5810705!4d-74.1602508!4m8!1m0!1m5!1m1!1s0x8e3f9f0526bb755d:0xc647039746903fae!2m2!1d-74.1602508!2d4.5810705!3e3"
         },
-        "bogota-04": {
-            "name": "INDUSERVIX SOLUTION S.A.S",
-            "address": "Cr 20B No 74 - 22",
-            "lat": "4.6628143",
-            "lng": "-74.0648967",
-            "cell": [
-                "3165297906"
+        "bogota-05": {
+            "name": "Quality & Service S.A.S - Sede Sur",
+            "address": "Cl 31 Sur No. 50A-79",
+            "email": "info@qualityandservice.co",
+            "lat": "4.6011046",
+            "lng": "-74.1267243",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
             ],
-            "viewMap": "https://www.google.com/maps/place/Cra.+20b+%23%2374-22,+Bogot%C3%A1/@4.6628143,-74.0648967,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a59a22cb76f:0xfdf8bbdf4810ca66!8m2!3d4.662809!4d-74.062708?hl=es"
+            "phone": [
+                "9370771"
+            ],
+            "cell": [
+                "3017887642"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Cl.+31+Sur+%2350a-79,+Bogot%C3%A1/@4.6011046,-74.1267243,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9eccd31f6659:0x39ef7aa4efde845c!8m2!3d4.6010993!4d-74.1245356?hl=es"
+        },
+        "bogota-06": {
+            "name": "Quality & Service S.A.S - Sede Chapinero",
+            "address": "Cr 18 No. 51-78",
+            "email": "infochapinero@qualityandservice.co",
+            "lat": "4.6397977",
+            "lng": "-74.0723116",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "phone": [
+                "9370771"
+            ],
+            "cell": [
+                "3017887642"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Cra.+18+%2351-78,+Bogot%C3%A1/@4.6397977,-74.0723116,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a316e181f81:0x26052ce617670587!8m2!3d4.6397924!4d-74.0701229?hl=es"
         },
         "bolivar-cartagena-01": {
             "name": "S.T.E. SERVICE S.A.S. CARTAGENA",
@@ -511,6 +558,21 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+6+%2335-73,+Monter%C3%ADa,+C%C3%B3rdoba/@8.7587926,-75.8829628,17z/data=!4m17!1m7!3m6!1s0x8e5a2fe919442aa9:0xf2cf749662c32c31!2zQ3JhLiA2ICMzNS03MywgTW9udGVyw61hLCBDw7NyZG9iYQ!3b1!8m2!3d8.7587926!4d-75.8807741!4m8!1m0!1m5!1m1!1s0x8e5a2fe919442aa9:0xf2cf749662c32c31!2m2!1d-75.8807741!2d8.7587926!3e3"
         },
+        "cordoba-montelibano": {
+            "name": "Electronica Moderna",
+            "address": "Cr 8 No. 15A-12, Barrio Tierra Grata",
+            "email": "electromodernamontelibano@gmail.com",
+            "lat": "7.9803094",
+            "lng": "-75.4206136",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "cell": [
+                "3145609795"
+            ],
+            "viewMap": "https://www.google.com/maps/search/Carrera+8+%23no.+15a-12,+Montel%C3%ADbano,+C%C3%B3rdoba/@7.9803094,-75.4206136,17z/data=!3m1!4b1?hl=es"
+        },
         "cordoba-planetarica": {
             "name": "SETEL AD",
             "address": "Cr 4F No 14 - 06, La Inmaculada",
@@ -618,6 +680,24 @@
                 "3137922605"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+7+%2324-80,+Quibd%C3%B3,+Choc%C3%B3/@5.6885616,-76.660028,17z/data=!4m17!1m7!3m6!1s0x8e44297682201b1f:0x20323088bfa7ca0b!2zQ3JhLiA3ICMyNC04MCwgUXVpYmTDsywgQ2hvY8Oz!3b1!8m2!3d5.6885616!4d-76.6578393!4m8!1m0!1m5!1m1!1s0x8e44297682201b1f:0x20323088bfa7ca0b!2m2!1d-76.6578393!2d5.6885616!3e3"
+        },
+        "guajira-rioacha": {
+            "name": "López Digital",
+            "address": "Cl 33 No. 12C-08",
+            "email": "csald68@gmail.com",
+            "lat": "11.543884",
+            "lng": "-72.9222954",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 5:30 p.m",
+                "Sab de 8:30 a.m a 12:00 p.m"
+            ],
+            "phone": [
+                "7301346"
+            ],
+            "cell": [
+                "3234677676"
+            ],
+            "viewMap": "https://www.google.com/maps/search/Cl.+33+%23no.+12c-08,+Riohacha,+La+Guajira/@11.543884,-72.9222954,17z/data=!3m1!4b1?hl=es"
         },
         "huila-garzon": {
             "name": "ELECTRÓNICAS AUDIO Y COLOR",
@@ -1147,16 +1227,21 @@
         },
         "valle-cauca-cali-05": {
             "name": "CENTRO TECNOLOGICO DIGITAL SEDE SUR",
-            "address": "Cr 53A No 5 - 49, Lc 46",
-            "lat": "3.4113333",
-            "lng": "-76.5490021",
+            "address": "Cl 6 No. 52A-49, CC Rapisur Lc 10 Nueva Tequendama",
+            "email": "ingenieria@centroautorizado.com.co",
+            "lat": "3.4120971",
+            "lng": "-76.5495168",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 4:00 p.m"
+            ],
             "phone": [
                 "5240263"
             ],
             "cell": [
                 "3172205902"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+53a+%235-24,+Cali,+Valle+del+Cauca/@3.4113333,-76.5490021,17z/data=!4m17!1m7!3m6!1s0x8e30a6a9b06481c5:0x384acce93bfc166f!2sCra.+53a+%235-24,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4113333!4d-76.5468134!4m8!1m0!1m5!1m1!1s0x8e30a6a9b06481c5:0x384acce93bfc166f!2m2!1d-76.5468134!2d3.4113333!3e3"
+            "viewMap": "https://www.google.com/maps/place/Rapisur/@3.4120971,-76.5495168,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6a84a6523d5:0x6b494414ab76e09e!8m2!3d3.4120917!4d-76.5473281?hl=es"
         },
         "valle-cauca-cali-06": {
             "name": "CENTRO TÉCNICO ESPECIALIZADO S.A.S.",
@@ -2000,6 +2085,52 @@
                         }
                     }
                 },
+                "montelibano":{
+                    "areaCode": 4,
+                    "name": "Montelibano",
+                    "categories":{
+                        "accesorios":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "dispensadores":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "ferreteria":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "home-kalley":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "iluminacion":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "pequenos-electrodomesticos":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "smart-home-menores":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        },
+                        "tecnologia-entretenimiento":{
+                            "stores":[
+                                "cordoba-montelibano"
+                            ]
+                        }
+                    }
+                },
                 "planeta-rica": {
                     "areaCode": 4,
                     "name": "Planeta Rica",
@@ -2041,40 +2172,148 @@
                     "areaCode": 1,
                     "name": "Bogotá D.C.",
                     "categories": {
+                        "accesorios": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
-                                "bogota-04",
-                                "bogota-03",
+                                "bogota-01",
                                 "bogota-02",
-                                "bogota-01"
+                                "bogota-03"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
                             ]
                         },
                         "ferreteria": {
                             "stores": [
-                                "bogota-04",
-                                "bogota-02"
+                                "bogota-02",
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        },
+                        "home-kalley": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
                             ]
                         },
                         "iluminacion": {
                             "stores": [
-                                "bogota-02",
-                                "bogota-04"
+                                "bogota-02"
+                            ]
+                        },
+                        "linea-blanca":{
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores":[
+                                "bogota-05",
+                                "bogota-06"
                             ]
                         },
                         "soluciones-hogar": {
                             "stores": [
-                                "bogota-04",
-                                "bogota-03",
+                                "bogota-01",
                                 "bogota-02",
-                                "bogota-01"
+                                "bogota-03"
                             ]
                         },
                         "tecnologia-entretenimiento": {
                             "stores": [
-                                "bogota-04",
-                                "bogota-03",
+                                
+                                "bogota-01",
                                 "bogota-02",
-                                "bogota-01"
+                                "bogota-03",
+                                "bogota-05",
+                                "bogota-06"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "guajira":{
+            "name": "Guajira",
+            "cities":{
+                "rioacha":{
+                    "areaCode": 5,
+                    "name": "Rioacha",
+                    "categories":{
+                        "accesorios":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "aires-acondicionados":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "dispensadores":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "ferreteria":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "home-kalley":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "iluminacion":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "linea-blanca":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "pequenos-electrodomesticos":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "refrigeracion":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "smart-home-menores":{
+                            "stores":[
+                                "guajira-rioacha"
+                            ]
+                        },
+                        "tecnologia-entretenimiento":{
+                            "stores":[
+                                "guajira-rioacha"
                             ]
                         }
                     }
@@ -2790,15 +3029,30 @@
                     "areaCode": 2,
                     "name": "Cali",
                     "categories": {
+                        "accesorios":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
+                        "aires-acondicionados":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
-                                "valle-cauca-cali-07",
-                                "valle-cauca-cali-03",
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-02",
-                                "valle-cauca-cali-06",
+                                "valle-cauca-cali-03",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-05",
-                                "valle-cauca-cali-01"
+                                "valle-cauca-cali-06",
+                                "valle-cauca-cali-07"
+                            ]
+                        },
+                        "dispensadores":{
+                            "stores":[
+                                "valle-cauca-cali-05"
                             ]
                         },
                         "ferreteria": {
@@ -2806,23 +3060,48 @@
                                 "valle-cauca-cali-07"
                             ]
                         },
+                        "home-kalley":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
+                        "linea-blanca":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
+                        "pequenos-electrodomesticos":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
+                        "refrigeracion":{
+                            "stores":[
+                                "valle-cauca-cali-05"
+                            ]
+                        },
                         "soluciones-hogar": {
                             "stores": [
-                                "valle-cauca-cali-07",
-                                "valle-cauca-cali-03",
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-02",
-                                "valle-cauca-cali-06",
+                                "valle-cauca-cali-03",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-05",
-                                "valle-cauca-cali-01"
+                                "valle-cauca-cali-06",
+                                "valle-cauca-cali-07"
+                            ]
+                        },
+                        "smart-home-menores":{
+                            "stores":[
+                                "valle-cauca-cali-05"
                             ]
                         },
                         "tecnologia-entretenimiento": {
                             "stores": [
-                                "valle-cauca-cali-06",
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-05",
-                                "valle-cauca-cali-01"
+                                "valle-cauca-cali-06"
                             ]
                         }
                     }
