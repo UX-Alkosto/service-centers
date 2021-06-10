@@ -72,11 +72,11 @@ class Menu {
                 @click=${_bodyClickHandler} @mouseenter=${_mouseEnterHandler}
                 @mouseleave=${_mouseLeaveHandler}>
                 ${this.serviceCenter.address.length ? html`<div class="address">
-                    <p><strong><i class="alk-icon-rounded-position"></i> Dirección:</strong>
+                    <p><strong><i class="alk-icon-llegada-ciudad"></i> Dirección:</strong>
                         ${unsafeHTML(this.serviceCenter.address)}</p>
                 </div>` : ""}
                 ${this.serviceCenter.email.length ? html`<div class="email">
-                    <p><strong><i class="alk-icon-email1"></i> Email:</strong>
+                    <p><strong><i class="alk-icon-email"></i> Email:</strong>
                         <a href="mailto:${this.serviceCenter.email}">${this.serviceCenter.email}</a>
                     </p>
                 </div>` : ""}
