@@ -7,9 +7,9 @@ const _changeHandler = {
             document.querySelectorAll(".service-centers__menu__item > input").forEach(otherMenuItem => {
                 const icon = otherMenuItem.nextElementSibling.querySelector("span");
                 if (e.target === otherMenuItem) {
-                    icon?.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
+                    icon?.classList.replace("alk-icon-abajo", "alk-icon-arriba");
                 } else {
-                    icon?.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+                    icon?.classList.replace("alk-icon-arriba", "alk-icon-abajo");
                 }
             });
         },
@@ -64,7 +64,7 @@ class Menu {
             <label for="${this.serviceCenter.id}">
                 ${unsafeHTML(this.serviceCenter.name)}
                 <span class="${this.serviceCenter.active ?
-                    "alk-icon-arrow-up" : "alk-icon-arrow-down"}"></span>
+                    "alk-icon-arriba" : "alk-icon-abajo"}"></span>
             </label>
             <div class="service-centers__menu__item__body"
                 data-call-center="${this.serviceCenter.isCallCenter}"

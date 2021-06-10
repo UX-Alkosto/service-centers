@@ -56,7 +56,7 @@ function initSelect(select) {
     select.customElement.append(select.labelElement);
 
     const arrowIcon = document.createElement("span");
-    arrowIcon.classList.add("alk-icon-arrow-down");
+    arrowIcon.classList.add("alk-icon-abajo");
     select.arrowElement.append(arrowIcon);
     select.arrowElement.classList.add("custom-select__arrow");
     select.customElement.append(select.arrowElement);
@@ -82,7 +82,7 @@ function initSelect(select) {
     select.valueElement.addEventListener("click", () => showOptions(select));
 
     select.customElement.addEventListener("blur", () => {
-        select.arrowElement.querySelector("span").classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+        select.arrowElement.querySelector("span").classList.replace("alk-icon-arriba", "alk-icon-abajo");
         select.optionsCustomElement.classList.remove("show");
     });
 }
@@ -90,10 +90,10 @@ function initSelect(select) {
 function showOptions(select) {
     if (select.customElement.classList.contains("disabled")) return;
     const icon = select.arrowElement.querySelector("span");
-    if (icon.classList.contains("alk-icon-arrow-down"))
-        icon.classList.replace("alk-icon-arrow-down", "alk-icon-arrow-up");
+    if (icon.classList.contains("alk-icon-abajo"))
+        icon.classList.replace("alk-icon-abajo", "alk-icon-arriba");
     else
-        icon.classList.replace("alk-icon-arrow-up", "alk-icon-arrow-down");
+        icon.classList.replace("alk-icon-arriba", "alk-icon-abajo");
 
     select.optionsCustomElement.classList.toggle("show");
 }
