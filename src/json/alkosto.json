@@ -1264,12 +1264,11 @@
                 "2634067"
             ],
             "cell": [
-                "3142386245",
-                "3133525212"
+                "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sáb de 8:00 a.m a 2:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sáb de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://latin.aoc.com/co/service_centers",
@@ -3346,7 +3345,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://challenger.com.co/servicio-tecnico/",
@@ -3446,16 +3445,14 @@
             "lng": "-74.1231182",
             "phone": [
                 "8054217",
-                "2635699",
-                "2634067",
-                "8054217"
+                "2634067"
             ],
             "cell": [
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
@@ -3631,7 +3628,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.dell.com/support/home/es-co/servicecenter"
@@ -3873,7 +3870,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.electrolux.com.co/visita-tecnica"
@@ -4304,7 +4301,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "interno"
         },
@@ -4350,8 +4347,8 @@
                 "4897979"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
@@ -4362,8 +4359,8 @@
                 "3110000"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
@@ -4374,8 +4371,8 @@
                 "3860090"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
@@ -4386,8 +4383,8 @@
                 "2552100"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://servicio.haceb.com/centros-servicio-tecnicono"
@@ -4411,16 +4408,14 @@
             "lng": "-74.1231182",
             "phone": [
                 "8054217",
-                "2635699",
-                "2634067",
-                "8054217"
+                "2634067"
             ],
             "cell": [
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
@@ -4462,16 +4457,14 @@
             "lng": "-74.1231182",
             "phone": [
                 "8054217",
-                "2635699",
-                "2634067",
-                "8054217"
+                "2634067"
             ],
             "cell": [
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m - 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m - 1:00 p.m"
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
@@ -4523,16 +4516,14 @@
             "lng": "-74.1231182",
             "phone": [
                 "8054217",
-                "2635699",
-                "2634067",
-                "8054217"
+                "2634067"
             ],
             "cell": [
                 "3142386245"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "http://hyundaielectronics.com.co/centros-de-servicio",
@@ -5225,8 +5216,8 @@
                 "018000910683"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab y Dom de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab y Dom de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.lg.com/co/soporte/localizar-centro-de-reparacion",
@@ -5764,7 +5755,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 7:30 a.m a 12:30 p.m y de 1:30 p.m a 5:30 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.panasonic.com/co/soporte/centros-de-servicio-autorizado.html",
@@ -6934,7 +6925,7 @@
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
@@ -7544,7 +7535,7 @@
             "lng": "-75.5149964",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:30 p.m",
-                "Sab de 8:0 a.m a 12:00 p.m"
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Tigo+Une,+Carrera+22+%2329-29+Local+B+3E,+Centro,+Manizales,+Caldas/@5.0681915,-75.5149964,17z/data=!4m16!1m6!3m5!1s0x8e476ff11c91d9ef:0x2bf3b3e1a359f97d!2sTigo+Une!8m2!3d5.0681915!4d-75.5128077!4m8!1m0!1m5!1m1!1s0x8e476ff11c91d9ef:0x2bf3b3e1a359f97d!2m2!1d-75.5128077!2d5.0681915!3e2"
