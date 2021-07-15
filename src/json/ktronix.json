@@ -331,6 +331,7 @@
         "epson": {
             "name": "Epson",
             "departments": [
+                "caldas",
                 "cundinamarca",
                 "linea-nacional"
             ]
@@ -4190,6 +4191,22 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Av.+Boyac%C3%A1+%236b-58,+Bogot%C3%A1/@4.6321101,-74.1374658,17z/data=!4m17!1m7!3m6!1s0x8e3f9c1ceb3acee9:0x713abb65688a9bb3!2zQXYuIEJveWFjw6EgIzZiLTU4LCBCb2dvdMOh!3b1!8m2!3d4.6320957!4d-74.1374251!4m8!1m0!1m5!1m1!1s0x8e3f9c1ceb3acee9:0x713abb65688a9bb3!2m2!1d-74.1374251!2d4.6320957!3e2"
         },
+        "epson-manizales": {
+            "name": "IT CENTER",
+            "address": "Cr 23C No. 69-37, Barrio La Camelia",
+            "lat": "5.0521911",
+            "lng": "-75.4878105",
+            "phone": [
+                "8874800",
+                "8874808"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/place/Cra.+23c+%2369-37,+Manizales,+Caldas/@5.0521911,-75.4878105,17z/data=!3m1!4b1!4m5!3m4!1s0x8e47657995d36231:0xcf41668dae4a6131!8m2!3d5.0521858!4d-75.4856218?hl=es"
+        },
         "espumados-call-center": {
             "name": "Espumados Call Center",
             "phone": [
@@ -4800,8 +4817,8 @@
                 "018000524065"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio"
@@ -4819,8 +4836,8 @@
                 "3017863572"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4841,8 +4858,8 @@
                 "3207027258"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 2:30 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4860,8 +4877,8 @@
                 "3014995879"
             ],
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 1:00 p.m y de 2:00 p.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4880,8 +4897,8 @@
                 "3012901623"
             ],
             "schedule": [
-                "Lun a Vie de 8:30 a 1:00 y de 2:00 p.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m"
+                "Lun a Vie de 8:00 a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4900,8 +4917,8 @@
                 "3103497546"
             ],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "ttps://www.kalley.com.co/centros-de-servicio",
@@ -4919,8 +4936,8 @@
                 "3192741647"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 2:00 p.m"
+                "Lun a Vie de 8:00 a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4939,8 +4956,8 @@
                 "3012851485"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4958,8 +4975,8 @@
                 "3148923227"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4979,7 +4996,8 @@
                 "3173833633"
             ],
             "schedule": [
-                "Lun a Sab de 9:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -4998,8 +5016,8 @@
                 "3172205902"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 3:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -5015,8 +5033,8 @@
                 "3222794545"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -5032,8 +5050,8 @@
                 "3222605953"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.kalley.com.co/centros-de-servicio",
@@ -8292,7 +8310,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-manizales-call-center"
+                                "dell-manizales-call-center",
+                                "epson-manizales"
                             ]
                         },
                         "impresoras": {

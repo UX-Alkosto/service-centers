@@ -136,6 +136,20 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-33,+Apartad%C3%B3,+Antioquia/@7.8806813,-76.6336783,17z/data=!4m17!1m7!3m6!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2sCra.+98+%2396-33,+Apartad%C3%B3,+Antioquia!3b1!8m2!3d7.8806813!4d-76.6314896!4m8!1m0!1m5!1m1!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2m2!1d-76.6314896!2d7.8806813!3e3"
         },
+        "antioquia-apartado-03": {
+            "name": "SERVICIOS TÉCNICOS MI HOGAR",
+            "address": "Cr 105 No 104 - 12, Barrio Simón Bolívar",
+            "email": "servitecmihogar@gmail.com",
+            "lat": "7.8861581",
+            "lng": "-76.6353399",
+            "schedule": [
+                "Lun a Sab de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
+            ],
+            "cell": [
+                "3043811964"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Cra.+105+%23104-12,+Apartad%C3%B3,+Antioquia/@7.8861581,-76.6353399,17z/data=!4m5!3m4!1s0x8e500d64fad32d0b:0xe2ac464026fdb146!8m2!3d7.8861528!4d-76.6331512?hl=es"
+        },
         "antioquia-bello": {
             "name": "ALMACEN Y CENTRO DE REPARACIÓN LA SOLUCIÓN",
             "address": "Cr 50 No 46 - 107",
@@ -644,16 +658,21 @@
         },
         "cesar-valledupar-01": {
             "name": "S.T.E. SERVICE S.A.S.",
-            "address": "Cr 10 No 18 - 36, Barrio Gaitán",
-            "lat": "10.4713744",
-            "lng": "-73.2479842",
+            "address": "Cr 11 No 13 - 20, Barrio Obrero",
+            "email": "stevalledupar@gmail.com",
+            "lat": "10.4785641",
+            "lng": "-73.2515183",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
             "phone": [
                 "5742323"
             ],
             "cell": [
                 "3188326312"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+10+%2318-36,+Valledupar,+Cesar/@10.4713744,-73.2479842,17z/data=!4m17!1m7!3m6!1s0x8e8ab9b0a3b7af75:0x7c2b4227251dfb7!2sCra.+10+%2318-36,+Valledupar,+Cesar!3b1!8m2!3d10.4713744!4d-73.2457955!4m8!1m0!1m5!1m1!1s0x8e8ab9b0a3b7af75:0x7c2b4227251dfb7!2m2!1d-73.2457955!2d10.4713744!3e3"
+            "viewMap": "https://www.google.com/maps/dir//Cra.+11+%2313-20,+Valledupar,+Cesar/@10.4785641,-73.253707,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e8ab9b5bd629ce5:0x685d6b3aa3d27418!2m2!1d-73.2515183!2d10.4785588?hl=es"
         },
         "cesar-valledupar-02": {
             "name": "SERVIMASTER C.S.A.",
@@ -946,6 +965,20 @@
                 "3184413589"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
+        },
+        "putumayo-mocoa": {
+            "name": "MUNDO ANDROID",
+            "address": "Av Colombia, Esquina Entrada MACDI",
+            "email":"tecycel@gmail.com",
+            "lat": "1.1523619",
+            "lng": "-76.6598098",
+            "schedule":[
+                "Lun a Sab de 8:00 a.m a 12:20 p.m y de 2:00 p.m a 6:00 p.m"
+            ],
+            "cell": [
+                "3136228230"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+23+%2310-77,+Puerto+As%C3%ADs,+Putumayo/@0.4959278,-76.5032099,17z/data=!4m17!1m7!3m6!1s0x8e2878df13377835:0xc650fc7343dc8d54!2sCra.+23+%2310-77,+Puerto+As%C3%ADs,+Putumayo!3b1!8m2!3d0.4959278!4d-76.5010212!4m8!1m0!1m5!1m1!1s0x8e2878df13377835:0xc650fc7343dc8d54!2m2!1d-76.5010212!2d0.4959278!3e3"
         },
         "putumayo-puertoasis": {
             "name": "ELECTRONICA Y TECNOLOGIA EDINSON",
@@ -1508,15 +1541,35 @@
                     "areaCode": 4,
                     "name": "Apartadó",
                     "categories": {
+                        "aires-acondicionados":{
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
                                 "antioquia-apartado-01",
                                 "antioquia-apartado-02"
                             ]
                         },
+                        "ferreteria":{
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
                         "iluminacion": {
                             "stores": [
                                 "antioquia-apartado-02"
+                            ]
+                        },
+                        "linea-blanca": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "pequenos-electrodomesticos":{
+                            "stores": [
+                                "antioquia-apartado-03"
                             ]
                         },
                         "soluciones-hogar": {
@@ -1996,15 +2049,55 @@
                     "areaCode": 5,
                     "name": "Valledupar",
                     "categories": {
+                        "accesorios":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ]   
+                        },
+                        "aires-acondicionados":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ] 
+                        }, 
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
                                 "cesar-valledupar-02"
                             ]
                         },
+                        "dispensadores":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ] 
+                        },
+                        "home-kalley":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ] 
+                        },
                         "iluminacion": {
                             "stores": [
                                 "cesar-valledupar-02"
                             ]
+                        },
+                        "linea-blanca": {
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ]
+                        },
+                        "refrigeracion":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ]
+                        },
+                        "smart-home-menores":{
+                            "stores": [
+                                "cesar-valledupar-01"
+                            ] 
                         },
                         "soluciones-hogar": {
                             "stores": [
@@ -2691,6 +2784,47 @@
         "putumayo": {
             "name": "Putumayo",
             "cities": {
+                "mocoa": {
+                    "areaCode": 8,
+                    "name": "Mocoa",
+                    "categories": {
+                        "accesorios":{
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "home-kalley":{
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "iluminacion":{
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "linea-blanca":{
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "smart-home-menores":{
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        },
+                        "tecnologia-entretenimiento": {
+                            "stores": [
+                                "putumayo-mocoa"
+                            ]
+                        }
+                    }
+                },
                 "puerto-asis": {
                     "areaCode": 8,
                     "name": "Puerto Asís",
