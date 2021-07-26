@@ -10,7 +10,7 @@
     "@rollup/plugin-commonjs": "^19.0.1",
     "@rollup/plugin-node-resolve": "^13.0.2",
     "autoprefixer": "^10.3.1",
-    "cssnano": "^5.0.6",
+    "cssnano": "^5.0.7",
     "eslint": "^7.31.0",
     "grunt": "^1.4.1",
     "grunt-contrib-clean": "^2.0.0",
