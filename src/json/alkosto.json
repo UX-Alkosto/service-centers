@@ -154,6 +154,13 @@
                 "valle-del-cauca"
             ]
         },
+        "bullet": {
+            "name": "Bullet",
+            "departments": [
+                "cundinamarca",
+                "linea-nacional"
+            ]
+        },
         "claro": {
             "name": "C.A.V CLARO",
             "departments": [
@@ -168,22 +175,6 @@
                 "santander",
                 "sucre",
                 "valle-del-cauca"
-            ]
-        },
-        "movistar": {
-            "name": "C.E Movistar",
-            "departments": [
-                "antioquia",
-                "atlantico",
-                "boyaca",
-                "caldas",
-                "casanare",
-                "cundinamarca",
-                "meta",
-                "risaralda",
-                "santander",
-                "sucre",
-                "valle-del-cauca"  
             ]
         },
         "canon": {
@@ -509,6 +500,13 @@
                 "linea-nacional"
             ]
         },
+        "irobot": {
+            "name": "IROBOT",
+            "departments": [
+                "cundinamarca",
+                "linea-nacional"
+            ]
+        },
         "jabra": {
             "name": "JABRA",
             "departments": [
@@ -669,6 +667,22 @@
                 "linea-nacional"
             ]
         },
+        "movistar": {
+            "name": "C.E Movistar",
+            "departments": [
+                "antioquia",
+                "atlantico",
+                "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"  
+            ]
+        },
         "msi": {
             "name": "MSI",
             "departments": [
@@ -709,6 +723,13 @@
             "name": "Nokia",
             "departments": [
                 "cundinamarca"
+            ]
+        },
+        "nutribullet": {
+            "name": "Nutribullet",
+            "departments": [
+                "cundinamarca",
+                "linea-nacional"
             ]
         },
         "oster": {
@@ -2267,6 +2288,33 @@
             "type": "externo",
             "link": "https://latinamerica.brother.com/donde-comprar"
         },
+        "bullet-bogota": {
+            "name": "Bullet Almacén Casamagna",
+            "address": "Cr 19 No. 93-19",
+            "lat": "4.6785302",
+            "lng": "-74.0548858",
+            "phone": [
+                "6363880",
+                "018000113880"
+            ],
+            "cell": [
+                "3148880020"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 3:30 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://www.google.com/maps/place/Casa+Magna+La+93/@4.6785302,-74.0548858,15z/data=!4m5!3m4!1s0x0:0x2a1272fe80a799f3!8m2!3d4.678522!4d-74.0548701"
+        },
+        "bullet-linea-nacional": {
+            "name": "Bullet Alkosto/Ktronix",
+            "address": "Almacén donde realizó la compra",
+            "schedule": [
+                "Dom a Dom de 8:00 a.m 9:00 p.m"
+            ],
+            "type": "interno"
+        },
         "claro-barranquilla-01": {
             "name": "C.A.V Claro Prado",
             "address": "Cr 59 No. 70-45",
@@ -2671,537 +2719,6 @@
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Claro+Yopal+-+Centro+de+Atenci%C3%B3n+y+Ventas,+Cra.+22+%239-44,+Yopal,+Casanare/@5.3483124,-72.3994877,18z/data=!4m16!1m6!3m5!1s0x8e6b0c496510a199:0xa5d2448c84ccaa8b!2sClaro+Yopal+-+Centro+de+Atenci%C3%B3n+y+Ventas!8m2!3d5.3483124!4d-72.3983934!4m8!1m0!1m5!1m1!1s0x8e6b0c496510a199:0xa5d2448c84ccaa8b!2m2!1d-72.3983934!2d5.3483124!3e2"
-        },
-        "movistar-barranquilla-01": {
-            "name": "Barranquilla Estadio",
-            "address": "Cl 74 No. 45-91",
-            "lat": "10.9953405",
-            "lng": "-74.8101096",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+Estadio+Barranquilla,+Cl.+74+%23%234591,+Barranquilla,+Atl%C3%A1ntico/@10.9953405,-74.8101096,17z/data=!4m16!1m6!3m5!1s0x8ef42d0b8e9f7985:0x5d406466d484b5e3!2sMovistar+Centro+De+Experiencia+Estadio+Barranquilla!8m2!3d10.9953405!4d-74.8079209!4m8!1m0!1m5!1m1!1s0x8ef42d0b8e9f7985:0x5d406466d484b5e3!2m2!1d-74.8079209!2d10.9953405!3e2"
-        },
-        "movistar-barranquilla-02": {
-            "name": "Barranquilla La Granja",
-            "address": "Cl 30 No. 1-295",
-            "lat": "10.9340291",
-            "lng": "-74.7953201",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Barranquilla+La+Granja,+Calle+30+No.+1+-+295+Barrio,+Barranquilla,+La+Granja,+Atl%C3%A1ntico/@10.9340291,-74.7953201,16z/data=!4m16!1m6!3m5!1s0x0:0x59fed67574e4296!2sMovistar+Barranquilla+La+Granja!8m2!3d10.9368966!4d-74.782172!4m8!1m0!1m5!1m1!1s0x8ef5d2a72eaf7627:0x59fed67574e4296!2m2!1d-74.7821721!2d10.9368968!3e2"
-        },
-        "movistar-barranquilla-03": {
-            "name": "Barranquilla Prado",
-            "address": "Cr 54 No. 72-14",
-            "lat": "10.9992368",
-            "lng": "-74.8037543",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Prado+Barranquilla,+Cra.+54+%237214,+Barranquilla,+Atl%C3%A1ntico/@10.9992368,-74.8037543,17z/data=!4m16!1m6!3m5!1s0x8ef42d9fde0ef649:0x11669915fddacbfe!2sMovistar+Prado+Barranquilla!8m2!3d10.9992368!4d-74.8015656!4m8!1m0!1m5!1m1!1s0x8ef42d9fde0ef649:0x11669915fddacbfe!2m2!1d-74.8015656!2d10.9992368!3e2"
-        },
-        "movistar-bogota-01": {
-            "name": "Movistar Av Suba",
-            "address": "Trv 60 No. 128-94/98",
-            "lat": "4.7065966",
-            "lng": "-74.0800497",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 5:30 p.m",
-                "Sab de 9:00 a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Pagos+y+Servicios,+Av+Suba+%23No.+128+-+94%2F98,+Bogot%C3%A1/@4.7065966,-74.0800497,15z/data=!4m16!1m6!3m5!1s0x8e3f85288c43dc6d:0x551df7b79532c99b!2sMovistar+Centro+de+Pagos+y+Servicios!8m2!3d4.7157885!4d-74.0729175!4m8!1m0!1m5!1m1!1s0x8e3f85288c43dc6d:0x551df7b79532c99b!2m2!1d-74.0729175!2d4.7157885!3e2"
-        },
-        "movistar-bogota-02": {
-            "name": "Movistar Cl 103",
-            "address": "Cr 15 No. 103-25",
-            "lat": "4.6882679",
-            "lng": "-74.0496947",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Experiencia+Calle+103+Bogot%C3%A1,+Ak.+15+%23%23103-25,+Bogot%C3%A1/@4.6882679,-74.0496947,17z/data=!4m16!1m6!3m5!1s0x8e3f9abdd4139b6d:0xaaf62f29e72ce1c6!2sMovistar+Centro+de+Experiencia+Calle+103+Bogot%C3%A1!8m2!3d4.6882679!4d-74.047506!4m8!1m0!1m5!1m1!1s0x8e3f9abdd4139b6d:0xaaf62f29e72ce1c6!2m2!1d-74.047506!2d4.6882679!3e2"
-        },
-        "movistar-bogota-03": {
-            "name": "Movistar Cl 26",
-            "address": "Cl 26 No 32A-33, Edificio Tacay, Lc 102",
-            "lat": "4.6292751",
-            "lng": "-74.0849535",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Calle+26,+Calle+26+No.+32A+-+33+Edificio+Tacay+Local+102,+Bogot%C3%A1/@4.6292751,-74.0849535,17z/data=!4m16!1m6!3m5!1s0x8e3f9bc1576d4ced:0x15e1e93d9af7d9dc!2sMovistar+Bogot%C3%A1+Calle+26!8m2!3d4.6292751!4d-74.0827648!4m8!1m0!1m5!1m1!1s0x8e3f9bc1576d4ced:0x15e1e93d9af7d9dc!2m2!1d-74.0827648!2d4.6292751!3e2"
-        },
-        "movistar-bogota-04": {
-            "name": "Movistar Cedritos",
-            "address": "Cl 140 No. 12-81",
-            "lat": "4.7199827",
-            "lng": "-74.0407013",
-            "schedule": [
-                "Lun a Vie de 9:30 a 6:00 p.m",
-                "Sab de 9:30 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+Cedritos+Bogot%C3%A1,+Cl.+140+%23%2312-81,+Bogot%C3%A1/@4.7199827,-74.0407013,17z/data=!4m16!1m6!3m5!1s0x8e3f855b83467a2b:0x703a84be67d98424!2sMovistar+Centro+De+Experiencia+Cedritos+Bogot%C3%A1!8m2!3d4.7199827!4d-74.0385126!4m8!1m0!1m5!1m1!1s0x8e3f855b83467a2b:0x703a84be67d98424!2m2!1d-74.0385126!2d4.7199827!3e2"
-        },
-        "movistar-bogota-05": {
-            "name": "Movistar Centro Mayor",
-            "address": "Cr 27 Sur No. 38A-61, C.C Centro Mayor, Entrada 5 Lc 1-106",
-            "lat": "4.5915049",
-            "lng": "-74.1264142",
-            "schedule": [
-                "Lun a Sab de 10:00 a.m a 8:00 p.m",
-                "Dom y Fes de 11:00 a.m a 7:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+CC+Centro+Mayor,+Calle+38A+sur+No.+34D+-+51+Centro+Comercial+Centro+Mayor+Entrada+5+Local+1,+Cl.+106,+Bogot%C3%A1/@4.5915049,-74.1264142,17z/data=!4m16!1m6!3m5!1s0x8e3f9ed4cb510943:0xe18a881a13225953!2sMovistar+Centro+De+Experiencia+CC+Centro+Mayor!8m2!3d4.5915049!4d-74.1242255!4m8!1m0!1m5!1m1!1s0x8e3f9ed4cb510943:0xe18a881a13225953!2m2!1d-74.1242255!2d4.5915049!3e2"
-        },
-        "movistar-bogota-06": {
-            "name": "Movistar Chapinero",
-            "address": "Cr 13 No. 58-71",
-            "lat": "4.645478",
-            "lng": "-74.0664193",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Carrera+13+Chapinero+Bogot%C3%A1,+Cra.+13+%235871,+Bogot%C3%A1/@4.645478,-74.0664193,17z/data=!4m16!1m6!3m5!1s0x8e3f9a3816be0ea9:0xe15dcd96dc689035!2sMovistar+Carrera+13+Chapinero+Bogot%C3%A1!8m2!3d4.645478!4d-74.0642306!4m8!1m0!1m5!1m1!1s0x8e3f9a3816be0ea9:0xe15dcd96dc689035!2m2!1d-74.0642306!2d4.645478!3e2"
-        },
-        "movistar-bogota-07": {
-            "name": "Movistar Fontibón",
-            "address": "Cr 100 No. 20-29",
-            "lat": "4.6753339",
-            "lng": "-74.1450887",
-            "schedule": [
-                "Lun a Sab de 10:00 a.m a 7:00 p.m",
-                "Dom de 11:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Fontib%C3%B3n,+Cra.+100+%232029,+Bogot%C3%A1/@4.6753339,-74.1450887,17z/data=!4m16!1m6!3m5!1s0x8e3f9c8c367eeb33:0x579022dcaa52846d!2sMovistar+Bogot%C3%A1+Fontib%C3%B3n!8m2!3d4.6753339!4d-74.1429!4m8!1m0!1m5!1m1!1s0x8e3f9c8c367eeb33:0x579022dcaa52846d!2m2!1d-74.1429!2d4.6753339!3e2"
-        },
-        "movistar-bogota-08": {
-            "name": "Movistar La Floresta",
-            "address": "Cl 101 No. 66-03, Edificio CODASMEAS",
-            "lat": "4.6899652",
-            "lng": "-74.072913",
-            "schedule": [
-                "Lun a Vie de 10:00 a.m a 7:00 p.m",
-                "Sab de 10:00 a.m a 7:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Centro+De+Experiencia+Movistar+Bogot%C3%A1+La+Floresta,+Cl.+101+%23%2366+03,+Bogot%C3%A1/@4.6899652,-74.072913,17z/data=!4m16!1m6!3m5!1s0x8e3f9adc2668becf:0xa707917e7193ff12!2sCentro+De+Experiencia+Movistar+Bogot%C3%A1+La+Floresta!8m2!3d4.6899652!4d-74.0707243!4m8!1m0!1m5!1m1!1s0x8e3f9adc2668becf:0xa707917e7193ff12!2m2!1d-74.0707243!2d4.6899652!3e2"
-        },
-        "movistar-bogota-09": {
-            "name": "Movistar Morato",
-            "address": "Av Suba No. 114A-55, Edificio Morato",
-            "lat": "4.7028517",
-            "lng": "-74.0868194",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Pir%C3%A1mide+de+MOVISTAR,+Cra.+70,+Av+Suba,+Bogot%C3%A1/@4.7028517,-74.0868194,15z/data=!4m16!1m6!3m5!1s0x0:0x4c899c4efb879109!2sPir%C3%A1mide+de+MOVISTAR!8m2!3d4.6982504!4d-74.069666!4m8!1m0!1m5!1m1!1s0x8e3f9b98b351beab:0x4c899c4efb879109!2m2!1d-74.0696661!2d4.6982512!3e2"
-        },
-        "movistar-bogota-10": {
-            "name": "Movistar Parque Central Bavaria",
-            "address": "Cl 31 No. 13A-51, Edificio Torre Panorama 26",
-            "lat": "4.6184837",
-            "lng": "-74.0726446",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Parque+Central+Bavaria,+Calle+31+No.+13+A+51+Edificio+Torre+Panorama+26,+Bogot%C3%A1/@4.6184837,-74.0726446,17z/data=!4m16!1m6!3m5!1s0x8e3f99dbf1948fd9:0xcbd6900b65f68442!2sMovistar+Bogot%C3%A1+Parque+Central+Bavaria!8m2!3d4.6184837!4d-74.0704559!4m8!1m0!1m5!1m1!1s0x8e3f99dbf1948fd9:0xcbd6900b65f68442!2m2!1d-74.0704559!2d4.6184837!3e2"
-        },
-        "movistar-bogota-11": {
-            "name": "Movistar Plaza de las Américas",
-            "address": "Cl 3 Sur No. 71C-19, Piso 2",
-            "lat": "4.6201526",
-            "lng": "-74.138294",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 7:00 p.m",
-                "Sab de 9:00 a.m a 6:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Plaza+de+las+Am%C3%A9ricas,+Cl.+3+Sur+%2371+C+-+19,+Bogot%C3%A1/@4.6201526,-74.138294,17z/data=!4m16!1m6!3m5!1s0x8e3f9ead04401d0f:0xe03f622a08232a8!2sMovistar+Bogot%C3%A1+Plaza+de+las+Am%C3%A9ricas!8m2!3d4.6201526!4d-74.1361053!4m8!1m0!1m5!1m1!1s0x8e3f9ead04401d0f:0xe03f622a08232a8!2m2!1d-74.1361053!2d4.6201526!3e2"
-        },
-        "movistar-bogota-12": {
-            "name": "Movistar Suba al Paso",
-            "address": "Av Cl 145 No. 103B-65 C.C. AL PASO, Lc 105",
-            "lat": "4.7458129",
-            "lng": "-74.0983351",
-            "schedule": [
-                "Lun a Sab de 10:00 a.m a 7:00 p.m",
-                "Dom de 11:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+neiva,+Local+105+Centro+Comercial+Alpaso,+Cl.+145+%23%23%23%23103B+%E2%80%93+65,+Bogot%C3%A1/@4.7458129,-74.0983351,17z/data=!4m16!1m6!3m5!1s0x8e3f84e25e4a8867:0xa48f79de1e5462a6!2sMovistar+neiva!8m2!3d4.7458129!4d-74.0961464!4m8!1m0!1m5!1m1!1s0x8e3f84e25e4a8867:0xa48f79de1e5462a6!2m2!1d-74.0961464!2d4.7458129!3e2"
-        },
-        "movistar-bogota-13": {
-            "name": "Movistar Chia",
-            "address": "Cl 10 No. 10-68",
-            "lat": "4.8603654",
-            "lng": "-74.0629962",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:30 a.m a 2:00 p.m",
-                "Dom de 10:00 a.m a 2:00 p.m"
-            ],
-            "type": "",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Ch%C3%ADa,+Cl.+10+%2368+No.+10,+Ch%C3%ADa,+Cundinamarca/@4.8603654,-74.0629962,17z/data=!4m16!1m6!3m5!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2sMovistar+Ch%C3%ADa!8m2!3d4.8603654!4d-74.0608075!4m8!1m0!1m5!1m1!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2m2!1d-74.0608075!2d4.8603654!3e2"
-        },
-        "movistar-bogota-14": {
-            "name": "Movistar Facatativá",
-            "address": "Cl 7 No. 3-60, Centro",
-            "lat": "4.815834",
-            "lng": "-74.3581747",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:30 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Facatativ%C3%A1,+Calle+7+No.+3+-+60+Centro,+Facatativ%C3%A1,+Cundinamarca/@4.815834,-74.3581747,17z/data=!4m16!1m6!3m5!1s0x8e3f7c5f0057099f:0x3d4e1c4decd0ed1f!2sMovistar+Facatativ%C3%A1!8m2!3d4.815834!4d-74.355986!4m8!1m0!1m5!1m1!1s0x8e3f7c5f0057099f:0x3d4e1c4decd0ed1f!2m2!1d-74.355986!2d4.815834!3e2"
-        },
-        "movistar-bogota-15": {
-            "name": "Movistar Fusagasugá",
-            "address": "Cl 10 No. 7-77, Centro",
-            "lat": "4.3411335",
-            "lng": "-74.3650929",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:30 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Sede+Principal+Fusagasuga,+Calle+10%237-77,+Fusagasug%C3%A1,+Cundinamarca/@4.3411335,-74.3650929,17z/data=!4m16!1m6!3m5!1s0x8e3f04f6ebdb26af:0xd7cb3a5fff68ba5e!2sMovistar+Sede+Principal+Fusagasuga!8m2!3d4.3411335!4d-74.3629042!4m8!1m0!1m5!1m1!1s0x8e3f04f6ebdb26af:0xd7cb3a5fff68ba5e!2m2!1d-74.3629042!2d4.3411335!3e2"
-        },
-        "movistar-bogota-16": {
-            "name": "Movistar Soacha",
-            "address": "Cr 7 No. 32-35, C.C. Mercurio, Lc 240-245",
-            "lat": "4.5881562",
-            "lng": "-74.2019624",
-            "schedule": [
-                "Lun a Sab de 9:00 a.m a 6:00 p.m",
-                "Dom y Fes de 10:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Soacha,+Carrera+7+No.+32+-+35+Centro+Comercial+Mercurio+Locales+240+A+245,+Soacha,+Cundinamarca/@4.5881562,-74.2019624,17z/data=!4m16!1m6!3m5!1s0x0:0x36284fd5e4ee0837!2sMovistar+Soacha!8m2!3d4.5877531!4d-74.2041338!4m8!1m0!1m5!1m1!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2m2!1d-74.204134!2d4.587753!3e2"
-        },
-        "movistar-bogota-17": {
-            "name": "Movistar Zipaquirá",
-            "address": "Cr 7 No. 5-71",
-            "lat": "5.0244369",
-            "lng": "-74.0060212",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:30 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Zipaquir%C3%A1,+Cra.+7+%2371+No.+5,+Zipaquir%C3%A1,+Cundinamarca/@5.0244369,-74.0060212,17z/data=!4m16!1m6!3m5!1s0x8e40702063e7fd85:0x43cf7cf377b22562!2sMovistar+Zipaquir%C3%A1!8m2!3d5.0244369!4d-74.0038325!4m8!1m0!1m5!1m1!1s0x8e40702063e7fd85:0x43cf7cf377b22562!2m2!1d-74.0038325!2d5.0244369!3e2"
-        },
-        "movistar-bucaramanga-01": {
-            "name": "Movistar Cabecera",
-            "address": "Cr 33 N0. 44-68",
-            "lat": "7.1146332",
-            "lng": "-73.1157863",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Cabecera,+Cra.+33+%23%2344+-+68,+Bucaramanga,+Santander/@7.1146332,-73.1157863,16z/data=!4m16!1m6!3m5!1s0x8e683fe081807863:0xa030e61e77c5bd7e!2sMovistar+Cabecera!8m2!3d7.1192094!4d-73.1116641!4m8!1m0!1m5!1m1!1s0x8e683fe081807863:0xa030e61e77c5bd7e!2m2!1d-73.1116641!2d7.1192094!3e2"
-        },
-        "movistar-bucaramanga-02": {
-            "name": "Movistar Centro",
-            "address": "Cl 36 No. 17-75",
-            "lat": "7.1180052",
-            "lng": "-73.1309267",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+Bucaramanga,+Cl.+36+%23%2317+-+75,+Bucaramanga,+Santander/@7.1180052,-73.1309267,16z/data=!4m16!1m6!3m5!1s0x0:0xdad64ec4fb699df1!2sMovistar+Centro+Bucaramanga!8m2!3d7.1187639!4d-73.1243683!4m8!1m0!1m5!1m1!1s0x8e683fd79f39722d:0xdad64ec4fb699df1!2m2!1d-73.1243682!2d7.1187634!3e2"
-        },
-        "movistar-bucaramanga-03": {
-            "name": "Movistar Bucaramanga La Isla",
-            "address": "Cl 56 No. 17A-117, Barrio La Isla",
-            "lat": "7.1080873",
-            "lng": "-73.1204419",
-            "schedule": [
-                "Lun a Vie de 9:30 a.m a 6:30 p.m",
-                "Sab de 10:00 a.m a 3:00 p.m"
-            ],
-            "type": "internon",
-            "viewMap": "https://www.google.com/maps/dir//Movistar,+Cl.+56+%2317A+-+117,+Bucaramanga,+Santander/@7.1080873,-73.1204419,17z/data=!4m16!1m6!3m5!1s0x8e683fc489bf5edf:0x92c6a2acfd21c531!2sMovistar!8m2!3d7.1080873!4d-73.1182532!4m8!1m0!1m5!1m1!1s0x8e683fc489bf5edf:0x92c6a2acfd21c531!2m2!1d-73.1182532!2d7.1080873!3e2"
-        },
-        "movistar-cali-01": {
-            "name": "Movistar Aventura Plaza",
-            "address": "Cr 100 No. 15A-61, C.C Aventura Plaza, Lc 220",
-            "lat": "3.3680463",
-            "lng": "-76.5321223",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "intero",
-            "viewMap": "https://www.google.com/maps/dir//Centro+de+experiencia+Movistar+CC+Aventura+Plaza,+Cra.+100+%2315A-61+Local+220,+Cali,+Valle+del+Cauca/@3.3680463,-76.5321223,17z/data=!4m16!1m6!3m5!1s0x8e30a1743af89815:0x973abd13421b0199!2sCentro+de+experiencia+Movistar+CC+Aventura+Plaza!8m2!3d3.3680463!4d-76.5299336!4m8!1m0!1m5!1m1!1s0x8e30a1743af89815:0x973abd13421b0199!2m2!1d-76.5299336!2d3.3680463!3e2"
-        },
-        "movistar-cali-02": {
-            "name": "Movistar Calima",
-            "address": "Cr 5 Norte No. 55-39, Barrio Flora Industrial",
-            "lat": "3.48023",
-            "lng": "-76.5223988",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Centro+de+Experiencia+Movistar+Calima,+Cra.+5+Nte.+%23No.+55+-+39,+Cali,+Valle+del+Cauca/@3.48023,-76.5223988,14z/data=!4m16!1m6!3m5!1s0x8e30a62afd34e41d:0xe0912a74f18aa1e3!2sCentro+de+Experiencia+Movistar+Calima!8m2!3d3.48023!4d-76.5048893!4m8!1m0!1m5!1m1!1s0x8e30a62afd34e41d:0xe0912a74f18aa1e3!2m2!1d-76.5048893!2d3.48023!3e2"
-        },
-        "movistar-cali-03": {
-            "name": "Movistar Cali",
-            "address": "Cl 9A No. 46-69, Lc 105-106",
-            "lat": "3.4145421",
-            "lng": "-76.5425351",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Calle+9A,+Calle+9+No.+46+-+69,+Locales+105+-+106,+Cali,+Valle+del+Cauca/@3.4145421,-76.5425351,17z/data=!4m16!1m6!3m5!1s0x8e30a6aefe08df5d:0xb8dd773f2cce497d!2sMovistar+Cali+Calle+9A!8m2!3d3.4145421!4d-76.5403464!4m8!1m0!1m5!1m1!1s0x8e30a6aefe08df5d:0xb8dd773f2cce497d!2m2!1d-76.5403464!2d3.4145421!3e2"
-        },
-        "movistar-cali-04": {
-            "name": "Movistar Cali Canaveralejo",
-            "address": "Cl 5 No. 54A-13",
-            "lat": "3.4145421",
-            "lng": "-76.5491012",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Ca%C3%B1averalejo,+Cra.+54a+%235A-52,+Cali,+Valle+del+Cauca/@3.4145421,-76.5491012,15z/data=!4m16!1m6!3m5!1s0x8e30a6a9924e2233:0xf7907a8caec5d474!2sMovistar+Ca%C3%B1averalejo!8m2!3d3.4101917!4d-76.5471445!4m8!1m0!1m5!1m1!1s0x8e30a6a9924e2233:0xf7907a8caec5d474!2m2!1d-76.5471445!2d3.4101917!3e2"
-        },
-        "movistar-cali-05": {
-            "name": "Movistar Centro",
-            "address": "Cl 10 Cr 6, Esquina Diag a la Gobernación",
-            "lat": "3.4500165",
-            "lng": "-76.5353559",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Centro,+Calle+10+Carrera+6+Esquina+Diagonal+a,+Plaza+De+La+Gobernaci%C3%B3n,+Cali,+Valle+del+Cauca/@3.4500165,-76.5353559,17z/data=!4m16!1m6!3m5!1s0x8e30a7371b780a97:0x96603753cb0fd001!2sMovistar+Cali+Centro!8m2!3d3.4500165!4d-76.5331672!4m8!1m0!1m5!1m1!1s0x8e30a7371b780a97:0x96603753cb0fd001!2m2!1d-76.5331672!2d3.4500165!3e2"
-        },
-        "movistar-cali-06": {
-            "name": "Movistar Santa Mónica",
-            "address": "Av 6A Norte No. 22N-46",
-            "lat": "3.4161938",
-            "lng": "-76.5698161",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "intenro",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Santa+M%C3%B3nica,+Avenida+6A+Norte+No.+22N+-+46,+Cali,+Valle+del+Cauca/@3.4161938,-76.5698161,13z/data=!4m16!1m6!3m5!1s0x8e30a6148fbee577:0x80a4188493b952f9!2sMovistar+Cali+Santa+M%C3%B3nica!8m2!3d3.4643426!4d-76.5308184!4m8!1m0!1m5!1m1!1s0x8e30a6148fbee577:0x80a4188493b952f9!2m2!1d-76.5308184!2d3.4643426!3e2"
-        },
-        "movistar-chia": {
-            "name": "Movistar Chia",
-            "address": "Cl 10 No. 10-68",
-            "lat": "4.8603654",
-            "lng": "-74.0629962",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m",
-                "Dom de 10:00 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Ch%C3%ADa,+Cl.+10+%2368+No.+10,+Ch%C3%ADa,+Cundinamarca/@4.8603654,-74.0629962,17z/data=!4m16!1m6!3m5!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2sMovistar+Ch%C3%ADa!8m2!3d4.8603654!4d-74.0608075!4m8!1m0!1m5!1m1!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2m2!1d-74.0608075!2d4.8603654!3e2"
-        },
-        "movistar-manizales": {
-            "name": "Movistar Manizales",
-            "address": "Cr 23B No. 64-80",
-            "lat": "5.0558374",
-            "lng": "-75.4891584",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Experiencia+Manizales,+Cra.+23b+%2380+No.+64,+Manizales,+Caldas/@5.0558374,-75.4891584,17z/data=!4m16!1m6!3m5!1s0x8e47657eaa7fd57b:0x389773184807a24c!2sMovistar+Centro+de+Experiencia+Manizales!8m2!3d5.0558374!4d-75.4869697!4m8!1m0!1m5!1m1!1s0x8e47657eaa7fd57b:0x389773184807a24c!2m2!1d-75.4869697!2d5.0558374!3e2"
-        },
-        "movistar-medellin-01": {
-            "name": "Movistar Centro",
-            "address": "Cr 47 No. 52-86, C.C Camino Real, Lc 301",
-            "lat": "6.2502046",
-            "lng": "-75.5669996",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Medell%C3%ADn,+Centro+de+experiencia,+Carrera+47+No.+52+-+86+Centro+Comercial+Camino+Real,+Local+301,+Medell%C3%ADn,+Antioquia/@6.2502046,-75.5669996,17z/data=!4m16!1m6!3m5!1s0x8e4428f1a9795567:0x851adb43809b822d!2sMovistar+Medell%C3%ADn,+Centro+de+experiencia!8m2!3d6.2502169!4d-75.564888!4m8!1m0!1m5!1m1!1s0x8e4428f1a9795567:0x851adb43809b822d!2m2!1d-75.564888!2d6.2502169!3e2"
-        },
-        "movistar-medellin-02": {
-            "name": "Movistar Mayorca",
-            "address": "Cl 51 Sur No. 48-57, C.C Mayorca Mega Plaza, Lc 1072-1074",
-            "lat": "6.1617927",
-            "lng": "-75.6071954",
-            "schedule": [
-                "Lun a Sab de 10:00 a.m a 9:00 p.m",
-                "Dom y Fes de 11:00 a.m a 8:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Mayorca,+Calle+51+Sur+No.+48+-+57+Centro+Comercial+Mayorca+Mega+Plaza+Local+1072+-+1074,+Medell%C3%ADn,+Antioqu%C3%ADa/@6.1617927,-75.6071954,17z/data=!4m16!1m6!3m5!1s0x8e468331bec4e697:0x5366b11132859bb3!2sMovistar+Mayorca!8m2!3d6.1617927!4d-75.6050067!4m8!1m0!1m5!1m1!1s0x8e468331bec4e697:0x5366b11132859bb3!2m2!1d-75.6050067!2d6.1617927!3e2"
-        },
-        "movistar-medellin-03": {
-            "name": "Movistar Poblado",
-            "address": "Cr 43A No. 3-101",
-            "lat": "6.1617915",
-            "lng": "-75.6400263",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Medell%C3%ADn+Poblado,+Carrera+43A+No.+3+-+101,+Medell%C3%ADn,+Antioquia/@6.1617915,-75.6400263,13z/data=!4m16!1m6!3m5!1s0x8e468262bf0f3cb3:0x73563c07b20e68f!2sMovistar+Medell%C3%ADn+Poblado!8m2!3d6.2010561!4d-75.5720423!4m8!1m0!1m5!1m1!1s0x8e468262bf0f3cb3:0x73563c07b20e68f!2m2!1d-75.5720423!2d6.2010561!3e2"
-        },
-        "movistar-medellin-04": {
-            "name": "Movistar Premium",
-            "address": "Cr 43A No. 30-25, C.C Premium Plaza, Lc 1260",
-            "lat": "6.2296521",
-            "lng": "-75.6400627",
-            "schedule": [
-                "Lun a Vie de 9:30 a.m a 6:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Premium+Plaza,+K43-A+%2330-25,+Medell%C3%ADn,+Antioquia/@6.2296521,-75.6400627,12z/data=!4m16!1m6!3m5!1s0x8e44284a476dd919:0xc6aee60f6bac5f10!2sMovistar+Premium+Plaza!8m2!3d6.2296521!4d-75.5700249!4m8!1m0!1m5!1m1!1s0x8e44284a476dd919:0xc6aee60f6bac5f10!2m2!1d-75.5700249!2d6.2296521!3e2"
-        },
-        "movistar-medellin-05": {
-            "name": "Movistar Bello Puerta del Norte",
-            "address": "Dg 55 No. 34-67, C.C Puerto del Norte, Torre 1 Piso 2",
-            "lat": "6.3394457",
-            "lng": "-75.5457144",
-            "schedule": [
-                "Lun a Vie de 9:30 a.m a 6:30 p.m",
-                "Sab de 9:30 a.m a 5:00 p.m",
-                "Dom de 10:00 a.m a 2:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Bello+Puerta+del+Norte,+Diagonal+55+%2334-67+Centro+Comercial+Puerta+del+Norte,+Torre+1,+Piso+2,+Local+286+Zona+Com%C3%BAn+Boulevard,+Bello,+Antioquia/@6.3394457,-75.5457144,17z/data=!4m16!1m6!3m5!1s0x8e442f9a13da8bc7:0x2bc6903cc040dca5!2sMovistar+Bello+Puerta+del+Norte!8m2!3d6.3394457!4d-75.5435257!4m8!1m0!1m5!1m1!1s0x8e442f9a13da8bc7:0x2bc6903cc040dca5!2m2!1d-75.5435257!2d6.3394457!3e2"
-        },
-        "movistar-pereira": {
-            "name": "Movistar Pereira",
-            "address": "Av Circunvalar No. 10-53",
-            "lat": "4.8061551",
-            "lng": "-75.688698",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar,+Cra.+13+%2353+No.+10,+Pereira,+Risaralda/@4.8061551,-75.688698,16.25z/data=!4m16!1m6!3m5!1s0x8e38873928536a1f:0x33345efbac39fca2!2sMovistar!8m2!3d4.8082349!4d-75.6877151!4m8!1m0!1m5!1m1!1s0x8e38873928536a1f:0x33345efbac39fca2!2m2!1d-75.6877151!2d4.8082349!3e2"
-        },
-        "movistar-sincelejo": {
-            "name": "Movistar Sincelejo",
-            "address": "Cl 25 N0. 19-29",
-            "lat": "9.2998081",
-            "lng": "-75.3960327",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Sincelejo,+Cl.+25+%231929,+Sincelejo,+Sucre/@9.2998081,-75.3960327,17z/data=!4m16!1m6!3m5!1s0x8e59144e9e57243d:0x6b1c14150c0a5060!2sMovistar+Sincelejo!8m2!3d9.2998081!4d-75.393844!4m8!1m0!1m5!1m1!1s0x8e59144e9e57243d:0x6b1c14150c0a5060!2m2!1d-75.393844!2d9.2998081!3e2"
-        },
-        "movistar-soacha": {
-            "name": "Movistar Soacha",
-            "address": "Cr 7 No. 32-35, C.C Mercurio Lc 240A-245",
-            "lat": "4.587753",
-            "lng": "-74.2063227",
-            "schedule": [
-                "Lun a Sab de 9:00 a.m a 6:00 p.m",
-                "Dom de 10:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Soacha,+Carrera+7+No.+32+-+35+Centro+Comercial+Mercurio+Locales+240+A+245,+Soacha,+Cundinamarca/@4.587753,-74.2063227,17z/data=!4m16!1m6!3m5!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2sMovistar+Soacha!8m2!3d4.587753!4d-74.204134!4m8!1m0!1m5!1m1!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2m2!1d-74.204134!2d4.587753!3e2"
-        },
-        "movistar-tunja-01": {
-            "name": "Movistar Tunja",
-            "address": "Plaza Bolívar Cl 19 No. 9-15",
-            "lat": "5.5317253",
-            "lng": "-73.3701615",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Plaza+Bol%C3%ADvar+Tunja,+Cl.+19+%23915,+Tunja,+Boyac%C3%A1/@5.5317253,-73.3701615,15z/data=!4m16!1m6!3m5!1s0x8e6a7dd2d28cf4f3:0x4461d9e4c851415e!2sMovistar+Plaza+Bol%C3%ADvar+Tunja!8m2!3d5.5317253!4d-73.3614068!4m8!1m0!1m5!1m1!1s0x8e6a7dd2d28cf4f3:0x4461d9e4c851415e!2m2!1d-73.3614068!2d5.5317253!3e2"
-        },
-        "movistar-tunja-02": {
-            "name": "Movistar C.C Unicentro",
-            "address": "Av Universitaria No. 39-77",
-            "lat": "5.5395432",
-            "lng": "-73.3640772",
-            "schedule": [
-                "Lun a Vie de 10:00 a.m a 7:00 p.m",
-                "Sab de 9:00 a.m a 7:00 p.m",
-                "Dom de 2:00 p.m a 6:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Unicentro+Tunja,+Avenida+Universitaria+No.+39+-+77+Centro+Comercial+Unicentro+Local+110+-+11,+Tunja,+Boyac%C3%A1/@5.5395432,-73.3640772,15z/data=!4m16!1m6!3m5!1s0x8e6a7dda569eb3e5:0x5672ca5361cb201c!2sMovistar+Unicentro+Tunja!8m2!3d5.5462969!4d-73.349238!4m8!1m0!1m5!1m1!1s0x8e6a7dda569eb3e5:0x5672ca5361cb201c!2m2!1d-73.349238!2d5.5462969!3e2"
-        },
-        "movistar-villavicencio-01": {
-            "name": "Movistar Villavicencio",
-            "address": "Av 40 No. 35A-30, Mainzaro",
-            "lat": "4.1331435",
-            "lng": "-73.638616",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 8:30 a.m a 12:30 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar,+Avenida+40+No.+35A+-+30,+Mainzaro,+Villavicencio,+Meta/@4.1331435,-73.638616,17z/data=!4m16!1m6!3m5!1s0x8e3e2e405453bc5d:0x79a5a2c519167b20!2sMovistar!8m2!3d4.1331435!4d-73.6364273!4m8!1m0!1m5!1m1!1s0x8e3e2e405453bc5d:0x79a5a2c519167b20!2m2!1d-73.6364273!2d4.1331435!3e2"
-        },
-        "movistar-villavicencio-02": {
-            "name": "Movistar Villavicencio",
-            "address": "Cr 48 No. 13-220",
-            "lat": "4.140109",
-            "lng": "-73.6608627",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 5:30 p.m",
-                "Sab de 8:30 a.m a 12:30 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//M%C3%93VISTAR+SERVICIO+COMERCIAL,+Carrera+48+No.+13+-+220,+Villavicencio,+Meta/@4.140109,-73.6608627,17z/data=!4m16!1m6!3m5!1s0x8e3e2df5ea87397d:0x4927abe1f52eba18!2sM%C3%93VISTAR+SERVICIO+COMERCIAL!8m2!3d4.140109!4d-73.658674!4m8!1m0!1m5!1m1!1s0x8e3e2df5ea87397d:0x4927abe1f52eba18!2m2!1d-73.658674!2d4.140109!3e2"
-        },
-        "movistar-yopal": {
-            "name": "Movistar Yopal",
-            "address": "Cl 7 No. 19-54",
-            "lat": "5.3493564",
-            "lng": "-72.4039405",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Movistar+Yopal,+Cl.+7+%231954,+Yopal,+Casanare/@5.3493564,-72.4039405,17z/data=!4m16!1m6!3m5!1s0x8e6b0d948e3b11ff:0xdfab8dc40abe1848!2sMovistar+Yopal!8m2!3d5.3493564!4d-72.4017518!4m8!1m0!1m5!1m1!1s0x8e6b0d948e3b11ff:0xdfab8dc40abe1848!2m2!1d-72.4017518!2d5.3493564!3e2"
         },
         "canon-linea-nacional": {
             "name": "Canon Alkosto/Ktronix",
@@ -4500,7 +4017,7 @@
         },
         "horizon-linea-nacional": {
             "name": "Horizon Alkosto/Ktronix",
-            "address": "Almacén dónde realizó la compra",
+            "address": "Almacén donde realizó la compra",
             "schedule": [
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
@@ -4769,6 +4286,33 @@
             "schedule": [
                 "Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 9:00 a.m a 3:00 p.m"
+            ],
+            "type": "interno"
+        },
+        "irobot-bogota": {
+            "name": "IROBOT, Almacén Casamagna",
+            "address": "Cr 19 No. 93-19",
+            "lat": "4.6785302",
+            "lng": "-74.0548858",
+            "phone": [
+                "6363880",
+                "018000113880"
+            ],
+            "cell":[
+                "3148880020"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 3:30 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://www.google.com/maps/place/Casa+Magna+La+93/@4.6785302,-74.0548858,15z/data=!4m5!3m4!1s0x0:0x2a1272fe80a799f3!8m2!3d4.678522!4d-74.0548701"
+        },
+        "irobot-linea-nacional": {
+            "name": "IROBOT, Alkosto/Ktronix",
+            "address": "Almacén donde realizó la compra",
+            "schedule": [
+                "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
         },
@@ -5388,9 +4932,6 @@
         "logitech-linea-nacional": {
             "name": "LOGITECH Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
-            "phone": [
-                ""
-            ],
             "schedule": [
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
@@ -5517,6 +5058,537 @@
             "type": "externo",
             "link": "https://motorola-global-es-latam.custhelp.com/app/mcp/service-center-locator"
         },
+        "movistar-barranquilla-01": {
+            "name": "Barranquilla Estadio",
+            "address": "Cl 74 No. 45-91",
+            "lat": "10.9953405",
+            "lng": "-74.8101096",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+Estadio+Barranquilla,+Cl.+74+%23%234591,+Barranquilla,+Atl%C3%A1ntico/@10.9953405,-74.8101096,17z/data=!4m16!1m6!3m5!1s0x8ef42d0b8e9f7985:0x5d406466d484b5e3!2sMovistar+Centro+De+Experiencia+Estadio+Barranquilla!8m2!3d10.9953405!4d-74.8079209!4m8!1m0!1m5!1m1!1s0x8ef42d0b8e9f7985:0x5d406466d484b5e3!2m2!1d-74.8079209!2d10.9953405!3e2"
+        },
+        "movistar-barranquilla-02": {
+            "name": "Barranquilla La Granja",
+            "address": "Cl 30 No. 1-295",
+            "lat": "10.9340291",
+            "lng": "-74.7953201",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Barranquilla+La+Granja,+Calle+30+No.+1+-+295+Barrio,+Barranquilla,+La+Granja,+Atl%C3%A1ntico/@10.9340291,-74.7953201,16z/data=!4m16!1m6!3m5!1s0x0:0x59fed67574e4296!2sMovistar+Barranquilla+La+Granja!8m2!3d10.9368966!4d-74.782172!4m8!1m0!1m5!1m1!1s0x8ef5d2a72eaf7627:0x59fed67574e4296!2m2!1d-74.7821721!2d10.9368968!3e2"
+        },
+        "movistar-barranquilla-03": {
+            "name": "Barranquilla Prado",
+            "address": "Cr 54 No. 72-14",
+            "lat": "10.9992368",
+            "lng": "-74.8037543",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Prado+Barranquilla,+Cra.+54+%237214,+Barranquilla,+Atl%C3%A1ntico/@10.9992368,-74.8037543,17z/data=!4m16!1m6!3m5!1s0x8ef42d9fde0ef649:0x11669915fddacbfe!2sMovistar+Prado+Barranquilla!8m2!3d10.9992368!4d-74.8015656!4m8!1m0!1m5!1m1!1s0x8ef42d9fde0ef649:0x11669915fddacbfe!2m2!1d-74.8015656!2d10.9992368!3e2"
+        },
+        "movistar-bogota-01": {
+            "name": "Movistar Av Suba",
+            "address": "Trv 60 No. 128-94/98",
+            "lat": "4.7065966",
+            "lng": "-74.0800497",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Pagos+y+Servicios,+Av+Suba+%23No.+128+-+94%2F98,+Bogot%C3%A1/@4.7065966,-74.0800497,15z/data=!4m16!1m6!3m5!1s0x8e3f85288c43dc6d:0x551df7b79532c99b!2sMovistar+Centro+de+Pagos+y+Servicios!8m2!3d4.7157885!4d-74.0729175!4m8!1m0!1m5!1m1!1s0x8e3f85288c43dc6d:0x551df7b79532c99b!2m2!1d-74.0729175!2d4.7157885!3e2"
+        },
+        "movistar-bogota-02": {
+            "name": "Movistar Cl 103",
+            "address": "Cr 15 No. 103-25",
+            "lat": "4.6882679",
+            "lng": "-74.0496947",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Experiencia+Calle+103+Bogot%C3%A1,+Ak.+15+%23%23103-25,+Bogot%C3%A1/@4.6882679,-74.0496947,17z/data=!4m16!1m6!3m5!1s0x8e3f9abdd4139b6d:0xaaf62f29e72ce1c6!2sMovistar+Centro+de+Experiencia+Calle+103+Bogot%C3%A1!8m2!3d4.6882679!4d-74.047506!4m8!1m0!1m5!1m1!1s0x8e3f9abdd4139b6d:0xaaf62f29e72ce1c6!2m2!1d-74.047506!2d4.6882679!3e2"
+        },
+        "movistar-bogota-03": {
+            "name": "Movistar Cl 26",
+            "address": "Cl 26 No 32A-33, Edificio Tacay, Lc 102",
+            "lat": "4.6292751",
+            "lng": "-74.0849535",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Calle+26,+Calle+26+No.+32A+-+33+Edificio+Tacay+Local+102,+Bogot%C3%A1/@4.6292751,-74.0849535,17z/data=!4m16!1m6!3m5!1s0x8e3f9bc1576d4ced:0x15e1e93d9af7d9dc!2sMovistar+Bogot%C3%A1+Calle+26!8m2!3d4.6292751!4d-74.0827648!4m8!1m0!1m5!1m1!1s0x8e3f9bc1576d4ced:0x15e1e93d9af7d9dc!2m2!1d-74.0827648!2d4.6292751!3e2"
+        },
+        "movistar-bogota-04": {
+            "name": "Movistar Cedritos",
+            "address": "Cl 140 No. 12-81",
+            "lat": "4.7199827",
+            "lng": "-74.0407013",
+            "schedule": [
+                "Lun a Vie de 9:30 a 6:00 p.m",
+                "Sab de 9:30 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+Cedritos+Bogot%C3%A1,+Cl.+140+%23%2312-81,+Bogot%C3%A1/@4.7199827,-74.0407013,17z/data=!4m16!1m6!3m5!1s0x8e3f855b83467a2b:0x703a84be67d98424!2sMovistar+Centro+De+Experiencia+Cedritos+Bogot%C3%A1!8m2!3d4.7199827!4d-74.0385126!4m8!1m0!1m5!1m1!1s0x8e3f855b83467a2b:0x703a84be67d98424!2m2!1d-74.0385126!2d4.7199827!3e2"
+        },
+        "movistar-bogota-05": {
+            "name": "Movistar Centro Mayor",
+            "address": "Cr 27 Sur No. 38A-61, C.C Centro Mayor, Entrada 5 Lc 1-106",
+            "lat": "4.5915049",
+            "lng": "-74.1264142",
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 11:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+De+Experiencia+CC+Centro+Mayor,+Calle+38A+sur+No.+34D+-+51+Centro+Comercial+Centro+Mayor+Entrada+5+Local+1,+Cl.+106,+Bogot%C3%A1/@4.5915049,-74.1264142,17z/data=!4m16!1m6!3m5!1s0x8e3f9ed4cb510943:0xe18a881a13225953!2sMovistar+Centro+De+Experiencia+CC+Centro+Mayor!8m2!3d4.5915049!4d-74.1242255!4m8!1m0!1m5!1m1!1s0x8e3f9ed4cb510943:0xe18a881a13225953!2m2!1d-74.1242255!2d4.5915049!3e2"
+        },
+        "movistar-bogota-06": {
+            "name": "Movistar Chapinero",
+            "address": "Cr 13 No. 58-71",
+            "lat": "4.645478",
+            "lng": "-74.0664193",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Carrera+13+Chapinero+Bogot%C3%A1,+Cra.+13+%235871,+Bogot%C3%A1/@4.645478,-74.0664193,17z/data=!4m16!1m6!3m5!1s0x8e3f9a3816be0ea9:0xe15dcd96dc689035!2sMovistar+Carrera+13+Chapinero+Bogot%C3%A1!8m2!3d4.645478!4d-74.0642306!4m8!1m0!1m5!1m1!1s0x8e3f9a3816be0ea9:0xe15dcd96dc689035!2m2!1d-74.0642306!2d4.645478!3e2"
+        },
+        "movistar-bogota-07": {
+            "name": "Movistar Fontibón",
+            "address": "Cr 100 No. 20-29",
+            "lat": "4.6753339",
+            "lng": "-74.1450887",
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 7:00 p.m",
+                "Dom de 11:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Fontib%C3%B3n,+Cra.+100+%232029,+Bogot%C3%A1/@4.6753339,-74.1450887,17z/data=!4m16!1m6!3m5!1s0x8e3f9c8c367eeb33:0x579022dcaa52846d!2sMovistar+Bogot%C3%A1+Fontib%C3%B3n!8m2!3d4.6753339!4d-74.1429!4m8!1m0!1m5!1m1!1s0x8e3f9c8c367eeb33:0x579022dcaa52846d!2m2!1d-74.1429!2d4.6753339!3e2"
+        },
+        "movistar-bogota-08": {
+            "name": "Movistar La Floresta",
+            "address": "Cl 101 No. 66-03, Edificio CODASMEAS",
+            "lat": "4.6899652",
+            "lng": "-74.072913",
+            "schedule": [
+                "Lun a Vie de 10:00 a.m a 7:00 p.m",
+                "Sab de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Centro+De+Experiencia+Movistar+Bogot%C3%A1+La+Floresta,+Cl.+101+%23%2366+03,+Bogot%C3%A1/@4.6899652,-74.072913,17z/data=!4m16!1m6!3m5!1s0x8e3f9adc2668becf:0xa707917e7193ff12!2sCentro+De+Experiencia+Movistar+Bogot%C3%A1+La+Floresta!8m2!3d4.6899652!4d-74.0707243!4m8!1m0!1m5!1m1!1s0x8e3f9adc2668becf:0xa707917e7193ff12!2m2!1d-74.0707243!2d4.6899652!3e2"
+        },
+        "movistar-bogota-09": {
+            "name": "Movistar Morato",
+            "address": "Av Suba No. 114A-55, Edificio Morato",
+            "lat": "4.7028517",
+            "lng": "-74.0868194",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Pir%C3%A1mide+de+MOVISTAR,+Cra.+70,+Av+Suba,+Bogot%C3%A1/@4.7028517,-74.0868194,15z/data=!4m16!1m6!3m5!1s0x0:0x4c899c4efb879109!2sPir%C3%A1mide+de+MOVISTAR!8m2!3d4.6982504!4d-74.069666!4m8!1m0!1m5!1m1!1s0x8e3f9b98b351beab:0x4c899c4efb879109!2m2!1d-74.0696661!2d4.6982512!3e2"
+        },
+        "movistar-bogota-10": {
+            "name": "Movistar Parque Central Bavaria",
+            "address": "Cl 31 No. 13A-51, Edificio Torre Panorama 26",
+            "lat": "4.6184837",
+            "lng": "-74.0726446",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Parque+Central+Bavaria,+Calle+31+No.+13+A+51+Edificio+Torre+Panorama+26,+Bogot%C3%A1/@4.6184837,-74.0726446,17z/data=!4m16!1m6!3m5!1s0x8e3f99dbf1948fd9:0xcbd6900b65f68442!2sMovistar+Bogot%C3%A1+Parque+Central+Bavaria!8m2!3d4.6184837!4d-74.0704559!4m8!1m0!1m5!1m1!1s0x8e3f99dbf1948fd9:0xcbd6900b65f68442!2m2!1d-74.0704559!2d4.6184837!3e2"
+        },
+        "movistar-bogota-11": {
+            "name": "Movistar Plaza de las Américas",
+            "address": "Cl 3 Sur No. 71C-19, Piso 2",
+            "lat": "4.6201526",
+            "lng": "-74.138294",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 7:00 p.m",
+                "Sab de 9:00 a.m a 6:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Bogot%C3%A1+Plaza+de+las+Am%C3%A9ricas,+Cl.+3+Sur+%2371+C+-+19,+Bogot%C3%A1/@4.6201526,-74.138294,17z/data=!4m16!1m6!3m5!1s0x8e3f9ead04401d0f:0xe03f622a08232a8!2sMovistar+Bogot%C3%A1+Plaza+de+las+Am%C3%A9ricas!8m2!3d4.6201526!4d-74.1361053!4m8!1m0!1m5!1m1!1s0x8e3f9ead04401d0f:0xe03f622a08232a8!2m2!1d-74.1361053!2d4.6201526!3e2"
+        },
+        "movistar-bogota-12": {
+            "name": "Movistar Suba al Paso",
+            "address": "Av Cl 145 No. 103B-65 C.C. AL PASO, Lc 105",
+            "lat": "4.7458129",
+            "lng": "-74.0983351",
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 7:00 p.m",
+                "Dom de 11:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+neiva,+Local+105+Centro+Comercial+Alpaso,+Cl.+145+%23%23%23%23103B+%E2%80%93+65,+Bogot%C3%A1/@4.7458129,-74.0983351,17z/data=!4m16!1m6!3m5!1s0x8e3f84e25e4a8867:0xa48f79de1e5462a6!2sMovistar+neiva!8m2!3d4.7458129!4d-74.0961464!4m8!1m0!1m5!1m1!1s0x8e3f84e25e4a8867:0xa48f79de1e5462a6!2m2!1d-74.0961464!2d4.7458129!3e2"
+        },
+        "movistar-bogota-13": {
+            "name": "Movistar Chia",
+            "address": "Cl 10 No. 10-68",
+            "lat": "4.8603654",
+            "lng": "-74.0629962",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:30 a.m a 2:00 p.m",
+                "Dom de 10:00 a.m a 2:00 p.m"
+            ],
+            "type": "",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Ch%C3%ADa,+Cl.+10+%2368+No.+10,+Ch%C3%ADa,+Cundinamarca/@4.8603654,-74.0629962,17z/data=!4m16!1m6!3m5!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2sMovistar+Ch%C3%ADa!8m2!3d4.8603654!4d-74.0608075!4m8!1m0!1m5!1m1!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2m2!1d-74.0608075!2d4.8603654!3e2"
+        },
+        "movistar-bogota-14": {
+            "name": "Movistar Facatativá",
+            "address": "Cl 7 No. 3-60, Centro",
+            "lat": "4.815834",
+            "lng": "-74.3581747",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:30 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Facatativ%C3%A1,+Calle+7+No.+3+-+60+Centro,+Facatativ%C3%A1,+Cundinamarca/@4.815834,-74.3581747,17z/data=!4m16!1m6!3m5!1s0x8e3f7c5f0057099f:0x3d4e1c4decd0ed1f!2sMovistar+Facatativ%C3%A1!8m2!3d4.815834!4d-74.355986!4m8!1m0!1m5!1m1!1s0x8e3f7c5f0057099f:0x3d4e1c4decd0ed1f!2m2!1d-74.355986!2d4.815834!3e2"
+        },
+        "movistar-bogota-15": {
+            "name": "Movistar Fusagasugá",
+            "address": "Cl 10 No. 7-77, Centro",
+            "lat": "4.3411335",
+            "lng": "-74.3650929",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:30 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Sede+Principal+Fusagasuga,+Calle+10%237-77,+Fusagasug%C3%A1,+Cundinamarca/@4.3411335,-74.3650929,17z/data=!4m16!1m6!3m5!1s0x8e3f04f6ebdb26af:0xd7cb3a5fff68ba5e!2sMovistar+Sede+Principal+Fusagasuga!8m2!3d4.3411335!4d-74.3629042!4m8!1m0!1m5!1m1!1s0x8e3f04f6ebdb26af:0xd7cb3a5fff68ba5e!2m2!1d-74.3629042!2d4.3411335!3e2"
+        },
+        "movistar-bogota-16": {
+            "name": "Movistar Soacha",
+            "address": "Cr 7 No. 32-35, C.C. Mercurio, Lc 240-245",
+            "lat": "4.5881562",
+            "lng": "-74.2019624",
+            "schedule": [
+                "Lun a Sab de 9:00 a.m a 6:00 p.m",
+                "Dom y Fes de 10:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Soacha,+Carrera+7+No.+32+-+35+Centro+Comercial+Mercurio+Locales+240+A+245,+Soacha,+Cundinamarca/@4.5881562,-74.2019624,17z/data=!4m16!1m6!3m5!1s0x0:0x36284fd5e4ee0837!2sMovistar+Soacha!8m2!3d4.5877531!4d-74.2041338!4m8!1m0!1m5!1m1!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2m2!1d-74.204134!2d4.587753!3e2"
+        },
+        "movistar-bogota-17": {
+            "name": "Movistar Zipaquirá",
+            "address": "Cr 7 No. 5-71",
+            "lat": "5.0244369",
+            "lng": "-74.0060212",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:30 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Zipaquir%C3%A1,+Cra.+7+%2371+No.+5,+Zipaquir%C3%A1,+Cundinamarca/@5.0244369,-74.0060212,17z/data=!4m16!1m6!3m5!1s0x8e40702063e7fd85:0x43cf7cf377b22562!2sMovistar+Zipaquir%C3%A1!8m2!3d5.0244369!4d-74.0038325!4m8!1m0!1m5!1m1!1s0x8e40702063e7fd85:0x43cf7cf377b22562!2m2!1d-74.0038325!2d5.0244369!3e2"
+        },
+        "movistar-bucaramanga-01": {
+            "name": "Movistar Cabecera",
+            "address": "Cr 33 N0. 44-68",
+            "lat": "7.1146332",
+            "lng": "-73.1157863",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Cabecera,+Cra.+33+%23%2344+-+68,+Bucaramanga,+Santander/@7.1146332,-73.1157863,16z/data=!4m16!1m6!3m5!1s0x8e683fe081807863:0xa030e61e77c5bd7e!2sMovistar+Cabecera!8m2!3d7.1192094!4d-73.1116641!4m8!1m0!1m5!1m1!1s0x8e683fe081807863:0xa030e61e77c5bd7e!2m2!1d-73.1116641!2d7.1192094!3e2"
+        },
+        "movistar-bucaramanga-02": {
+            "name": "Movistar Centro",
+            "address": "Cl 36 No. 17-75",
+            "lat": "7.1180052",
+            "lng": "-73.1309267",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+Bucaramanga,+Cl.+36+%23%2317+-+75,+Bucaramanga,+Santander/@7.1180052,-73.1309267,16z/data=!4m16!1m6!3m5!1s0x0:0xdad64ec4fb699df1!2sMovistar+Centro+Bucaramanga!8m2!3d7.1187639!4d-73.1243683!4m8!1m0!1m5!1m1!1s0x8e683fd79f39722d:0xdad64ec4fb699df1!2m2!1d-73.1243682!2d7.1187634!3e2"
+        },
+        "movistar-bucaramanga-03": {
+            "name": "Movistar Bucaramanga La Isla",
+            "address": "Cl 56 No. 17A-117, Barrio La Isla",
+            "lat": "7.1080873",
+            "lng": "-73.1204419",
+            "schedule": [
+                "Lun a Vie de 9:30 a.m a 6:30 p.m",
+                "Sab de 10:00 a.m a 3:00 p.m"
+            ],
+            "type": "internon",
+            "viewMap": "https://www.google.com/maps/dir//Movistar,+Cl.+56+%2317A+-+117,+Bucaramanga,+Santander/@7.1080873,-73.1204419,17z/data=!4m16!1m6!3m5!1s0x8e683fc489bf5edf:0x92c6a2acfd21c531!2sMovistar!8m2!3d7.1080873!4d-73.1182532!4m8!1m0!1m5!1m1!1s0x8e683fc489bf5edf:0x92c6a2acfd21c531!2m2!1d-73.1182532!2d7.1080873!3e2"
+        },
+        "movistar-cali-01": {
+            "name": "Movistar Aventura Plaza",
+            "address": "Cr 100 No. 15A-61, C.C Aventura Plaza, Lc 220",
+            "lat": "3.3680463",
+            "lng": "-76.5321223",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "intero",
+            "viewMap": "https://www.google.com/maps/dir//Centro+de+experiencia+Movistar+CC+Aventura+Plaza,+Cra.+100+%2315A-61+Local+220,+Cali,+Valle+del+Cauca/@3.3680463,-76.5321223,17z/data=!4m16!1m6!3m5!1s0x8e30a1743af89815:0x973abd13421b0199!2sCentro+de+experiencia+Movistar+CC+Aventura+Plaza!8m2!3d3.3680463!4d-76.5299336!4m8!1m0!1m5!1m1!1s0x8e30a1743af89815:0x973abd13421b0199!2m2!1d-76.5299336!2d3.3680463!3e2"
+        },
+        "movistar-cali-02": {
+            "name": "Movistar Calima",
+            "address": "Cr 5 Norte No. 55-39, Barrio Flora Industrial",
+            "lat": "3.48023",
+            "lng": "-76.5223988",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Centro+de+Experiencia+Movistar+Calima,+Cra.+5+Nte.+%23No.+55+-+39,+Cali,+Valle+del+Cauca/@3.48023,-76.5223988,14z/data=!4m16!1m6!3m5!1s0x8e30a62afd34e41d:0xe0912a74f18aa1e3!2sCentro+de+Experiencia+Movistar+Calima!8m2!3d3.48023!4d-76.5048893!4m8!1m0!1m5!1m1!1s0x8e30a62afd34e41d:0xe0912a74f18aa1e3!2m2!1d-76.5048893!2d3.48023!3e2"
+        },
+        "movistar-cali-03": {
+            "name": "Movistar Cali",
+            "address": "Cl 9A No. 46-69, Lc 105-106",
+            "lat": "3.4145421",
+            "lng": "-76.5425351",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Calle+9A,+Calle+9+No.+46+-+69,+Locales+105+-+106,+Cali,+Valle+del+Cauca/@3.4145421,-76.5425351,17z/data=!4m16!1m6!3m5!1s0x8e30a6aefe08df5d:0xb8dd773f2cce497d!2sMovistar+Cali+Calle+9A!8m2!3d3.4145421!4d-76.5403464!4m8!1m0!1m5!1m1!1s0x8e30a6aefe08df5d:0xb8dd773f2cce497d!2m2!1d-76.5403464!2d3.4145421!3e2"
+        },
+        "movistar-cali-04": {
+            "name": "Movistar Cali Canaveralejo",
+            "address": "Cl 5 No. 54A-13",
+            "lat": "3.4145421",
+            "lng": "-76.5491012",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Ca%C3%B1averalejo,+Cra.+54a+%235A-52,+Cali,+Valle+del+Cauca/@3.4145421,-76.5491012,15z/data=!4m16!1m6!3m5!1s0x8e30a6a9924e2233:0xf7907a8caec5d474!2sMovistar+Ca%C3%B1averalejo!8m2!3d3.4101917!4d-76.5471445!4m8!1m0!1m5!1m1!1s0x8e30a6a9924e2233:0xf7907a8caec5d474!2m2!1d-76.5471445!2d3.4101917!3e2"
+        },
+        "movistar-cali-05": {
+            "name": "Movistar Centro",
+            "address": "Cl 10 Cr 6, Esquina Diag a la Gobernación",
+            "lat": "3.4500165",
+            "lng": "-76.5353559",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Centro,+Calle+10+Carrera+6+Esquina+Diagonal+a,+Plaza+De+La+Gobernaci%C3%B3n,+Cali,+Valle+del+Cauca/@3.4500165,-76.5353559,17z/data=!4m16!1m6!3m5!1s0x8e30a7371b780a97:0x96603753cb0fd001!2sMovistar+Cali+Centro!8m2!3d3.4500165!4d-76.5331672!4m8!1m0!1m5!1m1!1s0x8e30a7371b780a97:0x96603753cb0fd001!2m2!1d-76.5331672!2d3.4500165!3e2"
+        },
+        "movistar-cali-06": {
+            "name": "Movistar Santa Mónica",
+            "address": "Av 6A Norte No. 22N-46",
+            "lat": "3.4161938",
+            "lng": "-76.5698161",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "intenro",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Cali+Santa+M%C3%B3nica,+Avenida+6A+Norte+No.+22N+-+46,+Cali,+Valle+del+Cauca/@3.4161938,-76.5698161,13z/data=!4m16!1m6!3m5!1s0x8e30a6148fbee577:0x80a4188493b952f9!2sMovistar+Cali+Santa+M%C3%B3nica!8m2!3d3.4643426!4d-76.5308184!4m8!1m0!1m5!1m1!1s0x8e30a6148fbee577:0x80a4188493b952f9!2m2!1d-76.5308184!2d3.4643426!3e2"
+        },
+        "movistar-chia": {
+            "name": "Movistar Chia",
+            "address": "Cl 10 No. 10-68",
+            "lat": "4.8603654",
+            "lng": "-74.0629962",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 2:00 p.m",
+                "Dom de 10:00 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Ch%C3%ADa,+Cl.+10+%2368+No.+10,+Ch%C3%ADa,+Cundinamarca/@4.8603654,-74.0629962,17z/data=!4m16!1m6!3m5!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2sMovistar+Ch%C3%ADa!8m2!3d4.8603654!4d-74.0608075!4m8!1m0!1m5!1m1!1s0x8e3f878ebf69264b:0x8dd04046737bf28c!2m2!1d-74.0608075!2d4.8603654!3e2"
+        },
+        "movistar-manizales": {
+            "name": "Movistar Manizales",
+            "address": "Cr 23B No. 64-80",
+            "lat": "5.0558374",
+            "lng": "-75.4891584",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Centro+de+Experiencia+Manizales,+Cra.+23b+%2380+No.+64,+Manizales,+Caldas/@5.0558374,-75.4891584,17z/data=!4m16!1m6!3m5!1s0x8e47657eaa7fd57b:0x389773184807a24c!2sMovistar+Centro+de+Experiencia+Manizales!8m2!3d5.0558374!4d-75.4869697!4m8!1m0!1m5!1m1!1s0x8e47657eaa7fd57b:0x389773184807a24c!2m2!1d-75.4869697!2d5.0558374!3e2"
+        },
+        "movistar-medellin-01": {
+            "name": "Movistar Centro",
+            "address": "Cr 47 No. 52-86, C.C Camino Real, Lc 301",
+            "lat": "6.2502046",
+            "lng": "-75.5669996",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Medell%C3%ADn,+Centro+de+experiencia,+Carrera+47+No.+52+-+86+Centro+Comercial+Camino+Real,+Local+301,+Medell%C3%ADn,+Antioquia/@6.2502046,-75.5669996,17z/data=!4m16!1m6!3m5!1s0x8e4428f1a9795567:0x851adb43809b822d!2sMovistar+Medell%C3%ADn,+Centro+de+experiencia!8m2!3d6.2502169!4d-75.564888!4m8!1m0!1m5!1m1!1s0x8e4428f1a9795567:0x851adb43809b822d!2m2!1d-75.564888!2d6.2502169!3e2"
+        },
+        "movistar-medellin-02": {
+            "name": "Movistar Mayorca",
+            "address": "Cl 51 Sur No. 48-57, C.C Mayorca Mega Plaza, Lc 1072-1074",
+            "lat": "6.1617927",
+            "lng": "-75.6071954",
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 9:00 p.m",
+                "Dom y Fes de 11:00 a.m a 8:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Mayorca,+Calle+51+Sur+No.+48+-+57+Centro+Comercial+Mayorca+Mega+Plaza+Local+1072+-+1074,+Medell%C3%ADn,+Antioqu%C3%ADa/@6.1617927,-75.6071954,17z/data=!4m16!1m6!3m5!1s0x8e468331bec4e697:0x5366b11132859bb3!2sMovistar+Mayorca!8m2!3d6.1617927!4d-75.6050067!4m8!1m0!1m5!1m1!1s0x8e468331bec4e697:0x5366b11132859bb3!2m2!1d-75.6050067!2d6.1617927!3e2"
+        },
+        "movistar-medellin-03": {
+            "name": "Movistar Poblado",
+            "address": "Cr 43A No. 3-101",
+            "lat": "6.1617915",
+            "lng": "-75.6400263",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Medell%C3%ADn+Poblado,+Carrera+43A+No.+3+-+101,+Medell%C3%ADn,+Antioquia/@6.1617915,-75.6400263,13z/data=!4m16!1m6!3m5!1s0x8e468262bf0f3cb3:0x73563c07b20e68f!2sMovistar+Medell%C3%ADn+Poblado!8m2!3d6.2010561!4d-75.5720423!4m8!1m0!1m5!1m1!1s0x8e468262bf0f3cb3:0x73563c07b20e68f!2m2!1d-75.5720423!2d6.2010561!3e2"
+        },
+        "movistar-medellin-04": {
+            "name": "Movistar Premium",
+            "address": "Cr 43A No. 30-25, C.C Premium Plaza, Lc 1260",
+            "lat": "6.2296521",
+            "lng": "-75.6400627",
+            "schedule": [
+                "Lun a Vie de 9:30 a.m a 6:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Premium+Plaza,+K43-A+%2330-25,+Medell%C3%ADn,+Antioquia/@6.2296521,-75.6400627,12z/data=!4m16!1m6!3m5!1s0x8e44284a476dd919:0xc6aee60f6bac5f10!2sMovistar+Premium+Plaza!8m2!3d6.2296521!4d-75.5700249!4m8!1m0!1m5!1m1!1s0x8e44284a476dd919:0xc6aee60f6bac5f10!2m2!1d-75.5700249!2d6.2296521!3e2"
+        },
+        "movistar-medellin-05": {
+            "name": "Movistar Bello Puerta del Norte",
+            "address": "Dg 55 No. 34-67, C.C Puerto del Norte, Torre 1 Piso 2",
+            "lat": "6.3394457",
+            "lng": "-75.5457144",
+            "schedule": [
+                "Lun a Vie de 9:30 a.m a 6:30 p.m",
+                "Sab de 9:30 a.m a 5:00 p.m",
+                "Dom de 10:00 a.m a 2:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Bello+Puerta+del+Norte,+Diagonal+55+%2334-67+Centro+Comercial+Puerta+del+Norte,+Torre+1,+Piso+2,+Local+286+Zona+Com%C3%BAn+Boulevard,+Bello,+Antioquia/@6.3394457,-75.5457144,17z/data=!4m16!1m6!3m5!1s0x8e442f9a13da8bc7:0x2bc6903cc040dca5!2sMovistar+Bello+Puerta+del+Norte!8m2!3d6.3394457!4d-75.5435257!4m8!1m0!1m5!1m1!1s0x8e442f9a13da8bc7:0x2bc6903cc040dca5!2m2!1d-75.5435257!2d6.3394457!3e2"
+        },
+        "movistar-pereira": {
+            "name": "Movistar Pereira",
+            "address": "Av Circunvalar No. 10-53",
+            "lat": "4.8061551",
+            "lng": "-75.688698",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar,+Cra.+13+%2353+No.+10,+Pereira,+Risaralda/@4.8061551,-75.688698,16.25z/data=!4m16!1m6!3m5!1s0x8e38873928536a1f:0x33345efbac39fca2!2sMovistar!8m2!3d4.8082349!4d-75.6877151!4m8!1m0!1m5!1m1!1s0x8e38873928536a1f:0x33345efbac39fca2!2m2!1d-75.6877151!2d4.8082349!3e2"
+        },
+        "movistar-sincelejo": {
+            "name": "Movistar Sincelejo",
+            "address": "Cl 25 N0. 19-29",
+            "lat": "9.2998081",
+            "lng": "-75.3960327",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Sincelejo,+Cl.+25+%231929,+Sincelejo,+Sucre/@9.2998081,-75.3960327,17z/data=!4m16!1m6!3m5!1s0x8e59144e9e57243d:0x6b1c14150c0a5060!2sMovistar+Sincelejo!8m2!3d9.2998081!4d-75.393844!4m8!1m0!1m5!1m1!1s0x8e59144e9e57243d:0x6b1c14150c0a5060!2m2!1d-75.393844!2d9.2998081!3e2"
+        },
+        "movistar-soacha": {
+            "name": "Movistar Soacha",
+            "address": "Cr 7 No. 32-35, C.C Mercurio Lc 240A-245",
+            "lat": "4.587753",
+            "lng": "-74.2063227",
+            "schedule": [
+                "Lun a Sab de 9:00 a.m a 6:00 p.m",
+                "Dom de 10:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Soacha,+Carrera+7+No.+32+-+35+Centro+Comercial+Mercurio+Locales+240+A+245,+Soacha,+Cundinamarca/@4.587753,-74.2063227,17z/data=!4m16!1m6!3m5!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2sMovistar+Soacha!8m2!3d4.587753!4d-74.204134!4m8!1m0!1m5!1m1!1s0x8e3f9fcd0f183747:0x36284fd5e4ee0837!2m2!1d-74.204134!2d4.587753!3e2"
+        },
+        "movistar-tunja-01": {
+            "name": "Movistar Tunja",
+            "address": "Plaza Bolívar Cl 19 No. 9-15",
+            "lat": "5.5317253",
+            "lng": "-73.3701615",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Plaza+Bol%C3%ADvar+Tunja,+Cl.+19+%23915,+Tunja,+Boyac%C3%A1/@5.5317253,-73.3701615,15z/data=!4m16!1m6!3m5!1s0x8e6a7dd2d28cf4f3:0x4461d9e4c851415e!2sMovistar+Plaza+Bol%C3%ADvar+Tunja!8m2!3d5.5317253!4d-73.3614068!4m8!1m0!1m5!1m1!1s0x8e6a7dd2d28cf4f3:0x4461d9e4c851415e!2m2!1d-73.3614068!2d5.5317253!3e2"
+        },
+        "movistar-tunja-02": {
+            "name": "Movistar C.C Unicentro",
+            "address": "Av Universitaria No. 39-77",
+            "lat": "5.5395432",
+            "lng": "-73.3640772",
+            "schedule": [
+                "Lun a Vie de 10:00 a.m a 7:00 p.m",
+                "Sab de 9:00 a.m a 7:00 p.m",
+                "Dom de 2:00 p.m a 6:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Unicentro+Tunja,+Avenida+Universitaria+No.+39+-+77+Centro+Comercial+Unicentro+Local+110+-+11,+Tunja,+Boyac%C3%A1/@5.5395432,-73.3640772,15z/data=!4m16!1m6!3m5!1s0x8e6a7dda569eb3e5:0x5672ca5361cb201c!2sMovistar+Unicentro+Tunja!8m2!3d5.5462969!4d-73.349238!4m8!1m0!1m5!1m1!1s0x8e6a7dda569eb3e5:0x5672ca5361cb201c!2m2!1d-73.349238!2d5.5462969!3e2"
+        },
+        "movistar-villavicencio-01": {
+            "name": "Movistar Villavicencio",
+            "address": "Av 40 No. 35A-30, Mainzaro",
+            "lat": "4.1331435",
+            "lng": "-73.638616",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 8:30 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar,+Avenida+40+No.+35A+-+30,+Mainzaro,+Villavicencio,+Meta/@4.1331435,-73.638616,17z/data=!4m16!1m6!3m5!1s0x8e3e2e405453bc5d:0x79a5a2c519167b20!2sMovistar!8m2!3d4.1331435!4d-73.6364273!4m8!1m0!1m5!1m1!1s0x8e3e2e405453bc5d:0x79a5a2c519167b20!2m2!1d-73.6364273!2d4.1331435!3e2"
+        },
+        "movistar-villavicencio-02": {
+            "name": "Movistar Villavicencio",
+            "address": "Cr 48 No. 13-220",
+            "lat": "4.140109",
+            "lng": "-73.6608627",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 5:30 p.m",
+                "Sab de 8:30 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//M%C3%93VISTAR+SERVICIO+COMERCIAL,+Carrera+48+No.+13+-+220,+Villavicencio,+Meta/@4.140109,-73.6608627,17z/data=!4m16!1m6!3m5!1s0x8e3e2df5ea87397d:0x4927abe1f52eba18!2sM%C3%93VISTAR+SERVICIO+COMERCIAL!8m2!3d4.140109!4d-73.658674!4m8!1m0!1m5!1m1!1s0x8e3e2df5ea87397d:0x4927abe1f52eba18!2m2!1d-73.658674!2d4.140109!3e2"
+        },
+        "movistar-yopal": {
+            "name": "Movistar Yopal",
+            "address": "Cl 7 No. 19-54",
+            "lat": "5.3493564",
+            "lng": "-72.4039405",
+            "schedule": [
+                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://www.google.com/maps/dir//Movistar+Yopal,+Cl.+7+%231954,+Yopal,+Casanare/@5.3493564,-72.4039405,17z/data=!4m16!1m6!3m5!1s0x8e6b0d948e3b11ff:0xdfab8dc40abe1848!2sMovistar+Yopal!8m2!3d5.3493564!4d-72.4017518!4m8!1m0!1m5!1m1!1s0x8e6b0d948e3b11ff:0xdfab8dc40abe1848!2m2!1d-72.4017518!2d5.3493564!3e2"
+        },
         "msi-bogota-01": {
             "name": "Punto de Servicios",
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
@@ -5625,6 +5697,33 @@
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Woden+Colombia+SAS,+AV+CLL+13+%23+56+35,+Bogot%C3%A1/@4.6304019,-74.1107958,21z/data=!4m16!1m6!3m5!1s0x8e3f9be323d5ceed:0xf6cdce79ee936b75!2sWoden+Colombia+SAS!8m2!3d4.6304609!4d-74.110681!4m8!1m0!1m5!1m1!1s0x8e3f9be323d5ceed:0xf6cdce79ee936b75!2m2!1d-74.110681!2d4.6304609!3e2"
+        },
+        "nutribullet-bogota": {
+            "name": "Nutribullet, Almacén Casamagna",
+            "address": "Cr 19 No. 93-19",
+            "lat": "4.6785302",
+            "lng": "-74.0548858",
+            "phone": [
+                "6363880",
+                "018000113880"
+            ],
+            "cell": [
+                "3148880020"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 3:30 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://www.google.com/maps/place/Casa+Magna+La+93/@4.6785302,-74.0548858,15z/data=!4m5!3m4!1s0x0:0x2a1272fe80a799f3!8m2!3d4.678522!4d-74.0548701"
+        },
+        "nutribullet-linea-nacional": {
+            "name": "Nutribullet Alkosto/Ktronix",
+            "address": "Almacén donde realizó la compra",
+            "schedule": [
+                "Dom a Dom de 8:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno"
         },
         "oster-call-center": {
             "name": "Oster Call Center",
@@ -9503,8 +9602,14 @@
                                 "avh-linea-nacional",
                                 "bionaire-call-center",
                                 "blackberry-call-center",
+                                "bullet-bogota",
+                                "bullet-linea-nacional",
                                 "forza-linea-nacional",
-                                "gama-bogota-call-center"
+                                "gama-bogota-call-center",
+                                "irobot-bogota",
+                                "irobot-linea-nacional",
+                                "nutribullet-bogota",
+                                "nutribullet-linea-nacional"
                             ]
                         },
                         "grandes-electrodomesticos": {
