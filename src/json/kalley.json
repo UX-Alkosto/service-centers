@@ -44,6 +44,9 @@
         },
         "tecnologia-entretenimiento": {
             "name": "Tecnología y entretenimiento"
+        },
+        "telefonia": {
+            "name": "Telefonía"
         }
     },
     "serviceCenters": {
@@ -56,19 +59,6 @@
                 "3103892311"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+9+%236-100,+Leticia,+Amazonas/@-4.2166971,-69.9422418,17z/data=!4m17!1m7!3m6!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2sCra.+9+%236-100,+Leticia,+Amazonas!3b1!8m2!3d-4.2166971!4d-69.9400531!4m8!1m0!1m5!1m1!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2m2!1d-69.9400531!2d-4.2166971!3e3"
-        },
-        "antioquia-medellin-01": {
-            "name": "INDUSERVIX SOLUTION S.A.S",
-            "address": "Cl 33 No 65C - 29, Barrio Belén Fatima",
-            "lat": "6.2392364",
-            "lng": "-75.5874089",
-            "phone": [
-                "3227606"
-            ],
-            "cell": [
-                "3336417394"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Av.+33+%2365C-29,+Medell%C3%ADn,+Antioquia/@6.2392364,-75.5874089,17z/data=!4m17!1m7!3m6!1s0x8e4429aff011d459:0x2a5d5067c40702b2!2sAv.+33+%2365C-29,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2392364!4d-75.5852202!4m8!1m0!1m5!1m1!1s0x8e4429aff011d459:0x2a5d5067c40702b2!2m2!1d-75.5852202!2d6.2392364!3e3"
         },
         "antioquia-medellin-02": {
             "name": "FAMILIAR DE REPUESTOS LTDA",
@@ -87,11 +77,9 @@
         "antioquia-medellin-03": {
             "name": "AS ELECTRON",
             "address": "Cr 80 No 44B - 101",
+            "email": "aselectronlaura@gmail.com",
             "lat": "6.2529119",
             "lng": "-75.6011704",
-            "phone": [
-                "5808468"
-            ],
             "cell": [
                 "3012851485"
             ],
@@ -109,19 +97,6 @@
                 "3148923227"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2614439,-75.5702308,17z/data=!4m17!1m7!3m6!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2sCra.+53+%2362-39,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2614439!4d-75.5680421!4m8!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.5680421!2d6.2614439!3e3"
-        },
-        "antioquia-apartado-01": {
-            "name": "LA CLÍNICA DE LAS LAVADORAS",
-            "address": "Cl 99 No 98 - 38, Barrio Fundadores",
-            "lat": "7.8825666",
-            "lng": "-76.6331296",
-            "phone": [
-                "8280171"
-            ],
-            "cell": [
-                "3007105561"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+99+%2398-38,+Apartad%C3%B3,+Antioquia/@7.8825666,-76.6331296,17z/data=!4m17!1m7!3m6!1s0x8e500d7a92cb1d13:0x4eba691916ca3641!2sCl.+99+%2398-38,+Apartad%C3%B3,+Antioquia!3b1!8m2!3d7.8825666!4d-76.6309409!4m8!1m0!1m5!1m1!1s0x8e500d7a92cb1d13:0x4eba691916ca3641!2m2!1d-76.6309409!2d7.8825666!3e3"
         },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
@@ -267,6 +242,21 @@
                 "3137670905"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+70b+%2341-160,+Barranquilla,+Atl%C3%A1ntico/@10.9896748,-74.808478,17z/data=!4m17!1m7!3m6!1s0x8ef42d128110582f:0xc4addcbf7de73703!2sCl.+70b+%2341-160,+Barranquilla,+Atl%C3%A1ntico!3b1!8m2!3d10.9896748!4d-74.8062893!4m8!1m0!1m5!1m1!1s0x8ef42d128110582f:0xc4addcbf7de73703!2m2!1d-74.8062893!2d10.9896748!3e3"
+        },
+        "atlantico-barranquilla-03": {
+            "name": "LOGYTECH MOBILE BARRANQUILLA",
+            "address": "Cl 58 No. 44-70, Barrio Boston",
+            "email":"st.barranquillasur@logytechmobile.com",
+            "lat": "10.9878655",
+            "lng": "-74.7971114",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 1:00 p.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "cell": [
+                "3023359860"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Cl.+58+%2344-70,+Barranquilla,+Atl%C3%A1ntico/@10.9878655,-74.7971114,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d6fcc523d65:0xfe45ee70d0bff2d1!8m2!3d10.9878602!4d-74.7949227?hl=es"
         },
         "bogota-01": {
             "name": "CENTRO SERVICIO EXCLUSIVO KALLEY 68",
@@ -1491,7 +1481,6 @@
                         },
                         "ferreteria": {
                             "stores": [
-                                "antioquia-medellin-01",
                                 "antioquia-medellin-04"
                             ]
                         },
@@ -1503,15 +1492,18 @@
                         },
                         "soluciones-hogar": {
                             "stores": [
-                                "antioquia-medellin-01",
                                 "antioquia-medellin-04",
                                 "antioquia-medellin-02"
                             ]
                         },
                         "tecnologia-entretenimiento": {
                             "stores": [
-                                "antioquia-medellin-03",
-                                "antioquia-medellin-01"
+                                "antioquia-medellin-03"
+                            ]
+                        },
+                        "telefonia":{
+                            "stores":[
+                                "antioquia-medellin-03"
                             ]
                         }
                     }
@@ -1548,7 +1540,6 @@
                         },
                         "cuidado-personal-soluciones-hogar": {
                             "stores": [
-                                "antioquia-apartado-01",
                                 "antioquia-apartado-02"
                             ]
                         },
@@ -1574,7 +1565,6 @@
                         },
                         "soluciones-hogar": {
                             "stores": [
-                                "antioquia-apartado-01",
                                 "antioquia-apartado-02"
                             ]
                         },
@@ -1674,6 +1664,11 @@
                             "stores": [
                                 "atlantico-barranquilla-01",
                                 "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "telefonia":{
+                            "stores":[
+                                "atlantico-barranquilla-03"
                             ]
                         }
                     }
