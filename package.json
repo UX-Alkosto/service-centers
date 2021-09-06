@@ -4,7 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
-    "lit": "^2.0.0-rc.3"
+    "lit": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",
