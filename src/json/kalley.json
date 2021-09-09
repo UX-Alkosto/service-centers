@@ -80,6 +80,9 @@
             "email": "aselectronlaura@gmail.com",
             "lat": "6.2529119",
             "lng": "-75.6011704",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:30 p.m y Sab de 8:00 a.m a 1:00 p.m"
+            ],
             "cell": [
                 "3012851485"
             ],
