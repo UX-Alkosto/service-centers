@@ -57,7 +57,12 @@
             "name": "Asus",
             "departments": [
                 "cundinamarca",
-                "linea-nacional"
+                "linea-nacional",
+                "quindio",
+                "atlantico",
+                "santander",
+                "valle-del-cauca",
+                "antioquia"
             ]
         },
         "athletic": {
@@ -257,7 +262,7 @@
                 "santander",
                 "sucre",
                 "tolima",
-                "valle-del-cauca"   
+                "valle-del-cauca"
             ]
         },
         "directv": {
@@ -597,7 +602,7 @@
                 "meta",
                 "risaralda",
                 "santander",
-                "valle-del-cauca"  
+                "valle-del-cauca"
             ]
         },
         "logitech": {
@@ -680,7 +685,7 @@
                 "risaralda",
                 "santander",
                 "sucre",
-                "valle-del-cauca"  
+                "valle-del-cauca"
             ]
         },
         "msi": {
@@ -793,7 +798,7 @@
                 "risaralda",
                 "sucre",
                 "tolima",
-                "valle-del-cauca" 
+                "valle-del-cauca"
             ]
         },
         "pioneer": {
@@ -1015,7 +1020,7 @@
                 "linea-nacional",
                 "meta",
                 "santander",
-                "valle-del-cauca"     
+                "valle-del-cauca"
             ]
         },
         "xbox": {
@@ -1496,15 +1501,15 @@
         },
         "asus-bogota-01": {
             "name": "Asus Punto de Servicios La Castellana",
-            "address": "Cr 49 No. 93-12, Barrio La Castellana",
+            "address": "Cr 49 No. 93-12",
             "lat": "4.6809851",
             "lng": "-74.0639395",
             "phone": [
                 "7435027"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 3:30 p.m",
-                "Sab de 8:00 a.m - 12:00 p.m"
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m - 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1512,15 +1517,15 @@
         },
         "asus-bogota-02": {
             "name": "Asus Punto de Servicios Quinta Paredes",
-            "address": "Cr 40 No. 24a-59, Barrio Quinta Paredes",
+            "address": "Cr 40 No. 24A-59",
             "lat": "4.6315414",
             "lng": "-74.0919107",
             "phone": [
                 "7452493"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 3:30 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1533,10 +1538,112 @@
                 "018000910109"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 7:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
             ],
-            "type": "interno"
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia"
+        },
+        "asus-armenia": {
+            "name": "Asus Armenia",
+            "address": "Cl 2 Norte No. 18-05, Barrio Nueva Cecilia",
+            "lat": "4.546977",
+            "lng": "-75.666639",
+            "phone": [
+                "7312528",
+                "7312529"
+            ],
+            "cell": [
+                "3182618480",
+                "3187093688"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia",
+            "viewMap": "https://www.google.com/maps/place/Cl.+2+Nte.+%2318-5,+Armenia,+Quind%C3%ADo/@4.546977,-75.666639,17z/data=!3m1!4b1!4m5!3m4!1s0x8e38f4fdc4e6ee07:0xdb3dd10554ad0250!8m2!3d4.546977!4d-75.6644503?hl=es"
+        },
+        "asus-barranquilla": {
+            "name": "Asus Barranquilla",
+            "address": "Cl 75 No. 44-56",
+            "lat": "10.99478",
+            "lng": "-74.8117078",
+            "phone": [
+                "3092017"
+            ],
+            "cell": [
+                "3183352138"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia",
+            "viewMap": "https://www.google.com/maps/place/Cl.+75+%23%2344-56,+Barranquilla,+Atl%C3%A1ntico/@10.99478,-74.8117078,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d0c011c1d6f:0x394db2f3e99da119!8m2!3d10.99478!4d-74.8095191?hl=es"
+        },
+        "asus-bucaramanga": {
+            "name": "Asus Bucaramanga",
+            "address": "Cr 37 No. 51–106, Barrio Cabecera",
+            "lat": "7.1140033",
+            "lng": "-73.1099121",
+            "phone": [
+                "6971910",
+                "6971914"
+            ],
+            "cell": [
+                "3112113625",
+                "3174389740"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia",
+            "viewMap": "https://www.google.com/maps/place/Punto+de+Servicios/@7.1140033,-73.1099121,17z/data=!3m1!4b1!4m5!3m4!1s0x8e683fd9c13fe7a3:0x66f4ee80632c0e4e!8m2!3d7.1140033!4d-73.1077234?hl=es"
+        },
+        "asus-cali": {
+            "name": "Asus Cali",
+            "address": "Cl 25 Norte No. 5BN–65, Esquina Edificio EGuzman, Barrio San Vicente",
+            "lat": "3.4677373",
+            "lng": "-76.5294302",
+            "phone": [
+                "4862113"
+            ],
+            "cell": [
+                "3208007427",
+                "3175005261"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia",
+            "viewMap": "https://www.google.com/maps/place/Cl.+25+Nte.+%23%235BN-65,+Cali,+Valle+del+Cauca/@3.4677373,-76.5294302,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a79fa30aa805:0xa9c341c78e2ad282!8m2!3d3.4677373!4d-76.5272415?hl=es"
+        },
+        "asus-envigado": {
+            "name": "Asus Envigado",
+            "address": "Cl 33B Sur No. 47–66",
+            "lat": "6.176051",
+            "lng": "-75.59242",
+            "phone": [
+                "4480445"
+            ],
+            "cell": [
+                "3113343140",
+                "3103025358"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 3:45 p.m",
+                "Sab de 7:30 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.asus.com/co/support/service-center/colombia",
+            "viewMap": "https://www.google.com/maps/place/Cl+33B+Sur+%2347-66,+Envigado,+Antioquia/@6.176051,-75.59242,17z/data=!3m1!4b1!4m5!3m4!1s0x8e46824f68279b07:0x15404725a7b1b6b!8m2!3d6.176051!4d-75.5902313?hl=es"
         },
         "athletic-bogota": {
             "name": "Evolution Fitness",
@@ -4298,7 +4405,7 @@
                 "6363880",
                 "018000113880"
             ],
-            "cell":[
+            "cell": [
                 "3148880020"
             ],
             "schedule": [
@@ -4731,9 +4838,12 @@
             "phone": [
                 "018000910683"
             ],
+            "cell": [
+                "3222634570"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Sab y Dom de 8:00 a.m a 12:00 p.m"
             ],
             "type": "interno"
         },
@@ -8072,6 +8182,18 @@
             ],
             "type": "interno"
         },
+        "xiaomi-bogota-02": {
+            "name": "WODEN",
+            "cell": [
+                "3186085419",
+                "3186553911",
+                "3167432951"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 3:00 p.m"
+            ],
+            "type": "interno"
+        },
         "yale-call-center": {
             "name": "YALE Call Center",
             "cell": [
@@ -8129,6 +8251,11 @@
                         "impresoras": {
                             "stores": [
                                 "brother-envigado"
+                            ]
+                        },
+                        "informatica-celulares": {
+                            "stores": [
+                                "asus-envigado"
                             ]
                         }
                     }
@@ -8268,6 +8395,11 @@
                         "informatica": {
                             "stores": [
                                 "dell-barranquilla"
+                            ]
+                        },
+                        "informatica-celulares": {
+                            "stores": [
+                                "asus-barranquilla"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -8735,7 +8867,8 @@
                         "telefonia": {
                             "stores": [
                                 "nokia-bogota",
-                                "xiaomi-bogota"
+                                "xiaomi-bogota",
+                                "xiaomi-bogota-02"
                             ]
                         },
                         "telefonia-operador": {
@@ -9070,6 +9203,11 @@
                                 "dell-armenia"
                             ]
                         },
+                        "informatica-celulares": {
+                            "stores": [
+                                "asus-armenia"
+                            ]
+                        },
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "imusa-armenia"
@@ -9212,6 +9350,11 @@
                         "informatica": {
                             "stores": [
                                 "dell-bucaramanga"
+                            ]
+                        },
+                        "informatica-celulares": {
+                            "stores": [
+                                "asus-bucaramanga"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -9396,6 +9539,11 @@
                         "informatica": {
                             "stores": [
                                 "dell-cali-call-center"
+                            ]
+                        },
+                        "informatica-celulares": {
+                            "stores": [
+                                "asus-cali"
                             ]
                         },
                         "pequenos-electrodomesticos": {
