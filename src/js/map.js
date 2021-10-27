@@ -42,45 +42,47 @@ export class Map {
     }
 
     setInfoWindow(location) {
+        const {address, cellphone, map, name, phone} = location;
         const phones = getFormatedPhone(location, false);
-        const cellphone = getFormatedCellphone(location, false);
+        const cellphones = getFormatedCellphone(location, false);
         return `<div class="service-centers__map__info-window">
             <button class="service-centers__map__info-window__close"><span class="alk-icon-close"></span></button>
-            <h4>${location.name}</h4>
-            ${location.address.length ? `<p><strong>Dirección:</strong><br />
-                ${location.address}
+            <h4>${name}</h4>
+            ${address.length ? `<p><strong>Dirección:</strong><br />
+                ${address}
             </p>` : ""}
-            ${location.phone.length ? `<p><strong>Contacto telefónico:</strong><br />
+            ${phone.length ? `<p><strong>Contacto telefónico:</strong><br />
                 ${phones.join(" ")}
             </p>` : ""}
-            ${(!location.address.length && !location.phone.length) && location.cellphone.length ? `<p><strong>Contacto telefónico:</strong><br />
-                ${cellphone.join(" ")}
+            ${(!address.length && !phone.length) && cellphone.length ? `<p><strong>Contacto telefónico:</strong><br />
+                ${cellphones.join(" ")}
             </p>` : ""}
-            ${location.map.length ? ` <p><i class="alk-icon-exportar"></i>
-                <a rel="noopener" href="${location.map}" title="Indicaciones para llegar a ${location.name}" target="_blank">¿Cómo llegar?</a>
+            ${map.length ? ` <p><i class="alk-icon-exportar"></i>
+                <a rel="noopener" href="${map}" title="Indicaciones para llegar a ${name}" target="_blank">¿Cómo llegar?</a>
             </p>` : ""}
         </div>`;
     }
 
-    async setMarkers(locationPoints) {
+    setMarkers(locationPoints) {
         this.bounds = new google.maps.LatLngBounds();
         this.clearMarkers();
         this.markers = {};
         locationPoints.map(location => {
+            const {coordinates, id, name} = location;
             const marker = new google.maps.Marker({
-                position: new google.maps.LatLng(location.coordinates.lat, location.coordinates.lng),
+                position: new google.maps.LatLng(coordinates.lat, coordinates.lng),
                 map: this.map,
                 icon: `https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/${this.baseSite}/img/pin.svg`,
-                title: location.name
+                title: name
             });
             marker.addListener("click", () => {
                 this.infoWindow.setContent(this.setInfoWindow(location));
                 this.infoWindow.open(this.map, marker);
                 this.map.panTo(marker.getPosition());
-                document.dispatchEvent(new CustomEvent("updateCenter", { detail: { center: location.id } }));
+                document.dispatchEvent(new CustomEvent("updateCenter", { detail: { center: id } }));
             });
             this.bounds.extend(marker.getPosition());
-            this.markers[location.id] = marker;
+            this.markers[id] = marker;
         });
         this.map.setCenter(this.bounds.getCenter());
         this.map.fitBounds(this.bounds);
