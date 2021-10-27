@@ -38,13 +38,13 @@ document.addEventListener("click", e => {
 	}
 });
 
-window.onresize = () => {
+window.addEventListener("resize", () => {
 	document.querySelector(".service-centers__map").style.display = "none";
 	if (window.innerWidth > mobileBreakpoint &&
 		document.getElementById("departamento").value != "0") {
 		document.querySelector(".service-centers__map").style.display = "block";
 	}
-};
+});
 
 if (brandSelect !== null) {
 	brandDefaultOption = new Option(`Selecciona una ${brandSelect.labels[0].textContent.toLowerCase()}`, 0, true, true);

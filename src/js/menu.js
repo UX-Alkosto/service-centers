@@ -58,49 +58,50 @@ class Menu {
         map = mapElement;
     }
     render() {
+        const { id, name, active, isCallCenter, address, email, phone, cellphone, schedule, map, linkType } = this.serviceCenter;
         return html`<div class="service-centers__menu__item">
             <input type="radio" @change=${_changeHandler} @click=${_clickHandler}
-                name="centro-servicio" .id="${this.serviceCenter.id}">
-            <label for="${this.serviceCenter.id}">
-                ${unsafeHTML(this.serviceCenter.name)}
-                <span class="${this.serviceCenter.active ?
+                name="centro-servicio" .id="${id}">
+            <label for="${id}">
+                ${unsafeHTML(name)}
+                <span class="${active ?
                     "alk-icon-arriba" : "alk-icon-abajo"}"></span>
             </label>
             <div class="service-centers__menu__item__body"
-                data-call-center="${this.serviceCenter.isCallCenter}"
-                data-service-center="${this.serviceCenter.id}"
+                data-call-center="${isCallCenter}"
+                data-service-center="${id}"
                 @click=${_bodyClickHandler} @mouseenter=${_mouseEnterHandler}
                 @mouseleave=${_mouseLeaveHandler}>
-                ${this.serviceCenter.address.length ? html`<div class="address">
+                ${address.length ? html`<div class="address">
                     <p><strong><i class="alk-icon-llegada-ciudad"></i> Dirección:</strong>
-                        ${unsafeHTML(this.serviceCenter.address)}</p>
+                        ${unsafeHTML(address)}</p>
                 </div>` : ""}
-                ${this.serviceCenter.email.length ? html`<div class="email">
+                ${email.length ? html`<div class="email">
                     <p><strong><i class="alk-icon-email"></i> Email:</strong>
-                        <a href="mailto:${this.serviceCenter.email}">${this.serviceCenter.email}</a>
+                        <a href="mailto:${email}">${email}</a>
                     </p>
                 </div>` : ""}
                 <div class="contact-phones">
-                    ${this.serviceCenter.phone.length ? html`<div class="phone">
+                    ${phone.length ? html`<div class="phone">
                         <p><strong><i class="alk-icon-customer-contact"></i> Contacto telefónico:</strong>
                             ${getFormatedPhone(this.serviceCenter)}
                         </p>
                     </div>` : ""}
-                    ${this.serviceCenter.cellphone.length ? html`<div class="cell">
+                    ${cellphone.length ? html`<div class="cell">
                         <p><strong><i class="alk-icon-phone-contact"></i> Celular:</strong>
                             ${getFormatedCellphone(this.serviceCenter)}
                         </p>
                     </div>` : ""}
                 </div>
-                ${this.serviceCenter.schedule.length ? html`<div class="schedule">
+                ${schedule.length ? html`<div class="schedule">
                     <p><strong><i class="alk-icon-clock"></i> Horario:</strong>
                             ${getFormatedSchedule(this.serviceCenter)}
                         </p>
                 </div>` : ""}
-                ${this.serviceCenter.linkType.length ? getInfoMessage(this.serviceCenter) : ""}
-                ${this.serviceCenter.map.length ? html`<div class="how-to-get">
+                ${linkType.length ? getInfoMessage(this.serviceCenter) : ""}
+                ${map.length ? html`<div class="how-to-get">
                     <p>
-                        <i class="alk-icon-arrive"></i><a rel="noopener" .href="${this.serviceCenter.map}" title="Indicaciones para llegar a ${this.name}" target="_blank">¿Cómo llegar?</a>
+                        <i class="alk-icon-arrive"></i><a rel="noopener" .href="${map}" title="Indicaciones para llegar a ${name}" target="_blank">¿Cómo llegar?</a>
                     </p>
                 </div>`: ""}
             </div>
@@ -109,24 +110,26 @@ class Menu {
 }
 
 function getFormatedCellphone(location, returnHtml = true) {
-    const cellPhoneNumbers = [];
-    for (const cellPhoneNumber of location.cellphone) {
+    let cellPhoneNumbers = [];
+    const { name, cellphone } = location;
+    for (const cellPhoneNumber of cellphone) {
         if (returnHtml) {
-            cellPhoneNumbers.push(html`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
+            cellPhoneNumbers = [...cellPhoneNumbers, html`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
         } else {
-            cellPhoneNumbers.push(`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
+            cellPhoneNumbers = [...cellPhoneNumbers, `<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
         }
     }
     return cellPhoneNumbers;
 }
 
 function getFormatedPhone(location, returnHtml = true) {
-    const phoneNumbers = [];
-    for (const phoneNumber of location.phone) {
+    let phoneNumbers = [];
+    const {areaCode, name, phone} = location;
+    for (const phoneNumber of phone) {
         if (returnHtml) {
-            phoneNumbers.push(html`<a href="tel:+57${location.areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${phoneNumber}</a>`);
+            phoneNumbers = [...phoneNumbers, html`<a href="tel:+57${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         } else {
-            phoneNumbers.push(`<a href="tel:+57${location.areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${phoneNumber}</a>`);
+            phoneNumbers = [...phoneNumbers, `<a href="tel:+57${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         }
     }
     return phoneNumbers;
@@ -134,15 +137,17 @@ function getFormatedPhone(location, returnHtml = true) {
 
 function getFormatedSchedule(location) {
     let scheduleItems = [];
-    for (const scheduleItem of location.schedule) {
-        scheduleItems.push(html`<span>${unsafeHTML(scheduleItem)}</span>`);
+    const {schedule} = location;
+    for (const scheduleItem of schedule) {
+        scheduleItems = [...scheduleItems,html`<span>${unsafeHTML(scheduleItem)}</span>`];
     }
     return scheduleItems;
 }
 
 function getInfoMessage(location) {
-    let message = (location.linkType !== "externo") ?
-        html`Para solicitar la garantía de su producto le agradecemos tener en cuenta las recomendaciones señaladas en el siguiente <a href="/politicas/politicas-garantia/c/politicas-garantia" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>` :
-        html`Para más información del centro de servicio por favor remitase al siguiente <a href="${location.link}" title="Consulta más información de ${location.name}" rel="nofollow" target="_blank">link</a>`;
+    const { link, linkType, name} = location;
+    let message = (linkType !== "externo") ?
+        html`Para solicitar la garantía de su producto le agradecemos tener en cuenta las recomendaciones señaladas en el siguiente <a href="/politicas/politicas-garantia/c/politicas-garantia" title="Consulta más información de ${name}" rel="nofollow" target="_blank">link</a>` :
+        html`Para más información del centro de servicio por favor remitase al siguiente <a href="${link}" title="Consulta más información de ${name}" rel="nofollow" target="_blank">link</a>`;
     return html`<div class="message"><p>${message}</p></div>`;
 }
