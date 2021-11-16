@@ -1388,7 +1388,7 @@
             "name": "MANTENIMIENTO ELECTRÓNICO BARRANCA ",
             "address": "Cl 52 No 27 - 105",
             "email": "mebarranca@gmail.com",
-            "lat": "7.0617527",
+            "lat": "7.061758",
             "lng": "-73.8543852",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
@@ -1402,14 +1402,14 @@
                 "3005704067",
                 "3187758303"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+52+%2327-105,+Barrancabermeja,+Santander/@7.0617527,-73.8543852,17z/data=!4m17!1m7!3m6!1s0x8e42eca88c1f50f7:0xd19581542b2a7d86!2sCl.+52+%2327-105,+Barrancabermeja,+Santander!3b1!8m2!3d7.0617527!4d-73.8521965!4m8!1m0!1m5!1m1!1s0x8e42eca88c1f50f7:0xd19581542b2a7d86!2m2!1d-73.8521965!2d7.0617527!3e3"
+            "viewMap": "https://www.google.com/maps/place/Cl.+52+%2327-105,+Barrancabermeja,+Santander/@7.061758,-73.8543852,17z/data=!3m1!4b1!4m5!3m4!1s0x8e42eca88c1f50f7:0xd19581542b2a7d86!8m2!3d7.0617527!4d-73.8521965?hl=es"
         },
         "santander-barrancabermeja-02": {
             "name": "ALMACEN Y TALLER ELECTROPEREZ",
             "address": "Cl 54 No 20 - 15, Barrio Torcoroma",
             "email": "electroperezbarrancabermeja@hotmail.com",
             "lat": "7.06424",
-            "lng": "-73.8592385,",
+            "lng": "-73.8592385",
             "schedule": [
                 "Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
@@ -3846,8 +3846,7 @@
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "bogota-03",
-                                ""
+                                "bogota-03"
                             ]
                         },
                         "audio-video": {
@@ -4240,8 +4239,7 @@
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "huila-pitalito",
-                                ""
+                                "huila-pitalito"
                             ]
                         },
                         "dispensadores": {
