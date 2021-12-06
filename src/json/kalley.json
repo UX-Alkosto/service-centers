@@ -114,11 +114,11 @@
             "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2614439,-75.5702308,17z/data=!4m17!1m7!3m6!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2sCra.+53+%2362-39,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2614439!4d-75.5680421!4m8!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.5680421!2d6.2614439!3e3"
         },
         "antioquia-medellin-05": {
-            "name": "COMERCIALIZADORA THE WAY",
-            "address": "Cl 53 No. 49-126, Lc 208",
+            "name": "PROMOVIL",
+            "address": "Cl 53 No. 50-21, Nutibara Mayorista",
             "email": "centrodegarantiaspromovil.co@gmail.com",
-            "lat": "6.252191",
-            "lng": "-75.5684498",
+            "lat": "6.252401",
+            "lng": "-75.5690258",
             "schedule": [
                 "Lun a Vie de 9:00 a.m a 6:00 p.m",
                 "Sab de 9:00 a.m a 1:00 p.m"
@@ -126,7 +126,22 @@
             "cell": [
                 "3173726523"
             ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+53+%23%23%23+49+-+126,+Medell%C3%ADn,+Antioquia/@6.252191,-75.5684498,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428f912a16969:0x633841db8187c100!8m2!3d6.252191!4d-75.5662611?hl=es"
+            "viewMap": "https://www.google.com/maps/place/Cl.+53+%23%2350-21,+Medell%C3%ADn,+Antioquia/@6.252401,-75.5690258,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428f96af01c81:0xc5719799e0fba830!8m2!3d6.2523957!4d-75.5668371?hl=es"
+        },
+        "antioquia-medellin-06": {
+            "name": "Expertos en Servicio Postventa",
+            "address": "Cl 5 Sur No. 53-26, Barrio Rodeo",
+            "email": "expertospostventa@gmail.com",
+            "lat": "6.2053999",
+            "lng": "-75.5897477",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "cell": [
+                "3041290724"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Cl.+5+Sur+%2353-26,+Medell%C3%ADn,+Antioquia/@6.2053999,-75.5897477,17z/data=!3m1!4b1!4m5!3m4!1s0x8e468277a137eb63:0x9e16fd399cf185c8!8m2!3d6.2053946!4d-75.587559?hl=es"
         },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
@@ -1861,6 +1876,118 @@
         "antioquia": {
             "name": "Antioquia",
             "cities": {
+                "apartado": {
+                    "areaCode": 4,
+                    "name": "Apartadó",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        },
+                        "aires-acondicionados": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        },
+                        "cuidado-personal": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "antioquia-apartado-03"
+                            ]
+                        },
+                        "tabletas": {
+                            "stores": [
+                                "antioquia-apartado-02"
+                            ]
+                        }
+                    }
+                },
+                "bello": {
+                    "areaCode": 4,
+                    "name": "Bello",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "cuidado-personal": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        },
+                        "tabletas": {
+                            "stores": [
+                                "antioquia-bello"
+                            ]
+                        }
+                    }
+                },
                 "caucasia": {
                     "areaCode": 4,
                     "name": "Caucasia",
@@ -1996,7 +2123,8 @@
                             "stores": [
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "aires-acondicionados": {
@@ -2006,19 +2134,22 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "antioquia-medellin-03"
+                                "antioquia-medellin-03",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "antioquia-medellin-03"
+                                "antioquia-medellin-03",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "dispensadores": {
@@ -2029,7 +2160,8 @@
                         "ferreteria": {
                             "stores": [
                                 "antioquia-medellin-02",
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -2040,7 +2172,8 @@
                         "iluminacion": {
                             "stores": [
                                 "antioquia-medellin-02",
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "lavadoras": {
@@ -2052,7 +2185,8 @@
                             "stores": [
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "refrigeracion": {
@@ -2063,12 +2197,14 @@
                         "smart-home-menores": {
                             "stores": [
                                 "antioquia-medellin-02",
-                                "antioquia-medellin-03"
+                                "antioquia-medellin-03",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "antioquia-medellin-03"
+                                "antioquia-medellin-03",
+                                "antioquia-medellin-06"
                             ]
                         },
                         "telefonia-celular": {
@@ -2154,367 +2290,256 @@
                             ]
                         }
                     }
-                },
-                "apartado": {
-                    "areaCode": 4,
-                    "name": "Apartadó",
+                }
+            }  
+        },
+        "arauca": {
+            "name": "Arauca",
+            "cities": {
+                "arauca": {
+                    "areaCode": 7,
+                    "name": "Arauca",
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "antioquia-apartado-02"
+                                "arauca-arauca"
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "antioquia-apartado-03"
+                                "arauca-arauca"
                             ]
                         },
                         "audio-video": {
                             "stores": [
-                                "antioquia-apartado-02"
+                                "arauca-arauca"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "antioquia-apartado-02"
+                                "arauca-arauca"
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "antioquia-apartado-03"
+                                "arauca-arauca"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
-                                "antioquia-apartado-02"
+                                "arauca-arauca"
                             ]
                         },
                         "ferreteria": {
                             "stores": [
-                                "antioquia-apartado-03"
+                                "arauca-arauca"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "antioquia-apartado-03"
+                                "arauca-arauca"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "antioquia-apartado-02"
+                                "arauca-arauca"
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "antioquia-apartado-03"
+                                "arauca-arauca"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "antioquia-apartado-02"
-                            ]
-                        }
-                    }
-                },
-                "bello": {
-                    "areaCode": 4,
-                    "name": "Bello",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "antioquia-bello"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "antioquia-bello"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "antioquia-bello"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "antioquia-bello"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "antioquia-bello"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "antioquia-bello"
+                                "arauca-arauca"
                             ]
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "antioquia-bello"
+                                "arauca-arauca"
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "antioquia-bello"
+                                "arauca-arauca"
                             ]
                         }
                     }
                 }
-            },
-            "arauca": {
-                "name": "Arauca",
-                "cities": {
-                    "arauca": {
-                        "areaCode": 7,
-                        "name": "Arauca",
-                        "categories": {
-                            "accesorios": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "aires-acondicionados": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "audio-video": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "casa-inteligente": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "cuidado-personal": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "dispensadores": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "ferreteria": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "grandes-electrodomesticos": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "lavadoras": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "pequenos-electrodomesticos": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "refrigeracion": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "smart-home-menores": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            },
-                            "tabletas": {
-                                "stores": [
-                                    "arauca-arauca"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            "atlantico": {
-                "name": "Atlántico",
-                "cities": {
-                    "barranquilla": {
-                        "areaCode": 5,
-                        "name": "Barranquilla",
-                        "categories": {
-                            "accesorios": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "aires-acondicionados": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "audio-video": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "casa-inteligente": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "cuidado-personal": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "dispensadores": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "ferreteria": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "grandes-electrodomesticos": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "iluminacion": {
-                                "stores": [
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "lavadoras": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "pequenos-electrodomesticos": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "refrigeracion": {
-                                "stores": [
-                                    "atlantico-barranquilla-01"
-                                ]
-                            },
-                            "tabletas": {
-                                "stores": [
-                                    "atlantico-barranquilla-01",
-                                    "atlantico-barranquilla-02"
-                                ]
-                            },
-                            "telefonia-celular": {
-                                "stores": [
-                                    "atlantico-barranquilla-03"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            "bolivar": {
-                "name": "Bolívar",
-                "cities": {
-                    "cartagena": {
-                        "areaCode": 5,
-                        "name": "Cartagena",
-                        "categories": {
-                            "accesorios": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "aires-acondicionados": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "audio-video": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "casa-inteligente": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "cuidado-personal": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "dispensadores": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "ferreteria": {
-                                "stores": [
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "grandes-electrodomesticos": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "lavadoras": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "pequenos-electrodomesticos": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            },
-                            "refrigeracion": {
-                                "stores": [
-                                    "bolivar-cartagena-01",
-                                    "bolivar-cartagena-02"
-                                ]
-                            }
+            }
+        },
+        "atlantico": {
+            "name": "Atlántico",
+            "cities": {
+                "barranquilla": {
+                    "areaCode": 5,
+                    "name": "Barranquilla",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "aires-acondicionados": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "cuidado-personal": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "iluminacion": {
+                            "stores": [
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
                         },
                         "tabletas": {
+                            "stores": [
+                                "atlantico-barranquilla-01",
+                                "atlantico-barranquilla-02"
+                            ]
+                        },
+                        "telefonia-celular": {
+                            "stores": [
+                                "atlantico-barranquilla-03"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "bolivar": {
+            "name": "Bolívar",
+            "cities": {
+                "cartagena": {
+                    "areaCode": 5,
+                    "name": "Cartagena",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "aires-acondicionados": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "cuidado-personal": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "bolivar-cartagena-01",
+                                "bolivar-cartagena-02"
+                            ]
+                        },
+                        "refrigeracion": {
                             "stores": [
                                 "bolivar-cartagena-01",
                                 "bolivar-cartagena-02"
                             ]
                         }
+                    },
+                    "tabletas": {
+                        "stores": [
+                            "bolivar-cartagena-01",
+                            "bolivar-cartagena-02"
+                        ]
                     }
                 },
                 "magangue": {

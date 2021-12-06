@@ -478,6 +478,12 @@
 				"linea-nacional"
 			]
 		},
+		"ifrogz": {
+			"name": "Ifrogz",
+			"departments":[
+				"linea-nacional"
+			]
+		},
 		"imusa": {
 			"name": "Imusa",
 			"departments": [
@@ -966,6 +972,12 @@
 				"linea-nacional"
 			]
 		},
+		"tcl": {
+			"name": "TCL",
+			"departments": [
+				"linea-nacional"
+			]
+		},
 		"thonet-vander": {
 			"name": "Thoner & Vander",
 			"departments": [
@@ -1062,7 +1074,6 @@
 		"xiaomi": {
 			"name": "Xiaomi",
 			"departments": [
-				"cundinamarca",
 				"linea-nacional"
 			]
 		},
@@ -4245,6 +4256,14 @@
 			],
 			"type": "externo",
 			"link": "https://servicio.haceb.com/centros-servicio-tecnico"
+		},
+		"ifrogz-nacional": {
+			"name": "IFROGZ Alkosto/Ktronix",
+			"address": "Almacén donde realizó la compra",
+			"schedule": [
+				"Dom a Dom de 8:00 a.m a 9:00 p.m"
+			],
+			"type": "interno"
 		},
 		"imusa-armenia": {
 			"name": "La Licuadora",
@@ -7486,6 +7505,17 @@
 			],
 			"type": "interno"
 		},
+		"tcl-linea-nacional": {
+			"name": "TCL Call Center",
+			"phone": [
+				"018005183882"
+			],
+			"schedule": [
+				"Lun a Vie de 8:00 a.m a 5:00 p.m"
+			],
+			"type": "externo",
+			"link": "https://www.alcatelmobile.com/co/support/"
+		},
 		"thonet-vander-linea-nacional": {
 			"name": "Thonet & Vander Alkosto/Ktronix",
 			"address": "Almacén donde realizó la compra",
@@ -8744,19 +8774,7 @@
 			],
 			"type": "interno"
 		},
-		"xiaomi-bogota": {
-			"name": "MN Foto",
-			"cell": [
-				"3186085419",
-				"3186553911",
-				"3167432951"
-			],
-			"schedule": [
-				"Lun a Vie de 7:00 a.m a 3:00 p.m"
-			],
-			"type": "interno"
-		},
-		"xiaomi-bogota-02": {
+		"xiaomi-call-center": {
 			"name": "WODEN",
 			"cell": [
 				"3186085419",
@@ -9544,9 +9562,7 @@
 						},
 						"telefonia": {
 							"stores": [
-								"nokia-bogota",
-								"xiaomi-bogota",
-								"xiaomi-bogota-02"
+								"nokia-bogota"
 							]
 						},
 						"telefonia-operador": {
@@ -10404,6 +10420,7 @@
 								"genius-linea-nacional",
 								"hitachi-linea-nacional",
 								"horizon-linea-nacional",
+								"ifrogz-nacional",
 								"jabra-call-center",
 								"kingston-linea-nacional",
 								"logitech-linea-nacional",
@@ -10450,7 +10467,8 @@
 						},
 						"celulares": {
 							"stores": [
-								"htc-linea-nacional"
+								"htc-linea-nacional",
+								"tcl-linea-nacional"
 							]
 						},
 						"celulares-tablets-accesorios": {
@@ -10589,7 +10607,8 @@
 								"honor-call-center",
 								"huawei-call-center",
 								"motorola-call-center",
-								"xiaomi-linea-nacional"
+								"xiaomi-linea-nacional",
+								"xiaomi-call-center"
 							]
 						},
 						"todas": {
