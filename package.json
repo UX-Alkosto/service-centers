@@ -7,9 +7,13 @@
     "lit": "^2.0.2"
   },
   "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "autoprefixer": "^10.4.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
     "cssnano": "^5.0.12",
     "eslint": "^8.4.0",
     "grunt": "^1.4.1",
