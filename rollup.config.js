@@ -1,4 +1,6 @@
 import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import babel from "@rollup/plugin-babel";
 import cleaner from "rollup-plugin-cleaner";
 import filesize from "rollup-plugin-filesize";
 import { terser } from "rollup-plugin-terser";
@@ -26,8 +28,13 @@ const config = {
         }),
         minifyHTML(),
         resolve(),
+        commonjs(),
         cleanup({
             comments: "none"
+        }),
+        babel({
+            exclude: "node_modules/**", // only transpile our source code
+            babelHelpers: "bundled",
         }),
         filesize({
             showMinifiedSize: true,
