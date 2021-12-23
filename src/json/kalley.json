@@ -161,20 +161,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-33,+Apartad%C3%B3,+Antioquia/@7.8806813,-76.6336783,17z/data=!4m17!1m7!3m6!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2sCra.+98+%2396-33,+Apartad%C3%B3,+Antioquia!3b1!8m2!3d7.8806813!4d-76.6314896!4m8!1m0!1m5!1m1!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2m2!1d-76.6314896!2d7.8806813!3e3"
         },
-        "antioquia-apartado-03": {
-            "name": "SERVICIOS TÉCNICOS MI HOGAR",
-            "address": "Cr 105 No 104 - 12, Barrio Simón Bolívar",
-            "email": "servitecmihogar@gmail.com",
-            "lat": "7.8861581",
-            "lng": "-76.6353399",
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "cell": [
-                "3043811964"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Cra.+105+%23104-12,+Apartad%C3%B3,+Antioquia/@7.8861581,-76.6353399,17z/data=!4m5!3m4!1s0x8e500d64fad32d0b:0xe2ac464026fdb146!8m2!3d7.8861528!4d-76.6331512?hl=es"
-        },
         "antioquia-bello": {
             "name": "ALMACEN Y CENTRO DE REPARACIÓN LA SOLUCIÓN",
             "address": "Cr 50 No 46 - 107",
@@ -949,21 +935,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+7a+%2313-60,+Garz%C3%B3n,+Huila/@2.1991969,-75.6337754,17z/data=!4m17!1m7!3m6!1s0x8e24d984da4b73c5:0x932aaf85e343fc38!2sCl.+7a+%2313-60,+Garz%C3%B3n,+Huila!3b1!8m2!3d2.1991969!4d-75.6315867!4m8!1m0!1m5!1m1!1s0x8e24d984da4b73c5:0x932aaf85e343fc38!2m2!1d-75.6315867!2d2.1991969!3e3"
         },
-        "huila-plata": {
-            "name": "CENTRO ELECTRONICO VISIÓN SONIDO",
-            "address": "Cl 7 No 3 - 18, Barrio La Pola",
-            "email": "vision.sonido@hotmail.com",
-            "lat": "2.3905774",
-            "lng": "-75.892049",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:30 a.m a 12:00 y de 2:00 a 5:00 p.m"
-            ],
-            "cell": [
-                "3125723097"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+7+%233-18,+La+Plata,+Huila/@2.3905774,-75.892049,17z/data=!4m17!1m7!3m6!1s0x8e3ad2adc79c6997:0x75da9a0c87c3cffa!2sCl.+7+%233-18,+La+Plata,+Huila!3b1!8m2!3d2.3905774!4d-75.8898603!4m8!1m0!1m5!1m1!1s0x8e3ad2adc79c6997:0x75da9a0c87c3cffa!2m2!1d-75.8898603!2d2.3905774!3e3"
-        },
         "huila-neiva-01": {
             "name": "TECNIMASTER ELECTRÓNICA",
             "address": "Cl 14 No 2 - 80",
@@ -1261,22 +1232,6 @@
                 "3184413589"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
-        },
-        "putumayo-mocoa": {
-            "name": "SERVICIO TECNICO NYV MOCOA",
-            "address": "Cl 13 No. 12-99",
-            "email": "nyvmocoa@gmail.com",
-            "lat": "2.8765142",
-            "lng": "-76.4958224",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "cell": [
-                "3104718983",
-                "3135543727"
-            ],
-            "viewMap": "https://www.google.com/maps/search/Cl.+13+%23no.+12-99,+Mocoa,+Putumayo/@2.8765142,-76.4958224,8z/data=!3m1!4b1?hl=es"
         },
         "putumayo-puertoasis": {
             "name": "ELECTRONICA Y TECNOLOGIA EDINSON",
@@ -1885,11 +1840,6 @@
                                 "antioquia-apartado-02"
                             ]
                         },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
                         "audio-video": {
                             "stores": [
                                 "antioquia-apartado-02"
@@ -1900,39 +1850,14 @@
                                 "antioquia-apartado-02"
                             ]
                         },
-                        "cuidado-personal": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
                         "dispensadores": {
                             "stores": [
                                 "antioquia-apartado-02"
                             ]
                         },
-                        "ferreteria": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "antioquia-apartado-02"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "antioquia-apartado-03"
                             ]
                         },
                         "tabletas": {
@@ -2149,6 +2074,7 @@
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-03",
                                 "antioquia-medellin-04",
+                                "antioquia-medellin-05",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2161,6 +2087,7 @@
                             "stores": [
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-04",
+                                "antioquia-medellin-05",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2186,6 +2113,7 @@
                                 "antioquia-medellin-02",
                                 "antioquia-medellin-03",
                                 "antioquia-medellin-04",
+                                "antioquia-medellin-05",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2397,13 +2325,15 @@
                         "casa-inteligente": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-03"
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-03"
                             ]
                         },
                         "dispensadores": {
@@ -2438,7 +2368,8 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-03"
                             ]
                         },
                         "refrigeracion": {
@@ -2447,10 +2378,16 @@
                                 "atlantico-barranquilla-02"
                             ]
                         },
+                        "smart-home-menores":{
+                            "stores":[
+                                "atlantico-barranquilla-03"
+                            ]
+                        },
                         "tabletas": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-03"
                             ]
                         },
                         "telefonia-celular": {
@@ -4121,52 +4058,6 @@
                         }
                     }
                 },
-                "la-plata": {
-                    "areaCode": 8,
-                    "name": "La Plata",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "huila-plata"
-                            ]
-                        }
-                    }
-                },
                 "neiva": {
                     "areaCode": 8,
                     "name": "Neiva",
@@ -4974,82 +4865,6 @@
         "putumayo": {
             "name": "Putumayo",
             "cities": {
-                "mocoa": {
-                    "areaCode": 8,
-                    "name": "Mocoa",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "dispensadores": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "lavadoras": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "smart-home-menores": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "putumayo-mocoa"
-                            ]
-                        }
-                    }
-                },
                 "puerto-asis": {
                     "areaCode": 8,
                     "name": "Puerto Asís",
@@ -5551,7 +5366,12 @@
                             "stores": [
                                 "santander-bucaramanga-02"
                             ]
-                        }
+                        },
+                        "telefonia-celular":{
+                            "stores":[
+                                "santander-bucaramanga-02"
+                            ]
+                        }  
                     }
                 },
                 "san-gil": {
