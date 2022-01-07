@@ -1202,6 +1202,9 @@
 		"scooter-electricas": {
 			"name": "Scooter Electricas"
 		},
+		"smart-home-menores":{
+			"name": "Smart Homer Menores"
+		},
 		"telefonia": {
 			"name": "Telefonía"
 		},
@@ -4589,7 +4592,8 @@
 			"viewMap": "https://www.google.com/maps/dir//LATIN+ELECTRONICS,+Cl.+70b+%23%2341-160,+Barranquilla,+Atl%C3%A1ntico/@10.9813349,-74.8063706,15z/data=!4m16!1m6!3m5!1s0x0:0x873bccba8206e38d!2sLATIN+ELECTRONICS!8m2!3d10.9896671!4d-74.806273!4m8!1m0!1m5!1m1!1s0x8ef42d0d7b7dd6b1:0x873bccba8206e38d!2m2!1d-74.8062728!2d10.9896659!3e2"
 		},
 		"kalley-bogota-01": {
-			"name": "Centro Servicio Exclusivo",
+			"name": "Centro Servicio Exclusivo Kalley 68",
+			"email": "csekalley68@hotmail.com",
 			"address": "Av Cr 68 No. 67D-90, Barrio JJ Vargas",
 			"lat": "4.6757953",
 			"lng": "-74.0868482",
@@ -4600,52 +4604,86 @@
 				"3014995879"
 			],
 			"schedule": [
-				"Lun a Vie de 8:00 a.m a 4:00 p.m",
-				"Sab de 9:00 a.m a 1:00 p.m"
+				"Lun a Vie de 8:30 a.m a 12:00 m y de 1:00 p.m a 4:30 p.m",
+				"Sab de 10:00 a.m a 2:00 p.m"
 			],
 			"type": "externo",
 			"link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
 			"viewMap": "https://www.google.com/maps/dir//Ak+68+%2367d-90,+Bogot%C3%A1/@4.6757953,-74.0868482,20z/data=!4m17!1m7!3m6!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2sAk+68+%2367d-90,+Bogot%C3%A1!3b1!8m2!3d4.6758148!4d-74.0867879!4m8!1m0!1m5!1m1!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2m2!1d-74.0867879!2d4.6758148!3e2"
 		},
 		"kalley-bogota-02": {
-			"name": "Centro de Servicio Exclusivo",
-			"address": "Cl 44 Sur No. 68G-62, Barrio San Andrés",
-			"lat": "4.5982041",
-			"lng": "-74.1436216",
+			"name": "Centro de Servicio Exclusivo Kalley Venecia",
+			"email": "exclusivos.celulares@gmail.com",
+			"address": "Cl 44 Sur No. 68G-20",
+			"lat": "4.5981092",
+			"lng": "-74.1454758",
 			"phone": [
 				"8146262"
 			],
 			"cell": [
-				"3053097088",
-				"3012901623"
+				"3053097088"
 			],
 			"schedule": [
-				"Lun a Vie de 8:00 a 4:00 p.m",
+				"Lun a Vie de 11:00 a.m a 5:00 p.m",
+				"Sab de 11:00 a.m a 3:00 p.m"
+			],
+			"type": "externo",
+			"link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
+			"viewMap": "https://www.google.com/maps/place/Cl.+44+Sur+%2368G+-+20,+Antonio+Nari%C3%B1o,+Bogot%C3%A1/@4.5981092,-74.1454758,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9edcc979d257:0xb887e811e66e6177!8m2!3d4.5981092!4d-74.1432871?hl=es"
+		},
+		"kalley-bogota-03": {
+			"name": "SERVITEC JRS",
+			"address": "Cl 68D BIS A SUR No. 63–85, Conjunto Residencial Casa Grande Manzana 2, Casa 196 Barrio El Ensueño",
+			"lat": "4.5810342",
+			"lng": "-74.1626975",
+			"cell": [
+				"3155357357"
+			],
+			"schedule": [
+				"Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
 				"Sab de 9:00 a.m a 1:00 p.m"
 			],
 			"type": "externo",
 			"link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-			"viewMap": "https://www.google.com/maps/dir//Cl.+44+Sur+%2368g-62,+Bogot%C3%A1/@4.5982041,-74.1436216,17z/data=!4m17!1m7!3m6!1s0x8e3f9edcc94f392f:0x17d934b892aa3e27!2sCl.+44+Sur+%2368g-62,+Bogot%C3%A1!3b1!8m2!3d4.5982276!4d-74.1435328!4m8!1m0!1m5!1m1!1s0x8e3f9edcc94f392f:0x17d934b892aa3e27!2m2!1d-74.1435328!2d4.5982276!3e2"
+			"viewMap": "https://www.google.com/maps/place/Eruca/@4.5810342,-74.1626975,17z/data=!4m5!3m4!1s0x8e3f9f744dc7b987:0xf89921dcb3ae794d!8m2!3d4.5809901!4d-74.1601899"
 		},
-		"kalley-bogota-03": {
-			"name": "Good Service Company",
-			"address": "Cl 1 Sur No. 72-13, Barrio Américas Occidental",
-			"lat": "4.622693",
-			"lng": "-74.1389677",
+		"kalley-bogota-04": {
+			"name": "QUALITY & SERVICE S.A.S Sede Chapinero",
+			"address": "Cr 18 No. 51-78",
+			"lat": "4.6397924",
+			"lng": "-74.0723116",
 			"phone": [
-				"7455128"
+				"7037011"
 			],
 			"cell": [
-				"3146589119",
-				"3103497546"
+				"3107586832",
+				"3044162019"
 			],
 			"schedule": [
-				"Lun a Vie de 8:00 a.m a 4:00 p.m",
-				"Sab de 9:00 a.m a 1:00 p.m"
+				"Lun a Vie de 8:00 a.m a 5:00 p.m",
+				"Sab de 8:00 a.m a 1:00 p.m"
 			],
 			"type": "externo",
-			"link": "ttps://www.kalley.com.co/centros-de-servicio",
-			"viewMap": "https://www.google.com/maps/dir//Cl.+1+Sur+%2372-13,+Bogot%C3%A1/@4.622693,-74.1389677,21z/data=!4m17!1m7!3m6!1s0x8e3f9ea43006ad27:0xfca0899deb3eba0e!2sCl.+1+Sur+%2372-13,+Bogot%C3%A1!3b1!8m2!3d4.6224017!4d-74.1391267!4m8!1m0!1m5!1m1!1s0x8e3f9ea43006ad27:0xfca0899deb3eba0e!2m2!1d-74.1391267!2d4.6224017!3e2"
+			"link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
+			"viewMap": "https://www.google.com/maps/place/Cra.+18+%2351-78,+Bogot%C3%A1/@4.6397924,-74.0723116,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a316e181f81:0x26052ce617670587!8m2!3d4.6397924!4d-74.0701229"
+		},
+		"kalley-bogota-05": {
+			"name": "LICUAOLLAS",
+			"address": "Cl 12 No. 9-86",
+			"lat": "4.6008785",
+			"lng": "-74.0793937",
+			"phone": [
+				"3522072"
+			],
+			"cell": [
+				"3004039336"
+			],
+			"schedule": [
+				"Lun a Sab de 8:00 a.m a 6:00 p.m"
+			],
+			"type": "externo",
+			"link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
+			"viewMap": "https://www.google.com/maps/place/Cl.+12+%239-86,+Bogot%C3%A1,+Cundinamarca/@4.6008785,-74.0793937,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9909e1084583:0xa333cf160b0d3b4b!8m2!3d4.6008785!4d-74.077205"
 		},
 		"kalley-pereira": {
 			"name": "Servi Lux",
@@ -9403,7 +9441,8 @@
 								"lg-bogota-01",
 								"lg-bogota-02",
 								"lg-bogota-03",
-								"lg-bogota-04"
+								"lg-bogota-04",
+								"kalley-bogota-03"
 							]
 						},
 						"audio-video-digital-productos": {
@@ -9473,7 +9512,6 @@
 								"frigidaire-bogota-call-center",
 								"general-electric-bogota-call-center",
 								"haceb-bogota-call-center",
-								"kalley-bogota-03",
 								"whirlpool-bogota-01",
 								"whirlpool-bogota-02",
 								"whirlpool-bogota-03",
@@ -9535,7 +9573,8 @@
 								"oster-bogota",
 								"pc-smart-bogota",
 								"phillips-bogota-01",
-								"samurai-bogota"
+								"samurai-bogota",
+								"kalley-bogota-04"
 							]
 						},
 						"playstation-camaras": {
@@ -9558,6 +9597,11 @@
 						"scooter-electricas": {
 							"stores": [
 								"emove-bogota"
+							]
+						},
+						"smart-home-menores":{
+							"stores":[
+								"kalley-bogota-05"
 							]
 						},
 						"telefonia": {
