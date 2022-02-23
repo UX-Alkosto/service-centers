@@ -51,10 +51,7 @@ module.exports = grunt => {
                 paths: ["dist/css"],
                 modifyVars: {
                     themeName: "<%= theme %>"
-                },
-                plugins: [
-                    new (require("less-plugin-autoprefix"))({ browsers: ["last 2 versions"] })
-                ]
+                }
             },
             theme: {
                 files: {
@@ -65,10 +62,7 @@ module.exports = grunt => {
         themes: themes
     });
 
-    grunt.loadNpmTasks("grunt-contrib-clean");
-    grunt.loadNpmTasks("grunt-contrib-cssmin");
-    grunt.loadNpmTasks("grunt-contrib-less");
-    grunt.loadNpmTasks("grunt-json-minification");
+    require("load-grunt-tasks")(grunt);
 
     grunt.registerMultiTask("themes", "Generate styles for each site", function() {
         const done = this.async();
