@@ -280,10 +280,10 @@
         },
         "atlantico-barranquilla-02": {
             "name": "LATIN ELECTRONICS",
-            "address": "Cl 70B No 41 - 160, Las Delicias",
+            "address": "Cl 70B No 41 - 154, Las Delicias",
             "email": "serviciotecnicolatin@gmail.com",
-            "lat": "10.9896748",
-            "lng": "-74.808478",
+            "lat": "10.9895245",
+            "lng": "-74.8083035",
             "schedule": [
                 "Lun a Vie de 8:30 a.m 5:00 p.m",
                 "Sab de 8:30 a.m a 12:00 m"
@@ -296,7 +296,7 @@
                 "3137670905",
                 "3336459329"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+70b+%2341-160,+Barranquilla,+Atl%C3%A1ntico/@10.9896748,-74.808478,17z/data=!4m17!1m7!3m6!1s0x8ef42d128110582f:0xc4addcbf7de73703!2sCl.+70b+%2341-160,+Barranquilla,+Atl%C3%A1ntico!3b1!8m2!3d10.9896748!4d-74.8062893!4m8!1m0!1m5!1m1!1s0x8ef42d128110582f:0xc4addcbf7de73703!2m2!1d-74.8062893!2d10.9896748!3e3"
+            "viewMap": "https://www.google.com/maps/place/Cl.+70b+%2341-154,+Barranquilla,+Atl%C3%A1ntico/@10.9895245,-74.8083035,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d128110582f:0x138b3c07c1487ffa!8m2!3d10.9895245!4d-74.8061148?hl=es"
         },
         "atlantico-barranquilla-03": {
             "name": "LOGYTECH MOBILE BARRANQUILLA",
@@ -1233,21 +1233,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
         },
-        "putumayo-puertoasis": {
-            "name": "ELECTRONICA Y TECNOLOGIA EDINSON",
-            "address": "Cr 23 No 10 - 77",
-            "email": "edinsonelectron@hotmail.com",
-            "lat": "0.4959278",
-            "lng": "-76.5032099",
-            "schedule": [
-                "Lun a Vie de 7:30 a.m a 12:30 m y de 2:00 p.m a 5:30 p.m"
-            ],
-            "cell": [
-                "3115548564",
-                "3209898561"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+23+%2310-77,+Puerto+As%C3%ADs,+Putumayo/@0.4959278,-76.5032099,17z/data=!4m17!1m7!3m6!1s0x8e2878df13377835:0xc650fc7343dc8d54!2sCra.+23+%2310-77,+Puerto+As%C3%ADs,+Putumayo!3b1!8m2!3d0.4959278!4d-76.5010212!4m8!1m0!1m5!1m1!1s0x8e2878df13377835:0xc650fc7343dc8d54!2m2!1d-76.5010212!2d0.4959278!3e3"
-        },
         "quindio-armenia": {
             "name": "QUINDIO DIGITAL",
             "address": "Cl 23 No 13 - 15, Lc 1 Centro",
@@ -1373,24 +1358,6 @@
                 "3187758303"
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+52+%2327-105,+Barrancabermeja,+Santander/@7.061758,-73.8543852,17z/data=!3m1!4b1!4m5!3m4!1s0x8e42eca88c1f50f7:0xd19581542b2a7d86!8m2!3d7.0617527!4d-73.8521965?hl=es"
-        },
-        "santander-barrancabermeja-02": {
-            "name": "ALMACEN Y TALLER ELECTROPEREZ",
-            "address": "Cl 54 No 20 - 15, Barrio Torcoroma",
-            "email": "electroperezbarrancabermeja@hotmail.com",
-            "lat": "7.06424",
-            "lng": "-73.8592385",
-            "schedule": [
-                "Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "phone": [
-                "6015433"
-            ],
-            "cell": [
-                "3142119404"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+54+%2320-15,+Barrancabermeja,+Santander/@7.06424,-73.8592385,17z/data=!4m17!1m7!3m6!1s0x8e42eca7764296ff:0x29b333f1d19e7ac5!2sCl.+54+%2320-15,+Barrancabermeja,+Santander!3b1!8m2!3d7.06424!4d-73.8570498!4m8!1m0!1m5!1m1!1s0x8e42eca7764296ff:0x29b333f1d19e7ac5!2m2!1d-73.8570498!2d7.06424!3e3"
         },
         "santander-bucaramanga-01": {
             "name": "ÚNICOS",
@@ -1550,22 +1517,18 @@
             "viewMap": "https://www.google.com/maps/dir//Cra.+4+%235-07,+Buenaventura,+Valle+del+Cauca/@3.8890173,-77.0779171,17z/data=!4m17!1m7!3m6!1s0x8e37238a4f87b9cf:0x4eb5306511c424c!2sCra.+4+%235-07,+Buenaventura,+Valle+del+Cauca!3b1!8m2!3d3.8890173!4d-77.0757284!4m8!1m0!1m5!1m1!1s0x8e37238a4f87b9cf:0x4eb5306511c424c!2m2!1d-77.0757284!2d3.8890173!3e3"
         },
         "valle-cauca-cali-01": {
-            "name": "CENTRO TECNOLOGICO DIGITAL SEDE VERSALLES",
-            "address": "Av 4 Norte No 23A - N50, Lc 101",
-            "email": "soporte@centrodeservicio.com.co",
-            "lat": "3.4693658",
-            "lng": "-76.5290226",
+            "name": "ALMACÉN Y TALLER MULTIHOGAR",
+            "address": "Cr 46 No. 43-42, Barrio Mariano Ramos",
+            "email": "danny01101989@gmail.com",
+            "lat": "3.4048183",
+            "lng": "-76.5161573",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m y de 2:00 a 4:00 p.m"
+                "Lun a Sab de 8:30 a.m a 8:00 p.m"
             ],
-            "phone": [
-                "5240263"
+            "cel": [
+                "3185956399"
             ],
-            "cell": [
-                "3172205902"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Av.+4+Nte.+%2323n69,+Cali,+Valle+del+Cauca/@3.4693658,-76.5290226,17z/data=!4m17!1m7!3m6!1s0x8e30a61615ef6943:0x5daa99f3add88378!2sAv.+4+Nte.+%2323n69,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4693658!4d-76.5268339!4m8!1m0!1m5!1m1!1s0x8e30a61615ef6943:0x5daa99f3add88378!2m2!1d-76.5268339!2d3.4693658!3e3"
+            "viewMap": "https://www.google.com/maps/place/Cra.+46+%2343-42,+Cali,+Valle+del+Cauca/@3.4048183,-76.5161573,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6d2a7ab5fb5:0x8098c422d8ac21d0!8m2!3d3.4048183!4d-76.5139686?hl=es"
         },
         "valle-cauca-cali-02": {
             "name": "CENTRAL DE LICUADORAS SEDE SUR",
@@ -1600,40 +1563,19 @@
             "viewMap": "https://www.google.com/maps/dir//Av.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca/@3.48594,-76.5283172,17z/data=!4m17!1m7!3m6!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2sAv.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.48594!4d-76.5261285!4m8!1m0!1m5!1m1!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2m2!1d-76.5261285!2d3.48594!3e3"
         },
         "valle-cauca-cali-04": {
-            "name": "CENTRO TECNOLOGICO DIGITAL SEDE PRINCIPAL",
-            "address": "Cl 70 No 1F - 61, Barrio La Rivera",
-            "email": "soporte@centrodeservicio.com.co",
-            "lat": "3.4750469",
-            "lng": "-76.4890708",
+            "name": "S.E.C SMART ELECTRONICS CENTER",
+            "address": "Cl 14 No. 33-25, Lc 2",
+            "email": "smartelectronicscenter@gmail.com",
+            "lat": "3.4237434",
+            "lng": "-76.5295379",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 4:00 p.m"
-            ],
-            "phone": [
-                "5240263"
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
-                "3172205902"
+                "3107240817"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+70+%231f-61,+Cali,+Valle+del+Cauca/@3.4750469,-76.4890708,17z/data=!4m17!1m7!3m6!1s0x8e30a7dba6b7d389:0xe29cac49729181d6!2sCl.+70+%231f-61,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4750469!4d-76.4868821!4m8!1m0!1m5!1m1!1s0x8e30a7dba6b7d389:0xe29cac49729181d6!2m2!1d-76.4868821!2d3.4750469!3e3"
-        },
-        "valle-cauca-cali-05": {
-            "name": "CENTRO TECNOLOGICO DIGITAL SEDE SUR",
-            "address": "Cr 53A No. 5-49, Lc 46",
-            "email": "ingenieria@centroautorizado.com.co",
-            "lat": "3.4114356",
-            "lng": "-76.5493741",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 4:00 p.m"
-            ],
-            "phone": [
-                "5240263"
-            ],
-            "cell": [
-                "3172205902"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Cra.+53a+%235-49,+Cali,+Valle+del+Cauca/@3.4114356,-76.5493741,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6a9b64f0b9f:0xa212c1088029ad9b!8m2!3d3.4114356!4d-76.5471854?hl=es"
+            "viewMap": "https://www.google.com/maps/place/Cl.+14+%2333-25,+Cali,+Valle+del+Cauca/@3.4237434,-76.5295379,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6bfdef911d7:0x290ef649566afa0d!8m2!3d3.4237434!4d-76.5273492?hl=es"
         },
         "valle-cauca-cali-06": {
             "name": "CENTRO TÉCNICO ESPECIALIZADO S.A.S.",
@@ -2316,21 +2258,20 @@
                         "audio-video": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-03"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "dispensadores": {
@@ -2365,8 +2306,7 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "refrigeracion": {
@@ -2377,19 +2317,18 @@
                         },
                         "smart-home-menores":{
                             "stores":[
-                                "atlantico-barranquilla-03"
+                                ""
                             ]
                         },
                         "tabletas": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "telefonia-celular": {
                             "stores": [
-                                "atlantico-barranquilla-03"
+                                ""
                             ]
                         }
                     }
@@ -3797,7 +3736,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3812,7 +3750,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3821,7 +3758,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3830,7 +3766,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3849,7 +3784,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3883,7 +3817,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3910,7 +3843,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -4868,67 +4800,67 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "audio-video": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "dispensadores": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "ferreteria": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "putumayo-puertoasis"
+                                ""
                             ]
                         }
                     }
@@ -5237,8 +5169,7 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "santander-barrancabermeja-01",
-                                "santander-barrancabermeja-02"
+                                "santander-barrancabermeja-01"
                             ]
                         },
                         "aires-acondicionados": {
@@ -5258,7 +5189,7 @@
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "santander-barrancabermeja-02"
+                                ""
                             ]
                         },
                         "dispensadores": {
@@ -5268,7 +5199,7 @@
                         },
                         "ferreteria": {
                             "stores": [
-                                "santander-barrancabermeja-02"
+                                ""
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -5288,7 +5219,7 @@
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "santander-barrancabermeja-02"
+                                ""
                             ]
                         },
                         "refrigeracion": {
@@ -5668,36 +5599,28 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-02",
                                 "valle-cauca-cali-03",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
                                 "valle-cauca-cali-07"
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "audio-video": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
@@ -5707,42 +5630,38 @@
                                 "valle-cauca-cali-02",
                                 "valle-cauca-cali-03",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
                                 "valle-cauca-cali-07"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "ferreteria": {
                             "stores": [
+                                "valle-cauca-cali-01",
+                                "valle-cauca-cali-04",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "iluminacion": {
                             "stores": [
+                                "valle-cauca-cali-04",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
@@ -5752,32 +5671,25 @@
                                 "valle-cauca-cali-02",
                                 "valle-cauca-cali-03",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
                                 "valle-cauca-cali-07"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
-                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06"
                             ]
                         },
@@ -6123,7 +6035,7 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "aires-acondicionados": {
@@ -6133,37 +6045,37 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "dispensadores": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "valle-cauca-jamundi"
+                                ""
                             ]
                         }
                     }
