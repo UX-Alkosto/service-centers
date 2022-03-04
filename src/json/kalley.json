@@ -2158,7 +2158,7 @@
                         }
                     }
                 }
-            }  
+            }
         },
         "arauca": {
             "name": "Arauca",
@@ -2315,10 +2315,8 @@
                                 "atlantico-barranquilla-02"
                             ]
                         },
-                        "smart-home-menores":{
-                            "stores":[
-                                ""
-                            ]
+                        "smart-home-menores": {
+                            "stores": []
                         },
                         "tabletas": {
                             "stores": [
@@ -2327,9 +2325,7 @@
                             ]
                         },
                         "telefonia-celular": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         }
                     }
                 }
@@ -4799,69 +4795,43 @@
                     "name": "Puerto Asís",
                     "categories": {
                         "accesorios": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "aires-acondicionados": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "audio-video": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "casa-inteligente": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "cuidado-personal": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "dispensadores": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "ferreteria": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "grandes-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "lavadoras": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "refrigeracion": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "smart-home-menores": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "tabletas": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         }
                     }
                 }
@@ -5188,9 +5158,7 @@
                             ]
                         },
                         "cuidado-personal": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "dispensadores": {
                             "stores": [
@@ -5198,9 +5166,7 @@
                             ]
                         },
                         "ferreteria": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
@@ -5218,9 +5184,7 @@
                             ]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "refrigeracion": {
                             "stores": [
@@ -5295,11 +5259,11 @@
                                 "santander-bucaramanga-02"
                             ]
                         },
-                        "telefonia-celular":{
-                            "stores":[
+                        "telefonia-celular": {
+                            "stores": [
                                 "santander-bucaramanga-02"
                             ]
-                        }  
+                        }
                     }
                 },
                 "san-gil": {
@@ -6034,9 +5998,7 @@
                     "name": "Jamundí",
                     "categories": {
                         "accesorios": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "aires-acondicionados": {
                             "stores": [
@@ -6044,39 +6006,25 @@
                             ]
                         },
                         "audio-video": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "cuidado-personal": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "dispensadores": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "grandes-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "lavadoras": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         },
                         "refrigeracion": {
-                            "stores": [
-                                ""
-                            ]
+                            "stores": []
                         }
                     }
                 }
