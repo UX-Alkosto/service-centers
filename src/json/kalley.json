@@ -3732,20 +3732,20 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
                             ]
                         },
                         "aires-acondicionados": {
-                            "stores": [
-                                "bogota-03"
-                            ]
+                            "stores": []
                         },
                         "audio-video": {
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3754,6 +3754,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3762,6 +3763,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3771,7 +3773,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3780,6 +3781,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3787,7 +3789,6 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3804,7 +3805,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3813,6 +3813,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07"
@@ -3822,7 +3823,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -3839,6 +3839,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-03",
                                 "bogota-05",
                                 "bogota-06"
                             ]
@@ -5998,33 +5999,47 @@
                     "name": "Jamundí",
                     "categories": {
                         "accesorios": {
-                            "stores": []
-                        },
-                        "aires-acondicionados": {
                             "stores": [
                                 "valle-cauca-jamundi"
                             ]
                         },
-                        "audio-video": {
+                        "aires-acondicionados": {
                             "stores": []
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "cuidado-personal": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "dispensadores": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "lavadoras": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         },
                         "refrigeracion": {
-                            "stores": []
+                            "stores": [
+                                "valle-cauca-jamundi"
+                            ]
                         }
                     }
                 }
