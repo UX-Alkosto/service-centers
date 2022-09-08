@@ -15,7 +15,7 @@
 		},
 		"adata": {
 			"name": "Adata",
-			"departments": [
+			"departments": [ 
 				"linea-nacional"
 			]
 		},
@@ -80,7 +80,7 @@
 		},
 		"belkin": {
 			"name": "Belkin",
-			"departments": [
+			"departments": [ 
 				"linea-nacional"
 			]
 		},
