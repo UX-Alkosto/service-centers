@@ -3731,7 +3731,7 @@
             "name": "WODEN Colombia S.A.S",
             "address": "Av Cl 13 No. 56-35, Barrio Puente Aranda",
             "lat": "4.6304019",
-            "lng": "-74.1107958",
+            "lng": "-74.1107958", 
             "phone": ["3558200"],
             "schedule": ["Lun a Vie de 10:00 a.m a 5:00 p.m", "Sab de 9:00 a.m a 2:00 p.m"],
             "type": "interno",
