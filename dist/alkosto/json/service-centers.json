@@ -6693,7 +6693,7 @@
                             "stores": ["imusa-call-center", "kitchenaid-call-center", "nigi-linea-nacional", "oster-call-center", "pc-smart-call-center", "phillips-call-center", "remington-call-center", "samurai-call-center", "universal-call-center", "singer-bogota-call-center"]
                         },
                         "telefonia": {
-                            "stores": ["honor-call-center", "huawei-call-center", "motorola-call-center", "xiaomi-linea-nacional", "xiaomi-call-center"]
+                            "stores": ["honor-call-center", "huawei-call-center", "motorola-call-center", "xiaomi-linea-nacional"]
                         },
                         "todas": {
                             "stores": ["challenger-call-center-02", "kalley-call-center", "lg-call-center", "samsung-call-center"]
