@@ -3726,7 +3726,7 @@
             "schedule": ["Lun a Vie de 8:00 a 4:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
-        },
+        }, 
         "nokia-bogota": {
             "name": "WODEN Colombia S.A.S",
             "address": "Av Cl 13 No. 56-35, Barrio Puente Aranda",
