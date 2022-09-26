@@ -1029,7 +1029,7 @@
             "name": "SERVIAUTORIZADOS MONCAYO",
             "address": "Cl 16C No 39 - 11, Junto a Electro moncayo Av Panamericana",
             "email": "serviautorizados@hotmail.com",
-            "lat": "1.2224999",
+            "lat": "1.2224999", 
             "lng": "-77.2876348",
             "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:30 p.m", "Sab de 8:30 a.m a 12:00 m"],
             "phone": ["7235128", "7297005"],
