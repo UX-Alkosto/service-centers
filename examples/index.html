@@ -1,53 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Centros de Servicio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/alkosto/css/servicio.css">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/kalley/css/servicio.css"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="service-centers">
-        <h2 class="service-centers__title">Centros de servicio</h2>
-        <p>Para mayor información sobre la <strong>Política de Garantía</strong> de tus productos <a href="/politicas/politicas-garantia/c/politicas-garantia" target="_blank">click aquí</a></p>
-        <div class="service-centers__filters">
-            <div class="service-centers__filters__marca">
-                <label for="marca">Marca</label>
-                <select name="marca" id="marca" data-custom-select="true"></select>
-            </div>
-            <div class="service-centers__filters__departamento">
-                <label for="departamento">Departamento</label>
-                <select name="departamento" id="departamento" data-custom-select="true"></select>
-            </div>
-            <div class="service-centers__filters__ciudad">
-                <label for="ciudad">Ciudad</label>
-                <select name="ciudad" id="ciudad" data-custom-select="true"></select>
-            </div>
-            <div class="service-centers__filters__categoria">
-                <label for="categoria">Categoría</label>
-                <select name="categoria" id="categoria" data-custom-select="true"></select>
-            </div>
+      <h2 class="service-centers__title">Centros de servicio</h2>
+      <p>
+        Para mayor información sobre la <strong>Política de Garantía</strong> de
+        tus productos
+        <a
+          href="/politicas/politicas-garantia/c/politicas-garantia"
+          target="_blank"
+          >click aquí</a
+        >
+      </p>
+      <div class="service-centers__filters">
+        <!-- <div class="service-centers__filters__marca">
+          <label for="marca">Marca</label>
+          <select name="marca" id="marca" data-custom-select="true"></select>
+        </div> -->
+        <div class="service-centers__filters__departamento">
+          <label for="departamento">Departamento</label>
+          <select
+            name="departamento"
+            id="departamento"
+            data-custom-select="true"
+          ></select>
         </div>
-        <p class="msje-localiza">Selecciona en la parte de arriba marca, departamento, ciudad y la categoría de tu preferencia.</p>
-        <div class="service-centers__container">
-            <div class="service-centers__menu"></div>
-            <div class="service-centers__map">
-                <div id="service-centers-map"></div>
-            </div>
+        <div class="service-centers__filters__ciudad">
+          <label for="ciudad">Ciudad</label>
+          <select name="ciudad" id="ciudad" data-custom-select="true"></select>
         </div>
+        <div class="service-centers__filters__categoria">
+          <label for="categoria">Categoría</label>
+          <select
+            name="categoria"
+            id="categoria"
+            data-custom-select="true"
+          ></select>
+        </div>
+      </div>
+      <p class="msje-localiza">
+        Selecciona en la parte de arriba marca, departamento, ciudad y la
+        categoría de tu preferencia.
+      </p>
+      <div class="service-centers__container">
+        <div class="service-centers__menu"></div>
+        <div class="service-centers__map">
+          <div id="service-centers-map"></div>
+          <div class="cont-img" id="cont-img"></div>
+        </div>
+      </div>
     </div>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta" defer></script> -->
+    <!--  <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta" defer></script> -->
 
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyACAMxxFSoeTgM3KPi0y851lA4nYKihlmI" defer></script>
-    <script type="module" crossorigin="anonymous"
-        src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/common/js/servicio.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw" defer></script> 
+    <script
+      type="module"
+      crossorigin="anonymous"
+      src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/common/js/servicio.js"
+    ></script>
     <script>
-        const appConfig = {
-            jsonFile : 'https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/alkosto/json/service-centers.json',
-            site : 'alkosto'
+      const appConfig = {
+        jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.7.1/dist/kalley/json/service-centers.json",
+        site: "kalley",
+      };
+
+      const select = document.getElementById("categoria");
+      const mapa = document.getElementById("service-centers-map");
+      const divContenedor = document.querySelector(".service-centers__map");
+      const imagen = document.getElementById("cont-img");
+
+      select.addEventListener("change", function () {
+        var selectedOption = this.options[select.selectedIndex];
+        console.log(selectedOption.value);
+        if (selectedOption.value == "gasodomesticos") {
+         mapa.style.display = "none";
+          imagen.style.display = "block";
+        } else {
+          mapa.style.display = "block";
+          imagen.style.display = "none";
         }
+      });
     </script>
-</body>
+    <style>
+      .cont-img{
+      display: none;
+        width: 100%;
+    height: 100%;
+    background-image: url(https://www.kalley.com.co/medias/gasodomesticos.jpg?context=bWFzdGVyfHJvb3R8MzY1OTh8aW1hZ2UvanBlZ3xoZjYvaDgwLzEzNDAxNDM4NzQ4NzAyL2dhc29kb21lc3RpY29zLmpwZ3xiZTJjMmY1YTg3ZTFlMDQyMDZkZjU5NGMwZTVlNmRiOWE5ZmUyODZkNzUxZjIzYjE2YWUyZjA0NjMyM2ExOGU4);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+      }
+    </style>
+  </body>
 </html>
