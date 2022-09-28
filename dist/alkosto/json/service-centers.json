@@ -6057,10 +6057,7 @@
                             "stores": ["brother-bogota"]
                         },
                         "informatica": {
-                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "lenovo-bogota-01", "lenovo-bogota-02", "multitech-bogota", "dell-bogota-call-center"]
-                        },
-                        "informatica-telefonia": {
-                            "stores": ["asus-bogota-01", "asus-bogota-02"]
+                            "stores": ["epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "multitech-bogota", "dell-bogota-call-center"]
                         },
                         "jugueteria": {
                             "stores": ["mattel-colombia-call-center", "more-products-call-center", "ronda-bogota-call-center"]
@@ -6072,7 +6069,7 @@
                             "stores": ["kyocera-bogota"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "imusa-bogota", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
+                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
                         },
                         "playstation-camaras": {
                             "stores": ["sony-bogota-03"]
