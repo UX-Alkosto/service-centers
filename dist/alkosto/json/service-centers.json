@@ -6,7 +6,7 @@
         },
         "acer": {
             "name": "Acer",
-            "departments": ["cundinamarca", "linea-nacional"]
+            "departments": ["linea-nacional"]
         },
         "adata": {
             "name": "Adata",
@@ -30,7 +30,7 @@
         },
         "asus": {
             "name": "Asus",
-            "departments": ["cundinamarca", "linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
+            "departments": ["linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
         },
         "athletic": {
             "name": "Athletic",
@@ -250,7 +250,7 @@
         },
         "imusa": {
             "name": "Imusa",
-            "departments": ["antioquia", "atlantico", "cundinamarca", "linea-nacional", "meta", "quindio", "risaralda", "santander", "valle-del-cauca"]
+            "departments": ["antioquia", "atlantico", "linea-nacional", "meta", "quindio", "risaralda", "santander", "valle-del-cauca"]
         },
         "inacsa": {
             "name": "Inacsa",
@@ -306,10 +306,6 @@
         },
         "kyocera": {
             "name": "Kyocera",
-            "departments": ["cundinamarca"]
-        },
-        "lenovo": {
-            "name": "Lenovo",
             "departments": ["cundinamarca"]
         },
         "lexmark": {
@@ -918,28 +914,6 @@
             "address": "Almacén donde realizó la compra",
             "schedule": ["Dom a Dom de 8:00 a.m a 9:00 p.m"],
             "type": "interno"
-        },
-        "asus-bogota-01": {
-            "name": "Asus Punto de Servicios La Castellana",
-            "address": "Cr 49 No. 93-12",
-            "lat": "4.6809851",
-            "lng": "-74.0639395",
-            "phone": ["7435027"],
-            "schedule": ["Lun a Vie de 7:30 a.m a 3:45 p.m", "Sab de 7:30 a.m - 12:00 p.m"],
-            "type": "externo",
-            "link": "https://www.asus.com/co/support/service-center/colombia",
-            "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
-        },
-        "asus-bogota-02": {
-            "name": "Asus Punto de Servicios Quinta Paredes",
-            "address": "Cr 40 No. 24A-59",
-            "lat": "4.6315414",
-            "lng": "-74.0919107",
-            "phone": ["7452493"],
-            "schedule": ["Lun a Vie de 7:30 a.m a 3:45 p.m", "Sab de 7:30 a.m a 12:00 p.m"],
-            "type": "externo",
-            "link": "https://www.asus.com/co/support/service-center/colombia",
-            "viewMap": "https://www.google.com/maps/dir//Cra.+40+%23%2324a-59,+Bogot%C3%A1/@4.6315414,-74.0919107,21z/data=!4m16!1m7!3m6!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2zQ3JhLiA0MCAjIzI0YS01OSwgQm9nb3TDoQ!3b1!8m2!3d4.6317064!4d-74.091882!4m7!1m0!1m5!1m1!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2m2!1d-74.091882!2d4.6317064?hl=es"
         },
         "asus-call-center": {
             "name": "Asus Call Center",
@@ -5153,7 +5127,7 @@
         },
         "willard-barranquilla": {
             "name": "Willard Barranquilla Estadio",
-            "address": "Cl 74 No. 47-43, Lc 1 y 2",
+            "address": "Cl 74 No. 47-43, Lc 1 y 2",
             "lat": "10.9967038",
             "lng": "-74.8092016",
             "phone": ["3561212"],
@@ -6057,7 +6031,7 @@
                             "stores": ["brother-bogota"]
                         },
                         "informatica": {
-                            "stores": ["epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "multitech-bogota", "dell-bogota-call-center"]
+                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "multitech-bogota", "dell-bogota-call-center"]
                         },
                         "jugueteria": {
                             "stores": ["mattel-colombia-call-center", "more-products-call-center", "ronda-bogota-call-center"]
@@ -6069,7 +6043,7 @@
                             "stores": ["kyocera-bogota"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
+                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02","kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
                         },
                         "playstation-camaras": {
                             "stores": ["sony-bogota-03"]
@@ -6707,4 +6681,3 @@
         }
     }
 }
-
