@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.19.1",
+    "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.1",
     "@babel/preset-modules": "^0.1.5",
     "@rollup/plugin-babel": "^5.3.1",
