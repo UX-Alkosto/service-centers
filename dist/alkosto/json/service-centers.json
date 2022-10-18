@@ -6,7 +6,7 @@
         },
         "acer": {
             "name": "Acer",
-            "departments": ["linea-nacional"]
+            "departments": ["linea-nacional", "cundinamarca"]
         },
         "adata": {
             "name": "Adata",
@@ -30,7 +30,7 @@
         },
         "asus": {
             "name": "Asus",
-            "departments": ["linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
+            "departments": ["cundinamarca","linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
         },
         "athletic": {
             "name": "Athletic",
@@ -308,6 +308,10 @@
             "name": "Kyocera",
             "departments": ["cundinamarca"]
         },
+        "lenovo": {
+            "name": "Lenovo",
+            "departments": ["cundinamarca", "linea-nacional"]
+        },
         "lexmark": {
             "name": "Lexmark",
             "departments": ["linea-nacional"]
@@ -398,7 +402,7 @@
         },
         "oster": {
             "name": "Oster",
-            "departments": ["linea-nacional", "cundinamarca"]
+            "departments": ["linea-nacional", "cundinamarca","meta"]
         },
         "pamacol": {
             "name": "Pamacol",
@@ -722,7 +726,8 @@
             "address": "Cr 49 No. 93-12, Barrio: La Castellana",
             "lat": "4.6809851",
             "lng": "-74.0639395",
-            "phone": ["7435027"],
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
             "schedule": ["Lun a Vie de 8:00 a.m a 3:30 p.m", "Sab de 8:00 a.m - 12:00 p.m"],
             "type": "externo",
             "link": "https://www.acer.com/ac/es/AR/content/repair-centers",
@@ -733,7 +738,32 @@
             "address": "Cr 40 No. 24A–59, Barrio Quinta Paredes",
             "lat": "4.6315414",
             "lng": "-74.0919107",
-            "phone": ["7452493"],
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
+            "schedule": ["Lun a Vie de 8:00 a.m a 3:30 p.m", "Sab de 8:00 a.m a 12:00 p.m"],
+            "type": "externo",
+            "link": "https://www.acer.com/ac/es/AR/content/repair-centers",
+            "viewMap": "https://www.google.com/maps/dir//Cra.+40+%23%2324a-59,+Bogot%C3%A1/@4.6315414,-74.0919107,21z/data=!4m16!1m7!3m6!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2zQ3JhLiA0MCAjIzI0YS01OSwgQm9nb3TDoQ!3b1!8m2!3d4.6317064!4d-74.091882!4m7!1m0!1m5!1m1!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2m2!1d-74.091882!2d4.6317064?hl=es"
+        },
+        "asus-bogota-01": {
+            "name": "Punto de Servicio La Castellana",
+            "address": "Cr 49 No. 93-12, Barrio: La Castellana",
+            "lat": "4.6809851",
+            "lng": "-74.0639395",
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
+            "schedule": ["Lun a Vie de 8:00 a.m a 3:30 p.m", "Sab de 8:00 a.m - 12:00 p.m"],
+            "type": "externo",
+            "link": "https://www.acer.com/ac/es/AR/content/repair-centers",
+            "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
+        },
+        "asus-bogota-02": {
+            "name": "Punto de Servicio Quinta Paredes",
+            "address": "Cr 40 No. 24A–59, Barrio Quinta Paredes",
+            "lat": "4.6315414",
+            "lng": "-74.0919107",
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
             "schedule": ["Lun a Vie de 8:00 a.m a 3:30 p.m", "Sab de 8:00 a.m a 12:00 p.m"],
             "type": "externo",
             "link": "https://www.acer.com/ac/es/AR/content/repair-centers",
@@ -3009,7 +3039,8 @@
             "address": "Cr 49 No. 93-12, Barrio La Castellana",
             "lat": "4.6809851",
             "lng": "-74.0639395",
-            "phone": ["7435027"],
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
             "schedule": ["Lun a Vie de 8:00 a.m a 4:00 p.m", "Sab de 9:00 a.m a 1:00 p.m"],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
@@ -3019,10 +3050,18 @@
             "address": "Cr 40 No. 24A-59, Barrio Quinta Paredes",
             "lat": "4.6315414",
             "lng": "-74.0919107",
-            "phone": ["7452493"],
+            "phone": ["018000196054"],
+            "cell": ["3336025354"],
             "schedule": ["Lun a Vie de 8:00 a.m a 4:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Cra.+40+%23%2324a-59,+Bogot%C3%A1/@4.6315414,-74.0919107,21z/data=!4m16!1m7!3m6!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2zQ3JhLiA0MCAjIzI0YS01OSwgQm9nb3TDoQ!3b1!8m2!3d4.6317064!4d-74.091882!4m7!1m0!1m5!1m1!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2m2!1d-74.091882!2d4.6317064?hl=es"
+        },
+        "lenovo-linea-nacional": {
+            "name": "Lenovo Línea Nacional",
+            "phone": ["018009170541"],
+            "schedule": ["Lun a Vie de 9:00 a.m a 5:00 p.m", "Sab 9:00 a.m a 12:00 p.m"],
+            "type": "externo",
+            "link": "https://www.pcsupport.lenovo.com"
         },
         "lexmark-call-center": {
             "name": "Lexmark Call Center",
@@ -3747,6 +3786,18 @@
             "type": "externo",
             "link": "https://www.ostercolombia.com/servicio-y-soporte/centros-de-servicios",
             "viewMap": "https://www.google.com/maps/dir//servicios+integrados+del+hogar,+Cra+58%23+%23132-18,+Bogot%C3%A1/@4.7227683,-74.0690368,17z/data=!4m16!1m6!3m5!1s0x8e3f85366ecfd9fd:0x505f760cf2a5af3c!2sservicios+integrados+del+hogar!8m2!3d4.7227683!4d-74.0668481!4m8!1m0!1m5!1m1!1s0x8e3f85366ecfd9fd:0x505f760cf2a5af3c!2m2!1d-74.0668481!2d4.7227683!3e2"
+        },
+        "oster-villavicencio": {
+            "name": "SERVITER A.F",
+            "address": "Cra 26 No. 35-09 Local 3 Edificio ADEM",
+            "lat": "4.1489514",
+            "lng": "-73.6321411",
+            "phone": ["6624867"],
+            "cell": ["3213703113"],
+            "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m", "Sab 8:00 a.m a 1:00 p.m"],
+            "type": "externo",
+            "link": "https://www.ostercolombia.com/servicio-y-soporte/centros-de-servicios",
+            "viewMap": "https://www.google.com/maps/place/Cra.+26+%2335-9,+Villavicencio,+Meta/@4.1489514,-73.6343298,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3e2de7a5b098b1:0x4bcb265f40893970!8m2!3d4.1489514!4d-73.6321411"
         },
         "pamacol-call-center": {
             "name": "Pamacol Call Center",
@@ -6031,7 +6082,10 @@
                             "stores": ["brother-bogota"]
                         },
                         "informatica": {
-                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "multitech-bogota", "dell-bogota-call-center"]
+                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center","lenovo-bogota-01","lenovo-bogota-02", "multitech-bogota", "dell-bogota-call-center"]
+                        },
+                        "informatica-telefonia":{
+                            "stores":["asus-bogota-01", "asus-bogota-02"]
                         },
                         "jugueteria": {
                             "stores": ["mattel-colombia-call-center", "more-products-call-center", "ronda-bogota-call-center"]
@@ -6198,7 +6252,7 @@
                             "stores": ["dell-villavicencio-call-center"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["black-decker-villavicencio", "imusa-villavicencio"]
+                            "stores": ["black-decker-villavicencio", "imusa-villavicencio", "oster-villavicencio"]
                         },
                         "repuestos-automotores": {
                             "stores": ["willard-villavicencio"]
@@ -6637,7 +6691,7 @@
                             "stores": ["brother-call-center"]
                         },
                         "informatica": {
-                            "stores": ["acer-call-center", "compaq-call-center", "dell-call-center", "epson-call-center", "hewlett-packard-call-center", "lexmark-call-center", "mcafee-call-center"]
+                            "stores": ["acer-call-center", "compaq-call-center", "dell-call-center", "epson-call-center", "hewlett-packard-call-center", "lexmark-call-center","lenovo-linea-nacional", "mcafee-call-center"]
                         },
                         "informatica-celulares": {
                             "stores": ["apple-linea-nacional-02", "asus-call-center"]
