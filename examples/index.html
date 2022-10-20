@@ -1,101 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Centros de Servicio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/kalley/css/servicio.css"
-    />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-    <link
-      href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="service-centers">
-      <h2 class="service-centers__title">Centros de servicio</h2>
-      <p>
-        Para mayor información sobre la <strong>Política de Garantía</strong> de
-        tus productos
-        <a
-          href="/politicas/politicas-garantia/c/politicas-garantia"
-          target="_blank"
-          >click aquí</a
-        >
-      </p>
-      <div class="service-centers__filters">
-        <div class="service-centers__filters__marca">
-          <label for="marca">Marca</label>
-          <select name="marca" id="marca" data-custom-select="true"></select>
-        </div> 
-        <div class="service-centers__filters__departamento">
-          <label for="departamento">Departamento</label>
-          <select
-            name="departamento"
-            id="departamento"
-            data-custom-select="true"
-          ></select>
-        </div>
-        <div class="service-centers__filters__ciudad">
-          <label for="ciudad">Ciudad</label>
-          <select name="ciudad" id="ciudad" data-custom-select="true"></select>
-        </div>
-        <div class="service-centers__filters__categoria">
-          <label for="categoria">Categoría</label>
-          <select
-            name="categoria"
-            id="categoria"
-            data-custom-select="true"
-          ></select>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centros de Servicio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/kalley/css/servicio.css" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="service-centers">
+    <h2 class="service-centers__title">Centros de servicio</h2>
+    <p>
+      Para mayor información sobre la <strong>Política de Garantía</strong> de
+      tus productos
+      <a style="color: var(--link-text-color);" href="/politicas/politicas-garantia/c/politicas-garantia" target="_blank">click aquí.</a>
+    </p>
+    <p>Estamos a tu disposición en las líneas de atención: <a style="color: var(--link-text-color);" href="tel:4073033">4073033</a> en Bogotá, <a style="color: var(--link-text-color);"
+        href="tel:018000111448">018000111448</a> línea nacional o a través de la página web <a style="color: var(--link-text-color);"
+        href="/contactanos">https://www.alkosto.com/contactanos.</a>
+    </p>
+    <p>Sin embargo, debido a la emergencia sanitaria que atraviesa el país y promoviendo el bienestar de nuestros
+      clientes, algunas marcas (Huawei, Honor, Xiaomi, Alcatel, Asus, Apple, Lenovo, HP, Kalley, Samsung) han
+      decidido
+      establecer canales de ayuda para brindarte <strong>asesoría técnica por medio de soporte telefónico</strong>
+      y
+      de ser necesario ayudarte con la recolección del producto para poder tramitar tu garantía, sin salir de tu
+      casa,
+      a continuación filtra por marca para ver la información:</p>
+    <div class="service-centers__filters">
+      <div class="service-centers__filters__marca">
+        <label for="marca">Marca</label>
+        <select name="marca" id="marca" data-custom-select="true"></select>
       </div>
-      <p class="msje-localiza">
-        Selecciona en la parte de arriba marca, departamento, ciudad y la
-        categoría de tu preferencia.
-      </p>
-      <div class="service-centers__container">
-        <div class="service-centers__menu"></div>
-        <div class="service-centers__map">
-          <div id="service-centers-map"></div>
-          <div class="cont-img" id="cont-img"></div>
-        </div>
+      <div class="service-centers__filters__departamento">
+        <label for="departamento">Departamento</label>
+        <select name="departamento" id="departamento" data-custom-select="true"></select>
+      </div>
+      <div class="service-centers__filters__ciudad">
+        <label for="ciudad">Ciudad</label>
+        <select name="ciudad" id="ciudad" data-custom-select="true"></select>
+      </div>
+      <div class="service-centers__filters__categoria">
+        <label for="categoria">Categoría</label>
+        <select name="categoria" id="categoria" data-custom-select="true"></select>
       </div>
     </div>
-    <!--  <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta" defer></script> -->
+    <p class="msje-localiza">
+      Selecciona en la parte de arriba marca, departamento, ciudad y la
+      categoría de tu preferencia.
+    </p>
+    <div class="service-centers__container">
+      <div class="service-centers__menu"></div>
+      <div class="service-centers__map">
+        <div id="service-centers-map"></div>
+        <div class="cont-img" id="cont-img"></div>
+      </div>
+    </div>
+  </div>
+  <!--  <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta" defer></script> -->
 
-   <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw" defer></script> 
-    <script
-      type="module"
-      crossorigin="anonymous"
-      src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/common/js/servicio.js"
-    ></script>
-    <script>
-      const appConfig = {
-        jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/alkosto/json/service-centers.json",
-        site: "alkosto",
-      }; 
-      
-/*       const select = document.getElementById("categoria");
-      const mapa = document.getElementById("service-centers-map");
-      const divContenedor = document.querySelector(".service-centers__map");
-      const imagen = document.getElementById("cont-img");
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw"
+    defer></script>
+  <script type="module" crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/common/js/servicio.js"></script>
+  <script>
+    const appConfig = {
+      jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.7.7/dist/alkosto/json/service-centers.json",
+      site: "alkosto",
+    };
 
-      select.addEventListener("change", function () {
-        var selectedOption = this.options[select.selectedIndex];
-        console.log(selectedOption.value);
-        if (selectedOption.value == "gasodomesticos") {
-         mapa.style.display = "none";
-          imagen.style.display = "block";
-        } else {
-          mapa.style.display = "block";
-          imagen.style.display = "none";
-        }
-      }); */
-    </script>
-<!--     <style>
+    /*       const select = document.getElementById("categoria");
+          const mapa = document.getElementById("service-centers-map");
+          const divContenedor = document.querySelector(".service-centers__map");
+          const imagen = document.getElementById("cont-img");
+
+          select.addEventListener("change", function () {
+            var selectedOption = this.options[select.selectedIndex];
+            console.log(selectedOption.value);
+            if (selectedOption.value == "gasodomesticos") {
+             mapa.style.display = "none";
+              imagen.style.display = "block";
+            } else {
+              mapa.style.display = "block";
+              imagen.style.display = "none";
+            }
+          }); */
+  </script>
+  <!--     <style>
       .cont-img{
       display: none;
         width: 100%;
@@ -106,5 +100,6 @@
     background-repeat: no-repeat;
       }
     </style> -->
-  </body>
+</body>
+
 </html>

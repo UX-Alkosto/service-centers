@@ -250,7 +250,7 @@
         },
         "imusa": {
             "name": "Imusa",
-            "departments": ["antioquia", "atlantico", "cundinamarca", "linea-nacional", "meta", "quindio", "risaralda", "santander", "valle-del-cauca"]
+            "departments": ["antioquia", "atlantico", "linea-nacional", "meta", "quindio", "risaralda", "santander", "valle-del-cauca"]
         },
         "inacsa": {
             "name": "Inacsa",
