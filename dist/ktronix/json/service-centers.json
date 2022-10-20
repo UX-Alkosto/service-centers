@@ -6056,9 +6056,6 @@
                         "accesorios": {
                             "stores": ["directv-bogota-call-center", "nintendo-bogota", "urbanears-bogota-call-center"]
                         },
-                        "aires-acondicionados": {
-                            "stores": ["panasonic-bogota-01"]
-                        },
                         "audio": {
                             "stores": ["bose-bogota", "jvc-bogota"]
                         },
@@ -6117,7 +6114,7 @@
                             "stores": ["kyocera-bogota"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "imusa-bogota", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
+                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
                         },
                         "playstation-camaras": {
                             "stores": ["sony-bogota-03"]
@@ -6735,7 +6732,7 @@
                             "stores": ["imusa-call-center", "kitchenaid-call-center", "nigi-linea-nacional", "oster-call-center", "pc-smart-call-center", "phillips-call-center", "remington-call-center", "samurai-call-center", "universal-call-center", "singer-bogota-call-center"]
                         },
                         "telefonia": {
-                            "stores": ["honor-call-center", "huawei-call-center", "motorola-call-center", "xiaomi-linea-nacional", "xiaomi-call-center"]
+                            "stores": ["honor-call-center", "huawei-call-center", "motorola-call-center", "xiaomi-linea-nacional"]
                         },
                         "todas": {
                             "stores": ["challenger-call-center-02", "kalley-call-center", "lg-call-center", "samsung-call-center"]
