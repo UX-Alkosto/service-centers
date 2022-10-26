@@ -60,6 +60,16 @@
             "cell": ["3103892311"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+9+%236-100,+Leticia,+Amazonas/@-4.2166971,-69.9422418,17z/data=!4m17!1m7!3m6!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2sCra.+9+%236-100,+Leticia,+Amazonas!3b1!8m2!3d-4.2166971!4d-69.9400531!4m8!1m0!1m5!1m1!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2m2!1d-69.9400531!2d-4.2166971!3e3"
         },
+        "antioquia-medellin-01": {
+            "name": "FAMILY AIR",
+            "address": "CARRERA 53 # 62 - 39",
+            "email": "familyairmercadeo@gmail.com",
+            "lat": "6.2614437",
+            "lng": "-75.5702297",
+            "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
+            "cell": ["3137567485"],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+La+Candelaria,+Medell%C3%ADn,+Antioquia/@6.2614437,-75.5702297,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.568041!2d6.2614437"
+        },
         "antioquia-medellin-02": {
             "name": "FAMILIAR DE REPUESTOS LTDA",
             "address": "Cl 50 No 55 - 92, Barrio Centro",
@@ -144,16 +154,25 @@
             "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
             "cell": ["3206667712"]
         },
+        "antioquia-apartado-01": {
+            "name": "URASOLUCION VILLEGAS",
+            "address": "ATENCIÓN EN DOMICILIO",
+            "email": "urasolucionvillegas@hotmail.com",
+            "lat": "7.8827607",
+            "lng": "-76.6422021",
+            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
+            "cell": ["3336496056"]
+        },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
-            "address": "Cr 98 No 96 - 33",
+            "address": "Cr 98 No 96 - 13",
             "email": "tlelectronicas@hotmail.com",
-            "lat": "7.8806813",
-            "lng": "-76.6336783",
+            "lat": "7.8805215",
+            "lng": "-76.6337237",
             "schedule": ["Lun a Vie de 8:00 a.m a 5:30 p.m", "Sab de 8:00 a.m a 3:00 p.m"],
             "phone": ["8151030"],
             "cell": ["3147504702"],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-33,+Apartad%C3%B3,+Antioquia/@7.8806813,-76.6336783,17z/data=!4m17!1m7!3m6!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2sCra.+98+%2396-33,+Apartad%C3%B3,+Antioquia!3b1!8m2!3d7.8806813!4d-76.6314896!4m8!1m0!1m5!1m1!1s0x8e500d7a423946ad:0x47343efa7aa9d0a!2m2!1d-76.6314896!2d7.8806813!3e3"
+            "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-13,+Apartad%C3%B3,+Antioquia/@7.8805215,-76.6337237,1116m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x8e500d7a423946ad:0xde0d6e5343ddc379!2m2!1d-76.631535!2d7.8805215"
         },
         "antioquia-bello": {
             "name": "ALMACEN Y CENTRO DE REPARACIÓN LA SOLUCIÓN",
@@ -363,6 +382,16 @@
             "schedule": ["Lun a Vie de 8:30 a.m a 5:30 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
             "cell": ["3212459392"],
             "viewMap": "https://www.google.com/maps/dir//4.5943783,-74.1360126/@4.594449,-74.1359946,21z/data=!4m2!4m1!3e0?hl=es"
+        },
+        "bogota-09": {
+            "name": "GOOD SERVICE COMPANY SAS",
+            "address": "CLL. 1 SUR # 72-13",
+            "email": "goodservice9522@gmail.com",
+            "lat": "4.6224231",
+            "lng": "-74.141313",
+            "schedule": ["Lun a Sab de 8:00 a.m a 4:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
+            "cell": ["3146589119","3232062051","3186188098"],
+            "viewMap": "https://www.google.com/maps/dir//Cl.+1+Sur+%2372-13,+Bogot%C3%A1/@4.6224231,-74.141313,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9ea43006ad27:0xfca0899deb3eba0e!2m2!1d-74.1391243!2d4.6224231"
         },
         "bogota-domicilio-gasodomesticos-01": {
             "name": "MAURICIO MELO",
@@ -1254,6 +1283,17 @@
             "cell": ["3005704067", "3187758303"],
             "viewMap": "https://www.google.com/maps/place/Cl.+52+%2327-105,+Barrancabermeja,+Santander/@7.061758,-73.8543852,17z/data=!3m1!4b1!4m5!3m4!1s0x8e42eca88c1f50f7:0xd19581542b2a7d86!8m2!3d7.0617527!4d-73.8521965?hl=es"
         },
+        "santander-barrancabermeja-02": {
+            "name": "FERRETERIA EL PUNTO",
+            "address": "CRA 19 # 54-78 BRR. TORCORAMA",
+            "email": " ferreteriaelpunto@gmail.com",
+            "lat": "7.0645972",
+            "lng": "-73.8600796",
+            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
+            "phone": ["6122610"],
+            "cell": ["3202346518"],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+19+%2354-78,+Barrancabermeja,+Santander/@7.0645972,-73.8600796,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e42eca75dfaaee5:0x288ac54af925c85e!2m2!1d-73.8578909!2d7.0645972"
+        },
         "santander-bucaramanga-01": {
             "name": "ÚNICOS",
             "address": "Cl 45 No 25 - 44B, Sotomayor",
@@ -1538,6 +1578,16 @@
             "phone": ["2333777"],
             "cell": ["3163134683"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca/@4.0822701,-76.2032486,17z/data=!4m17!1m7!3m6!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2sCl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca!3b1!8m2!3d4.0822701!4d-76.2010599!4m8!1m0!1m5!1m1!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2m2!1d-76.2010599!2d4.0822701!3e3"
+        },
+        "vichada-puerto-carreno":{
+            "name": "ELECTRO REFRIGERACIÓN VICHADA",
+            "address": "CRA 7 # 15-143 BARRIO EL RECREO",
+            "email": "pinedadumareduardo@gmail.com",
+            "lat": "6.1851997",
+            "lng": "-67.5164422",
+            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
+            "cell": ["3504825860"],
+            "viewMap": "https://www.google.com/maps/dir//Hotel+Carre%C3%B1o+Plaza,+Cra.+7+%231844,+Puerto+Carre%C3%B1o,+Vichada/@6.1851997,-67.5164422,17914m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x8e761933e2a640a5:0x9e04b91d79ada79a!2m2!1d-67.4814138!2d6.1851979"
         }
     },
     "departments": {
@@ -1577,17 +1627,26 @@
                         "audio-video": {
                             "stores": ["antioquia-apartado-02"]
                         },
+                        "aires-acondicionados":{
+                            "stores":["antioquia-apartado-01"]
+                        },
                         "casa-inteligente": {
                             "stores": ["antioquia-apartado-02"]
                         },
                         "dispensadores": {
-                            "stores": ["antioquia-apartado-02"]
+                            "stores": ["antioquia-apartado-01","antioquia-apartado-02"]
                         },
                         "gasodomesticos": {
                             "stores": ["antioquia-apartado-domicilio-gasodomesticos"]
                         },
+                        "grandes-electrodomesticos":{
+                            "stores":["antioquia-apartado-01"]
+                        },
                         "lavadoras": {
-                            "stores": ["antioquia-apartado-02"]
+                            "stores": ["antioquia-apartado-01","antioquia-apartado-02"]
+                        },
+                        "refrigeracion":{
+                            "stores":["antioquia-apartado-01"]
                         },
                         "tabletas": {
                             "stores": ["antioquia-apartado-02"]
@@ -1720,7 +1779,7 @@
                             "stores": ["antioquia-medellin-02", "antioquia-medellin-03", "antioquia-medellin-04", "antioquia-medellin-06"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["antioquia-medellin-04"]
+                            "stores": ["antioquia-medellin-01","antioquia-medellin-04"]
                         },
                         "audio-video": {
                             "stores": ["antioquia-medellin-03", "antioquia-medellin-06"]
@@ -2839,7 +2898,7 @@
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
                         },
                         "aires-acondicionados":{
-                           "stores": ["bogota-08"]
+                           "stores": ["bogota-08","bogota-09"]
                         },
                         "audio-video": {
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06","bogota-08"]
@@ -2851,7 +2910,7 @@
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07"]
                         },
                         "dispensadores": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
                         },
                         "ferreteria": {
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
@@ -2860,19 +2919,19 @@
                             "stores": ["bogota-domicilio-gasodomesticos-01", "bogota-domicilio-gasodomesticos-02","bogota-domicilio-gasodomesticos-03","bogota-domicilio-gasodomesticos-04","bogota-domicilio-gasodomesticos-05","bogota-domicilio-gasodomesticos-06","bogota-domicilio-gasodomesticos-07","bogota-domicilio-gasodomesticos-08","bogota-domicilio-gasodomesticos-09" ]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": ["bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-05", "bogota-06","bogota-08","bogota-09"]
                         },
                         "iluminacion": {
                             "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06"]
                         },
                         "lavadoras": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
                         },
                         "refrigeracion": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
                         },
                         "smart-home-menores": {
                             "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08"]
@@ -3861,14 +3920,11 @@
                         "casa-inteligente": {
                             "stores": ["santander-barrancabermeja-01"]
                         },
-                        "cuidado-personal": {
-                            "stores": []
-                        },
                         "dispensadores": {
                             "stores": ["santander-barrancabermeja-01"]
                         },
                         "ferreteria": {
-                            "stores": []
+                            "stores": ["santander-barrancabermeja-02"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["santander-barrancabermeja-01"]
@@ -3880,7 +3936,7 @@
                             "stores": ["santander-barrancabermeja-01"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": []
+                            "stores": ["santander-barrancabermeja-02"]
                         },
                         "refrigeracion": {
                             "stores": ["santander-barrancabermeja-01"]
@@ -4436,6 +4492,44 @@
                         },
                         "refrigeracion": {
                             "stores": ["valle-cauca-jamundi"]
+                        }
+                    }
+                }
+            }
+        },
+        "Vichada":{
+            "name": "Vichada",
+            "cities": {
+                "puerto-carreno": {
+                    "areaCode": 8,
+                    "name": "Puerto Carreño",
+                    "categories": {
+                        "accesorios": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "aires-acondicionados":{
+                           "stores": ["vichada-puerto-carreno"]
+                        },
+                        "audio-video": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "dispensadores": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "ferreteria": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "lavadoras": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": ["vichada-puerto-carreno"]
+                        },
+                        "refrigeracion": {
+                            "stores": ["vichada-puerto-carreno"]
                         }
                     }
                 }
