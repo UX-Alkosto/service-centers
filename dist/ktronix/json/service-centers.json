@@ -22,7 +22,7 @@
         },
         "aoc": {
             "name": "AOC",
-            "departments": ["antioquia", "atlantico", "bolivar", "casanare", "cordoba", "cundinamarca", "linea-nacional", "meta", "risaralda", "sucre", "tolima", "valle-del-cauca"]
+            "departments": ["antioquia", "bolivar", "casanare", "cordoba", "cundinamarca", "linea-nacional", "meta", "risaralda", "sucre", "tolima", "valle-del-cauca"]
         },
         "apple": {
             "name": "Apple",
