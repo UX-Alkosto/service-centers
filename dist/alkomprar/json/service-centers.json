@@ -2842,7 +2842,7 @@
             "lng": "-74.0868482",
             "phone": ["5249210"],
             "cell": ["3014995879"],
-            "schedule": ["Lun a Vie de 8:30 a.m a 12:00 m y de 1:00 p.m a 4:30 p.m", "Sab de 10:00 a.m a 2:00 p.m"],
+            "schedule": ["Lun a Vie de 10:00 a.m a 1:00 pm y de 2:00 p.m a 5:00 p.m", "Sab de 10:00 a.m a 2:00 p.m"],
             "type": "externo",
             "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
             "viewMap": "https://www.google.com/maps/dir//Ak+68+%2367d-90,+Bogot%C3%A1/@4.6757953,-74.0868482,20z/data=!4m17!1m7!3m6!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2sAk+68+%2367d-90,+Bogot%C3%A1!3b1!8m2!3d4.6758148!4d-74.0867879!4m8!1m0!1m5!1m1!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2m2!1d-74.0867879!2d4.6758148!3e2"
@@ -2865,7 +2865,7 @@
             "address": "Cl 68D BIS A SUR No. 63–85, Conjunto Residencial Casa Grande Manzana 2, Casa 196 Barrio El Ensueño",
             "lat": "4.5810342",
             "lng": "-74.1626975",
-            "cell": ["3155357357"],
+            "cell": ["3155357357", "3183878511"],
             "schedule": ["Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m", "Sab de 9:00 a.m a 1:00 p.m"],
             "type": "externo",
             "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
