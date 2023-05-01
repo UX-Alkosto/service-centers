@@ -19,7 +19,7 @@
     "eslint": "^8.39.0",
     "grunt": "^1.6.1",
     "grunt-contrib-clean": "^2.0.1",
-    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-less": "^3.0.0",
     "grunt-json-minification": "github:miguelcolmenares/grunt-json-minification",
     "load-grunt-tasks": "^5.1.0",
