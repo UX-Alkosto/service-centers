@@ -127,9 +127,9 @@ function getFormatedPhone(location, returnHtml = true) {
     const {areaCode, name, phone} = location;
     for (const phoneNumber of phone) {
         if (returnHtml) {
-            phoneNumbers = [...phoneNumbers, html`<a href="tel:+57${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
+            phoneNumbers = [...phoneNumbers, html`<a href="tel:+60${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         } else {
-            phoneNumbers = [...phoneNumbers, `<a href="tel:+57${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
+            phoneNumbers = [...phoneNumbers, `<a href="tel:+60${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         }
     }
     return phoneNumbers;
