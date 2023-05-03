@@ -4,22 +4,22 @@
   "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
-    "lit": "^2.7.2"
+    "lit": "^2.7.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
     "@babel/preset-modules": "^0.1.5",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^8.38.0",
+    "eslint": "^8.39.0",
     "grunt": "^1.6.1",
     "grunt-contrib-clean": "^2.0.1",
-    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-less": "^3.0.0",
     "grunt-json-minification": "github:miguelcolmenares/grunt-json-minification",
     "load-grunt-tasks": "^5.1.0",
