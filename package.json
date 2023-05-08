@@ -4,7 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
-    "lit": "^2.7.3"
+    "lit": "^2.7.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
