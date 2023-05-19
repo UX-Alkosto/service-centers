@@ -30,7 +30,7 @@
         },
         "asus": {
             "name": "Asus",
-            "departments": ["cundinamarca","linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
+            "departments": ["cundinamarca", "linea-nacional", "quindio", "atlantico", "santander", "valle-del-cauca", "antioquia"]
         },
         "athletic": {
             "name": "Athletic",
@@ -402,7 +402,7 @@
         },
         "oster": {
             "name": "Oster",
-            "departments": ["linea-nacional", "cundinamarca","meta"]
+            "departments": ["linea-nacional", "cundinamarca", "meta"]
         },
         "pamacol": {
             "name": "Pamacol",
@@ -2656,7 +2656,7 @@
             "link": "https://www.imusa.com.co/cocina-con-imusa/encuentra-centro-servicio-tecnico-imusa-mas-cercano/",
             "viewMap": "https://www.google.com/maps/dir//CyM+electr%C3%B3nico,+Cl.+70+%23%2345-29,+Barranquilla,+Atl%C3%A1ntico/@10.9925867,-74.8039918,21z/data=!4m16!1m6!3m5!1s0x8ef42d732d47b227:0x12196dfa47f42aab!2sCyM+electr%C3%B3nico!8m2!3d10.9925469!4d-74.8038667!4m8!1m0!1m5!1m1!1s0x8ef42d732d47b227:0x12196dfa47f42aab!2m2!1d-74.8038667!2d10.9925469!3e2"
         },
-        "imusa-bogota": { 
+        "imusa-bogota": {
             "name": "R&M Servicios Integrados",
             "address": "Cr 58 No. 132-18",
             "lat": "4.7227885",
@@ -2865,7 +2865,7 @@
             "address": "Cl 68D BIS A SUR No. 63–85, Conjunto Residencial Casa Grande Manzana 2, Casa 196 Barrio El Ensueño",
             "lat": "4.5810342",
             "lng": "-74.1626975",
-            "cell": ["3155357357","3183878511"],
+            "cell": ["3155357357", "3183878511"],
             "schedule": ["Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m", "Sab de 9:00 a.m a 1:00 p.m"],
             "type": "externo",
             "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
@@ -3739,12 +3739,12 @@
             "schedule": ["Lun a Vie de 8:00 a 4:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Cra.+49+%2393-12,+Barrios+Unidos,+Bogot%C3%A1/@4.6809851,-74.0639395,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9aeed19bb42f:0x8fc4335a7b0146a4!2m2!1d-74.0617508!2d4.6809798?hl=es"
-        }, 
+        },
         "nokia-bogota": {
             "name": "WODEN Colombia S.A.S",
             "address": "Av Cl 13 No. 56-35, Barrio Puente Aranda",
             "lat": "4.6304019",
-            "lng": "-74.1107958", 
+            "lng": "-74.1107958",
             "phone": ["3558200"],
             "schedule": ["Lun a Vie de 10:00 a.m a 5:00 p.m", "Sab de 9:00 a.m a 2:00 p.m"],
             "type": "interno",
@@ -3866,14 +3866,14 @@
         },
         "panasonic-bogota-02": {
             "name": "NEO Group",
-            "address": "Av Cr 30 No. 67-21",
-            "lat": "4.663221",
-            "lng": "-74.0790917",
-            "phone": ["7030920"],
-            "schedule": ["Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m"],
+            "address": "Av. Carrera 50 No. 22–41 Local 105",
+            "lat": "4.6363106",
+            "lng": "-74.1026816",
+            "phone": ["8418403"],
+            "schedule": ["Lun a Vie de 9:00 a.m a 5:00 p.m"],
             "type": "externo",
-            "link": "https://www.panasonic.com/co/soporte/centros-de-servicio-autorizado.html",
-            "viewMap": "https://www.google.com/maps/dir//Neo+group+-+Panasonic,+Ak+30+%23%2367+-+21,+Bogot%C3%A1/@4.663221,-74.0790917,17z/data=!4m16!1m6!3m5!1s0x8e3f9a9418e4f2bb:0xfc92d2cc0f071d94!2sNeo+group+-+Panasonic!8m2!3d4.663221!4d-74.076903!4m8!1m0!1m5!1m1!1s0x8e3f9a9418e4f2bb:0xfc92d2cc0f071d94!2m2!1d-74.076903!2d4.663221!3e2"
+            "link": "https://www.panasonic.com/co/soporte.html",
+            "viewMap": "https://goo.gl/maps/qWMjGmcp78zVQcSA6?coh=178572&entry=tt"
         },
         "panasonic-bucaramanga-01": {
             "name": "Mantenimiento",
@@ -4773,6 +4773,7 @@
         "tcl-linea-nacional": {
             "name": "TCL Call Center",
             "phone": ["018005183882"],
+            "cell":["3336418234"],
             "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m"],
             "type": "externo",
             "link": "https://www.alcatelmobile.com/co/support/"
@@ -5617,7 +5618,7 @@
         },
         "whirlpool-call-center": {
             "name": "Whirlpool Call Center",
-            "phone": ["018000112365"],
+            "phone": ["3557645"],
             "schedule": ["Lun a Vie de 8:00 a.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
             "type": "externo",
             "link": "https://www.whirlpool.com.co/servicio-y-soporte#talleres-certificados"
@@ -5645,7 +5646,7 @@
             "address": "Almacén donde realizó la compra",
             "schedule": ["Dom a Dom de 8:00 a.m a 9:00 p.m"],
             "type": "interno"
-        }, 
+        },
         "yale-call-center": {
             "name": "YALE Call Center",
             "cell": ["3183588994"],
@@ -6082,10 +6083,10 @@
                             "stores": ["brother-bogota"]
                         },
                         "informatica": {
-                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center","lenovo-bogota-01","lenovo-bogota-02", "multitech-bogota", "dell-bogota-call-center"]
+                            "stores": ["acer-bogota-01", "acer-bogota-02", "epson-bogota-01", "epson-bogota-02", "hewlett-packard-bogota-call-center", "lenovo-bogota-01", "lenovo-bogota-02", "multitech-bogota", "dell-bogota-call-center"]
                         },
-                        "informatica-telefonia":{
-                            "stores":["asus-bogota-01", "asus-bogota-02"]
+                        "informatica-telefonia": {
+                            "stores": ["asus-bogota-01", "asus-bogota-02"]
                         },
                         "jugueteria": {
                             "stores": ["mattel-colombia-call-center", "more-products-call-center", "ronda-bogota-call-center"]
@@ -6097,7 +6098,7 @@
                             "stores": ["kyocera-bogota"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02","kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
+                            "stores": ["black-decker-bogota-01", "black-decker-bogota-02", "kitchenaid-bogota-call-center", "oster-bogota", "pc-smart-bogota", "phillips-bogota-01", "samurai-bogota", "kalley-bogota-04"]
                         },
                         "playstation-camaras": {
                             "stores": ["sony-bogota-03"]
@@ -6691,7 +6692,7 @@
                             "stores": ["brother-call-center"]
                         },
                         "informatica": {
-                            "stores": ["acer-call-center", "compaq-call-center", "dell-call-center", "epson-call-center", "hewlett-packard-call-center", "lexmark-call-center","lenovo-linea-nacional", "mcafee-call-center"]
+                            "stores": ["acer-call-center", "compaq-call-center", "dell-call-center", "epson-call-center", "hewlett-packard-call-center", "lexmark-call-center", "lenovo-linea-nacional", "mcafee-call-center"]
                         },
                         "informatica-celulares": {
                             "stores": ["apple-linea-nacional-02", "asus-call-center"]
