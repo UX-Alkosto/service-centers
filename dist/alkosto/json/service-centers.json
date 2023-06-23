@@ -388,6 +388,10 @@
             "name": "Nikon",
             "departments": ["linea-nacional"]
         },
+        "niu-akt": {
+            "name": "NIU (AKT)",
+            "departments": ["linea-nacional"]
+        },
         "nintendo": {
             "name": "Nintendo",
             "departments": ["cundinamarca"]
@@ -411,10 +415,6 @@
         "panasonic": {
             "name": "Panasonic",
             "departments": ["amazonas", "antioquia", "arauca", "atlantico", "boyaca", "caldas", "caqueta", "casanare", "cauca", "cesar", "cordoba", "cundinamarca", "huila", "magdalena", "meta", "narino", "norte-de-santander", "putumayo", "quindio", "risaralda", "santander", "sucre", "tolima", "valle-del-cauca"]
-        },
-        "pc-smart": {
-            "name": "PC Smart",
-            "departments": ["cundinamarca", "linea-nacional"]
         },
         "phillips": {
             "name": "Phillips",
@@ -669,6 +669,9 @@
         },
         "office": {
             "name": "Office"
+        },
+        "patinetas-motos-electricas": {
+            "name": "Patinetas - Motos Electricas"
         },
         "proyectores-monitores": {
             "name": "Proyectores y Monitores Industriales"
@@ -3768,6 +3771,12 @@
             "schedule": ["Dom a Dom de 8:00 a.m a 9:00 p.m"],
             "type": "interno"
         },
+        "niu-akt-linea-nacional": {
+            "name": "NIU Call Center",
+            "phone": ["018000524066"],
+            "schedule": ["Lun a Vie de 7:00 a.m a 7:00 p.m", "Sab de 8:00 a.m a 3:00 p.m"],
+            "type": "interno"
+        },
         "oster-call-center": {
             "name": "Oster Call Center",
             "phone": ["018000180360"],
@@ -6711,6 +6720,9 @@
                         },
                         "muebles": {
                             "stores": ["inval-call-center", "maderkit-call-center", "moduart-call-center", "practimac-call-center", "tablemac-call-center", "tukasa-linea-nacional", "startec-bogota-call-center"]
+                        },
+                        "patinetas-motos-electricas":{
+                            "stores":["niu-akt-linea-nacional"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["imusa-call-center", "kitchenaid-call-center", "nigi-linea-nacional", "oster-call-center", "pc-smart-call-center", "phillips-call-center", "remington-call-center", "samurai-call-center", "universal-call-center", "singer-bogota-call-center"]
