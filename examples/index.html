@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Centros de Servicio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/alkomprar/css/servicio.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/kalley/css/servicio.css" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css" rel="stylesheet" />
 </head>
@@ -15,14 +16,8 @@
   <div class="service-centers">
     <h2 class="service-centers__title">Centros de servicio</h2>
     <p>Para mayor información sobre la <strong>Política de Garantía</strong> de tus productos
-      <a style="color: var(--link-text-color);" href="/politicas/politicas-garantia" target="_blank">click
+      <a href="/politicas/politicas-garantia" style="color: var(--link-text-color);" target="_blank">click
         aquí</a></p>
-    <p>Estamos a tu disposición en las líneas de atención: <a style="color: var(--link-text-color);"
-        href="tel:6046042323"> (604) 6042323</a> en
-      Medellín, <a style="color: var(--link-text-color);" href="tel:018000111448">018000946000</a> línea nacional o a
-      través de la
-      página web <a style="color: var(--link-text-color);"
-        href="https://www.alkomprar.com/contacto">https://www.alkomprar.com/contacto</a>.</p>
 
     <div class="service-centers__filters">
       <div class="service-centers__filters__marca">
@@ -63,28 +58,28 @@
     src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/common/js/servicio.js"></script>
   <script>
     const appConfig = {
-      jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.8.7/dist/alkomprar/json/service-centers.json",
-      site: "Alkomprar",
+      jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.8.7/dist/kalley/json/service-centers.json",
+      site: "Lalley",
     };
+    /* 
+        const select = document.getElementById("categoria");
+        const mapa = document.getElementById("service-centers-map");
+        const divContenedor = document.querySelector(".service-centers__map");
+        const imagen = document.getElementById("cont-img");
 
-    const select = document.getElementById("categoria");
-    const mapa = document.getElementById("service-centers-map");
-    const divContenedor = document.querySelector(".service-centers__map");
-    const imagen = document.getElementById("cont-img");
-
-    select.addEventListener("change", function () {
-      var selectedOption = this.options[select.selectedIndex];
-      console.log(selectedOption.value);
-      if (selectedOption.value == "gasodomesticos") {
-        mapa.style.display = "none";
-        imagen.style.display = "block";
-      } else {
-        mapa.style.display = "block";
-        imagen.style.display = "none";
-      }
-    });
+        select.addEventListener("change", function () {
+          var selectedOption = this.options[select.selectedIndex];
+          console.log(selectedOption.value);
+          if (selectedOption.value == "gasodomesticos") {
+            mapa.style.display = "none";
+            imagen.style.display = "block";
+          } else {
+            mapa.style.display = "block";
+            imagen.style.display = "none";
+          }
+        }); */
   </script>
-  <style>
+  <!--   <style>
     .cont-img {
       display: none;
       width: 100%;
@@ -94,7 +89,7 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-  </style>
+  </style> -->
 </body>
 
 </html>

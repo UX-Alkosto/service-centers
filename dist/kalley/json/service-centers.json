@@ -42,8 +42,8 @@
         "smart-home-menores": {
             "name": "Smart Home Menores"
         },
-        "soluciones-hogar":{
-            "name":"Soluciones hogar"
+        "soluciones-hogar": {
+            "name": "Soluciones hogar"
         },
         "tabletas": {
             "name": "Tablet's"
@@ -51,8 +51,8 @@
         "telefonia-celular": {
             "name": "Telefonía Celular"
         },
-        "tecnologia-entretenimiento":{
-            "name":"Tecnología y entretenimiento"
+        "tecnologia-entretenimiento": {
+            "name": "Tecnología y entretenimiento"
         }
     },
     "serviceCenters": {
@@ -128,37 +128,16 @@
             "cell": ["3041290724"],
             "viewMap": "https://www.google.com/maps/place/Cra.+65+%231b-28,+Guayabal,+Medell%C3%ADn,+Guayabal,+Medell%C3%ADn,+Antioquia/@6.2100165,-75.5925032,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429d853d27105:0xae5ac5238716c1eb!8m2!3d6.2100165!4d-75.588276?hl=es"
         },
-        "antioquia-medellin-domicilio-gasodomesticos-01": {
-            "name": "RUA CALDERON OSCAR ALBERTO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3137733334"]
-        },
-        "antioquia-medellin-domicilio-gasodomesticos-02": {
-            "name": "SILVIA GARCIA REFRIAMIGOS",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 53 # 62-39",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["5164797"],
-            "cell": ["3128519509"]
-        },
-        "antioquia-medellin-domicilio-gasodomesticos-03": {
-            "name": "LUZ DARY GIRALDO RYR SUPER FRIO",
-            "address": "ATENCIÓN A DOMICILIO - CL. 50 # 68-49",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["4480528"]
-        },
-        "antioquia-medellin-domicilio-gasodomesticos-04": {
-            "name": "VIVIANA GEITECO R&O SAS",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 2 # 55-41",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8332216"],
-            "cell": ["3186753912"]
-        },
-        "antioquia-apartado-domicilio-gasodomesticos": {
-            "name": "ALEXIS VILLEGAS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3206667712"]
+        "antioquia-medellin-07": {
+            "name": "ELECTRICOS ATENAS",
+            "address": "Cl 50 # 52 - 53 Barrio La Candelaria",
+            "email": "electricosatenas17@gmail.com",
+            "lat": "6.2503122",
+            "lng": "-75.5725691",
+            "schedule": ["Lun a Sab de 8:00 a.m a 6:00 p.m"],
+            "phone": ["5574363"],
+            "cell": ["3104354350"],
+            "viewMap": "https://www.google.com/maps/place/Cl.+50+%2352-53,+La+Candelaria,+Medell%C3%ADn,+La+Candelaria,+Medell%C3%ADn,+Antioquia/@6.2503122,-75.5725691,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428ff1823dcdf:0xcc0174c1a6dfc764!8m2!3d6.2503122!4d-75.5699942?hl=es&entry=ttu"
         },
         "antioquia-apartado-01": {
             "name": "URASOLUCION VILLEGAS",
@@ -179,6 +158,16 @@
             "phone": ["8151030"],
             "cell": ["3147504702"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-13,+Apartad%C3%B3,+Antioquia/@7.8805215,-76.6337237,1116m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x8e500d7a423946ad:0xde0d6e5343ddc379!2m2!1d-76.631535!2d7.8805215"
+        },
+        "antioquia-apartado-03": {
+            "name": "LA BODEGA DEL CELULAR DE LA 97",
+            "address": "Cl 97 # 97 - 10 barrio los Fundadores",
+            "email": "alejodiazj99@hotmail.com",
+            "lat": "7.8811138",
+            "lng": "-76.6326481",
+            "schedule": ["Lun a Vie de 9:00 a.m a 7:30 p.m", "Sab de 9:00 a.m a 7:00 p.m"],
+            "cell": ["3225844359"],
+            "viewMap": "https://www.google.com/maps/dir//Cl.+97+%2397-10,+Apartad%C3%B3,+Antioquia/@7.8811138,-76.6326481,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e500d7a6420ebe7:0xd67cb62483e81016!2m2!1d-76.6304594!2d7.8811138?hl=es&entry=ttu"
         },
         "antioquia-bello": {
             "name": "ALMACEN Y CENTRO DE REPARACIÓN LA SOLUCIÓN",
@@ -211,15 +200,8 @@
             "cell": ["3104893867"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+5+%2320-48,+Caucasia,+Antioquia/@7.9880813,-75.1961606,17z/data=!4m17!1m7!3m6!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2sCra.+5+%2320-48,+Caucasia,+Antioquia!3b1!8m2!3d7.9880813!4d-75.1939719!4m8!1m0!1m5!1m1!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2m2!1d-75.1939719!2d7.9880813!3e3"
         },
-        "antioquia-caucasia-domicilio-gasodomesticos": {
-            "name": "HERNAN MORENO TVEONIX",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8392565"],
-            "cell": ["3128739940", "3156770847"]    
-        },
         "antioquia-itagui": {
-            "name": "PINTUELECTRO",
+            "name": "PINTUELECTRO MEJIA H",
             "address": "Cl 36 No 45 - 35, Barrio San Pio",
             "email": "pintuelectro@gmail.com",
             "lat": "6.1661241",
@@ -229,11 +211,14 @@
             "cell": ["3133289220", "3015612712"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+36+%2345-35,+Itag%C3%BCi,+Antioquia/@6.1661241,-75.6208494,17z/data=!4m17!1m7!3m6!1s0x8e4683d53b58323b:0xebaed6ebe3cfb985!2sCl.+36+%2345-35,+Itag%C3%BCi,+Antioquia!3b1!8m2!3d6.1661241!4d-75.6186607!4m8!1m0!1m5!1m1!1s0x8e4683d53b58323b:0xebaed6ebe3cfb985!2m2!1d-75.6186607!2d6.1661241!3e3"
         },
-        "antioquia-itagui-domicilio-gasodomesticos": {
-            "name": "PINTUELECTRO",
-            "address": "ATENCIÓN A DOMICILIO - CL. 36 # 45-35",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3133289220", "3015612712"]    
+        "antioquia-itagui-2": {
+            "name": "HERZAGA",
+            "address": "ATENCION EN DOMICILIO",
+            "email": "herzagaserviciotecnico@gmail.com",
+            "lat": "6.1753339",
+            "lng": "-75.6551296",
+            "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m"],
+            "cell": ["3148828509"]
         },
         "antioquia-rionegro": {
             "name": "CENTRAL SERVICE LH",
@@ -255,13 +240,6 @@
             "cell": ["3003232327", "3222605953"],
             "schedule": ["Lun a Sab de 7:30 a.m a 12:00 m y de 2:00 p.m a 6:30 p.m"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+16+%2312-12,+Saravena,+Arauca/@6.9452074,-71.8790204,15z/data=!4m17!1m7!3m6!1s0x8e6f32321509274d:0x481542ba585ee36e!2sCra.+16+%2312-12,+Saravena,+Arauca!3b1!8m2!3d6.9452074!4d-71.8702657!4m8!1m0!1m5!1m1!1s0x8e6f32321509274d:0x481542ba585ee36e!2m2!1d-71.8702657!2d6.9452074!3e3"
-        },
-        "arauca-arauca-domicilio-gasodomesticos": {
-            "name": "REFRITEC COLOMBIA",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 16 # 12-12",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8858447"],
-            "cell": ["3003232327"]
         },
         "atlantico-barranquilla-01": {
             "name": "C&M REPUESTOS Y SERVICIOS S.A.S.",
@@ -295,25 +273,6 @@
             "cell": ["3023359860"],
             "viewMap": "https://www.google.com/maps/place/Cl.+58+%2344-70,+Barranquilla,+Atl%C3%A1ntico/@10.9878655,-74.7971114,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d6fcc523d65:0xfe45ee70d0bff2d1!8m2!3d10.9878602!4d-74.7949227?hl=es"
         },
-        "atlantico-barranquilla-domicilio-gasodomesticos-1": {
-            "name": "CRISTOPHER GOMEZ",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3144448186"]
-        },
-        "atlantico-barranquilla-domicilio-gasodomesticos-2": {
-            "name": "JAIRO ENRIQUE OLIVARES",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 16 # 12-12",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["3628348"],
-            "cell": ["3015792797"]
-        },
-        "atlantico-soledad-domicilio-gasodomesticos": {
-            "name": "BIGSERVICE",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3007878017"]
-        },
         "bogota-01": {
             "name": "CENTRO SERVICIO EXCLUSIVO KALLEY 68",
             "address": "Av Cr 68 No 67D - 90",
@@ -327,14 +286,14 @@
         },
         "bogota-02": {
             "name": "CENTRO SERVICIO EXCLUSIVO KALLEY VENECIA",
-            "address": "Cl 44 Sur, No 68G - 20",
+            "address": "Cl 43D Sur # 68B - 63 Barrio Las Delicias",
             "email": "csekalley@hotmail.com",
-            "lat": "4.5980061",
-            "lng": "-74.145385",
+            "lat": "4.5969316",
+            "lng": "-74.1438053",
             "schedule": ["Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m", "Sab de 9:00 a.m a 2:00 p.m"],
             "phone": ["5313346"],
             "cell": ["3053097088"],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+44+Sur+%2368g-20,+Bogot%C3%A1/@4.5980061,-74.145385,17z/data=!4m17!1m7!3m6!1s0x8e3f9edcc8112a5f:0x92513305d00d8169!2sCl.+44+Sur+%2368g-20,+Bogot%C3%A1!3b1!8m2!3d4.5980061!4d-74.1431963!4m8!1m0!1m5!1m1!1s0x8e3f9edcc8112a5f:0x92513305d00d8169!2m2!1d-74.1431963!2d4.5980061!3e3"
+            "viewMap": "https://www.google.com/maps/dir//Cl.+43d+Sur+%2368b-63,+Bogot%C3%A1/@4.5969316,-74.1438053,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9edb6659d0cf:0xefddfef553fe46a9!2m2!1d-74.1412304!2d4.5969316?hl=es&entry=ttu"
         },
         "bogota-03": {
             "name": "SERVITEC JRS",
@@ -379,16 +338,6 @@
             "cell": ["3004039336"],
             "viewMap": "https://www.google.com/maps/place/Cl.+12+%23%239-86,+Bogot%C3%A1/@4.6008101,-74.0795184,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9909e0c956ef:0xd4b90e10a0231c07!8m2!3d4.6008101!4d-74.0773297?hl=es"
         },
-        "bogota-08": {
-            "name": "TECNI SOLUTION",
-            "address": "Autopista sur No. 52A - 51",
-            "email": "tecni-solutions1995@outlook.com",
-            "lat": "4.5943783",
-            "lng": "-74.1360126",
-            "schedule": ["Lun a Vie de 8:30 a.m a 5:30 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3212459392"],
-            "viewMap": "https://www.google.com/maps/dir//4.5943783,-74.1360126/@4.594449,-74.1359946,21z/data=!4m2!4m1!3e0?hl=es"
-        },
         "bogota-09": {
             "name": "GOOD SERVICE COMPANY SAS",
             "address": "CLL. 1 SUR # 72-13",
@@ -396,74 +345,19 @@
             "lat": "4.6224231",
             "lng": "-74.141313",
             "schedule": ["Lun a Sab de 8:00 a.m a 4:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
-            "cell": ["3146589119","3232062051","3186188098"],
+            "cell": ["3146589119", "3232062051", "3186188098"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+1+Sur+%2372-13,+Bogot%C3%A1/@4.6224231,-74.141313,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9ea43006ad27:0xfca0899deb3eba0e!2m2!1d-74.1391243!2d4.6224231"
         },
-        "bogota-domicilio-gasodomesticos-01": {
-            "name": "MAURICIO MELO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["4914070"],
-            "cell": ["3132554371"]
-        },
-        "bogota-domicilio-gasodomesticos-02": {
-            "name": "CRISTIAN YARA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3142946539"]
-        },
-        "bogota-domicilio-gasodomesticos-03": {
-            "name": "MIGUEL YARA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3505108587", "3042196781"]
-        },
-        "bogota-domicilio-gasodomesticos-04": {
-            "name": "GILBERTO ARDILA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3108794429"]
-        },
-        "bogota-domicilio-gasodomesticos-05": {
-            "name": "JOSE BUITRAGO UNIVERSAL",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3123972027"]
-        },
-        "bogota-domicilio-gasodomesticos-06": {
-            "name": "LUIS ESCOBAR FULLFRIC",
-            "address": "ATENCIÓN A DOMICILIO - CLL. 66A # 77-39",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3212137193"]
-        },
-        "bogota-domicilio-gasodomesticos-07": {
-            "name": "YEISON GARZON MUNDO FRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3155636595"]
-        },
-        "bogota-domicilio-gasodomesticos-08": {
-            "name": "JULIO VERA MORENO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3144770361"]
-        },
-        "bogota-domicilio-gasodomesticos-09": {
-            "name": "HENRY BELTRAN",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3132011751"]
-        },
-        "bolivar-cartagena-01": {
-            "name": "S.T.E. SERVICE S.A.S. CARTAGENA",
-            "address": "Cr 69 No 31A - 35, Urbanización Contadora 1, Casa 5",
-            "email": "ste.cartagena@gmail.com",
-            "lat": "10.4069555",
-            "lng": "-75.4819025",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
-            "phone": ["6615582"],
-            "cell": ["3003801110", "3003803245"],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+69+%2331a35,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4069555,-75.4819025,17z/data=!4m17!1m7!3m6!1s0x8ef6244d41bf037d:0x621b7472152c17a3!2sCra.+69+%2331a35,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar!3b1!8m2!3d10.4069555!4d-75.4797138!4m8!1m0!1m5!1m1!1s0x8ef6244d41bf037d:0x621b7472152c17a3!2m2!1d-75.4797138!2d10.4069555!3e3"
+        "bogota-10": {
+            "name": "NEO GROUP SAS",
+            "address": "AV. CRA 50 # 22-41 LOCAL 105",
+            "email": "info@neo-group.net",
+            "lat": "4.6366895",
+            "lng": "-74.1027836",
+            "schedule": ["Lun a Vie de 9:00 a.m a 5:00 p.m"],
+            "cell": ["3045791245"],
+            "phone": ["6018418403"],
+            "viewMap": "https://www.google.com/maps/dir//Ak.+50+%2322-41,+Teusaquillo,+Bogot%C3%A1/@4.6366895,-74.1027836,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bdd5c34c6ff:0xde94deb61b1db666!2m2!1d-74.1005949!2d4.6366895?hl=es&entry=ttu"
         },
         "bolivar-cartagena-02": {
             "name": "ELECTRÓNICA ESPECIALIZADA",
@@ -475,16 +369,6 @@
             "phone": ["6611574"],
             "cell": ["3235812790"],
             "viewMap": "https://www.google.com/maps/dir//Villa+Sandra,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.3933995,-75.489651,18z/data=!4m17!1m7!3m6!1s0x8ef625c93e2c4c3b:0x3a9ed32abee925ff!2sVilla+Sandra,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar!3b1!8m2!3d10.3937799!4d-75.4887235!4m8!1m0!1m5!1m1!1s0x8ef625c93e2c4c3b:0x3a9ed32abee925ff!2m2!1d-75.4887235!2d10.3937799!3e3"
-        },
-        "bolivar-cartagena-03": {
-            "name": "SERVICIOS TÉCNICOS MI HOGAR CARTAGENA",
-            "address": "CALLE 33 # 25-89 BARRIO LA QUINTA",
-            "email": "servitecmihogar2@gmail.com",
-            "lat": "10.4149494",
-            "lng": "-75.526151",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
-            "cell": ["3044084503"],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+30+%2321-137,+Cartagena+de+Indias,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4184877,-75.5303258,20z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8ef62f7fab5d298b:0x922d2c21478a442d!2m2!1d-75.5302402!2d10.4186572!3e3"
         },
         "boyaca-duitama-01": {
             "name": "LC ELECTRONICS",
@@ -518,36 +402,6 @@
             "cell": ["3112337865", "3112337865"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+4+%2312-22,+Puerto+Boyac%C3%A1,+Boyac%C3%A1/@5.976535,-74.5932588,17z/data=!4m17!1m7!3m6!1s0x8e41682af796a219:0xe08d6caed7980d19!2zQ3JhLiA0ICMxMi0yMiwgUHVlcnRvIEJveWFjw6EsIEJveWFjw6E!3b1!8m2!3d5.976535!4d-74.5910701!4m8!1m0!1m5!1m1!1s0x8e41682af796a219:0xe08d6caed7980d19!2m2!1d-74.5910701!2d5.976535!3e3"
         },
-        "boyaca-puertoboyaca-domicilio-gasodomesticos": {
-            "name": "FLORIDO BELTRAN URIEL",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 4 # 12-22",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["7380125"],
-            "cell": ["3123837338"]    
-        },
-        "boyaca-tunja": {
-            "name": "ITECH SERVICE",
-            "address": "Av Colon Trv 10 No 26 - 40, Las Nieves",
-            "email": "admin@itechsc.co;ferney.r@itechsc.co",
-            "lat": "5.5392952",
-            "lng": "-73.3623433",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m", "Sab 9:00 a.m a 3:00 p.m"],
-            "phone": ["7402937"],
-            "cell": ["3156164680"],
-            "viewMap": "https://www.google.com/maps/dir//Av.+Colon+%2326-40,+Tunja,+Boyac%C3%A1/@5.5392952,-73.3623433,17z/data=!4m17!1m7!3m6!1s0x8e6a7c2fcc6ff3db:0xd4bf8c8bb27c9938!2sAv.+Colon+%2326-40,+Tunja,+Boyac%C3%A1!3b1!8m2!3d5.5392952!4d-73.3601546!4m8!1m0!1m5!1m1!1s0x8e6a7c2fcc6ff3db:0xd4bf8c8bb27c9938!2m2!1d-73.3601546!2d5.5392952!3e3"
-        },
-        "boyaca-tunja-domicilio-gasodomesticos-01": {
-            "name": "EDWIN CABALLERO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3214664507"]    
-        },
-        "boyaca-tunja-domicilio-gasodomesticos-02": {
-            "name": "JAIRO NARANJO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3178867200"]    
-        },
         "bolivar-magangue": {
             "name": "ELECTRÓNICA ASOCIADOS",
             "address": "Cl Junin No 9 - 37",
@@ -569,12 +423,6 @@
             "cell": ["3185777112"],
             "viewMap": "https://www.google.com/maps/search/Cl.+3+%2323-73,+Aguachica,+Cesar/@8.3091902,-73.6218547,15z/data=!3m1!4b1"
         },
-        "cesar-aguachica-domicilio-gasodomesticos": {
-            "name": "JORGE MORA FRIOHOGAR",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3157106596"]
-        },
         "cesar-bosconia": {
             "name": "ELECTRÓNICA Y REFRIGERACIÓN THEMO",
             "address": "Cl 27 No 20 - 85, Barrio Enrique Aron",
@@ -584,12 +432,6 @@
             "schedule": ["Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m y 2:00 p.m a 5:00 p.m"],
             "cell": ["3145139509", "3012182623", "3163854233"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+27,+Bosconia,+Cesar/@9.9785141,-73.8936281,17z/data=!4m17!1m7!3m6!1s0x8e5f93a0dcd5b32d:0xa15ae771462059fc!2sCl.+27,+Bosconia,+Cesar!3b1!8m2!3d9.9785141!4d-73.8914394!4m8!1m0!1m5!1m1!1s0x8e5f93a0dcd5b32d:0xa15ae771462059fc!2m2!1d-73.8914394!2d9.9785141!3e3"
-        },
-        "cesar-bosconia-domicilio-gasodomesticos": {
-            "name": "WILTHER THERAN THEMO",
-            "address": "ATENCIÓN A DOMICILIO - CL. 27 # 20 -75",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3145139509"]
         },
         "cundinamarca-chia": {
             "name": "ELECTRO LLAVES LIMAR",
@@ -611,13 +453,6 @@
             "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m", "Sab de 9:00 a.m a 12:00 m"],
             "cell": ["3208134300"],
             "viewMap": "https://www.google.com/maps/dir//Repararmitv.com,+calle+4A+%23+6-53,+Sesquil%C3%A9,+Cundinamarca/@5.0442224,-73.7976528,18.05z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e4013537c563eb5:0x2f4d591c86acd610!2m2!1d-73.7973323!2d5.0445204"
-        },
-        "cundinamarca-girardot-domicilio-gasodomesticos": {
-            "name": "JORGE MONTAÑA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8313174"],
-            "cell": ["3228149860"]
         },
         "caqueta-florencia-01": {
             "name": "TALLER EL SEGURO",
@@ -650,12 +485,6 @@
             "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
             "cell": ["3142387624"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+18+%2312-20,+Florencia,+Caquet%C3%A1/@1.6179005,-75.6169914,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e244e0420c64e51:0x7a9edb077cf32951!2m2!1d-75.6148027!2d1.6179005"
-        },
-        "caqueta-florencia-domicilio-gasodomesticos": {
-            "name": "MARIO CADENA EDINSON CADENA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3158156016"]    
         },
         "caldas-dorada": {
             "name": "MCALLISTER EMPRESAS",
@@ -732,12 +561,6 @@
             "cell": ["3145609795"],
             "viewMap": "https://www.google.com/maps/search/Carrera+8+%23no.+15a-12,+Montel%C3%ADbano,+C%C3%B3rdoba/@7.9803094,-75.4206136,17z/data=!3m1!4b1?hl=es"
         },
-        "cordoba-monteria-domicilio-gasodomesticos": {
-            "name": "ANGELMINA ROSA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3107265511"]    
-        },
         "cordoba-planetarica": {
             "name": "SETEL AD",
             "address": "Cr 4F No 14 - 06, La Inmaculada",
@@ -770,13 +593,6 @@
             "cell": ["3144513415"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+6+%2315-35,+Popay%C3%A1n,+Cauca/@2.4430031,-76.6163932,17z/data=!4m17!1m7!3m6!1s0x8e30031712f47047:0x29ea1b066b9668c1!2sCl.+6+%2315-35,+Popay%C3%A1n,+Cauca!3b1!8m2!3d2.4430031!4d-76.6142045!4m8!1m0!1m5!1m1!1s0x8e30031712f47047:0x29ea1b066b9668c1!2m2!1d-76.6142045!2d2.4430031!3e3"
         },
-        "cauca-popayan-domicilio-gasodomesticos": {
-            "name": "JAVIER CERON LA DUCHA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8240051"],
-            "cell": ["3155040777"]    
-        },
         "caqueta-caguan": {
             "name": "EL PUNTO ELECTRÓNICO",
             "address": "Cr 7 No 6A - 41",
@@ -807,14 +623,8 @@
             "cell": ["3177234329"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+24+%2326-32,+Yopal,+Casanare/@5.3388021,-72.3905474,17z/data=!4m17!1m7!3m6!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2sCl.+24+%2326-32,+Yopal,+Casanare!3b1!8m2!3d5.3388021!4d-72.3883587!4m8!1m0!1m5!1m1!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2m2!1d-72.3883587!2d5.3388021!3e3"
         },
-        "casanare-yopal-domicilio-gasodomesticos": {
-            "name": "CAMILO NARANJO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3142655918"]    
-        },
         "cesar-valledupar-01": {
-            "name": "S.T.E. SERVICE S.A.S.",
+            "name": "TECNOLOGIA AVANZADA EUR",
             "address": "Cr 11 No 13 - 20, Barrio Obrero",
             "email": "stevalledupar@gmail.com",
             "lat": "10.4785641",
@@ -846,18 +656,6 @@
             "cell": ["3137922605"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+7+%2324-112,+Quibd%C3%B3,+Choc%C3%B3/@5.6888802,-76.6592159,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e488f6e0ff54c0d:0xcfcb1af3e4a840da!2m2!1d-76.6578668!2d5.6888576?hl=es"
         },
-        "choco-quibdo-domicilio-gasodomesticos-01": {
-            "name": "DAVID FLOREZ",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3225537656"]    
-        },
-        "choco-quibdo-domicilio-gasodomesticos-02": {
-            "name": "NILSON CABRERA CABRERA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3122803324"]    
-        },
         "guajira-rioacha": {
             "name": "López Digital",
             "address": "Cl 33 No. 12C-08",
@@ -869,18 +667,6 @@
             "cell": ["3234677676"],
             "viewMap": "https://www.google.com/maps/search/Cl.+33+%23no.+12c-08,+Riohacha,+La+Guajira/@11.543884,-72.9222954,17z/data=!3m1!4b1?hl=es"
         },
-        "guajira-rioacha-domicilio-gasodomesticos": {
-            "name": "NAVARRO BARRIOS MARGELIS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3042501229"]    
-        },
-        "guaviare-sanjose-guaviare-domicilio-gasodomesticos": {
-            "name": "GONZALO SUAREZ",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3115434707"]    
-        },
         "huila-garzon": {
             "name": "ELECTRÓNICAS AUDIO Y COLOR",
             "address": "Cl 7 No 13 - 60",
@@ -891,13 +677,6 @@
             "phone": ["8332436"],
             "cell": ["3124213264"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+7a+%2313-60,+Garz%C3%B3n,+Huila/@2.1991969,-75.6337754,17z/data=!4m17!1m7!3m6!1s0x8e24d984da4b73c5:0x932aaf85e343fc38!2sCl.+7a+%2313-60,+Garz%C3%B3n,+Huila!3b1!8m2!3d2.1991969!4d-75.6315867!4m8!1m0!1m5!1m1!1s0x8e24d984da4b73c5:0x932aaf85e343fc38!2m2!1d-75.6315867!2d2.1991969!3e3"
-        },
-        "huila-garzon-domicilio-gasodomesticos": {
-            "name": "EDBER ARDILA TECNIARDILA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8334783"],
-            "cell": ["3118986239"]    
         },
         "huila-neiva-01": {
             "name": "TECNIMASTER ELECTRÓNICA",
@@ -920,12 +699,6 @@
             "phone": ["8759286"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+22+%236-13,+Neiva,+Huila/@2.9386958,-75.2924532,17z/data=!4m17!1m7!3m6!1s0x8e3b745e1a1f5717:0x8be38106c331057c!2sCl.+22+%236-13,+Neiva,+Huila!3b1!8m2!3d2.9386958!4d-75.2902645!4m8!1m0!1m5!1m1!1s0x8e3b745e1a1f5717:0x8be38106c331057c!2m2!1d-75.2902645!2d2.9386958!3e3"
         },
-        "huila-neiva-domicilio-gasodomesticos": {
-            "name": "CRISTIAN JAVIER SANCHEZ MULTIMARCA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3102848618", "3213096141"]    
-        },
         "huila-pitalito": {
             "name": "SERVICIO TECNICO BETA & COLOR'S",
             "address": "Cr 2 No 7 - 72",
@@ -936,13 +709,6 @@
             "phone": ["8365803"],
             "cell": ["3132620088"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+2+%237-72,+Pitalito,+Huila/@1.8521322,-76.0456397,17z/data=!4m17!1m7!3m6!1s0x8e250b7e699203a5:0xafc01101d18d793d!2sCra.+2+%237-72,+Pitalito,+Huila!3b1!8m2!3d1.8521322!4d-76.043451!4m8!1m0!1m5!1m1!1s0x8e250b7e699203a5:0xafc01101d18d793d!2m2!1d-76.043451!2d1.8521322!3e3"
-        },
-        "huila-pitalito-domicilio-gasodomesticos": {
-            "name": "FRANK DIAZ RUBIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["8369861"],
-            "cell": ["3124483156"]    
         },
         "magdalena-cienaga": {
             "name": "SISTRONIC CIENAGA",
@@ -964,13 +730,6 @@
             "cell": ["3145434121"],
             "viewMap": "https://www.google.com/maps/search/Carrera+2%C2%AA+A++%2313-10,+El+Banco,+Magdalena/@9.003507,-73.9913737,14z/data=!3m1!4b1"
         },
-        "magdalena-banco-domicilio-gasodomesticos": {
-            "name": "N&L SOLUCIONES",
-            "address": "ATENCIÓN A DOMICILIO - Cr 2A No 13 - 10, La Candelaria",
-            "email": "tecnico@nylsoluciones.com",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3145434121"]
-       },
         "magdalena-fundacion": {
             "name": "SERVIELECTRONIC DE FUNDACIÓN",
             "address": "Cr 7A No 6 - 30, Lc 2",
@@ -992,24 +751,6 @@
             "cell": ["3007586420", "3152296330"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+15+%236-56,+Santa+Marta,+Magdalena/@11.2438113,-74.2112064,17z/data=!4m17!1m7!3m6!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2sCl.+15+%236-56,+Santa+Marta,+Magdalena!3b1!8m2!3d11.2438113!4d-74.2090177!4m8!1m0!1m5!1m1!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2m2!1d-74.2090177!2d11.2438113!3e3"
         },
-        "magdalena-santamarta-domicilio-gasodomesticos": {
-            "name": "TECNOSERVICIO S.A.S.",
-            "address": "ATENCIÓN A DOMICILIO - Cl 15 No 6 - 56, Centro",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:30 a.m a 3:00 p.m"],
-            "phone": ["4233324"],
-            "cell": ["3007586420"]
-           },
-        "meta-acacias": {
-            "name": "TV AL DIA",
-            "address": "Cl 13 No 18 - 22, Barrio Centro",
-            "email": "tvaldia@hotmail.com",
-            "lat": "3.9858115",
-            "lng": "-73.7638554",
-            "schedule": ["Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["6469813"],
-            "cell": ["3115541871"],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+13+%231822,+Acac%C3%ADas,+Meta/@3.9858115,-73.7638554,17z/data=!4m17!1m7!3m6!1s0x8e3e3eb2cf165e89:0xd725a9fd50821bd2!2sCl.+13+%231822,+Acac%C3%ADas,+Meta!3b1!8m2!3d3.9858115!4d-73.7616667!4m8!1m0!1m5!1m1!1s0x8e3e3eb2cf165e89:0xd725a9fd50821bd2!2m2!1d-73.7616667!2d3.9858115!3e3"
-        },
         "meta-acacias-02": {
             "name": "ZAC SOLUCIONES Y SERVICIOS S.A.S.",
             "address": "CRA 18 # 7 A -21 BARRIO PABLO EMILIO RIVEROS",
@@ -1030,13 +771,6 @@
             "phone": ["6689017"],
             "cell": ["3053832096"],
             "viewMap": "https://www.google.com/maps/place/Cra.+32+%236a-37,+Villavicencio,+Meta/@4.1232845,-73.6321313,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3e2e6acdf10ba9:0xaa10a6eb31f1b04e!8m2!3d4.1232845!4d-73.6299426"
-        },
-        "meta-villavicencio-domicilio-gasodomesticos": {
-            "name": "ELECTROSERVICIOS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["6817777"],
-            "cell": ["3124243016"]    
         },
         "narino-pasto-01": {
             "name": "SERVICIO TECNICO N&V",
@@ -1064,36 +798,12 @@
             "name": "SERVIAUTORIZADOS MONCAYO",
             "address": "Cl 16C No 39 - 11, Junto a Electro moncayo Av Panamericana",
             "email": "serviautorizados@hotmail.com",
-            "lat": "1.2224999", 
+            "lat": "1.2224999",
             "lng": "-77.2876348",
             "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:30 p.m", "Sab de 8:30 a.m a 12:00 m"],
             "phone": ["7235128", "7297005"],
             "cell": ["3128928297", "315 4749707", "3115747702"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+16c+%2339+-+11,+Pasto,+Nari%C3%B1o/@1.2224999,-77.2876348,18.4z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e2ed38084412063:0xb252dcba569a05f1!2m2!1d-77.2869592!2d1.222682!3e3"
-        },
-        "narino-pasto-domicilio-gasodomesticos-01": {
-            "name": "MONTIGAS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3108924690"]    
-        },
-        "narino-pasto-domicilio-gasodomesticos-02": {
-            "name": "TECNIFRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3105484447"]    
-        },
-        "narino-pasto-domicilio-gasodomesticos-03": {
-            "name": "CHRISTIAN MONTOYA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3102518836"]    
-        },
-        "narino-tuquerres-domicilio-gasodomesticos": {
-            "name": "TECNIFRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3105484447"]    
         },
         "narino-tumaco": {
             "name": "MR. ELECTRONICS",
@@ -1116,12 +826,6 @@
             "phone": ["7272902"],
             "cell": ["3207893262"],
             "viewMap": "https://www.google.com/maps/search/Av+La+Playa+Barrio+La+Paz,+Casa+1,+Continuo+A+Merca+Z,+pasto/@1.209051,-77.2821165,14.71z"
-        },
-        "narino-tumaco-domicilio-gasodomesticos": {
-            "name": "FRIOLAV",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3155321116"]    
         },
         "narino-ipiales": {
             "name": "TALLER TECNICENTRO ELECTRÓNICO",
@@ -1156,30 +860,6 @@
             "cell": ["3184413589"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
         },
-        "norte-santander-cucuta-domicilio-gasodomesticos-01": {
-            "name": "ALMACEN CABALLITO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3154167344","3014594304"]    
-        },
-        "norte-santander-cucuta-domicilio-gasodomesticos-02": {
-            "name": "JERSSON MORANTES",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3134766856"]    
-        },
-        "norte-santander-ocaña-domicilio-gasodomesticos-01": {
-            "name": "ALMACEN CABALLITO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3154167344","3014594304"]    
-        },
-        "norte-santander-ocaña-domicilio-gasodomesticos-02": {
-            "name": "JHON JAIRO RINCON",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3187088997","3185210821"]    
-        },
         "putumayo-puerto-asis": {
             "name": "COMERCIALIZADORA DE PRODUCTOS Y SERVICIOS INTEGRALES SAS ZOMAC",
             "address": "Cr 22 # 10-60 BARRIO SAN NICOLAS",
@@ -1189,19 +869,6 @@
             "schedule": ["Lun a Sab de 8:00 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m"],
             "cell": ["3168603124"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+22+%2310-53,+Puerto+As%C3%ADs,+Putumayo/@0.4959788,-76.5039022,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8e2878df6f232fc5:0x1f0c3a0ff0135a1f!2m2!1d-76.5017135!2d0.4959788!3e3"
-        },
-        "putumayo-hormiga-domicilio-gasodomesticos": {
-            "name": "CHRISTIAN MONTOYA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3102518836"]    
-        },
-        "putumayo-puerto-asis-domicilio-gasodomesticos": {
-            "name": "LUZ MARINA BUSTOS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["4227120"],
-            "cell": ["3124880555"]    
         },
         "quindio-armenia": {
             "name": "QUINDIO DIGITAL",
@@ -1256,18 +923,6 @@
             "schedule": ["Lun a Vie de 8:00 a.m a 5:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
             "cell": ["3105047597"],
             "viewMap": "https://www.google.com/maps/place/Mirador+de+Llano+Grande/@4.8256256,-75.7383191,18.97z/data=!4m22!1m16!4m15!1m6!1m2!1s0x8e387f6e99ee8c6b:0xf7295f97f24878ca!2sMirador+de+Llano+Grande!2m2!1d-75.7370186!2d4.8258777!1m6!1m2!1s0x8e387e0b9e104669:0xbb13a125e8c6a93c!2sMirador+de+Llano+Grande,+Mirador+de+Llano+Grande,+Pereira,+Risaralda!2m2!1d-75.7377847!2d4.8256475!3e3!3m4!1s0x8e387e0b9e104669:0xbb13a125e8c6a93c!8m2!3d4.8256475!4d-75.7377847"
-        },
-        "risaralda-pereira-domicilio-gasodomesticos-01": {
-            "name": "JG REFRIGERACION",
-            "address": "ATENCIÓN A DOMICILIO - CRA. 11 # 28-46",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3152581710","3234643465"]    
-        },
-        "risaralda-pereira-domicilio-gasodomesticos-02": {
-            "name": "MUNDO FRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3102419036"]    
         },
         "san-andres": {
             "name": "HOME AND INDUSTRY CENTER",
@@ -1344,29 +999,15 @@
             "cell": ["3157823369"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+22+%2328-32,+Bucaramanga,+Santander/@7.1253161,-73.1250348,17z/data=!4m17!1m7!3m6!1s0x8e6815634bf0e369:0x4233452fd5f84c1e!2sCra.+22+%2328-32,+Bucaramanga,+Santander!3b1!8m2!3d7.1253161!4d-73.1228461!4m8!1m0!1m5!1m1!1s0x8e6815634bf0e369:0x4233452fd5f84c1e!2m2!1d-73.1228461!2d7.1253161!3e3"
         },
-        "santander-bucaramanga-domicilio-gasodomesticos-01": {
-            "name": "LINEA BLANCA PLUS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3128845322 - 3008193041"]
-        },
-        "santander-bucaramanga-domicilio-gasodomesticos-02": {
-            "name": "ANDRES MANTILLA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3178377783", "3142022467"]   
-        },
-        "santander-cimitarra-domicilio-gasodomesticos": {
-            "name": "REFRIELECTRO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3126107171","3146910935"]   
-        },
-        "santander-malaga-domicilio-gasodomesticos": {
-            "name": "LINEA BLANCA PLUS",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3128845322", "3008193041"]   
+        "santander-sabana-torres-1": {
+            "name": "BUENAS PRACTICAS SAS",
+            "address": "Cl 16 # 15-69 BARRIO ARGELIA",
+            "email": "sasbuenaspracticas@gmail.com",
+            "lat": "7.3927525",
+            "lng": "-73.4972801",
+            "schedule": ["Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 7:00 a.m a 12:00 m"],
+            "cell": ["3166914347", "3102867920"],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+20,+San+Gil,+Santander/@6.5504174,-73.1406663,17z/data=!4m17!1m7!3m6!1s0x8e69c6d6ef146fdb:0xde82dedf3505be9e!2sCra.+20,+San+Gil,+Santander!3b1!8m2!3d6.5504174!4d-73.1384776!4m8!1m0!1m5!1m1!1s0x8e69c6d6ef146fdb:0xde82dedf3505be9e!2m2!1d-73.1384776!2d6.5504174!3e3"
         },
         "santander-sangil": {
             "name": "IMED INGENIEROS DE MANTENIMIENTO ELECTRÓNICO DIGITAL",
@@ -1374,19 +1015,9 @@
             "email": "claudioromero1923@hotmail.com",
             "lat": "6.5504174",
             "lng": "-73.1406663",
-            "schedule": ["Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 7:00 a.m a 12:00 m"],
+            "schedule": ["Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"],
             "cell": ["3118579107", "3153707524"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+20,+San+Gil,+Santander/@6.5504174,-73.1406663,17z/data=!4m17!1m7!3m6!1s0x8e69c6d6ef146fdb:0xde82dedf3505be9e!2sCra.+20,+San+Gil,+Santander!3b1!8m2!3d6.5504174!4d-73.1384776!4m8!1m0!1m5!1m1!1s0x8e69c6d6ef146fdb:0xde82dedf3505be9e!2m2!1d-73.1384776!2d6.5504174!3e3"
-        },
-        "santander-socorro": {
-            "name": "ELECTRÓNICA JF",
-            "address": "Cl 14 No 16a - 21",
-            "email": "jimis_flowers1@hotmail.com",
-            "lat": "6.4703135",
-            "lng": "-73.2653804",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 1:00 p.m"],
-            "cell": ["3185812413", "3157107294"],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+14+%2316-21,+Socorro,+Santander/@6.4703135,-73.2653804,17z/data=!4m17!1m7!3m6!1s0x8e69c2a66d23a07f:0x91b45f531a88ba8!2sCl.+14+%2316-21,+Socorro,+Santander!3b1!8m2!3d6.4703135!4d-73.2631917!4m8!1m0!1m5!1m1!1s0x8e69c2a66d23a07f:0x91b45f531a88ba8!2m2!1d-73.2631917!2d6.4703135!3e3"
         },
         "sucre-sincelejo-01": {
             "name": "TECNIGALER",
@@ -1409,12 +1040,6 @@
             "cell": ["3215978017"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+16+%2327a-14,+Sincelejo,+Sucre/@9.2964147,-75.3994684,17z/data=!4m17!1m7!3m6!1s0x8e59144fd66b2f6f:0x4d36a1fd0d5851a2!2sCra.+16+%2327a-14,+Sincelejo,+Sucre!3b1!8m2!3d9.2964147!4d-75.3972797!4m8!1m0!1m5!1m1!1s0x8e59144fd66b2f6f:0x4d36a1fd0d5851a2!2m2!1d-75.3972797!2d9.2964147!3e3"
         },
-        "sucre-sincelejo-domicilio-gasodomesticos": {
-            "name": "HUGO VILLANUEVA",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3146565020"]    
-        },
         "tolima-ibague": {
             "name": "TOKIO ELECTRONIC",
             "address": "Cl 17 No. 2 - 84",
@@ -1426,18 +1051,15 @@
             "cell": ["3153202300"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+17+%232a1,+Ibagu%C3%A9,+Tolima/@4.4408202,-75.2388515,17z/data=!4m17!1m7!3m6!1s0x8e38c49a9bfd4881:0x4fa47e79a5adfb04!2sCl.+17+%232a1,+Ibagu%C3%A9,+Tolima!3b1!8m2!3d4.4408202!4d-75.2366628!4m8!1m0!1m5!1m1!1s0x8e38c49a9bfd4881:0x4fa47e79a5adfb04!2m2!1d-75.2366628!2d4.4408202!3e3"
         },
-        "tolima-ibague-domicilio-gasodomesticos-01": {
-            "name": "ELECTROFRIO",
-            "address": "ATENCIÓN A DOMICILIO - AV. AMBALAMA  33 # 32B",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["2644630"],
-            "cell": ["3142177539"]   
-        },
-        "tolima-ibague-domicilio-gasodomesticos-02": {
-            "name": "PROFRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3007829626"]   
+        "tolima-ibague-2": {
+            "name": "SIE SERVICE SOLUTIONS",
+            "address": "AVENIDA FERROCARRIL N 32B-26",
+            "email": "p.romero@sieservice.com",
+            "lat": "4.4352845",
+            "lng": "-75.2208425",
+            "schedule": ["Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"],
+            "cell": ["3152889940", "3195037400"],
+            "viewMap": "https://www.google.com/maps/dir//Av.+Ferrocarril+%2332-56,+Ibagu%C3%A9,+Tolima/@4.4352845,-75.2208425,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e38c4ebc78f3c15:0x53a8e510d5d8ef49!2m2!1d-75.2201659!2d4.4352845?hl=es&entry=ttu"
         },
         "valle-cauca-buenaventura": {
             "name": "SERVICIO ELECTRÓNICO",
@@ -1513,31 +1135,6 @@
             "cell": ["3184022579"],
             "viewMap": "https://www.google.com/maps/dir//Cra.+10+%238-24,+Cali,+Valle+del+Cauca/@3.4468259,-76.5361168,17z/data=!4m17!1m7!3m6!1s0x8e30a663a5957c6f:0x927b3552e8a43779!2sCra.+10+%238-24,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4468259!4d-76.5339281!4m8!1m0!1m5!1m1!1s0x8e30a663a5957c6f:0x927b3552e8a43779!2m2!1d-76.5339281!2d3.4468259!3e3"
         },
-        "valle-cauca-cali-domicilio-gasodomesticos-01": {
-            "name": "OSCAR CHAVEZ",
-            "address": "ATENCIÓN A DOMICILIO",
-            "lat": "3.4468259",
-            "lng": "-76.5361168",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "phone": ["4209393"],
-            "cell": ["3122111987"]
-        },
-        "valle-cauca-cali-domicilio-gasodomesticos-02": {
-            "name": "WILLIAM GIRON",
-            "address": "ATENCIÓN A DOMICILIO",
-            "lat": "3.4468259",
-            "lng": "-76.5361168",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3136097513"]
-        },
-        "valle-cauca-cali-domicilio-gasodomesticos-03": {
-            "name": "MUNDO FRIO",
-            "address": "ATENCIÓN A DOMICILIO",
-            "lat": "3.4468259",
-            "lng": "-76.5361168",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
-            "cell": ["3102419036"]
-        },
         "valle-cauca-cartago-01": {
             "name": "TELEVIDEO",
             "address": "Cl 15 No 7 - 22, Barrio La Libertad",
@@ -1601,16 +1198,6 @@
             "phone": ["2333777"],
             "cell": ["3163134683"],
             "viewMap": "https://www.google.com/maps/dir//Cl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca/@4.0822701,-76.2032486,17z/data=!4m17!1m7!3m6!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2sCl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca!3b1!8m2!3d4.0822701!4d-76.2010599!4m8!1m0!1m5!1m1!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2m2!1d-76.2010599!2d4.0822701!3e3"
-        },
-        "vichada-puerto-carreno":{
-            "name": "ELECTRO REFRIGERACIÓN VICHADA",
-            "address": "CRA 7 # 15-143 BARRIO EL RECREO",
-            "email": "pinedadumareduardo@gmail.com",
-            "lat": "6.1851997",
-            "lng": "-67.5164422",
-            "schedule": ["Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m", "Sab de 8:00 a.m a 12:00 m"],
-            "cell": ["3504825860"],
-            "viewMap": "https://www.google.com/maps/dir//Hotel+Carre%C3%B1o+Plaza,+Cra.+7+%231844,+Puerto+Carre%C3%B1o,+Vichada/@6.1851997,-67.5164422,17914m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x8e761933e2a640a5:0x9e04b91d79ada79a!2m2!1d-67.4814138!2d6.1851979"
         }
     },
     "departments": {
@@ -1653,31 +1240,33 @@
                         "audio-video": {
                             "stores": ["antioquia-apartado-02"]
                         },
-                        "aires-acondicionados":{
-                            "stores":["antioquia-apartado-01"]
+                        "aires-acondicionados": {
+                            "stores": ["antioquia-apartado-01"]
                         },
                         "casa-inteligente": {
                             "stores": ["antioquia-apartado-02"]
                         },
                         "dispensadores": {
-                            "stores": ["antioquia-apartado-01","antioquia-apartado-02"]
+                            "stores": ["antioquia-apartado-01", "antioquia-apartado-02"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["antioquia-apartado-domicilio-gasodomesticos"]
-                        },
-                        "grandes-electrodomesticos":{
-                            "stores":["antioquia-apartado-01"]
+                        "grandes-electrodomesticos": {
+                            "stores": ["antioquia-apartado-01"]
                         },
                         "lavadoras": {
-                            "stores": ["antioquia-apartado-01","antioquia-apartado-02"]
+                            "stores": ["antioquia-apartado-01", "antioquia-apartado-02"]
                         },
-                        "refrigeracion":{
-                            "stores":["antioquia-apartado-01"]
+                        "pequenos-electrodomesticos": {
+                            "stores": ["antioquia-apartado-03"]
+                        },
+                        "refrigeracion": {
+                            "stores": ["antioquia-apartado-01"]
                         },
                         "tabletas": {
                             "stores": ["antioquia-apartado-02"]
+                        },
+                        "telefonia-celular": {
+                            "stores": ["antioquia-apartado-03"]
                         }
-                        
                     }
                 },
                 "bello": {
@@ -1726,9 +1315,6 @@
                         "dispensadores": {
                             "stores": ["antioquia-caucasia-02"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["antioquia-caucasia-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["antioquia-caucasia-02"]
                         },
@@ -1757,7 +1343,7 @@
                             "stores": ["antioquia-itagui"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["antioquia-itagui"]
+                            "stores": ["antioquia-itagui", "antioquia-itagui-2"]
                         },
                         "audio-video": {
                             "stores": ["antioquia-itagui"]
@@ -1769,31 +1355,28 @@
                             "stores": ["antioquia-itagui"]
                         },
                         "dispensadores": {
+                            "stores": ["antioquia-itagui", "antioquia-itagui-2"]
+                        },
+                        "ferreteria": {
                             "stores": ["antioquia-itagui"]
-                        },
-                        "ferreteria":{
-                            "stores":["antioquia-itagui"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["antioquia-itagui-domicilio-gasodomesticos"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["antioquia-itagui"]
                         },
-                        "iluminacion":{
-                            "stores":["antioquia-itagui"]
+                        "iluminacion": {
+                            "stores": ["antioquia-itagui"]
                         },
                         "lavadoras": {
-                            "stores": ["antioquia-itagui"]
+                            "stores": ["antioquia-itagui", "antioquia-itagui-2"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["antioquia-itagui"]
                         },
                         "refrigeracion": {
-                            "stores": ["antioquia-itagui"]
+                            "stores": ["antioquia-itagui", "antioquia-itagui-2"]
                         },
-                        "smart-home-menores":{
-                            "stores":["antioquia-itagui"]
+                        "smart-home-menores": {
+                            "stores": ["antioquia-itagui"]
                         },
                         "tabletas": {
                             "stores": ["antioquia-itagui"]
@@ -1805,7 +1388,7 @@
                     "name": "Medellín",
                     "categories": {
                         "accesorios": {
-                            "stores": ["antioquia-medellin-03","antioquia-medellin-05", "antioquia-medellin-06"]
+                            "stores": ["antioquia-medellin-03", "antioquia-medellin-05", "antioquia-medellin-06"]
                         },
                         "aires-acondicionados": {
                             "stores": ["antioquia-medellin-01"]
@@ -1823,10 +1406,7 @@
                             "stores": ["antioquia-medellin-04"]
                         },
                         "ferreteria": {
-                            "stores": ["antioquia-medellin-04", "antioquia-medellin-05", "antioquia-medellin-06"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["antioquia-medellin-domicilio-gasodomesticos-01", "antioquia-medellin-domicilio-gasodomesticos-02", "antioquia-medellin-domicilio-gasodomesticos-03", "antioquia-medellin-domicilio-gasodomesticos-04"]
+                            "stores": ["antioquia-medellin-04", "antioquia-medellin-05", "antioquia-medellin-06", "antioquia-medellin-07"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["antioquia-medellin-04"]
@@ -1838,7 +1418,7 @@
                             "stores": ["antioquia-medellin-04"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["antioquia-medellin-03", "antioquia-medellin-04", "antioquia-medellin-05", "antioquia-medellin-06"]
+                            "stores": ["antioquia-medellin-03", "antioquia-medellin-04", "antioquia-medellin-05", "antioquia-medellin-06", "antioquia-medellin-07"]
                         },
                         "refrigeracion": {
                             "stores": ["antioquia-medellin-04"]
@@ -1847,7 +1427,7 @@
                             "stores": ["antioquia-medellin-03", "antioquia-medellin-06"]
                         },
                         "tabletas": {
-                            "stores": ["antioquia-medellin-03","antioquia-medellin-05"]
+                            "stores": ["antioquia-medellin-03", "antioquia-medellin-05"]
                         },
                         "telefonia-celular": {
                             "stores": ["antioquia-medellin-03", "antioquia-medellin-05"]
@@ -1932,9 +1512,7 @@
                         "ferreteria": {
                             "stores": ["arauca-arauca"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["arauca-arauca-domicilio-gasodomesticos"]
-                        },
+
                         "grandes-electrodomesticos": {
                             "stores": ["arauca-arauca"]
                         },
@@ -1965,7 +1543,7 @@
                     "name": "Barranquilla",
                     "categories": {
                         "accesorios": {
-                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02","atlantico-barranquilla-03"]
+                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02", "atlantico-barranquilla-03"]
                         },
                         "aires-acondicionados": {
                             "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02"]
@@ -1983,10 +1561,7 @@
                             "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02"]
                         },
                         "ferreteria": {
-                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02","atlantico-barranquilla-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["atlantico-barranquilla-domicilio-gasodomesticos-1", "atlantico-barranquilla-domicilio-gasodomesticos-2"]
+                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02", "atlantico-barranquilla-03"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02"]
@@ -1998,7 +1573,7 @@
                             "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02","atlantico-barranquilla-03"]
+                            "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02", "atlantico-barranquilla-03"]
                         },
                         "refrigeracion": {
                             "stores": ["atlantico-barranquilla-01", "atlantico-barranquilla-02"]
@@ -2013,15 +1588,6 @@
                             "stores": ["atlantico-barranquilla-03"]
                         }
                     }
-                },
-                "soledad": {
-                    "areaCode": 5,
-                    "name": "Soledad",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["atlantico-soledad-domicilio-gasodomesticos"]
-                        }
-                    }
                 }
             }
         },
@@ -2033,46 +1599,40 @@
                     "name": "Cartagena",
                     "categories": {
                         "accesorios": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "audio-video": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "casa-inteligente": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "cuidado-personal": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "dispensadores": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "ferreteria": {
-                            "stores": ["bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
-                        },
-                        "iluminacion": {
-                            "stores": ["bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "lavadoras": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "refrigeracion": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
-                        },
-                        "smart-home-menores":{
-                            "stores":["bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         },
                         "tabletas": {
-                            "stores": ["bolivar-cartagena-01", "bolivar-cartagena-02","bolivar-cartagena-03"]
+                            "stores": ["bolivar-cartagena-02"]
                         }
                     }
                 },
@@ -2166,50 +1726,14 @@
                         "cuidado-personal": {
                             "stores": ["boyaca-puertoboyaca"]
                         },
-                        "ferreteria":{
-                            "stores":["boyaca-puertoboyaca"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["boyaca-puertoboyaca-domicilio-gasodomesticos"]
-                        },
-                        "iluminacion": {
-                            "stores": ["boyaca-puertoboyaca"]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": ["boyaca-puertoboyaca"]
-                        }
-                    }
-                },
-                "tunja": {
-                    "areaCode": 8,
-                    "name": "Tunja",
-                    "categories": {
-                        "accesorios": {
-                            "stores": ["boyaca-tunja"]
-                        },
-                        "audio-video": {
-                            "stores": ["boyaca-tunja"]
-                        },
-                        "casa-inteligente": {
-                            "stores": ["boyaca-tunja"]
-                        },
-                        "cuidado-personal": {
-                            "stores": ["boyaca-tunja"]
-                        },
                         "ferreteria": {
-                            "stores": ["boyaca-tunja"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["boyaca-tunja-domicilio-gasodomesticos-01", "boyaca-tunja-domicilio-gasodomesticos-02"]
+                            "stores": ["boyaca-puertoboyaca"]
                         },
                         "iluminacion": {
-                            "stores": ["boyaca-tunja"]
+                            "stores": ["boyaca-puertoboyaca"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["boyaca-tunja"]
-                        },
-                        "tabletas": {
-                            "stores": ["boyaca-tunja"]
+                            "stores": ["boyaca-puertoboyaca"]
                         }
                     }
                 }
@@ -2324,49 +1848,43 @@
                     "name": "Florencia",
                     "categories": {
                         "accesorios": {
-                            "stores": ["caqueta-florencia-02","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-03"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02"]
+                            "stores": ["caqueta-florencia-01"]
                         },
                         "audio-video": {
-                            "stores": ["caqueta-florencia-02","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-03"]
                         },
                         "casa-inteligente": {
-                            "stores": ["caqueta-florencia-02","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-03"]
                         },
                         "cuidado-personal": {
                             "stores": ["caqueta-florencia-01"]
                         },
                         "dispensadores": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02"]
+                            "stores": ["caqueta-florencia-01"]
                         },
                         "ferreteria": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02","caqueta-florencia-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["caqueta-florencia-domicilio-gasodomesticos"]
+                            "stores": ["caqueta-florencia-01", "caqueta-florencia-03"]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02"]
-                        },
-                        "iluminacion": {
-                            "stores": ["caqueta-florencia-02"]
+                            "stores": ["caqueta-florencia-01"]
                         },
                         "lavadoras": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02"]
+                            "stores": ["caqueta-florencia-01"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["caqueta-florencia-01","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-01", "caqueta-florencia-03"]
                         },
                         "refrigeracion": {
-                            "stores": ["caqueta-florencia-01", "caqueta-florencia-02"]
+                            "stores": ["caqueta-florencia-01"]
                         },
                         "smart-home-menores": {
-                            "stores": ["caqueta-florencia-01","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-01", "caqueta-florencia-03"]
                         },
                         "tabletas": {
-                            "stores": ["caqueta-florencia-02","caqueta-florencia-03"]
+                            "stores": ["caqueta-florencia-03"]
                         }
                     }
                 },
@@ -2427,9 +1945,6 @@
                         "ferreteria": {
                             "stores": ["casanare-yopal-01", "casanare-yopal-02"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["casanare-yopal-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["casanare-yopal-01", "casanare-yopal-02"]
                         },
@@ -2483,9 +1998,6 @@
                         "ferreteria": {
                             "stores": ["cauca-popayan-02"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["cauca-popayan-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["cauca-popayan-01", "cauca-popayan-02"]
                         },
@@ -2536,9 +2048,6 @@
                         "ferreteria": {
                             "stores": ["cesar-aguachica"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["cesar-aguachica-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["cesar-aguachica"]
                         },
@@ -2581,9 +2090,6 @@
                         "dispensadores": {
                             "stores": ["cesar-bosconia"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["cesar-bosconia-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["cesar-bosconia"]
                         },
@@ -2596,8 +2102,8 @@
                         "refrigeracion": {
                             "stores": ["cesar-bosconia"]
                         },
-                        "smart-home-menores":{
-                            "stores":["cesar-bosconia"]
+                        "smart-home-menores": {
+                            "stores": ["cesar-bosconia"]
                         },
                         "tabletas": {
                             "stores": ["cesar-bosconia"]
@@ -2653,7 +2159,7 @@
                     }
                 }
             }
-        }, 
+        },
         "choco": {
             "name": "Chocó",
             "cities": {
@@ -2679,11 +2185,8 @@
                         "dispensadores": {
                             "stores": ["choco-quibdo"]
                         },
-                        "ferreteria":{
-                            "stores":["choco-quibdo"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["choco-quibdo-domicilio-gasodomesticos-01","choco-quibdo-domicilio-gasodomesticos-02"]
+                        "ferreteria": {
+                            "stores": ["choco-quibdo"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["choco-quibdo"]
@@ -2735,8 +2238,8 @@
                         "grandes-electrodomesticos": {
                             "stores": ["cordoba-lorica"]
                         },
-                        "iluminacion":{
-                            "stores":["cordoba-lorica"]
+                        "iluminacion": {
+                            "stores": ["cordoba-lorica"]
                         },
                         "lavadoras": {
                             "stores": ["cordoba-lorica"]
@@ -2744,8 +2247,8 @@
                         "pequenos-electrodomesticos": {
                             "stores": ["cordoba-lorica"]
                         },
-                        "refrigeracion":{
-                            "stores":["cordoba-lorica"]
+                        "refrigeracion": {
+                            "stores": ["cordoba-lorica"]
                         },
                         "smart-home-menores": {
                             "stores": ["cordoba-lorica"]
@@ -2777,11 +2280,8 @@
                         "dispensadores": {
                             "stores": ["cordoba-monteria-01", "cordoba-monteria-03"]
                         },
-                        "ferreteria":{
-                            "stores":["cordoba-monteria-01","cordoba-monteria-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["cordoba-monteria-domicilio-gasodomesticos"]
+                        "ferreteria": {
+                            "stores": ["cordoba-monteria-01", "cordoba-monteria-03"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["cordoba-monteria-01", "cordoba-monteria-03"]
@@ -2891,68 +2391,56 @@
                     "name": "Bogotá D.C.",
                     "categories": {
                         "accesorios": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07", "bogota-10"]
                         },
-                        "aires-acondicionados":{
-                           "stores": ["bogota-08","bogota-09"]
+                        "aires-acondicionados": {
+                            "stores": ["bogota-09"]
                         },
                         "audio-video": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-10"]
                         },
                         "casa-inteligente": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-10"]
                         },
                         "cuidado-personal": {
                             "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07"]
                         },
                         "dispensadores": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06", "bogota-09"]
                         },
                         "ferreteria": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["bogota-domicilio-gasodomesticos-01", "bogota-domicilio-gasodomesticos-02","bogota-domicilio-gasodomesticos-03","bogota-domicilio-gasodomesticos-04","bogota-domicilio-gasodomesticos-05","bogota-domicilio-gasodomesticos-06","bogota-domicilio-gasodomesticos-07","bogota-domicilio-gasodomesticos-08","bogota-domicilio-gasodomesticos-09" ]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07"]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": ["bogota-05", "bogota-06","bogota-08","bogota-09"]
+                            "stores": ["bogota-05", "bogota-06", "bogota-09"]
                         },
                         "iluminacion": {
                             "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06"]
                         },
                         "lavadoras": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06", "bogota-09"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06", "bogota-07"]
                         },
                         "refrigeracion": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08","bogota-09"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06", "bogota-09"]
                         },
                         "smart-home-menores": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-05", "bogota-06", "bogota-10"]
                         },
                         "tabletas": {
-                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06","bogota-08"]
+                            "stores": ["bogota-01", "bogota-02", "bogota-03", "bogota-05", "bogota-06"]
                         },
                         "telefonia-celular": {
                             "stores": ["bogota-01", "bogota-02"]
                         }
                     }
                 },
-                "girardot": {
+                "sesquile": {
                     "areaCode": 1,
-                    "name": "Girardot",
+                    "name": "Sesquilé",
                     "categories": {
-                        "gasodomesticos": {
-                            "stores": ["cundinamarca-girardot-domicilio-gasodomesticos"]
-                        }
-                    }
-                },
-                "sesquile":{
-                    "areaCode":1,
-                    "name":"Sesquilé",
-                    "categories":{
                         "accesorios": {
                             "stores": []
                         },
@@ -2994,9 +2482,6 @@
                         "ferreteria": {
                             "stores": ["guajira-rioacha"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["guajira-rioacha-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["guajira-rioacha"]
                         },
@@ -3017,20 +2502,6 @@
                         },
                         "tabletas": {
                             "stores": ["guajira-rioacha"]
-                        }
-                    }
-                }
-            }
-        },
-        "guaviare": {
-            "name": "Guaviare",
-            "cities": {
-                "san-jose-del-guaviare": {
-                    "areaCode": 8,
-                    "name": "San Jose del Guaviare",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["guaviare-sanjose-guaviare-domicilio-gasodomesticos"]
                         }
                     }
                 }
@@ -3057,9 +2528,6 @@
                         },
                         "ferreteria": {
                             "stores": ["huila-garzon"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["huila-garzon-domicilio-gasodomesticos"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["huila-garzon"]
@@ -3094,17 +2562,14 @@
                         "dispensadores": {
                             "stores": ["huila-neiva-01", "huila-neiva-02"]
                         },
-                        "ferreteria":{
-                            "stores":["huila-neiva-01"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["huila-neiva-domicilio-gasodomesticos"]
+                        "ferreteria": {
+                            "stores": ["huila-neiva-01"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["huila-neiva-01"]
                         },
-                        "iluminacion":{
-                            "stores":["huila-neiva-01"]
+                        "iluminacion": {
+                            "stores": ["huila-neiva-01"]
                         },
                         "lavadoras": {
                             "stores": ["huila-neiva-01", "huila-neiva-02"]
@@ -3144,9 +2609,6 @@
                         },
                         "ferreteria": {
                             "stores": ["huila-pitalito"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["huila-pitalito-domicilio-gasodomesticos"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["huila-pitalito"]
@@ -3237,14 +2699,14 @@
                         "dispensadores": {
                             "stores": ["magdalena-fundacion"]
                         },
-                        "ferreteria":{
-                            "stores":["magdalena-fundacion"]
+                        "ferreteria": {
+                            "stores": ["magdalena-fundacion"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["magdalena-fundacion"]
                         },
-                        "iluminacion":{
-                            "stores":["magdalena-fundacion"]
+                        "iluminacion": {
+                            "stores": ["magdalena-fundacion"]
                         },
                         "lavadoras": {
                             "stores": ["magdalena-fundacion"]
@@ -3282,11 +2744,8 @@
                         "dispensadores": {
                             "stores": ["magdalena-santamarta"]
                         },
-                        "ferreteria":{
-                            "stores":["magdalena-santamarta"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["magdalena-santamarta-domicilio-gasodomesticos"]
+                        "ferreteria": {
+                            "stores": ["magdalena-santamarta"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["magdalena-santamarta"]
@@ -3324,14 +2783,11 @@
                         "dispensadores": {
                             "stores": ["magdalena-banco"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["magdalena-banco-domicilio-gasodomesticos"]
-                        },
                         "grandes-electrodomesticos": {
                             "stores": ["magdalena-banco"]
                         },
-                        "iluminacion":{
-                            "stores":["magdalena-banco"]
+                        "iluminacion": {
+                            "stores": ["magdalena-banco"]
                         },
                         "lavadoras": {
                             "stores": ["magdalena-banco"]
@@ -3354,43 +2810,40 @@
                     "name": "Acacias",
                     "categories": {
                         "accesorios": {
-                            "stores": ["meta-acacias","meta-acacias-02"]
+                            "stores": ["meta-acacias-02"]
                         },
                         "aires-acondicionados": {
                             "stores": ["meta-acacias-02"]
                         },
                         "audio-video": {
-                            "stores": ["meta-acacias","meta-acacias-02"]
+                            "stores": ["meta-acacias-02"]
                         },
-                        "casa-inteligente":{
-                            "stores":["meta-acacias-02"]
+                        "casa-inteligente": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "cuidado-personal": {
-                            "stores": ["meta-acacias"]
+                        "dispensadores": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "dispensadores":{
-                            "stores":["meta-acacias-02"]
+                        "ferreteria": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "ferreteria":{
-                            "stores":["meta-acacias-02"]
+                        "grandes-electrodomesticos": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "grandes-electrodomesticos":{
-                            "stores":["meta-acacias-02"]
-                        },
-                        "lavadoras":{
-                            "stores":["meta-acacias-02"]
+                        "lavadoras": {
+                            "stores": ["meta-acacias-02"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["meta-acacias","meta-acacias-02"]
+                            "stores": ["meta-acacias-02"]
                         },
-                        "refrigeracion":{
-                            "stores":["meta-acacias-02"]
+                        "refrigeracion": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "smart-home-menores":{
-                            "stores":["meta-acacias-02"]
+                        "smart-home-menores": {
+                            "stores": ["meta-acacias-02"]
                         },
-                        "tabletas":{
-                            "stores":["meta-acacias-02"]
+                        "tabletas": {
+                            "stores": ["meta-acacias-02"]
                         }
                     }
                 },
@@ -3418,9 +2871,6 @@
                         },
                         "ferreteria": {
                             "stores": ["meta-villavicencio"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["meta-villavicencio-domicilio-gasodomesticos"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["meta-villavicencio"]
@@ -3460,8 +2910,8 @@
                         "cuidado-personal": {
                             "stores": ["narino-ipiales"]
                         },
-                        "ferreteria":{
-                            "stores":["narino-ipiales"]
+                        "ferreteria": {
+                            "stores": ["narino-ipiales"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["narino-ipiales"]
@@ -3491,10 +2941,7 @@
                             "stores": ["narino-pasto-01", "narino-pasto-03"]
                         },
                         "ferreteria": {
-                            "stores": ["narino-pasto-01","narino-pasto-02", "narino-pasto-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["narino-pasto-domicilio-gasodomesticos-01", "narino-pasto-domicilio-gasodomesticos-02", "narino-pasto-domicilio-gasodomesticos-03"]
+                            "stores": ["narino-pasto-01", "narino-pasto-02", "narino-pasto-03"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["narino-pasto-01"]
@@ -3545,10 +2992,7 @@
                             "stores": ["narino-tumaco"]
                         },
                         "ferreteria": {
-                            "stores": ["narino-tumaco","narino-tumaco-2"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["narino-tumaco-domicilio-gasodomesticos"]
+                            "stores": ["narino-tumaco", "narino-tumaco-2"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["narino-tumaco"]
@@ -3560,7 +3004,7 @@
                             "stores": ["narino-tumaco"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["narino-tumaco","narino-tumaco-2"]
+                            "stores": ["narino-tumaco", "narino-tumaco-2"]
                         },
                         "refrigeracion": {
                             "stores": ["narino-tumaco"]
@@ -3570,15 +3014,6 @@
                         },
                         "tabletas": {
                             "stores": ["narino-tumaco"]
-                        }
-                    }
-                },
-                "tuquerres": {
-                    "areaCode": 2,
-                    "name": "Tuquerres",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["narino-tuquerres-domicilio-gasodomesticos"]
                         }
                     }
                 }
@@ -3592,64 +3027,52 @@
                     "name": "Cúcuta",
                     "categories": {
                         "accesorios": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "audio-video": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "casa-inteligente": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "cuidado-personal": {
                             "stores": ["norte-santander-cucuta-01"]
                         },
                         "dispensadores": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
-                        "ferreteria":{
-                            "stores":["norte-santander-cucuta-01","norte-santander-cucuta-02"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["norte-santander-cucuta-domicilio-gasodomesticos-01", "norte-santander-cucuta-domicilio-gasodomesticos-02"]
+                        "ferreteria": {
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["norte-santander-cucuta-01"]
                         },
                         "iluminacion": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "lavadoras": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "refrigeracion": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "smart-home-menores": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "soluciones-hogar": {
                             "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "tabletas": {
-                            "stores": ["norte-santander-cucuta-01","norte-santander-cucuta-02"]
+                            "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
                         },
                         "tecnologia-entretenimiento": {
                             "stores": ["norte-santander-cucuta-01", "norte-santander-cucuta-02"]
-                        }
-                    }
-                },
-                "ocaña": {
-                    "areaCode": 7,
-                    "name": "Ocaña",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["norte-santander-ocaña-domicilio-gasodomesticos-01", "norte-santander-ocaña-domicilio-gasodomesticos-02"]
                         }
                     }
                 }
@@ -3662,56 +3085,44 @@
                     "areaCode": 8,
                     "name": "Puerto Asís",
                     "categories": {
-                        "accesorios":{
-                            "stores":["putumayo-puerto-asis"]
+                        "accesorios": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "aires-acondicionados":{
-                            "stores":["putumayo-puerto-asis"]
+                        "aires-acondicionados": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "audio-video":{
-                            "stores":["putumayo-puerto-asis"]
+                        "audio-video": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "casa-inteligente":{
-                            "stores":["putumayo-puerto-asis"]
+                        "casa-inteligente": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "dispensadores":{
-                            "stores":["putumayo-puerto-asis"]
+                        "dispensadores": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "ferreteria":{
-                            "stores":["putumayo-puerto-asis"]
+                        "ferreteria": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "gasodomesticos": {
-                            "stores": ["putumayo-puerto-asis-domicilio-gasodomesticos"]
+                        "grandes-electrodomesticos": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "grandes-electrodomesticos":{
-                            "stores":["putumayo-puerto-asis"]
+                        "iluminacion": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "iluminacion":{
-                            "stores":["putumayo-puerto-asis"]
+                        "lavadoras": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "lavadoras":{
-                            "stores":["putumayo-puerto-asis"]
+                        "pequenos-electrodomesticos": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "pequenos-electrodomesticos":{
-                            "stores":["putumayo-puerto-asis"]
+                        "refrigeracion": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "refrigeracion":{
-                            "stores":["putumayo-puerto-asis"]
+                        "smart-home-menores": {
+                            "stores": ["putumayo-puerto-asis"]
                         },
-                        "smart-home-menores":{
-                            "stores":["putumayo-puerto-asis"]
-                        },
-                        "tabletas":{
-                            "stores":["putumayo-puerto-asis"]
-                        }
-                    }
-                },
-                "hormiga": {
-                    "areaCode": 8,
-                    "name": "La Hormiga",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["putumayo-hormiga-domicilio-gasodomesticos"]
+                        "tabletas": {
+                            "stores": ["putumayo-puerto-asis"]
                         }
                     }
                 }
@@ -3769,40 +3180,37 @@
                     "name": "Pereira",
                     "categories": {
                         "accesorios": {
-                            "stores": ["risaralda-pereira-01", "risaralda-pereira-02","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-01", "risaralda-pereira-02", "risaralda-pereira-03"]
                         },
-                        "aires-acondicionados":{
-                            "stores":["risaralda-pereira-03"]
+                        "aires-acondicionados": {
+                            "stores": ["risaralda-pereira-03"]
                         },
                         "audio-video": {
-                            "stores": ["risaralda-pereira-02","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-02", "risaralda-pereira-03"]
                         },
                         "casa-inteligente": {
-                            "stores": ["risaralda-pereira-02","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-02", "risaralda-pereira-03"]
                         },
                         "cuidado-personal": {
                             "stores": ["risaralda-pereira-01", "risaralda-pereira-02"]
                         },
                         "dispensadores": {
-                            "stores": ["risaralda-pereira-01","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-01", "risaralda-pereira-03"]
                         },
                         "ferreteria": {
-                            "stores": ["risaralda-pereira-01","risaralda-pereira-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["risaralda-pereira-domicilio-gasodomesticos-01", "risaralda-pereira-domicilio-gasodomesticos-02"]
+                            "stores": ["risaralda-pereira-01", "risaralda-pereira-03"]
                         },
                         "iluminacion": {
                             "stores": ["risaralda-pereira-01"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["risaralda-pereira-01", "risaralda-pereira-02","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-01", "risaralda-pereira-02", "risaralda-pereira-03"]
                         },
                         "smart-home-menores": {
-                            "stores": ["risaralda-pereira-01","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-01", "risaralda-pereira-03"]
                         },
                         "tabletas": {
-                            "stores": ["risaralda-pereira-02","risaralda-pereira-03"]
+                            "stores": ["risaralda-pereira-02", "risaralda-pereira-03"]
                         },
                         "telefonia-celular": {
                             "stores": ["risaralda-pereira-02"]
@@ -3819,11 +3227,11 @@
                         "aires-acondicionados": {
                             "stores": ["risaralda-dosquebradas"]
                         },
-                        "audio-video":{
-                            "stores":["risaralda-dosquebradas"]
+                        "audio-video": {
+                            "stores": ["risaralda-dosquebradas"]
                         },
-                        "casa-inteligente":{
-                            "stores":["risaralda-dosquebradas"]
+                        "casa-inteligente": {
+                            "stores": ["risaralda-dosquebradas"]
                         },
                         "cuidado-personal": {
                             "stores": ["risaralda-dosquebradas"]
@@ -3846,8 +3254,8 @@
                         "refrigeracion": {
                             "stores": ["risaralda-dosquebradas"]
                         },
-                        "smart-home-menores":{
-                            "stores":["risaralda-dosquebradas"]
+                        "smart-home-menores": {
+                            "stores": ["risaralda-dosquebradas"]
                         }
                     }
                 }
@@ -3916,8 +3324,8 @@
                         "cuidado-personal": {
                             "stores": ["santander-barbosa"]
                         },
-                        "ferreteria":{
-                            "stores":["santander-barbosa"]
+                        "ferreteria": {
+                            "stores": ["santander-barbosa"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["santander-barbosa"]
@@ -3991,11 +3399,8 @@
                         "dispensadores": {
                             "stores": ["santander-bucaramanga-01"]
                         },
-                        "ferreteria":{
-                            "stores":["santander-bucaramanga-03"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["santander-bucaramanga-domicilio-gasodomesticos-01", "santander-bucaramanga-domicilio-gasodomesticos-02"]
+                        "ferreteria": {
+                            "stores": ["santander-bucaramanga-03"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["santander-bucaramanga-01"]
@@ -4017,21 +3422,45 @@
                         }
                     }
                 },
-                "cimitarra": {
+                "sabana-torres": {
                     "areaCode": 7,
-                    "name": "Cimitarra",
+                    "name": "Sabana de Torres",
                     "categories": {
-                        "gasodomesticos": {
-                            "stores": ["santander-cimitarra-domicilio-gasodomesticos"]
-                        }
-                    }
-                },
-                "malaga": {
-                    "areaCode": 7,
-                    "name": "Málaga",
-                    "categories": {
-                        "gasodomesticos": {
-                            "stores": ["santander-malaga-domicilio-gasodomesticos"]
+                        "accesorios": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "aires-acondicionados": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "audio-video": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "casa-inteligente": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "dispensadores": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "ferreteria": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "iluminacion": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "lavadoras": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "refrigeracion": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "smart-home-menores": {
+                            "stores": ["santander-sabana-torres-1"]
+                        },
+                        "tabletas": {
+                            "stores": ["santander-sabana-torres-1"]
                         }
                     }
                 },
@@ -4051,8 +3480,8 @@
                         "cuidado-personal": {
                             "stores": ["santander-sangil"]
                         },
-                        "ferreteria":{
-                            "stores":["santander-sangil"]
+                        "ferreteria": {
+                            "stores": ["santander-sangil"]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": ["santander-sangil"]
@@ -4062,51 +3491,6 @@
                         },
                         "tabletas": {
                             "stores": ["santander-sangil"]
-                        }
-                    }
-                },
-                "socorro": {
-                    "areaCode": 7,
-                    "name": "Socorro",
-                    "categories": {
-                        "accesorios": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "aires-acondicionados": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "audio-video": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "casa-inteligente": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "cuidado-personal": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "dispensadores": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "ferreteria": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "iluminacion": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "lavadoras": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "refrigeracion": {
-                            "stores": ["santander-socorro"]
-                        },
-                        "tabletas": {
-                            "stores": ["santander-socorro"]
                         }
                     }
                 }
@@ -4137,11 +3521,8 @@
                         "dispensadores": {
                             "stores": ["sucre-sincelejo-01"]
                         },
-                        "ferreteria":{
-                            "stores":["sucre-sincelejo-02"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["sucre-sincelejo-domicilio-gasodomesticos"]
+                        "ferreteria": {
+                            "stores": ["sucre-sincelejo-02"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["sucre-sincelejo-01"]
@@ -4176,49 +3557,46 @@
                     "name": "Ibagué",
                     "categories": {
                         "accesorios": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "aires-acondicionados": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "audio-video": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "casa-inteligente": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "cuidado-personal": {
                             "stores": ["tolima-ibague"]
                         },
                         "dispensadores": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
-                        "ferreteria":{
-                            "stores":["tolima-ibague"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["tolima-ibague-domicilio-gasodomesticos-01","tolima-ibague-domicilio-gasodomesticos-02"]
+                        "ferreteria": {
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["tolima-ibague"]
                         },
                         "iluminacion": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "lavadoras": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "refrigeracion": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
-                        "smart-home-menores":{
-                            "stores":["tolima-ibague"]
+                        "smart-home-menores": {
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         },
                         "tabletas": {
-                            "stores": ["tolima-ibague"]
+                            "stores": ["tolima-ibague", "tolima-ibague-2"]
                         }
                     }
                 }
@@ -4250,10 +3628,7 @@
                             "stores": ["valle-cauca-cali-04", "valle-cauca-cali-06"]
                         },
                         "ferreteria": {
-                            "stores": ["valle-cauca-cali-01","valle-cauca-cali-02","valle-cauca-cali-03",  "valle-cauca-cali-04", "valle-cauca-cali-06","valle-cauca-cali-07"]
-                        },
-                        "gasodomesticos": {
-                            "stores": ["valle-cauca-cali-domicilio-gasodomesticos-01", "valle-cauca-cali-domicilio-gasodomesticos-02", "valle-cauca-cali-domicilio-gasodomesticos-03"]
+                            "stores": ["valle-cauca-cali-01", "valle-cauca-cali-02", "valle-cauca-cali-03", "valle-cauca-cali-04", "valle-cauca-cali-06", "valle-cauca-cali-07"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["valle-cauca-cali-04", "valle-cauca-cali-06"]
@@ -4303,8 +3678,8 @@
                         "dispensadores": {
                             "stores": ["valle-cauca-cartago-01"]
                         },
-                        "ferreteria":{
-                            "stores":["valle-cauca-cartago-01"]
+                        "ferreteria": {
+                            "stores": ["valle-cauca-cartago-01"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["valle-cauca-cartago-01"]
@@ -4450,8 +3825,8 @@
                         "dispensadores": {
                             "stores": ["valle-cauca-buenaventura"]
                         },
-                        "ferreteria":{
-                            "stores":["valle-cauca-buenaventura"]
+                        "ferreteria": {
+                            "stores": ["valle-cauca-buenaventura"]
                         },
                         "grandes-electrodomesticos": {
                             "stores": ["valle-cauca-buenaventura"]
@@ -4468,8 +3843,8 @@
                         "refrigeracion": {
                             "stores": ["valle-cauca-buenaventura"]
                         },
-                        "smart-home-menores":{
-                            "stores":["valle-cauca-buenaventura"]
+                        "smart-home-menores": {
+                            "stores": ["valle-cauca-buenaventura"]
                         },
                         "tabletas": {
                             "stores": ["valle-cauca-buenaventura"]
@@ -4492,58 +3867,20 @@
                         "dispensadores": {
                             "stores": ["valle-cauca-jamundi"]
                         },
-                        "ferreteria":{
-                            "stores":["valle-cauca-jamundi"]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": ["valle-cauca-jamundi"]
-                        },
-                        "lavadoras": {
-                            "stores": ["valle-cauca-jamundi"]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": ["valle-cauca-jamundi"]
-                        },
-                        "refrigeracion": {
-                            "stores": ["valle-cauca-jamundi"]
-                        }
-                    }
-                }
-            }
-        },
-        "Vichada":{
-            "name": "Vichada",
-            "cities": {
-                "puerto-carreno": {
-                    "areaCode": 8,
-                    "name": "Puerto Carreño",
-                    "categories": {
-                        "accesorios": {
-                            "stores": ["vichada-puerto-carreno"]
-                        },
-                        "aires-acondicionados":{
-                           "stores": ["vichada-puerto-carreno"]
-                        },
-                        "audio-video": {
-                            "stores": ["vichada-puerto-carreno"]
-                        },
-                        "dispensadores": {
-                            "stores": ["vichada-puerto-carreno"]
-                        },
                         "ferreteria": {
-                            "stores": ["vichada-puerto-carreno"]
+                            "stores": ["valle-cauca-jamundi"]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": ["vichada-puerto-carreno"]
+                            "stores": ["valle-cauca-jamundi"]
                         },
                         "lavadoras": {
-                            "stores": ["vichada-puerto-carreno"]
+                            "stores": ["valle-cauca-jamundi"]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": ["vichada-puerto-carreno"]
+                            "stores": ["valle-cauca-jamundi"]
                         },
                         "refrigeracion": {
-                            "stores": ["vichada-puerto-carreno"]
+                            "stores": ["valle-cauca-jamundi"]
                         }
                     }
                 }
