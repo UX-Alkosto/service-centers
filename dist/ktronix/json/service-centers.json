@@ -9332,6 +9332,11 @@
                                 "panasonic-yopal-02"
                             ]
                         },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "phillips-yopal"
+                            ]
+                        },
                         "video": {
                             "stores": [
                                 "aoc-yopal",
