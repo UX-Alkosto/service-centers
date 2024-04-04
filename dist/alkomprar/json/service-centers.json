@@ -518,6 +518,7 @@
         "irobot": {
             "name": "IROBOT",
             "departments": [
+                "antioquia",
                 "cundinamarca",
                 "linea-nacional"
             ]
@@ -538,6 +539,13 @@
             "name": "JVC",
             "departments": [
                 "cundinamarca"
+            ]
+        },
+        "kalorik": {
+            "name": "Kalorik",
+            "departments": [
+                "cundinamarca",
+                "antioquia"
             ]
         },
         "kalley": {
@@ -732,6 +740,7 @@
         "niu-akt": {
             "name": "NIU (AKT)",
             "departments": [
+                "cundinamarca",
                 "linea-nacional"
             ]
         },
@@ -750,6 +759,7 @@
         "nutribullet": {
             "name": "Nutribullet",
             "departments": [
+                "antioquia",
                 "cundinamarca",
                 "linea-nacional"
             ]
@@ -1679,23 +1689,19 @@
         },
         "asus-cali": {
             "name": "Asus Cali",
-            "address": "Cl 25 Norte No. 5BN–65, Esquina Edificio EGuzman, Barrio San Vicente",
-            "lat": "3.4677373",
-            "lng": "-76.5294302",
-            "phone": [
-                "4862113"
-            ],
+            "address": "Av 4 Norte No. 25N - 62",
+            "lat": "3.4684004",
+            "lng": "-76.5264247",
             "cell": [
-                "3208007427",
-                "3175005261"
+                "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 7:30 a.m a 3:45 p.m",
-                "Sab de 7:30 a.m a 12:00 p.m"
+                "Lun a Vie de 7:00 a.m a 4:00 p.m",
+                "Sab de 7:00 a.m a 11:30 a.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
-            "viewMap": "https://www.google.com/maps/place/Cl.+25+Nte.+%23%235BN-65,+Cali,+Valle+del+Cauca/@3.4677373,-76.5294302,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a79fa30aa805:0xa9c341c78e2ad282!8m2!3d3.4677373!4d-76.5272415?hl=es"
+            "viewMap": "https://www.google.com/maps/dir//Av.+4+Nte.+%2325N-62,+San+Vicente,+Cali,+Valle+del+Cauca/@3.4684004,-76.5264247,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e30a616089e28cd:0xb91b655932b29f24!2m2!1d-76.5264247!2d3.4684004!3e0?entry=ttu"
         },
         "asus-envigado": {
             "name": "Asus Envigado",
@@ -2325,13 +2331,13 @@
         "bose-call-center": {
             "name": "Bose Call Center",
             "phone": [
-                "018005183962"
+                "08005190194"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.bose.co/es_co/support/factory_authorized_service.html"
+            "link": "https://www.bose.co/es_co/contact_us.html"
         },
         "brother-bogota": {
             "name": "Compuware",
@@ -4511,6 +4517,22 @@
             "link": "https://casa-magna.com/contactenos/",
             "viewMap": "https://www.google.com/maps/place/Casa+Magna+La+93/@4.6785302,-74.0548858,15z/data=!4m5!3m4!1s0x0:0x2a1272fe80a799f3!8m2!3d4.678522!4d-74.0548701"
         },
+        "irobot-bogota-02": {
+            "name": "CSA Cota",
+            "address": "Centro Empresarial Metropolitano - Autopista Medellín kilometro 3.5 vía Bogotá Siberia - Modulo 4 - Bodega 52",
+            "lat": "4.752080877055004",
+            "lng": "-74.146220068094",
+            "cell": [
+                "3246798384"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/QznBQPcL85CsABuD8"
+        },
         "irobot-linea-nacional": {
             "name": "IROBOT, Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -4518,6 +4540,22 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
+        },
+        "irobot-medellin-01": {
+            "name": "CSA Medellín",
+            "address": "CALLE 25A # 43B 243",
+            "lat": "6.2256612",
+            "lng": "-75.5719675",
+            "cell": [
+                "3046548229"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/1kbTAfjj7GPEaaVm7"
         },
         "jabra-call-center": {
             "name": "Jabra Call Center",
@@ -4557,6 +4595,38 @@
             "type": "externo",
             "link": "https://pajvccom/support/service_center/colombiahtml ",
             "viewMap": "https://www.google.com/maps/dir//Cl.+53+%2367-57,+Bogot%C3%A1/@4.6563919,-74.1000859,20.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bbd43486639:0xcab574bc61bdb0b5!2m2!1d-74.0997213!2d4.6562381"
+        },
+        "kalorik-bogota-01": {
+            "name": "CSA Cota",
+            "address": "Centro Empresarial Metropolitano - Autopista Medellín kilometro 3.5 vía Bogotá Siberia - Modulo 4 - Bodega 52",
+            "lat": "4.752080877055004",
+            "lng": "-74.146220068094",
+            "cell": [
+                "3246798384"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/QznBQPcL85CsABuD8"
+        },
+        "kalorik-medellin-01": {
+            "name": "CSA Medellín",
+            "address": "CALLE 25A # 43B 243",
+            "lat": "6.2256612",
+            "lng": "-75.5719675",
+            "cell": [
+                "3046548229"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/1kbTAfjj7GPEaaVm7"
         },
         "kalley-call-center": {
             "name": "Kalley Call Center",
@@ -5928,6 +5998,54 @@
             ],
             "type": "interno"
         },
+        "niu-akt-bogota-01": {
+            "name": "NIU Bogotá",
+            "address": "Carrera 15 #86B – 13 Barrio antiguo Country.",
+            "lat": "4.6704348",
+            "lng": "-74.055242",
+            "cell": [
+                "3125880012"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.niucolombia.com/puntos-de-venta",
+            "viewMap": "https://maps.app.goo.gl/dPSwpoVWCRSXzBJq5"
+        },
+        "niu-akt-bogota-02": {
+            "name": "NIU Niza",
+            "address": "Transversal 60 (Av suba) # 127D-28",
+            "lat": "4.7133301",
+            "lng": "-74.0727214",
+            "cell": [
+                "3144008741"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.niucolombia.com/puntos-de-venta",
+            "viewMap": "https://maps.app.goo.gl/L3rNBLSikmnmYnTQ9"
+        },
+        "niu-akt-bogota-03": {
+            "name": "NIU Bogotá",
+            "address": "Carrera 15 # 106 - 50",
+            "lat": "4.6910411",
+            "lng": "-74.0453385",
+            "cell": [
+                "3164430384"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.niucolombia.com/puntos-de-venta",
+            "viewMap": "https://maps.app.goo.gl/6N7U5M5dPrNMTQRz6"
+        },
         "niu-akt-linea-nacional": {
             "name": "NIU Call Center",
             "phone": [
@@ -5988,6 +6106,22 @@
             "link": "https://casa-magna.com/contactenos/",
             "viewMap": "https://www.google.com/maps/place/Casa+Magna+La+93/@4.6785302,-74.0548858,15z/data=!4m5!3m4!1s0x0:0x2a1272fe80a799f3!8m2!3d4.678522!4d-74.0548701"
         },
+        "nutribullet-bogota-02": {
+            "name": "CSA Cota",
+            "address": "Centro Empresarial Metropolitano - Autopista Medellín kilometro 3.5 vía Bogotá Siberia - Modulo 4 - Bodega 52",
+            "lat": "4.752080877055004",
+            "lng": "-74.146220068094",
+            "cell": [
+                "3246798384"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/QznBQPcL85CsABuD8"
+        },
         "nutribullet-linea-nacional": {
             "name": "Nutribullet Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -5995,6 +6129,22 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
+        },
+        "nutribullet-medellin-01": {
+            "name": "CSA Medellín",
+            "address": "CALLE 25A # 43B 243",
+            "lat": "6.2256612",
+            "lng": "-75.5719675",
+            "cell": [
+                "3046548229"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://casa-magna.com/contactenos/",
+            "viewMap": "https://maps.app.goo.gl/1kbTAfjj7GPEaaVm7"
         },
         "oster-call-center": {
             "name": "Oster Call Center",
@@ -8892,6 +9042,27 @@
             ],
             "type": "interno"
         },
+        "xiaomi-medellin-01": {
+            "name": "Servitec Repuestos S.A.S",
+            "address": "Cr 44 No. 76-160, Barrio Porvenir",
+            "lat": "10.9961988",
+            "lng": "-74.8144153",
+            "phone": [
+                "3608064",
+                "3601447",
+                "3689796"
+            ],
+            "cell": [
+                "3016994021"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8.00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.whirlpool.com.co/servicio-y-soporte#talleres-certificados",
+            "viewMap": "https://www.google.com/maps/dir//SERVITEC+DE+REPUESTOS+S.A.S,+Cra.+44+%23%2376-160,+Barranquilla,+Atl%C3%A1ntico/@10.9961988,-74.8144153,17z/data=!4m16!1m6!3m5!1s0x8ef42d092392dce1:0x81d107a8816f50ea!2sSERVITEC+DE+REPUESTOS+S.A.S!8m2!3d10.9961988!4d-74.8122266!4m8!1m0!1m5!1m1!1s0x8ef42d092392dce1:0x81d107a8816f50ea!2m2!1d-74.8122266!2d10.9961988!3e2"
+        },
         "yale-call-center": {
             "name": "YALE Call Center",
             "cell": [
@@ -8974,7 +9145,10 @@
                         },
                         "electro-menor": {
                             "stores": [
-                                "bionaire-medellin"
+                                "bionaire-medellin",
+                                "irobot-medellin-01",
+                                "nutribullet-medellin-01",
+                                "kalorik-medellin-01"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -9510,8 +9684,7 @@
                                 "lg-bogota-01",
                                 "lg-bogota-02",
                                 "lg-bogota-03",
-                                "lg-bogota-04",
-                                "kalley-bogota-03"
+                                "lg-bogota-04"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -9569,7 +9742,10 @@
                                 "boccherini-bogota",
                                 "continente-bogota",
                                 "hamilton-beach-bogota",
-                                "honeywell-bogota"
+                                "honeywell-bogota",
+                                "irobot-bogota-02",
+                                "nutribullet-bogota-02",
+                                "kalorik-bogota-01"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -9631,6 +9807,13 @@
                         "office": {
                             "stores": [
                                 "kyocera-bogota"
+                            ]
+                        },
+                        "patinetas-motos-electricas": {
+                            "stores": [
+                                "niu-akt-bogota-01",
+                                "niu-akt-bogota-02",
+                                "niu-akt-bogota-03"
                             ]
                         },
                         "pequenos-electrodomesticos": {
