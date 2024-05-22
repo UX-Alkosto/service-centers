@@ -128,6 +128,12 @@
                 "linea-nacional"
             ]
         },
+        "bm-fitnes": {
+            "name": "BM Fitness",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
         "boccherini": {
             "name": "Boccherini",
             "departments": [
@@ -193,12 +199,6 @@
             "name": "Centrales",
             "departments": [
                 "linea-nacional"
-            ]
-        },
-        "centrales-mabe": {
-            "name": "Centrales MABE",
-            "departments": [
-                "cundinamarca"
             ]
         },
         "challenger": {
@@ -344,6 +344,12 @@
         },
         "essenses": {
             "name": "Essenses",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "everlast": {
+            "name": "Everlast",
             "departments": [
                 "linea-nacional"
             ]
@@ -506,6 +512,12 @@
             "name": "Induservix",
             "departments": [
                 "cundinamarca"
+            ]
+        },
+        "inokim": {
+            "name": "INOKIM",
+            "departments": [
+                "linea-nacional"
             ]
         },
         "inval": {
@@ -671,6 +683,12 @@
                 "linea-nacional"
             ]
         },
+        "miyagi": {
+            "name": "Miyagi",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
         "moduart": {
             "name": "Moduart",
             "departments": [
@@ -753,6 +771,12 @@
             "name": "Nokia",
             "departments": [
                 "cundinamarca"
+            ]
+        },
+        "nordictrack": {
+            "name": "Nordictrack",
+            "departments": [
+                "linea-nacional"
             ]
         },
         "nutribullet": {
@@ -852,6 +876,12 @@
             "name": "Profit",
             "departments": [
                 "cundinamarca"
+            ]
+        },
+        "proform": {
+            "name": "Proform",
+            "departments": [
+                "linea-nacional"
             ]
         },
         "redicol": {
@@ -1034,6 +1064,24 @@
         },
         "v-tech": {
             "name": "V-Tech",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "wahoo": {
+            "name": "Wahoo",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "weider": {
+            "name": "Weider",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "weslo": {
+            "name": "Weslo",
             "departments": [
                 "linea-nacional"
             ]
@@ -2274,6 +2322,18 @@
             ],
             "type": "interno"
         },
+        "bm-fitnes-call-center": {
+            "name": "BM Fitness Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
         "boccherini-bogota": {
             "name": "BOCCHERINI",
             "address": "Av Boyacá No. 22-68, Barrio Montevideo (Zona Industrial)",
@@ -2334,13 +2394,13 @@
         "bose-call-center": {
             "name": "Bose Call Center",
             "phone": [
-                "08005190194"
+                "018005190194"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.bose.co/es_co/support/factory_authorized_service.html"
+            "link": "https://www.bose.co/es_co/contact_us.html"
         },
         "brother-bogota": {
             "name": "Compuware",
@@ -2918,25 +2978,14 @@
         "centrales-call-center": {
             "name": "Centrales Call Center",
             "phone": [
-                "018005183227"
+                "018005191055"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
-            "link": "http://www.centrales.com.co/ubicacion#contact"
-        },
-        "centrales-mabe-bogota-call-center": {
-            "name": "Centrales Call Center",
-            "phone": [
-                "4897900",
-                "5087373"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "http://www.centrales.com.co/ubicacion#contact"
+            "link": "https://mabeglobal.com/es_CO/servicio-mabe"
         },
         "challenger-armenia": {
             "name": "Quindio Digital",
@@ -3966,14 +4015,27 @@
         "evolution-call-center": {
             "name": "Evolution Call Center",
             "address": "contactenospostventa@evolutionfitness.co ",
-            "phone": [
-                "018000188432"
+            "cell": [
+                "3203784568"
             ],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
+        "everlast-call-center": {
+            "name": "Everlast Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "forza-linea-nacional": {
             "name": "Forza Alkosto/Ktronix",
@@ -4033,25 +4095,28 @@
             "link": "https://www.gamaitaly.com/latam/co/soporte/"
         },
         "general-electric-bogota-call-center": {
-            "name": "General Electrc Bogotá Call Center",
+            "name": "General Electric Bogotá Call Center",
             "phone": [
-                "4897900"
+                "5801165"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://mabeglobal.com/es_CO/servicio-mabe"
         },
         "general-electric-call-center": {
             "name": "General Electric Call Center",
             "phone": [
-                "018000516464"
+                "018005191055"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://mabeglobal.com/es_CO/servicio-mabe"
         },
         "genius-linea-nacional": {
             "name": "Genius Alkosto/Ktronix",
@@ -4488,6 +4553,18 @@
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/place/Cra.+20b+%23%2374-22,+Bogot%C3%A1/@4.662809,-74.0648967,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a59a22cb76f:0xfdf8bbdf4810ca66!8m2!3d4.662809!4d-74.062708?hl=es"
+        },
+        "inokim-call-center": {
+            "name": "Inokim",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "inval-call-center": {
             "name": "INVAL",
@@ -5273,14 +5350,14 @@
         "mabe-call-center": {
             "name": "Mabe Call Center",
             "phone": [
-                "018005183227"
+                "018005191055"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 6:30 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
-            "link": "http://www.mabe.com.co/soporte-tecnico/ContactoCO/"
+            "link": "https://mabeglobal.com/es_CO/servicio-mabe"
         },
         "maderkit-call-center": {
             "name": "Maderkit Call Center",
@@ -5344,6 +5421,18 @@
                 "Sab de 8:00 a.m a 8:00 p.m"
             ],
             "type": "interno"
+        },
+        "miyagi-call-center": {
+            "name": "Miyagi Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "moduart-call-center": {
             "name": "SMAYL Call Center",
@@ -6030,6 +6119,18 @@
             ],
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Woden+Colombia+SAS,+AV+CLL+13+%23+56+35,+Bogot%C3%A1/@4.6304019,-74.1107958,21z/data=!4m16!1m6!3m5!1s0x8e3f9be323d5ceed:0xf6cdce79ee936b75!2sWoden+Colombia+SAS!8m2!3d4.6304609!4d-74.110681!4m8!1m0!1m5!1m1!1s0x8e3f9be323d5ceed:0xf6cdce79ee936b75!2m2!1d-74.110681!2d4.6304609!3e2"
+        },
+        "nordictrack-call-center": {
+            "name": "Nordictrack Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "nutribullet-bogota": {
             "name": "Nutribullet, Almacén Casamagna",
@@ -7206,6 +7307,18 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ak+30+%2363f-53,+Bogot%C3%A1/@4.6575103,-74.0781382,17z/data=!4m17!1m7!3m6!1s0x8e3f9bad45d3ab83:0xd057cdfdf0ffbe6d!2sAk+30+%2363f-53,+Bogot%C3%A1!3b1!8m2!3d4.6575332!4d-74.0782507!4m8!1m0!1m5!1m1!1s0x8e3f9bad45d3ab83:0xd057cdfdf0ffbe6d!2m2!1d-74.0782507!2d4.6575332!3e2"
         },
+        "proform-call-center": {
+            "name": "Proform Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
         "redicol-bogota-call-center": {
             "name": "Redicol Call Center",
             "cell": [
@@ -7304,13 +7417,17 @@
         },
         "samsung-call-center": {
             "name": "Samsung Call Center",
+            "cell": [
+                "3138698800"
+            ],
             "phone": [
                 "018000112112"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "24 horas"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://www.samsung.com/co/support/service-center/"
         },
         "sandisk-linea-nacional": {
             "name": "Sandisk Alkosto/Ktronix",
@@ -8282,6 +8399,42 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
+        },
+        "wahoo-call-center": {
+            "name": "Wahoo",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
+        "weider-call-center": {
+            "name": "Weider Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
+        "weslo-call-center": {
+            "name": "Weslo Call Center",
+            "cell": [
+                "3203784568"
+            ],
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:30 p.m",
+                "Sab de 9:00 a.m a 12:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "willard-armenia": {
             "name": "Willard Armenia",
@@ -10255,7 +10408,6 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "centrales-mabe-bogota-call-center",
                                 "electrolux-bogota-call-center",
                                 "electrolux-facatativa-call-center",
                                 "electrolux-girardot-call-center",
@@ -11381,7 +11533,16 @@
                         },
                         "deportes": {
                             "stores": [
-                                "evolution-call-center"
+                                "evolution-call-center",
+                                "bm-fitnes-call-center",
+                                "everlast-call-center",
+                                "inokim-call-center",
+                                "miyagi-call-center",
+                                "nordictrack-call-center",
+                                "proform-call-center",
+                                "wahoo-call-center",
+                                "weider-call-center",
+                                "weslo-call-center"
                             ]
                         },
                         "electro-menor": {
