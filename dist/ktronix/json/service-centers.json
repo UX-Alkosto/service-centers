@@ -2987,6 +2987,9 @@
             "phone": [
                 "018005191055"
             ],
+            "whatsapp": [
+                "3122100100"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 4:00 p.m",
                 "Sab 8:00 a.m a 12:00 p.m"
@@ -3172,6 +3175,9 @@
             "name": "Challenger Call Center",
             "phone": [
                 "01 8000111966"
+            ],
+            "whatsapp": [
+                "3222783347"
             ],
             "schedule": [
                 "Lun a Vie de 7:00 a.m a 5:00 p.m",
@@ -3869,6 +3875,9 @@
             "phone": [
                 "018000180382"
             ],
+            "whatsapp": [
+                "3160250327"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
@@ -4118,6 +4127,9 @@
             "phone": [
                 "018005191055"
             ],
+            "whatsapp": [
+                "3122100100"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 4:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
@@ -4203,6 +4215,9 @@
             "name": "Haceb Call Center",
             "phone": [
                 "018000511000"
+            ],
+            "whatsapp": [
+                "3164539797"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
@@ -4623,6 +4638,9 @@
         "irobot-linea-nacional": {
             "name": "IROBOT, Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
+            "whatsapp": [
+                "3122025959"
+            ],
             "schedule": [
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
@@ -4719,6 +4737,9 @@
             "name": "Kalley Call Center",
             "phone": [
                 "018000524065"
+            ],
+            "whatsapp": [
+                "3336424616"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 4:00 p.m",
@@ -5148,6 +5169,9 @@
             "cell": [
                 "3222634570"
             ],
+            "whatsapp": [
+                "3173720142"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 6:00 p.m",
                 "Sab y Dom de 8:00 a.m a 12:00 p.m"
@@ -5359,6 +5383,9 @@
             "phone": [
                 "018005191055"
             ],
+            "whatsapp": [
+                "3122100100"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 4:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
@@ -5370,6 +5397,9 @@
             "name": "Maderkit Call Center",
             "phone": [
                 "018000180425"
+            ],
+            "whatsapp": [
+                "3103724585"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 p.m",
@@ -6149,6 +6179,9 @@
             "name": "NIU Call Center",
             "phone": [
                 "018000524066"
+            ],
+            "whatsapp": [
+                "3174428097"
             ],
             "schedule": [
                 "Lun a Vie de 7:00 a.m a 7:00 p.m",
@@ -7441,7 +7474,7 @@
         },
         "samsung-call-center": {
             "name": "Samsung Call Center",
-            "cell": [
+            "whatsapp": [
                 "3138698800"
             ],
             "phone": [
@@ -9145,6 +9178,9 @@
             "name": "Whirlpool Call Center",
             "phone": [
                 "3557645"
+            ],
+            "whatsapp": [
+                "3118760622"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 6:00 p.m",
