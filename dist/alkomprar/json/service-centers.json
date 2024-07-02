@@ -563,13 +563,7 @@
         "kalley": {
             "name": "Kalley",
             "departments": [
-                "antioquia",
-                "atlantico",
-                "casanare",
-                "cundinamarca",
-                "linea-nacional",
-                "risaralda",
-                "valle-del-cauca"
+                "linea-nacional"
             ]
         },
         "karcher": {
@@ -4732,281 +4726,12 @@
                 "3336424616"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios"
-        },
-        "kalley-barranquilla-01": {
-            "name": "C&M Repuestos y Servicios",
-            "address": "Cl 70 No. 45-29",
-            "lat": "10.9925867",
-            "lng": "-74.8039918",
-            "phone": [
-                "3869797"
-            ],
-            "cell": [
-                "3002179310",
-                "3017863572"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//CyM+electr%C3%B3nico,+Cl.+70+%23%2345-29,+Barranquilla,+Atl%C3%A1ntico/@10.9925867,-74.8039918,21z/data=!4m16!1m6!3m5!1s0x8ef42d732d47b227:0x12196dfa47f42aab!2sCyM+electr%C3%B3nico!8m2!3d10.9925469!4d-74.8038667!4m8!1m0!1m5!1m1!1s0x8ef42d732d47b227:0x12196dfa47f42aab!2m2!1d-74.8038667!2d10.9925469!3e2"
-        },
-        "kalley-barranquilla-02": {
-            "name": "Latin Electronics S.A.S",
-            "address": "Cl 70B No. 41-160, Barrio Las Delicias, Olaya",
-            "lat": "10.9813349",
-            "lng": "-74.8063706",
-            "phone": [
-                "3689384",
-                "3689590"
-            ],
-            "cell": [
-                "3045553310",
-                "3137670905",
-                "3207027258"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//LATIN+ELECTRONICS,+Cl.+70b+%23%2341-160,+Barranquilla,+Atl%C3%A1ntico/@10.9813349,-74.8063706,15z/data=!4m16!1m6!3m5!1s0x0:0x873bccba8206e38d!2sLATIN+ELECTRONICS!8m2!3d10.9896671!4d-74.806273!4m8!1m0!1m5!1m1!1s0x8ef42d0d7b7dd6b1:0x873bccba8206e38d!2m2!1d-74.8062728!2d10.9896659!3e2"
-        },
-        "kalley-bogota-01": {
-            "name": "Centro Servicio Exclusivo Kalley 68",
-            "email": "csekalley68@hotmail.com",
-            "address": "Av Cr 68 No. 67D-90, Barrio JJ Vargas",
-            "lat": "4.6757953",
-            "lng": "-74.0868482",
-            "phone": [
-                "5249210"
-            ],
-            "cell": [
-                "3014995879"
-            ],
-            "schedule": [
-                "Lun a Vie de 10:00 a.m a 1:00 pm y de 2:00 p.m a 5:00 p.m",
-                "Sab de 10:00 a.m a 2:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//Ak+68+%2367d-90,+Bogot%C3%A1/@4.6757953,-74.0868482,20z/data=!4m17!1m7!3m6!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2sAk+68+%2367d-90,+Bogot%C3%A1!3b1!8m2!3d4.6758148!4d-74.0867879!4m8!1m0!1m5!1m1!1s0x8e3f9b0515cc7b39:0xba4cc206e04d500!2m2!1d-74.0867879!2d4.6758148!3e2"
-        },
-        "kalley-bogota-02": {
-            "name": "Centro de Servicio Exclusivo Kalley Venecia",
-            "email": "exclusivos.celulares@gmail.com",
-            "address": "Cl 44 Sur No. 68G-20",
-            "lat": "4.5981092",
-            "lng": "-74.1454758",
-            "phone": [
-                "8146262"
-            ],
-            "cell": [
-                "3053097088"
-            ],
-            "schedule": [
-                "Lun a Vie de 11:00 a.m a 5:00 p.m",
-                "Sab de 11:00 a.m a 3:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/place/Cl.+44+Sur+%2368G+-+20,+Antonio+Nari%C3%B1o,+Bogot%C3%A1/@4.5981092,-74.1454758,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9edcc979d257:0xb887e811e66e6177!8m2!3d4.5981092!4d-74.1432871?hl=es"
-        },
-        "kalley-bogota-03": {
-            "name": "SERVITEC JRS",
-            "address": "Cl 68D BIS A SUR No. 63–85, Conjunto Residencial Casa Grande Manzana 2, Casa 196 Barrio El Ensueño",
-            "lat": "4.5810342",
-            "lng": "-74.1626975",
-            "cell": [
-                "3155357357",
-                "3183878511"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/place/Eruca/@4.5810342,-74.1626975,17z/data=!4m5!3m4!1s0x8e3f9f744dc7b987:0xf89921dcb3ae794d!8m2!3d4.5809901!4d-74.1601899"
-        },
-        "kalley-bogota-04": {
-            "name": "QUALITY & SERVICE S.A.S Sede Chapinero",
-            "address": "Cr 18 No. 51-78",
-            "lat": "4.6397924",
-            "lng": "-74.0723116",
-            "phone": [
-                "7037011"
-            ],
-            "cell": [
-                "3107586832",
-                "3044162019"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Lun a Jue de 8:00 a.m a 5:00 p.m",
+                "Vie de 8:00 a.m a 4:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/place/Cra.+18+%2351-78,+Bogot%C3%A1/@4.6397924,-74.0723116,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a316e181f81:0x26052ce617670587!8m2!3d4.6397924!4d-74.0701229"
-        },
-        "kalley-bogota-05": {
-            "name": "LICUAOLLAS",
-            "address": "Cl 12 No. 9-86",
-            "lat": "4.6008785",
-            "lng": "-74.0793937",
-            "phone": [
-                "3522072"
-            ],
-            "cell": [
-                "3004039336"
-            ],
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/place/Cl.+12+%239-86,+Bogot%C3%A1,+Cundinamarca/@4.6008785,-74.0793937,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9909e1084583:0xa333cf160b0d3b4b!8m2!3d4.6008785!4d-74.077205"
-        },
-        "kalley-pereira": {
-            "name": "Servi Lux",
-            "address": "Cl 21 No. 10-22, Barrio Centro",
-            "lat": "4.8121652",
-            "lng": "-75.6984221",
-            "phone": [
-                "3344640"
-            ],
-            "cell": [
-                "3192741647"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//servi-lux,+Cl.+21+%2310-24,+Pereira,+Risaralda/@4.8121652,-75.6984221,17z/data=!4m16!1m6!3m5!1s0x8e38874609737a89:0x8f95661adfdc762e!2sservi-lux!8m2!3d4.8121652!4d-75.6962334!4m8!1m0!1m5!1m1!1s0x8e38874609737a89:0x8f95661adfdc762e!2m2!1d-75.6962334!2d4.8121652!3e2"
-        },
-        "kalley-medellin-01": {
-            "name": "AS Electrón",
-            "address": "Cr 80 No. 44B-101, Barrio La América",
-            "lat": "6.2529255",
-            "lng": "-75.6033286",
-            "phone": [
-                "5808468"
-            ],
-            "cell": [
-                "3004191372",
-                "3012851485"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//AS+ELECTRON+(Medellin),+Av.+80+%23%2344B-101,+Medell%C3%ADn,+Antioquia/@6.2529255,-75.6033286,17z/data=!4m16!1m6!3m5!1s0x8e442974435539b5:0x6cd13452a790d4fd!2sAS+ELECTRON+(Medellin)!8m2!3d6.2529255!4d-75.6011399!4m8!1m0!1m5!1m1!1s0x8e442974435539b5:0x6cd13452a790d4fd!2m2!1d-75.6011399!2d6.2529255!3e2"
-        },
-        "kalley-medellin-02": {
-            "name": "Refriamigos",
-            "address": "Cr 53 No. 62-39, Barrio Chagualo",
-            "lat": "6.2616022",
-            "lng": "-75.5701836",
-            "phone": [
-                "4481585"
-            ],
-            "cell": [
-                "3148923227"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//REFRIAMIGOS+Centro+de+Servicios,+Avenida+Cundinamarca+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2616022,-75.5701836,17z/data=!4m16!1m6!3m5!1s0x8e4428e47de7d37b:0x9186707e12d590f5!2sREFRIAMIGOS+Centro+de+Servicios!8m2!3d6.2616022!4d-75.5679949!4m8!1m0!1m5!1m1!1s0x8e4428e47de7d37b:0x9186707e12d590f5!2m2!1d-75.5679949!2d6.2616022!3e2"
-        },
-        "kalley-cali-01": {
-            "name": "Centro Técnico",
-            "address": "Cr 10 No. 6-88, Barrio Santa Rosa",
-            "lat": "3.4465227",
-            "lng": "-76.5371942",
-            "phone": [
-                "8803467"
-            ],
-            "cell": [
-                "3167011265",
-                "3163895702",
-                "3173833633"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//Centro+T%C3%A9cnico+Especializado+-+CTE,+Cra.+10+%23%23+6+-+88,+Cali,+Valle+del+Cauca/@3.4465227,-76.5371942,17z/data=!4m16!1m6!3m5!1s0x8e30a7f65d237cc3:0x4cde06e30ceeff1b!2sCentro+T%C3%A9cnico+Especializado+-+CTE!8m2!3d3.4465227!4d-76.5350055!4m8!1m0!1m5!1m1!1s0x8e30a7f65d237cc3:0x4cde06e30ceeff1b!2m2!1d-76.5350055!2d3.4465227!3e2"
-        },
-        "kalley-cali-02": {
-            "name": "Centro Tecnológico",
-            "address": "Cl 70 No. 1F-61, Barrio La Rivera",
-            "lat": "3.4750122",
-            "lng": "-76.4869901",
-            "phone": [
-                "5241856",
-                "5248570"
-            ],
-            "cell": [
-                "3172205902"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+70+%231f-61,+Cali,+Valle+del+Cauca/@3.4750122,-76.4869901,20z/data=!4m17!1m7!3m6!1s0x8e30a7dba6b7d389:0xe29cac49729181d6!2sCl.+70+%231f-61,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4750366!4d-76.4868931!4m8!1m0!1m5!1m1!1s0x8e30a7dba6b7d389:0xe29cac49729181d6!2m2!1d-76.4868931!2d3.4750366!3e2"
-        },
-        "kalley-yopal-01": {
-            "name": "Sertinec",
-            "address": "Cl 24 N0. 28-17, Barrio Villa Sol",
-            "lat": "5.33964",
-            "lng": "-72.3868297",
-            "cell": [
-                "3115747702",
-                "3222794545"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+24+%2328-17,+Yopal,+Casanare/@5.33964,-72.3868297,17z/data=!4m17!1m7!3m6!1s0x8e6b0dac5900d895:0x11cc836f3b3fdf68!2sCl.+24+%2328-17,+Yopal,+Casanare!3b1!8m2!3d5.3397388!4d-72.3869282!4m8!1m0!1m5!1m1!1s0x8e6b0dac5900d895:0x11cc836f3b3fdf68!2m2!1d-72.3869282!2d5.3397388!3e2"
-        },
-        "kalley-yopal-02": {
-            "name": "Refritec Colombia Yopal",
-            "address": "Cl 24 No. 26-32, Barrio Los Andes",
-            "lat": "5.3388596",
-            "lng": "-72.3882506",
-            "cell": [
-                "3177234329",
-                "3222605953"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+24+%2326-32,+Yopal,+Casanare/@5.3388596,-72.3882506,20z/data=!4m17!1m7!3m6!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2sCl.+24+%2326-32,+Yopal,+Casanare!3b1!8m2!3d5.3388021!4d-72.3883587!4m8!1m0!1m5!1m1!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2m2!1d-72.3883587!2d5.3388021!3e2"
+            "link": "https://www.kalley.com.co/servicios/centro-servicios/c/centro-servicios"
         },
         "karcher-bogota": {
             "name": "Karcher Center",
@@ -9393,9 +9118,7 @@
                         },
                         "todas": {
                             "stores": [
-                                "challenger-medellin",
-                                "kalley-medellin-01",
-                                "kalley-medellin-02"
+                                "challenger-medellin"
                             ]
                         },
                         "video": {
@@ -9505,12 +9228,6 @@
                         "todas": {
                             "stores": [
                                 "challenger-barranquilla-call-center"
-                            ]
-                        },
-                        "todas-excepto-telefonia": {
-                            "stores": [
-                                "kalley-barranquilla-01",
-                                "kalley-barranquilla-02"
                             ]
                         },
                         "video": {
@@ -9718,9 +9435,7 @@
                         },
                         "todas": {
                             "stores": [
-                                "challenger-yopal",
-                                "kalley-yopal-01",
-                                "kalley-yopal-02"
+                                "challenger-yopal"
                             ]
                         }
                     }
@@ -10013,8 +9728,7 @@
                                 "pc-smart-bogota",
                                 "phillips-bogota-02",
                                 "phillips-bogota-03",
-                                "samurai-bogota",
-                                "kalley-bogota-04"
+                                "samurai-bogota"
                             ]
                         },
                         "playstation-camaras": {
@@ -10037,11 +9751,6 @@
                         "scooter-electricas": {
                             "stores": [
                                 "emove-bogota"
-                            ]
-                        },
-                        "smart-home-menores": {
-                            "stores": [
-                                "kalley-bogota-05"
                             ]
                         },
                         "telefonia": {
@@ -10101,9 +9810,7 @@
                         "todas": {
                             "stores": [
                                 "challenger-bogota",
-                                "induservix-bogota",
-                                "kalley-bogota-01",
-                                "kalley-bogota-02"
+                                "induservix-bogota"
                             ]
                         },
                         "video": {
@@ -10493,8 +10200,7 @@
                         },
                         "todas": {
                             "stores": [
-                                "challenger-pereira",
-                                "kalley-pereira"
+                                "challenger-pereira"
                             ]
                         },
                         "video": {
@@ -10824,9 +10530,7 @@
                         },
                         "todas": {
                             "stores": [
-                                "challenger-cali",
-                                "kalley-cali-01",
-                                "kalley-cali-02"
+                                "challenger-cali"
                             ]
                         },
                         "video": {
