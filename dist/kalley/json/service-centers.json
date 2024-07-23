@@ -56,20 +56,6 @@
         }
     },
     "serviceCenters": {
-        "amazonas-leticia": {
-            "name": "SERVI AUTORIZADO LETICIA S.A.S.",
-            "address": "Cr 9 No 6 - 100, Lc 2",
-            "email": "henrypolania@gmail.com",
-            "lat": "-4.2166971",
-            "lng": "-69.9422418",
-            "schedule": [
-                "Lun a Sab de 8:30 a.m a 12:30 m y de 2:30 p.m a 7:30 p.m"
-            ],
-            "cell": [
-                "3103892311"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+9+%236-100,+Leticia,+Amazonas/@-4.2166971,-69.9422418,17z/data=!4m17!1m7!3m6!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2sCra.+9+%236-100,+Leticia,+Amazonas!3b1!8m2!3d-4.2166971!4d-69.9400531!4m8!1m0!1m5!1m1!1s0x91f2f14fa9c84db7:0x32c7b8c67f536e3e!2m2!1d-69.9400531!2d-4.2166971!3e3"
-        },
         "antioquia-medellin-01": {
             "name": "FAMILY AIR",
             "address": "CARRERA 53 # 62 - 39",
@@ -148,7 +134,7 @@
                 "Sab de 9:00 a.m a 1:00 p.m"
             ],
             "cell": [
-                "3173726523"
+                "3054365752"
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+53+%23%2350-21,+Medell%C3%ADn,+Antioquia/@6.252401,-75.5690258,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428f96af01c81:0xc5719799e0fba830!8m2!3d6.2523957!4d-75.5668371?hl=es"
         },
@@ -216,21 +202,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+98+%2396-13,+Apartad%C3%B3,+Antioquia/@7.8805215,-76.6337237,1116m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x8e500d7a423946ad:0xde0d6e5343ddc379!2m2!1d-76.631535!2d7.8805215"
         },
-        "antioquia-apartado-03": {
-            "name": "LA BODEGA DEL CELULAR DE LA 97",
-            "address": "Cl 97 # 97 - 10 barrio los Fundadores",
-            "email": "alejodiazj99@hotmail.com",
-            "lat": "7.8811138",
-            "lng": "-76.6326481",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 7:30 p.m",
-                "Sab de 9:00 a.m a 7:00 p.m"
-            ],
-            "cell": [
-                "3225844359"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+97+%2397-10,+Apartad%C3%B3,+Antioquia/@7.8811138,-76.6326481,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e500d7a6420ebe7:0xd67cb62483e81016!2m2!1d-76.6304594!2d7.8811138?hl=es&entry=ttu"
-        },
         "antioquia-bello": {
             "name": "ALMACEN Y CENTRO DE REPARACIÓN LA SOLUCIÓN",
             "address": "Cr 50 No 46 - 107",
@@ -279,10 +250,10 @@
         },
         "antioquia-itagui": {
             "name": "PINTUELECTRO MEJIA H",
-            "address": "Cl 36 No 45 - 35, Barrio San Pio",
+            "address": "Diag 43 # 34A -35 Barrio la Independencia",
             "email": "pintuelectro@gmail.com",
-            "lat": "6.1661241",
-            "lng": "-75.6208494",
+            "lat": "6.1658765",
+            "lng": "-75.6194634",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
@@ -295,7 +266,7 @@
                 "3133289220",
                 "3015612712"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+36+%2345-35,+Itag%C3%BCi,+Antioquia/@6.1661241,-75.6208494,17z/data=!4m17!1m7!3m6!1s0x8e4683d53b58323b:0xebaed6ebe3cfb985!2sCl.+36+%2345-35,+Itag%C3%BCi,+Antioquia!3b1!8m2!3d6.1661241!4d-75.6186607!4m8!1m0!1m5!1m1!1s0x8e4683d53b58323b:0xebaed6ebe3cfb985!2m2!1d-75.6186607!2d6.1661241!3e3"
+            "viewMap": "https://maps.app.goo.gl/5UDsg2XpmCMV6yX78"
         },
         "antioquia-itagui-2": {
             "name": "HERZAGA",
@@ -428,10 +399,10 @@
                 "Sab de 9:00 a.m a 2:00 p.m"
             ],
             "phone": [
-                "5313346"
+                "8146262"
             ],
             "cell": [
-                "3053097088"
+                "3012901623"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+43d+Sur+%2368b-63,+Bogot%C3%A1/@4.5969316,-74.1438053,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9edb6659d0cf:0xefddfef553fe46a9!2m2!1d-74.1412304!2d4.5969316?hl=es&entry=ttu"
         },
@@ -453,10 +424,10 @@
         },
         "bogota-05": {
             "name": "Quality & Service S.A.S - Sede Sur",
-            "address": "Cl 31 Sur No. 50A-79",
+            "address": "Av Cra  50 # 31 - 29 Sur Local 1",
             "email": "info@qualityandservice.co",
-            "lat": "4.6011046",
-            "lng": "-74.1267243",
+            "lat": "4.6000425",
+            "lng": "-74.1261272",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
@@ -468,7 +439,7 @@
                 "3017887642",
                 "3005095873"
             ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+31+Sur+%2350a-79,+Bogot%C3%A1/@4.6011046,-74.1267243,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9eccd31f6659:0x39ef7aa4efde845c!8m2!3d4.6010993!4d-74.1245356?hl=es"
+            "viewMap": "https://maps.app.goo.gl/yHi5uySTA8tisicD6"
         },
         "bogota-06": {
             "name": "Quality & Service S.A.S - Sede Chapinero",
@@ -558,6 +529,21 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+9+%2329-25,+Bogot%C3%A1/@4.6090445,-74.0976709,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e3f996b6496b25b:0xeecb7b9b8acaed2!2m2!1d-74.095096!2d4.6090445!3e0?entry=ttu"
         },
+        "bogota-12": {
+            "name": "HOME SERVICE DE COLOMBIA S.A.S",
+            "address": "Av 1 de Mayo # 51D - 45 Sur",
+            "email": "homeserviceserv24@gmail.com",
+            "lat": "4.6048601",
+            "lng": "-74.127649",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "cell": [
+                "3138307225"
+            ],
+            "viewMap": "https://maps.app.goo.gl/sdJUY1q4FLgCLz587"
+        },
         "bolivar-cartagena-02": {
             "name": "ELECTRÓNICA ESPECIALIZADA",
             "address": "Villa Sandra, Manzana C, Lote 19, Piso 2",
@@ -637,24 +623,6 @@
                 "3124725102"
             ],
             "viewMap": "https://www.google.com/maps/dir//Tv.+5+%2367b-16,+Tunja,+Boyac%C3%A1/@5.5700644,-73.3453543,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e6a7d18a2a56407:0x9520653df0767912!2m2!1d-73.3427794!2d5.5700644!3e0?entry=ttu"
-        },
-        "boyaca-puertoboyaca": {
-            "name": "ALMACÉN Y CENTRO DE SERVICIO FLORIDO",
-            "address": "Cr 4 No 12 - 22, Barrio Centro",
-            "email": "almacenflorido@hotmail.com",
-            "lat": "5.976535",
-            "lng": "-74.5932588",
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 6:30 p.m"
-            ],
-            "phone": [
-                "7386263"
-            ],
-            "cell": [
-                "3112337865",
-                "3112337865"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+4+%2312-22,+Puerto+Boyac%C3%A1,+Boyac%C3%A1/@5.976535,-74.5932588,17z/data=!4m17!1m7!3m6!1s0x8e41682af796a219:0xe08d6caed7980d19!2zQ3JhLiA0ICMxMi0yMiwgUHVlcnRvIEJveWFjw6EsIEJveWFjw6E!3b1!8m2!3d5.976535!4d-74.5910701!4m8!1m0!1m5!1m1!1s0x8e41682af796a219:0xe08d6caed7980d19!2m2!1d-74.5910701!2d5.976535!3e3"
         },
         "bolivar-magangue": {
             "name": "ELECTRÓNICA ASOCIADOS",
@@ -739,6 +707,21 @@
                 "3183402215"
             ],
             "viewMap": "https://www.google.com/maps/dir//Av.+Pradilla+%233-40,+Ch%C3%ADa,+Cundinamarca/@4.8634592,-74.0536375,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e3f87f4fd0846b7:0x4d37f1e8076f7b34!2m2!1d-74.0510626!2d4.8634592!3e0?entry=ttu"
+        },
+        "cundinamarca-girardot": {
+            "name": "SR. FRIO",
+            "address": "Cl 20 # 16 -36",
+            "email": "csa.sr.frio@gmail.com",
+            "lat": "4.608543",
+            "lng": "-74.0787834",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
+            ],
+            "cell": [
+                "3502866214"
+            ],
+            "viewMap": "https://maps.app.goo.gl/VqDaqECbCFvhGFp4A"
         },
         "cundinamarca-sesquile": {
             "name": "REPARARMITV.COM",
@@ -981,22 +964,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+6+%2315-35,+Popay%C3%A1n,+Cauca/@2.4430031,-76.6163932,17z/data=!4m17!1m7!3m6!1s0x8e30031712f47047:0x29ea1b066b9668c1!2sCl.+6+%2315-35,+Popay%C3%A1n,+Cauca!3b1!8m2!3d2.4430031!4d-76.6142045!4m8!1m0!1m5!1m1!1s0x8e30031712f47047:0x29ea1b066b9668c1!2m2!1d-76.6142045!2d2.4430031!3e3"
         },
-        "caqueta-caguan": {
-            "name": "EL PUNTO ELECTRÓNICO",
-            "address": "Cr 7 No 6A - 41",
-            "email": "elpuntoelectronico1@hotmail.com",
-            "lat": "2.1128973",
-            "lng": "-74.7729966",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 2:00 p.m"
-            ],
-            "cell": [
-                "3115496065",
-                "3124653990"
-            ],
-            "viewMap": "https://www.google.com/maps/search/Carrera+7+%236a-41,+San+Vicente+del+Cagu%C3%A1n,+San+Vicente+Del+Cagu%C3%A1n,+Caquet%C3%A1/@2.1128973,-74.7729966,17z/data=!3m1!4b1"
-        },
         "casanare-yopal-01": {
             "name": "SERTINEC",
             "address": "Cl 24 No 28 - 17",
@@ -1012,21 +979,6 @@
                 "3222794545"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+24+%2328-17,+Yopal,+Casanare/@5.3397357,-72.3891152,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8e6b0dac5900d895:0x11cc836f3b3fdf68!2m2!1d-72.3869265!2d5.3397357!3e3"
-        },
-        "casanare-yopal-02": {
-            "name": "REFRITEC COLOMBIA YOPAL",
-            "address": "Cl 24 No 26 - 32, Los Andes",
-            "email": "servicio.casanare@refriteccolombia.com",
-            "lat": "5.3388021",
-            "lng": "-72.3905474",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "cell": [
-                "3177234329"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+24+%2326-32,+Yopal,+Casanare/@5.3388021,-72.3905474,17z/data=!4m17!1m7!3m6!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2sCl.+24+%2326-32,+Yopal,+Casanare!3b1!8m2!3d5.3388021!4d-72.3883587!4m8!1m0!1m5!1m1!1s0x8e6b0dadb8719f1b:0xca984aedcad7dbb7!2m2!1d-72.3883587!2d5.3388021!3e3"
         },
         "casanare-yopal-03": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
@@ -1102,10 +1054,10 @@
         },
         "guajira-rioacha": {
             "name": "López Digital",
-            "address": "Cl 33 No. 12C-08",
+            "address": "Cl 27B No 21-35 Local 4",
             "email": "csald68@gmail.com",
-            "lat": "11.543884",
-            "lng": "-72.9222954",
+            "lat": "11.5309967",
+            "lng": "-72.9179082",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m",
                 "Sab de 8:30 a.m a 12:00 m"
@@ -1114,9 +1066,9 @@
                 "7301346"
             ],
             "cell": [
-                "3234677676"
+                "3142199100"
             ],
-            "viewMap": "https://www.google.com/maps/search/Cl.+33+%23no.+12c-08,+Riohacha,+La+Guajira/@11.543884,-72.9222954,17z/data=!3m1!4b1?hl=es"
+            "viewMap": "https://maps.app.goo.gl/LTbkBeWZEw38FrRcA"
         },
         "huila-garzon": {
             "name": "ELECTRÓNICAS AUDIO Y COLOR",
@@ -1251,20 +1203,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+15+%236-56,+Santa+Marta,+Magdalena/@11.2438113,-74.2112064,17z/data=!4m17!1m7!3m6!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2sCl.+15+%236-56,+Santa+Marta,+Magdalena!3b1!8m2!3d11.2438113!4d-74.2090177!4m8!1m0!1m5!1m1!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2m2!1d-74.2090177!2d11.2438113!3e3"
         },
-        "meta-acacias-02": {
-            "name": "ZAC SOLUCIONES Y SERVICIOS S.A.S.",
-            "address": "CRA 18 # 7 A -21 BARRIO PABLO EMILIO RIVEROS",
-            "email": "Zacsolucionesacacias@hotmail.com",
-            "lat": "3.9814776",
-            "lng": "-73.7667663",
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m"
-            ],
-            "cell": [
-                "3157644789"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+15a+%2332-31,+Acac%C3%ADas,+Meta/@3.9895736,-73.776596,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8e3e39345275d829:0x158c7eab42d3e6be!2m2!1d-73.7744073!2d3.9895736!3e3"
-        },
         "meta-villavicencio": {
             "name": "ZAC SOLUCIONES Y SERVICIOS S.A.S.",
             "address": "CALLE 19 # 39 A 09 BARRIO CAMOA",
@@ -1331,13 +1269,10 @@
                 "Sab de 8:30 a.m a 12:00 m"
             ],
             "phone": [
-                "7235128",
-                "7297005"
+                "7220330"
             ],
             "cell": [
-                "3128928297",
-                "315 4749707",
-                "3115747702"
+                "3165266767"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+16c+%2339+-+11,+Pasto,+Nari%C3%B1o/@1.2224999,-77.2876348,18.4z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e2ed38084412063:0xb252dcba569a05f1!2m2!1d-77.2869592!2d1.222682!3e3"
         },
@@ -1376,25 +1311,6 @@
                 "3207893262"
             ],
             "viewMap": "https://www.google.com/maps/search/Av+La+Playa+Barrio+La+Paz,+Casa+1,+Continuo+A+Merca+Z,+pasto/@1.209051,-77.2821165,14.71z"
-        },
-        "narino-ipiales": {
-            "name": "TALLER TECNICENTRO ELECTRÓNICO",
-            "address": "Cl 22 No 4 - 09, Barrio San Vicente",
-            "email": "cecarwil@gmail.com",
-            "lat": "0.8319444",
-            "lng": "-77.6474387",
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:30 m"
-            ],
-            "phone": [
-                "7252675"
-            ],
-            "cell": [
-                "3155118113",
-                "3168463114"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+4+%26+Cl.+22,+Ipiales,+Nari%C3%B1o/@0.83194,-77.6474387,17z/data=!4m17!1m7!3m6!1s0x8e296bdc593d3cd1:0x7e71ba7f5008bfdc!2sCra.+4+%26+Cl.+22,+Ipiales,+Nari%C3%B1o!3b1!8m2!3d0.83194!4d-77.64525!4m8!1m0!1m5!1m1!1s0x8e296bdc593d3cd1:0x7e71ba7f5008bfdc!2m2!1d-77.64525!2d0.83194!3e3"
         },
         "norte-santander-cucuta-01": {
             "name": "COMERCIALIZADORA NELCY",
@@ -1793,7 +1709,7 @@
             "schedule": [
                 "Lun a Sab de 8:30 a.m a 8:00 p.m"
             ],
-            "phone":[
+            "phone": [
                 "3041437"
             ],
             "cel": [
@@ -1991,45 +1907,25 @@
                 "3163134683"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca/@4.0822701,-76.2032486,17z/data=!4m17!1m7!3m6!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2sCl.+30+%2321-60,+Tulu%C3%A1,+Valle+del+Cauca!3b1!8m2!3d4.0822701!4d-76.2010599!4m8!1m0!1m5!1m1!1s0x8e39c5c7fa68a727:0x96f17dc8ca12218d!2m2!1d-76.2010599!2d4.0822701!3e3"
+        },
+        "vichada-puerto-carreno": {
+            "name": "ELECTRO REFRIGERACIÓN VICHADA",
+            "address": "Cra 7 # 15-143 Barrio el Recreo",
+            "email": "pinedadumareduardo@gmail.com",
+            "lat": "6.1836098",
+            "lng": "-67.4826998",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
+            ],
+            "cell": [
+                "3504825860",
+                "3136756214"
+            ],
+            "viewMap": "https://maps.app.goo.gl/tjwr7feCsHM5VsVk9"
         }
     },
     "departments": {
-        "amazonas": {
-            "name": "Amazonas",
-            "cities": {
-                "leticia": {
-                    "areaCode": 8,
-                    "name": "Leticia",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "amazonas-leticia"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "amazonas-leticia"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "amazonas-leticia"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "amazonas-leticia"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "amazonas-leticia"
-                            ]
-                        }
-                    }
-                }
-            }
-        },
         "antioquia": {
             "name": "Antioquia",
             "cities": {
@@ -2074,11 +1970,6 @@
                                 "antioquia-apartado-02"
                             ]
                         },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "antioquia-apartado-03"
-                            ]
-                        },
                         "refrigeracion": {
                             "stores": [
                                 "antioquia-apartado-01"
@@ -2087,11 +1978,6 @@
                         "tabletas": {
                             "stores": [
                                 "antioquia-apartado-02"
-                            ]
-                        },
-                        "telefonia-celular": {
-                            "stores": [
-                                "antioquia-apartado-03"
                             ]
                         }
                     }
@@ -2844,42 +2730,6 @@
                         }
                     }
                 },
-                "puerto-boyaca": {
-                    "areaCode": 8,
-                    "name": "Puerto Boyacá",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "boyaca-puertoboyaca"
-                            ]
-                        }
-                    }
-                },
                 "Tunja": {
                     "areaCode": 8,
                     "name": "Tunja",
@@ -3156,47 +3006,6 @@
                             ]
                         }
                     }
-                },
-                "san-vicente-del-caguan": {
-                    "areaCode": 8,
-                    "name": "San Vicente del Caguan",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "caqueta-caguan"
-                            ]
-                        }
-                    }
                 }
             }
         },
@@ -3209,53 +3018,45 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "audio-video": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "cuidado-personal": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "ferreteria": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
@@ -3267,34 +3068,29 @@
                         "lavadoras": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
                                 "casanare-yopal-01",
-                                "casanare-yopal-02",
                                 "casanare-yopal-03"
                             ]
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "casanare-yopal-01",
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         }
                     }
@@ -4018,12 +3814,14 @@
                                 "bogota-06",
                                 "bogota-07",
                                 "bogota-10",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "bogota-09"
+                                "bogota-09",
+                                "bogota-12"
                             ]
                         },
                         "audio-video": {
@@ -4033,7 +3831,8 @@
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-10",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "casa-inteligente": {
@@ -4043,7 +3842,8 @@
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-10",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "cuidado-personal": {
@@ -4062,7 +3862,8 @@
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-09",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "ferreteria": {
@@ -4079,7 +3880,8 @@
                             "stores": [
                                 "bogota-05",
                                 "bogota-06",
-                                "bogota-09"
+                                "bogota-09",
+                                "bogota-12"
                             ]
                         },
                         "iluminacion": {
@@ -4087,7 +3889,8 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-05",
-                                "bogota-06"
+                                "bogota-06",
+                                "bogota-12"
                             ]
                         },
                         "lavadoras": {
@@ -4096,7 +3899,8 @@
                                 "bogota-02",
                                 "bogota-05",
                                 "bogota-06",
-                                "bogota-09"
+                                "bogota-09",
+                                "bogota-12"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -4106,7 +3910,8 @@
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-07",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "refrigeracion": {
@@ -4115,7 +3920,8 @@
                                 "bogota-02",
                                 "bogota-05",
                                 "bogota-06",
-                                "bogota-09"
+                                "bogota-09",
+                                "bogota-12"
                             ]
                         },
                         "smart-home-menores": {
@@ -4125,7 +3931,8 @@
                                 "bogota-05",
                                 "bogota-06",
                                 "bogota-10",
-                                "bogota-11"
+                                "bogota-11",
+                                "bogota-12"
                             ]
                         },
                         "tabletas": {
@@ -4141,6 +3948,87 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02"
+                            ]
+                        }
+                    }
+                },
+                "girardot": {
+                    "areaCode": 1,
+                    "name": "Girardot",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "aires-acondicionados": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "cuidado-personal": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "iluminacion": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "tabletas": {
+                            "stores": [
+                                "cundinamarca-girardot"
+                            ]
+                        },
+                        "telefonia-celular": {
+                            "stores": [
+                                "cundinamarca-girardot"
                             ]
                         }
                     }
@@ -4656,72 +4544,6 @@
         "meta": {
             "name": "Meta",
             "cities": {
-                "acacias": {
-                    "areaCode": 8,
-                    "name": "Acacias",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "dispensadores": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "lavadoras": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "smart-home-menores": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "meta-acacias-02"
-                            ]
-                        }
-                    }
-                },
                 "villavicencio": {
                     "areaCode": 8,
                     "name": "Villavicencio",
@@ -4798,37 +4620,6 @@
         "narino": {
             "name": "Nariño",
             "cities": {
-                "ipiales": {
-                    "areaCode": 2,
-                    "name": "Ipiales",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "narino-ipiales"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "narino-ipiales"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "narino-ipiales"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "narino-ipiales"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "narino-ipiales"
-                            ]
-                        }
-                    }
-                },
                 "pasto": {
                     "areaCode": 2,
                     "name": "Pasto",
@@ -6410,6 +6201,67 @@
                         "refrigeracion": {
                             "stores": [
                                 "valle-cauca-jamundi"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "vichada": {
+            "name": "Vichada",
+            "cities": {
+                "puerto-carreno": {
+                    "areaCode": 8,
+                    "name": "Puerto Carreño",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "aires-acondicionados": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "iluminacion": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "vichada-puerto-carreno"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "vichada-puerto-carreno"
                             ]
                         }
                     }
