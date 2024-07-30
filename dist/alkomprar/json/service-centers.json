@@ -1629,8 +1629,8 @@
                 "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 3:30 p.m",
-                "Sab de 8:00 a.m - 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1648,8 +1648,8 @@
                 "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 3:30 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1682,8 +1682,8 @@
                 "3187093688"
             ],
             "schedule": [
-                "Lun a Vie de 7:30 a.m a 3:45 p.m",
-                "Sab de 7:30 a.m a 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1701,8 +1701,8 @@
                 "3183352138"
             ],
             "schedule": [
-                "Lun a Vie de 7:30 a.m a 3:45 p.m",
-                "Sab de 7:30 a.m a 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1722,8 +1722,8 @@
                 "3174389740"
             ],
             "schedule": [
-                "Lun a Vie de 7:30 a.m a 3:45 p.m",
-                "Sab de 7:30 a.m a 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
@@ -1738,12 +1738,12 @@
                 "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 4:00 p.m",
-                "Sab de 7:00 a.m a 11:30 a.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
-            "viewMap": "https://www.google.com/maps/dir//Av.+4+Nte.+%2325N-62,+San+Vicente,+Cali,+Valle+del+Cauca/@3.4684004,-76.5264247,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e30a616089e28cd:0xb91b655932b29f24!2m2!1d-76.5264247!2d3.4684004!3e0?entry=ttu"
+            "viewMap": "https://maps.app.goo.gl/UV4wx4obSx2L4Tnv8"
         },
         "asus-envigado": {
             "name": "Asus Envigado",
@@ -1757,8 +1757,8 @@
                 "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 3:30 p.m",
-                "Sab de 7:00 a.m a 12:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m",
+                "Mar a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
             "link": "https://www.asus.com/co/support/service-center/colombia",
