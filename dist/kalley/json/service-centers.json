@@ -969,7 +969,7 @@
             "address": "Cl 24 No 28 - 17",
             "email": "sertinecadm@gmail.com",
             "lat": "5.3397357",
-            "lng": "-72.3891152",
+            "lng": "-72.3920767",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:30 m y 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
@@ -984,8 +984,8 @@
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
             "address": "Cl 24 No 29 - 19",
             "email": "yopal@homeservicecolombia.com.co",
-            "lat": "5.3402526",
-            "lng": "-72.388291",
+            "lat": "5.3402219",
+            "lng": "-72.3882306",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
@@ -3062,7 +3062,7 @@
                         },
                         "iluminacion": {
                             "stores": [
-                                "casanare-yopal-02"
+                                "casanare-yopal-01"
                             ]
                         },
                         "lavadoras": {
