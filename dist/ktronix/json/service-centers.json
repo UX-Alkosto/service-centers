@@ -223,6 +223,22 @@
                 "valle-del-cauca"
             ]
         },
+        "cooluli": {
+            "name": "Cooluli",
+            "departments": [
+                "antioquia",
+                "atlantico",
+                "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
+            ]
+        },
         "compaq": {
             "name": "Compaq",
             "departments": [
@@ -1067,6 +1083,22 @@
             "name": "Verbatim",
             "departments": [
                 "linea-nacional"
+            ]
+        },
+        "viastara": {
+            "name": "Viastara",
+            "departments": [
+                "antioquia",
+                "atlantico",
+                "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
             ]
         },
         "v-tech": {
@@ -2990,6 +3022,533 @@
             ],
             "type": "externo",
             "link": "https://mabeglobal.com/es_CO/servicio-mabe"
+        },
+        "cooluli-barranquilla-01": {
+            "name": "Alkosto Barranquilla",
+            "address": "Calle 98 # 51B - 91",
+            "lat": "11.0118265",
+            "lng": "-74.8282297",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WET6qkkFwkmtoRB86"
+        },
+        "cooluli-barranquilla-02": {
+            "name": "K-Tronix Barranquilla, Soledad",
+            "address": "Calle 30 # 4B-50 C.C Parque Alegra",
+            "lat": "10.9446593",
+            "lng": "-74.7854084",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/AmKpKtCykSUVA2e8A"
+        },
+        "cooluli-bogota-01": {
+            "name": "Alkosto 170",
+            "address": "Carrera 69 # 170-15",
+            "lat": "4.7600474",
+            "lng": "-74.0636937",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/HJn6aHmPHY4X61DT8"
+        },
+        "cooluli-bogota-02": {
+            "name": "Alkosto Carrera 30",
+            "address": "Carrera 30 No. 10-77",
+            "lat": "4.610682",
+            "lng": "-74.095165",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/Rez6zZ6fXrDs8jJr8"
+        },
+        "cooluli-bogota-03": {
+            "name": "Alkosto Avenida 68",
+            "address": "AK 68 #72-43",
+            "lat": "4.6798383",
+            "lng": "-74.085863",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/adcBE1pz3P5adiva6"
+        },
+        "cooluli-bogota-04": {
+            "name": "Alkosto El Eden",
+            "address": "AK 72 no. 12B-60  Local L1-102",
+            "lat": "4.6461262",
+            "lng": "-74.128315",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/M8httciQ5vhzBpDa8"
+        },
+        "cooluli-bogota-05": {
+            "name": "Alkosto Venecia",
+            "address": "Diag.44Sur No 51-90",
+            "lat": "4.5962338",
+            "lng": "-74.139498",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CakmTWPKgiEWcMCU8"
+        },
+        "cooluli-bogota-06": {
+            "name": "Ktronix Plaza de las Americas",
+            "address": "CC Plaza de las Americas Tv 71D # 26-94 Sur Local 1902",
+            "lat": "4.6190921",
+            "lng": "-74.1375782",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/maLU94HRheb1NkZo7"
+        },
+        "cooluli-bogota-07": {
+            "name": "K-Tronix calle 94",
+            "address": "Calle 94 No. 15-14",
+            "lat": "4.6797388",
+            "lng": "-74.0506037",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/283YGSrgVcqBeHcA9"
+        },
+        "cooluli-bogota-08": {
+            "name": "K-Tronix 20 de Julio",
+            "address": "Calle 25 B sur # 5-87 Primer piso",
+            "lat": "4.5694815",
+            "lng": "-74.0935942",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/zaM1gopiRYKVnP6b7"
+        },
+        "cooluli-bogota-09": {
+            "name": "K-Tronix Centro Mayor",
+            "address": "Avenida. Carrera 27 # 38A -83 Sur locales 13 14 15 16 y 17",
+            "lat": "4.5901973",
+            "lng": "-74.1237773",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/mLWSchM9KZ2k8WVb6"
+        },
+        "cooluli-bogota-10": {
+            "name": "K-Tronix Salitre",
+            "address": "Carrera 68 B N. 25 B 80",
+            "lat": "4.654964",
+            "lng": "-74.1055184",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nw5VV28z3E2PugP36"
+        },
+        "cooluli-bogota-11": {
+            "name": "K-Tronix Suba",
+            "address": "Tran 91 #135-56",
+            "lat": "4.7338077",
+            "lng": "-74.0851662",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/8TA8jgxYt9rbFAX99"
+        },
+        "cooluli-bogota-12": {
+            "name": "K-Tronix Titan",
+            "address": "Avenida Boyaca - Calle 80. CC. Titan Plaza Local 3-10",
+            "lat": "4.6956651",
+            "lng": "-74.0868868",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/XLbxVU8Bf6W9PvyTA"
+        },
+        "cooluli-bogota-13": {
+            "name": "K-Tronix Cra 15",
+            "address": "Carrera 15 # 123 - 08",
+            "lat": "4.7018014",
+            "lng": "-74.0431838",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/y3NToiTdmCvUhkio9"
+        },
+        "cooluli-bogota-14": {
+            "name": "K-Tronix Mallplaza NQS",
+            "address": "Avenida calle 19 # 28-80  C.C Mallplaza NQS Local B -65",
+            "lat": "4.6247939",
+            "lng": "-74.0962641",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ehPo1tFJDzyxew5N8"
+        },
+        "cooluli-bucaramanga-01": {
+            "name": "K-tronix Bucaramanga",
+            "address": "Centro Comercial Cacique, Tv 93 # 34 - 99",
+            "lat": "7.0994693",
+            "lng": "-73.1074737",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WfvoP738UWbH4RB46"
+        },
+        "cooluli-cali-01": {
+            "name": "Alkosto Cali",
+            "address": "CALLE 13   No   80  -  187",
+            "lat": "3.3852359",
+            "lng": "-76.5378275",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nezyemHpe1LHvAvU7"
+        },
+        "cooluli-cali-02": {
+            "name": "Alkosto Cali Norte",
+            "address": "Carrera 1 con, calle 62 Nte",
+            "lat": "3.4828712",
+            "lng": "-76.4987564",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/YehhPYJvu5PtSMyh8"
+        },
+        "cooluli-cali-03": {
+            "name": "K-Tronix Cali Chipichape",
+            "address": "Calle 38 # 6-35 Norte CC Chipichape Loc 101",
+            "lat": "3.4750389",
+            "lng": "-76.5268283",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CJpK8zcfiM3udRgSA"
+        },
+        "cooluli-chia-01": {
+            "name": "K-Tronix Fontanar Chia",
+            "address": "C.C Fontanar KM 2.5 Via Chia Cajica LOCAL 2-49B",
+            "lat": "4.8835833",
+            "lng": "-74.034921",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/kvcL96qyzVMJ44KB7"
+        },
+        "cooluli-floridablanca-01": {
+            "name": "Alkosto Floridablanca",
+            "address": "Km 2.5 Anillo Vial Giron Floridablanca",
+            "lat": "7.0617908",
+            "lng": "-73.1171095",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/xYtHH9vyrLG7L4Br6"
+        },
+        "cooluli-fusagasuga-01": {
+            "name": "K-Tronix Fusa",
+            "address": "CALLE 8 # 24 - 84 L. 327 Bod. Alterna D 302",
+            "lat": "4.3440857",
+            "lng": "-74.3746941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/6Yanog5QCZoSfKb17"
+        },
+        "cooluli-girardot-01": {
+            "name": "K-Tronix Girardot",
+            "address": "Diagonal 8 # 33-26 Local 2-47",
+            "lat": "4.3076732",
+            "lng": "-74.7979199",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ukEBCWX85mmXFoSAA"
+        },
+        "cooluli-manizales-01": {
+            "name": "K-Tronix Manizales",
+            "address": "Avenida Kevin Angel Call 56 y 57G CC Mall Plaza Local 1033",
+            "lat": "5.0662821",
+            "lng": "-75.4904941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bDxp8XERc3mYZq6x7"
+        },
+        "cooluli-medellin-01": {
+            "name": "K-Tronix Arkadia",
+            "address": "Carrera 70 #1-19 Local 0332",
+            "lat": "6.2113015",
+            "lng": "-75.5946153",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/b7C3ttVfPdPLCdMP8"
+        },
+        "cooluli-medellin-02": {
+            "name": "K-Tronix Poblado Medellin",
+            "address": "Carrera 43 A # 1 SUR - 272",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/KE19iNnk9m5eMsjy6"
+        },
+        "cooluli-medellin-03": {
+            "name": "K-Tronix El Tesoro",
+            "address": "Carrera 25A#1Asur. Local 3589 Etapa 3",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/jvAjBLjKeUjxg3CX8"
+        },
+        "cooluli-mosquera-01": {
+            "name": "K-Tronix Mosquera",
+            "address": "Carrera 3ra # 15A-57 C.C Ecoplaza Local 255-256",
+            "lat": "4.7126476",
+            "lng": "-74.2215065",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/A4Bd9MEfMqSxaWMx8"
+        },
+        "cooluli-pereira-01": {
+            "name": "Alkosto Pereira",
+            "address": "Avenida Americas No. 46-03",
+            "lat": "4.8083112",
+            "lng": "-75.7183967",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bTn6o773Bhy9ai6b9"
+        },
+        "cooluli-sincelejo-01": {
+            "name": "Alkosto Sincelejo",
+            "address": "C.C. Guacari / Calle 28 # 25 B 97 LoCalle 1 - 101",
+            "lat": "9.3034184",
+            "lng": "-75.3819611",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/S2stokPKKgnyjCbK7"
+        },
+        "cooluli-soacha-01": {
+            "name": "K-Tronix Soacha CC Antares",
+            "address": "CC Antares Carrera 7N # 30B 139 Local 210 Soacha",
+            "lat": "4.5875654",
+            "lng": "-74.2057571",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/QnsEXvJyFPtJqjJv9"
+        },
+        "cooluli-tunja-01": {
+            "name": "K-Tronix Tunja",
+            "address": "Avenida universitaria No 50 - 21",
+            "lat": "5.5570149",
+            "lng": "-73.3465652",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/MvRFWhPMZRvfmjNT6"
+        },
+        "cooluli-villavicencio-01": {
+            "name": "Alkosto Villavicencio",
+            "address": "Calle 31 # 31-95",
+            "lat": "4.1439624",
+            "lng": "-73.6330462",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/RBt6qDAtMHcy3E7B6"
+        },
+        "cooluli-villavicencio-02": {
+            "name": "K-Tronix Villavicencio",
+            "address": "Calle 7 # 45-185 C.C. Viva Local 117 A",
+            "lat": "4.1244894",
+            "lng": "-73.6376054",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/am3SwciFjEevMFXP7"
+        },
+        "cooluli-yopal-01": {
+            "name": "Alkosto Yopal",
+            "address": "Calle 24 No- 28 -72. C.C Morichal Plaza",
+            "lat": "5.3394063",
+            "lng": "-72.3859833",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/VqSyiUqJsyXQgicH9"
         },
         "challenger-armenia": {
             "name": "Quindio Digital",
@@ -8174,6 +8733,533 @@
             ],
             "type": "interno"
         },
+        "viastara-barranquilla-01": {
+            "name": "Alkosto Barranquilla",
+            "address": "Calle 98 # 51B - 91",
+            "lat": "11.0118265",
+            "lng": "-74.8282297",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WET6qkkFwkmtoRB86"
+        },
+        "viastara-barranquilla-02": {
+            "name": "K-Tronix Barranquilla, Soledad",
+            "address": "Calle 30 # 4B-50 C.C Parque Alegra",
+            "lat": "10.9446593",
+            "lng": "-74.7854084",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/AmKpKtCykSUVA2e8A"
+        },
+        "viastara-bogota-01": {
+            "name": "Alkosto 170",
+            "address": "Carrera 69 # 170-15",
+            "lat": "4.7600474",
+            "lng": "-74.0636937",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/HJn6aHmPHY4X61DT8"
+        },
+        "viastara-bogota-02": {
+            "name": "Alkosto Carrera 30",
+            "address": "Carrera 30 No. 10-77",
+            "lat": "4.610682",
+            "lng": "-74.095165",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/Rez6zZ6fXrDs8jJr8"
+        },
+        "viastara-bogota-03": {
+            "name": "Alkosto Avenida 68",
+            "address": "AK 68 #72-43",
+            "lat": "4.6798383",
+            "lng": "-74.085863",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/adcBE1pz3P5adiva6"
+        },
+        "viastara-bogota-04": {
+            "name": "Alkosto El Eden",
+            "address": "AK 72 no. 12B-60  Local L1-102",
+            "lat": "4.6461262",
+            "lng": "-74.128315",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/M8httciQ5vhzBpDa8"
+        },
+        "viastara-bogota-05": {
+            "name": "Alkosto Venecia",
+            "address": "Diag.44Sur No 51-90",
+            "lat": "4.5962338",
+            "lng": "-74.139498",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CakmTWPKgiEWcMCU8"
+        },
+        "viastara-bogota-06": {
+            "name": "Ktronix Plaza de las Americas",
+            "address": "CC Plaza de las Americas Tv 71D # 26-94 Sur Local 1902",
+            "lat": "4.6190921",
+            "lng": "-74.1375782",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/maLU94HRheb1NkZo7"
+        },
+        "viastara-bogota-07": {
+            "name": "K-Tronix calle 94",
+            "address": "Calle 94 No. 15-14",
+            "lat": "4.6797388",
+            "lng": "-74.0506037",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/283YGSrgVcqBeHcA9"
+        },
+        "viastara-bogota-08": {
+            "name": "K-Tronix 20 de Julio",
+            "address": "Calle 25 B sur # 5-87 Primer piso",
+            "lat": "4.5694815",
+            "lng": "-74.0935942",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/zaM1gopiRYKVnP6b7"
+        },
+        "viastara-bogota-09": {
+            "name": "K-Tronix Centro Mayor",
+            "address": "Avenida. Carrera 27 # 38A -83 Sur locales 13 14 15 16 y 17",
+            "lat": "4.5901973",
+            "lng": "-74.1237773",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/mLWSchM9KZ2k8WVb6"
+        },
+        "viastara-bogota-10": {
+            "name": "K-Tronix Salitre",
+            "address": "Carrera 68 B N. 25 B 80",
+            "lat": "4.654964",
+            "lng": "-74.1055184",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nw5VV28z3E2PugP36"
+        },
+        "viastara-bogota-11": {
+            "name": "K-Tronix Suba",
+            "address": "Tran 91 #135-56",
+            "lat": "4.7338077",
+            "lng": "-74.0851662",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/8TA8jgxYt9rbFAX99"
+        },
+        "viastara-bogota-12": {
+            "name": "K-Tronix Titan",
+            "address": "Avenida Boyaca - Calle 80. CC. Titan Plaza Local 3-10",
+            "lat": "4.6956651",
+            "lng": "-74.0868868",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/XLbxVU8Bf6W9PvyTA"
+        },
+        "viastara-bogota-13": {
+            "name": "K-Tronix Cra 15",
+            "address": "Carrera 15 # 123 - 08",
+            "lat": "4.7018014",
+            "lng": "-74.0431838",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/y3NToiTdmCvUhkio9"
+        },
+        "viastara-bogota-14": {
+            "name": "K-Tronix Mallplaza NQS",
+            "address": "Avenida calle 19 # 28-80  C.C Mallplaza NQS Local B -65",
+            "lat": "4.6247939",
+            "lng": "-74.0962641",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ehPo1tFJDzyxew5N8"
+        },
+        "viastara-bucaramanga-01": {
+            "name": "K-tronix Bucaramanga",
+            "address": "Centro Comercial Cacique, Tv 93 # 34 - 99",
+            "lat": "7.0994693",
+            "lng": "-73.1074737",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WfvoP738UWbH4RB46"
+        },
+        "viastara-cali-01": {
+            "name": "Alkosto Cali",
+            "address": "CALLE 13   No   80  -  187",
+            "lat": "3.3852359",
+            "lng": "-76.5378275",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nezyemHpe1LHvAvU7"
+        },
+        "viastara-cali-02": {
+            "name": "Alkosto Cali Norte",
+            "address": "Carrera 1 con, calle 62 Nte",
+            "lat": "3.4828712",
+            "lng": "-76.4987564",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/YehhPYJvu5PtSMyh8"
+        },
+        "viastara-cali-03": {
+            "name": "K-Tronix Cali Chipichape",
+            "address": "Calle 38 # 6-35 Norte CC Chipichape Loc 101",
+            "lat": "3.4750389",
+            "lng": "-76.5268283",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CJpK8zcfiM3udRgSA"
+        },
+        "viastara-chia-01": {
+            "name": "K-Tronix Fontanar Chia",
+            "address": "C.C Fontanar KM 2.5 Via Chia Cajica LOCAL 2-49B",
+            "lat": "4.8835833",
+            "lng": "-74.034921",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/kvcL96qyzVMJ44KB7"
+        },
+        "viastara-floridablanca-01": {
+            "name": "Alkosto Floridablanca",
+            "address": "Km 2.5 Anillo Vial Giron Floridablanca",
+            "lat": "7.0617908",
+            "lng": "-73.1171095",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/xYtHH9vyrLG7L4Br6"
+        },
+        "viastara-fusagasuga-01": {
+            "name": "K-Tronix Fusa",
+            "address": "CALLE 8 # 24 - 84 L. 327 Bod. Alterna D 302",
+            "lat": "4.3440857",
+            "lng": "-74.3746941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/6Yanog5QCZoSfKb17"
+        },
+        "viastara-girardot-01": {
+            "name": "K-Tronix Girardot",
+            "address": "Diagonal 8 # 33-26 Local 2-47",
+            "lat": "4.3076732",
+            "lng": "-74.7979199",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ukEBCWX85mmXFoSAA"
+        },
+        "viastara-manizales-01": {
+            "name": "K-Tronix Manizales",
+            "address": "Avenida Kevin Angel Call 56 y 57G CC Mall Plaza Local 1033",
+            "lat": "5.0662821",
+            "lng": "-75.4904941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bDxp8XERc3mYZq6x7"
+        },
+        "viastara-medellin-01": {
+            "name": "K-Tronix Arkadia",
+            "address": "Carrera 70 #1-19 Local 0332",
+            "lat": "6.2113015",
+            "lng": "-75.5946153",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/b7C3ttVfPdPLCdMP8"
+        },
+        "viastara-medellin-02": {
+            "name": "K-Tronix Poblado Medellin",
+            "address": "Carrera 43 A # 1 SUR - 272",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/KE19iNnk9m5eMsjy6"
+        },
+        "viastara-medellin-03": {
+            "name": "K-Tronix El Tesoro",
+            "address": "Carrera 25A#1Asur. Local 3589 Etapa 3",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/jvAjBLjKeUjxg3CX8"
+        },
+        "viastara-mosquera-01": {
+            "name": "K-Tronix Mosquera",
+            "address": "Carrera 3ra # 15A-57 C.C Ecoplaza Local 255-256",
+            "lat": "4.7126476",
+            "lng": "-74.2215065",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/A4Bd9MEfMqSxaWMx8"
+        },
+        "viastara-pereira-01": {
+            "name": "Alkosto Pereira",
+            "address": "Avenida Americas No. 46-03",
+            "lat": "4.8083112",
+            "lng": "-75.7183967",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bTn6o773Bhy9ai6b9"
+        },
+        "viastara-sincelejo-01": {
+            "name": "Alkosto Sincelejo",
+            "address": "C.C. Guacari / Calle 28 # 25 B 97 LoCalle 1 - 101",
+            "lat": "9.3034184",
+            "lng": "-75.3819611",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/S2stokPKKgnyjCbK7"
+        },
+        "viastara-soacha-01": {
+            "name": "K-Tronix Soacha CC Antares",
+            "address": "CC Antares Carrera 7N # 30B 139 Local 210 Soacha",
+            "lat": "4.5875654",
+            "lng": "-74.2057571",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/QnsEXvJyFPtJqjJv9"
+        },
+        "viastara-tunja-01": {
+            "name": "K-Tronix Tunja",
+            "address": "Avenida universitaria No 50 - 21",
+            "lat": "5.5570149",
+            "lng": "-73.3465652",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/MvRFWhPMZRvfmjNT6"
+        },
+        "viastara-villavicencio-01": {
+            "name": "Alkosto Villavicencio",
+            "address": "Calle 31 # 31-95",
+            "lat": "4.1439624",
+            "lng": "-73.6330462",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/RBt6qDAtMHcy3E7B6"
+        },
+        "viastara-villavicencio-02": {
+            "name": "K-Tronix Villavicencio",
+            "address": "Calle 7 # 45-185 C.C. Viva Local 117 A",
+            "lat": "4.1244894",
+            "lng": "-73.6376054",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/am3SwciFjEevMFXP7"
+        },
+        "viastara-yopal-01": {
+            "name": "Alkosto Yopal",
+            "address": "Calle 24 No- 28 -72. C.C Morichal Plaza",
+            "lat": "5.3394063",
+            "lng": "-72.3859833",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/VqSyiUqJsyXQgicH9"
+        },
         "v-tech-linea-nacional": {
             "name": "V-TECH Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -9560,6 +10646,16 @@
                     "arecode": 4,
                     "name": "Medellín",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-medellin-01",
+                                "cooluli-medellin-02",
+                                "cooluli-medellin-03",
+                                "viastara-medellin-01",
+                                "viastara-medellin-02",
+                                "viastara-medellin-03"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-medellin"
@@ -9648,6 +10744,16 @@
                                 "sharp-medellin"
                             ]
                         },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-medellin-01",
+                                "cooluli-medellin-02",
+                                "cooluli-medellin-03",
+                                "viastara-medellin-01",
+                                "viastara-medellin-02",
+                                "viastara-medellin-03"
+                            ]
+                        },
                         "video-telefonia": {
                             "stores": [
                                 "sony-medellin-01",
@@ -9681,6 +10787,14 @@
                     "areaCode": 5,
                     "name": "Barranquilla",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-barranquilla-01",
+                                "cooluli-barranquilla-02",
+                                "viastara-barranquilla-01",
+                                "viastara-barranquilla-02"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-barranquilla-02"
@@ -9761,6 +10875,14 @@
                                 "sharp-barranquilla"
                             ]
                         },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-barranquilla-01",
+                                "cooluli-barranquilla-02",
+                                "viastara-barranquilla-01",
+                                "viastara-barranquilla-02"
+                            ]
+                        },
                         "video-telefonia": {
                             "stores": [
                                 "sony-barranquilla"
@@ -9820,6 +10942,12 @@
                     "areaCode": 8,
                     "name": "Tunja",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-tunja-01",
+                                "viastara-tunja-01"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-tunja"
@@ -9847,6 +10975,12 @@
                                 "movistar-tunja-02",
                                 "tienda-tigo-tunja"
                             ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-tunja-01",
+                                "viastara-tunja-01"
+                            ]
                         }
                     }
                 }
@@ -9870,6 +11004,12 @@
                     "areaCode": 6,
                     "name": "Manizales",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-manizales-01",
+                                "viastara-manizales-01"
+                            ]
+                        },
                         "audio-video": {
                             "stores": [
                                 "challenger-manizales"
@@ -9924,6 +11064,12 @@
                             "stores": [
                                 "sony-manizales"
                             ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-manizales-01",
+                                "viastara-manizales-01"
+                            ]
                         }
                     }
                 }
@@ -9936,6 +11082,12 @@
                     "areaCode": 8,
                     "name": "Yopal",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-yopal-01",
+                                "viastara-yopal-01"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-yopal-03"
@@ -9977,6 +11129,12 @@
                         "todas": {
                             "stores": [
                                 "challenger-yopal"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-yopal-01",
+                                "viastara-yopal-01"
                             ]
                         }
                     }
@@ -10115,7 +11273,35 @@
                             "stores": [
                                 "directv-bogota-call-center",
                                 "nintendo-bogota",
-                                "urbanears-bogota-call-center"
+                                "urbanears-bogota-call-center",
+                                "cooluli-bogota-01",
+                                "cooluli-bogota-02",
+                                "cooluli-bogota-03",
+                                "cooluli-bogota-04",
+                                "cooluli-bogota-05",
+                                "cooluli-bogota-06",
+                                "cooluli-bogota-07",
+                                "cooluli-bogota-08",
+                                "cooluli-bogota-09",
+                                "cooluli-bogota-10",
+                                "cooluli-bogota-11",
+                                "cooluli-bogota-12",
+                                "cooluli-bogota-13",
+                                "cooluli-bogota-14",
+                                "viastara-bogota-01",
+                                "viastara-bogota-02",
+                                "viastara-bogota-03",
+                                "viastara-bogota-04",
+                                "viastara-bogota-05",
+                                "viastara-bogota-06",
+                                "viastara-bogota-07",
+                                "viastara-bogota-08",
+                                "viastara-bogota-09",
+                                "viastara-bogota-10",
+                                "viastara-bogota-11",
+                                "viastara-bogota-12",
+                                "viastara-bogota-13",
+                                "viastara-bogota-14"
                             ]
                         },
                         "audio": {
@@ -10295,7 +11481,6 @@
                                 "emove-bogota"
                             ]
                         },
-                        
                         "telefonia": {
                             "stores": [
                                 "nokia-bogota",
@@ -10388,7 +11573,35 @@
                         "videojuegos": {
                             "stores": [
                                 "msi-bogota-01",
-                                "msi-bogota-02"
+                                "msi-bogota-02",
+                                "cooluli-bogota-01",
+                                "cooluli-bogota-02",
+                                "cooluli-bogota-03",
+                                "cooluli-bogota-04",
+                                "cooluli-bogota-05",
+                                "cooluli-bogota-06",
+                                "cooluli-bogota-07",
+                                "cooluli-bogota-08",
+                                "cooluli-bogota-09",
+                                "cooluli-bogota-10",
+                                "cooluli-bogota-11",
+                                "cooluli-bogota-12",
+                                "cooluli-bogota-13",
+                                "cooluli-bogota-14",
+                                "viastara-bogota-01",
+                                "viastara-bogota-02",
+                                "viastara-bogota-03",
+                                "viastara-bogota-04",
+                                "viastara-bogota-05",
+                                "viastara-bogota-06",
+                                "viastara-bogota-07",
+                                "viastara-bogota-08",
+                                "viastara-bogota-09",
+                                "viastara-bogota-10",
+                                "viastara-bogota-11",
+                                "viastara-bogota-12",
+                                "viastara-bogota-13",
+                                "viastara-bogota-14"
                             ]
                         }
                     }
@@ -10397,6 +11610,12 @@
                     "areaCode": 1,
                     "name": "Chía",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-chia-01",
+                                "viastara-chia-01"
+                            ]
+                        },
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "black-decker-chia"
@@ -10412,6 +11631,12 @@
                                 "claro-chia",
                                 "movistar-chia"
                             ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-chia-01",
+                                "viastara-chia-01"
+                            ]
                         }
                     }
                 },
@@ -10419,6 +11644,12 @@
                     "areaCode": 1,
                     "name": "Girardot",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-girardot-01",
+                                "viastara-girardot-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-girardot-01"
@@ -10428,6 +11659,12 @@
                             "stores": [
                                 "willard-girardot"
                             ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-girardot-01",
+                                "viastara-girardot-01"
+                            ]
                         }
                     }
                 },
@@ -10435,9 +11672,21 @@
                     "areaCode": 1,
                     "name": "Fusagasugá",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-fusagasuga-01",
+                                "viastara-fusagasuga-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-fusagasuga-01"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-fusagasuga-01",
+                                "viastara-fusagasuga-01"
                             ]
                         }
                     }
@@ -10446,9 +11695,21 @@
                     "areaCode": 1,
                     "name": "Mosquera",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-mosquera-01",
+                                "viastara-mosquera-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-mosquera-01"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-mosquera-01",
+                                "viastara-mosquera-01"
                             ]
                         }
                     }
@@ -10457,6 +11718,12 @@
                     "areaCode": 1,
                     "name": "Soacha",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-soacha-01",
+                                "viastara-soacha-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-soacha-01"
@@ -10467,6 +11734,12 @@
                                 "claro-soacha",
                                 "movistar-soacha",
                                 "tienda-tigo-soacha"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-soacha-01",
+                                "viastara-soacha-01"
                             ]
                         }
                     }
@@ -10564,6 +11837,14 @@
                     "areaCode": 8,
                     "name": "Villavicencio",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-villavicencio-01",
+                                "cooluli-villavicencio-02",
+                                "viastara-villavicencio-01",
+                                "viastara-villavicencio-02"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-villavicencio"
@@ -10618,6 +11899,14 @@
                                 "aoc-villavicencio",
                                 "phillips-villavicencio",
                                 "sharp-villavicencio"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-villavicencio-01",
+                                "cooluli-villavicencio-02",
+                                "viastara-villavicencio-01",
+                                "viastara-villavicencio-02"
                             ]
                         }
                     }
@@ -10757,6 +12046,12 @@
                     "areaCode": 6,
                     "name": "Pereira",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-pereira-01",
+                                "viastara-pereira-01"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-pereira"
@@ -10814,6 +12109,12 @@
                                 "phillips-pereira",
                                 "sharp-pereira"
                             ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-pereira-01",
+                                "viastara-pereira-01"
+                            ]
                         }
                     }
                 }
@@ -10863,6 +12164,12 @@
                     "areaCode": 7,
                     "name": "Bucaramanga",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-bucaramanga-01",
+                                "viastara-bucaramanga-01"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-bucaramanga-02"
@@ -10942,6 +12249,12 @@
                                 "sharp-bucaramanga"
                             ]
                         },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-bucaramanga-01",
+                                "viastara-bucaramanga-01"
+                            ]
+                        },
                         "video-telefonia": {
                             "stores": [
                                 "sony-bucaramanga"
@@ -10953,6 +12266,12 @@
                     "areaCode": 7,
                     "name": "Floridablanca",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-floridablanca-01",
+                                "viastara-floridablanca-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-floridablanca-01"
@@ -10961,6 +12280,12 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "black-decker-floridablanca"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-floridablanca-01",
+                                "viastara-floridablanca-01"
                             ]
                         }
                     }
@@ -10974,6 +12299,12 @@
                     "areaCode": 5,
                     "name": "Sincelejo",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-sincelejo-01",
+                                "viastara-sincelejo-01"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-sincelejo"
@@ -11020,6 +12351,12 @@
                             "stores": [
                                 "aoc-sincelejo",
                                 "phillips-sincelejo"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-sincelejo-01",
+                                "viastara-sincelejo-01"
                             ]
                         }
                     }
@@ -11075,6 +12412,16 @@
                     "areaCode": 2,
                     "name": "Cali",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "cooluli-cali-01",
+                                "cooluli-cali-02",
+                                "cooluli-cali-03",
+                                "viastara-cali-01",
+                                "viastara-cali-02",
+                                "viastara-cali-03"
+                            ]
+                        },
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-cali-02"
@@ -11165,6 +12512,16 @@
                                 "aoc-cali",
                                 "phillips-cali",
                                 "sharp-cali"
+                            ]
+                        },
+                        "videojuegos": {
+                            "stores": [
+                                "cooluli-cali-01",
+                                "cooluli-cali-02",
+                                "cooluli-cali-03",
+                                "viastara-cali-01",
+                                "viastara-cali-02",
+                                "viastara-cali-03"
                             ]
                         },
                         "video-telefonia": {
