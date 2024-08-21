@@ -1,4 +1,6 @@
 /*! service-centers - release: 1.4.7 */
+
+
 var e;
 const t = globalThis.trustedTypes,
     n = t ? t.createPolicy("lit-html", {
@@ -315,44 +317,98 @@ const N = window.litHtmlPolyfillSupport;
 null == N || N(w, x), (null !== (e = globalThis.litHtmlVersions) && void 0 !== e ? e : globalThis.litHtmlVersions = []).push("2.2.0");
 class j {
     constructor(e) {
-        this.element = e, this.label = e.labels[0], this.options = q(e.querySelectorAll("option")), this.customElement = document.createElement("div"), this.arrowElement = document.createElement("span"), this.labelElement = document.createElement("span"), this.valueElement = document.createElement("span"), this.optionsCustomElement = document.createElement("ul"),
+        this.element = e;
+        this.label = e.labels[0];
+        this.options = q(e.querySelectorAll("option"));
+        this.customElement = document.createElement("div"), this.arrowElement = document.createElement("span"), this.labelElement = document.createElement("span"), this.valueElement = document.createElement("span"), this.optionsCustomElement = document.createElement("ul"), this.contOptionsJ = document.createElement("div"),
             function (e) {
                 HTMLSelectElement.prototype.refresh = function () {
                     this.dispatchEvent(new Event("refresh"))
                 }, e.element.disabled && e.customElement.classList.add("disabled");
                 e.customElement.classList.add("custom-select__container"), e.customElement.tabIndex = 0, e.customElement.setAttribute("aria-labelledby", `${e.element.id}-label`), e.labelElement.classList.add("custom-select__label"), e.labelElement.id = `${e.element.id}-label`, e.labelElement.innerText = e.label.textContent, e.customElement.append(e.labelElement);
                 const t = document.createElement("span");
-                t.classList.add("alk-icon-abajo"), e.arrowElement.append(t), e.arrowElement.classList.add("custom-select__arrow"), e.customElement.append(e.arrowElement), e.valueElement.classList.add("custom-select__value"), e.valueElement.innerText = e.selectedOption.label, e.customElement.append(e.valueElement), e.optionsCustomElement.classList.add("custom-select__options"), B(e), e.customElement.append(e.optionsCustomElement), e.element.addEventListener("refresh", (() => {
+
+                t.classList.add("alk-icon-abajo"), e.arrowElement.append(t);
+                e.arrowElement.classList.add("custom-select__arrow");
+                e.customElement.append(e.arrowElement);
+                e.valueElement.classList.add("custom-select__value");
+                e.valueElement.innerText = e.selectedOption.label;
+                e.customElement.append(e.valueElement);
+                e.optionsCustomElement.classList.add("custom-select__options");
+
+                B(e);
+                e.customElement.append(e.optionsCustomElement);
+
+                e.element.addEventListener("refresh", (() => {
                     e.element.disabled ? e.customElement.classList.add("disabled") : e.customElement.classList.remove("disabled"), e.options = q(e.element.querySelectorAll("option")), e.valueElement.innerText = e.selectedOption.label, e.valueElement.dataset.status = "", B(e)
                 })), e.arrowElement.addEventListener("click", (() => I(e))), e.valueElement.addEventListener("click", (() => I(e))), e.customElement.addEventListener("blur", (() => {
                     e.arrowElement.querySelector("span").classList.replace("alk-icon-arriba", "alk-icon-abajo"), e.optionsCustomElement.classList.remove("show")
                 }))
-            }(this), this.element.style.display = "none", this.element.setAttribute("aria-hidden", !0), this.label.style.display = "none", e.after(this.customElement)
+            }(this), e.after(this.customElement)
     }
     get selectedOption() {
         return this.options.find((e => e.selected))
     }
+
     selectValue(e) {
+
+
+
         const t = this.options.find((t => t.value === e)),
             n = this.selectedOption;
-        n.selected = !1, n.element.selected = !1, t.selected = !0, t.element.selected = !0, this.element.dispatchEvent(new Event("change")), this.valueElement.innerText = t.label, this.valueElement.dataset.status = "filled"
+
+        if (n) {
+            n.selected = false;
+            n.element.selected = false;
+        }
+        t.selected = true,
+            t.element.selected = true,
+            this.element.value = t.value;
+        this.element.dispatchEvent(new Event("change")),
+            this.valueElement.innerText = t.label,
+            this.valueElement.dataset.status = "filled"
     }
 }
 
 function I(e) {
     if (e.customElement.classList.contains("disabled")) return;
     const t = e.arrowElement.querySelector("span");
-    t.classList.contains("alk-icon-abajo") ? t.classList.replace("alk-icon-abajo", "alk-icon-arriba") : t.classList.replace("alk-icon-arriba", "alk-icon-abajo"), e.optionsCustomElement.classList.toggle("show")
+    t.classList.contains("alk-icon-abajo") ? t.classList.replace("alk-icon-abajo", "alk-icon-arriba") : t.classList.replace("alk-icon-arriba", "alk-icon-abajo"), e.optionsCustomElement.classList.toggle("show");
 }
 
 function B(e) {
-    e.optionsCustomElement.innerHtml = "", e.optionsCustomElement.querySelectorAll("*").forEach((e => e.remove())), e.options.forEach((t => {
-        const n = document.createElement("li");
-        n.classList.add("custom-select__option"), n.classList.toggle("selected", t.selected), n.setAttribute("role", "option"), t.selected && n.setAttribute("aria-selected", !0), n.innerText = t.label, n.dataset.value = t.value, "0" === t.value && (n.style.display = "none"), n.addEventListener("click", (() => {
-            if ("0" === n.dataset.value) return;
+    e.optionsCustomElement.innerHTML = "";
+    e.optionsCustomElement.querySelectorAll("*").forEach((e => e.remove()));
+
+
+    e.options.forEach((t => {
+        const n = document.createElement("div");
+        n.classList.add("custom-select__option");
+        n.classList.toggle("selected", t.selected);
+        n.setAttribute("role", "option");
+        if (t.selected) n.setAttribute("aria-selected", true);
+        n.innerText = t.label;
+        n.dataset.value = t.value;
+        if (t.value === "0") n.style.display = "none";
+        n.addEventListener("click", (() => {
+            const options = document.querySelector('.custom-select__option');
+
+            options.style.pointerEvents = 'auto'; // Asegura que el clic sea posible
+
             let s = e.optionsCustomElement.querySelector(`[data-value="${e.selectedOption.value}"]`);
-            s.removeAttribute("aria-selected"), s.classList.remove("selected"), e.selectValue(t.value), n.classList.add("selected"), n.setAttribute("aria-selected", !0), e.optionsCustomElement.classList.remove("show"), e.customElement.blur()
-        })), e.optionsCustomElement.append(n)
+            if (s) {
+                s.removeAttribute("aria-selected");
+                s.classList.remove("selected");
+            }
+            e.selectValue(t.value);
+            n.classList.add("selected");
+            n.setAttribute("aria-selected", true);
+            e.optionsCustomElement.classList.remove("show");
+            e.customElement.blur();
+
+        }));
+        e.optionsCustomElement.append(n)
+
     }))
 }
 
