@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Centros de Servicio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers/dist/ktronix/css/servicio.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.5.0.6/dist/ktronix/css/servicio.css" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css" rel="stylesheet" />
 </head>
@@ -17,30 +18,30 @@
     <p>
       Para mayor información sobre la <strong>Política de Garantía</strong> de
       tus productos
-      <a style="color: var(--link-text-color);" href="/tramites/tramites-garantia"
-        target="_blank">click aquí.</a>
+      <a style="color: var(--link-text-color);" href="/tramites/tramites-garantia" target="_blank">click aquí.</a>
     </p>
     <p>Estamos a tu disposición en las líneas de atención: <a style="color: var(--link-text-color);"
         href="tel:6014073033">(601) 4073033</a> en Bogotá, <a style="color: var(--link-text-color);"
         href="tel:018000111448">018000111448</a> línea nacional o a través de la página web <a
-        style="color: var(--link-text-color);" href="/contacto/c/contacto">https://www.ktronix.com/contacto/c/contacto.</a>
+        style="color: var(--link-text-color);"
+        href="/contacto/c/contacto">https://www.ktronix.com/contacto/c/contacto.</a>
     </p>
     <div class="service-centers__filters">
       <div class="service-centers__filters__marca">
         <label for="marca">Marca</label>
-        <select name="marca" id="marca" data-custom-select="true"></select>
+        <select class="select_options" name="marca" id="marca" data-custom-select="true"></select>
       </div>
       <div class="service-centers__filters__departamento">
         <label for="departamento">Departamento</label>
-        <select name="departamento" id="departamento" data-custom-select="true"></select>
+        <select class="select_options" name="departamento" id="departamento" data-custom-select="true"></select>
       </div>
       <div class="service-centers__filters__ciudad">
         <label for="ciudad">Ciudad</label>
-        <select name="ciudad" id="ciudad" data-custom-select="true"></select>
+        <select class="select_options" name="ciudad" id="ciudad" data-custom-select="true"></select>
       </div>
       <div class="service-centers__filters__categoria">
         <label for="categoria">Categoría</label>
-        <select name="categoria" id="categoria" data-custom-select="true"></select>
+        <select class="select_options" name="categoria" id="categoria" data-custom-select="true"></select>
       </div>
     </div>
     <p class="msje-localiza">
@@ -61,13 +62,39 @@
     src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw&callback=initMap"
     defer></script>
   <script type="module" crossorigin="anonymous"
-    src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.9.8/dist/common/js/servicio.js"></script>
+    src="https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.5.0.6/dist/common/js/servicio.js"></script>
   <script>
     const appConfig = {
-      jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.5.0.4/dist/ktronix/json/service-centers.json",
+      jsonFile: "https://cdn.jsdelivr.net/gh/ux-alkosto/service-centers@1.4.5.0.6/dist/ktronix/json/service-centers.json",
       site: "ktronix",
     };
   </script>
+  <style>
+    .select_options {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      border: 1px solid var(--service-centers-gray-2);
+      border-radius: 4px;
+      font-size: 16px;
+      height: 40px;
+      line-height: 22px;
+      outline: 0;
+      overflow: hidden;
+      padding: 8px 52px 8px 16px;
+      text-overflow: ellipsis;
+      transition: .25s ease-in-out;
+      user-select: none;
+      white-space: nowrap;
+      width: 100%;
+      width: -webkit-fill-available;
+    }
+
+    #marca::-ms-expand {
+      display: none;
+    }
+  </style>
 </body>
 
 </html>
