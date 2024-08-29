@@ -1182,6 +1182,22 @@
             "departments": [
                 "linea-nacional"
             ]
+        },
+        "zte": {
+            "name": "ZTE",
+            "departments": [
+                "antioquia",
+                "atlantico",
+                "boyaca",
+                "caldas",
+                "casanare",
+                "cundinamarca",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
+            ]
         }
     },
     "categories": {
@@ -10557,6 +10573,533 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
+        },
+        "zte-barranquilla-01": {
+            "name": "Alkosto Barranquilla",
+            "address": "Calle 98 # 51B - 91",
+            "lat": "11.0118265",
+            "lng": "-74.8282297",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WET6qkkFwkmtoRB86"
+        },
+        "zte-barranquilla-02": {
+            "name": "K-Tronix Barranquilla, Soledad",
+            "address": "Calle 30 # 4B-50 C.C Parque Alegra",
+            "lat": "10.9446593",
+            "lng": "-74.7854084",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/AmKpKtCykSUVA2e8A"
+        },
+        "zte-bogota-01": {
+            "name": "Alkosto 170",
+            "address": "Carrera 69 # 170-15",
+            "lat": "4.7600474",
+            "lng": "-74.0636937",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/HJn6aHmPHY4X61DT8"
+        },
+        "zte-bogota-02": {
+            "name": "Alkosto Carrera 30",
+            "address": "Carrera 30 No. 10-77",
+            "lat": "4.610682",
+            "lng": "-74.095165",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/Rez6zZ6fXrDs8jJr8"
+        },
+        "zte-bogota-03": {
+            "name": "Alkosto Avenida 68",
+            "address": "AK 68 #72-43",
+            "lat": "4.6798383",
+            "lng": "-74.085863",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/adcBE1pz3P5adiva6"
+        },
+        "zte-bogota-04": {
+            "name": "Alkosto El Eden",
+            "address": "AK 72 no. 12B-60  Local L1-102",
+            "lat": "4.6461262",
+            "lng": "-74.128315",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/M8httciQ5vhzBpDa8"
+        },
+        "zte-bogota-05": {
+            "name": "Alkosto Venecia",
+            "address": "Diag.44Sur No 51-90",
+            "lat": "4.5962338",
+            "lng": "-74.139498",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CakmTWPKgiEWcMCU8"
+        },
+        "zte-bogota-06": {
+            "name": "Ktronix Plaza de las Americas",
+            "address": "CC Plaza de las Americas Tv 71D # 26-94 Sur Local 1902",
+            "lat": "4.6190921",
+            "lng": "-74.1375782",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/maLU94HRheb1NkZo7"
+        },
+        "zte-bogota-07": {
+            "name": "K-Tronix calle 94",
+            "address": "Calle 94 No. 15-14",
+            "lat": "4.6797388",
+            "lng": "-74.0506037",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/283YGSrgVcqBeHcA9"
+        },
+        "zte-bogota-08": {
+            "name": "K-Tronix 20 de Julio",
+            "address": "Calle 25 B sur # 5-87 Primer piso",
+            "lat": "4.5694815",
+            "lng": "-74.0935942",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/zaM1gopiRYKVnP6b7"
+        },
+        "zte-bogota-09": {
+            "name": "K-Tronix Centro Mayor",
+            "address": "Avenida. Carrera 27 # 38A -83 Sur locales 13 14 15 16 y 17",
+            "lat": "4.5901973",
+            "lng": "-74.1237773",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/mLWSchM9KZ2k8WVb6"
+        },
+        "zte-bogota-10": {
+            "name": "K-Tronix Salitre",
+            "address": "Carrera 68 B N. 25 B 80",
+            "lat": "4.654964",
+            "lng": "-74.1055184",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nw5VV28z3E2PugP36"
+        },
+        "zte-bogota-11": {
+            "name": "K-Tronix Suba",
+            "address": "Tran 91 #135-56",
+            "lat": "4.7338077",
+            "lng": "-74.0851662",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/8TA8jgxYt9rbFAX99"
+        },
+        "zte-bogota-12": {
+            "name": "K-Tronix Titan",
+            "address": "Avenida Boyaca - Calle 80. CC. Titan Plaza Local 3-10",
+            "lat": "4.6956651",
+            "lng": "-74.0868868",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/XLbxVU8Bf6W9PvyTA"
+        },
+        "zte-bogota-13": {
+            "name": "K-Tronix Cra 15",
+            "address": "Carrera 15 # 123 - 08",
+            "lat": "4.7018014",
+            "lng": "-74.0431838",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/y3NToiTdmCvUhkio9"
+        },
+        "zte-bogota-14": {
+            "name": "K-Tronix Mallplaza NQS",
+            "address": "Avenida calle 19 # 28-80  C.C Mallplaza NQS Local B -65",
+            "lat": "4.6247939",
+            "lng": "-74.0962641",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ehPo1tFJDzyxew5N8"
+        },
+        "zte-bucaramanga-01": {
+            "name": "K-tronix Bucaramanga",
+            "address": "Centro Comercial Cacique, Tv 93 # 34 - 99",
+            "lat": "7.0994693",
+            "lng": "-73.1074737",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/WfvoP738UWbH4RB46"
+        },
+        "zte-cali-01": {
+            "name": "Alkosto Cali",
+            "address": "CALLE 13   No   80  -  187",
+            "lat": "3.3852359",
+            "lng": "-76.5378275",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/nezyemHpe1LHvAvU7"
+        },
+        "zte-cali-02": {
+            "name": "Alkosto Cali Norte",
+            "address": "Carrera 1 con, calle 62 Nte",
+            "lat": "3.4828712",
+            "lng": "-76.4987564",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/YehhPYJvu5PtSMyh8"
+        },
+        "zte-cali-03": {
+            "name": "K-Tronix Cali Chipichape",
+            "address": "Calle 38 # 6-35 Norte CC Chipichape Loc 101",
+            "lat": "3.4750389",
+            "lng": "-76.5268283",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/CJpK8zcfiM3udRgSA"
+        },
+        "zte-chia-01": {
+            "name": "K-Tronix Fontanar Chia",
+            "address": "C.C Fontanar KM 2.5 Via Chia Cajica LOCAL 2-49B",
+            "lat": "4.8835833",
+            "lng": "-74.034921",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/kvcL96qyzVMJ44KB7"
+        },
+        "zte-floridablanca-01": {
+            "name": "Alkosto Floridablanca",
+            "address": "Km 2.5 Anillo Vial Giron Floridablanca",
+            "lat": "7.0617908",
+            "lng": "-73.1171095",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/xYtHH9vyrLG7L4Br6"
+        },
+        "zte-fusagasuga-01": {
+            "name": "K-Tronix Fusa",
+            "address": "CALLE 8 # 24 - 84 L. 327 Bod. Alterna D 302",
+            "lat": "4.3440857",
+            "lng": "-74.3746941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/6Yanog5QCZoSfKb17"
+        },
+        "zte-girardot-01": {
+            "name": "K-Tronix Girardot",
+            "address": "Diagonal 8 # 33-26 Local 2-47",
+            "lat": "4.3076732",
+            "lng": "-74.7979199",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/ukEBCWX85mmXFoSAA"
+        },
+        "zte-manizales-01": {
+            "name": "K-Tronix Manizales",
+            "address": "Avenida Kevin Angel Call 56 y 57G CC Mall Plaza Local 1033",
+            "lat": "5.0662821",
+            "lng": "-75.4904941",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bDxp8XERc3mYZq6x7"
+        },
+        "zte-medellin-01": {
+            "name": "K-Tronix Arkadia",
+            "address": "Carrera 70 #1-19 Local 0332",
+            "lat": "6.2113015",
+            "lng": "-75.5946153",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/b7C3ttVfPdPLCdMP8"
+        },
+        "zte-medellin-02": {
+            "name": "K-Tronix Poblado Medellin",
+            "address": "Carrera 43 A # 1 SUR - 272",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/KE19iNnk9m5eMsjy6"
+        },
+        "zte-medellin-03": {
+            "name": "K-Tronix El Tesoro",
+            "address": "Carrera 25A#1Asur. Local 3589 Etapa 3",
+            "lat": "6.2113545",
+            "lng": "-75.6121249",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/jvAjBLjKeUjxg3CX8"
+        },
+        "zte-mosquera-01": {
+            "name": "K-Tronix Mosquera",
+            "address": "Carrera 3ra # 15A-57 C.C Ecoplaza Local 255-256",
+            "lat": "4.7126476",
+            "lng": "-74.2215065",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/A4Bd9MEfMqSxaWMx8"
+        },
+        "zte-pereira-01": {
+            "name": "Alkosto Pereira",
+            "address": "Avenida Americas No. 46-03",
+            "lat": "4.8083112",
+            "lng": "-75.7183967",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/bTn6o773Bhy9ai6b9"
+        },
+        "zte-sincelejo-01": {
+            "name": "Alkosto Sincelejo",
+            "address": "C.C. Guacari / Calle 28 # 25 B 97 LoCalle 1 - 101",
+            "lat": "9.3034184",
+            "lng": "-75.3819611",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/S2stokPKKgnyjCbK7"
+        },
+        "zte-soacha-01": {
+            "name": "K-Tronix Soacha CC Antares",
+            "address": "CC Antares Carrera 7N # 30B 139 Local 210 Soacha",
+            "lat": "4.5875654",
+            "lng": "-74.2057571",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/QnsEXvJyFPtJqjJv9"
+        },
+        "zte-tunja-01": {
+            "name": "K-Tronix Tunja",
+            "address": "Avenida universitaria No 50 - 21",
+            "lat": "5.5570149",
+            "lng": "-73.3465652",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/MvRFWhPMZRvfmjNT6"
+        },
+        "zte-villavicencio-01": {
+            "name": "Alkosto Villavicencio",
+            "address": "Calle 31 # 31-95",
+            "lat": "4.1439624",
+            "lng": "-73.6330462",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/RBt6qDAtMHcy3E7B6"
+        },
+        "zte-villavicencio-02": {
+            "name": "K-Tronix Villavicencio",
+            "address": "Calle 7 # 45-185 C.C. Viva Local 117 A",
+            "lat": "4.1244894",
+            "lng": "-73.6376054",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Sab de 10:00 a.m a 8:00 p.m",
+                "Dom y Fes de 10:00 a.m a 7:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/am3SwciFjEevMFXP7"
+        },
+        "zte-yopal-01": {
+            "name": "Alkosto Yopal",
+            "address": "Calle 24 No- 28 -72. C.C Morichal Plaza",
+            "lat": "5.3394063",
+            "lng": "-72.3859833",
+            "phone": [
+                "4073033"
+            ],
+            "schedule": [
+                "Lun a Dom de 7:00 a.m a 9:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/VqSyiUqJsyXQgicH9"
         }
     },
     "departments": {
@@ -10674,7 +11217,10 @@
                             "stores": [
                                 "xiaomi-medellin-01",
                                 "xiaomi-medellin-02",
-                                "xiaomi-medellin-03"
+                                "xiaomi-medellin-03",
+                                "zte-medellin-01",
+                                "zte-medellin-02",
+                                "zte-medellin-03"
                             ]
                         },
                         "telefonia-operador": {
@@ -10805,7 +11351,9 @@
                         "telefonia": {
                             "stores": [
                                 "xiaomi-barranquilla-01",
-                                "xiaomi-barranquilla-02"
+                                "xiaomi-barranquilla-02",
+                                "zte-barranquilla-01",
+                                "zte-barranquilla-02"
                             ]
                         },
                         "telefonia-operador": {
@@ -10929,7 +11477,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-tunja-01"
+                                "xiaomi-tunja-01",
+                                "zte-tunja-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -11013,7 +11562,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-manizales-01"
+                                "xiaomi-manizales-01",
+                                "zte-manizales-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -11081,7 +11631,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-yopal-01"
+                                "xiaomi-yopal-01",
+                                "zte-yopal-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -11460,7 +12011,21 @@
                                 "xiaomi-bogota-11",
                                 "xiaomi-bogota-12",
                                 "xiaomi-bogota-13",
-                                "xiaomi-bogota-14"
+                                "xiaomi-bogota-14",
+                                "zte-bogota-01",
+                                "zte-bogota-02",
+                                "zte-bogota-03",
+                                "zte-bogota-04",
+                                "zte-bogota-05",
+                                "zte-bogota-06",
+                                "zte-bogota-07",
+                                "zte-bogota-08",
+                                "zte-bogota-09",
+                                "zte-bogota-10",
+                                "zte-bogota-11",
+                                "zte-bogota-12",
+                                "zte-bogota-13",
+                                "zte-bogota-14"
                             ]
                         },
                         "telefonia-operador": {
@@ -11586,7 +12151,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-chia-01"
+                                "xiaomi-chia-01",
+                                "zte-chia-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -11615,7 +12181,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-girardot-01"
+                                "xiaomi-girardot-01",
+                                "zte-girardot-01"
                             ]
                         },
                         "repuestos-automotores": {
@@ -11643,7 +12210,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-fusagasuga-01"
+                                "xiaomi-fusagasuga-01",
+                                "zte-fusagasuga-01"
                             ]
                         },
                         "videojuegos": {
@@ -11666,7 +12234,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-mosquera-01"
+                                "xiaomi-mosquera-01",
+                                "zte-mosquera-01"
                             ]
                         },
                         "videojuegos": {
@@ -11689,7 +12258,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-soacha-01"
+                                "xiaomi-soacha-01",
+                                "zte-soacha-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -11845,7 +12415,9 @@
                         "telefonia": {
                             "stores": [
                                 "xiaomi-villavicencio-01",
-                                "xiaomi-villavicencio-02"
+                                "xiaomi-villavicencio-02",
+                                "zte-villavicencio-01",
+                                "zte-villavicencio-02"
                             ]
                         },
                         "telefonia-operador": {
@@ -12049,7 +12621,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-pereira-01"
+                                "xiaomi-pereira-01",
+                                "zte-pereira-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -12187,7 +12760,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-bucaramanga-01"
+                                "xiaomi-bucaramanga-01",
+                                "zte-bucaramanga-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -12237,7 +12811,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-floridablanca-01"
+                                "xiaomi-floridablanca-01",
+                                "zte-floridablanca-01"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -12300,7 +12875,8 @@
                         },
                         "telefonia": {
                             "stores": [
-                                "xiaomi-sincelejo-01"
+                                "xiaomi-sincelejo-01",
+                                "zte-sincelejo-01"
                             ]
                         },
                         "telefonia-operador": {
@@ -12445,7 +13021,10 @@
                             "stores": [
                                 "xiaomi-cali-01",
                                 "xiaomi-cali-02",
-                                "xiaomi-cali-03"
+                                "xiaomi-cali-03",
+                                "zte-cali-01",
+                                "zte-cali-02",
+                                "zte-cali-03"
                             ]
                         },
                         "telefonia-operador": {
