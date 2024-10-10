@@ -151,7 +151,7 @@ function w(e, t = !0) {
         cellphone: n,
     } = e;
 
-    for (const e of n) r = t ? [...r, a(h || (h = _ `<a href="tel:+57${0}" title="Llamar a ${0}">${0}</a>`), e.replace(/\s/g, ""), i, e)] : [...r, `<a href="tel:+57${e.replace(/\s/g,"")}" title="Llamar a ${i}">${e}</a>`];
+    for (const e of n) r = t ? [...r, a(h || (h = _ `<a href="tel:${0}" title="Llamar a ${0}">${0}</a>`), e.replace(/\s/g, ""), i, e)] : [...r, `<a href="tel:${e.replace(/\s/g,"")}" title="Llamar a ${i}">${e}</a>`];
 
     return r
 }
@@ -164,7 +164,7 @@ function T(e, t = !0) {
         phone: s
     } = e;
 
-    for (const e of s) r = t ? [...r, a($ || ($ = _ `<a href="tel:+57${0}${0}" title="Llamar a ${0}">${0}</a>`), i, e.replace(/\s/g, ""), n, e)] : [...r, `<a href="tel:+57${i}${e.replace(/\s/g,"")}" title="Llamar a ${n}">${e}</a>`];
+    for (const e of s) r = t ? [...r, a($ || ($ = _ `<a href="tel:${0}${0}" title="Llamar a ${0}">${0}</a>`), i, e.replace(/\s/g, ""), n, e)] : [...r, `<a href="tel:${i}${e.replace(/\s/g,"")}" title="Llamar a ${n}">${e}</a>`];
 
     return r
 }

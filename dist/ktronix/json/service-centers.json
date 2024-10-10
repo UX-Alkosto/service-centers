@@ -4150,19 +4150,19 @@
             ],
             "type": "interno"
         },
-        "dorado-bogota": {
-            "name": "El Dorado",
-            "address": "Cl 17 No. 80A-70",
-            "lat": "4.6579705",
-            "lng": "-74.1365232",
+        "dorado-call-center": {
+            "name": "El Dorado Call Center",
             "phone": [
-                "4114211"
+                "6017561585"
+            ],
+            "whatsapp": [
+                "3186930853"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//F%C3%A1brica+Colchones+ElDorado,+D.C,+Cl.+17+%23%2380A+70,+Bogot%C3%A1/@4.6579705,-74.1365232,17z/data=!4m16!1m6!3m5!1s0x8e3f9c706653b9af:0x543cd34d615a1ddb!2sF%C3%A1brica+Colchones+ElDorado!8m2!3d4.6579705!4d-74.1343345!4m8!1m0!1m5!1m1!1s0x8e3f9c706653b9af:0x543cd34d615a1ddb!2m2!1d-74.1343345!2d4.6579705!3e2"
+            "link": "https://www.colchoneseldorado.com/contacto"
         },
         "dormiluna-bogota": {
             "name": "Dormiluna",
@@ -11899,7 +11899,7 @@
                         },
                         "colchones": {
                             "stores": [
-                                "dorado-bogota",
+                                "dorado-call-center",
                                 "k-line-bogota",
                                 "simmons-bogota",
                                 "spring-bogota-call-center",
