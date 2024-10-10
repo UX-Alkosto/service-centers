@@ -11255,7 +11255,7 @@
             "name": "Linea Nacional",
             "cities": {
                 "linea-nacional": {
-                    "areaCode": 0,
+                    "areaCode": "",
                     "name": "Linea Nacional",
                     "categories": {
                         "accesorios": {

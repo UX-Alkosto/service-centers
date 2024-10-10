@@ -114,9 +114,9 @@ function getFormatedCellphone(location, returnHtml = true) {
     const { name, cellphone } = location;
     for (const cellPhoneNumber of cellphone) {
         if (returnHtml) {
-            cellPhoneNumbers = [...cellPhoneNumbers, html`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
+            cellPhoneNumbers = [...cellPhoneNumbers, html`<a href="tel:${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
         } else {
-            cellPhoneNumbers = [...cellPhoneNumbers, `<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
+            cellPhoneNumbers = [...cellPhoneNumbers, `<a href="tel:${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${cellPhoneNumber}</a>`];
         }
     }
     return cellPhoneNumbers;
@@ -127,9 +127,9 @@ function getFormatedPhone(location, returnHtml = true) {
     const {areaCode, name, phone} = location;
     for (const phoneNumber of phone) {
         if (returnHtml) {
-            phoneNumbers = [...phoneNumbers, html`<a href="tel:+60${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
+            phoneNumbers = [...phoneNumbers, html`<a href="tel:${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         } else {
-            phoneNumbers = [...phoneNumbers, `<a href="tel:+60${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
+            phoneNumbers = [...phoneNumbers, `<a href="tel:${areaCode}${phoneNumber.replace(/\s/g, "")}" title="Llamar a ${name}">${phoneNumber}</a>`];
         }
     }
     return phoneNumbers;
