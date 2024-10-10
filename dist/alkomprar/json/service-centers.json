@@ -10192,7 +10192,6 @@
                         },
                         "colchones": {
                             "stores": [
-                                "dorado-call-center",
                                 "k-line-bogota",
                                 "simmons-bogota",
                                 "spring-bogota-call-center",
@@ -11327,6 +11326,7 @@
                         },
                         "colchones": {
                             "stores": [
+                                "dorado-call-center",
                                 "espumados-call-center",
                                 "inacsa-call-center",
                                 "romance-relax-call-center"
