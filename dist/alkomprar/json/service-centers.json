@@ -4248,24 +4248,24 @@
         "hewlett-packard-call-center": {
             "name": "Hewlett Packard Call Center",
             "phone": [
-                "018005184842"
+                "018005191293"
             ],
             "schedule": [
-                "Lun a Dom de 8:00 a.m a 10:00 p.m"
+                "Lun a Vie de 08:00 a.m a 6:00 p.m"
             ],
             "type": "externo",
-            "link": "https://support.hp.com/co-es/service-center"
+            "link": "https://support.hp.com/co-es"
         },
         "hewlett-packard-bogota-call-center": {
             "name": "Hewlett Packard Bogotá Call Center",
             "phone": [
-                "5085553"
+                "6013808246"
             ],
             "schedule": [
-                "Lun a Dom de 8:00 a.m a 10:00 p.m"
+                "Lun a Vie de 08:00 a.m a 6:00 p.m"
             ],
             "type": "externo",
-            "link": "https://support.hp.com/co-es/service-center"
+            "link": "https://support.hp.com/co-es"
         },
         "hitachi-linea-nacional": {
             "name": "Datecsa S.A.",
