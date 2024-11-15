@@ -2416,22 +2416,22 @@
         },
         "bose-bogota": {
             "name": "Ceser",
-            "address": "Cl 53 No. 67-57, Barrio Salitre Greco",
-            "lat": "4.6563919",
-            "lng": "-74.1000859",
+            "address": "Cr 49 No. 93-12, Barrio: La Castellana",
+            "lat": "4.6809798",
+            "lng": "-74.0617508",
             "phone": [
-                "7442601"
+                "018000196054"
             ],
             "cell": [
-                "3133525212",
-                "3045470855"
+                "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 3:30 p.m",
+                "Sab de 7:00 a.m - 5:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.bose.co/es_co/support/factory_authorized_service.html",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+53+%2367-57,+Bogot%C3%A1/@4.6563919,-74.1000859,20.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bbd43486639:0xcab574bc61bdb0b5!2m2!1d-74.0997213!2d4.6562381"
+            "link": "https://www.bose.co/es_co/support.html",
+            "viewMap": "https://maps.app.goo.gl/N8uhXK1bzVhvnSUd7"
         },
         "bose-call-center": {
             "name": "Bose Call Center",
