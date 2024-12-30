@@ -172,17 +172,18 @@
         },
         "antioquia-apartado-01": {
             "name": "URASOLUCION VILLEGAS",
-            "address": "ATENCIÓN EN DOMICILIO",
+            "address": "CRA. 98 # 98 - 13",
             "email": "urasolucionvillegas@hotmail.com",
-            "lat": "7.8827607",
-            "lng": "-76.6422021",
+            "lat": "7.8819526",
+            "lng": "-76.6335629",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
                 "3336496056"
-            ]
+            ],
+            "viewMap": "https://maps.app.goo.gl/hiiUTGEcYurvFJvs5"
         },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
@@ -215,24 +216,6 @@
                 "3182912065"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+50+%2346-107,+Bello,+Antioquia/@6.3325761,-75.5606416,17z/data=!4m17!1m7!3m6!1s0x8e442fa7160d30d7:0x5bdf7fe3b9b90934!2sCra.+50+%2346-107,+Bello,+Antioquia!3b1!8m2!3d6.3325761!4d-75.5584529!4m8!1m0!1m5!1m1!1s0x8e442fa7160d30d7:0x5bdf7fe3b9b90934!2m2!1d-75.5584529!2d6.3325761!3e3"
-        },
-        "antioquia-caucasia-01": {
-            "name": "ELECTRÓNICA JONA",
-            "address": "Cr 5 No 20 - 48, Barrio Centro",
-            "email": "electronica2048@gmail.com",
-            "lat": "7.9880813",
-            "lng": "-75.1961606",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "phone": [
-                "8391003"
-            ],
-            "cell": [
-                "3127801190"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+5+%2320-48,+Caucasia,+Antioquia/@7.9880813,-75.1961606,17z/data=!4m17!1m7!3m6!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2sCra.+5+%2320-48,+Caucasia,+Antioquia!3b1!8m2!3d7.9880813!4d-75.1939719!4m8!1m0!1m5!1m1!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2m2!1d-75.1939719!2d7.9880813!3e3"
         },
         "antioquia-caucasia-02": {
             "name": "TECNILAIR",
@@ -388,24 +371,6 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra+68+%2367C-24,+Barrios+Unidos,+Bogot%C3%A1/@4.6745554,-74.089916,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b05750e5fe1:0xd63baae0f525ced2!2m2!1d-74.0873357!2d4.6745554?entry=ttu"
         },
-        "bogota-02": {
-            "name": "CENTRO SERVICIO EXCLUSIVO KALLEY VENECIA",
-            "address": "Cl 43D Sur # 68B - 63 Barrio Las Delicias",
-            "email": "csekalley@hotmail.com",
-            "lat": "4.5969316",
-            "lng": "-74.1438053",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 9:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                "8146262"
-            ],
-            "cell": [
-                "3012901623"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+43d+Sur+%2368b-63,+Bogot%C3%A1/@4.5969316,-74.1438053,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9edb6659d0cf:0xefddfef553fe46a9!2m2!1d-74.1412304!2d4.5969316?hl=es&entry=ttu"
-        },
         "bogota-03": {
             "name": "SERVITEC JRS",
             "address": "Cl 68D BIS A Sur No 63 – 85, Conjunto Residencial Casa Grande, Manzana 2, Casa 196, Barrio El Ensueño",
@@ -422,43 +387,23 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Calle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1/@4.5810705,-74.1624395,17z/data=!4m17!1m7!3m6!1s0x8e3f9f0526bb755d:0xc647039746903fae!2sCalle+68d+Bis+A+Sur,+Comuna+Cdad.+Bol%C3%ADvar,+Bogot%C3%A1!3b1!8m2!3d4.5810705!4d-74.1602508!4m8!1m0!1m5!1m1!1s0x8e3f9f0526bb755d:0xc647039746903fae!2m2!1d-74.1602508!2d4.5810705!3e3"
         },
-        "bogota-05": {
-            "name": "Quality & Service S.A.S - Sede Sur",
-            "address": "Av Cra  50 # 31 - 29 Sur Local 1",
-            "email": "info@qualityandservice.co",
-            "lat": "4.6000425",
-            "lng": "-74.1261272",
+        "bogota-04": {
+            "name": "AS ELECTRON BOGOTA",
+            "address": "Cl 138 # 46 - 06 Prado Pinzón",
+            "email": "ASELECTRON.SERVICIO@GMAIL.COM",
+            "lat": "4.7240043",
+            "lng": "-74.0549974",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "phone": [
-                "9370771"
+                "6016159324"
             ],
             "cell": [
-                "3017887642",
-                "3005095873"
+                "3018045093"
             ],
-            "viewMap": "https://maps.app.goo.gl/yHi5uySTA8tisicD6"
-        },
-        "bogota-06": {
-            "name": "Quality & Service S.A.S - Sede Chapinero",
-            "address": "Cr 18 No. 51-78",
-            "email": "infochapinero@qualityandservice.co",
-            "lat": "4.6397977",
-            "lng": "-74.0723116",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "phone": [
-                "7817327"
-            ],
-            "cell": [
-                "3107586832",
-                "3044162019"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Cra.+18+%2351-78,+Bogot%C3%A1/@4.6397977,-74.0723116,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a316e181f81:0x26052ce617670587!8m2!3d4.6397924!4d-74.0701229?hl=es"
+            "viewMap": "https://maps.app.goo.gl/NvWRv3UGAdHhy5rF6"
         },
         "bogota-07": {
             "name": "Licuaollas",
@@ -479,10 +424,10 @@
         },
         "bogota-09": {
             "name": "GOOD SERVICE COMPANY SAS",
-            "address": "CLL. 1 SUR # 72-13",
+            "address": "Calle 1 sur # 72-86",
             "email": "goodservice9522@gmail.com",
-            "lat": "4.6224231",
-            "lng": "-74.141313",
+            "lat": "4.6227456",
+            "lng": "-74.1423847",
             "schedule": [
                 "Lun a Sab de 8:00 a.m a 4:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
@@ -492,7 +437,7 @@
                 "3232062051",
                 "3186188098"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+1+Sur+%2372-13,+Bogot%C3%A1/@4.6224231,-74.141313,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9ea43006ad27:0xfca0899deb3eba0e!2m2!1d-74.1391243!2d4.6224231"
+            "viewMap": "https://maps.app.goo.gl/TbWivguSqadkB2eDA"
         },
         "bogota-10": {
             "name": "NEO GROUP SAS",
@@ -1203,6 +1148,24 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+15+%236-56,+Santa+Marta,+Magdalena/@11.2438113,-74.2112064,17z/data=!4m17!1m7!3m6!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2sCl.+15+%236-56,+Santa+Marta,+Magdalena!3b1!8m2!3d11.2438113!4d-74.2090177!4m8!1m0!1m5!1m1!1s0x8ef4f5652a434189:0x1f766fddfa08d8c8!2m2!1d-74.2090177!2d11.2438113!3e3"
         },
+        "magdalena-santamarta-2": {
+            "name": "REFRISER S.A.S",
+            "address": "Cl 15 # 7-98 CENTRO",
+            "email": "REFRISERMAR@HOTMAIL.COM",
+            "lat": "11.2424615",
+            "lng": "-74.209561",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "phone": [
+                "4233324"
+            ],
+            "cell": [
+                "3136365427"
+            ],
+            "viewMap": "https://maps.app.goo.gl/J6ps8TjdLhnK1KTu9"
+        },
         "meta-villavicencio": {
             "name": "ZAC SOLUCIONES Y SERVICIOS S.A.S.",
             "address": "CALLE 19 # 39 A 09 BARRIO CAMOA",
@@ -1347,20 +1310,6 @@
                 "3184413589"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander/@7.9110007,-72.4781399,17z/data=!4m17!1m7!3m6!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2sCl.+5+%237-36,+C%C3%BAcuta,+Norte+de+Santander!3b1!8m2!3d7.9110007!4d-72.4759512!4m8!1m0!1m5!1m1!1s0x8e664520e1438b25:0x5383d9e1babe7dd7!2m2!1d-72.4759512!2d7.9110007!3e3"
-        },
-        "putumayo-puerto-asis": {
-            "name": "COMERCIALIZADORA DE PRODUCTOS Y SERVICIOS INTEGRALES SAS ZOMAC",
-            "address": "Cr 22 # 10-60 BARRIO SAN NICOLAS",
-            "email": "shalomcentroservicios@gmail.com",
-            "lat": "0.4959788",
-            "lng": "-76.5039022",
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "cell": [
-                "3168603124"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+22+%2310-53,+Puerto+As%C3%ADs,+Putumayo/@0.4959788,-76.5039022,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8e2878df6f232fc5:0x1f0c3a0ff0135a1f!2m2!1d-76.5017135!2d0.4959788!3e3"
         },
         "putumayo-la-hormiga": {
             "name": "MLT TIENDA",
@@ -1672,10 +1621,10 @@
         },
         "tolima-ibague-2": {
             "name": "SIE SERVICE SOLUTIONS",
-            "address": "CALLE 4 N 12-32 BARRIO SANTA BARBARA",
+            "address": "carrera 1 # 70 - 60",
             "email": "p.romero@sieservice.com",
-            "lat": "4.4542829",
-            "lng": "-75.2458178",
+            "lat": "4.433562",
+            "lng": "-75.197119",
             "schedule": [
                 "Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
             ],
@@ -1683,7 +1632,7 @@
                 "3152889940",
                 "3195037400"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+4+%2312-32,+Ibagu%C3%A9,+Tolima/@4.4542829,-75.2458178,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e38c47e68f86f8f:0x9c0ddbe72dbe4668!2m2!1d-75.2432375!2d4.4542829?entry=ttu"
+            "viewMap": "https://maps.app.goo.gl/JVVkaqVXa8xJ9Rwx7"
         },
         "valle-cauca-buenaventura": {
             "name": "SERVICIO ELECTRÓNICO",
@@ -1763,6 +1712,23 @@
                 "3107240817"
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+14+%2333-25,+Cali,+Valle+del+Cauca/@3.4237434,-76.5295379,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6bfdef911d7:0x290ef649566afa0d!8m2!3d3.4237434!4d-76.5273492?hl=es"
+        },
+        "valle-cauca-cali-05": {
+            "name": "ALMACEN Y TALLER MULTIHOGAR",
+            "address": "CRA 46 # 44-26",
+            "email": "danny01101989@gmail.com",
+            "lat": "3.4045372",
+            "lng": "-76.5156853",
+            "schedule": [
+                "Lun a Sab de 8:30 a.m a 8:00 p.m - Hasta las 3:00 p.m garantías"
+            ],
+            "phone": [
+                "6023041437"
+            ],
+            "cell": [
+                "3028284229"
+            ],
+            "viewMap": "https://maps.app.goo.gl/DRAYhXYmyENLF9oK6"
         },
         "valle-cauca-cali-06": {
             "name": "CENTRO TÉCNICO ESPECIALIZADO S.A.S.",
@@ -2022,29 +1988,9 @@
                     "areaCode": 4,
                     "name": "Caucasia",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "antioquia-caucasia-01"
-                            ]
-                        },
                         "aires-acondicionados": {
                             "stores": [
                                 "antioquia-caucasia-02"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "antioquia-caucasia-01"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "antioquia-caucasia-01"
-                            ]
-                        },
-                        "cuidado-personal": {
-                            "stores": [
-                                "antioquia-caucasia-01"
                             ]
                         },
                         "dispensadores": {
@@ -2057,29 +2003,14 @@
                                 "antioquia-caucasia-02"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "antioquia-caucasia-01"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "antioquia-caucasia-02"
                             ]
                         },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "antioquia-caucasia-01"
-                            ]
-                        },
                         "refrigeracion": {
                             "stores": [
                                 "antioquia-caucasia-02"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "antioquia-caucasia-01"
                             ]
                         }
                     }
@@ -3809,9 +3740,6 @@
                         "accesorios": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-07",
                                 "bogota-10",
                                 "bogota-11",
@@ -3827,9 +3755,7 @@
                         "audio-video": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
+                                "bogota-04",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -3838,9 +3764,6 @@
                         "casa-inteligente": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -3849,18 +3772,12 @@
                         "cuidado-personal": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-07"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-09",
                                 "bogota-11",
                                 "bogota-12"
@@ -3869,17 +3786,12 @@
                         "ferreteria": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-07",
                                 "bogota-11"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -3887,18 +3799,12 @@
                         "iluminacion": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-12"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -3906,9 +3812,6 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-07",
                                 "bogota-11",
                                 "bogota-12"
@@ -3917,9 +3820,6 @@
                         "refrigeracion": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -3927,9 +3827,6 @@
                         "smart-home-menores": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -3938,16 +3835,12 @@
                         "tabletas": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-02",
-                                "bogota-05",
-                                "bogota-06",
                                 "bogota-11"
                             ]
                         },
                         "telefonia-celular": {
                             "stores": [
-                                "bogota-01",
-                                "bogota-02"
+                                "bogota-01"
                             ]
                         }
                     }
@@ -4433,7 +4326,8 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "casa-inteligente": {
@@ -4448,7 +4342,8 @@
                         },
                         "dispensadores": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "ferreteria": {
@@ -4458,22 +4353,26 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "tabletas": {
@@ -4903,77 +4802,6 @@
         "putumayo": {
             "name": "Putumayo",
             "cities": {
-                "puerto-asis": {
-                    "areaCode": 8,
-                    "name": "Puerto Asís",
-                    "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "audio-video": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "dispensadores": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "lavadoras": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "smart-home-menores": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        },
-                        "tabletas": {
-                            "stores": [
-                                "putumayo-puerto-asis"
-                            ]
-                        }
-                    }
-                },
                 "la-hormiga": {
                     "areaCode": 8,
                     "name": "La Hormiga",
@@ -5809,6 +5637,7 @@
                             "stores": [
                                 "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
+                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
                                 "valle-cauca-cali-07"
                             ]
@@ -5835,6 +5664,7 @@
                             "stores": [
                                 "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
+                                "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
                                 "valle-cauca-cali-07"
                             ]
