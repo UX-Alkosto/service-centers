@@ -7651,17 +7651,14 @@
         },
         "tcl-linea-nacional": {
             "name": "TCL Call Center",
-            "phone": [
-                "018005183882"
-            ],
-            "cell": [
+            "whatsapp": [
                 "3336418234"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.alcatelmobile.com/co/support/"
+            "link": "https://www.serviciotcl.com.co/"
         },
         "thonet-vander-linea-nacional": {
             "name": "Thonet & Vander Alkosto/Ktronix",
@@ -11472,6 +11469,11 @@
                                 "huawei-call-center",
                                 "motorola-call-center",
                                 "xiaomi-linea-nacional"
+                            ]
+                        },
+                        "televisores": {
+                            "stores": [
+                                "tcl-linea-nacional"
                             ]
                         },
                         "todas": {
