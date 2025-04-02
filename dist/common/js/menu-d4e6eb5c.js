@@ -181,7 +181,7 @@ const functionWapp = (e) => {
                 limpiarW.remove();
             }
             let numbersWapp = e.whatsapp.map((wp) => {
-                return `<a target="_blank" rel="noreferer noopener" title="Enviar un mensaje a ${e.name}" href="https://api.whatsapp.com/send/?phone=57${wp}">${wp}</a>`;
+                return `<a target="_blank" rel="noreferer noopener" title="Enviar un mensaje a ${e.name}" href="https://api.whatsapp.com/send/?phone=${wp}">Enviar WhatsApp a ${e.name}</a>`;
             }).join(" ");
             const scheduleW = matchingElement.querySelector(".schedule");
             if (scheduleW) {
