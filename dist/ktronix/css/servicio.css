@@ -502,7 +502,7 @@
     }
 
     .service-centers__menu__item__body .contact-phones>* {
-        width: 55%
+        width: 100%
     }
 
     .service-centers__menu__item__body .contact-phones>*~* {
