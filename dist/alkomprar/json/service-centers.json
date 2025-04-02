@@ -332,9 +332,13 @@
         "epson": {
             "name": "Epson",
             "departments": [
+                "antioquia",
+                "atlantico",
                 "caldas",
                 "cundinamarca",
-                "linea-nacional"
+                "linea-nacional",
+                "risaralda",
+                "valle-del-cauca"
             ]
         },
         "espumados": {
@@ -889,7 +893,8 @@
         "redicol": {
             "name": "Redicol S.A.S",
             "departments": [
-                "linea-nacional"
+                "linea-nacional",
+                "cundinamarca"
             ]
         },
         "remington": {
@@ -3934,6 +3939,22 @@
             "link": "https://www.emove.com.co/soporte-tecnico/",
             "viewMap": "https://www.google.com/maps/place/Belaire+Plaza/@4.7221908,-74.0308398,16z/data=!4m6!3m5!1s0x8e3f8f8b7c8edcb9:0xef65c73a384325de!8m2!3d4.7272677!4d-74.0244189!15sCiJDcmEgNyAjIDE1MiAtIDU0IExvY2FsIDItMDMgYm9nb3RhWiAiHmNyYSA3IDE1MiA1NCBsb2NhbCAyIDAzIGJvZ290YZIBD3Nob3BwaW5nX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSQmJHOXRTbmxuUlJBQg?shorturl=1"
         },
+        "epson-barranquilla-01": {
+            "name": "Mes Caribe S.A.S.",
+            "address": "Cr 43 No. 61 - 02 - Local 102",
+            "lat": "10.9865629",
+            "lng": "-74.7976054",
+            "phone": [
+                "3157601113"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/PD9LhC75q96oSMnNA"
+        },
         "epson-bogota-01": {
             "name": "AMTECK",
             "address": "Cr 24 No. 83-41, Barrio Polo",
@@ -3948,19 +3969,8 @@
                 ""
             ],
             "type": "externo",
-            "link": "https://epson.com.co/Support/ServiceCenterLocator",
+            "link": "https://epsonco.zendesk.com/hc/es",
             "viewMap": "https://www.google.com/maps/dir//Amteck+S.A.S,+Ak.+24+%238341,+Bogot%C3%A1/@4.671726,-74.063404,19.5z/data=!4m16!1m6!3m5!1s0x8e3f9af0cdc7d1d3:0x38f5e5e393b54740!2sAmteck+S.A.S!8m2!3d4.6716459!4d-74.0631937!4m8!1m0!1m5!1m1!1s0x8e3f9af0cdc7d1d3:0x38f5e5e393b54740!2m2!1d-74.0631937!2d4.6716459!3e2"
-        },
-        "epson-call-center": {
-            "name": "EPSON Call Center",
-            "phone": [
-                "018000915235"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 4:30 p.m"
-            ],
-            "type": "externo",
-            "link": "https://epson.com.co/Support/ServiceCenterLocator"
         },
         "epson-bogota-02": {
             "name": "SMAYL",
@@ -3975,7 +3985,36 @@
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
             "viewMap": "https://www.google.com/maps/dir//Av.+Boyac%C3%A1+%236b-58,+Bogot%C3%A1/@4.6321101,-74.1374658,17z/data=!4m17!1m7!3m6!1s0x8e3f9c1ceb3acee9:0x713abb65688a9bb3!2zQXYuIEJveWFjw6EgIzZiLTU4LCBCb2dvdMOh!3b1!8m2!3d4.6320957!4d-74.1374251!4m8!1m0!1m5!1m1!1s0x8e3f9c1ceb3acee9:0x713abb65688a9bb3!2m2!1d-74.1374251!2d4.6320957!3e2"
+        },
+        "epson-call-center": {
+            "name": "EPSON Call Center",
+            "phone": [
+                "018000915235"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://epsonco.zendesk.com/hc/es"
+        },
+        "epson-cali-01": {
+            "name": "Mes de Occidente S.A.S.",
+            "address": "Av. 5 N No. 37 A - 114",
+            "lat": "3.451178",
+            "lng": "-76.5659976",
+            "phone": [
+                "3154861674"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/1PUSwX8pJDWNHjAv7"
         },
         "epson-manizales": {
             "name": "IT CENTER",
@@ -3991,7 +4030,72 @@
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
             "viewMap": "https://www.google.com/maps/place/Cra.+23c+%2369-37,+Manizales,+Caldas/@5.0521911,-75.4878105,17z/data=!3m1!4b1!4m5!3m4!1s0x8e47657995d36231:0xcf41668dae4a6131!8m2!3d5.0521858!4d-75.4856218?hl=es"
+        },
+        "epson-medellin-01": {
+            "name": "Comprodigios S.A.S.",
+            "address": "Cr 80 A No. 32 B - 62",
+            "lat": "6.2345166",
+            "lng": "-75.6007782",
+            "phone": [
+                "3116095037"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/dsCj7jtBL6mL4hC17"
+        },
+        "epson-pereira-01": {
+            "name": "Compuware Pereira",
+            "address": "Cl 23 No. 5 - 63",
+            "lat": "4.81619",
+            "lng": "-775.6973904",
+            "phone": [
+                "3103669788"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/6VTas5izZfUYvYXa9"
+        },
+        "epson-santa-marta-01": {
+            "name": "Serviasecom",
+            "address": "Cr 32 No. 26 A - 24, local 1",
+            "lat": "11.2312578",
+            "lng": "-74.1761115",
+            "phone": [
+                "3153655023"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/v9XFVC6dd4h31ThA6"
+        },
+        "epson-villavicencio-01": {
+            "name": "Exa Soluciones S.A.S.",
+            "address": "Cr 35 No. 34 B - 11",
+            "lat": "4.1473387",
+            "lng": "-73.6381106",
+            "phone": [
+                "3204878779"
+            ],
+            "schedule": [
+                "Lun a Vie de 08:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://epsonco.zendesk.com/hc/es",
+            "viewMap": "https://maps.app.goo.gl/J4R8esANX1yVib9N8"
         },
         "espumados-call-center": {
             "name": "Espumados Call Center",
@@ -4249,6 +4353,9 @@
             "name": "Hewlett Packard Call Center",
             "phone": [
                 "018005191293"
+            ],
+            "whatsapp": [
+                "+5213319309511"
             ],
             "schedule": [
                 "Lun a Vie de 08:00 a.m a 6:00 p.m"
@@ -4896,9 +5003,6 @@
             "name": "LG Call Center",
             "phone": [
                 "018000910683"
-            ],
-            "cell": [
-                "3222634570"
             ],
             "whatsapp": [
                 "3173720142"
@@ -7120,6 +7224,24 @@
             ],
             "type": "externo",
             "link": "https://www.reditoys.com/"
+        },
+        "redicol-bogota-01": {
+            "name": "Redicol Bogotá",
+            "email": "ventas1.bebesit@reditoys.com",
+            "address": "Cl 170 # 21 A 12",
+            "lat": "4.7510279",
+            "lng": "-74.0440177",
+            "cell": [
+                "3002155815"
+            ],
+            "whatsapp": [
+                "3012475447"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m"
+            ],
+            "type": "interno",
+            "viewMap": "https://maps.app.goo.gl/3mvWXoyoEnJn9Zy96"
         },
         "remington-call-center": {
             "name": "Remington Call Center",
@@ -9619,7 +9741,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-medellin-call-center"
+                                "dell-medellin-call-center",
+                                "epson-medellin-01"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -9731,7 +9854,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-barranquilla"
+                                "dell-barranquilla",
+                                "epson-barranquilla-01"
                             ]
                         },
                         "informatica-celulares": {
@@ -10266,7 +10390,8 @@
                             "stores": [
                                 "mattel-colombia-call-center",
                                 "more-products-call-center",
-                                "ronda-bogota-call-center"
+                                "ronda-bogota-call-center",
+                                "redicol-bogota-01"
                             ]
                         },
                         "muebles": {
@@ -10569,7 +10694,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-santa-marta-call-center"
+                                "dell-santa-marta-call-center",
+                                "epson-santa-marta-01"
                             ]
                         },
                         "repuestos-automotores": {
@@ -10607,7 +10733,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-villavicencio-call-center"
+                                "dell-villavicencio-call-center",
+                                "epson-villavicencio-01"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -10798,7 +10925,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-pereira-call-center"
+                                "dell-pereira-call-center",
+                                "epson-pereira-01"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -11134,7 +11262,8 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-cali-call-center"
+                                "dell-cali-call-center",
+                                "epson-cali-01"
                             ]
                         },
                         "informatica-celulares": {
