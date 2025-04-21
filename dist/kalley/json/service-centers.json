@@ -123,27 +123,12 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2614439,-75.5702308,17z/data=!4m17!1m7!3m6!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2sCra.+53+%2362-39,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2614439!4d-75.5680421!4m8!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.5680421!2d6.2614439!3e3"
         },
-        "antioquia-medellin-05": {
-            "name": "PROMOVIL",
-            "address": "Cl 53 No. 50-21, Nutibara Mayorista",
-            "email": "centrodegarantiaspromovil.co@gmail.com",
-            "lat": "6.252401",
-            "lng": "-75.5690258",
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "cell": [
-                "3054365752"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+53+%23%2350-21,+Medell%C3%ADn,+Antioquia/@6.252401,-75.5690258,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428f96af01c81:0xc5719799e0fba830!8m2!3d6.2523957!4d-75.5668371?hl=es"
-        },
         "antioquia-medellin-06": {
             "name": "Expertos en Servicio Postventa",
-            "address": "Cl 1 SUR # 56-06",
+            "address": "CARRERA 56 # 1 SUR - 28 BARRIO RODEO NORTE",
             "email": "expertospostventa@gmail.com",
-            "lat": "6.2086297",
-            "lng": "-75.5906403",
+            "lat": "6.208084",
+            "lng": "-75.6065812",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
@@ -151,7 +136,7 @@
             "cell": [
                 "3041290724"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+1+Sur+%2356-6,+Guayabal,+Medell%C3%ADn,+Guayabal,+Medell%C3%ADn,+Antioquia/@6.2086297,-75.5906403,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e4429d86f578c41:0xd1e910dd05f01981!2m2!1d-75.58806!2d6.2086297?entry=ttu"
+            "viewMap": "https://maps.app.goo.gl/d8xNoiKe2di5rsBj6"
         },
         "antioquia-medellin-07": {
             "name": "ELECTRICOS ATENAS",
@@ -172,10 +157,10 @@
         },
         "antioquia-apartado-01": {
             "name": "URASOLUCION VILLEGAS",
-            "address": "CRA. 98 # 98 - 13",
+            "address": "CRA. 77A N 101C -04 BARRIO POLICARPA",
             "email": "urasolucionvillegas@hotmail.com",
-            "lat": "7.8819526",
-            "lng": "-76.6335629",
+            "lat": "7.8777806",
+            "lng": "-76.6295125",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
@@ -183,7 +168,7 @@
             "cell": [
                 "3336496056"
             ],
-            "viewMap": "https://maps.app.goo.gl/hiiUTGEcYurvFJvs5"
+            "viewMap": "https://maps.app.goo.gl/TFu1VWphEGMRA6F47"
         },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
@@ -338,21 +323,6 @@
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+70b+%2341-154,+Barranquilla,+Atl%C3%A1ntico/@10.9895245,-74.8083035,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d128110582f:0x138b3c07c1487ffa!8m2!3d10.9895245!4d-74.8061148?hl=es"
         },
-        "atlantico-barranquilla-03": {
-            "name": "LOGYTECH MOBILE BARRANQUILLA",
-            "address": "Cl 58 No. 44-70, Barrio Boston",
-            "email": "st.barranquillasur@logytechmobile.com",
-            "lat": "10.9878655",
-            "lng": "-74.7971114",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "cell": [
-                "3023359860"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+58+%2344-70,+Barranquilla,+Atl%C3%A1ntico/@10.9878655,-74.7971114,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d6fcc523d65:0xfe45ee70d0bff2d1!8m2!3d10.9878602!4d-74.7949227?hl=es"
-        },
         "bogota-01": {
             "name": "CENTRO SERVICIO EXCLUSIVO KALLEY 68",
             "address": "AV. CRA. 68 NO. 67C - 24",
@@ -368,6 +338,27 @@
             ],
             "cell": [
                 "3014995879"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cra+68+%2367C-24,+Barrios+Unidos,+Bogot%C3%A1/@4.6745554,-74.089916,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b05750e5fe1:0xd63baae0f525ced2!2m2!1d-74.0873357!2d4.6745554?entry=ttu"
+        },
+        "bogota-02": {
+            "name": "CENTRO SERVICIO EXCLUSIVO KALLEY VENECIA",
+            "address": "Cl 43D Sur N 68B - 63 Barrio las Delicias",
+            "email": [
+                "csekalley@hotmail.com",
+                "soportekalley@gmail.com"
+            ],
+            "lat": "4.6745554",
+            "lng": "-74.089916",
+            "schedule": [
+                "Lun a Vie de 9:00 a.m a 5:00 p.m",
+                "Sab 9:00 a.m a 2:00 p.m"
+            ],
+            "phone": [
+                "8146262"
+            ],
+            "cell": [
+                "3012901623"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra+68+%2367C-24,+Barrios+Unidos,+Bogot%C3%A1/@4.6745554,-74.089916,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b05750e5fe1:0xd63baae0f525ced2!2m2!1d-74.0873357!2d4.6745554?entry=ttu"
         },
@@ -506,6 +497,22 @@
                 "3235812790"
             ],
             "viewMap": "https://www.google.com/maps/dir//Villa+Sandra,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.3933995,-75.489651,18z/data=!4m17!1m7!3m6!1s0x8ef625c93e2c4c3b:0x3a9ed32abee925ff!2sVilla+Sandra,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar!3b1!8m2!3d10.3937799!4d-75.4887235!4m8!1m0!1m5!1m1!1s0x8ef625c93e2c4c3b:0x3a9ed32abee925ff!2m2!1d-75.4887235!2d10.3937799!3e3"
+        },
+        "bolivar-cartagena-01": {
+            "name": "HUELLAS DIGITALES SAS",
+            "address": "Bario las Delicias Cra 66 # 30-106",
+            "email": "huellasdigitalesctg@gmail.com",
+            "lat": "10.3920068",
+            "lng": "-75.4903188",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "cell": [
+                "3214638863",
+                "3183041748"
+            ],
+            "viewMap": "https://maps.app.goo.gl/r8qaKPajJ5wEMdNb7"
         },
         "boyaca-duitama-01": {
             "name": "LC ELECTRONICS",
@@ -999,10 +1006,10 @@
         },
         "guajira-rioacha": {
             "name": "López Digital",
-            "address": "Cl 27B No 21-35 Local 4",
+            "address": "CARRERA 33A # 28B-36",
             "email": "csald68@gmail.com",
-            "lat": "11.5309967",
-            "lng": "-72.9179082",
+            "lat": "11.529513",
+            "lng": "-72.9264303",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m",
                 "Sab de 8:30 a.m a 12:00 m"
@@ -1013,7 +1020,7 @@
             "cell": [
                 "3142199100"
             ],
-            "viewMap": "https://maps.app.goo.gl/LTbkBeWZEw38FrRcA"
+            "viewMap": "https://maps.app.goo.gl/V7Ec3JcBemt4h31Y7"
         },
         "huila-garzon": {
             "name": "ELECTRÓNICAS AUDIO Y COLOR",
@@ -1326,6 +1333,22 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+7+%237-65,+La+Hormiga,+Valle+Del+Guamuez,+Putumayo/@0.4250021,-76.9085699,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e284344a5e52f35:0xe31cf5b02e2afb8b!2m2!1d-76.9059896!2d0.4250021?entry=ttu"
         },
+        "putumayo-puerto-asis": {
+            "name": "SOLUCIONES YGM",
+            "address": "CRA 23 #10-38 Barrio San Nicolas",
+            "email": "Refrigeracionesz@hotmail.com",
+            "lat": "0.4961043",
+            "lng": "-76.5034661",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "cell": [
+                "3115404906",
+                "3229178462"
+            ],
+            "viewMap": "https://maps.app.goo.gl/Em6Z8gvxPj6yfdes7"
+        },
         "quindio-armenia": {
             "name": "QUINDIO DIGITAL",
             "address": "Cl 23 No 13 - 15, Lc 1 Centro",
@@ -1346,10 +1369,10 @@
         },
         "risaralda-dosquebradas": {
             "name": "ELECTROSERVICIOS DEL EJE S.A.S",
-            "address": "Cl 34 No 13 - 69, Lc 2 Guadalupe",
+            "address": "Mz 15 Cs 7 Barrio: Colinas del Bosque Dosquebradas Risaralda",
             "email": "electroservicios.eje@hotmail.com",
-            "lat": "4.8399531",
-            "lng": "-75.6803469",
+            "lat": "4.852388",
+            "lng": "-75.6720273",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
@@ -1361,7 +1384,7 @@
                 "3117061909",
                 "3108390686"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+34+%231-3,+Dosquebradas,+Risaralda/@4.8399531,-75.6803469,17z/data=!4m17!1m7!3m6!1s0x8e3880dcda7dfd1d:0xa1574ef077e2aa6!2sCl.+34+%231-3,+Dosquebradas,+Risaralda!3b1!8m2!3d4.8399531!4d-75.6781582!4m8!1m0!1m5!1m1!1s0x8e3880dcda7dfd1d:0xa1574ef077e2aa6!2m2!1d-75.6781582!2d4.8399531!3e3"
+            "viewMap": "https://maps.app.goo.gl/TBPiTDmwBWHe4zTv8"
         },
         "risaralda-pereira-01": {
             "name": "SERVI-LUX",
@@ -1810,10 +1833,10 @@
         },
         "valle-cauca-jamundi": {
             "name": "SERVICE POINT",
-            "address": "Cr 14 No 18 - 35, Barrio La Pradera",
+            "address": "CRA 14 # 18 05 Local esquinero, Barrio La pradera",
             "email": "servicepointjj@gmail.com",
-            "lat": "3.2687734",
-            "lng": "-76.5408017",
+            "lat": "3.2685797",
+            "lng": "-76.5414109",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:30 m y de 2:00 p.m a 5:30 p.m",
                 "Sab de 8:00 a.m a 12:30 p.m"
@@ -1821,7 +1844,7 @@
             "cell": [
                 "3157022997"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+14+%2318-35,+Jamund%C3%AD,+Valle+del+Cauca/@3.2687734,-76.5408017,17z/data=!4m17!1m7!3m6!1s0x8e309ec86872df33:0x2c348931de27d8e!2sCra.+14+%2318-35,+Jamund%C3%AD,+Valle+del+Cauca!3b1!8m2!3d3.2687734!4d-76.538613!4m8!1m0!1m5!1m1!1s0x8e309ec86872df33:0x2c348931de27d8e!2m2!1d-76.538613!2d3.2687734!3e3"
+            "viewMap": "https://maps.app.goo.gl/LrxsyyqDPXk5D4zi8"
         },
         "valle-cauca-roldanillo": {
             "name": "SERVIELECTRÓNICA DEL NORTE",
@@ -2440,22 +2463,26 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "audio-video": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "cuidado-personal": {
@@ -2465,37 +2492,54 @@
                         },
                         "dispensadores": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
+                            ]
+                        },
+                        "iluminacion": {
+                            "stores": [
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "ferreteria": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "bolivar-cartagena-01"
                             ]
                         },
                         "tabletas": {
                             "stores": [
-                                "bolivar-cartagena-02"
+                                "bolivar-cartagena-02",
+                                "bolivar-cartagena-01"
                             ]
                         }
                     }
@@ -3723,6 +3767,7 @@
                         "accesorios": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-07",
                                 "bogota-10",
                                 "bogota-11",
@@ -3738,6 +3783,7 @@
                         "audio-video": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-04",
                                 "bogota-10",
                                 "bogota-11",
@@ -3747,6 +3793,7 @@
                         "casa-inteligente": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -3761,6 +3808,7 @@
                         "dispensadores": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-09",
                                 "bogota-11",
                                 "bogota-12"
@@ -3769,6 +3817,7 @@
                         "ferreteria": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-07",
                                 "bogota-11"
                             ]
@@ -3782,6 +3831,7 @@
                         "iluminacion": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-12"
                             ]
                         },
@@ -3795,6 +3845,7 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-07",
                                 "bogota-11",
                                 "bogota-12"
@@ -3810,6 +3861,7 @@
                         "smart-home-menores": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -3818,12 +3870,14 @@
                         "tabletas": {
                             "stores": [
                                 "bogota-01",
+                                "bogota-02",
                                 "bogota-11"
                             ]
                         },
                         "telefonia-celular": {
                             "stores": [
-                                "bogota-01"
+                                "bogota-01",
+                                "bogota-02"
                             ]
                         }
                     }
@@ -4812,6 +4866,52 @@
                         "refrigeracion": {
                             "stores": [
                                 "putumayo-la-hormiga"
+                            ]
+                        }
+                    }
+                },
+                "puerto-asis": {
+                    "areaCode": 8,
+                    "name": "Puerto Asis",
+                    "categories": {
+                        "aires-acondicionados": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "dispensadores": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "tabletas": {
+                            "stores": [
+                                "putumayo-puerto-asis"
                             ]
                         }
                     }
