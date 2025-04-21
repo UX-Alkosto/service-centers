@@ -2108,7 +2108,6 @@
                         "accesorios": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-05",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2133,7 +2132,6 @@
                             "stores": [
                                 "antioquia-medellin-03",
                                 "antioquia-medellin-04",
-                                "antioquia-medellin-05",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2145,7 +2143,6 @@
                         "ferreteria": {
                             "stores": [
                                 "antioquia-medellin-04",
-                                "antioquia-medellin-05",
                                 "antioquia-medellin-06",
                                 "antioquia-medellin-07"
                             ]
@@ -2170,7 +2167,6 @@
                             "stores": [
                                 "antioquia-medellin-03",
                                 "antioquia-medellin-04",
-                                "antioquia-medellin-05",
                                 "antioquia-medellin-06",
                                 "antioquia-medellin-07"
                             ]
@@ -2188,14 +2184,12 @@
                         },
                         "tabletas": {
                             "stores": [
-                                "antioquia-medellin-03",
-                                "antioquia-medellin-05"
+                                "antioquia-medellin-03"
                             ]
                         },
                         "telefonia-celular": {
                             "stores": [
-                                "antioquia-medellin-03",
-                                "antioquia-medellin-05"
+                                "antioquia-medellin-03"
                             ]
                         }
                     }
@@ -2364,8 +2358,7 @@
                         "accesorios": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "aires-acondicionados": {
@@ -2377,8 +2370,7 @@
                         "audio-video": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "casa-inteligente": {
@@ -2402,8 +2394,7 @@
                         "ferreteria": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -2426,8 +2417,7 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-barranquilla-03"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "refrigeracion": {
