@@ -13,6 +13,12 @@
                 "cundinamarca"
             ]
         },
+        "across": {
+            "name": "Across",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
         "adata": {
             "name": "Adata",
             "departments": [
@@ -71,20 +77,8 @@
                 "cundinamarca"
             ]
         },
-        "avh": {
-            "name": "AVH",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "belkin": {
             "name": "Belkin",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
-        "benq": {
-            "name": "Benq",
             "departments": [
                 "linea-nacional"
             ]
@@ -233,12 +227,6 @@
                 "valle-del-cauca"
             ]
         },
-        "compaq": {
-            "name": "Compaq",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "continental": {
             "name": "Continental",
             "departments": [
@@ -257,37 +245,17 @@
                 "linea-nacional"
             ]
         },
-        "dell": {
-            "name": "Dell",
-            "departments": [
-                "antioquia",
-                "atlantico",
-                "boyaca",
-                "cesar",
-                "caldas",
-                "cauca",
-                "cordoba",
-                "cundinamarca",
-                "guajira",
-                "huila",
-                "linea-nacional",
-                "magdalena",
-                "meta",
-                "narino",
-                "quindio",
-                "risaralda",
-                "san-andres",
-                "santander",
-                "sucre",
-                "tolima",
-                "valle-del-cauca"
-            ]
-        },
         "directv": {
             "name": "Direct TV",
             "departments": [
                 "cundinamarca",
                 "linea-nacional"
+            ]
+        },
+        "dko-design": {
+            "name": "Dko Design",
+            "departments": [
+                "cundinamarca"
             ]
         },
         "dorado": {
@@ -413,12 +381,6 @@
                 "linea-nacional"
             ]
         },
-        "genius": {
-            "name": "Genius",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "goodyear": {
             "name": "Goodyear",
             "departments": [
@@ -472,18 +434,6 @@
                 "linea-nacional"
             ]
         },
-        "horizon": {
-            "name": "Horizon",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
-        "htc": {
-            "name": "HTC",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "huawei": {
             "name": "Huawei",
             "departments": [
@@ -503,12 +453,6 @@
                 "linea-nacional"
             ]
         },
-        "ifrogz": {
-            "name": "Ifrogz",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "imusa": {
             "name": "Imusa",
             "departments": [
@@ -524,6 +468,12 @@
         },
         "inacsa": {
             "name": "Inacsa",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "infinix": {
+            "name": "INFINIX",
             "departments": [
                 "linea-nacional"
             ]
@@ -616,12 +566,6 @@
                 "cundinamarca"
             ]
         },
-        "kyocera": {
-            "name": "Kyocera",
-            "departments": [
-                "cundinamarca"
-            ]
-        },
         "lenovo": {
             "name": "Lenovo",
             "departments": [
@@ -657,6 +601,12 @@
         },
         "mabe": {
             "name": "MABE",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
+        "maytag": {
+            "name": "Maytag",
             "departments": [
                 "linea-nacional"
             ]
@@ -703,8 +653,8 @@
                 "linea-nacional"
             ]
         },
-        "moduart": {
-            "name": "Moduart",
+        "moduofi": {
+            "name": "Moduofi",
             "departments": [
                 "linea-nacional"
             ]
@@ -736,6 +686,12 @@
                 "santander",
                 "sucre",
                 "valle-del-cauca"
+            ]
+        },
+        "mq": {
+            "name": "MQ",
+            "departments": [
+                "linea-nacional"
             ]
         },
         "msi": {
@@ -807,6 +763,12 @@
                 "linea-nacional",
                 "cundinamarca",
                 "meta"
+            ]
+        },
+        "oppo": {
+            "name": "Oppo",
+            "departments": [
+                "cundinamarca"
             ]
         },
         "pamacol": {
@@ -898,6 +860,12 @@
                 "linea-nacional"
             ]
         },
+        "realme": {
+            "name": "Realme",
+            "departments": [
+                "cundinamarca"
+            ]
+        },
         "redicol": {
             "name": "Redicol S.A.S",
             "departments": [
@@ -954,33 +922,16 @@
                 "linea-nacional"
             ]
         },
-        "sharp": {
-            "name": "Sharp",
-            "departments": [
-                "antioquia",
-                "atlantico",
-                "meta",
-                "risaralda",
-                "santander",
-                "valle-del-cauca"
-            ]
-        },
         "simmons": {
             "name": "Simmons",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "simoniz": {
             "name": "Simoniz",
             "departments": [
                 "linea-nacional"
-            ]
-        },
-        "simply": {
-            "name": "Simply",
-            "departments": [
-                "cundinamarca"
             ]
         },
         "singer": {
@@ -1005,7 +956,7 @@
         "spring": {
             "name": "Spring",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "startec": {
@@ -1020,14 +971,33 @@
                 "linea-nacional"
             ]
         },
-        "tablemac": {
-            "name": "Tablemac",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
         "tcl": {
             "name": "TCL",
+            "departments": [
+                "linea-nacional",
+                "cundinamarca",
+                "bolivar",
+                "antioquia",
+                "arauca",
+                "boyaca",
+                "caldas",
+                "caqueta",
+                "casanare",
+                "cauca",
+                "cesar",
+                "choco",
+                "cordoba",
+                "huila",
+                "magdalena",
+                "meta",
+                "risaralda",
+                "santander",
+                "sucre",
+                "valle-del-cauca"
+            ]
+        },
+        "tecno": {
+            "name": "TECNO",
             "departments": [
                 "linea-nacional"
             ]
@@ -1065,10 +1035,10 @@
                 "linea-nacional"
             ]
         },
-        "urbanears": {
-            "name": "Urbanears",
+        "vanyplas": {
+            "name": "VANYPLAS",
             "departments": [
-                "cundinamarca"
+                "linea-nacional"
             ]
         },
         "verbatim": {
@@ -1093,20 +1063,14 @@
                 "valle-del-cauca"
             ]
         },
+        "vivo": {
+            "name": "VIVO",
+            "departments": [
+                "linea-nacional"
+            ]
+        },
         "v-tech": {
             "name": "V-Tech",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
-        "wahoo": {
-            "name": "Wahoo",
-            "departments": [
-                "linea-nacional"
-            ]
-        },
-        "weider": {
-            "name": "Weider",
             "departments": [
                 "linea-nacional"
             ]
@@ -1355,11 +1319,14 @@
                 "7245151",
                 "018000112057"
             ],
+            "whatsapp": [
+                "573208384826"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "externo",
-            "link": "https://abba.com.co/contenido/centros-de-servicio-autorizado"
+            "link": "https://abba.com.co/servicio-tecnico-abba/"
         },
         "acer-bogota-01": {
             "name": "Punto de Servicio La Castellana",
@@ -1448,6 +1415,21 @@
             "type": "externo",
             "link": "https://www.acer.com/ac/es/AR/content/repair-centers"
         },
+        "across-call-center": {
+            "name": "Across Call Center",
+            "phone": [
+                "6013557645"
+            ],
+            "whatsapp": [
+                "573118760622"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.whirlpool.com.co/servicios"
+        },
         "adata-call-center": {
             "name": "Adata Call Center, Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -1472,15 +1454,19 @@
             "viewMap": "https://www.google.com/maps/dir//Ak+30+%2363f-53,+Bogot%C3%A1/@4.6572428,-74.0782482,21z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bad45d3ab83:0xd057cdfdf0ffbe6d!2m2!1d-74.0782507!2d4.6575332"
         },
         "alcatel-call-center": {
-            "name": "Alcatel Call Center",
+            "name": "WODEN Colombia S.A.S",
+            "address": "Calle 13 # 56-35",
+            "lat": "4.630464",
+            "lng": "-74.110689",
             "phone": [
-                "01 8005183882"
+                "7942173"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 7:00 a.m a 5:30 p.m"
             ],
-            "type": "externo",
-            "link": "https://www.alcatelmobile.com/co/support/"
+            "type": "interno",
+            "link": "https://www.woden.com.co/contacto",
+            "viewMap": "https://maps.app.goo.gl/yQHKn4h9PrsoMLCk7"
         },
         "aoc-call-center": {
             "name": "AOC Call Center",
@@ -1836,14 +1822,6 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Ak+30+%2363f-53,+Bogot%C3%A1/@4.6572428,-74.0782482,21z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bad45d3ab83:0xd057cdfdf0ffbe6d!2m2!1d-74.0782507!2d4.6575332"
         },
-        "avh-linea-nacional": {
-            "name": "Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "interno"
-        },
         "belkin-linea-nacional": {
             "name": "Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -1851,15 +1829,6 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
-        },
-        "benq-linea-nacional": {
-            "name": "BENQ Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.benq.com/es-co/support/repair-service/repair-center.htm"
         },
         "better-bogota": {
             "name": "Better Ltda",
@@ -2420,23 +2389,20 @@
             "type": ""
         },
         "bose-bogota": {
-            "name": "Ceser",
-            "address": "Cr 49 No. 93-12, Barrio: La Castellana",
-            "lat": "4.6809798",
-            "lng": "-74.0617508",
-            "phone": [
-                "018000196054"
-            ],
+            "name": "Punto de Servicio",
+            "address": "Carrera 40 No. 24A - 59 Quinta Paredes",
+            "lat": "4.6809795",
+            "lng": "-74.0619173",
             "cell": [
+                "018000196054",
                 "3336025354"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 3:30 p.m",
-                "Sab de 7:00 a.m - 5:00 p.m"
+                "Lun de 7:00 a.m a 3:30 p.m, Mar a Viernes 7:00am a 5:00pm"
             ],
             "type": "externo",
-            "link": "https://www.bose.co/es_co/support.html",
-            "viewMap": "https://maps.app.goo.gl/N8uhXK1bzVhvnSUd7"
+            "link": "https://www.bose.co/es_co/contact_us.html",
+            "viewMap": "https://maps.app.goo.gl/EjQX4Qf8AX9aFCng8"
         },
         "bose-call-center": {
             "name": "Bose Call Center",
@@ -3031,8 +2997,8 @@
                 "573122100100"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 7:30 a.m a 5:30 p.m",
+                "Sab de 7:30 a.m a 11:00 a.m"
             ],
             "type": "externo",
             "link": "https://mabeglobal.com/es_CO/servicio-mabe"
@@ -3744,25 +3710,14 @@
                 "01 8000111966"
             ],
             "whatsapp": [
-                "573222783347"
+                "573218033632"
             ],
             "schedule": [
                 "Lun a Vie de 7:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "type": "externo",
-            "link": "https://challenger.com.co/servicio-tecnico/"
-        },
-        "compaq-call-center": {
-            "name": "COMPAQ Call Center",
-            "phone": [
-                "018005184842"
-            ],
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 10:00 p.m"
-            ],
-            "type": "externo",
-            "link": "http://www.hp.com/latam/co/soporte/cas/index.html"
+            "link": "https://www.challenger.com.co/servicio-tecnico"
         },
         "continental-linea-nacional": {
             "name": "Continental Alkosto/Ktronix",
@@ -3803,331 +3758,6 @@
             ],
             "type": "interno"
         },
-        "dell-armenia": {
-            "name": "Nuestros Computadores",
-            "address": "Cr 14 No. 5-91, Frente a Unicentro C.C",
-            "lat": "4.5395552",
-            "lng": "-75.6661384",
-            "phone": [
-                "018009155704",
-                "7466349",
-                "7450346"
-            ],
-            "cell": [
-                "3153002610"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 7:00 p.m",
-                "Sab de 9:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter",
-            "viewMap": "https://www.google.com/maps/dir//Nacho+Computadores,+Av.+Bol%C3%ADvar+%23No.+5-91,+Armenia,+Quind%C3%ADo/@4.5395552,-75.6661384,17z/data=!4m16!1m6!3m5!1s0x0:0x3624599ab9a790c!2sNacho+Computadores!8m2!3d4.5399707!4d-75.6652129!4m8!1m0!1m5!1m1!1s0x8e38f4556d7a394b:0x3624599ab9a790c!2m2!1d-75.6652128!2d4.539971!3e2"
-        },
-        "dell-barranquilla": {
-            "name": "Hardware & Servicios",
-            "address": "Cr 43 No. 50-12, Lc 168, Parque Central",
-            "lat": "10.984015",
-            "lng": "-74.7916805",
-            "phone": [
-                "018009155704",
-                "3855179"
-            ],
-            "cell": [
-                "3004616472",
-                "3165433711"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 12:00 p.m y de 2:00 p.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter",
-            "viewMap": "https://www.google.com/maps/dir//Hardware+y+Servicios+S.A.S.,+Locales+96-118+-+131+-+161+Carrera+43+%23No.+50+-+12,+Barranquilla,+Atl%C3%A1ntico/@10.984015,-74.7916805,17z/data=!4m16!1m6!3m5!1s0x8ef42db550837043:0x1b4f161934412e9d!2sHardware+y+Servicios+S.A.S.!8m2!3d10.984015!4d-74.7894918!4m8!1m0!1m5!1m1!1s0x8ef42db550837043:0x1b4f161934412e9d!2m2!1d-74.7894918!2d10.984015!3e2"
-        },
-        "dell-bogota-call-center": {
-            "name": "Dell Bogotá",
-            "lat": "4.667796",
-            "lng": "-74.0580581",
-            "phone": [
-                "018009155704",
-                "4673400",
-                "7968592"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter",
-            "viewMap": "https://www.google.com/maps/dir//SIC+SERVICIOS+INTEGRADOS+DE+COMPUTO+Y+COMERCIALIZACION+DE+COLOMBIA+S.A.,+Cra.+16a+%23%2380-79,+Bogot%C3%A1/@4.667796,-74.0580581,21z/data=!4m16!1m6!3m5!1s0x8e3f9b7cbb577017:0x394b41552bd226b7!2sSIC+SERVICIOS+INTEGRADOS+DE+COMPUTO+Y+COMERCIALIZACION+DE+COLOMBIA+S.A.!8m2!3d4.6678888!4d-74.0578389!4m8!1m0!1m5!1m1!1s0x8e3f9b7cbb577017:0x394b41552bd226b7!2m2!1d-74.0578389!2d4.6678888!3e2"
-        },
-        "dell-bucaramanga": {
-            "name": "Dell Bucaramanga",
-            "address": "Cl 36 No. 21-50",
-            "lat": "7.119755",
-            "lng": "-73.1210433",
-            "phone": [
-                "018009155704",
-                "6330795",
-                "6832531",
-                "6701682"
-            ],
-            "cell": [
-                "3174418668"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:30 p.m y de 2:30 p.m a 6:15 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+36+%2321-50,+Bucaramanga,+Santander/@7.119755,-73.1210433,18z/data=!4m17!1m7!3m6!1s0x8e683fd842941f1f:0xd8302a85c8e5dfa9!2sCl.+36+%2321-50,+Bucaramanga,+Santander!3b1!8m2!3d7.1196933!4d-73.1210509!4m8!1m0!1m5!1m1!1s0x8e683fd842941f1f:0xd8302a85c8e5dfa9!2m2!1d-73.1210509!2d7.1196933!3e2"
-        },
-        "dell-cali-call-center": {
-            "name": "Dell Cali Call Center",
-            "phone": [
-                "018009155704",
-                "6682123",
-                "3731022"
-            ],
-            "cell": [
-                "3174285445",
-                "3103842067"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-ibague-call-center": {
-            "name": "Dell Ibagué Call Center",
-            "phone": [
-                "018009155704",
-                "2666024",
-                "2655212"
-            ],
-            "cell": [
-                "3163046443",
-                "3132625709",
-                "3112749941"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 6:30 p.m",
-                "Sab de 9:00 a.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-manizales-call-center": {
-            "name": "Dell Manizales Call Center",
-            "phone": [
-                "018009155704",
-                "8806030",
-                "8906030"
-            ],
-            "cell": [
-                "3155409495",
-                "316417768"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a 12:30 y de 2:00 p.m a 6:30 p.m",
-                "Sab de 9:00 a.m a 12:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-medellin-call-center": {
-            "name": "Dell Medellín Call Center",
-            "phone": [
-                "3113084",
-                "018009155704"
-            ],
-            "cell": [
-                "3183625978"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:30 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-monteria-call-center": {
-            "name": "Dell Montería Call Center",
-            "phone": [
-                "018009155704",
-                "7821853"
-            ],
-            "cell": [
-                "3107062893",
-                "3002050766"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-neiva-call-center": {
-            "name": "Dell Neiva Call Center",
-            "phone": [
-                "018009155704",
-                "8721466"
-            ],
-            "cell": [
-                "3165249558"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 5:30 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-pasto-call-center": {
-            "name": "",
-            "phone": [
-                "018009155704",
-                "7334105"
-            ],
-            "cell": [
-                "3137688408"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-pereira-call-center": {
-            "name": "Dell Pereira Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "cell": [
-                "3104556909"
-            ],
-            "schedule": [
-                "Lun a Vie de 10:00 a.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter",
-            "viewMap": "PARA MAS INFORMACION DE LOS CENTROS DE SERVICIO POR FAVOR REMITIRSE AL SIGUIENTE LINK https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-popayan-call-center": {
-            "name": "Dell Popayán Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "cell": [
-                "3137332842"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:30 p.m a 6:30 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-rioacha-call-center": {
-            "name": "Dell Rioacha Call Center",
-            "phone": [
-                "018009155704",
-                "3855179"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 12:00 p.m y de 2:00 p.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-san-andres-call-center": {
-            "name": "Dell San Andrés Call Center",
-            "phone": [
-                "018009155704",
-                "5131217",
-                "5124547"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:30 p.m y de 2:30 p.m a 7:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-santa-marta-call-center": {
-            "name": "Dell Santa Marta Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "cell": [
-                "3005295022",
-                "3002066657"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-sincelejo-call-center": {
-            "name": "Dell Sincelejo Call Center",
-            "phone": [
-                "018009155704",
-                "2815593"
-            ],
-            "cell": [
-                "3008010089",
-                "3013992113"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-tunja-call-center": {
-            "name": "Dell Tunja Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m y de 2:00 p.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-valledupar-call-center": {
-            "name": "Dell Valledupar Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 12:00 p.m y de 3:00 p.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-villavicencio-call-center": {
-            "name": "Dell Villavicencio Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
-        "dell-call-center": {
-            "name": "Dell Call Center",
-            "phone": [
-                "018009155704"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.dell.com/support/home/es-co/servicecenter"
-        },
         "directv-bogota-call-center": {
             "name": "Directv Call Center",
             "phone": [
@@ -4137,6 +3767,24 @@
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": "interno"
+        },
+        "dko-design-bogota": {
+            "name": "DKO Design",
+            "address": "Cra. 76 #69A - 53",
+            "lat": "4.6874934",
+            "lng": "-74.1009692",
+            "whatsapp": [
+                "573132489360"
+            ],
+            "cell": [
+                "3132489360"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://dko-design.com.co/?srsltid=AfmBOoqwlfR0znaJfoQ41O7VB1lalKynsiDxe-gC6Ht8u1WdqbzlO7my",
+            "viewMap": "https://maps.app.goo.gl/9xvydnD8gWfiuEFP8"
         },
         "directv-call-center": {
             "name": "Directv Call Center",
@@ -4162,20 +3810,18 @@
             "type": "interno",
             "link": "https://www.colchoneseldorado.com/contacto"
         },
-        "dormiluna-bogota": {
+        "dormiluna-linea-nacional": {
             "name": "Dormiluna",
-            "address": "Cr 67 No. 9-03",
-            "lat": "4.6299223",
-            "lng": "-74.1218905",
             "phone": [
-                "6012610700"
+                "2610700"
+            ],
+            "whatsapp": [
+                "+5713557873"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 3:00 p.m"
+                "Lun a Vie de 8:00 a.m a 6:00 p.m"
             ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Colchones+Dormiluna,+Ak+68+%2376S36,+Bogot%C3%A1,+Cundinamarca/@4.6299223,-74.1218905,19z/data=!4m16!1m6!3m5!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2sColchones+Dormiluna!8m2!3d4.630276!4d-74.121651!4m8!1m0!1m5!1m1!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2m2!1d-74.121651!2d4.630276!3e2"
+            "type": "interno"
         },
         "dunlop-linea-nacional": {
             "name": "Dunlop Alkosto/Ktronix",
@@ -4454,20 +4100,21 @@
         },
         "elements-bogota": {
             "name": "Elements",
-            "address": "Cr 72L No. 37B-62 Sur, Barrio Carvajal",
-            "lat": "4.614395",
-            "lng": "-74.1435364",
-            "phone": [
-                "6946763"
+            "address": "Cr 72L No. 37B-62 Sur",
+            "lat": "4.6135005",
+            "lng": "-74.1439474",
+            "whatsapp": [
+                "573508171313"
             ],
             "cell": [
-                "3114514701"
+                "3508171313"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 8:00 p.m"
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Cra.+72L+%26+Cl.+37b+Sur,+Kennedy,+Bogot%C3%A1/@4.614395,-74.1435364,17z/data=!4m17!1m7!3m6!1s0x8e3f9ebc39455a95:0xb7e489f5dfa5980d!2sCra.+72L+%26+Cl.+37b+Sur,+Kennedy,+Bogot%C3%A1!3b1!8m2!3d4.6143665!4d-74.1434804!4m8!1m0!1m5!1m1!1s0x8e3f9ebc39455a95:0xb7e489f5dfa5980d!2m2!1d-74.14348!2d4.6143667!3e2"
+            "link": " https://elementscym.com/contactanos/",
+            "viewMap": "https://maps.app.goo.gl/7DQ5C6TzfqERJJuS8"
         },
         "emove-bogota": {
             "name": "Evolution Fitness",
@@ -4797,19 +4444,11 @@
                 "573122100100"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 7:30 a.m a 5:30 p.m",
+                "Sab de 7:30 a.m a 11:00 a.m"
             ],
             "type": "interno",
             "link": "https://mabeglobal.com/es_CO/servicio-mabe"
-        },
-        "genius-linea-nacional": {
-            "name": "Genius Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "interno"
         },
         "goodyear-call-center": {
             "name": "GoodYear Call Center",
@@ -4880,7 +4519,8 @@
         "haceb-call-center": {
             "name": "Haceb Call Center",
             "phone": [
-                "018000511000"
+                "018000511000",
+                "#466"
             ],
             "whatsapp": [
                 "573164539797"
@@ -4890,7 +4530,7 @@
                 "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
-            "link": "https://servicio.haceb.com/centros-servicio-tecnico"
+            "link": "https://www.haceb.com/haceb-servicios/"
         },
         "hamilton-beach-bogota": {
             "name": "All Service",
@@ -4975,33 +4615,19 @@
             "type": "externo",
             "link": "https://www.hihonor.com/co/support/service-center/"
         },
-        "horizon-linea-nacional": {
-            "name": "Horizon Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "interno"
-        },
-        "htc-linea-nacional": {
-            "name": "HTC Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "interno"
-        },
         "huawei-call-center": {
             "name": "Huawei Call Center",
             "phone": [
                 "018000949400"
             ],
+            "whatsapp": [
+                "573118458429"
+            ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 12:30 p.m"
+                "Lun a Vie de 9:00 a.m a 6:00 p.m"
             ],
             "type": "externo",
-            "link": "https://consumer.huawei.com/co/support/service-center/"
+            "link": "https://consumer.huawei.com/co/support/contact-us/"
         },
         "hyundai-bogota": {
             "name": "All Service",
@@ -5028,6 +4654,9 @@
             "cell": [
                 "3008217999"
             ],
+            "whatsapp": [
+                "573008217999"
+            ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
@@ -5045,14 +4674,6 @@
             ],
             "type": "externo",
             "link": "https://servicio.haceb.com/centros-servicio-tecnico"
-        },
-        "ifrogz-nacional": {
-            "name": "IFROGZ Alkosto/Ktronix",
-            "address": "Almacén donde realizó la compra",
-            "schedule": [
-                "Dom a Dom de 8:00 a.m a 9:00 p.m"
-            ],
-            "type": "interno"
         },
         "imusa-armenia": {
             "name": "La Licuadora",
@@ -5227,6 +4848,18 @@
                 "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "type": ""
+        },
+        "infinix-call-center": {
+            "name": "Carlcare-BOG",
+            "email": "servicioalcliente@sertacolombia.com.co",
+            "phone": [
+                "3108820878",
+                "3227702775"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m"
+            ],
+            "type": "externo"
         },
         "induservix-bogota": {
             "name": "Induservix Solution S.A.S",
@@ -5464,43 +5097,31 @@
         "kitchenaid-call-center": {
             "name": "Kitchenaid Call Center",
             "phone": [
-                "018000115243"
+                "6013557645"
             ],
-            "schedule": [
-                "Lun a Vie de 7:00 p.m a 5:00 p.m"
-            ],
-            "type": "externo",
-            "link": "https://www.kitchenaid.com.co/servicios#talleres-certificados"
-        },
-        "k-line-bogota": {
-            "name": "Dormiluna",
-            "address": "Cr 67 No. 9-03",
-            "lat": "4.6299223",
-            "lng": "-74.1218905",
-            "phone": [
-                "2610700"
+            "whatsapp": [
+                "573118760622"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 3:00 p.m"
+                "Sab de 8:00 a.m a 2:00 p.m"
             ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Colchones+Dormiluna,+Ak+68+%2376S36,+Bogot%C3%A1,+Cundinamarca/@4.6299223,-74.1218905,19z/data=!4m16!1m6!3m5!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2sColchones+Dormiluna!8m2!3d4.630276!4d-74.121651!4m8!1m0!1m5!1m1!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2m2!1d-74.121651!2d4.630276!3e2"
+            "type": "externo",
+            "link": "https://www.whirlpool.com.co/servicios"
         },
-        "kyocera-bogota": {
-            "name": "DATECSA S.A.",
-            "address": "Cr 22 No. 168-58, Barrio Toberín",
-            "lat": "4.7499294",
-            "lng": "-74.0469687",
+        "k-line-call-center": {
+            "name": "K-Line",
+            "address": "Almacén donde realizó la compra",
+            "whatsapp": [
+                "5713557873"
+            ],
             "phone": [
-                "7560202"
+                "6012610700"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:00 a.m a 6:00 p.m"
             ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//DATECSA+S.A.,+Cra.+22+%23168-58,+Bogot%C3%A1/@4.7499294,-74.0469687,17z/data=!4m16!1m6!3m5!1s0x8e3f859c62213b0b:0x3ed01970fbc0ea7e!2sDATECSA+S.A.!8m2!3d4.7499294!4d-74.04478!4m8!1m0!1m5!1m1!1s0x8e3f859c62213b0b:0x3ed01970fbc0ea7e!2m2!1d-74.04478!2d4.7499294!3e2"
+            "type": "interno"
         },
         "lenovo-bogota-01": {
             "name": "Lenovo Punto de Servicios La Castellana",
@@ -5573,7 +5194,8 @@
                 "Lun a Vie de 8:00 a.m a 6:00 p.m",
                 "Sab y Dom de 8:00 a.m a 12:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://www.lg.com/co/soporte/contactenos/"
         },
         "lg-bogota-01": {
             "name": "Ceser",
@@ -5784,25 +5406,40 @@
                 "573122100100"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
+                "Lun a Vie de 7:30 a.m a 5:30 p.m",
+                "Sab de 7:30 a.m a 11:00 a.m"
             ],
             "type": "externo",
             "link": "https://mabeglobal.com/es_CO/servicio-mabe"
         },
-        "maderkit-call-center": {
-            "name": "Maderkit Call Center",
+        "maytag-call-center": {
+            "name": "Across Call Center",
             "phone": [
-                "018000180425"
+                "6013557645"
             ],
             "whatsapp": [
-                "573103724585"
+                "573118760622"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 p.m",
-                "Sab de 1:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
-            "type": "interno"
+            "type": "externo",
+            "link": "https://www.whirlpool.com.co/servicios"
+        },
+        "maderkit-call-center": {
+            "name": "Maderkit Call Center",
+            "cell": [
+                "3216991657"
+            ],
+            "whatsapp": [
+                "573217006407"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 4:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.maderkit.com.co/"
         },
         "marshall-linea-nacional": {
             "name": "Marshall Alkosto/Ktronix",
@@ -5868,13 +5505,16 @@
             "type": "interno",
             "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
-        "moduart-call-center": {
-            "name": "SMAYL Call Center",
-            "phone": [
-                "018000423612"
+        "moduofi-call-center": {
+            "name": "Moduofi",
+            "cell": [
+                "3206782917"
+            ],
+            "whatsapp": [
+                "3206782917"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m"
+                "Lun a Vie de 7:30 a.m a 5:00 p.m"
             ],
             "type": "interno"
         },
@@ -6475,6 +6115,19 @@
             "type": "interno",
             "viewMap": "https://www.google.com/maps/dir//Cra.+40+%23%2324a-59,+Bogot%C3%A1/@4.6315414,-74.0919107,21z/data=!4m16!1m7!3m6!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2zQ3JhLiA0MCAjIzI0YS01OSwgQm9nb3TDoQ!3b1!8m2!3d4.6317064!4d-74.091882!4m7!1m0!1m5!1m1!1s0x8e3f9bd979012677:0x92de3414a852d8c9!2m2!1d-74.091882!2d4.6317064?hl=es"
         },
+        "mq-call-center": {
+            "name": "MQ Call Center",
+            "cell": [
+                "3103435531"
+            ],
+            "whatsapp": [
+                "573103435531"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
+            ],
+            "type": "externo"
+        },
         "multitech-bogota": {
             "name": "All Service Electronics",
             "address": "Cl 24 No. 82-58, Barrio Modelia",
@@ -6734,6 +6387,21 @@
             "type": "externo",
             "link": "https://www.ostercolombia.com/servicio-y-soporte/centros-de-servicios",
             "viewMap": "https://www.google.com/maps/place/Cra.+26+%2335-9,+Villavicencio,+Meta/@4.1489514,-73.6343298,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3e2de7a5b098b1:0x4bcb265f40893970!8m2!3d4.1489514!4d-73.6321411"
+        },
+        "oppo-bogota": {
+            "name": "OPPO",
+            "address": "Calle 13 # 56-35",
+            "lat": "4.6304693",
+            "lng": "-74.110689",
+            "phone": [
+                "7942173"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.woden.com.co/contacto",
+            "viewMap": "https://maps.app.goo.gl/yQHKn4h9PrsoMLCk7"
         },
         "pamacol-call-center": {
             "name": "Pamacol Call Center",
@@ -7053,7 +6721,7 @@
                 "Sab de 8:00 a.m a 12:30 p.m"
             ],
             "type": "externo",
-            "link": "https://challenger.com.co/servicio-tecnico/",
+            "link": "https://www.panasonic.com/co/soporte/centros-de-servicio-autorizado.html",
             "viewMap": "https://www.google.com/maps/dir//Enlace+Digital+Manizales,+Calle+60+%2325-51,+Estrella,+Manizales,+Caldas/@5.0587196,-75.4919475,17z/data=!4m16!1m6!3m5!1s0x8e47657da9c480af:0xb5bf485aaa451bde!2sEnlace+Digital+Manizales!8m2!3d5.0587196!4d-75.4897588!4m8!1m0!1m5!1m1!1s0x8e47657da9c480af:0xb5bf485aaa451bde!2m2!1d-75.4897588!2d5.0587196!3e2"
         },
         "panasonic-medellin": {
@@ -7724,10 +7392,14 @@
             "cell": [
                 "3216991657"
             ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+            "whatsapp": [
+                "573217006407"
             ],
-            "type": "interno"
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 4:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.maderkit.com.co/"
         },
         "profit-bogota": {
             "name": "Evolution Fitness",
@@ -7755,6 +7427,23 @@
             ],
             "type": "interno",
             "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
+        },
+        "realme-bogota": {
+            "name": "REALME",
+            "address": "Calle 13 # 56-35",
+            "lat": "4.6304693",
+            "lng": "-74.110689",
+            "whatsapp": [],
+            "cell": [],
+            "phone": [
+                "7942173"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.woden.com.co/contacto",
+            "viewMap": "https://maps.app.goo.gl/yQHKn4h9PrsoMLCk7"
         },
         "redicol-bogota-call-center": {
             "name": "Redicol Call Center",
@@ -7800,15 +7489,17 @@
         "rimax-call-center": {
             "name": "Rimax Call Center",
             "email": "info@rimax.com.co",
-            "phone": [
-                "6959333",
-                "018000180087"
+            "cell": [
+                "3009121608"
+            ],
+            "whatsapp": [
+                "573009121608"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                ""
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://www.rimax.com.co/ayuda-pqrs"
         },
         "roku-call-center": {
             "name": "Roku Call Center",
@@ -7822,14 +7513,17 @@
         },
         "romance-relax-call-center": {
             "name": "Romance Relax Call Center",
-            "phone": [
-                "018000180418",
-                "7309130"
+            "cell": [
+                "3173316131"
+            ],
+            "whatsapp": [
+                "573165277692"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://services.grupoespumados.com/#/pqrs"
         },
         "ronda-bogota-call-center": {
             "name": "Ronda Call Center",
@@ -7876,13 +7570,14 @@
                 "573138698800"
             ],
             "phone": [
-                "018000112112"
+                "018000112112",
+                "#726"
             ],
             "schedule": [
                 "24 horas"
             ],
             "type": "interno",
-            "link": "https://www.samsung.com/co/support/service-center/"
+            "link": "https://www.samsung.com/co/support/contact/"
         },
         "sandisk-linea-nacional": {
             "name": "Sandisk Alkosto/Ktronix",
@@ -7892,118 +7587,18 @@
             ],
             "type": "interno"
         },
-        "sharp-barranquilla": {
-            "name": "Sharp Centro de Servicio",
-            "address": "Cr 40 No. 38-32, Barrio Centro",
-            "lat": "10.9801266",
-            "lng": "-74.7817481",
-            "cell": [
-                "3012517394"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Electronica+Henriquez,+Cra.+40+%2338-32,+Barranquilla,+Atl%C3%A1ntico/@10.9801266,-74.7817481,15z/data=!4m16!1m6!3m5!1s0x8ef42d61cc4223d7:0x96e9d77dd5ca02e7!2sElectronica+Henriquez!8m2!3d10.9800534!4d-74.7815182!4m8!1m0!1m5!1m1!1s0x8ef42d61cc4223d7:0x96e9d77dd5ca02e7!2m2!1d-74.7815182!2d10.9800534!3e2"
-        },
-        "sharp-cali": {
-            "name": "Hitech",
-            "address": "Cl 22 Norte No. 5BN-54, Barrio Versalles",
-            "lat": "3.4637798",
-            "lng": "-76.5297038",
+        "simmons-call-center": {
+            "name": "Simmons",
             "phone": [
-                "5246414",
-                "3967271"
+                "6012610700"
             ],
-            "cell": [
-                "3142386245"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Hi-Tech+Service+Center,+Calle+22+Norte+%23+5B+-+54,+Cali,+Valle+del+Cauca/@3.4637798,-76.5297038,21z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e30a614c8dbaf7f:0xbdf9345f22484de0!2m2!1d-76.529629!2d3.463764"
-        },
-        "sharp-medellin": {
-            "name": "AS Electrón",
-            "address": "Cr 80 No. 44B-101, Barrio La América",
-            "lat": "6.2529255",
-            "lng": "-75.6033286",
-            "phone": [
-                "5808468"
-            ],
-            "cell": [
-                "3012851485",
-                "3004191372"
+            "whatsapp": [
+                "5713557873"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 6:00 p.m"
             ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//AS+ELECTRON+(Medellin),+Av.+80+%23%2344B-101,+Medell%C3%ADn,+Antioquia/@6.2529255,-75.6033286,17z/data=!4m16!1m6!3m5!1s0x8e442974435539b5:0x6cd13452a790d4fd!2sAS+ELECTRON+(Medellin)!8m2!3d6.2529255!4d-75.6011399!4m8!1m0!1m5!1m1!1s0x8e442974435539b5:0x6cd13452a790d4fd!2m2!1d-75.6011399!2d6.2529255!3e2"
-        },
-        "sharp-pereira": {
-            "name": "Electrónica Profesional",
-            "address": "Cl 24 no. 4-31, Barrio San Jorge",
-            "lat": "4.8174663",
-            "lng": "-75.7002398",
-            "phone": [
-                "3332717",
-                "3251185"
-            ],
-            "cell": [
-                "3136144784"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:30 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Electr%C3%B3nica+Profesional,+Calle+24+%234-31+Centro,+Pereira,+Risaralda/@4.8174663,-75.7002398,17z/data=!4m16!1m6!3m5!1s0x8e38874e9708722f:0x81e95e4837528985!2sElectr%C3%B3nica+Profesional!8m2!3d4.8174663!4d-75.6980511!4m8!1m0!1m5!1m1!1s0x8e38874e9708722f:0x81e95e4837528985!2m2!1d-75.6980511!2d4.8174663!3e2"
-        },
-        "sharp-villavicencio": {
-            "name": "Audio y Video",
-            "address": "Cr 37 No. 20-38, Barrio San Benito",
-            "lat": "4.1347314",
-            "lng": "-73.6312165",
-            "phone": [
-                "6719238",
-                "6679137"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Audio+y+Video+Villavicrncio,+a+36-113,,+Cl.+20a+%23361,+Villavicencio,+Meta/@4.1347314,-73.6312165,18z/data=!4m16!1m6!3m5!1s0x8e3e2e0cc1523453:0x8fc65702589cfcdd!2sAudio+y+Video+Villavicrncio!8m2!3d4.1346918!4d-73.6311927!4m8!1m0!1m5!1m1!1s0x8e3e2e0cc1523453:0x8fc65702589cfcdd!2m2!1d-73.6311927!2d4.1346918!3e2"
-        },
-        "sharp-bucaramanga": {
-            "name": "STE Service S.A.S",
-            "address": "Cl 51 No. 31-83",
-            "lat": "7.1146859",
-            "lng": "-73.1125454",
-            "phone": [
-                "6576755"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Ste+Service+S.A.S,+Bucaramanga,+Santander/@7.1146859,-73.1125454,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e683fddeeb5982d:0xec50c032fbea49e4!2m2!1d-73.1124482!2d7.1146669!3e0"
-        },
-        "simmons-bogota": {
-            "name": "Dormiluna",
-            "address": "Cr 67 No. 9-03",
-            "lat": "4.6299223",
-            "lng": "-74.1218905",
-            "phone": [
-                "2610700"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 3:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Colchones+Dormiluna,+Ak+68+%2376S36,+Bogot%C3%A1,+Cundinamarca/@4.6299223,-74.1218905,19z/data=!4m16!1m6!3m5!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2sColchones+Dormiluna!8m2!3d4.630276!4d-74.121651!4m8!1m0!1m5!1m1!1s0x8e3f9bffa837e719:0x3b0f4fa887854876!2m2!1d-74.121651!2d4.630276!3e2"
+            "type": "interno"
         },
         "simoniz-call-center": {
             "name": "Simoniz Call Center",
@@ -8016,27 +7611,6 @@
                 "Sab de 9:00 a.m a 12:00 p.m"
             ],
             "type": "interno"
-        },
-        "simply-bogota": {
-            "name": "All Service Norte",
-            "address": "Cl 24 No. 82-58, Barrio Modelia",
-            "lat": "4.6697755",
-            "lng": "-74.1231182",
-            "phone": [
-                "8054217",
-                "2635699",
-                "2634067",
-                "8054217"
-            ],
-            "cell": [
-                "3142386245"
-            ],
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 p.m"
-            ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
         },
         "singer-bogota-call-center": {
             "name": "Singer",
@@ -8206,7 +7780,7 @@
                 "Sab de 8:00 a.m a 12:30 p.m"
             ],
             "type": "externo",
-            "link": "https://challenger.com.co/servicio-tecnico/",
+            "link": "https://www.sony.com.co/corporate/CO/servicioysoporte/servicio.html?XID=M:svc:esupport",
             "viewMap": "https://www.google.com/maps/dir//Enlace+Digital+Manizales,+Calle+60+%2325-51,+Estrella,+Manizales,+Caldas/@5.0587196,-75.4919475,17z/data=!4m16!1m6!3m5!1s0x8e47657da9c480af:0xb5bf485aaa451bde!2sEnlace+Digital+Manizales!8m2!3d5.0587196!4d-75.4897588!4m8!1m0!1m5!1m1!1s0x8e47657da9c480af:0xb5bf485aaa451bde!2m2!1d-75.4897588!2d5.0587196!3e2"
         },
         "sony-medellin-01": {
@@ -8268,16 +7842,18 @@
             "link": "https://www.sony.com.co/corporate/CO/servicioysoporte/servicio.html?XID=M:svc:esupport",
             "viewMap": "https://www.google.com/maps/dir//Clinica+Digital,+a+3-83,+Cl.+46+%23%233-1,+Monter%C3%ADa,+C%C3%B3rdoba/@8.7654999,-75.8780866,17z/data=!4m16!1m6!3m5!1s0x8e5a2fc00596f27d:0xe3b0242e66060079!2sClinica+Digital!8m2!3d8.7654999!4d-75.8758979!4m8!1m0!1m5!1m1!1s0x8e5a2fc00596f27d:0xe3b0242e66060079!2m2!1d-75.8758979!2d8.7654999!3e2"
         },
-        "spring-bogota-call-center": {
+        "spring-call-center": {
             "name": "Spring Call Center",
             "phone": [
-                "3077053",
-                "018000117077 "
+                "6013077053"
+            ],
+            "whatsapp": [
+                "573133034080"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 7:00 p.m",
-                "Sab de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 6:00 p.mSab de 8:00 a.m a 1:00 p.m"
             ],
+            "link": "https://www.colchonesspring.com.co/servicio-al-cliente#selected=garantias",
             "type": "interno"
         },
         "startec-bogota-call-center": {
@@ -8300,32 +7876,757 @@
             ],
             "type": "interno"
         },
-        "tablemac-call-center": {
-            "name": "Tablemac Call Center",
-            "phone": [
-                "018000180425"
-            ],
+        "tcl-apartado": {
+            "name": "TALLER ELECTRÓNICAS",
+            "address": "CRA. 98 # 98 - 13",
+            "lat": "7.8819938",
+            "lng": "-76.6309292",
             "cell": [
-                "3216991657"
+                "3147504702"
             ],
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
             ],
-            "type": "interno"
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/eeEdjhFXHbGmqNHo8"
         },
-        "tcl-linea-nacional": {
-            "name": "TCL Call Center",
-            "phone": [
-                "018005183882"
-            ],
+        "tcl-itagui": {
+            "name": "PINTUELECTRO MEJIA H",
+            "address": "DIAGONAL 43 # 34A -35 BARRIO LA INDEPENDENCIA",
+            "lat": "6.165967",
+            "lng": "-75.617052",
             "cell": [
-                "3336418234"
+                "3133289220",
+                "3015612712"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 5:00 p.mSab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/EnYQWMazfrKCHbwq6"
+        },
+        "tcl-medellin": {
+            "name": "AS ELECTRON",
+            "address": "CRA. 80 # 44B- 101",
+            "lat": "6.2528827",
+            "lng": "-75.6011341",
+            "cell": [
+                "3012851485"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/pXbCWegU4MDjDEhR8"
+        },
+        "tcl-medellin-2": {
+            "name": "EXPERTOS EN SERVICIO POSTVENTA",
+            "address": "Carrera 56 # 1 sur - 28 Barrio rodeo Norte",
+            "lat": "6.2080896",
+            "lng": "-75.5881487",
+            "cell": [
+                "3041290724"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/oHdDmGGNdMFRshC56"
+        },
+        "tcl-rionegro": {
+            "name": "CENTRAL SERVICE",
+            "address": "CRA 48  # 40 AC - 08 EL PINAR",
+            "lat": "6.1480472",
+            "lng": "-75.3675858",
+            "cell": [
+                "3164201663"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/MvJAFvMMeu3m6rfEA"
+        },
+        "tcl-arauca": {
+            "name": "REFRITEC COLOMBIA ARAUCA",
+            "address": "CRA. 16 # 12 - 12 (BARRIO MERIDIANO 70)",
+            "lat": "7.0799897",
+            "lng": "-70.7535462",
+            "cell": [
+                "3003232327",
+                "3222605953"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/cnDUZvqKua6b6eAM6"
+        },
+        "tcl-barranquilla": {
+            "name": "C&M REPUESTOS Y SERVICIOS",
+            "address": "CLL. 70 # 45 - 29 ",
+            "lat": "7.8082243",
+            "lng": "-79.7462977",
+            "cell": [
+                "3162516309",
+                "3002179310"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/yh5Ndp67UJKMd1VF9"
+        },
+        "tcl-barranquilla-2": {
+            "name": "LATIN ELECTRONICS DE COLOMBIA S.A.S",
+            "address": "CLL. 70B # 41 - 154",
+            "lat": "10.9896397",
+            "lng": "-74.8062151",
+            "cell": [
+                "3045553310",
+                "3137670905"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/rmaYwJUFRCjpQo9F7"
+        },
+        "tcl-bogota": {
+            "name": "CENTRO SERVICIO EXCLUSIVO KALLEY 68",
+            "address": "AV. CRA. 68 NO. 67C - 24",
+            "lat": "4.6745607",
+            "lng": "-74.0873357",
+            "cell": [
+                "3014995879"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/aLNjfA6GcGWaYaAD9"
+        },
+        "tcl-bogota-2": {
+            "name": "CENTRO SERVICIO EXCLUSIVO KALLEY VENECIA",
+            "address": "CLL. 43D SUR N 68B-63 BARRIO LAS DELICIAS",
+            "lat": "4.5969141",
+            "lng": "-74.1457599",
+            "cell": [
+                "3012901623"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/F48ARrW6q7d3uMSC6"
+        },
+        "tcl-bogota-3": {
+            "name": "NEO GROUP SAS",
+            "address": "AV. CRA 50 # 22-41 LOCAL 105",
+            "lat": "4.6366948",
+            "lng": "-74.1005949",
+            "phone": [
+                "6018418403"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/9TEWb11a2ZoT6Xhi8"
+        },
+        "tcl-bogota-4": {
+            "name": "HOME SERVICE DE COLOMBIA S.A.S",
+            "address": "AV 1 DE MAYO # 51D-45 SUR ",
+            "lat": "4.6048442",
+            "lng": "-74.1250909",
+            "cell": [
+                "3144142419"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/zsgqFaTExSVztzSj8"
+        },
+        "tcl-bogota-5": {
+            "name": "AS ELECTRON BOGOTA ",
+            "address": "Calle 138 # 46 - 06 Prado Pinzón ",
+            "lat": "4.7240096",
+            "lng": "-74.0524225",
+            "cell": [
+                "3018045093"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/noKTwynwX2E3DqRu9"
+        },
+        "tcl-cartagena": {
+            "name": "HUELLAS DIGITALES SAS -REFRISER",
+            "address": "CRA 66 # 30-106 BARIO LAS DELICIAS",
+            "lat": "10.3917111",
+            "lng": "-75.4906125",
+            "cell": [
+                "3214638863",
+                "3183041748"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/kMi82ncNsePkJq677"
+        },
+        "tcl-magangue": {
+            "name": "ELECTRÓNICA ASOCIADOS",
+            "address": "CLL. JUNIN 9 - 37",
+            "lat": "9.229281",
+            "lng": "-74.743724",
+            "cell": [
+                "3103512135",
+                "3182997454"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/yB8KsrqDDvgWpNW37"
+        },
+        "tcl-duitama": {
+            "name": "LC ELECTRONICS",
+            "address": "CLL. 12A # 17 - 23 (CENTRO)",
+            "lat": "5.8252873",
+            "lng": "-73.0353516",
+            "cell": [
+                "3114524574"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/DUzhZmZSeBByryac8"
+        },
+        "tcl-tunja": {
+            "name": "HOME SERVICE DE COLOMBIA S.A.S / TUNJA",
+            "address": "TRANSVERSAL 5 N 67B-16 BARRIO MUISCAS",
+            "lat": "5.5725264",
+            "lng": "-73.3438499",
+            "cell": [
+                "3124725102"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/cfVXeMJtZcRucW5f9"
+        },
+        "tcl-la-dorada": {
+            "name": "MCALLISTER EMPRESAS",
+            "address": "CLL. 18 # 6 - 109 (CABRERO)",
+            "lat": "5.456004",
+            "lng": "-74.6654466",
+            "cell": [
+                "3136721089"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/PYHdB4BTe3rbHVHN6"
+        },
+        "tcl-manizales": {
+            "name": "ENLACE DIGITAL",
+            "address": "CLL. 60 # 25 - 51",
+            "lat": "5.0587196",
+            "lng": "-75.4897588",
+            "cell": [
+                "3128432870"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/XdToJwW88M2TMesZ8"
+        },
+        "tcl-florencia": {
+            "name": "SERVICIO PHILIPS SERVIPLUS",
+            "address": "CLL. 18 # 12-20 CENTRO",
+            "lat": "1.6178369",
+            "lng": "-75.6148067",
+            "cell": [
+                "3142387624"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/q5gnkJwmmwgtzP7PA"
+        },
+        "tcl-san-Vicente-caguan": {
+            "name": "EL PUNTO ELECTRÓNICO",
+            "address": "CRA. 7 # 6A-41",
+            "lat": "2.1146767",
+            "lng": "-74.7732562",
+            "cell": [
+                "3124653990"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/nUTJ34FAxAmYsXj28"
+        },
+        "tcl-yopal": {
+            "name": "SERTINEC",
+            "address": "CLL. 24 N° 28 - 17",
+            "lat": "5.3397425",
+            "lng": "-72.3868141",
+            "cell": [
+                "3115747702",
+                "3222794545"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/8y5EHXsK88ZuNS6w6"
+        },
+        "tcl-yopal-2": {
+            "name": "HOME SERVICE DE COLOMBIA S.A.S / YOPAL",
+            "address": "CALLE 24 N 29-19",
+            "lat": "5.3404903",
+            "lng": "-72.385564",
+            "cell": [
+                "3157385366"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/DpLyWspU2CTFr9mk8"
+        },
+        "tcl-popayan": {
+            "name": "REVELO ELECTRONICS",
+            "address": "CLL. 5 # 20-49 (LA ESMERALDA)",
+            "lat": "2.4459387",
+            "lng": "-76.6182028",
+            "cell": [
+                "3155503862"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/B1wzFsApPEpp3PLn6"
+        },
+        "tcl-popayan-2": {
+            "name": "SILICON",
+            "address": "CLL. 6  # 15 - 35",
+            "lat": "2.4430358",
+            "lng": "-76.6142248",
+            "cell": [
+                "3144513415"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/KsqXZK9PpVye5ewQ7"
+        },
+        "tcl-aguachica": {
+            "name": "TECNIELECTRONIC AGUACHICA",
+            "address": "CLL. 3 # 23-73",
+            "lat": "8.3117883",
+            "lng": "-73.6114464",
+            "phone": [
+                "3185777112"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/WA24EGVt1fQJJsVc8"
+        },
+        "tcl-valledupar": {
+            "name": "SERVIMASTER C.S.A.",
+            "address": "CRA. 13 NO. 17-27 (BARRIO GAITAN)",
+            "lat": "10.4705887",
+            "lng": "-73.2488927",
+            "cell": [
+                "3165202462"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/nNQAJNVH6Qxkk4sW7"
+        },
+        "tcl-valledupar-2": {
+            "name": "TECNOLOGIA AVANZADA EUR",
+            "address": "CRA. 11 N 13-20 BARRIO OBRERO",
+            "lat": "10.4786137",
+            "lng": "-73.2513988",
+            "phone": [
+                "3004882954",
+                "3160412339"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/DyFZt9TvUmKtXFw77"
+        },
+        "tcl-quibdo": {
+            "name": "SERVISYSTEM",
+            "address": "CRA. 7 # 24 -112 BARRIO PAN DE YUCA",
+            "lat": "5.6888793",
+            "lng": "-76.657898",
+            "phone": [
+                "3218871988"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/tCiZnVuYLEKWeWQcA"
+        },
+        "tcl-montelibano": {
+            "name": "ELECTRONICA MODERNA",
+            "address": "CRA 8 Nº 15A12 BARRIO TIERRA GRATA",
+            "lat": "10.3918187",
+            "lng": "-75.4812064",
+            "cell": [
+                "3145609795"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/kkj8NfgRwY7ww3XE7"
+        },
+        "tcl-monteria": {
+            "name": "CLINICA DIGITAL S.A.S",
+            "address": "CLL. 46 # 3 - 48 (BARRIO LAURELES 2)",
+            "lat": "8.7657022",
+            "lng": "-75.8761547",
+            "cell": [
+                "3215412532"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/SAsidzuPnmqeA76s8"
+        },
+        "tcl-monteria-2": {
+            "name": "DYM",
+            "address": "CLL. 24  # 9 - 68",
+            "lat": "8.7505421",
+            "lng": "-75.8835815",
+            "cell": [
+                "3205661396"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/7SoUosGKFjLDDj3KA"
+        },
+        "tcl-sesquile": {
+            "name": "REPARARMITV.COM",
+            "address": "CLL. 4A # 6-53",
+            "lat": "5.0445044",
+            "lng": "-73.7973806",
+            "cell": [
+                "3208134300"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/xCB1VAWRwgkLp3sr9"
+        },
+        "tcl-neiva": {
+            "name": "ELECTRÓNICA DIGITAL DEL HUILA S.A.S.",
+            "address": "CLL. 22 NO.6-13",
+            "lat": "2.9386996",
+            "lng": "-75.290264",
+            "cell": [
+                "3174341364",
+                "3175640312"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/awx6GMPgmbLnghc99"
+        },
+        "tcl-neiva-2": {
+            "name": "TECNIMASTER ELECTRÓNICA",
+            "address": "CLL. 14 # 2 - 80 ",
+            "lat": "2.9314548",
+            "lng": "-75.2928288",
+            "cell": [
+                "3176813723"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/YCKofZD5C6m2R8w78"
+        },
+        "tcl-santa-marta": {
+            "name": "TECNOSERVICIO S.A.S.",
+            "address": "CLL 15 # 6 - 56 BARRIO CENTRO",
+            "lat": "11.2437411",
+            "lng": "-74.2090512",
+            "phone": [
+                "3007586420",
+                "3152296330"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/VWXaubJcBK5d7bfm7"
+        },
+        "tcl-villavicencio": {
+            "name": "ZAC SOLUCIONES Y SERVICIOS S.A.S",
+            "address": "CLL. 19 # 39 A 09 BARRIO CAMOA",
+            "lat": "4.1356704",
+            "lng": "-73.6380444",
+            "phone": [
+                "3053832096"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/KhUvJjs23pSwhNwh9"
+        },
+        "tcl-pereira": {
+            "name": "ENLACE DIGITAL GLOBAL",
+            "address": "CRA. 8  # 33-33 ",
+            "lat": "4.8151095",
+            "lng": "-75.706438",
+            "phone": [
+                "3168642936"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/NXSCQrgFr1hxLXAB6"
+        },
+        "tcl-bucaramanga": {
+            "name": "MANTENIMIENTO ELECTRONICO  S.A.S.",
+            "address": "CRA.  27 # 41-28 (BARRIO SOTOMAYOR)",
+            "lat": "7.1183577",
+            "lng": "-73.1156995",
+            "cell": [
+                "3167546589"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/tP852JfEbmHDBJ668"
+        },
+        "tcl-sincelejo": {
+            "name": "ELECTRÓNICA UNIVERSAL VITOLA",
+            "address": "CRA 16 # 27 A - 14 BARRIO SANTA FE",
+            "lat": "9.2965042",
+            "lng": "-75.3972332",
+            "cell": [
+                "3023108383"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/zCvx4s7w7cysm1Pu6"
+        },
+        "tcl-buenaventura": {
+            "name": "SERVICIO ELECTRÓNICO",
+            "address": "DG 4 # 5 - 96 P1 (CLL. EL EMBUDO)",
+            "lat": "3.8875548",
+            "lng": "-77.0750276",
+            "cell": [
+                "3156746851"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/JhuWzuXnTdABBWy28"
+        },
+        "tcl-cali": {
+            "name": "CENTRO TECNICO ESPECIALIZADO",
+            "address": "CRA. 10 # 6-88",
+            "lat": "3.4464424",
+            "lng": "-76.5350002",
+            "cell": [
+                "3172833633",
+                "3163895702"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/R7xXqFH4WcCXfVD39"
+        },
+        "tcl-cali-2": {
+            "name": "S.E.C SMART ELECTRONICS CENTER",
+            "address": "CLL. 14 N° 33-25 LOCAL 2",
+            "lat": "3.4237806",
+            "lng": "-76.5273511",
+            "cell": [
+                "3107240817"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/CVMsfu2PgMmmheKT9"
+        },
+        "tcl-jamundi": {
+            "name": "SERVICE POINT",
+            "address": "CRA 14 N 18 -35 (BARRIO LA PRADERA)",
+            "lat": "3.2687118",
+            "lng": "-76.5385162",
+            "cell": [
+                "3157022997"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.tcl.com/co/es/support-tv",
+            "viewMap": "https://maps.app.goo.gl/aXXxYASb8s6zFuH97"
+        },
+        "tcl-linea-nacional-celulares": {
+            "name": "WODEN Colombia S.A.S",
+            "address": "Calle 13 # 56-35",
+            "lat": "4.6304693",
+            "lng": "-74.110689",
+            "phone": [
+                "6017942173"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.woden.com.co/contacto",
+            "viewMap": "https://maps.app.goo.gl/yQHKn4h9PrsoMLCk7"
+        },
+        "tcl-linea-nacional-tv": {
+            "name": "TCL Call Center",
+            "whatsapp": [
+                "573336418234"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 7:00 p.m",
+                "Sab de 8:00 a.m a 12:00 p.m"
             ],
             "type": "externo",
-            "link": "https://www.alcatelmobile.com/co/support/"
+            "link": "https://www.tcl.com/co/es/support-tv"
+        },
+        "tecno-linea-nacional-telefonia": {
+            "name": "Carlcare-BOG",
+            "cell": [
+                "3108820878",
+                "3227702775"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 4:00 p.m"
+            ],
+            "type": "externo"
         },
         "thonet-vander-linea-nacional": {
             "name": "Thonet & Vander Alkosto/Ktronix",
@@ -8825,17 +9126,16 @@
             ],
             "type": "interno"
         },
-        "urbanears-bogota-call-center": {
-            "name": "Urbanears Call Center",
+        "vanyplas-call-center": {
+            "name": "Universal Call Center",
             "phone": [
-                "8766888",
-                "7443939"
+                "6014192444"
             ],
-            "cell": [
-                "3114802790"
+            "whatsapp": [
+                "573105777712"
             ],
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 8:00 p.m"
+                "Lun a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "type": "interno"
         },
@@ -9374,6 +9674,21 @@
             "type": "interno",
             "viewMap": "https://maps.app.goo.gl/VqSyiUqJsyXQgicH9"
         },
+        "vivo-call-center": {
+            "name": "WODEN Colombia S.A.S",
+            "address": "Calle 13 # 56-35",
+            "lat": "4.6304693",
+            "lng": "-74.110689",
+            "phone": [
+                "6017942173"
+            ],
+            "schedule": [
+                "Lun a Vie de 7:00 a.m a 5:30 p.m"
+            ],
+            "type": "interno",
+            "link": "https://www.woden.com.co/contacto",
+            "viewMap": "https://maps.app.goo.gl/yQHKn4h9PrsoMLCk7"
+        },
         "v-tech-linea-nacional": {
             "name": "V-TECH Alkosto/Ktronix",
             "address": "Almacén donde realizó la compra",
@@ -9381,30 +9696,6 @@
                 "Dom a Dom de 8:00 a.m a 9:00 p.m"
             ],
             "type": "interno"
-        },
-        "wahoo-call-center": {
-            "name": "Wahoo",
-            "cell": [
-                "3203784568"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 12:30 p.m"
-            ],
-            "type": "interno",
-            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
-        },
-        "weider-call-center": {
-            "name": "Weider Call Center",
-            "cell": [
-                "3203784568"
-            ],
-            "schedule": [
-                "Lun a Vie de 9:00 a.m a 5:30 p.m",
-                "Sab de 9:00 a.m a 12:30 p.m"
-            ],
-            "type": "interno",
-            "link": "https://www.evolutionfitness.co/servicio-tecnico-mantenimiento/"
         },
         "weslo-call-center": {
             "name": "Weslo Call Center",
@@ -11229,7 +11520,7 @@
             "name": "Amazonas",
             "cities": {
                 "leticia": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Leticia",
                     "categories": {
                         "audio-video": {
@@ -11245,9 +11536,14 @@
             "name": "Antioquia",
             "cities": {
                 "apartado": {
-                    "areaCode": 4,
+                    "areaCode": 604,
                     "name": "Apartadó",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-apartado"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-apartado"
@@ -11256,7 +11552,7 @@
                     }
                 },
                 "envigado": {
-                    "areaCode": 4,
+                    "areaCode": 604,
                     "name": "Envigado",
                     "categories": {
                         "impresoras": {
@@ -11271,8 +11567,19 @@
                         }
                     }
                 },
+                "itagui": {
+                    "areaCode": 604,
+                    "name": "Itagüí",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-itagui"
+                            ]
+                        }
+                    }
+                },
                 "medellin": {
-                    "arecode": 4,
+                    "arecode": 604,
                     "name": "Medellín",
                     "categories": {
                         "accesorios": {
@@ -11292,7 +11599,9 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "lg-medellin"
+                                "lg-medellin",
+                                "tcl-medellin",
+                                "tcl-medellin-2"
                             ]
                         },
                         "electro-menor": {
@@ -11317,7 +11626,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-medellin-call-center",
                                 "epson-medellin-01"
                             ]
                         },
@@ -11373,8 +11681,7 @@
                         "video": {
                             "stores": [
                                 "aoc-medellin",
-                                "phillips-medellin",
-                                "sharp-medellin"
+                                "phillips-medellin"
                             ]
                         },
                         "videojuegos": {
@@ -11394,6 +11701,17 @@
                             ]
                         }
                     }
+                },
+                "rionegro": {
+                    "areaCode": 604,
+                    "name": "Rionegro",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-rionegro"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -11401,9 +11719,14 @@
             "name": "Arauca",
             "cities": {
                 "arauca": {
-                    "areaCode": 7,
+                    "areaCode": 607,
                     "name": "Arauca",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-arauca"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-arauca"
@@ -11417,7 +11740,7 @@
             "name": "Atlantico",
             "cities": {
                 "barranquilla": {
-                    "areaCode": 5,
+                    "areaCode": 605,
                     "name": "Barranquilla",
                     "categories": {
                         "accesorios": {
@@ -11436,7 +11759,9 @@
                         "audio-video": {
                             "stores": [
                                 "lg-barranquilla-01",
-                                "lg-barranquilla-02"
+                                "lg-barranquilla-02",
+                                "tcl-barranquilla",
+                                "tcl-barranquilla-2"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -11451,7 +11776,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-barranquilla",
                                 "epson-barranquilla-01"
                             ]
                         },
@@ -11506,11 +11830,6 @@
                                 "challenger-barranquilla-call-center"
                             ]
                         },
-                        "video": {
-                            "stores": [
-                                "sharp-barranquilla"
-                            ]
-                        },
                         "videojuegos": {
                             "stores": [
                                 "cooluli-barranquilla-01",
@@ -11532,9 +11851,14 @@
             "name": "Bolívar",
             "cities": {
                 "cartagena": {
-                    "areaCode": 5,
+                    "areaCode": 605,
                     "name": "Cartagena",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-cartagena"
+                            ]
+                        },
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-cartagena-call-center"
@@ -11557,6 +11881,17 @@
                             ]
                         }
                     }
+                },
+                "magangue": {
+                    "areaCode": 605,
+                    "name": "Magangué",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-magangue"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -11564,9 +11899,14 @@
             "name": "Boyacá",
             "cities": {
                 "duitama": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Duitama",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-duitama"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-duitama"
@@ -11575,7 +11915,7 @@
                     }
                 },
                 "tunja": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Tunja",
                     "categories": {
                         "accesorios": {
@@ -11584,14 +11924,14 @@
                                 "viastara-tunja-01"
                             ]
                         },
+                        "audio-video": {
+                            "stores": [
+                                "tcl-tunja"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-tunja"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-tunja-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -11627,9 +11967,14 @@
             "name": "Caldas",
             "cities": {
                 "la-dorada": {
-                    "areaCode": 6,
+                    "areaCode": 606,
                     "name": "La Dorada",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-la-dorada"
+                            ]
+                        },
                         "repuestos-automotores": {
                             "stores": [
                                 "willard-la-dorada"
@@ -11638,7 +11983,7 @@
                     }
                 },
                 "manizales": {
-                    "areaCode": 6,
+                    "areaCode": 606,
                     "name": "Manizales",
                     "categories": {
                         "accesorios": {
@@ -11649,7 +11994,8 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "challenger-manizales"
+                                "challenger-manizales",
+                                "tcl-manizales"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -11665,7 +12011,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-manizales-call-center",
                                 "epson-manizales"
                             ]
                         },
@@ -11717,7 +12062,7 @@
             "name": "Casanare",
             "cities": {
                 "yopal": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Yopal",
                     "categories": {
                         "accesorios": {
@@ -11733,7 +12078,9 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "lg-yopal"
+                                "lg-yopal",
+                                "tcl-yopal",
+                                "tcl-yopal-2"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -11784,12 +12131,18 @@
             "name": "Cauca",
             "cities": {
                 "popayan": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Popayán",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-popayan"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "tcl-popayan",
+                                "tcl-popayan-2"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -11800,11 +12153,6 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-popayan-call-center"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-popayan-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -11820,12 +12168,28 @@
             "name": "Caquetá",
             "cities": {
                 "florencia": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Florencia",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-florencia"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-florencia"
+                            ]
+                        }
+                    }
+                },
+                "san-vicente-caguan": {
+                    "areaCode": 608,
+                    "name": "Florencia",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-san-vicente-caguan"
                             ]
                         }
                     }
@@ -11835,10 +12199,27 @@
         "cesar": {
             "name": "Cesar",
             "cities": {
+                "aguachica": {
+                    "areaCode": 605,
+                    "name": "Aguachica",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-aguachica"
+                            ]
+                        }
+                    }
+                },
                 "valledupar": {
-                    "areaCode": 5,
+                    "areaCode": 605,
                     "name": "Valledupar",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-valledupar",
+                                "tcl-valledupar-2"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-valledupar"
@@ -11847,11 +12228,6 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-valledupar-call-center"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-valledupar-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -11867,9 +12243,15 @@
             "name": "Cordoba",
             "cities": {
                 "monteria": {
-                    "areaCode": 4,
+                    "areaCode": 604,
                     "name": "Montería",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-monteria",
+                                "tcl-monteria-2"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-monteria"
@@ -11878,11 +12260,6 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-monteria-call-center"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-monteria-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -11898,6 +12275,33 @@
                             ]
                         }
                     }
+                },
+                "montelibano": {
+                    "areaCode": 604,
+                    "name": "Montelibano",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-montelibano"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "choco": {
+            "name": "Chocó",
+            "cities": {
+                "quibdo": {
+                    "areaCode": 604,
+                    "name": "Quibdó",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-quibdo"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -11905,14 +12309,13 @@
             "name": "Cundinamarca",
             "cities": {
                 "bogota": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Bogotá D.C",
                     "categories": {
                         "accesorios": {
                             "stores": [
                                 "directv-bogota-call-center",
                                 "nintendo-bogota",
-                                "urbanears-bogota-call-center",
                                 "cooluli-bogota-01",
                                 "cooluli-bogota-02",
                                 "cooluli-bogota-03",
@@ -11954,7 +12357,12 @@
                                 "lg-bogota-01",
                                 "lg-bogota-02",
                                 "lg-bogota-03",
-                                "lg-bogota-04"
+                                "lg-bogota-04",
+                                "tcl-bogota",
+                                "tcl-bogota-2",
+                                "tcl-bogota-3",
+                                "tcl-bogota-4",
+                                "tcl-bogota-5"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -11987,10 +12395,8 @@
                         },
                         "colchones": {
                             "stores": [
-                                "k-line-bogota",
-                                "simmons-bogota",
-                                "spring-bogota-call-center",
-                                "dormiluna-bogota"
+                                "dko-design-bogota",
+                                "elements-bogota"
                             ]
                         },
                         "consolas-controles": {
@@ -12050,8 +12456,7 @@
                                 "hewlett-packard-bogota-call-center",
                                 "lenovo-bogota-01",
                                 "lenovo-bogota-02",
-                                "multitech-bogota",
-                                "dell-bogota-call-center"
+                                "multitech-bogota"
                             ]
                         },
                         "informatica-telefonia": {
@@ -12070,12 +12475,8 @@
                         },
                         "muebles": {
                             "stores": [
+                                "dko-design-bogota",
                                 "elements-bogota"
-                            ]
-                        },
-                        "office": {
-                            "stores": [
-                                "kyocera-bogota"
                             ]
                         },
                         "patinetas-motos-electricas": {
@@ -12122,6 +12523,8 @@
                         "telefonia": {
                             "stores": [
                                 "nokia-bogota",
+                                "oppo-bogota",
+                                "realme-bogota",
                                 "xiaomi-bogota-01",
                                 "xiaomi-bogota-02",
                                 "xiaomi-bogota-03",
@@ -12196,11 +12599,6 @@
                                 "tienda-tigo-bogota-12"
                             ]
                         },
-                        "televisores": {
-                            "stores": [
-                                "simply-bogota"
-                            ]
-                        },
                         "todas": {
                             "stores": [
                                 "challenger-bogota",
@@ -12259,7 +12657,7 @@
                     }
                 },
                 "chia": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Chía",
                     "categories": {
                         "accesorios": {
@@ -12294,7 +12692,7 @@
                     }
                 },
                 "girardot": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Girardot",
                     "categories": {
                         "accesorios": {
@@ -12323,7 +12721,7 @@
                     }
                 },
                 "fusagasuga": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Fusagasugá",
                     "categories": {
                         "accesorios": {
@@ -12347,7 +12745,7 @@
                     }
                 },
                 "mosquera": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Mosquera",
                     "categories": {
                         "accesorios": {
@@ -12370,8 +12768,19 @@
                         }
                     }
                 },
+                "sesquile": {
+                    "areaCode": 601,
+                    "name": "Sesquilé",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-sesquile"
+                            ]
+                        }
+                    }
+                },
                 "soacha": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Soacha",
                     "categories": {
                         "accesorios": {
@@ -12402,7 +12811,7 @@
                     }
                 },
                 "zipaquira": {
-                    "areaCode": 1,
+                    "areaCode": 601,
                     "name": "Zipaquirá",
                     "categories": {
                         "repuestos-automotores": {
@@ -12414,37 +12823,22 @@
                 }
             }
         },
-        "guajira": {
-            "name": "Guajira",
-            "cities": {
-                "rioacha": {
-                    "areaCode": 5,
-                    "name": "Rioacha",
-                    "categories": {
-                        "informatica": {
-                            "stores": [
-                                "dell-rioacha-call-center"
-                            ]
-                        }
-                    }
-                }
-            }
-        },
         "huila": {
             "name": "Huila",
             "cities": {
                 "neiva": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Neiva",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-neiva",
+                                "tcl-neiva-2"
+                            ]
+                        },
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-neiva"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-neiva-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -12460,9 +12854,14 @@
             "name": "Magdalena",
             "cities": {
                 "santa-marta": {
-                    "areaCode": 5,
+                    "areaCode": 605,
                     "name": "Santa Marta",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-santa-marta"
+                            ]
+                        },
                         "audio-video-aires": {
                             "stores": [
                                 "panasonic-santa-marta"
@@ -12475,7 +12874,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-santa-marta-call-center",
                                 "epson-santa-marta-01"
                             ]
                         },
@@ -12492,7 +12890,7 @@
             "name": "Meta",
             "cities": {
                 "villavicencio": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Villavicencio",
                     "categories": {
                         "accesorios": {
@@ -12511,7 +12909,8 @@
                         "audio-video": {
                             "stores": [
                                 "challenger-villavicencio",
-                                "lg-villavicencio"
+                                "lg-villavicencio",
+                                "tcl-villavicencio"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -12522,7 +12921,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-villavicencio-call-center",
                                 "epson-villavicencio-01"
                             ]
                         },
@@ -12558,8 +12956,7 @@
                         "video": {
                             "stores": [
                                 "aoc-villavicencio",
-                                "phillips-villavicencio",
-                                "sharp-villavicencio"
+                                "phillips-villavicencio"
                             ]
                         },
                         "videojuegos": {
@@ -12578,7 +12975,7 @@
             "name": "Nariño",
             "cities": {
                 "pasto": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Pasto",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -12589,11 +12986,6 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-pasto-call-center"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-pasto-call-center"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -12616,7 +13008,7 @@
             "name": "Norte de Santander",
             "cities": {
                 "cucuta": {
-                    "areaCode": 7,
+                    "areaCode": 607,
                     "name": "Cúcuta",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -12647,7 +13039,7 @@
             "name": "Putumayo",
             "cities": {
                 "puerto-asis": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Puerto Asís",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -12663,7 +13055,7 @@
             "name": "Quindio",
             "cities": {
                 "armenia": {
-                    "areaCode": 6,
+                    "areaCode": 606,
                     "name": "Armenia",
                     "categories": {
                         "audio-video": {
@@ -12674,11 +13066,6 @@
                         "audio-video-digital-productos": {
                             "stores": [
                                 "panasonic-armenia"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-armenia"
                             ]
                         },
                         "informatica-celulares": {
@@ -12704,7 +13091,7 @@
             "name": "Risaralda",
             "cities": {
                 "pereira": {
-                    "areaCode": 6,
+                    "areaCode": 606,
                     "name": "Pereira",
                     "categories": {
                         "accesorios": {
@@ -12720,7 +13107,8 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "lg-pereira"
+                                "lg-pereira",
+                                "tcl-pereira"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -12730,7 +13118,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-pereira-call-center",
                                 "epson-pereira-01"
                             ]
                         },
@@ -12769,8 +13156,7 @@
                         "video": {
                             "stores": [
                                 "aoc-pereira",
-                                "phillips-pereira",
-                                "sharp-pereira"
+                                "phillips-pereira"
                             ]
                         },
                         "videojuegos": {
@@ -12783,27 +13169,11 @@
                 }
             }
         },
-        "san-andres": {
-            "name": "San Andrés",
-            "cities": {
-                "san-andres": {
-                    "areaCode": 8,
-                    "name": "San Andrés",
-                    "categories": {
-                        "informatica": {
-                            "stores": [
-                                "dell-san-andres-call-center"
-                            ]
-                        }
-                    }
-                }
-            }
-        },
         "santander": {
             "name": "Santander",
             "cities": {
                 "barrancabermeja": {
-                    "areaCode": 7,
+                    "areaCode": 607,
                     "name": "Barrancabermeja",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -12824,7 +13194,7 @@
                     }
                 },
                 "bucaramanga": {
-                    "areaCode": 7,
+                    "areaCode": 607,
                     "name": "Bucaramanga",
                     "categories": {
                         "accesorios": {
@@ -12840,7 +13210,8 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "lg-bucaramanga"
+                                "lg-bucaramanga",
+                                "tcl-bucaramanga"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -12857,11 +13228,6 @@
                         "impresoras": {
                             "stores": [
                                 "brother-bucaramanga"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-bucaramanga"
                             ]
                         },
                         "informatica-celulares": {
@@ -12908,11 +13274,6 @@
                                 "challenger-bucaramanga"
                             ]
                         },
-                        "video": {
-                            "stores": [
-                                "sharp-bucaramanga"
-                            ]
-                        },
                         "videojuegos": {
                             "stores": [
                                 "cooluli-bucaramanga-01",
@@ -12927,7 +13288,7 @@
                     }
                 },
                 "floridablanca": {
-                    "areaCode": 7,
+                    "areaCode": 607,
                     "name": "Floridablanca",
                     "categories": {
                         "accesorios": {
@@ -12961,7 +13322,7 @@
             "name": "Sucre",
             "cities": {
                 "sincelejo": {
-                    "areaCode": 5,
+                    "areaCode": 605,
                     "name": "Sincelejo",
                     "categories": {
                         "accesorios": {
@@ -12973,6 +13334,11 @@
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
                             "stores": [
                                 "panasonic-sincelejo"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "tcl-sincelejo"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -12988,11 +13354,6 @@
                         "impresoras": {
                             "stores": [
                                 "brother-sincelejo"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-sincelejo-call-center"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -13033,7 +13394,7 @@
             "name": "Tolima",
             "cities": {
                 "ibague": {
-                    "areaCode": 8,
+                    "areaCode": 608,
                     "name": "Ibagué",
                     "categories": {
                         "aires-acondicionados-refrigeradoras-lavadoras-hornos": {
@@ -13049,11 +13410,6 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-ibague-call-center"
-                            ]
-                        },
-                        "informatica": {
-                            "stores": [
-                                "dell-ibague-call-center"
                             ]
                         },
                         "repuestos-automotores": {
@@ -13075,7 +13431,7 @@
             "name": "Valle del Cauca",
             "cities": {
                 "cali": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Cali",
                     "categories": {
                         "accesorios": {
@@ -13095,7 +13451,9 @@
                         },
                         "audio-video": {
                             "stores": [
-                                "lg-cali"
+                                "lg-cali",
+                                "tcl-cali",
+                                "tcl-cali-2"
                             ]
                         },
                         "audio-video-digital-productos": {
@@ -13123,7 +13481,6 @@
                         },
                         "informatica": {
                             "stores": [
-                                "dell-cali-call-center",
                                 "epson-cali-01"
                             ]
                         },
@@ -13180,8 +13537,7 @@
                         "video": {
                             "stores": [
                                 "aoc-cali",
-                                "phillips-cali",
-                                "sharp-cali"
+                                "phillips-cali"
                             ]
                         },
                         "videojuegos": {
@@ -13202,7 +13558,7 @@
                     }
                 },
                 "caucasia": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Caucasia",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -13218,9 +13574,14 @@
                     }
                 },
                 "buenaventura": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Buenaventura",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-buenaventura"
+                            ]
+                        },
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "electrolux-buenaventura-call-center"
@@ -13233,8 +13594,19 @@
                         }
                     }
                 },
+                "jamundi": {
+                    "areaCode": 602,
+                    "name": "Jamundí",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "tcl-jamundi"
+                            ]
+                        }
+                    }
+                },
                 "tulua": {
-                    "areaCode": 2,
+                    "areaCode": 602,
                     "name": "Tulua",
                     "categories": {
                         "audio-video-digital-productos": {
@@ -13255,20 +13627,16 @@
             "name": "Linea Nacional",
             "cities": {
                 "linea-nacional": {
-                    "areaCode": 0,
+                    "areaCode": "",
                     "name": "Linea Nacional",
                     "categories": {
                         "accesorios": {
                             "stores": [
                                 "adata-call-center",
                                 "belkin-linea-nacional",
-                                "benq-linea-nacional",
                                 "directv-call-center",
                                 "essenses-linea-nacional",
-                                "genius-linea-nacional",
                                 "hitachi-linea-nacional",
-                                "horizon-linea-nacional",
-                                "ifrogz-nacional",
                                 "jabra-call-center",
                                 "kingston-linea-nacional",
                                 "logitech-linea-nacional",
@@ -13288,7 +13656,9 @@
                             "stores": [
                                 "bose-call-center",
                                 "jbl-linea-nacional",
-                                "yamaha-linea-nacional"
+                                "yamaha-linea-nacional",
+                                "hyundai-call-center",
+                                "tcl-linea-nacional-tv"
                             ]
                         },
                         "calentadores": {
@@ -13315,8 +13685,9 @@
                         },
                         "celulares": {
                             "stores": [
-                                "htc-linea-nacional",
-                                "tcl-linea-nacional"
+                                "tcl-linea-nacional-celulares",
+                                "infinix-call-center",
+                                "vivo-call-center"
                             ]
                         },
                         "celulares-tablets-accesorios": {
@@ -13327,9 +13698,14 @@
                         "colchones": {
                             "stores": [
                                 "dorado-call-center",
+                                "dormiluna-linea-nacional",
                                 "espumados-call-center",
                                 "inacsa-call-center",
-                                "romance-relax-call-center"
+                                "k-line-call-center",
+                                "romance-relax-call-center",
+                                "simmons-call-center",
+                                "spring-call-center",
+                                "moduofi-call-center"
                             ]
                         },
                         "consolas-controles": {
@@ -13346,14 +13722,11 @@
                                 "miyagi-call-center",
                                 "nordictrack-call-center",
                                 "proform-call-center",
-                                "wahoo-call-center",
-                                "weider-call-center",
                                 "weslo-call-center"
                             ]
                         },
                         "electro-menor": {
                             "stores": [
-                                "avh-linea-nacional",
                                 "bionaire-call-center",
                                 "blackberry-call-center",
                                 "bullet-bogota",
@@ -13382,6 +13755,7 @@
                         "hogar": {
                             "stores": [
                                 "rimax-call-center",
+                                "vanyplas-call-center",
                                 "yale-call-center"
                             ]
                         },
@@ -13393,8 +13767,6 @@
                         "informatica": {
                             "stores": [
                                 "acer-call-center",
-                                "compaq-call-center",
-                                "dell-call-center",
                                 "epson-call-center",
                                 "hewlett-packard-call-center",
                                 "lexmark-call-center",
@@ -13439,12 +13811,17 @@
                         "muebles": {
                             "stores": [
                                 "inval-call-center",
+                                "k-line-call-center",
                                 "maderkit-call-center",
-                                "moduart-call-center",
                                 "practimac-call-center",
-                                "tablemac-call-center",
                                 "tukasa-linea-nacional",
-                                "startec-bogota-call-center"
+                                "startec-bogota-call-center",
+                                "dormiluna-linea-nacional",
+                                "moduofi-call-center",
+                                "rimax-call-center",
+                                "simmons-call-center",
+                                "spring-call-center",
+                                "mq-call-center"
                             ]
                         },
                         "patinetas-motos-electricas": {
@@ -13471,11 +13848,13 @@
                                 "honor-call-center",
                                 "huawei-call-center",
                                 "motorola-call-center",
+                                "tecno-linea-nacional-telefonia",
                                 "xiaomi-linea-nacional"
                             ]
                         },
                         "todas": {
                             "stores": [
+                                "across-call-center",
                                 "challenger-call-center-02",
                                 "kalley-call-center",
                                 "lg-call-center",
@@ -13490,7 +13869,8 @@
                         "video": {
                             "stores": [
                                 "aoc-call-center",
-                                "hyundai-call-center"
+                                "hyundai-call-center",
+                                "tcl-linea-nacional-tv"
                             ]
                         },
                         "video-telefonia": {

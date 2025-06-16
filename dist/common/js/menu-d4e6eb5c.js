@@ -151,7 +151,7 @@ function w(e, t = !0) {
         cellphone: n,
     } = e;
 
-    for (const e of n) r = t ? [...r, a(h || (h = _ `<a href="tel:${0}" title="Llamar a ${0}">${0}</a>`), e.replace(/\s/g, ""), i, e)] : [...r, `<a href="tel:${e.replace(/\s/g,"")}" title="Llamar a ${i}">${e}</a>`];
+    for (const e of n) r = t ? [...r, a(h || (h = _ `<a href="tel:${0}" title="Llamar aa ${0}">${0}</a>`), e.replace(/\s/g, ""), i, e)] : [...r, `<a href="tel:${e.replace(/\s/g,"")}" title="Llamar a ${i}">${e}</a>`];
 
     return r
 }
