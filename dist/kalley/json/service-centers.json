@@ -397,6 +397,21 @@
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+70b+%2341-154,+Barranquilla,+Atl%C3%A1ntico/@10.9895245,-74.8083035,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d128110582f:0x138b3c07c1487ffa!8m2!3d10.9895245!4d-74.8061148?hl=es"
         },
+        "atlantico-soledad-01": {
+            "name": "TECNO PATOJO",
+            "address": "ATENCIÓN EN DOMICILIO",
+            "email": "tecnopatojo@gmail.com;",
+            "cell": [
+                "3023359860"
+            ],
+            "whatsapp": [
+                "3023359860"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
+            ]
+        },
         "bogota-01": {
             "name": "CENTRO SERVICIO EXCLUSIVO KALLEY 68",
             "address": "AV. CRA. 68 NO. 67C - 24",
@@ -463,13 +478,10 @@
             "lng": "-74.0549974",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:30 p.m"
-            ],
-            "phone": [
-                "6016159324"
+                "Sab de 9:00 a.m a 12:30 p.m"
             ],
             "cell": [
-                "3018045093"
+                "3108865746"
             ],
             "whatsapp": [
                 "3018045093"
@@ -477,9 +489,9 @@
             "viewMap": "https://maps.app.goo.gl/NvWRv3UGAdHhy5rF6"
         },
         "bogota-05": {
-            "name": "LOGYTECH MOBILE",
+            "name": "LOGYTECH MOBILE CLARO",
             "address": "AVDA. CARRERA 106 NO. 15 A - 25 MANZANA 18 INTERIOR 121 BODEGA 0",
-            "email": "maria.aguilar@logytechmobile.com",
+            "email": "auxiliar.adminst@logytechmobile.com",
             "lat": "4.6719262",
             "lng": "-74.1583566",
             "schedule": [
@@ -497,20 +509,19 @@
             "viewMap": "https://maps.app.goo.gl/3xye1UgZ75wqGU4h8"
         },
         "bogota-06": {
-            "name": "WODEN S.A.S.",
+            "name": "WODEN S.A.S. CLARO",
             "address": "AV calle 12 # 43-14 Zona Industrial Bogotá",
-            "email": "drortiz@woden.com.co",
+            "email": "brodriguez@woden.com.co",
             "lat": "4.6217253",
             "lng": "-74.1039254",
             "schedule": [
-                "Lun a Vie de 7:30 a.m a 12:30 p.m y de 1:30 p.m a 4:00 p.m",
-                "Sab de 7:00 a.m a 2:00 p.m"
+                "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "cell": [
-                "3105850203"
+                "3104360406"
             ],
             "whatsapp": [
-                "3224383661"
+                "3104360406"
             ],
             "viewMap": "https://maps.app.goo.gl/Y4Szy3pqVwWqGF9w7"
         },
@@ -530,6 +541,15 @@
                 "3004039336"
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+12+%23%239-86,+Bogot%C3%A1/@4.6008101,-74.0795184,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9909e0c956ef:0xd4b90e10a0231c07!8m2!3d4.6008101!4d-74.0773297?hl=es"
+        },
+        "bogota-08": {
+            "name": "CENTRO DE SERVICIO KALLEY",
+            "address": "Calle 11 N° 31 A - 42",
+            "email": "lider.cuentas@kalley.com.co",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 2:00 p.m"
+            ]
         },
         "bogota-09": {
             "name": "GOOD SERVICE COMPANY SAS",
@@ -573,16 +593,16 @@
             "lng": "-74.0976709",
             "schedule": [
                 "Lun a Vie de 9:30 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 9:00 a.m a 12:00 m"
+                "Sab de 910:00 a.m a 1:00 p.m"
+            ],
+            "phone": [
+                "6012773314"
             ],
             "cell": [
                 "3057874462"
             ],
             "whatsapp": [
                 "3057874462"
-            ],
-            "phone": [
-                "2773314"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+9+%2329-25,+Bogot%C3%A1/@4.6090445,-74.0976709,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e3f996b6496b25b:0xeecb7b9b8acaed2!2m2!1d-74.095096!2d4.6090445!3e0?entry=ttu"
         },
@@ -593,8 +613,11 @@
             "lat": "4.6048601",
             "lng": "-74.127649",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Sab de 8:00 a.m a 2:00 p.m"
+            ],
+            "phone": [
+                "6017660611"
             ],
             "cell": [
                 "3138307225"
@@ -709,11 +732,13 @@
             "lat": "5.5700644",
             "lng": "-73.3453543",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Lun y Vie de 8:00 a.m a 4:00 p.m",
+                "Mar a Jue de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
             "cell": [
-                "3124725102"
+                "3124725102",
+                "3124683316"
             ],
             "whatsapp": [
                 "3124725102"
@@ -796,7 +821,7 @@
         },
         "cundinamarca-chia-02": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
-            "address": "Av Padilla No 3 - 40 Local 107",
+            "address": "Av Pradilla No 3 - 40 Local 107",
             "email": "homeservicechia3@gmail.com",
             "lat": "4.8634592",
             "lng": "-74.0536375",
@@ -820,7 +845,7 @@
             "lng": "-74.3548443",
             "schedule": [
                 "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab 9:00 a.m a 2:00 p.m"
+                "Sab 8:00 a.m a 2:00 p.m"
             ],
             "phone": [
                 "8438292"
@@ -1153,15 +1178,12 @@
         "casanare-yopal-03": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
             "address": "Cl 24 No 29 - 19",
-            "email": "auxiliaradmyopal1@gmail.com",
+            "email": "homeservicesedeyopal@gmail.com",
             "lat": "5.3402219",
             "lng": "-72.3882306",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                "6333988"
             ],
             "cell": [
                 "3157385366"
@@ -1178,17 +1200,16 @@
             "lat": "10.4785641",
             "lng": "-73.2515183",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
-            "phone": [
-                "5742323"
-            ],
             "cell": [
-                "3188326312"
+                "3188326312",
+                "3004882954",
+                "3160412339"
             ],
             "whatsapp": [
-                "3188326312"
+                "3004882954"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+11+%2313-20,+Valledupar,+Cesar/@10.4785641,-73.253707,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e8ab9b5bd629ce5:0x685d6b3aa3d27418!2m2!1d-73.2515183!2d10.4785588?hl=es"
         },
@@ -1199,8 +1220,8 @@
             "lat": "10.4705406",
             "lng": "-73.251086",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:30 a.m a 12:00 m y 2:00 p.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
             ],
             "phone": [
                 "5622427"
@@ -1399,11 +1420,8 @@
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
-            "phone": [
-                "4235177"
-            ],
             "cell": [
-                "3136365427"
+                "3018198763"
             ],
             "whatsapp": [
                 "3136365427"
@@ -1418,10 +1436,7 @@
             "lng": "-73.649839",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m",
-                "Sab de 8:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                "6464389"
+                "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
                 "3053832096"
@@ -1499,11 +1514,7 @@
             "lat": "1.209051",
             "lng": "-77.2821165",
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:00 m y de 2:00 p.m a 6:30 p.m",
-                "Sab de 8:30 a.m a 1:00 p.m"
-            ],
-            "phone": [
-                "7272662"
+                "Lun a Vie de 8:30 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
             ],
             "cell": [
                 "3152855464",
@@ -1521,7 +1532,7 @@
             "lat": "1.7874336",
             "lng": "-78.799774",
             "schedule": [
-                "Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
+                "Lun a Sab de 8:30 a.m a 12:30 p.m y de 2:30 p.m a 6:30 p.m"
             ],
             "phone": [
                 "7272902"
@@ -1597,7 +1608,7 @@
             "lat": "0.4961043",
             "lng": "-76.5034661",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m",
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
@@ -1628,25 +1639,23 @@
         },
         "risaralda-dosquebradas": {
             "name": "ELECTROSERVICIOS DEL EJE S.A.S",
-            "address": "Mz 15 Cs 7 Barrio: Colinas del Bosque Dosquebradas Risaralda",
+            "address": "Carrera 24 #25-14 barrio la hermosa Santa Rosa de Cabal Risaralda",
             "email": "electroservicios.eje@hotmail.com",
-            "lat": "4.852388",
-            "lng": "-75.6720273",
+            "lat": "4.8743839",
+            "lng": "-75.6301366",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
+                "Lun a Sab de 8:00 a.m a 5:00 p.m"
             ],
             "phone": [
                 "3426122"
             ],
             "cell": [
-                "3117061909",
-                "3206911443"
+                "3117061909"
             ],
             "whatsapp": [
                 "3117061909"
             ],
-            "viewMap": "https://maps.app.goo.gl/TBPiTDmwBWHe4zTv8"
+            "viewMap": "https://maps.app.goo.gl/SQa9zpjgnw4wEPRj7"
         },
         "risaralda-pereira-01": {
             "name": "SERVILUX",
@@ -1710,7 +1719,7 @@
         "san-andres": {
             "name": "HOME AND INDUSTRY CENTER",
             "address": "AV. SAN LUIS CR 4 # 15 - 155",
-            "email": "homeandindustrycenter@outlook.es",            
+            "email": "homeandindustrycenter@outlook.es",
             "schedule": [
                 "Lun a Vie de 9:00 a.m a 12:30 m y de 3:00 p.m a 6:30 p.m"
             ],
@@ -1719,7 +1728,7 @@
             ],
             "whatsapp": [
                 "3163096973"
-            ]            
+            ]
         },
         "santander-barbosa": {
             "name": "CLÍNICA DEL PARLANTE",
@@ -1881,8 +1890,7 @@
             "lat": "9.2975483",
             "lng": "-75.395583",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
-                "Sab 8:00 a.m a 12:00 m"
+                "Lun a Vie de 8:00 a.m a 5:00 p.m"
             ],
             "cell": [
                 "3116911400",
@@ -1906,7 +1914,8 @@
                 "2760242"
             ],
             "cell": [
-                "3023108383"
+                "3023108383",
+                "3043665369"
             ],
             "whatsapp": [
                 "3023108383"
@@ -2187,10 +2196,7 @@
             "lng": "-76.2032486",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:30 p.m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "phone": [
-                "2333777"
+                "Sab de 8:00 a.m a 4:00 p.m"
             ],
             "cell": [
                 "3163134683"
@@ -2659,7 +2665,8 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "aires-acondicionados": {
@@ -2670,13 +2677,15 @@
                         "audio-video": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "cuidado-personal": {
@@ -2693,7 +2702,8 @@
                         },
                         "ferreteria": {
                             "stores": [
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -2716,7 +2726,8 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "refrigeracion": {
@@ -2726,13 +2737,20 @@
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
                             ]
                         },
                         "tabletas": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02"
+                                "atlantico-barranquilla-02",
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "telefonia-celular": {
+                            "stores": [
+                                "atlantico-soledad-01"
                             ]
                         }
                     }
@@ -3989,6 +4007,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-11",
                                 "bogota-12"
                             ]
@@ -3997,6 +4016,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-12"
                             ]
                         },
@@ -4005,6 +4025,7 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-04",
+                                "bogota-08",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -4014,6 +4035,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -4022,13 +4044,16 @@
                         "cuidado-personal": {
                             "stores": [
                                 "bogota-01",
-                                "bogota-07"
+                                "bogota-07",
+                                "bogota-08",
+                                "bogota-11"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-09",
                                 "bogota-10",
                                 "bogota-11",
@@ -4040,11 +4065,13 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-07",
+                                "bogota-08",
                                 "bogota-11"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
+                                "bogota-08",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -4054,12 +4081,14 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-07",
+                                "bogota-08",
                                 "bogota-11",
                                 "bogota-12"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
+                                "bogota-08",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -4069,12 +4098,14 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-07",
+                                "bogota-08",
                                 "bogota-11",
                                 "bogota-12"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
+                                "bogota-08",
                                 "bogota-09",
                                 "bogota-12"
                             ]
@@ -4083,6 +4114,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -4092,6 +4124,7 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
+                                "bogota-08",
                                 "bogota-10",
                                 "bogota-11"
                             ]
@@ -4101,7 +4134,8 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-05",
-                                "bogota-06"
+                                "bogota-06",
+                                "bogota-08"
                             ]
                         }
                     }
@@ -4643,8 +4677,7 @@
                         },
                         "dispensadores": {
                             "stores": [
-                                "magdalena-santamarta",
-                                "magdalena-santamarta-2"
+                                "magdalena-santamarta"
                             ]
                         },
                         "ferreteria": {
@@ -4654,8 +4687,7 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "magdalena-santamarta",
-                                "magdalena-santamarta-2"
+                                "magdalena-santamarta"
                             ]
                         },
                         "iluminacion": {
@@ -4665,8 +4697,7 @@
                         },
                         "lavadoras": {
                             "stores": [
-                                "magdalena-santamarta",
-                                "magdalena-santamarta-2"
+                                "magdalena-santamarta"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -5149,6 +5180,11 @@
                                 "putumayo-la-hormiga"
                             ]
                         },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "putumayo-la-hormiga"
+                            ]
+                        },
                         "lavadoras": {
                             "stores": [
                                 "putumayo-la-hormiga"
@@ -5201,6 +5237,16 @@
                             ]
                         },
                         "iluminacion": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "putumayo-puerto-asis"
+                            ]
+                        },
+                        "lavadoras": {
                             "stores": [
                                 "putumayo-puerto-asis"
                             ]
@@ -5367,11 +5413,6 @@
                     "name": "Dosquebradas",
                     "categories": {
                         "aires-acondicionados": {
-                            "stores": [
-                                "risaralda-dosquebradas"
-                            ]
-                        },
-                        "cuidado-personal": {
                             "stores": [
                                 "risaralda-dosquebradas"
                             ]
@@ -5838,6 +5879,7 @@
                         },
                         "iluminacion": {
                             "stores": [
+                                "sucre-sincelejo-01",
                                 "sucre-sincelejo-02"
                             ]
                         },
@@ -5849,6 +5891,11 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "sucre-sincelejo-02"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "sucre-sincelejo-01"
                             ]
                         },
                         "tabletas": {
