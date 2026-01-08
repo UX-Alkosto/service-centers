@@ -309,6 +309,7 @@
         "emove": {
             "name": "Emove",
             "departments": [
+                "antioquia",
                 "cundinamarca"
             ]
         },
@@ -4116,20 +4117,21 @@
             "link": " https://elementscym.com/contactanos/",
             "viewMap": "https://maps.app.goo.gl/7DQ5C6TzfqERJJuS8"
         },
-        "emove-bogota": {
-            "name": "Evolution Fitness",
-            "address": "Cr 30 No. 63F-53, Barrio El Rosario",
-            "lat": "4.6572428",
-            "lng": "-74.0782482",
-            "phone": [
-                "7454646"
+        "emove-bogota-01": {
+            "name": "Emove Scooter´s & Bikes",
+            "address": "Calle 116 # 18B - 68",
+            "lat": "4.6987278",
+            "lng": "-74.0518903",
+            "cell": [
+                "3212723226"
             ],
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
             ],
-            "type": "interno",
-            "viewMap": "https://www.google.com/maps/dir//Ak+30+%2363f-53,+Bogot%C3%A1/@4.6572428,-74.0782482,21z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bad45d3ab83:0xd057cdfdf0ffbe6d!2m2!1d-74.0782507!2d4.6575332"
+            "type": "externo",
+            "link": "https://www.emove.com.co/politicas-de-garantia-emove/",
+            "viewMap": "https://maps.app.goo.gl/QgXW5PEV3yVJTiTV7"
         },
         "emove-bogota-02": {
             "name": "Emove Scooter´s & Bikes",
@@ -4138,15 +4140,32 @@
             "lat": "4.7221908",
             "lng": "-74.0308398",
             "cell": [
-                "317 240 2004"
+                "3172402004"
             ],
             "schedule": [
                 "Lun a Vie de 8:30 a.m a 5:30 p.m",
                 "Sab de 8:00 a.m a 3:30 p.m"
             ],
             "type": "externo",
-            "link": "https://www.emove.com.co/soporte-tecnico/",
+            "link": "https://www.emove.com.co/politicas-de-garantia-emove/",
             "viewMap": "https://www.google.com/maps/place/Belaire+Plaza/@4.7221908,-74.0308398,16z/data=!4m6!3m5!1s0x8e3f8f8b7c8edcb9:0xef65c73a384325de!8m2!3d4.7272677!4d-74.0244189!15sCiJDcmEgNyAjIDE1MiAtIDU0IExvY2FsIDItMDMgYm9nb3RhWiAiHmNyYSA3IDE1MiA1NCBsb2NhbCAyIDAzIGJvZ290YZIBD3Nob3BwaW5nX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSQmJHOXRTbmxuUlJBQg?shorturl=1"
+        },
+        "emove-medellin-01": {
+            "name": "Emove Scooter´s & Bikes",
+            "address": "Carrera 43 #30c-04",
+            "email": "serviciotecnico@emove.com.co",
+            "lat": "6.230324",
+            "lng": "-75.5687565",
+            "cell": [
+                "3122483698"
+            ],
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "type": "externo",
+            "link": "https://www.emove.com.co/politicas-de-garantia-emove/",
+            "viewMap": "https://maps.app.goo.gl/Zp1xz6sj5CEEZ7NC7"
         },
         "epson-barranquilla-01": {
             "name": "Mes Caribe S.A.S.",
@@ -11644,6 +11663,11 @@
                                 "willard-medellin"
                             ]
                         },
+                        "scooter-electricas": {
+                            "stores": [
+                                "emove-medellin-01"
+                            ]
+                        },
                         "telefonia": {
                             "stores": [
                                 "xiaomi-medellin-01",
@@ -12370,11 +12394,6 @@
                                 "panasonic-bogota-02"
                             ]
                         },
-                        "automotores": {
-                            "stores": [
-                                "emove-bogota-02"
-                            ]
-                        },
                         "bicicletas": {
                             "stores": [
                                 "aktive-bikes-bogota",
@@ -12517,7 +12536,8 @@
                         },
                         "scooter-electricas": {
                             "stores": [
-                                "emove-bogota"
+                                "emove-bogota-01",
+                                "emove-bogota-02"
                             ]
                         },
                         "telefonia": {
@@ -13734,7 +13754,7 @@
                                 "forza-linea-nacional",
                                 "gama-bogota-call-center",
                                 "irobot-bogota",
-                                "irobot-linea-nacional", 
+                                "irobot-linea-nacional",
                                 "nutribullet-bogota",
                                 "nutribullet-linea-nacional"
                             ]
