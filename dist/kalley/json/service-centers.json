@@ -162,7 +162,6 @@
                 "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
-                "3041290724",
                 "3208560930"
             ],
             "whatsapp": [
@@ -196,10 +195,11 @@
             "lat": "7.8777806",
             "lng": "-76.6295125",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Lun a Vie de 8:00 a.m a 7:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
+                "3206667712",
                 "3336496056"
             ],
             "whatsapp": [
@@ -335,7 +335,7 @@
         "arauca-arauca": {
             "name": "REFRITEC COLOMBIA",
             "address": "Cr 16 No 12 - 12, Barrio Meridiano 70",
-            "email": "servicioauxiliar@refriteccolombia.com",
+            "email": "auxiliar@refriteccolombia.com",
             "lat": "6.9452074",
             "lng": "-71.8790204",
             "cell": [
@@ -393,7 +393,7 @@
                 "3045553310"
             ],
             "whatsapp": [
-                "3045553310"
+                "3336459323"
             ],
             "viewMap": "https://www.google.com/maps/place/Cl.+70b+%2341-154,+Barranquilla,+Atl%C3%A1ntico/@10.9895245,-74.8083035,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d128110582f:0x138b3c07c1487ffa!8m2!3d10.9895245!4d-74.8061148?hl=es"
         },
@@ -491,20 +491,17 @@
         "bogota-05": {
             "name": "LOGYTECH MOBILE CLARO",
             "address": "AVDA. CARRERA 106 NO. 15 A - 25 MANZANA 18 INTERIOR 121 BODEGA 0",
-            "email": "auxiliar.adminst@logytechmobile.com",
+            "email": "adriana.lora@logytechmobile.com",
             "lat": "4.6719262",
             "lng": "-74.1583566",
             "schedule": [
                 "Lun a Vie de 7:00 a.m a 5:00 p.m"
             ],
             "cell": [
-                "3214760218",
-                "3232056602",
-                "3202677552",
-                "3132439023"
+                "3133348925"
             ],
             "whatsapp": [
-                "3207739042"
+                "3133348925"
             ],
             "viewMap": "https://maps.app.goo.gl/3xye1UgZ75wqGU4h8"
         },
@@ -532,7 +529,7 @@
             "lat": "4.6008101",
             "lng": "-74.0795184",
             "schedule": [
-                "Lun a Sab de 8:00 a.m a 5:00 p.m"
+                "Lun a Sab de 7:30 a.m a 6:00 p.m"
             ],
             "cell": [
                 "3004039336"
@@ -554,16 +551,14 @@
         "bogota-09": {
             "name": "GOOD SERVICE COMPANY SAS",
             "address": "Calle 1 sur # 72-86",
-            "email": "administrativo@goodservice.com.co",
+            "email": "goodservicevisitas@gamil.com",
             "lat": "4.6227456",
             "lng": "-74.1423847",
             "schedule": [
-                "Lun a Vie de 7:00 a.m a 4:00 p.m",
-                "Sab de 7:00 a.m a 11:00 m"
+                "Lun a Vie de 7:30 a.m a 4:30 p.m"
             ],
             "cell": [
                 "3146589119",
-                "3232062051",
                 "3186188098"
             ],
             "whatsapp": [
@@ -593,7 +588,7 @@
             "lng": "-74.0976709",
             "schedule": [
                 "Lun a Vie de 9:30 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 910:00 a.m a 1:00 p.m"
+                "Sab de 10:00 a.m a 1:00 p.m"
             ],
             "phone": [
                 "6012773314"
@@ -613,13 +608,15 @@
             "lat": "4.6048601",
             "lng": "-74.127649",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 4:00 p.m",
+                "Lun y Vie de 8:00 a.m a 4:00 p.m",
+                "Mar a Jue de 8:00 a.m a 5:00 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
             "phone": [
                 "6017660611"
             ],
             "cell": [
+                "3102290559",
                 "3138307225"
             ],
             "whatsapp": [
@@ -695,11 +692,10 @@
             "lat": "5.8245403",
             "lng": "-73.0393227",
             "schedule": [
-                "Lun a Sab de 8:00 a.m a 6:30 p.m"
+                "Lun a Sab de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
             ],
             "cell": [
-                "3142673951",
-                "3226418990"
+                "3142673951"
             ],
             "whatsapp": [
                 "3142673951"
@@ -728,7 +724,7 @@
         "boyaca-tunja-01": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
             "address": "Tv 5 No 67B - 16 Barrio Muiscas",
-            "email": "admonkalleyhometunja@gmail.com",
+            "email": "homeservicebogota22@gmail.com",
             "lat": "5.5700644",
             "lng": "-73.3453543",
             "schedule": [
@@ -788,8 +784,7 @@
             "lat": "9.9785141",
             "lng": "-73.8936281",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:30 p.m"
             ],
             "cell": [
                 "3117782311"
@@ -820,7 +815,7 @@
             "viewMap": "https://www.google.com/maps/search/Calle+11+%2311-77,+Ch%C3%ADa,+Cundinamarca/@4.8598864,-74.0602611,17z/data=!3m1!4b1?hl=es"
         },
         "cundinamarca-chia-02": {
-            "name": "HOME SERVICE DE COLOMBIA S.A.S",
+            "name": "HOME SERVICE DE COLOMBIA S.A.S CHIA",
             "address": "Av Pradilla No 3 - 40 Local 107",
             "email": "homeservicechia3@gmail.com",
             "lat": "4.8634592",
@@ -838,24 +833,19 @@
             "viewMap": "https://www.google.com/maps/dir//Av.+Pradilla+%233-40,+Ch%C3%ADa,+Cundinamarca/@4.8634592,-74.0536375,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e3f87f4fd0846b7:0x4d37f1e8076f7b34!2m2!1d-74.0510626!2d4.8634592!3e0?entry=ttu"
         },
         "cundinamarca-facatativa-01": {
-            "name": "DIGITAL TV",
+            "name": "DIGITAL TV TECNOLOGY S.A.S.",
             "address": "CALLE 7 # 6A-26",
             "email": "garantias@digitaltv.com.co",
             "lat": "4.8137202",
             "lng": "-74.3548443",
             "schedule": [
-                "Lun a Vie de 9:00 a.m a 6:00 p.m",
-                "Sab 8:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                "8438292"
+                "Lun a Vie de 9:00 a.m a 6:00 p.m"
             ],
             "cell": [
-                "3174111911",
-                "3213360193"
+                "3174111911"
             ],
             "whatsapp": [
-                "3174111911"
+                "3213360193"
             ],
             "viewMap": "https://maps.app.goo.gl/7WZUGbrRg6Y49oePA"
         },
@@ -1033,26 +1023,26 @@
         },
         "cordoba-monteria-01": {
             "name": "DYM",
-            "address": "Cl 24 No 9 - 68",
+            "address": "Cl 24 No 9 - 68 CHUCURUBI",
             "email": "servicios@dym.com.co",
             "lat": "8.7504515",
             "lng": "-75.8858853",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 2:00 p.m"
+                "Sab de 8:00 a.m a 12:00 m"
             ],
             "cell": [
-                "3205661394"
+                "3205661396"
             ],
             "whatsapp": [
-                "3205661396"
+                "3205661394"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+24+%239-68,+Monter%C3%ADa,+C%C3%B3rdoba/@8.7504515,-75.8858853,17z/data=!4m17!1m7!3m6!1s0x8e5a2fe40a5e3cd7:0xfc785eee3e8f81aa!2zQ2wuIDI0ICM5LTY4LCBNb250ZXLDrWEsIEPDs3Jkb2Jh!3b1!8m2!3d8.7504515!4d-75.8836966!4m8!1m0!1m5!1m1!1s0x8e5a2fe40a5e3cd7:0xfc785eee3e8f81aa!2m2!1d-75.8836966!2d8.7504515!3e3"
         },
         "cordoba-monteria-02": {
             "name": "CLÍNICA DIGITAL",
             "address": "Cl 46 No 3 - 48, Barrio Laureles 2",
-            "email": "lizeth.franco@clinicadigitalmonteria.com",
+            "email": "martin.alvarez@clinicadigitalmonteria.com",
             "lat": "8.7657195",
             "lng": "-75.8782956",
             "schedule": [
@@ -1109,7 +1099,7 @@
             "lat": "8.4078191",
             "lng": "-75.5806225",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:30 p.m y d  e 2:00 p.m a 6:30 p.m",
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m"
             ],
             "cell": [
@@ -1186,7 +1176,8 @@
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
             "cell": [
-                "3157385366"
+                "3157385366",
+                "3102296139"
             ],
             "whatsapp": [
                 "3157385366"
@@ -1469,13 +1460,12 @@
         },
         "narino-pasto-02": {
             "name": "TV ELECTRONIC`S",
-            "address": "Cl 22 No 2 - 57",
+            "address": "Cl 22 No 2 - 57 Barrio el Ejido",
             "email": "tvelectronics1262025@gmail.com",
             "lat": "1.2093562",
             "lng": "-77.2830075",
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:00 m y de 2:30 p.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
+                "Lun a Vie de 8:30 a.m a 12:00 m y de 2:30 p.m a 5:30 p.m"
             ],
             "cell": [
                 "3006920086"
@@ -1488,22 +1478,19 @@
         "narino-pasto-03": {
             "name": "SERVIAUTORIZADOS MONCAYO",
             "address": "Cl 16C No 39 - 11, Junto a Electro moncayo Av Panamericana",
-            "email": "serviautorizadosmoncayo@gmail.com",
+            "email": "info.servicliente@serviautorizados.com",
             "lat": "1.2224999",
             "lng": "-77.2876348",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
             ],
-            "phone": [
-                "6027220330"
-            ],
             "cell": [
                 "3178113264",
                 "3233457928"
             ],
             "whatsapp": [
-                "3233457928"
+                "3178113264"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+16c+%2339+-+11,+Pasto,+Nari%C3%B1o/@1.2224999,-77.2876348,18.4z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e2ed38084412063:0xb252dcba569a05f1!2m2!1d-77.2869592!2d1.222682!3e3"
         },
@@ -1602,7 +1589,7 @@
             "viewMap": "https://www.google.com/maps/dir//Cl.+7+%237-65,+La+Hormiga,+Valle+Del+Guamuez,+Putumayo/@0.4250021,-76.9085699,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e284344a5e52f35:0xe31cf5b02e2afb8b!2m2!1d-76.9059896!2d0.4250021?entry=ttu"
         },
         "putumayo-puerto-asis": {
-            "name": "SOLUCIONES YGM",
+            "name": "SOLUCIONES ELECTRONICAS YGM",
             "address": "CRA 23 #10-38 Barrio San Nicolas",
             "email": "Refrigeracionesz@hotmail.com",
             "lat": "0.4961043",
@@ -1731,7 +1718,7 @@
             ]
         },
         "santander-barbosa": {
-            "name": "CLÍNICA DEL PARLANTE",
+            "name": "MONCADA PRODUCCIONES D.P",
             "address": "Cl 7 No 7 - 28",
             "email": "moncadaproduccionesd.p@hotmail.com",
             "lat": "5.9288753",
@@ -1872,7 +1859,8 @@
             "lat": "6.5504174",
             "lng": "-73.1406663",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
+                "Sab de 9:00 a.m a 12:00 m"
             ],
             "cell": [
                 "3118579107",
@@ -1943,18 +1931,19 @@
             "viewMap": "https://www.google.com/maps/dir//Cl.+17+%232a1,+Ibagu%C3%A9,+Tolima/@4.4408202,-75.2388515,17z/data=!4m17!1m7!3m6!1s0x8e38c49a9bfd4881:0x4fa47e79a5adfb04!2sCl.+17+%232a1,+Ibagu%C3%A9,+Tolima!3b1!8m2!3d4.4408202!4d-75.2366628!4m8!1m0!1m5!1m1!1s0x8e38c49a9bfd4881:0x4fa47e79a5adfb04!2m2!1d-75.2366628!2d4.4408202!3e3"
         },
         "tolima-ibague-2": {
-            "name": "SIE SERVICE SOLUTIONS",
+            "name": "SIE SERVICE",
             "address": "carrera 1 # 70 - 60",
             "email": "cobros@sieservice.com",
             "lat": "4.433562",
             "lng": "-75.197119",
             "schedule": [
-                "Lun a Vie de 8:30 a.m a 12:00 m y de 3:00 p.m a 6:00 p.m",
-                "Sab de 8:30 a.m a 12:00 m"
+                "Lun a Vie de 9:00 a.m a 12:00 m y de 3:00 p.m a 6:00 p.m"
             ],
             "cell": [
                 "3007782956",
-                "3195037400"
+                "3195037400",
+                "3152889940",
+                "3184320115"
             ],
             "whatsapp": [
                 "3195037400"
@@ -2232,11 +2221,6 @@
                     "areaCode": 4,
                     "name": "Apartadó",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "antioquia-apartado-02"
-                            ]
-                        },
                         "audio-video": {
                             "stores": [
                                 "antioquia-apartado-02"
@@ -2248,11 +2232,6 @@
                             ]
                         },
                         "dispensadores": {
-                            "stores": [
-                                "antioquia-apartado-01"
-                            ]
-                        },
-                        "iluminacion": {
                             "stores": [
                                 "antioquia-apartado-01"
                             ]
@@ -2507,7 +2486,6 @@
                         "iluminacion": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-04",
                                 "antioquia-medellin-06"
                             ]
                         },
@@ -2561,32 +2539,12 @@
                                 "antioquia-rionegro"
                             ]
                         },
+                        "casa-inteligente": {
+                            "stores": [
+                                "antioquia-rionegro"
+                            ]
+                        },
                         "cuidado-personal": {
-                            "stores": [
-                                "antioquia-rionegro"
-                            ]
-                        },
-                        "dispensadores": {
-                            "stores": [
-                                "antioquia-rionegro"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "antioquia-rionegro"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "antioquia-rionegro"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "antioquia-rionegro"
-                            ]
-                        },
-                        "lavadoras": {
                             "stores": [
                                 "antioquia-rionegro"
                             ]
@@ -2902,11 +2860,6 @@
                                 "boyaca-duitama-03"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "boyaca-duitama-01"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "boyaca-duitama-03"
@@ -2929,27 +2882,7 @@
                     "areaCode": 8,
                     "name": "Tunja",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
                         "audio-video": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
-                        "casa-inteligente": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
-                        "dispensadores": {
                             "stores": [
                                 "boyaca-tunja-01"
                             ]
@@ -2959,27 +2892,12 @@
                                 "boyaca-tunja-01"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "boyaca-tunja-01"
                             ]
                         },
-                        "pequenos-electrodomesticos": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
                         "refrigeracion": {
-                            "stores": [
-                                "boyaca-tunja-01"
-                            ]
-                        },
-                        "smart-home-menores": {
                             "stores": [
                                 "boyaca-tunja-01"
                             ]
@@ -3895,12 +3813,12 @@
                                 "cordoba-planetarica"
                             ]
                         },
-                        "casa-inteligente": {
+                        "cuidado-personal": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
                         },
-                        "cuidado-personal": {
+                        "dispensadores": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
@@ -3910,7 +3828,12 @@
                                 "cordoba-planetarica"
                             ]
                         },
-                        "iluminacion": {
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "cordoba-planetarica"
+                            ]
+                        },
+                        "lavadoras": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
@@ -3920,12 +3843,12 @@
                                 "cordoba-planetarica"
                             ]
                         },
-                        "smart-home-menores": {
+                        "refrigeracion": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
                         },
-                        "tabletas": {
+                        "smart-home-menores": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
@@ -4017,6 +3940,7 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-08",
+                                "bogota-09",
                                 "bogota-12"
                             ]
                         },
@@ -4054,7 +3978,6 @@
                                 "bogota-01",
                                 "bogota-02",
                                 "bogota-08",
-                                "bogota-09",
                                 "bogota-10",
                                 "bogota-11",
                                 "bogota-12"
@@ -4064,7 +3987,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-07",
                                 "bogota-08",
                                 "bogota-11"
                             ]
@@ -4080,7 +4002,6 @@
                             "stores": [
                                 "bogota-01",
                                 "bogota-02",
-                                "bogota-07",
                                 "bogota-08",
                                 "bogota-11",
                                 "bogota-12"
@@ -4144,22 +4065,7 @@
                     "areaCode": 1,
                     "name": "Facatativa",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
                         "audio-video": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "casa-inteligente": {
                             "stores": [
                                 "cundinamarca-facatativa-01"
                             ]
@@ -4169,42 +4075,7 @@
                                 "cundinamarca-facatativa-01"
                             ]
                         },
-                        "dispensadores": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "ferreteria": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "iluminacion": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "lavadoras": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
                         "pequenos-electrodomesticos": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "cundinamarca-facatativa-01"
-                            ]
-                        },
-                        "smart-home-menores": {
                             "stores": [
                                 "cundinamarca-facatativa-01"
                             ]
@@ -4893,7 +4764,8 @@
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "narino-pasto-01"
+                                "narino-pasto-01",
+                                "narino-pasto-03"
                             ]
                         },
                         "audio-video": {
@@ -4926,7 +4798,8 @@
                         "ferreteria": {
                             "stores": [
                                 "narino-pasto-01",
-                                "narino-pasto-02"
+                                "narino-pasto-02",
+                                "narino-pasto-03"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -4937,7 +4810,6 @@
                         "iluminacion": {
                             "stores": [
                                 "narino-pasto-01",
-                                "narino-pasto-02",
                                 "narino-pasto-03"
                             ]
                         },
@@ -4967,11 +4839,12 @@
                         },
                         "tabletas": {
                             "stores": [
-                                "narino-pasto-02"
+                                "narino-pasto-03"
                             ]
                         },
                         "telefonia-celular": {
                             "stores": [
+                                "narino-pasto-02",
                                 "narino-pasto-03"
                             ]
                         }
@@ -5340,7 +5213,6 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "risaralda-pereira-01",
                                 "risaralda-pereira-02",
                                 "risaralda-pereira-03"
                             ]
@@ -5353,6 +5225,7 @@
                         },
                         "casa-inteligente": {
                             "stores": [
+                                "risaralda-pereira-01",
                                 "risaralda-pereira-02",
                                 "risaralda-pereira-03"
                             ]
@@ -5377,7 +5250,6 @@
                         },
                         "iluminacion": {
                             "stores": [
-                                "risaralda-pereira-01",
                                 "risaralda-pereira-02",
                                 "risaralda-pereira-03"
                             ]
@@ -5805,7 +5677,22 @@
                                 "santander-sangil"
                             ]
                         },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "santander-sangil"
+                            ]
+                        },
                         "iluminacion": {
+                            "stores": [
+                                "santander-sangil"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "santander-sangil"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
                             "stores": [
                                 "santander-sangil"
                             ]
@@ -5991,6 +5878,11 @@
                         "tabletas": {
                             "stores": [
                                 "tolima-ibague",
+                                "tolima-ibague-2"
+                            ]
+                        },
+                        "telefonia-celular": {
+                            "stores": [
                                 "tolima-ibague-2"
                             ]
                         }
