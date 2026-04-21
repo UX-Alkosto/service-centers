@@ -2,4 +2,6 @@ node_modules
 .DS_Store
 .history
 .vscode
-examples/centros-servicio.html
+.env
+*.py
+*.xlsx
