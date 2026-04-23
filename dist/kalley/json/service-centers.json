@@ -559,9 +559,6 @@
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 9:00 a.m a 1:00 p.m"
             ],
-            "phone": [
-                "7600444"
-            ],
             "cell": [
                 "3114524574"
             ],
@@ -609,7 +606,7 @@
         "boyaca-tunja-01": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
             "address": "Tv 5 No 67B - 16 Barrio Muiscas",
-            "email": "homeservicebogota22@gmail.com",
+            "email": "admonkalleyhometunja@gmail.com",
             "lat": "5.5700644",
             "lng": "-73.3453543",
             "schedule": [
@@ -646,7 +643,7 @@
         },
         "cesar-aguachica": {
             "name": "TECNIELECTRONIC AGUACHICA",
-            "address": "Cl 3 No 23 - 73",
+            "address": "LUNES A VIERNES 8:00 A.M. A 12:00 M. Y 2:00 P.M. A 6:00 P.M. SÁBADO 8:00 A.M. A 12:00 P.M.",
             "email": "tecnielectronicdeaguachica@hotmail.com",
             "lat": "8.3091902",
             "lng": "-73.6218547",
@@ -692,10 +689,10 @@
                 "8631062"
             ],
             "cell": [
-                "3014577183"
+                "3013121526"
             ],
             "whatsapp": [
-                "3014577183"
+                "3013121526"
             ],
             "viewMap": "https://www.google.com/maps/search/Calle+11+%2311-77,+Ch%C3%ADa,+Cundinamarca/@4.8598864,-74.0602611,17z/data=!3m1!4b1?hl=es"
         },
@@ -741,7 +738,8 @@
             "lat": "5.0442224",
             "lng": "-73.7976528",
             "schedule": [
-                "Lun a Vie de 9:00 a.m a 5:00 p.m"
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 9:00 a.m a 12:00 m"
             ],
             "cell": [
                 "3208134300"
@@ -831,15 +829,12 @@
         },
         "caldas-dorada": {
             "name": "MCALLISTER EMPRESAS",
-            "address": "Cl 18 No 6 - 109, Cabrero",
+            "address": "CLL. 18 # 7 - 25 (CABRERO)",
             "email": "mcallisterempresas@hotmail.com",
-            "lat": "5.4554402",
-            "lng": "-74.6694253",
+            "lat": "5.454983",
+            "lng": "-74.6727754",
             "schedule": [
                 "Lun a Vie de 9:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m"
-            ],
-            "phone": [
-                "8573060"
             ],
             "cell": [
                 "3136721089"
@@ -847,7 +842,7 @@
             "whatsapp": [
                 "3136721089"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+18+%236-30,+La+Dorada,+Caldas/@5.4554402,-74.6694253,17z/data=!4m17!1m7!3m6!1s0x8e40dea33ae16311:0x683880fdf71b5037!2sCl.+18+%236-30,+La+Dorada,+Caldas!3b1!8m2!3d5.4554402!4d-74.6672366!4m8!1m0!1m5!1m1!1s0x8e40dea33ae16311:0x683880fdf71b5037!2m2!1d-74.6672366!2d5.4554402!3e3"
+            "viewMap": "https://maps.app.goo.gl/S8TmvCwTden6mPsJ8"
         },
         "caldas-manizales": {
             "name": "ENLACE DIGITAL",
@@ -858,9 +853,6 @@
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab 8:00 a.m a 12:00 m"
-            ],
-            "phone": [
-                "8857839"
             ],
             "cell": [
                 "3128432870"
@@ -966,8 +958,7 @@
             "lat": "8.4078191",
             "lng": "-75.5806225",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 6:00 p.m"
+                "Lun a Vie de 8:00 a.m a 12:00 m y de 1:00 p.m a 6:00 p.m"
             ],
             "cell": [
                 "3175944650"
@@ -1019,7 +1010,7 @@
         "casanare-yopal-03": {
             "name": "HOME SERVICE DE COLOMBIA S.A.S",
             "address": "Cl 24 No 29 - 19",
-            "email": "homeservicesedeyopal@gmail.com",
+            "email": "admhomeservice@gmail.com",
             "lat": "5.3402219",
             "lng": "-72.3882306",
             "schedule": [
@@ -1260,10 +1251,10 @@
             "lng": "-74.209561",
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 8:00 a.m a 2:00 p.m"
+                "Sab de 8:00 a.m a 1:00 p.m"
             ],
             "cell": [
-                "3018198763"
+                "3136365427"
             ],
             "whatsapp": [
                 "3136365427"
@@ -1329,7 +1320,7 @@
         "narino-pasto-03": {
             "name": "SERVIAUTORIZADOS MONCAYO",
             "address": "Cl 16C No 39 - 11, Junto a Electro moncayo Av Panamericana",
-            "email": "info.servicliente@serviautorizados.com",
+            "email": "serviautorizadosmoncayo@gmail.com",
             "lat": "1.2224999",
             "lng": "-77.2876348",
             "schedule": [
@@ -1428,8 +1419,7 @@
             "lat": "0.4961043",
             "lng": "-76.5034661",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
+                "LUNES A VIERNES 8:00 A.M. 12:00M  2:00 PM A 5:00 P.M."
             ],
             "cell": [
                 "3115404906"
@@ -1457,7 +1447,7 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+23+%2313-15,+Armenia,+Quind%C3%ADo/@4.5311863,-75.6763572,17z/data=!4m17!1m7!3m6!1s0x8e38f5ae1da70919:0x7a7c0b4cf83ecd2c!2sCl.+23+%2313-15,+Armenia,+Quind%C3%ADo!3b1!8m2!3d4.5311863!4d-75.6741685!4m8!1m0!1m5!1m1!1s0x8e38f5ae1da70919:0x7a7c0b4cf83ecd2c!2m2!1d-75.6741685!2d4.5311863!3e3"
         },
-        "risaralda-dosquebradas": {
+        "risaralda-santa-rosa-de-cabal": {
             "name": "ELECTROSERVICIOS DEL EJE S.A.S",
             "address": "Carrera 24 #25-14 barrio la hermosa Santa Rosa de Cabal Risaralda",
             "email": "electroservicios.eje@hotmail.com",
@@ -1465,9 +1455,6 @@
             "lng": "-75.6301366",
             "schedule": [
                 "Lun a Sab de 8:00 a.m a 5:00 p.m"
-            ],
-            "phone": [
-                "3426122"
             ],
             "cell": [
                 "3117061909"
@@ -1525,8 +1512,7 @@
             "lat": "4.8256256",
             "lng": "-75.7383191",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
+                "LUNES A VIERNES 8:00 A.M. A 12:00 P.M. Y  2:00 P.M. A 6:00 PM"
             ],
             "cell": [
                 "3105047597"
@@ -1576,9 +1562,6 @@
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "phone": [
-                "6202392"
             ],
             "cell": [
                 "3005704067",
@@ -1659,8 +1642,7 @@
                 "Lun a Vie de 7:00 a.m a 12:00 m y de 2:00 p.m a 6:00 p.m"
             ],
             "cell": [
-                "3102872087",
-                "3102867920"
+                "3102872087"
             ],
             "whatsapp": [
                 "3102872087"
@@ -1733,9 +1715,6 @@
             "lng": "-75.2388515",
             "schedule": [
                 "Lun a Vie de 8:30 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m"
-            ],
-            "phone": [
-                "2614642"
             ],
             "cell": [
                 "3153202300"
@@ -1817,10 +1796,10 @@
         },
         "valle-cauca-cali-04": {
             "name": "S.E.C SMART ELECTRONICS CENTER",
-            "address": "Cl 14 No. 33-25, Lc 2",
+            "address": "Calle 25 No. 20-42, barrio Belalcázar o Aranjuez, Cali.",
             "email": "smartelectronicscenter@gmail.com",
-            "lat": "3.4237434",
-            "lng": "-76.5295379",
+            "lat": "3.436891",
+            "lng": "-76.5244319",
             "schedule": [
                 "Lun a Vie de 8:30 a.m a 12:00 m y de 2:00 p.m a 5:00 p.m",
                 "Sab de 8:30 a.m a 12:00 m"
@@ -1834,7 +1813,7 @@
             "whatsapp": [
                 "3107240817"
             ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+14+%2333-25,+Cali,+Valle+del+Cauca/@3.4237434,-76.5295379,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6bfdef911d7:0x290ef649566afa0d!8m2!3d3.4237434!4d-76.5273492?hl=es"
+            "viewMap": "https://maps.app.goo.gl/BSVZrW7RvuyCF1AT8"
         },
         "valle-cauca-cali-05": {
             "name": "ALMACEN Y TALLER MULTIHOGAR",
@@ -1941,9 +1920,6 @@
             "schedule": [
                 "Lun a Vie de 8:00 a.m a 12:00 m y 2:00 p.m a 6:00 p.m",
                 "Sab de 8:00 a.m a 1:00 p.m"
-            ],
-            "phone": [
-                "2642741"
             ],
             "cell": [
                 "3012167542",
@@ -2625,11 +2601,6 @@
                                 "caldas-dorada"
                             ]
                         },
-                        "casa-inteligente": {
-                            "stores": [
-                                "caldas-dorada"
-                            ]
-                        },
                         "cuidado-personal": {
                             "stores": [
                                 "caldas-dorada"
@@ -2696,11 +2667,6 @@
                                 "caldas-manizales"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "caldas-manizales"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "caldas-manizales"
@@ -2744,7 +2710,6 @@
                         },
                         "aires-acondicionados": {
                             "stores": [
-                                "caqueta-florencia-01",
                                 "caqueta-florencia-03"
                             ]
                         },
@@ -3080,6 +3045,11 @@
                             "stores": [
                                 "cesar-aguachica"
                             ]
+                        },
+                        "tabletas": {
+                            "stores": [
+                                "cesar-aguachica"
+                            ]
                         }
                     }
                 },
@@ -3118,6 +3088,11 @@
                             ]
                         },
                         "grandes-electrodomesticos": {
+                            "stores": [
+                                "cesar-bosconia"
+                            ]
+                        },
+                        "iluminacion": {
                             "stores": [
                                 "cesar-bosconia"
                             ]
@@ -3398,7 +3373,6 @@
                         },
                         "casa-inteligente": {
                             "stores": [
-                                "cordoba-monteria-01",
                                 "cordoba-monteria-03"
                             ]
                         },
@@ -3421,6 +3395,11 @@
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "cordoba-monteria-01",
+                                "cordoba-monteria-03"
+                            ]
+                        },
+                        "iluminacion": {
+                            "stores": [
                                 "cordoba-monteria-03"
                             ]
                         },
@@ -3503,17 +3482,7 @@
                                 "cordoba-planetarica"
                             ]
                         },
-                        "dispensadores": {
-                            "stores": [
-                                "cordoba-planetarica"
-                            ]
-                        },
                         "ferreteria": {
-                            "stores": [
-                                "cordoba-planetarica"
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
@@ -3524,16 +3493,6 @@
                             ]
                         },
                         "pequenos-electrodomesticos": {
-                            "stores": [
-                                "cordoba-planetarica"
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                "cordoba-planetarica"
-                            ]
-                        },
-                        "smart-home-menores": {
                             "stores": [
                                 "cordoba-planetarica"
                             ]
@@ -3799,17 +3758,17 @@
                                 "cundinamarca-sesquile"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "cundinamarca-sesquile"
-                            ]
-                        },
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "cundinamarca-sesquile"
                             ]
                         },
                         "smart-home-menores": {
+                            "stores": [
+                                "cundinamarca-sesquile"
+                            ]
+                        },
+                        "tabletas": {
                             "stores": [
                                 "cundinamarca-sesquile"
                             ]
@@ -3901,6 +3860,11 @@
                     "areaCode": 8,
                     "name": "Garzón",
                     "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "huila-garzon"
+                            ]
+                        },
                         "audio-video": {
                             "stores": [
                                 "huila-garzon"
@@ -4165,7 +4129,8 @@
                         },
                         "dispensadores": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "ferreteria": {
@@ -4175,7 +4140,8 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "iluminacion": {
@@ -4185,7 +4151,8 @@
                         },
                         "lavadoras": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "pequenos-electrodomesticos": {
@@ -4196,7 +4163,8 @@
                         },
                         "refrigeracion": {
                             "stores": [
-                                "magdalena-santamarta"
+                                "magdalena-santamarta",
+                                "magdalena-santamarta-2"
                             ]
                         },
                         "smart-home-menores": {
@@ -4541,7 +4509,6 @@
                         },
                         "iluminacion": {
                             "stores": [
-                                "norte-santander-cucuta-01",
                                 "norte-santander-cucuta-02"
                             ]
                         },
@@ -4755,6 +4722,11 @@
                                 "quindio-armenia"
                             ]
                         },
+                        "smart-home-menores": {
+                            "stores": [
+                                "quindio-armenia"
+                            ]
+                        },
                         "tabletas": {
                             "stores": [
                                 "quindio-armenia"
@@ -4846,27 +4818,27 @@
                     "categories": {
                         "aires-acondicionados": {
                             "stores": [
-                                "risaralda-dosquebradas"
+                                "risaralda-santa-rosa-de-cabal"
                             ]
                         },
                         "dispensadores": {
                             "stores": [
-                                "risaralda-dosquebradas"
+                                "risaralda-santa-rosa-de-cabal"
                             ]
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
-                                "risaralda-dosquebradas"
+                                "risaralda-santa-rosa-de-cabal"
                             ]
                         },
                         "lavadoras": {
                             "stores": [
-                                "risaralda-dosquebradas"
+                                "risaralda-santa-rosa-de-cabal"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
-                                "risaralda-dosquebradas"
+                                "risaralda-santa-rosa-de-cabal"
                             ]
                         }
                     }
@@ -5027,17 +4999,22 @@
                                 "santander-barrancabermeja-01"
                             ]
                         },
+                        "ferreteria": {
+                            "stores": [
+                                "santander-barrancabermeja-01"
+                            ]
+                        },
                         "grandes-electrodomesticos": {
                             "stores": [
                                 "santander-barrancabermeja-01"
                             ]
                         },
-                        "iluminacion": {
+                        "lavadoras": {
                             "stores": [
                                 "santander-barrancabermeja-01"
                             ]
                         },
-                        "lavadoras": {
+                        "pequenos-electrodomesticos": {
                             "stores": [
                                 "santander-barrancabermeja-01"
                             ]
@@ -5063,11 +5040,6 @@
                     "areaCode": 7,
                     "name": "Bucaramanga",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "santander-bucaramanga-02"
-                            ]
-                        },
                         "aires-acondicionados": {
                             "stores": [
                                 "santander-bucaramanga-01"
@@ -5098,11 +5070,6 @@
                                 "santander-bucaramanga-01"
                             ]
                         },
-                        "iluminacion": {
-                            "stores": [
-                                "santander-bucaramanga-02"
-                            ]
-                        },
                         "lavadoras": {
                             "stores": [
                                 "santander-bucaramanga-01"
@@ -5111,13 +5078,17 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "santander-bucaramanga-03",
-                                "santander-bucaramanga-02",
                                 "santander-bucaramanga-01"
                             ]
                         },
                         "refrigeracion": {
                             "stores": [
                                 "santander-bucaramanga-01"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "santander-bucaramanga-02"
                             ]
                         },
                         "tabletas": {
@@ -5136,11 +5107,6 @@
                     "areaCode": 7,
                     "name": "Sabana de Torres",
                     "categories": {
-                        "accesorios": {
-                            "stores": [
-                                "santander-sabana-torres-1"
-                            ]
-                        },
                         "aires-acondicionados": {
                             "stores": [
                                 "santander-sabana-torres-1"
@@ -5151,22 +5117,12 @@
                                 "santander-sabana-torres-1"
                             ]
                         },
-                        "casa-inteligente": {
-                            "stores": [
-                                "santander-sabana-torres-1"
-                            ]
-                        },
                         "dispensadores": {
                             "stores": [
                                 "santander-sabana-torres-1"
                             ]
                         },
                         "grandes-electrodomesticos": {
-                            "stores": [
-                                "santander-sabana-torres-1"
-                            ]
-                        },
-                        "iluminacion": {
                             "stores": [
                                 "santander-sabana-torres-1"
                             ]
@@ -5186,7 +5142,7 @@
                                 "santander-sabana-torres-1"
                             ]
                         },
-                        "smart-home-menores": {
+                        "tabletas": {
                             "stores": [
                                 "santander-sabana-torres-1"
                             ]
@@ -5388,6 +5344,7 @@
                         },
                         "ferreteria": {
                             "stores": [
+                                "tolima-ibague",
                                 "tolima-ibague-2"
                             ]
                         },
@@ -5571,6 +5528,11 @@
                                 "valle-cauca-cartago-01"
                             ]
                         },
+                        "iluminacion": {
+                            "stores": [
+                                "valle-cauca-cartago-01"
+                            ]
+                        },
                         "lavadoras": {
                             "stores": [
                                 "valle-cauca-cartago-01"
@@ -5587,6 +5549,11 @@
                             ]
                         },
                         "smart-home-menores": {
+                            "stores": [
+                                "valle-cauca-cartago-01"
+                            ]
+                        },
+                        "tabletas": {
                             "stores": [
                                 "valle-cauca-cartago-01"
                             ]
