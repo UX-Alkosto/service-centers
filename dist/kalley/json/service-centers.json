@@ -170,23 +170,25 @@
             "viewMap": "https://maps.app.goo.gl/d8xNoiKe2di5rsBj6"
         },
         "antioquia-medellin-07": {
-            "name": "ELECTRICOS ATENAS",
-            "address": "Cl 50 # 52 - 61 Barrio La Candelaria",
-            "email": "electricosatenas17@gmail.com",
-            "lat": "6.2508694",
-            "lng": "-75.5725921",
+            "name": "CENTRO DE SERVICIO OPERACIONES GENERALES SURAMERICANA",
+            "address": "CRA 48 #17-109",
+            "email": "ceposventasura@suramericaca.com.co",
+            "lat": "6.2197515",
+            "lng": "-75.5810147",
             "schedule": [
-                "Lun a Vie de 8:00 a.m a 6:30 p.m",
-                "Sab de 8:00 a.m a 5:00 p.m"
+                "LUNES A VIERNES 8:00 A.M. A 5:00 PM.",
+                "SÁBADO 8:00 A.M. A 12:00 M."
+            ],
+            "phone": [
+                "6044446985"
             ],
             "cell": [
-                "3205139612",
-                "3137873169"
+                "3160275669"
             ],
             "whatsapp": [
-                "3205139612"
+                "3160275669"
             ],
-            "viewMap": "https://www.google.com/maps/place/Cl.+50+%2352-53,+La+Candelaria,+Medell%C3%ADn,+La+Candelaria,+Medell%C3%ADn,+Antioquia/@6.2503122,-75.5725691,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428ff1823dcdf:0xcc0174c1a6dfc764!8m2!3d6.2503122!4d-75.5699942?hl=es&entry=ttu"
+            "viewMap": "https://maps.app.goo.gl/R9AxDGseWHR94zUu7"
         },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
@@ -1336,6 +1338,23 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cl.+16c+%2339+-+11,+Pasto,+Nari%C3%B1o/@1.2224999,-77.2876348,18.4z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8e2ed38084412063:0xb252dcba569a05f1!2m2!1d-77.2869592!2d1.222682!3e3"
         },
+        "narino-tumaco-01": {
+            "name": "SET ELECTRONISC MB",
+            "address": "Calle Popayán Frente al Colegio Santa Teresita",
+            "email": "setelectroniscmbtumaco@hotmail.com",
+            "lat": "1.808986",
+            "lng": "-78.7706087",
+            "schedule": [
+                "lunes a viernes de 8 A.M a12 P.M y 2 a 6 PM. - sábado de 8.30 AM hasta las 2 PM - Festivos de 8 AM. a 12 PM"
+            ],
+            "cell": [
+                "3152056850"
+            ],
+            "whatsapp": [
+                "3117012612"
+            ],
+            "viewMap": "https://maps.app.goo.gl/G8pWHepGYEEyh7P56"
+        },
         "narino-tumaco-2": {
             "name": "ALMACEN SURTIREPUESTOS",
             "address": "CALLE MERCEDES CASA # 82 ZONA CENTRO",
@@ -1762,37 +1781,22 @@
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+4+%235-07,+Buenaventura,+Valle+del+Cauca/@3.8890173,-77.0779171,17z/data=!4m17!1m7!3m6!1s0x8e37238a4f87b9cf:0x4eb5306511c424c!2sCra.+4+%235-07,+Buenaventura,+Valle+del+Cauca!3b1!8m2!3d3.8890173!4d-77.0757284!4m8!1m0!1m5!1m1!1s0x8e37238a4f87b9cf:0x4eb5306511c424c!2m2!1d-77.0757284!2d3.8890173!3e3"
         },
-        "valle-cauca-cali-02": {
-            "name": "CENTRAL DE LICUADORAS SEDE SUR",
-            "address": "Av Rooselvet No 29 - 30",
-            "email": "sedesur@centraldelicuadoras.com",
-            "lat": "3.4314859",
-            "lng": "-76.541281",
+        "valle-cauca-cali-01": {
+            "name": "SERTEK SERVICIO TÉCNICO CALIFICADO S.A.S.",
+            "address": "Carrera 56 #13F 19, barrio Primero de Mayo",
+            "email": "serviconcorreo@gmail.com",
+            "lat": "3.4044562",
+            "lng": "-76.5353782",
             "schedule": [
-                "Lun a Sab de 8:00 a.m a 6:00 p.m"
-            ],
-            "phone": [
-                "5565967",
-                "5140879"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Av.+Roosevelt+%2329-30,+Cali,+Valle+del+Cauca/@3.4314859,-76.541281,17z/data=!4m17!1m7!3m6!1s0x8e30a69af5fc6b35:0xa210a0481b9e9dce!2sAv.+Roosevelt+%2329-30,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4314859!4d-76.5390923!4m8!1m0!1m5!1m1!1s0x8e30a69af5fc6b35:0xa210a0481b9e9dce!2m2!1d-76.5390923!2d3.4314859!3e3"
-        },
-        "valle-cauca-cali-03": {
-            "name": "CENTRAL DE LICUADORAS SEDE NORTE ",
-            "address": "Av 6 No 47AN-06",
-            "email": "sedenorte@centraldelicuadoras.com",
-            "lat": "3.48594",
-            "lng": "-76.5283172",
-            "schedule": [
-                "Lun a Sab de 8:00 a.m a 6:00 p.m"
-            ],
-            "phone": [
-                "3087608"
+                "Lunes a viernes de 8:00 a. m. a 5:00 p. m., jornada continua Sábados de 8:00 a. m. a 2:00 p. m."
             ],
             "cell": [
-                "3182963920"
+                "3184637081"
             ],
-            "viewMap": "https://www.google.com/maps/dir//Av.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca/@3.48594,-76.5283172,17z/data=!4m17!1m7!3m6!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2sAv.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.48594!4d-76.5261285!4m8!1m0!1m5!1m1!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2m2!1d-76.5261285!2d3.48594!3e3"
+            "whatsapp": [
+                "3173771259"
+            ],
+            "viewMap": "https://maps.app.goo.gl/SaiXmnHhrKy7yja77"
         },
         "valle-cauca-cali-04": {
             "name": "S.E.C SMART ELECTRONICS CENTER",
@@ -2002,6 +2006,40 @@
                 "3504825860"
             ],
             "viewMap": "https://maps.app.goo.gl/tjwr7feCsHM5VsVk9"
+        },
+        "bogotadc-bogotadc-01": {
+            "name": "AS ELECTRON BOGOTÁ SEDE SUR",
+            "address": "Cra 11B # 11-21 sur",
+            "email": "recepcionuno@outlook.com",
+            "lat": "4.5834007",
+            "lng": "-74.0975304",
+            "schedule": [
+                "LUNES A VIERNES 8:00 A.M. 12:00M  1:00 PM A 5:00 P.M. SABADO  9:00 A.M. 12:30M"
+            ],
+            "cell": [
+                "3102170750"
+            ],
+            "whatsapp": [
+                "3206517895"
+            ],
+            "viewMap": "https://maps.app.goo.gl/U59FA1XXQv16TQnP8"
+        },
+        "narino-ipiales-01": {
+            "name": "FRIO – LINE",
+            "address": "Calle 6 N 3-97 - Barrio Gólgota – bajando hacia terminal de transporte",
+            "email": "frio.line@hotmail.com",
+            "lat": "0.825262",
+            "lng": "-77.6372699",
+            "schedule": [
+                "LUNES A VIERNES  8:00 A.M. A 12:00 M.  Y 2:30 P.M. A  6:00 P.M.  SÁBADO  9:00 A.M. A 1:00 PM."
+            ],
+            "cell": [
+                "3162836011"
+            ],
+            "whatsapp": [
+                "3177575529"
+            ],
+            "viewMap": "https://maps.app.goo.gl/h14kqYNS4RCf63536"
         }
     },
     "departments": {
@@ -2170,7 +2208,8 @@
                         "accesorios": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-06"
+                                "antioquia-medellin-06",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "aires-acondicionados": {
@@ -2181,13 +2220,15 @@
                         "audio-video": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-06"
+                                "antioquia-medellin-06",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-06"
+                                "antioquia-medellin-06",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "cuidado-personal": {
@@ -2204,7 +2245,8 @@
                         },
                         "ferreteria": {
                             "stores": [
-                                "antioquia-medellin-04"
+                                "antioquia-medellin-04",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -2215,7 +2257,8 @@
                         "iluminacion": {
                             "stores": [
                                 "antioquia-medellin-03",
-                                "antioquia-medellin-06"
+                                "antioquia-medellin-06",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "lavadoras": {
@@ -2244,7 +2287,8 @@
                         },
                         "tabletas": {
                             "stores": [
-                                "antioquia-medellin-03"
+                                "antioquia-medellin-03",
+                                "antioquia-medellin-07"
                             ]
                         },
                         "telefonia-celular": {
@@ -3538,6 +3582,7 @@
                         "audio-video": {
                             "stores": [
                                 "bogota-01",
+                                "bogotadc-bogotadc-01",
                                 "bogota-02",
                                 "bogota-04",
                                 "bogota-10",
@@ -4336,6 +4381,37 @@
         "narino": {
             "name": "Nariño",
             "cities": {
+                "ipiales": {
+                    "areaCode": 2,
+                    "name": "Ipiales",
+                    "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "narino-ipiales-01"
+                            ]
+                        },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "narino-ipiales-01"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "narino-ipiales-01"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "narino-ipiales-01"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "narino-ipiales-01"
+                            ]
+                        }
+                    }
+                },
                 "pasto": {
                     "areaCode": 2,
                     "name": "Pasto",
@@ -4439,14 +4515,34 @@
                     "areaCode": 2,
                     "name": "Tumaco",
                     "categories": {
+                        "audio-video": {
+                            "stores": [
+                                "narino-tumaco-01"
+                            ]
+                        },
                         "ferreteria": {
                             "stores": [
                                 "narino-tumaco-2"
                             ]
                         },
+                        "grandes-electrodomesticos": {
+                            "stores": [
+                                "narino-tumaco-01"
+                            ]
+                        },
+                        "lavadoras": {
+                            "stores": [
+                                "narino-tumaco-01"
+                            ]
+                        },
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "narino-tumaco-2"
+                            ]
+                        },
+                        "refrigeracion": {
+                            "stores": [
+                                "narino-tumaco-01"
                             ]
                         }
                     }
@@ -5447,6 +5543,7 @@
                         },
                         "grandes-electrodomesticos": {
                             "stores": [
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-06"
                             ]
@@ -5459,12 +5556,14 @@
                         },
                         "lavadoras": {
                             "stores": [
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-06"
                             ]
                         },
                         "pequenos-electrodomesticos": {
                             "stores": [
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-05",
                                 "valle-cauca-cali-06",
@@ -5473,6 +5572,7 @@
                         },
                         "refrigeracion": {
                             "stores": [
+                                "valle-cauca-cali-01",
                                 "valle-cauca-cali-04",
                                 "valle-cauca-cali-06"
                             ]
