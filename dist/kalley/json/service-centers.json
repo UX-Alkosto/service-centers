@@ -56,140 +56,6 @@
         }
     },
     "serviceCenters": {
-        "antioquia-medellin-01": {
-            "name": "FAMILY AIR",
-            "address": "CARRERA 53 # 62 - 39",
-            "email": "familyairmercadeo@gmail.com",
-            "lat": "6.2614437",
-            "lng": "-75.5702297",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab 8:00 a.m a 12:00 m"
-            ],
-            "cell": [
-                "3137567485"
-            ],
-            "whatsapp": [
-                "3137567485"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+La+Candelaria,+Medell%C3%ADn,+Antioquia/@6.2614437,-75.5702297,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.568041!2d6.2614437"
-        },
-        "antioquia-copacabana-01": {
-            "name": "DR CELLPHONE",
-            "address": "Cl 50 # 50A-24 pasaje comercial San Andresito local 111",
-            "email": "dr.cellphonepro@gmail.com",
-            "lat": "6.346319",
-            "lng": "-75.5109467",
-            "schedule": [
-                "Lun a Vie de 9:30 a.m a 7:00 p.m",
-                "Sab de 9:00 a.m a 5:00 p.m"
-            ],
-            "cell": [
-                "3017695854",
-                "3113012487"
-            ],
-            "whatsapp": [
-                "3113012487"
-            ],
-            "viewMap": "https://maps.app.goo.gl/bfiDoCC1AoaZUFRp8"
-        },
-        "antioquia-medellin-02": {
-            "name": "FAMILIAR DE REPUESTOS LTDA",
-            "address": "Cl 50 No 55 - 92, Barrio Centro",
-            "email": "familiarderepuestos@hotmail.com",
-            "lat": "6.2517881",
-            "lng": "-75.5722797",
-            "schedule": [
-                "Lun a Vie de 7:30 a.m a 6:00 p.m",
-                "Sab de 7:30 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                "5116171",
-                "5112721"
-            ],
-            "cell": [
-                "3042429822"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cl.+50+%235592,+Medell%C3%ADn,+Antioquia/@6.2520245,-75.5748753,17z/data=!4m17!1m7!3m6!1s0x8e4428fe4715ae41:0xef770129f687b9ed!2sCl.+50+%235592,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2520245!4d-75.5726866!4m8!1m0!1m5!1m1!1s0x8e4428fe4715ae41:0xef770129f687b9ed!2m2!1d-75.5726866!2d6.2520245!3e3"
-        },
-        "antioquia-medellin-03": {
-            "name": "AS ELECTRON",
-            "address": "Cr 80 No 44B - 101",
-            "email": "aselectronlaura@gmail.com",
-            "lat": "6.2529119",
-            "lng": "-75.6011704",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 9:00 a.m a 1:00 p.m"
-            ],
-            "cell": [
-                "3012851485"
-            ],
-            "whatsapp": [
-                "3004191372"
-            ],
-            "viewMap": "https://www.google.com/maps/place/Av.+80+%2344B-101,+Medell%C3%ADn,+Antioquia/@6.2529119,-75.6033591,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442974435539b5:0x64c924ba2aabd251!8m2!3d6.2529119!4d-75.6011704"
-        },
-        "antioquia-medellin-04": {
-            "name": "REFRIAMIGOS",
-            "address": "Cr 53 No 62 - 39",
-            "email": "sistemas@refriamigos.com",
-            "lat": "6.261306068996476",
-            "lng": "-75.56692600250244",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "phone": [
-                "6044481585"
-            ],
-            "cell": [
-                "3148923227"
-            ],
-            "whatsapp": [
-                "3148923227"
-            ],
-            "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2614439,-75.5702308,17z/data=!4m17!1m7!3m6!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2sCra.+53+%2362-39,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2614439!4d-75.5680421!4m8!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.5680421!2d6.2614439!3e3"
-        },
-        "antioquia-medellin-06": {
-            "name": "Expertos en Servicio Postventa",
-            "address": "CARRERA 56 # 1 SUR - 28",
-            "email": "gestionadministrativa@expertospostventa.com.co",
-            "lat": "6.208084",
-            "lng": "-75.6065812",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
-                "Sab de 8:00 a.m a 12:00 m"
-            ],
-            "cell": [
-                "3208560930"
-            ],
-            "whatsapp": [
-                "3041290724"
-            ],
-            "viewMap": "https://maps.app.goo.gl/d8xNoiKe2di5rsBj6"
-        },
-        "antioquia-medellin-07": {
-            "name": "CENTRO DE SERVICIO OPERACIONES GENERALES SURAMERICANA",
-            "address": "CRA 48 #17-109",
-            "email": "ceposventasura@suramericaca.com.co",
-            "lat": "6.2197515",
-            "lng": "-75.5810147",
-            "schedule": [
-                "LUNES A VIERNES 8:00 A.M. A 5:00 PM.",
-                "SÁBADO 8:00 A.M. A 12:00 M."
-            ],
-            "phone": [
-                "6044446985"
-            ],
-            "cell": [
-                "3160275669"
-            ],
-            "whatsapp": [
-                "3160275669"
-            ],
-            "viewMap": "https://maps.app.goo.gl/R9AxDGseWHR94zUu7"
-        },
         "antioquia-apartado-02": {
             "name": "TALLER ELECTRÓNICAS",
             "address": "Cr 98 No 98 - 13",
@@ -262,6 +128,140 @@
                 "3104893867"
             ],
             "viewMap": "https://www.google.com/maps/dir//Cra.+5+%2320-48,+Caucasia,+Antioquia/@7.9880813,-75.1961606,17z/data=!4m17!1m7!3m6!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2sCra.+5+%2320-48,+Caucasia,+Antioquia!3b1!8m2!3d7.9880813!4d-75.1939719!4m8!1m0!1m5!1m1!1s0x8e5b6f04162e4d39:0xf19775a00099df42!2m2!1d-75.1939719!2d7.9880813!3e3"
+        },
+        "antioquia-copacabana-01": {
+            "name": "DR CELLPHONE",
+            "address": "Cl 50 # 50A-24 pasaje comercial San Andresito local 111",
+            "email": "dr.cellphonepro@gmail.com",
+            "lat": "6.346319",
+            "lng": "-75.5109467",
+            "schedule": [
+                "Lun a Vie de 9:30 a.m a 7:00 p.m",
+                "Sab de 9:00 a.m a 5:00 p.m"
+            ],
+            "cell": [
+                "3017695854",
+                "3113012487"
+            ],
+            "whatsapp": [
+                "3113012487"
+            ],
+            "viewMap": "https://maps.app.goo.gl/bfiDoCC1AoaZUFRp8"
+        },
+        "antioquia-medellin-01": {
+            "name": "FAMILY AIR",
+            "address": "CARRERA 53 # 62 - 39",
+            "email": "familyairmercadeo@gmail.com",
+            "lat": "6.2614437",
+            "lng": "-75.5702297",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab 8:00 a.m a 12:00 m"
+            ],
+            "cell": [
+                "3137567485"
+            ],
+            "whatsapp": [
+                "3137567485"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+La+Candelaria,+Medell%C3%ADn,+Antioquia/@6.2614437,-75.5702297,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.568041!2d6.2614437"
+        },
+        "antioquia-medellin-02": {
+            "name": "FAMILIAR DE REPUESTOS LTDA",
+            "address": "Cl 50 No 55 - 92, Barrio Centro",
+            "email": "familiarderepuestos@hotmail.com",
+            "lat": "6.2517881",
+            "lng": "-75.5722797",
+            "schedule": [
+                "Lun a Vie de 7:30 a.m a 6:00 p.m",
+                "Sab de 7:30 a.m a 2:00 p.m"
+            ],
+            "phone": [
+                "5116171",
+                "5112721"
+            ],
+            "cell": [
+                "3042429822"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cl.+50+%235592,+Medell%C3%ADn,+Antioquia/@6.2520245,-75.5748753,17z/data=!4m17!1m7!3m6!1s0x8e4428fe4715ae41:0xef770129f687b9ed!2sCl.+50+%235592,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2520245!4d-75.5726866!4m8!1m0!1m5!1m1!1s0x8e4428fe4715ae41:0xef770129f687b9ed!2m2!1d-75.5726866!2d6.2520245!3e3"
+        },
+        "antioquia-medellin-03": {
+            "name": "AS ELECTRON",
+            "address": "Cr 80 No 44B - 101",
+            "email": "aselectronlaura@gmail.com",
+            "lat": "6.2529119",
+            "lng": "-75.6011704",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 9:00 a.m a 1:00 p.m"
+            ],
+            "cell": [
+                "3012851485"
+            ],
+            "whatsapp": [
+                "3004191372"
+            ],
+            "viewMap": "https://www.google.com/maps/place/Av.+80+%2344B-101,+Medell%C3%ADn,+Antioquia/@6.2529119,-75.6033591,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442974435539b5:0x64c924ba2aabd251!8m2!3d6.2529119!4d-75.6011704"
+        },
+        "antioquia-medellin-04": {
+            "name": "REFRIAMIGOS",
+            "address": "Cr 53 No 62 - 39",
+            "email": "sistemas@refriamigos.com",
+            "lat": "6.2614439",
+            "lng": "-75.5702308",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
+            ],
+            "phone": [
+                "6044481585"
+            ],
+            "cell": [
+                "3148923227"
+            ],
+            "whatsapp": [
+                "3148923227"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Cra.+53+%2362-39,+Medell%C3%ADn,+Antioquia/@6.2614439,-75.5702308,17z/data=!4m17!1m7!3m6!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2sCra.+53+%2362-39,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.2614439!4d-75.5680421!4m8!1m0!1m5!1m1!1s0x8e4428e47c65d369:0xa69145a71256e6d9!2m2!1d-75.5680421!2d6.2614439!3e3"
+        },
+        "antioquia-medellin-06": {
+            "name": "Expertos en Servicio Postventa",
+            "address": "CARRERA 56 # 1 SUR - 28",
+            "email": "gestionadministrativa@expertospostventa.com.co",
+            "lat": "6.208084",
+            "lng": "-75.6065812",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 1:00 p.m y de 2:00 p.m a 5:00 p.m",
+                "Sab de 8:00 a.m a 12:00 m"
+            ],
+            "cell": [
+                "3208560930"
+            ],
+            "whatsapp": [
+                "3041290724"
+            ],
+            "viewMap": "https://maps.app.goo.gl/d8xNoiKe2di5rsBj6"
+        },
+        "antioquia-medellin-07": {
+            "name": "CENTRO DE SERVICIO OPERACIONES GENERALES SURAMERICANA",
+            "address": "CRA 48 #17-109",
+            "email": "ceposventasura@suramericaca.com.co",
+            "lat": "6.1915044",
+            "lng": "-75.5830346",
+            "schedule": [
+                "LUNES A VIERNES 8:00 A.M. A 5:00 PM.",
+                "SÁBADO 8:00 A.M. A 12:00 M."
+            ],
+            "phone": [
+                "6044446985"
+            ],
+            "cell": [
+                "3160275669"
+            ],
+            "whatsapp": [
+                "3160275669"
+            ],
+            "viewMap": "https://maps.app.goo.gl/VCCJvzKuheg6rvbz5"
         },
         "antioquia-rionegro": {
             "name": "CENTRAL SERVICE LH",
@@ -1342,8 +1342,8 @@
             "name": "SET ELECTRONISC MB",
             "address": "Calle Popayán Frente al Colegio Santa Teresita",
             "email": "setelectroniscmbtumaco@hotmail.com",
-            "lat": "1.808986",
-            "lng": "-78.7706087",
+            "lat": "pendiente",
+            "lng": "pendiente",
             "schedule": [
                 "lunes a viernes de 8 A.M a12 P.M y 2 a 6 PM. - sábado de 8.30 AM hasta las 2 PM - Festivos de 8 AM. a 12 PM"
             ],
@@ -1353,7 +1353,7 @@
             "whatsapp": [
                 "3117012612"
             ],
-            "viewMap": "https://maps.app.goo.gl/G8pWHepGYEEyh7P56"
+            "viewMap": "pendiente"
         },
         "narino-tumaco-2": {
             "name": "ALMACEN SURTIREPUESTOS",
@@ -1785,8 +1785,8 @@
             "name": "SERTEK SERVICIO TÉCNICO CALIFICADO S.A.S.",
             "address": "Carrera 56 #13F 19, barrio Primero de Mayo",
             "email": "serviconcorreo@gmail.com",
-            "lat": "3.4044562",
-            "lng": "-76.5353782",
+            "lat": "pendiente",
+            "lng": "pendiente",
             "schedule": [
                 "Lunes a viernes de 8:00 a. m. a 5:00 p. m., jornada continua Sábados de 8:00 a. m. a 2:00 p. m."
             ],
@@ -1796,7 +1796,39 @@
             "whatsapp": [
                 "3173771259"
             ],
-            "viewMap": "https://maps.app.goo.gl/SaiXmnHhrKy7yja77"
+            "viewMap": "pendiente"
+        },
+        "valle-cauca-cali-02": {
+            "name": "CENTRAL DE LICUADORAS SEDE SUR",
+            "address": "Av Rooselvet No 29 - 30",
+            "email": "sedesur@centraldelicuadoras.com",
+            "lat": "3.4314859",
+            "lng": "-76.541281",
+            "schedule": [
+                "Lun a Sab de 8:00 a.m a 6:00 p.m"
+            ],
+            "phone": [
+                "5565967",
+                "5140879"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Av.+Roosevelt+%2329-30,+Cali,+Valle+del+Cauca/@3.4314859,-76.541281,17z/data=!4m17!1m7!3m6!1s0x8e30a69af5fc6b35:0xa210a0481b9e9dce!2sAv.+Roosevelt+%2329-30,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.4314859!4d-76.5390923!4m8!1m0!1m5!1m1!1s0x8e30a69af5fc6b35:0xa210a0481b9e9dce!2m2!1d-76.5390923!2d3.4314859!3e3"
+        },
+        "valle-cauca-cali-03": {
+            "name": "CENTRAL DE LICUADORAS SEDE NORTE ",
+            "address": "Av 6 No 47AN-06",
+            "email": "sedenorte@centraldelicuadoras.com",
+            "lat": "3.48594",
+            "lng": "-76.5283172",
+            "schedule": [
+                "Lun a Sab de 8:00 a.m a 6:00 p.m"
+            ],
+            "phone": [
+                "3087608"
+            ],
+            "cell": [
+                "3182963920"
+            ],
+            "viewMap": "https://www.google.com/maps/dir//Av.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca/@3.48594,-76.5283172,17z/data=!4m17!1m7!3m6!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2sAv.+6+Nte.+%2347an75,+Cali,+Valle+del+Cauca!3b1!8m2!3d3.48594!4d-76.5261285!4m8!1m0!1m5!1m1!1s0x8e30a8a1d0ca8b75:0x3111ddc0f6448805!2m2!1d-76.5261285!2d3.48594!3e3"
         },
         "valle-cauca-cali-04": {
             "name": "S.E.C SMART ELECTRONICS CENTER",
@@ -2011,8 +2043,8 @@
             "name": "AS ELECTRON BOGOTÁ SEDE SUR",
             "address": "Cra 11B # 11-21 sur",
             "email": "recepcionuno@outlook.com",
-            "lat": "4.5834007",
-            "lng": "-74.0975304",
+            "lat": "pendiente",
+            "lng": "pendiente",
             "schedule": [
                 "LUNES A VIERNES 8:00 A.M. 12:00M  1:00 PM A 5:00 P.M. SABADO  9:00 A.M. 12:30M"
             ],
@@ -2022,14 +2054,14 @@
             "whatsapp": [
                 "3206517895"
             ],
-            "viewMap": "https://maps.app.goo.gl/U59FA1XXQv16TQnP8"
+            "viewMap": "pendiente"
         },
         "narino-ipiales-01": {
             "name": "FRIO – LINE",
             "address": "Calle 6 N 3-97 - Barrio Gólgota – bajando hacia terminal de transporte",
             "email": "frio.line@hotmail.com",
-            "lat": "0.825262",
-            "lng": "-77.6372699",
+            "lat": "pendiente",
+            "lng": "pendiente",
             "schedule": [
                 "LUNES A VIERNES  8:00 A.M. A 12:00 M.  Y 2:30 P.M. A  6:00 P.M.  SÁBADO  9:00 A.M. A 1:00 PM."
             ],
@@ -2039,7 +2071,7 @@
             "whatsapp": [
                 "3177575529"
             ],
-            "viewMap": "https://maps.app.goo.gl/h14kqYNS4RCf63536"
+            "viewMap": "pendiente"
         }
     },
     "departments": {
@@ -2053,31 +2085,6 @@
                         "audio-video": {
                             "stores": [
                                 "antioquia-apartado-02"
-                            ]
-                        },
-                        "aires-acondicionados": {
-                            "stores": [
-                                ""
-                            ]
-                        },
-                        "dispensadores": {
-                            "stores": [
-                                ""
-                            ]
-                        },
-                        "grandes-electrodomesticos": {
-                            "stores": [
-                                ""
-                            ]
-                        },
-                        "lavadoras": {
-                            "stores": [
-                                ""
-                            ]
-                        },
-                        "refrigeracion": {
-                            "stores": [
-                                ""
                             ]
                         }
                     }
@@ -2350,8 +2357,7 @@
                     "categories": {
                         "accesorios": {
                             "stores": [
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "aires-acondicionados": {
@@ -2362,15 +2368,13 @@
                         "audio-video": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "casa-inteligente": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "cuidado-personal": {
@@ -2387,8 +2391,7 @@
                         },
                         "ferreteria": {
                             "stores": [
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "grandes-electrodomesticos": {
@@ -2411,8 +2414,7 @@
                         "pequenos-electrodomesticos": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "refrigeracion": {
@@ -2422,14 +2424,53 @@
                         },
                         "smart-home-menores": {
                             "stores": [
-                                "atlantico-barranquilla-02",
-                                "atlantico-soledad-01"
+                                "atlantico-barranquilla-02"
                             ]
                         },
                         "tabletas": {
                             "stores": [
                                 "atlantico-barranquilla-01",
-                                "atlantico-barranquilla-02",
+                                "atlantico-barranquilla-02"
+                            ]
+                        }
+                    }
+                },
+                "soledad": {
+                    "areaCode": 5,
+                    "name": "Soledad",
+                    "categories": {
+                        "accesorios": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "audio-video": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "casa-inteligente": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "ferreteria": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "pequenos-electrodomesticos": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "smart-home-menores": {
+                            "stores": [
+                                "atlantico-soledad-01"
+                            ]
+                        },
+                        "tabletas": {
+                            "stores": [
                                 "atlantico-soledad-01"
                             ]
                         },
