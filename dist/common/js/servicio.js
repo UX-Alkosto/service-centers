@@ -6,7 +6,7 @@ const t = globalThis.trustedTypes,
     n = t ? t.createPolicy("lit-html", {
         createHTML: e => e
     }) : void 0,
-    s = `lit$${(Math.random()+"").slice(9)}$`,
+    s = `lit$${(Math.random() + "").slice(9)}$`,
     i = "?" + s,
     l = `<${i}>`,
     o = document,
