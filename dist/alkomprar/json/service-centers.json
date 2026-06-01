@@ -411,7 +411,7 @@
             ]
         },
         "hewlett-packard": {
-            "name": "Hewlett Packard",
+            "name": "HP",
             "departments": [
                 "linea-nacional",
                 "cundinamarca"
@@ -4571,7 +4571,7 @@
             "viewMap": "https://www.google.com/maps/dir//Ac.+24+%23%23%2382-58,+Bogot%C3%A1/@4.6697755,-74.1231182,20.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9b7fce90a643:0x81a055283b72794a!2m2!1d-74.1230211!2d4.6699323"
         },
         "hewlett-packard-call-center": {
-            "name": "Hewlett Packard Call Center",
+            "name": "HP Call Center",
             "phone": [
                 "018005191293"
             ],
@@ -4585,9 +4585,12 @@
             "link": "https://support.hp.com/co-es"
         },
         "hewlett-packard-bogota-call-center": {
-            "name": "Hewlett Packard Bogotá Call Center",
+            "name": "HP Bogotá Call Center",
             "phone": [
                 "6013808246"
+            ],
+            "whatsapp": [
+                "5213319309511"
             ],
             "schedule": [
                 "Lun a Vie de 08:00 a.m a 6:00 p.m"
@@ -7589,7 +7592,7 @@
                 "573138698800"
             ],
             "phone": [
-                "018000112112"                
+                "018000112112"
             ],
             "schedule": [
                 "24 horas"
